@@ -1,0 +1,8 @@
+#VIET Events Rules;;;;;;;;;;;;;;x
+RULE_VIET_EVENTS;VIET Events;;;;;;;;;;;;;x
+RULE_VIET_EVENTS_BALANCED;Balanced Events (Default);;;;;;;;;;;;;x
+RULE_VIET_EVENTS_BALANCED_DESC;The majority of events from VIET events will occur. However, sillier ones that might break immersion for some, such as those with blatant references, will be disabled. Choose this for the best balance between serious events and some light-hearted ones.;;;;;;;;;;;;;x
+RULE_VIET_EVENTS_SERIOUS;Serious Events (Default);;;;;;;;;;;;;x
+RULE_VIET_EVENTS_SERIOUS_DESC;Disables many of the light-hearted events from VIET that might be immersion breaking for some. Choose this if you only want the more serious, grounded events.;;;;;;;;;;;;;x
+RULE_VIET_EVENTS_SILLY;All Events;;;;;;;;;;;;;x
+RULE_VIET_EVENTS_SILLY_DESC;All events from VIET will happen, including the more absurd (though still realistic) ones. Choose this if you want the full VIET Events experience.;;;;;;;;;;;;;x
