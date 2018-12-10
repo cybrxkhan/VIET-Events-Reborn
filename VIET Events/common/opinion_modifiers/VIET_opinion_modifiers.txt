@@ -19,12 +19,9 @@ opinion_respectful_of_jewish_customs = {
 opinion_fought_for_independence = {
 	opinion = -50
 }
-opinion_patron = {
-	opinion = 30
-}
-opinion_new_courtier = {
-	opinion = 10
-}
+#opinion_patron = { #duplicate with ACR
+#	opinion = 30
+#}
 opinion_amused = {
 	opinion = 5
 }
@@ -61,7 +58,7 @@ inconsiderate_arse = {
 shown_regret = {
 	opinion = 5
 }
-disrespected_costumes = {
+disrespected_customs = {
 	opinion = -10
 }
 respected_opinion = {
@@ -121,9 +118,6 @@ bad_dance_obby_ossy = {
 ultima_avatar_lol = {
 	opinion = -5
 }
-remove_kebal_insult = {
-	opinion = -10
-}
 opinion_ugly_omelette_cook = {
 	opinion = -5
 }
@@ -181,9 +175,9 @@ viet_opinion_refused_arameans = {
 viet_opinion_accepted_arameans_again = {
 	opinion = -10
 }
-viet_opinion_refused_arameans = {
-	opinion = 15
-}
+#viet_opinion_refused_arameans = {
+#	opinion = 15
+#}
 opinion_betrayed_arameans = {
 	opinion = -200
 }
@@ -195,7 +189,4 @@ opinion_is_mordred = {
 }
 VIET_opinion_great_gift = {
 	opinion = 30
-}
-VIET_favors_another_consort = {
-	opinion = -40
 }

@@ -1,5 +1,10 @@
 
+
 bastard_legit_request_timer = {
+	icon = 1
+}
+
+abuse_stopper_timer = {
 	icon = 1
 }
 
@@ -7,7 +12,7 @@ plot_reveal_timer = {
 	icon = 1
 }
 
-peace_declared_10_timer = { 
+peace_declared_10_timer = {
 	monthly_character_prestige = -0.10
 	monthly_character_piety = 0.10
 	icon = 10 

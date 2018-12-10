@@ -32,6 +32,9 @@
 # WEST AFRICA
 #####################################################################
 #Griot Stuff
+VIET_no_griot = {
+	icon = 13
+}
 VIET_griot_inspiring_warriors_1 = {
 	land_morale = 0.05	
 	castle_vassal_max_levy = 0.02
@@ -74,13 +77,13 @@ VIET_griot_inspiring_spirits_1 = {
 	build_time_modifier = -0.02
 	icon = 17
 }
-VIET_griot_inspiring_spirits_1 = {
+VIET_griot_inspiring_spirits_2 = {
 	global_revolt_risk = -0.02
 	build_cost_modifier = -0.05
 	build_time_modifier = -0.05
 	icon = 17
 }
-VIET_griot_inspiring_spirits_1 = {
+VIET_griot_inspiring_spirits_3 = {
 	global_revolt_risk = -0.03
 	build_cost_modifier = -0.1
 	build_time_modifier = -0.1
@@ -253,6 +256,41 @@ haltija_offerings_good = {
 	monthly_character_piety = 0.05
 	icon = 8
 }
+
+
+umanglais_good = {
+	local_revolt_risk = -0.05
+	local_tax_modifier = 0.1
+	local_build_time_modifier = -0.05
+	local_build_cost_modifier = -0.05
+	icon = 8
+}
+umanglais_neutral = {
+	local_revolt_risk = -0.01
+	local_tax_modifier = 0.01
+	icon = 8
+}
+umanglais_bad = {
+	local_revolt_risk = 0.05
+	local_tax_modifier = -0.1
+	local_build_time_modifier = 0.05
+	local_build_cost_modifier = 0.05
+	icon = 26
+}
+umanglais_offerings_bad = {
+	monthly_character_piety = -0.02
+	icon = 26
+}
+umanglais_offerings_neutral = {
+	#monthly_character_piety = 0.02
+	icon = 8
+}
+umanglais_offerings_good = {
+	monthly_character_piety = 0.05
+	icon = 8
+}
+
+
 finnish_unhappy_dead = {
 	monthly_character_piety = -0.1
 	monthly_character_prestige = -0.1
@@ -405,7 +443,7 @@ shaman_old_age = {
 # EASTERN RELIGIONS
 #####################################################################
 
-recently_chose_buddhist_sect = {
+VIET_recently_chose_buddhist_sect = {
 	icon = 2
 }
 visited_buddhist_temple = {
@@ -574,7 +612,7 @@ VIET_celtic_holy_well_1 = { #(Diplomacie)
 	icon = 17
 }
 VIET_celtic_holy_well_2 = { #(Militarie)
-	garrison_growth = 0.1
+#	garrison_growth = 0.1 # Doesn't work in 2.2.1 will appear as NONE
 	levy_reinforce_rate = 0.1
 	city_tax_modifier = 0.2
 	temple_tax_modifier = 0.35
@@ -678,7 +716,22 @@ VIET_fraticelli_zelanti = {
 # SILK ROAD VND IRANICA
 #####################################################################
 
-
+VIET_celebrating_nowruz = {
+	monthly_character_prestige = 0.4
+	icon = 7
+}
+VIET_celebrated_nowruz = {
+	diplomacy = 1
+	monthly_character_prestige = 0.15
+	icon = 7
+}
+VIET_nowruz_timer = {
+	icon = 7
+}
+VIET_hosted_sogdian_fair = {
+	monthly_character_prestige = 0.15
+	icon = 7
+}
 VIET_sogdian_fair_timer = {
 	icon = 7
 }
