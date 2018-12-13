@@ -1,0 +1,67 @@
+#character
+on_yearly_pulse = {
+	random_events = {
+		
+		VIET_yearly_random = {
+			delay = 8
+			
+			5800 = 0
+			
+			#VIET EVENTS
+			#Generic Trait Events
+			100 = VIETnam.71 # Slothful - am lazy
+			100 = VIETnam.72 # Diligent - stop working?
+			100 = VIETnam.73 # Greedy - coin purse found
+			100 = VIETnam.74 # Charitable - help a beggar girl
+			100 = VIETnam.75 # Content - fine with illness
+			100 = VIETnam.76 # Ambitious - what kind of ruler are you?
+			100 = VIETnam.77 # Arbitrary - sentence to death when shouldn't have
+			100 = VIETnam.78 # Just - peasants singing song of praise
+			100 = VIETnam.79 # Wroth - no one dares criticize you in your court
+			100 = VIETnam.80 # Patient - hear others' opinions
+			100 = VIETnam.81 # Envious - wants to be like others
+			100 = VIETnam.82 # Kind - help a knight's orphaned child
+			100 = VIETnam.83 # Craven - made a fool of yourself while sparring
+			100 = VIETnam.84 # Brave - Defeated bandit with bare hands
+			100 = VIETnam.85 # Zealous - pious Muslim wants to fast more
+			100 = VIETnam.86 # Humble - learn from peasants
+			100 = VIETnam.87 # Lustful - ugly wench throws herself at you
+			100 = VIETnam.88 # Chaste - crush on new maid
+			100 = VIETnam.89 # Gluttonous - hungry, what to eat?
+			100 = VIETnam.90 # Temperance - is it preventing you from enjoying life?
+			100 = VIETnam.91 # Paranoid - seeing assassins
+			100 = VIETnam.92 # Trusting - courtier played prank on you
+			100 = VIETnam.93 # Deceitful - never show true self
+			100 = VIETnam.94 # Honest - criticize a bad merchant
+			100 = VIETnam.95 # Cruel - your character is a tyrant
+			
+			#Reborn Events
+			100 = VIETmisc.8000 # Memories of a lost love
+			100 = VIETmisc.8001 # Servant has a crush on a maid
+		}
+		
+	}
+}
+
+#character, every 2 years
+on_bi_yearly_pulse = {
+	random_events = {
+	
+		VIET_bi_yearly_random = {
+		
+		}
+		
+	}
+}
+
+#character
+on_five_year_pulse = {
+	
+	random_events = {
+		
+		VIET_five_year_random = {
+		
+		}
+		
+	}
+}

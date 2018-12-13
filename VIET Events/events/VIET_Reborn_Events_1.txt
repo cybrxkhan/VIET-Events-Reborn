@@ -1,0 +1,178 @@
+#####################################################################
+#
+# Flavor Events Coded by Cybrxkhan for VIET Events Reborn
+#
+# VIETmisc.8000-8999 reserved
+#
+# 8000-8025: First batch of reborn events
+#
+#
+#
+#
+#
+#
+#####################################################################
+
+namespace = VIETmisc
+
+###########################################################
+# REBORN!!!
+###########################################################
+
+# Remember childhood love
+character_event = {
+	id = VIETmisc.8000
+	desc = VIETmisc.8000.desc
+	picture = GFX_evt_her_smile
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		NOT = { trait = celibate }
+		NOT = { trait = homosexual }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}		
+		modifier = {
+			factor = 2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.5
+			trait = lustful
+		}		
+		modifier = {
+			factor = 2
+			trait = depressed
+		}
+		modifier = {
+			factor = 0.5
+			trait = hedonist
+		}		
+		modifier = {
+			factor = 2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}		
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+	
+	option = { # Love
+		name = VIETmisc.8000.a
+		add_character_modifier = {
+			name = VIET_remembering_childhood_love
+			duration = 365
+		}
+	}
+}
+
+# Servant has crush on maid
+character_event = {
+	id = VIETmisc.8001
+	desc = VIETmisc.8001.desc
+	picture = GFX_evt_her_smile
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}		
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}		
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}			
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+	
+	option = { # Things will work out
+		name = VIETmisc.8001.a
+		piety = 1
+	}	
+	option = { # I am a grouchy cynical old person
+		name = VIETmisc.8001.b
+		random = {
+			add_trait = cynical
+			chance = 20
+		}
+		custom_tooltip = { text = VIETmisc.8001.b.tooltip } #nah I'm actually a tsundere lol lol lol
+	}
+	option = { # youth!
+		name = VIETmisc.8001.c
+		prestige = 1
+	}
+	option = { # People are scary!
+		name = VIETmisc.8001.d
+		trigger = {
+			trait = shy
+		}
+		tooltip_info = shy
+		random = {
+			add_trait = paranoid
+			chance = 5
+		}
+	}
+}

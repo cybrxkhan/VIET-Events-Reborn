@@ -26,6 +26,53 @@
 # 18 - Characters 			- 36
 # 37 - Prison 				- 38
 # 39 - Love 				- 40
+# 41 - Death 				- 42
+# 43 - Indian religion 		- 44
+# 45 - Dog					- 65
+# 46 - Cat					- 66
+# 47 - Owl					- 67
+# 48 - Pagan religion       - 49
+# 50 - Staff of Asclepius   - 51
+# 52 - Mystic               - 53
+# 54 - Bonesaw              - 55
+# 56 - Horseshoe            - 57
+# 58 - Parrot				- 68
+# 59 - Ham					- 60
+# 61 - Anchor				- 62
+# 63 - Jewish religion		- 64
+# 69 - Bed					- 70
+# 71 - Wolf					- 72
+# 73 - Raven				- 74
+# 75 - Demon horns			- 76
+# 77 - Trident				- 78
+# 79 - Stars				- 80
+# 81 - Eye					- 82
+# 83 - Test-tubes			- 84
+# 85 - Science flask		- 86
+# 87 - Flower				- 88
+# 89 - Rats		 			- 90
+# 91 - Otter				- 92
+# 93 - Hedgehog				- 94
+# 95 - Taoist				- 96
+# 97 - Paper				- 98
+# 99 - Bamboo Book			- 100
+# 101 - Pagoda				- 102
+# 103 - Firework			- 104
+# 105 - Torch				- 106
+# 107 - Panda				- 108
+# 109 - Dragon				- 110
+# 111 - Eagle				- 112
+# 113 - Pregnancy			- 114
+# 115 - Evil Sword			- 116
+# 117 - Combat Skill		- 118
+# 119 - Broken Bone			- 120
+# 121 - Chicken				- 122
+# 123 - Combat Skill (New)	- 124
+# 125 - Bear 				- 126
+# 127 - Lion 				- 128
+# 129 - Rain Good           - 130
+# 131 - Rain Storm          - 132
+# 133 - Sun   	            - 134
 
 old_age = {
 	martial = -2
@@ -72,18 +119,18 @@ taking_a_break = {
 	health = 0.1
 	stewardship = -1
 	intrigue = -1
-	icon = 7
+	icon = 69
 }
 deep_contemplation = {
-	monthly_character_piety = 0.05
-	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.02
+	monthly_character_prestige = 0.02
 	learning = 1
 	icon = 17
 }
 lustful_ruler = {
 	monthly_character_piety = -0.1
 	monthly_character_prestige = 0.05
-	icon = 17
+	icon = 39
 }
 VIET_justice_is_blind = {
 	stewardship = 1
@@ -100,7 +147,7 @@ eating_lots_of_gruel = {
 }
 best_meal_in_ages = {
 	diplomacy = 1
-	icon = 3
+	icon = 59
 }
 paranoid_coward = {
 	monthly_character_prestige = -0.02	

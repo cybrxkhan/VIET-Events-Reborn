@@ -14,14 +14,14 @@ EVTOPTA1000109102;Maybe I should take a break...;Je devrais peut-être faire une 
 EVTOPTB1000109102;No! I am not working hard enough!;Non ! Je ne travaille pas assez dur !;;;;;;;;;;x
 EVTOPTC1000109102;I will pray to [Root.Religion.GetRandomGodName] for strength.;Je vais prier [Root.Religion.GetRandomGodName] pour la force.;;;;;;;;;;x
 EVTOPTD1000109102;This is nothing, I feel as strong as ever!;Ce n'est rien, je me sens aussi fort que jamais !;;;;;;;;;;x
-EVTDESC1000109103;While looking for cheap merchandise at the summer fair, you notice a large coin purse lying on the ground. Nobody seemed to notice it, and its owner didn’t seem to be around. You are very much tempted to take it...;Tout en recherchant la marchandise bon marché à la foire d'été, vous remarquez un grand porte-monnaie de pièce de monnaie étendu sur le sol. Personne ne semblait le remarquer, et son propriétaire ne semblait pas être là. Vous êtes très tenté de le prendre ...;;;;;;;;;;x
+EVTDESC1000109103;While looking for cheap merchandise a local market fair, you notice a large coin purse lying on the ground. Nobody seemed to notice it, and its owner didn’t seem to be around. You are very much tempted to take it...;Tout en recherchant la marchandise bon marché à la foire d'été, vous remarquez un grand porte-monnaie de pièce de monnaie étendu sur le sol. Personne ne semblait le remarquer, et son propriétaire ne semblait pas être là. Vous êtes très tenté de le prendre ...;;;;;;;;;;x
 EVTOPTA1000109103;Yes! Free money! All mine, all mine!;Oui ! De l'argent gratuit ! Tout à moi, tout à moi !;;;;;;;;;;x
 EVTOPTB1000109103;I should find the purse’s owner and give it back.;Je devrais trouver le propriétaire du sac et le rendre.;;;;;;;;;;x
 EVTOPTC1000109103;I’m too lazy to take it.;Je suis trop paresseux pour le prendre.;;;;;;;;;;x
 EVTOPTD1000109103;In the name of justice, I can’t steal this.;Au nom de la justice, je ne peux pas voler ça.;;;;;;;;;;x
-EVTDESC1000109104;While browsing merchandise at the summer fair, you come across a young, sweet beggar girl. Her plight moves your heart, and you wish to help her in whatever way you can.;Pendant que vous parcourez les marchandises à la foire d'été, vous rencontrez une jeune et douce mendiante. Sa détresse touche votre cœur, et vous voulez l'aider de toutes les façons possibles.;;;;;;;;;;x
+EVTDESC1000109104;While browsing merchandise at a local market fair, you come across a young, sweet beggar girl. Her plight moves your heart, and you wish to help her in whatever way you can.;Pendant que vous parcourez les marchandises à la foire d'été, vous rencontrez une jeune et douce mendiante. Sa détresse touche votre cœur, et vous voulez l'aider de toutes les façons possibles.;;;;;;;;;;x
 EVTOPTA1000109104;Give the lass my entire purse.;Donne tout mon porte-feuille à la jeune fille.;;;;;;;;;;x
-EVTOPTB1000109104;Bring the girl to a local abbey, where the nuns will take care of her.;Amenez la jeune fille dans une abbaye locale, où les religieuses s'occuperont d'elle.;;;;;;;;;;x
+EVTOPTB1000109104;Bring the girl to a local orphanage, where the holy people will take care of her.;Amenez la jeune fille dans une abbaye locale, où les religieuses s'occuperont d'elle.;;;;;;;;;;x
 EVTOPTC1000109104;Bring her some of the food from yesterday’s feast immediately!;Apportez-lui de la nourriture du festin d'hier immédiatement !;;;;;;;;;;x
 EVTOPTD1000109104;Hire her as a serving girl. She'll be better off this way.;Engagez-la comme serveuse. Elle sera mieux comme ça.;;;;;;;;;;x
 EVTDESC1000109105;Although I am suffering greatly from an ailment, I don’t really mind it one bit. Strange as some may think of this, I am absolutely content with my current situation.;Bien que je souffre beaucoup d'un malaise, cela ne me dérange pas trop. Aussi étrange que cela puisse paraître à certains, je suis absolument satisfait de ma situation actuelle.;;;;;;;;;;x
@@ -81,7 +81,7 @@ EVTOPTC1000109117;I can’t see her ugliness anyways.;Je ne vois pas sa laideur de
 EVTOPTD1000109117;When the lights are blown out, all women are beautiful.;Quand les lumières sont éteintes, toutes les femmes sont belles.;;;;;;;;;;x
 EVTDESC1000109118;One of my new servants happens to be a pretty, innocent young maid, and I can’t get her off my mind. Some of the other men tell me that since I’m a strapping young man, I should accept my natural impulses, but I disagree – I’ve always tried to make sure I kept a pure mind, and I won’t yield, even now.;Une de mes nouvelles servantes est une jolie jeune fille innocente, et je ne peux pas l'oublier. Certains des autres hommes me disent qu'étant donné que je suis un jeune homme qui s'accroche, je devrais accepter mes pulsions naturelles, mais je ne suis pas d'accord - j'ai toujours essayé de m'assurer de garder un esprit pur, et je ne céderai pas, même maintenant.;;;;;;;;;;x
 EVTOPTA1000109118;She may be pretty, but it would be a sin to defile her.;Elle est peut-être jolie, mais ce serait un péché de la souiller.;;;;;;;;;;x
-EVTOPTB1000109118;God will provide me strength against temptation!;Dieu me donnera la force contre la tentation !;;;;;;;;;;x
+EVTOPTB1000109118;[Root.Religion.GetRandomGodName] will provide me strength against temptation!;Dieu me donnera la force contre la tentation !;;;;;;;;;;x
 EVTOPTC1000109118;I can’t see her, anyways, so how can I admire her?;Je ne peux pas la voir, alors comment puis-je l'admirer ?;;;;;;;;;;x
 EVTOPTD1000109118;I don’t like women, anyways.;Je n'aime pas les femmes, de toute façon.;;;;;;;;;;x
 EVTDESC1000109119;I’m hungry. What should I eat today?;J'ai faim. Que devrais-je manger aujourd'hui ?;;;;;;;;;;x
@@ -92,6 +92,15 @@ EVTOPTD1000109119;Fish and chips.;Poissons et frites.;;;;;;;;;;x
 EVTOPTE1000109119;Drizzle something with olive oil, now!;Arrosez quelque chose avec de l'huile d'olive, maintenant !;;;;;;;;;;x
 EVTOPTF1000109119;Did someone say baklava?;Quelqu'un a dit baklava ?;;;;;;;;;;x
 EVTOPTG1000109119;Pretzels! Pretzels for the pretzel [Root.GetTitle]!;Des bretzels ! Bretzels pour le [Root.GetTitle] !;;;;;;;;;;x
+EVTOPTH1000109119;Thick, filling momo dumplings it shall be.;;;;;;;;;;;x
+EVTOPTI1000109119;Rice and tofu with sauce looks good.;;;;;;;;;;;x
+EVTOPTJ1000109119;Inerja bread with different tsebhi stews for me.;;;;;;;;;;;x
+EVTOPTK1000109119;Let us have some okra gumbo.;;;;;;;;;;;x
+EVTOPTL1000109119;Kouign-amann, fattiest of all pastries.;;;;;;;;;;;x
+EVTOPTM1000109119;Bacon and cabbage will be my choice!;;;;;;;;;;;x
+EVTOPTN1000109119;Haggis is the obvious choice.;;;;;;;;;;;x
+EVTOPTO1000109119;Cawl soup, with only the finest leeks.;;;;;;;;;;;x
+EVTOPTP1000109119;Ghormeh sabzi! Use only the finest herbs in this stew!;;;;;;;;;;;x
 EVTDESC1000109120;Some people say that my temperance prevents me from properly enjoying life, and I should stop being so prudish.;Certains disent que ma tempérance m'empêche de profiter pleinement de la vie et que je devrais cesser d'être si prude.;;;;;;;;;;x
 EVTOPTA1000109120;Such people are merely fools.;Ces gens ne sont que des idiots.;;;;;;;;;;x
 EVTOPTB1000109120;Maybe they have a point.;Ils ont peut-être raison.;;;;;;;;;;x
@@ -109,7 +118,7 @@ EVTOPTA1000109123;It’s a danger when people know too much about you.;C'est dange
 EVTOPTB1000109123;They wouldn’t understand me.;Ils ne me comprendraient pas.;;;;;;;;;;x
 EVTOPTC1000109123;They’d think I’m crazy.;Ils penseraient que je suis fou.;;;;;;;;;;x
 EVTOPTD1000109123;Nobody would want hear the voices in my head.;Personne ne voudrait entendre les voix dans ma tête.;;;;;;;;;;x
-EVTDESC1000109124;While shopping at the summer fair, you realize that one of the merchants isn’t selling a lot of merchandise. After observing him for a while, you realize he is absolutely terrible at advertising his wares, and in your blunt honesty you criticize him for this.;En faisant des achats à la foire d'été, vous vous rendez compte qu'un des marchands ne vend pas beaucoup de marchandises. Après l'avoir observé pendant un certain temps, vous vous rendez compte qu'il est absolument terrible de faire de la publicité pour ses marchandises, et dans votre honnêteté brutale vous le critiquez pour cela.;;;;;;;;;;x
+EVTDESC1000109124;While shopping at a local fair, you realize that one of the merchants isn’t selling a lot of merchandise. After observing him for a while, you realize he is absolutely terrible at advertising his wares, and in your blunt honesty you criticize him for this.;En faisant des achats à la foire d'été, vous vous rendez compte qu'un des marchands ne vend pas beaucoup de marchandises. Après l'avoir observé pendant un certain temps, vous vous rendez compte qu'il est absolument terrible de faire de la publicité pour ses marchandises, et dans votre honnêteté brutale vous le critiquez pour cela.;;;;;;;;;;x
 EVTOPTA1000109124;Better improve at this, or you’ll end up a peasant.;Tu ferais mieux de t'améliorer ou tu finiras paysan.;;;;;;;;;;x
 EVTOPTB1000109124;I’ll buy your products for you.;J'achèterai vos produits pour vous.;;;;;;;;;;x
 EVTOPTC1000109124;I have some suggestions on how to better advertise your goods...;J'ai quelques suggestions pour mieux faire connaître vos produits....;;;;;;;;;;x
