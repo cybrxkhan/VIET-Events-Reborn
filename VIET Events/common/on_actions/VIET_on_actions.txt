@@ -48,6 +48,7 @@ on_yearly_pulse = {
 			100 = VIETScarboroughFair.16	# Courtier yawns
 			100 = VIETScarboroughFair.19 	# Gold fell out of courtier's pocket
 			100 = VIETScarboroughFair.23 	# Bought good book
+			100 = VIETScarboroughFair.27 	# Head is itchy
 			100 = VIETScarboroughFair.33 	# Meeting war widows
 			100 = VIETScarboroughFair.34 	# Enemy spy caught during war
 			100 = VIETScarboroughFair.45 	# Courtier does too much perfume

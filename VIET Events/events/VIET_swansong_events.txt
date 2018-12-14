@@ -249,9 +249,9 @@ province_event = {
 			random = {
 				add_trait = charitable
 				chance = 10
-			}
+			}			
+			wealth = -30
 		}
-		wealth = -30
 		random_list = {
 			40 = {
 				add_province_modifier = {
@@ -2765,7 +2765,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = lusful
+			trait = lustful
 		}
 		modifier = {
 			factor = 0.5
@@ -3423,9 +3423,9 @@ province_event = {
 		name = VIETScarboroughFair.47.b
 		owner = {
 			random_list = {
-				30 = { trait = kind }
-				20 = { trait = patient }
-				10 = { trait = content }
+				30 = { add_trait = kind }
+				20 = { add_trait = patient }
+				10 = { add_trait = content }
 				40 = { }
 			}
 			piety = -5

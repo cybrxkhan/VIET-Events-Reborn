@@ -200,35 +200,32 @@ character_event = {
 		if = {
 			limit = {
 				is_ill = no
-			}
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Reapers"
-					}
-				}
-				random = {
-					50 = { }
-					25 = { add_trait = ill }
-					25 = { add_trait = stressed }
-				}
-			}
-			if = {
-				limit = {
+				NOT = {
 					has_dlc = "Reapers"
 				}
-				
-				random_list = {
-					50 = { }
-					25 = { 
-						set_character_flag = disease_not_serious
-						add_trait = fatigue
-					}
-					25 = { add_trait = stressed }
-				}
-				set_character_flag = disease_not_serious
-				add_trait = fatigue
 			}
+			random_list = {
+				50 = { }
+				25 = { add_trait = ill }
+				25 = { add_trait = stressed }
+			}
+		}
+		if = {
+			limit = {
+				is_ill = no
+				has_dlc = "Reapers"
+			}
+			
+			random_list = {
+				50 = { }
+				25 = { 
+					set_character_flag = disease_not_serious
+					add_trait = fatigue
+				}
+				25 = { add_trait = stressed }
+			}
+			set_character_flag = disease_not_serious
+			add_trait = fatigue
 		}
 	}
 	
@@ -239,39 +236,35 @@ character_event = {
 			trait = zealous
 		}
 		piety = 5
-
 		if = {
 			limit = {
 				is_ill = no
-			}
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Reapers"
-					}
-				}
-				random = {
-					70 = { }
-					15 = { add_trait = ill }
-					15 = { add_trait = stressed }
-				}
-			}
-			if = {
-				limit = {
+				NOT = {
 					has_dlc = "Reapers"
 				}
-				
-				random_list = {
-					70 = { }
-					15 = { 
-						set_character_flag = disease_not_serious
-						add_trait = fatigue
-					}
-					15 = { add_trait = stressed }
-				}
-				set_character_flag = disease_not_serious
-				add_trait = fatigue
 			}
+			random_list = {
+				70 = { }
+				15 = { add_trait = ill }
+				15 = { add_trait = stressed }
+			}
+		}
+		if = {
+			limit = {
+				is_ill = no
+				has_dlc = "Reapers"
+			}
+			
+			random_list = {
+				70 = { }
+				15 = { 
+					set_character_flag = disease_not_serious
+					add_trait = fatigue
+				}
+				15 = { add_trait = stressed }
+			}
+			set_character_flag = disease_not_serious
+			add_trait = fatigue
 		}
 	}
 	
@@ -412,8 +405,7 @@ character_event = {
 	}
 	
 	weight_multiplier = {
-		days = 1
-		
+		days = 1		
 		modifier = {
 			factor = 2
 			trait = kind
@@ -449,10 +441,6 @@ character_event = {
 		modifier = {
 			factor = 2
 			trait = humble
-		}
-		modifier = {
-			factor = 0.5
-			trait = arbitrary
 		}
 	}
 	
@@ -1381,9 +1369,9 @@ character_event = {
 		in_command = no
 		is_ruler = no
 		trait = brave
-		has_severe_disability = no
-		is_maimed = no
-		has_injury = no
+		has_severe_disability_trigger = no
+		is_maimed_trigger = no
+		has_injury_trigger = no
 		is_ill = no
 	}
 	
@@ -2343,7 +2331,7 @@ character_event = {
 		
 		modifier = {
 			factor = 4
-			is_dumb = yes
+			is_dumb_trigger = yes
 		}
 		modifier = {
 			factor = 2
@@ -2371,7 +2359,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			is_smart = yes
+			is_smart_trigger = yes
 		}
 	}
 	
