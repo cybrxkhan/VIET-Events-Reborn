@@ -9,35 +9,54 @@ on_yearly_pulse = {
 			
 			#VIET EVENTS
 			#Generic Trait Events
-			100 = VIETnam.71 # Slothful - am lazy
-			100 = VIETnam.72 # Diligent - stop working?
-			100 = VIETnam.73 # Greedy - coin purse found
-			100 = VIETnam.74 # Charitable - help a beggar girl
-			100 = VIETnam.75 # Content - fine with illness
-			100 = VIETnam.76 # Ambitious - what kind of ruler are you?
-			100 = VIETnam.77 # Arbitrary - sentence to death when shouldn't have
-			100 = VIETnam.78 # Just - peasants singing song of praise
-			100 = VIETnam.79 # Wroth - no one dares criticize you in your court
-			100 = VIETnam.80 # Patient - hear others' opinions
-			100 = VIETnam.81 # Envious - wants to be like others
-			100 = VIETnam.82 # Kind - help a knight's orphaned child
-			100 = VIETnam.83 # Craven - made a fool of yourself while sparring
-			100 = VIETnam.84 # Brave - Defeated bandit with bare hands
-			100 = VIETnam.85 # Zealous - pious Muslim wants to fast more
-			100 = VIETnam.86 # Humble - learn from peasants
-			100 = VIETnam.87 # Lustful - ugly wench throws herself at you
-			100 = VIETnam.88 # Chaste - crush on new maid
-			100 = VIETnam.89 # Gluttonous - hungry, what to eat?
-			100 = VIETnam.90 # Temperance - is it preventing you from enjoying life?
-			100 = VIETnam.91 # Paranoid - seeing assassins
-			100 = VIETnam.92 # Trusting - courtier played prank on you
-			100 = VIETnam.93 # Deceitful - never show true self
-			100 = VIETnam.94 # Honest - criticize a bad merchant
-			100 = VIETnam.95 # Cruel - your character is a tyrant
+			100 = VIETnam.72 # Slothful - am lazy
+			100 = VIETnam.73 # Diligent - stop working?
+			100 = VIETnam.74 # Greedy - coin purse found
+			100 = VIETnam.75 # Charitable - help a beggar girl
+			100 = VIETnam.76 # Content - fine with illness
+			100 = VIETnam.77 # Ambitious - what kind of ruler are you?
+			100 = VIETnam.78 # Arbitrary - sentence to death when shouldn't have
+			100 = VIETnam.79 # Just - peasants singing song of praise
+			100 = VIETnam.80 # Wroth - no one dares criticize you in your court
+			100 = VIETnam.81 # Patient - hear others' opinions
+			100 = VIETnam.82 # Envious - wants to be like others
+			100 = VIETnam.83 # Kind - help a knight's orphaned child
+			100 = VIETnam.84 # Craven - made a fool of yourself while sparring
+			100 = VIETnam.85 # Brave - Defeated bandit with bare hands
+			100 = VIETnam.86 # Zealous - pious Muslim wants to fast more
+			100 = VIETnam.87 # Humble - learn from peasants
+			100 = VIETnam.88 # Lustful - ugly wench throws herself at you
+			100 = VIETnam.89 # Chaste - crush on new maid
+			100 = VIETnam.90 # Gluttonous - hungry, what to eat?
+			100 = VIETnam.91 # Temperance - is it preventing you from enjoying life?
+			100 = VIETnam.92 # Paranoid - seeing assassins
+			100 = VIETnam.93 # Trusting - courtier played prank on you
+			100 = VIETnam.94 # Deceitful - never show true self
+			100 = VIETnam.95 # Honest - criticize a bad merchant
+			100 = VIETnam.96 # Cruel - your character is a tyrant
+			
+			#Swansong Events (Swansong no more)
+			100 = VIETScarboroughFair.1 	# Something in your hair
+			100 = VIETScarboroughFair.4 	# Legendary monstrous men
+			100 = VIETScarboroughFair.5 	# Did someone say something about you?
+			100 = VIETScarboroughFair.6 	# Forgot what you were thinking of
+			100 = VIETScarboroughFair.8 	# Chunk of food in teeth
+			100 = VIETScarboroughFair.12	# Courtier tells good joke
+			100 = VIETScarboroughFair.13 	# Sunlight gives peace
+			100 = VIETScarboroughFair.14	# Remembered something embarassing
+			100 = VIETScarboroughFair.18 	# Can't get bard's song out of head
+			100 = VIETScarboroughFair.16	# Courtier yawns
+			100 = VIETScarboroughFair.19 	# Gold fell out of courtier's pocket
+			100 = VIETScarboroughFair.23 	# Bought good book
+			100 = VIETScarboroughFair.33 	# Meeting war widows
+			100 = VIETScarboroughFair.34 	# Enemy spy caught during war
+			100 = VIETScarboroughFair.45 	# Courtier does too much perfume
+			100 = VIETScarboroughFair.46 	# Are tans good?
 			
 			#Reborn Events
 			100 = VIETmisc.8000 # Memories of a lost love
 			100 = VIETmisc.8001 # Servant has a crush on a maid
+			100 = VIETmisc.8002 # Having a good day!
 		}
 		
 	}
@@ -48,6 +67,23 @@ on_bi_yearly_pulse = {
 	random_events = {
 	
 		VIET_bi_yearly_random = {
+			delay = 9
+			
+			5800 = 0
+			
+			#Swansong Events (Swansong no more)
+			100 = VIETScarboroughFair.0 	# What is greater, the real or the fake?
+			100 = VIETScarboroughFair.9 	# was once an innocent child
+			100 = VIETScarboroughFair.17 	# Heard about you and your honeyed words
+			100 = VIETScarboroughFair.26 	# Gift of Baklava
+			100 = VIETScarboroughFair.40 	# Levantine cosmetics
+			100 = VIETScarboroughFair.41 	# Creepy horse
+			100 = VIETScarboroughFair.42 	# Amber gift has bugs in it
+			100 = VIETScarboroughFair.43 	# Gift of cubeb
+			100 = VIETScarboroughFair.44 	# Bring courtesan to bed
+			
+			#Reborn Events
+			100 = VIETmisc.8003 # Saw a mudcrab the other day
 		
 		}
 		
@@ -60,8 +96,39 @@ on_five_year_pulse = {
 	random_events = {
 		
 		VIET_five_year_random = {
+			delay = 28
+			
+			5800 = 0
+			
+			#Swansong Events (Swansong no more)
+			100 = VIETScarboroughFair.10 	# who cut the cheese?
+			100 = VIETScarboroughFair.20	# Son fornicating with maid
+			100 = VIETScarboroughFair.21 	# Checking out maids
+			100 = VIETScarboroughFair.22 	# Execution of innocent man
+			100 = VIETScarboroughFair.24 	# Corrupt tax officials
+			100 = VIETScarboroughFair.25	# cock jokes are overdone
+			100 = VIETScarboroughFair.28 	# Merchant offers abacus
+			100 = VIETScarboroughFair.32 	# Gift of reishi mushroom
+			
+			#Reborn Events
+			100 = VIETmisc.8004 # STOP! YOU VIOLATED THE LAW!
 		
 		}
 		
+	}
+}
+
+#character
+on_decade_pulse = {	
+	random_events = {
+		VIET_ten_year_random = {
+			delay = 2
+			5800 = 0
+			
+			#Swansong Events (Swansong no more)
+			1 = VIETScarboroughFair.15			# died choking to death
+			100 = VIETScarboroughFair.48		# Scarborough Fair song
+			100 = VIETScarboroughFair.100		# Xwedodah preacher
+		}
 	}
 }

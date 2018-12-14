@@ -19,17 +19,17 @@ VIET_events_rules = {
 	name = "RULE_VIET_EVENTS"
 	group = "RULE_GROUP_VIET_REBORN"
 	option = {
-		name = VIET_events_balanced
+		name = balanced
 		text = "RULE_VIET_EVENTS_BALANCED"
 		desc = "RULE_VIET_EVENTS_BALANCED_DESC"
 	}
 	option = {
-		name = VIET_events_serious
+		name = serious
 		text = "RULE_VIET_EVENTS_SERIOUS"
 		desc = "RULE_VIET_EVENTS_SERIOUS_DESC"
 	}
 	option = {
-		name = VIET_events_silly
+		name = silly
 		text = "RULE_VIET_EVENTS_SILLY"
 		desc = "RULE_VIET_EVENTS_SILLY_DESC"
 	}

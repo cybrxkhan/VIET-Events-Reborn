@@ -176,3 +176,293 @@ character_event = {
 		}
 	}
 }
+
+# Character feels inspired
+character_event = {
+	id = VIETmisc.8002
+	desc = VIETmisc.8002.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+	#	in_command = no
+	#}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}		
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}		
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}			
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}			
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = depressed
+		}			
+		modifier = {
+			factor = 2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.5
+			trait = stressed
+		}
+	}
+	
+	option = { # Things will work out
+		name = VIETmisc.8002.a
+		piety = 1
+		if = {
+			limit = {
+				trait = depressed
+			}
+			random = {
+				remove_trait = depressed
+				chance = 20
+			}
+		}
+	}
+}
+
+# Saw a mudcrab the other day
+character_event = {
+	id = VIETmisc.8003
+	desc = VIETmisc.8003.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}		
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}			
+		modifier = {
+			factor = 2
+			trait = temperate
+		}
+		modifier = {
+			factor = 0.5
+			trait = gluttonous
+		}
+	}
+	
+	option = { # I've heard others say the same
+		name = VIETmisc.8003.a
+		prestige = -1
+	}
+}
+
+# STOP YOU VIOLATED THE LAW
+character_event = {
+	id = VIETmisc.8004
+	desc = VIETmisc.8004.desc
+	picture = GFX_evt_market
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}		
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+					
+		modifier = {
+			factor = 0.1
+			has_character_flag = VIET_recruited_oblivion_guard
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}		
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}			
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}			
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}			
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+	}
+	
+	option = { # Good
+		name = VIETmisc.8004.a
+		prestige = 1
+	}	
+	option = { # Reward the guard
+		name = VIETmisc.8004.b
+		wealth = -5
+		add_character_modifier = {
+			name = VIET_rewarded_oblivion_guard
+			duration = 1000
+		}
+	}
+	option = { # Recruit the guard!
+		name = VIETmisc.8004.c
+		trigger = {
+			NOT = { has_character_flag = VIET_recruited_oblivion_guard }
+			NOT = { trait = greedy }
+			NOT = { trait = cruel }
+			NOT = { trait = arbitrary }
+			NOT = { trait = paranoid }
+			NOT = { trait = proud }
+		}
+		set_character_flag = VIET_recruited_oblivion_guard 
+		wealth = -10
+		add_character_modifier = {
+			name = VIET_rewarded_oblivion_guard
+			duration = 1000
+		}
+		create_random_soldier = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = no
+			attributes = {
+				martial = 10
+			}
+			health = 6
+			trait = brave
+			trait = zealous
+			trait = just
+			trait = kind
+			new_character = {
+				prestige = 50
+				opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+					years = 100
+				}
+				add_character_modifier = {
+					name = VIET_was_oblivion_guard
+					duration = -1
+				}				
+			}
+		}
+	}
+}

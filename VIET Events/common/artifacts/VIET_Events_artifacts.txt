@@ -1,0 +1,10 @@
+### Generic ###
+
+VIET_abacus = {
+	stewardship = 1
+	learning = 1
+	quality = 1
+	stacking = no
+	#flags = { VIET_abacus }
+	picture = "GFX_VIET_abacus"
+}

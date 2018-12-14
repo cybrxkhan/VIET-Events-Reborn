@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_VIET_abacus"
+		texturefile = "gfx\\interface\\artifacts\\VIET_abacus.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_abacus_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_abacus_small.dds"
+	}
+}

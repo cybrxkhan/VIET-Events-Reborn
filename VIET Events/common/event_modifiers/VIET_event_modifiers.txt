@@ -347,7 +347,8 @@ VIET_spinach_popeye = {
 	icon = 13
 }
 VIET_new_expensive_cosmetics = {
-	general_opinion = 10
+	general_opinion = 5
+	sex_appeal_opinion = 5
 	fertility = 0.02
 	monthly_character_piety = -0.02
 	icon = 39
@@ -488,7 +489,7 @@ VIET_ridiculous_greed = {
 }
 VIET_childlike_wonder = {
 	diplomacy = 1
-	icon = 39
+	icon = 85
 }
 VIET_enjoys_others_suffering = {
 	diplomacy = -2
@@ -821,11 +822,11 @@ VIET_im_curious = { #cf chitanda
 VIET_leader_angered_peasants = {
 	monthly_character_prestige = -0.05
 	global_revolt_risk = 0.1
-	icon = 31
+	icon = 106
 }
 VIET_pun_lover = {
 	general_opinion = 10
-	icon = 18
+	icon = 75
 }
 VIET_abacus_item = {
 	stewardship = 1
@@ -859,12 +860,12 @@ VIET_deviant_opinion = {
 	diplomacy = -1
 	intrigue = 1
 	fertility = 0.01
-	icon = 35
+	icon = 77
 }
 VIET_loves_cute_maids = {
 	fertility = 0.05
 	monthly_character_prestige = 0.01
-	monthly_character_piety = -0.01
+	monthly_character_piety = -0.03
 	icon = 39
 }
 VIET_dislikes_hipsters = {
