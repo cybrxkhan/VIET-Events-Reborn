@@ -1655,22 +1655,22 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_evt_tuscan_country_west_germanic"
-		texturefile = "gfx\\event_pictures\\scarborough_fair.tga"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_west_germanic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_tuscan_country_gallic"
-		texturefile = "gfx\\event_pictures\\scarborough_fair.tga"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_west_germanic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_tuscan_country_frankish"
-		texturefile = "gfx\\event_pictures\\scarborough_fair.tga"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_west_germanic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_tuscan_country_occitan"
-		texturefile = "gfx\\event_pictures\\scarborough_fair.tga"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_west_germanic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
@@ -1967,6 +1967,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_west_slavic"
 		texturefile = "gfx\\event_pictures\\ancient_cairn_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_east_slavic"
+		texturefile = "gfx\\event_pictures\\small_town_east_slavic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_west_slavic"
+		texturefile = "gfx\\event_pictures\\small_town_east_slavic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_baltic"
+		texturefile = "gfx\\event_pictures\\small_town_east_slavic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_chinese_princess"
+		texturefile = "gfx\\event_pictures\\chinese_princess.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_coast_night"
+		texturefile = "gfx\\event_pictures\\coast_night.tga"
 		allwaystransparent = yes
 	}
 	

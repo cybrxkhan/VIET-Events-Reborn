@@ -58,6 +58,8 @@ on_yearly_pulse = {
 			100 = VIETmisc.8000 # Memories of a lost love
 			100 = VIETmisc.8001 # Servant has a crush on a maid
 			100 = VIETmisc.8002 # Having a good day!
+			100 = VIETmisc.8005 # Courtier said something inappropriate
+			100 = VIETmisc.8019 # Nightmare about the ocean
 		}
 		
 	}
@@ -85,6 +87,9 @@ on_bi_yearly_pulse = {
 			
 			#Reborn Events
 			100 = VIETmisc.8003 # Saw a mudcrab the other day
+			100 = VIETmisc.8013 # Meet a young man who is feeling sad about a girl
+			100 = VIETmisc.8016 # Dropped papers in poop
+			100 = VIETmisc.8018 # Chinese women play polo
 		
 		}
 		
@@ -113,6 +118,9 @@ on_five_year_pulse = {
 			
 			#Reborn Events
 			100 = VIETmisc.8004 # STOP! YOU VIOLATED THE LAW!
+			100 = VIETmisc.8012 # Courtier goes missing
+			100 = VIETmisc.8017 # Rumors about a powerful empress
+			100 = VIETmisc.8020 # Wonderful singer
 		
 		}
 		

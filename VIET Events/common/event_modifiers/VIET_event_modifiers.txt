@@ -129,7 +129,7 @@ deep_contemplation = {
 }
 lustful_ruler = {
 	monthly_character_piety = -0.1
-	monthly_character_prestige = 0.05
+	fertility = 0.05
 	icon = 39
 }
 VIET_justice_is_blind = {
@@ -312,7 +312,7 @@ having_stomachaches = {
 }
 highly_amused_ruler = {
         diplomacy = 1
-        icon = 15
+        icon = 58
 }
 eating_good_food = {
         diplomacy = 1

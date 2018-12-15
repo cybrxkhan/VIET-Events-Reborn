@@ -79,33 +79,163 @@ VIET_awkward_encounter_public = {
 	diplomacy = -1
 	icon = 36
 }
-
 VIET_constant_muslim_fasting = {
 	monthly_character_piety = 0.1
 	health = -0.5
 	icon = 8
 }
-
 VIET_remembering_childhood_love = {
 	diplomacy = 1
 	fertility = -0.1
 	icon = 39
 }
-
 VIET_eating_baklava = {
 	diplomacy = 2
 	icon = 9
 }
-
 VIET_rewarded_oblivion_guard = {
 	monthly_character_prestige = 0.01
 	land_morale = 0.02
 	icon = 117
 }
-
 VIET_was_oblivion_guard = {
 	combat_rating = 20
 	monthly_character_prestige = 0.05
 	monthly_character_piety = 0.05
 	icon = 117
+}
+VIET_province_bridge_collapse = {
+	local_tax_modifier = -0.5
+	local_build_cost_modifier = 0.05
+	local_build_time_modifier = 0.05
+	tradevalue = -0.5
+	icon = 30
+}
+VIET_helped_emergency_quickly = {
+	global_revolt_risk = -0.03
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.04
+	icon = 12
+}
+VIET_ignored_emergency = {
+	global_revolt_risk = 0.04
+	monthly_character_prestige = -0.03
+	monthly_character_piety = -0.03
+	icon = 30
+}
+VIET_province_mysterious_colors = {
+	global_revolt_risk = 0.01
+	disease_defence = 0.01
+	icon = 81
+}
+VIET_famous_bard_province = {
+	global_revolt_risk = -0.05
+	land_morale = 0.1
+	monthly_character_prestige = 0.05
+	icon = 18
+}
+VIET_province_haunted_ship = {
+	global_revolt_risk = 0.01
+	land_morale = -0.01
+	tradevalue = -0.03
+	icon = 62
+}
+VIET_province_flat_stone = {
+	cultural_techpoints = 0.1
+	disease_defence = 0.02
+	add_prestige_modifier = 0.05
+	icon = 48
+}
+VIET_province_recent_sandstorm = {
+	levy_reinforce_rate = -0.1
+	local_tax_modifier = -0.05
+	icon = 134
+}
+VIET_touched_poop = {
+	health = -1
+	icon = 109
+}
+VIET_thinking_about_foreign_lands = {
+	diplomacy = 1
+	icon = 101
+}
+VIET_girl_power = {
+	female_opinion = 25
+	icon = 79
+}
+VIET_chinese_rumors = {
+	learning = 1
+	icon = 95
+}
+VIET_sexist_against_women = {
+	monthly_character_prestige = 0.02
+	diplomacy = -1
+	female_opinion = -25
+	icon = 36
+}
+VIET_nerd_hates_sports = {
+	monthly_character_prestige = -0.15
+	general_opinion = -10
+	stewardship = 1
+	learning = 1
+	icon = 116
+}
+VIET_amazing_singer_modifier = {
+	monthly_character_wealth = 0.2
+	monthly_character_prestige = 0.2
+	general_opinion = 30
+	sex_appeal_opinion = 10
+	diplomacy = 1
+	learning = 1
+	fertility = 0.1
+	icon = 18
+}
+VIET_amazing_singer_husbando_modifier = {
+	monthly_character_wealth = 0.05
+	monthly_character_prestige = 0.05
+	general_opinion = 10
+	diplomacy = 1
+	icon = 18
+}
+VIET_read_book_romance = {
+	diplomacy = 1
+	fertility = 0.05
+	sex_appeal_opinion = 5
+	icon = 2
+}
+VIET_read_book_gritty = {
+	martial = 1
+	intrigue = 1
+	icon = 2
+}
+VIET_read_book_fantasy = {
+	learning = 1
+	fertility = 0.05
+	land_morale = 0.05
+	icon = 2
+}
+VIET_read_book_slice_of_life = {
+	diplomacy = 1
+	global_revolt_risk = -0.02
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02	
+	icon = 2
+}
+VIET_minty_fresh_breath = {
+	health = 0.5
+	general_opinion = 5
+	sex_appeal_opinion = 5
+	icon = 87
+}
+VIET_herbal_mouth_cleaning_other = {
+	health = 1
+	fertility = 0.05
+	general_opinion = 5
+	sex_appeal_opinion = 5
+	icon = 87
+}
+VIET_province_friendly_beach_ghost = {
+	local_tax_modifier = 0.02
+	land_morale = 0.02
+	icon = 8
 }

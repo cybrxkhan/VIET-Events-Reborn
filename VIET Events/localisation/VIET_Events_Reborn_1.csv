@@ -15,54 +15,112 @@ VIETmisc.8004.desc;I am in town one day when I hear a guard shout, “STOP, YOU VI
 VIETmisc.8004.a;Most remarkable!;;;;;;;;;;;;;x
 VIETmisc.8004.b;Impressive. Reward the guard for this.;;;;;;;;;;;;;x
 VIETmisc.8004.c;I like him. Why don’t we bring him to my court?;;;;;;;;;;;;;x
-VIETmisc.8005.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8005.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8006.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8006.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8007.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8007.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8008.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8008.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8009.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8009.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8010.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8010.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8011.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8011.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8012.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8012.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8013.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8013.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8014.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8014.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8015.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8015.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8016.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8016.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8017.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8017.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8018.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8018.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8019.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8019.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8020.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8020.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8021.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8021.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8022.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8022.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8023.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8023.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8024.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8024.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8025.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8025.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8026.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8026.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8027.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8027.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8028.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8028.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8005.desc;I did not approve of what [target_VIET_inappropriate_courtier.GetFullName] said. It was vulgar and inappropriate for the situation.;;;;;;;;;;;x
+VIETmisc.8005.a;I made my stance clear. How disappointing!;;;;;;;;;;;;;x
+VIETmisc.8005.b;I hinted it might have been unsuitable.;;;;;;;;;;;;;x
+VIETmisc.8005.c;I did not say anything for now.;;;;;;;;;;;;;x
+VIETmisc.8006.desc;A bridge in [Root.GetName] has recently collapsed. As a major thoroughfare connecting various villages in the region, we must fix it as soon as possible.;;;;;;;;;;;x
+VIETmisc.8006.a;Send in emergency resources immediately!;;;;;;;;;;;;;x
+VIETmisc.8006.b;Do whatever is necessary.;;;;;;;;;;;;;x
+VIETmisc.8006.c;The locals can take care of it themselves.;;;;;;;;;;;;;x
+VIETmisc.8007.desc;The sky over [Root.GetName] turned several colors at once, unnatural hues of purple, red, green, blue, pink, and more. This lasted many days and though there were no known effects, the inhabitants of the region are bewildered. None of the local learned men nor mystics could explain this phenomenon.;;;;;;;;;;;x
+VIETmisc.8007.a;Who knows what mysterious forces are at play here?;;;;;;;;;;;;;x
+VIET_famous_bard_settles;The bard settles down in your lands.;;;;;;;;;;;x
+VIETmisc.8008.desc;A famous bard has settled down in [Root.GetName]. Though his music and singing is sublime, he refuses to perform for the wealthy and powerful, even when offered exorbitant amounts of riches. Instead, he prefers to entertain the poor and the masses, inspiring and uplifting them.;;;;;;;;;;;x
+VIETmisc.8008.a;He shall be arrested for his insolence!;;;;;;;;;;;;;x
+VIETmisc.8008.b;If he wishes to associate with commoners, so be it.;;;;;;;;;;;;;x
+VIETmisc.8008.c;I can understand his reasons in all honesty.;;;;;;;;;;;;;x
+VIETmisc.8009.desc;Disturbing reports from [Root.GetName]. A mysterious wooden ship has been spotted floating in the sky along the far horizon in several areas along the coast. The few ships that tried to approach could never reach it, and it does not fly the flag or banner of any known peoples. Wherever it was spotted, locals reported hearing strange, whistling noises, like a faint, screeching wind, in the night for several weeks afterwards.;;;;;;;;;;;x
+VIETmisc.8009.a;Alarming apparitions….;;;;;;;;;;;;;x
+VIETmisc.8009.b;Probably just some peasant hysteria.;;;;;;;;;;;;;x
+VIETmisc.8010.desc;A peasant in [Root.GetName] got lost recently while trekking near the wilderness. She came across a flat, vertical stone surface where the ancient rulers of the region carved various images and inscriptions. After she reported this to the local officials, you sent in people to investigate and it appears this stone is the last remnants of an imposing ancient monument! The stone can’t be re-used, so it must stand where it is, perhaps for all eternity.;;;;;;;;;;;x
+VIETmisc.8010.a;Quite a sight to behold!;;;;;;;;;;;;;x
+VIETmisc.8010.b;Heathen symbol. DIscourage people from visiting it.;;;;;;;;;;;;;x
+VIETmisc.8010.c;This is a holy place - build an altar near it.;;;;;;;;;;;;;x
+VIETmisc.8010.d;Send a few antiquitarians to study it.;;;;;;;;;;;;;x
+VIETmisc.8011.desc;A sandstorm recently swept through [Root.GetName] at a most inopportune time. A large number of people perished, including some soldiers who were on patrol. Furthermore, there was some damage to local infrastructure and buildings.;;;;;;;;;;;x
+VIETmisc.8011.a;Troubling news.;;;;;;;;;;;;;x
+#VIETmisc.8012.desc;[target_VIET_vanished_death_courtier.GetName] was never found. The trail ran cold. As far as anyone knows, [target_VIET_vanished_death_courtier.GetSheHe] either went somewhere without telling anyone or died. But it is odd that [target_VIET_vanished_death_courtier.GetSheHe] wouldn’t have told anyone, so rumor is that [target_VIET_vanished_death_courtier.GetSheHe] died. What a tragedy!;;;;;;;;;;;x
+#VIETmisc.8012.a;Let us hope it was nothing serious.;;;;;;;;;;;;;x
+#VIETmisc.8013.desc;[target_VIET_vanished_death_courtier.GetName] was never found. The trail ran cold. As far as anyone knows, [target_VIET_vanished_death_courtier.GetSheHe] either went somewhere without telling anyone or died. But it is odd that [target_VIET_vanished_death_courtier.GetSheHe] wouldn’t have told anyone, so rumor is that [target_VIET_vanished_death_courtier.GetSheHe] died. What a tragedy!;;;;;;;;;;;x
+#VIETmisc.8013.a;What could have happened to them?;;;;;;;;;;;;;x
+VIETmisc.8012.desc;You spot [target_VIET_suspicious_courtier_first.GetName] and [target_VIET_suspicious_courtier_second.GetName] talking one day. Having nothing to do at that particular moment, you walk up to them, but when they notice you they immediately stop their conversation. “Is something wrong?” you ask.\n\n”Nothing,” [target_VIET_suspicious_courtier_first.GetName] says, as [target_VIET_suspicious_courtier_second.GetName] raises an eyebrow.;;;;;;;;;;;x
+VIETmisc.8012.a;Suspicious. Very suspicious….;;;;;;;;;;;;;x
+VIETmisc.8012.b;This is awkward.;;;;;;;;;;;;;x
+VIETmisc.8012.c;Sounds good!;;;;;;;;;;;;;x
+VIETmisc.8012.d;I’ll apologize - I’m sure they had their reasons.;;;;;;;;;;;;;x
+VIETmisc.8013.desc;[target_VIET_vanished_death_courtier.GetName] was never found. The trail ran cold. As far as anyone knows, [target_VIET_vanished_death_courtier.GetSheHe] either went somewhere without telling anyone or died. But it is odd that [target_VIET_vanished_death_courtier.GetSheHe] wouldn’t have told anyone, so rumor is that [target_VIET_vanished_death_courtier.GetSheHe] died. What a tragedy!;;;;;;;;;;;x
+VIETmisc.8013.a;What could have happened to them?;;;;;;;;;;;;;x
+VIETmisc.8014.desc;I am entertaining some important members of a nearby city today - they include high ranking officials, merchants, scholars, and more. I notice among them is a young man, handsome and of good heart, yet clearly forlorn and disturbed. “Let him be,” one of his companions whispers to me. “He is melancholy because of a woman!”;;;;;;;;;;;x
+VIETmisc.8014.a;What foolishness! I’ll set the lad’s head straight.;;;;;;;;;;;;;x
+VIETmisc.8014.b;Let me reason with the fellow.;;;;;;;;;;;;;x
+VIETmisc.8014.c;What woe! Love is cruel. I can relate to him well.;;;;;;;;;;;;;x
+VIETmisc.8014.d;Women? They’re nothing but trouble.;;;;;;;;;;;;;x
+VIETmisc.8014.e;I can offer counsel from a lady’s perspective.;;;;;;;;;;;;;x
+VIETmisc.8015.tooltip;Perhaps I can help him with his sorrows.;;;;;;;;;;;x
+VIETmisc.8015.desc;As I chat with the young man, he tries to play coy but can’t deny that his heart is broken. I cannot determine whether because the girl rejected him, is with another man, died, or that some other calamity happened, but it is definite he will never be with her. Clearly he is lovesick, and the girl certainly seems like a really impressive woman worthy of love. What should I tell him?;;;;;;;;;;;x
+VIETmisc.8015.a;There are many women. Surely you'll meet another!;;;;;;;;;;;;;x
+VIETmisc.8015.b;Find a busty wench to satisfy your carnal desires.;;;;;;;;;;;;;x
+VIETmisc.8015.c;Let your love inspire you to do great things.;;;;;;;;;;;;;x
+VIETmisc.8015.d;Spoiled idiot! There are worse problems out there!;;;;;;;;;;;;;x
+VIETmisc.8016.desc;You are so dedicated to your work that lately you sometimes take your paperwork with you while you are at the chamberpot. Unfortunately today your hand slipped and the papers fell into the chamberpot itself. These were very important papers, too.;;;;;;;;;;;x
+VIETmisc.8016.a;I must recover them!;;;;;;;;;;;;;x
+VIETmisc.8016.b;I think I have learned my lesson about being a workaholic.;;;;;;;;;;;;;x
+VIETmisc.8016.c;Thankfully I told my scribe to make some copies!;;;;;;;;;;;;;x
+VIETmisc.8017.desc;China, that most august empire, has always been a source of rumors of dubious reliability. Lately, traveling merchants and adventurers relay stories about how the current Empress of China is as powerful and fearsome as she is beautiful and charming. She has a strong grip over the Emperor and is the real authority behind everything, even if she only rules from the shadows.;;;;;;;;;;;x
+VIETmisc.8017.a;A fanciful tale! A joke, even!;;;;;;;;;;;;;x
+VIETmisc.8017.b;Stranger things have happened in China.;;;;;;;;;;;;;x
+VIETmisc.8017.c;It is good women have more power.;;;;;;;;;;;;;x
+VIETmisc.8017.d;Tell me more about this great and powerful woman.;;;;;;;;;;;;;x
+VIETmisc.8018.desc;Polo has been popular among the [Culture.GetName] people for many generations. It is no surprise to hear that the people of China also enjoy it. Though women often play polo in many parts of the world, some claim Chinese women as the best polo players in the world! It is said imperial concubines and princesses regularly beat the menfolk of the imperial court at the sport.;;;;;;;;;;;x
+VIETmisc.8018.a;I wonder what tricks and techniques they use.;;;;;;;;;;;;;x
+VIETmisc.8018.b;Ha! As if any woman could do that!;;;;;;;;;;;;;x
+VIETmisc.8018.c;Surely our women are just as good!;;;;;;;;;;;;;x
+VIETmisc.8018.d;I am not a fan of polo either way.;;;;;;;;;;;;;x
+VIETmisc.8019.desc;The ocean waters rage and rage and rage around you in your dream, a maddening array of the raw force of nature's destruction, and you are unraveled, helplessly, as you are at their mercy. What is humanity but a speck in the cosmos when compared to all this?;;;;;;;;;;;x
+VIETmisc.8019.a;Even this I shall overcome!;;;;;;;;;;;;;x
+VIETmisc.8019.b;We are insignificant to the cosmos.;;;;;;;;;;;;;x
+VIETmisc.8019.c;Help! Help! Help!;;;;;;;;;;;;;x
+VIETmisc.8020.desc;I am visiting the patricians prominent in a nearby town. One of them, a lovely young lady, is reputedly an excellent musician, and after the main meeting provides some informal entertainment for everyone present with her singing and music. She plays music beautifully and I am captivated by her sounds of her music.;;;;;;;;;;;x
+VIETmisc.8020.a;How inspiring! How touching!;;;;;;;;;;;;;x
+VIETmisc.8020.b;Give her a large tip.;;;;;;;;;;;;;x
+VIETmisc.8020.c;I want her to become a musician at my court.;;;;;;;;;;;;;x
+VIETmisc.8020.d;I want her at my court, to perform music and other “amusements” for me.;;;;;;;;;;;;;x
+VIETmisc.8021.tooltip;\n\nSurely she would not refuse such an opportunity.;;;;;;;;;;;x
+VIETmisc.8021.desc;The lady tells me such a thing would not be possible. She is about to marry a good young man, and cannot bear to leave him alone. She also wishes to continue living in a more familiar setting.;;;;;;;;;;;x
+VIETmisc.8021.a;What a pity. I understand, however.;;;;;;;;;;;;;x
+VIETmisc.8021.b;How dare she! It’s her loss.;;;;;;;;;;;;;x
+VIETmisc.8021.c;Why doesn't she and her husband to be come to my court?;;;;;;;;;;;;;x
+VIET_offer_money_to_singer;With a generous offer of money, you convince the young couple to come and join your court.;;;;;;;;;;;x
+VIETmisc.8022.desc;I have heard about people in the eastern realms live on a vegetarian diet. That is, they refuse to consume meat, often for moral or religious reasons. Clearly there are many different customs around the world, but to subsist without any meat for your entire life? Are there people who would go to such extreme lengths for their beliefs? Does their food even taste good?;;;;;;;;;;;x
+VIETmisc.8022.a;Such restraint is admirable!;;;;;;;;;;;;;x
+VIETmisc.8022.b;We were meant to eat meat! Some are prey, others are predators.;;;;;;;;;;;;;x
+VIETmisc.8022.c;Only peasants cannot afford meat.;;;;;;;;;;;;;x
+VIETmisc.8022.d;Those who are [Root.Religion.GetName] already avoid some meats.;;;;;;;;;;;;;x
+VIETmisc.8022.e;Customs are different all over the world.;;;;;;;;;;;;;x
+VIET_vegetarian_similarity_to_kosher_halal;Surely avoiding even more meats is not too big a logical jump.;;;;;;;;;;;;;x
+VIETmisc.8023.desc;A traveler is regaling me with stories, and one piques my interest. He heard from someone who heard from someone else who heard from someone else who met a traveler who once traveled south along the seas and reached a small but beautiful island, a paradise where there is always fruit to be found on trees, and the inhabitants live peaceful lives free of illness and violence.;;;;;;;;;;;x
+VIETmisc.8023.a;An unlikely tale, but an amusing one nevertheless.;;;;;;;;;;;;;x
+VIETmisc.8023.b;Perhaps one day I shall visited these blessed isles.;;;;;;;;;;;;;x
+VIETmisc.8023.c;I wonder how their society is structured.;;;;;;;;;;;;;x
+VIETmisc.8024.desc;There are those who, after eating, prefer to consume a bit of mint leaves before they clean their teeth in the evening. I have just finished dinner and am preparing for bed, but still have some time to take a bit of mint first. Where do I stand on this important matter?;;;;;;;;;;;x
+VIETmisc.8024.a;Some mint is good and refreshing.;;;;;;;;;;;;;x
+VIETmisc.8024.b;I have no need. Teeth cleaning is enough.;;;;;;;;;;;;;x
+VIETmisc.8024.c;Bah! Who bothers? A waste of time for the vain.;;;;;;;;;;;;;x
+VIETmisc.8024.d;I prefer other herbs actually.;;;;;;;;;;;;;x
+VIETmisc.8025.desc;I fell asleep and dream pleasant dreams, dreams that were happy and lifted my spirits and made me feel better about life.;;;;;;;;;;;x
+VIETmisc.8025.a;But then I woke up the next morning.;;;;;;;;;;;;;x
+VIETmisc.8026.desc;A powerful woman such as myself has many enemies, so I must be constantly surrounded by sturdy, strong bodyguards who will protect me. It helps that many of these young men are well built and aesthetically pleasing. However, some people are spreading malicious rumors, saying these strapping young men are nothing but my lovers!;;;;;;;;;;;x
+VIETmisc.8026.a;Preposterous. I am not that sort of woman.;;;;;;;;;;;;;x
+VIETmisc.8026.b;Admiring eye candy is one thing, actions are another.;;;;;;;;;;;;;x
+VIETmisc.8026.c;I can't blame them!;;;;;;;;;;;;;x
+VIETmisc.8026.d;The others are jealous of my power.;;;;;;;;;;;;;x
+VIETmisc.8027.desc;A young noblewoman has come to me today seeking advice on what sort of man makes a good husband. As a highly respected lady, I command much prestige and she wants my input on the matter. After discussing the best personality and backgrounds, she asked me what sort of man I found aesthetically pleasing.;;;;;;;;;;;x
+VIETmisc.8027.a;I prefer leaner, slimmer types.;;;;;;;;;;;;;x
+VIETmisc.8027.b;Those of average build - neither extreme.;;;;;;;;;;;;;x
+VIETmisc.8027.c;Only the bulky, muscular kinds.;;;;;;;;;;;;;x
+VIETmisc.8028.desc;Whispers of the ghost of [Root.GetName] have reached your court. Many sightings have been reported along the cliffs by several coastal villages, of how every evening the faint trace of a ghost appears and gazes into the waters, before disappearing around sunset. The ghost does not appear to be malevolent at all, and at most merely points, almost dreamlike, towards something which most likely we cannot see nor understand. A few even claimed that the ghost has guided wayward travelers.;;;;;;;;;;;x
+VIETmisc.8028.a;What a ghost story!;;;;;;;;;;;;;x
 VIETmisc.8029.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8029.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8030.desc;xxxxx;;;;;;;;;;;x

@@ -1,0 +1,18 @@
+VIET_opinion_publically_chastised_me = {
+	opinion = -20
+}
+VIET_opinion_inappropriate_speech = {
+	opinion = -20
+}
+VIET_opinion_patron = {
+	opinion = 40
+}
+VIET_opinion_amazing_court_singer = {
+	opinion = 40
+}
+VIET_opinion_interrupted_secret_conversation = {
+	opinion = -15
+}
+VIET_opinion_suspicious_conversation = {
+	opinion = -30
+}
