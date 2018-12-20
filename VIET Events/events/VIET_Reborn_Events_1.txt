@@ -348,7 +348,7 @@ character_event = {
 			has_game_rule = {
 				name = VIET_events_rules
 				value = serious
-			}		
+			}
 		}
 	}
 	
@@ -390,7 +390,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = temperate
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = patient
@@ -398,7 +398,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = wroth
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = just
@@ -412,7 +412,7 @@ character_event = {
 	option = { # Good
 		name = VIETmisc.8004.a
 		prestige = 1
-	}	
+	}
 	option = { # Reward the guard
 		name = VIETmisc.8004.b
 		wealth = -5
@@ -461,7 +461,7 @@ character_event = {
 				add_character_modifier = { #doesn't seem to work???
 					name = VIET_was_oblivion_guard
 					duration = -1
-				}				
+				}
 			}
 		}
 	}
@@ -501,7 +501,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = shy
-		}	
+		}
 		modifier = {
 			factor = 2
 			trait = trusting
@@ -509,7 +509,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = paranoid
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = content
@@ -517,7 +517,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = ambitious
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = wroth
@@ -525,7 +525,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = patient
-		}			
+		}
 		modifier = {
 			factor = 2
 			trait = just
@@ -543,10 +543,10 @@ character_event = {
 				NOT = { trait = incapable }
 				is_adult = yes
 				in_command = no
-				is_abroad = no			
+				is_abroad = no
 			}
 			save_event_target_as = target_VIET_inappropriate_courtier
-		}	
+		}
 	}
 	
 	option = { # Chastise
@@ -564,7 +564,7 @@ character_event = {
 				years = 1
 			}
 		}
-	}	
+	}
 	option = { # Hinted subtly
 		name = VIETmisc.8005.b
 		event_target:target_VIET_inappropriate_courtier = {
@@ -575,7 +575,7 @@ character_event = {
 				years = 1
 			}
 		}
-	}	
+	}
 	option = { # Did not say anything
 		name = VIETmisc.8005.c
 		piety = -2
@@ -586,7 +586,7 @@ character_event = {
 		event_target:target_VIET_inappropriate_courtier = {
 			prestige = -2
 		}
-	}	
+	}
 }
 
 # Bridge in province collapsed
@@ -642,25 +642,25 @@ province_event = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 200
-					}				
+					}
 				}
 				30 = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 400
-					}				
+					}
 				}
 				30 = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 600
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 800
-					}				
+					}
 				}
 			}
 		}
@@ -677,25 +677,25 @@ province_event = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 300
-					}				
+					}
 				}
 				30 = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 600
-					}				
+					}
 				}
 				30 = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 900
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 1200
-					}				
+					}
 				}
 			}
 		}
@@ -715,29 +715,29 @@ province_event = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 400
-					}				
+					}
 				}
 				30 = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 800
-					}				
+					}
 				}
 				30 = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 1200
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_province_bridge_collapse
 						duration = 1600
-					}				
+					}
 				}
 			}
 		}
-	}	
+	}
 }
 
 # Mysterious Colors in the Sky
@@ -761,7 +761,7 @@ province_event = {
 			name = VIET_province_mysterious_colors
 			duration = 1234
 		}
-	}	
+	}
 }
 
 # Famous Bard refuses to play for the rich
@@ -805,9 +805,9 @@ province_event = {
 			add_character_modifier = {
 				name = VIET_leader_angered_peasants
 				duration = 888
-			}		
+			}
 		}
-	}	
+	}
 	option = { # OK
 		name = VIETmisc.8008.b
 		hidden_tooltip = {
@@ -817,35 +817,35 @@ province_event = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 3650
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 5475
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 7300
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 9125
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 10950
-					}				
+					}
 				}
 			}
 		}
-	}		
+	}
 	option = { # OK
 		name = VIETmisc.8008.c
 		owner = {
@@ -863,35 +863,35 @@ province_event = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 3650
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 5475
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 7300
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 9125
-					}				
+					}
 				}
 				20 = {
 					add_province_modifier = {
 						name = VIET_famous_bard_province
 						duration = 10950
-					}				
+					}
 				}
 			}
 		}
-	}	
+	}
 }
 
 # Spoopy ship in the skies
@@ -953,14 +953,14 @@ province_event = {
 	option = { # Spoop
 		name = VIETmisc.8009.b
 		random = {
-			add_trait = cynical
+			owner = { add_trait = cynical }
 			chance = 10
 		}
 		add_province_modifier = {
 			name = VIET_province_haunted_ship
 			duration = 1095
 		}
-	}	
+	}
 }
 
 # Neolithic stone found
@@ -992,11 +992,13 @@ province_event = {
 	option = { # Heathen
 		name = VIETmisc.8010.b
 		trigger = {
-			NOT = { religion_group = pagan_group }
-			NOT = { religion_group = indian_group }
+			owner = {
+				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = indian_group }
+			}
 		}
 		random = {
-			add_trait = zealous
+			owner = { add_trait = zealous }
 			chance = 33
 		}
 		add_province_modifier = {
@@ -1008,7 +1010,7 @@ province_event = {
 		name = VIETmisc.8010.c
 		owner = {
 			wealth = -5
-			piety = 20		
+			piety = 20
 		}
 		add_province_modifier = {
 			name = VIET_province_flat_stone
