@@ -134,6 +134,9 @@ on_decade_pulse = {
 			delay = 2
 			5800 = 0
 			
+			#EVENT CHAINS
+			100 = OCC.1			# Dance with the dead
+			
 			#Swansong Events (Swansong no more)
 			1 = VIETScarboroughFair.15			# died choking to death
 			100 = VIETScarboroughFair.48		# Scarborough Fair song

@@ -119,56 +119,84 @@ VIETmisc.8027.desc;A young noblewoman has come to me today seeking advice on wha
 VIETmisc.8027.a;I prefer leaner, slimmer types.;;;;;;;;;;;;;x
 VIETmisc.8027.b;Those of average build - neither extreme.;;;;;;;;;;;;;x
 VIETmisc.8027.c;Only the bulky, muscular kinds.;;;;;;;;;;;;;x
-VIETmisc.8028.desc;Whispers of the ghost of [Root.GetName] have reached your court. Many sightings have been reported along the cliffs by several coastal villages, of how every evening the faint trace of a ghost appears and gazes into the waters, before disappearing around sunset. The ghost does not appear to be malevolent at all, and at most merely points, almost dreamlike, towards something which most likely we cannot see nor understand. A few even claimed that the ghost has guided wayward travelers.;;;;;;;;;;;x
+VIETmisc.8028.desc;Whispers of the ghost of [Root.GetName] have reached your court. Many sightings have been reported along the cliffs by several coastal villages, of how every evening the faint trace of a ghost appears and gazes into the waters for a few hours before disappearing. The ghost is not malevolent at all, and at most merely points, almost dreamlike, towards something which most likely we cannot see nor understand. A few even claimed that the ghost has guided wayward travelers.;;;;;;;;;;;x
 VIETmisc.8028.a;What a ghost story!;;;;;;;;;;;;;x
-VIETmisc.8029.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8029.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8030.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8030.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8031.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8031.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8032.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8032.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8033.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8033.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8034.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8034.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8035.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8035.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8036.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8036.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8037.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8037.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8038.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8038.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8039.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8039.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8040.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8040.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8041.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8041.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8042.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8042.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8043.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8043.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8044.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8044.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8045.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8045.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8046.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8046.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8047.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8047.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8048.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8048.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8049.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8049.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8050.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8050.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8051.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8051.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8052.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8052.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8029.desc;There are scholars who claim that one day, we will be able to make contraptions that allow us to fly like birds. Other thinkers say this is an impossibility.;;;;;;;;;;;x
+VIETmisc.8029.a;If we can dream it, then it is possible.;;;;;;;;;;;;;x
+VIETmisc.8029.b;Let us be realistic here - we are not birds.;;;;;;;;;;;;;x
+VIETmisc.8029.c;To do so would be an affront to the heavens.;;;;;;;;;;;;;x
+VIETmisc.8029.d;It is theoretically plausible - physically if we just….;;;;;;;;;;;;;x
+VIETmisc.8030.desc;Although you had a full night's of rest the quality of the sleep must not have been good, because you are feeling drowsy today.;;;;;;;;;;;x
+VIETmisc.8030.a;I have to stay awake!;;;;;;;;;;;;;x
+VIETmisc.8030.b;Maybe a quick nap will do me good.;;;;;;;;;;;;;x
+VIETmisc.8031.desc;The muscles in my shoulders feel sore all of a sudden.;;;;;;;;;;;x
+VIETmisc.8031.a;This will be a problem. Ouch!;;;;;;;;;;;;;x
+VIETmisc.8032.desc;Today I met some important guests from a distant land, but in the middle of our conversation, I got a most terrible foot cramp! Everyone looked around as I held my foot, groaning in pain. My translator tried to explain to the foreigners what was going on, to which they seemed to understand and awkwardly try to comfort me.;;;;;;;;;;;x
+VIETmisc.8032.a;Why me?;;;;;;;;;;;;;x
+VIETmisc.8033.desc;The traveling merchant shows me a so-called hourglass. It is not a particularly common tool, but it can measure time much more accurately than most contemporary methods. Perhaps I should buy one for personal use!;;;;;;;;;;;x
+VIETmisc.8033.a;And I shall!;;;;;;;;;;;;;x
+VIETmisc.8033.b;I have no need.;;;;;;;;;;;;;x
+VIETmisc.8034.desc;A farmer was digging near his residence in [Root.GetName] when he found some small ruins from a bygone era. Though these ruins may be of interest to antiquitarians, not much could be found, as it seems looters already took most of the existing valuables over the centuries - except, that is, an ancient clay pot that despite its age and simplicity, still looks beautiful and exquisite. It is clearly the work of a skilled craftsman. The farmer offers it to you, his liege.;;;;;;;;;;;x
+VIETmisc.8034.a;Good, it’ll make for a nice piece of decoration.;;;;;;;;;;;;;x
+VIETmisc.8034.b;Compensate the farmer for his efforts before taking it.;;;;;;;;;;;;;x
+VIETmisc.8034.c;Nay, the farmer can keep it since he found it.;;;;;;;;;;;;;x
+VIETmisc.8035.desc;There is a traveling scholar staying at my court for a brief while. He owns many impressive instruments, many which he says would take him too long to explain the purpose of, but a seemingly simple magnifying glass piques your interest, for it has been crafted with care and looks quite nice. The scholar says he is willing to sell you it for a good price before he departs.;;;;;;;;;;;x
+VIETmisc.8035.a;Sounds like a deal!;;;;;;;;;;;;;x
+VIETmisc.8035.b;That's fine, I just think it looks nice.;;;;;;;;;;;;;x
+VIETmisc.8036.desc;I was bored one day and noticed a beautiful looking calliper inside a box. Few are as finely crafted and exquisite in quality, so I asked a maid about it. “Maybe long ago you could find calipers in every household across [Root.Location.GetName], but not anymore,” the maid says, “Especially one of this quality.” As a [Root.GetTitle], I can obviously keep it if I like it, she adds.;;;;;;;;;;;x
+VIETmisc.8036.a;Why not. It’s beautiful.;;;;;;;;;;;;;x
+VIETmisc.8036.b;I am a caliper collector.;;;;;;;;;;;;;x
+VIETmisc.8037.desc;Chinese travelers are staying at my court. Leading them is the daughter of a Chinese official of the great [offmap_china.GetName]. I wanted to show her my manor or the nearby town, but she insists on exploring the local scenery and ancient ruins. She is adventurous, so say her traveling companions, who seem unaffected by her antics, in contrast with your scandalized courtiers.;;;;;;;;;;;x
+VIETmisc.8037.a;What a spirited young lady! I like her spark.;;;;;;;;;;;;;x
+VIETmisc.8037.b;If she wishes it, I shall oblige.;;;;;;;;;;;;;x
+VIETmisc.8037.c;This is inappropriate! Women are weak, and it’s dangerous out there.;;;;;;;;;;;;;x
+VIETmisc.8037.d;She is under my protection, so I can’t let her wander off like that.;;;;;;;;;;;;;x
+VIETmisc.8038.tooltip;\n\nDespite the protests of some of your courtiers, you allow her to go as she wishes. She is clearly no dainty flower!;;;;;;;;;;;x
+VIETmisc.8038.desc;The young Chinese lady was most impressed with the local surroundings. She tells me her husband is an open-minded scholar and historian back in China, and the two of them enjoy discussing ancient cultures and peoples. She will definitely share her observations with her husband when she returns home, and he will undoubtedly write a glowing account of my realm!;;;;;;;;;;;x
+VIETmisc.8038.a;I am flattered!;;;;;;;;;;;;;x
+VIETmisc.8039.desc;As night fell, I found myself alone in my chambers. Suddenly - and I don't know how it started - I just began crying. I sobbed for what must have been hours, letting out all my pain and sadness. When it stopped, I felt a little better.;;;;;;;;;;;x
+VIETmisc.8039.a;But things aren't over. Not yet.;;;;;;;;;;;;;x
+VIETmisc.8040.desc;I am drinking an excellently prepared herbal tea made using the horehound herb, said to help with digestion and breathing.;;;;;;;;;;;x
+VIETmisc.8040.a;Ah! What relaxing tea.;;;;;;;;;;;;;x
+VIETmisc.8041.desc;For centuries, the peoples of the Balkans have drank so-called mountain tea, made from the sweet tasting ironwort plant. Today I am drinking some to relax.;;;;;;;;;;;x
+VIETmisc.8041.a;How sweet!;;;;;;;;;;;;;x
+VIETmisc.8042.desc;Black tea, also known as red tea, is considered a precious commodity in this part of the world. I have been given several blocks of dried black tea as a gift. They are said to come from China so their quality should be very high, and I can present these to guests at various banquets and functions.;;;;;;;;;;;x
+VIETmisc.8042.a;Very good!;;;;;;;;;;;;;x
+VIETmisc.8043.desc;I added too much salt to my food and it now tastes disgusting.;;;;;;;;;;;x
+VIETmisc.8043.a;Ugh!;;;;;;;;;;;;;x
+VIETmisc.8043.b;I will try to eat it.;;;;;;;;;;;;;x
+VIETmisc.8044.desc;My cook asks me whether I prefer hard-boiled eggs or soft-boiled eggs.;;;;;;;;;;;x
+VIETmisc.8044.a;Soft.;;;;;;;;;;;;;x
+VIETmisc.8044.b;Hard.;;;;;;;;;;;;;x
+VIETmisc.8044.c;Whatever my cook prefers.;;;;;;;;;;;;;x
+VIETmisc.8044.d;I want to abstain from eggs for a while.;;;;;;;;;;;;;x
+VIETmisc.8045.desc;I am attending a ball when I met a most interesting fellow! He introduces himself as “an old sea captain and rover, now a shipowner and fat merchant.” Cheerful and cordial, he offers you some advice: “Go down to the sea, stand a while. Watch the sun rise and set. Think on the distant lands across the water.";;;;;;;;;;;x
+VIETmisc.8045.a;The man is friendly, and the two of you end up talking for quite a while.;;;;;;;;;;;;;x
+VIETmisc.8046.desc;While in the middle of reviewing some paperwork, the dust must have gotten to my nose and I sneezed! According to [Root.Culture.GetName] superstition, if one sneezes in the middle of work, it is a bad omen and one must interrupt the flow of work - such as by stopping to drink some water - to prevent any misfortune from happening.;;;;;;;;;;;x
+VIETmisc.8046.a;Just superstition. Let's continue work.;;;;;;;;;;;;;x
+VIETmisc.8046.b;It's silly, but just to be safe I'll drink some water.;;;;;;;;;;;;;x
+VIETmisc.8046.c;Oh no! Get me some water, quick!;;;;;;;;;;;;;x
+VIETmisc.8047.desc;[Root.Culture.GetName] belief holds it that if one sneezes, it means someone is talking about you behind your back. Sneeze a certain amount of times, and you'll know what they said. One sneeze means good things, two means bad things, and three means they love you. Today, while talking with a number of people, I happened to sneeze very loudly…;;;;;;;;;;;x
+VIETmisc.8047.a;One time.;;;;;;;;;;;;;x
+VIETmisc.8047.b;Two times.;;;;;;;;;;;;;x
+VIETmisc.8047.c;Three times.;;;;;;;;;;;;;x
+VIETmisc.8048.desc;My chefs prepared an inordinate amount of baklava for a small banquet I was hosting, and I ended up eating most of the baklava! Few could blame me, though - it was very good baklava.;;;;;;;;;;;x
+VIETmisc.8048.a;I'm sorry about that, but also not sorry.;;;;;;;;;;;;;x
+VIETmisc.8049.desc;Recently, pistachios from [Root.GetName] have become very popular in the region. It must be something related to their taste or texture. Exports will likely continue to grow in the coming years.;;;;;;;;;;;x
+VIETmisc.8049.a;Good to hear!;;;;;;;;;;;;;x
+VIETmisc.8050.desc;Some of your courtiers are engaged in an intense debate on which sort of incestuous marriage is the best. Though all are, of course, holy and great deeds any [Root.Religion.GetName] believer can do, there are certainly good points and bad points for each type. You decide to perhaps get involved in the conversation - what do you think is the best kind of incestuous marriage?;;;;;;;;;;;x
+VIETmisc.8050.a;Siblings.;;;;;;;;;;;;;x
+VIETmisc.8050.b;Not just any siblings, but twins.;;;;;;;;;;;;;x
+VIETmisc.8050.c;Parent and child.;;;;;;;;;;;;;x
+VIETmisc.8050.d;Any incest is good!;;;;;;;;;;;;;x
+VIET_incest_debate_choice_bs;Being closer in age, they are more likely to get along with one another and understand things from the other’s perspective.;;;;;;;;;;;x
+VIET_incest_debate_choice_tw;Twins are more than brother and sister. They shared a womb, came into this world together, and thus belong together.;;;;;;;;;;;x
+VIET_incest_debate_choice_pc;A child must understand the source of their origin, and the creator of life must grow closer to that which they created.;;;;;;;;;;;x
+VIET_incest_debate_choice_all;Come on, why must we fight? This is the sort of bickering of fools that will cause unnecessary divisions between all of us.;;;;;;;;;;;x
+VIETmisc.8051.desc;During the day, I tend to forget the stars. But at night, how they shine! Far away, I cannot reach them.;;;;;;;;;;;x
+VIETmisc.8051.a;But I still watch the stars, longing.;;;;;;;;;;;;;x
+VIETmisc.8052.desc;Before me is an endless expanse of grass and the sunset sky colored in pastel shades of rose and gold. A single tree is all there exists. I sit under the tree, and the wind faintly whispers in my ear, singing of the joys and sorrows of the ancients. It gently sways the tree, and shadows of the branches and leaves dance over my face.;;;;;;;;;;;x
+VIETmisc.8052.a;I wake up from the dream, and feel at peace.;;;;;;;;;;;;;x
 VIETmisc.8053.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8053.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8054.desc;xxxxx;;;;;;;;;;;x

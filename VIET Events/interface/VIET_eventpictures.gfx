@@ -1994,6 +1994,16 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\coast_night.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_drinking_tea"
+		texturefile = "gfx\\event_pictures\\drinking_tea.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_busy_trading_dock_republic_iberian"
+		texturefile = "gfx\\event_pictures\\columbus.tga"
+		allwaystransparent = yes
+	}
 	
 }
 

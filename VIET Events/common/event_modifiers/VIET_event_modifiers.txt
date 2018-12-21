@@ -869,7 +869,7 @@ VIET_loves_cute_maids = {
 	icon = 39
 }
 VIET_dislikes_hipsters = {
-	monthly_character_piety = 0.01
+	monthly_character_piety = 0.05
 	diplomacy = 1
 	learning = -1
 	icon = 10
