@@ -36,51 +36,51 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = humble
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = proud
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			learning = 14
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			NOT = { learning = 8 }
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = paranoid
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = cynical
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = zealous
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = erudite
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = stubborn
 		}
 	}
@@ -130,43 +130,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = humble
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = proud
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = paranoid
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = chaste
 		}
 	}
@@ -296,7 +296,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2500
+		months = 4000
 		modifier = {
 			owner = {
 				war = yes
@@ -336,43 +336,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			learning = 12
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			NOT = { learning = 8 }
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			diplomacy = 12
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			NOT = { diplomacy = 8 }
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = paranoid
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = ambitious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = content
 		}
 	}
@@ -413,43 +413,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = paranoid
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = trusting
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = cruel
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = kind
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = arbitrary
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = just
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = wroth
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = patient
 		}
 	}
@@ -485,51 +485,51 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = paranoid
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = trusting
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = slothful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = diligent
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = wroth
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = patient
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = absentminded
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = perceptive
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			is_dumb_trigger = yes
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			is_smart_trigger = yes
 		}
 	}
@@ -575,43 +575,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = diligent
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = slothful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = paranoid
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gluttonous
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = temperate
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = absentminded
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = perceptive
 		}
 	}
@@ -656,35 +656,35 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = humble
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = proud
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = paranoid
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			NOT = { health = 4 }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			health = 6
 		}
 	}
@@ -730,51 +730,51 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = humble
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = proud
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = paranoid
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = perceptive
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = absentminded
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = diligent
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = slothful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = ambitious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = content
 		}
 	}
@@ -825,43 +825,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = paranoid
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = chaste
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = envious
 		}
 	}
@@ -904,43 +904,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = zealous
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = cynical
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gardener
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = scholar
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = envious
 		}
 	}
@@ -989,43 +989,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = cynical
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = zealous
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = wroth
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = patient
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = honest
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = deceitful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = envious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = kind
 		}
 	}
@@ -1037,7 +1037,6 @@ character_event = {
 }
 
 # haha u die sucker
-# EDIT from ziji: nope, you don't. bad, bad cybr.
 character_event = {
 	id = VIETScarboroughFair.15
 	desc = VIETScarboroughFair.15.desc
@@ -1054,11 +1053,11 @@ character_event = {
 		in_command = no
 	}
 
-	weight_multiplier = {
+	weight_multiplier = { #should be rare - low chance in on_actions
 		days = 1
-		modifier = { #should be rare
-			factor = 0.01
-		}
+		#modifier = { 
+		#	factor = 0.01
+		#}
 	}
 
 	option = {#yes
@@ -1089,43 +1088,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gluttonous
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = temperate
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = wroth
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = patient
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = chaste
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = greedy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = charitable
 		}
 	}
@@ -1170,35 +1169,35 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = diligent
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = slothful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = cruel
 		}
 	}
@@ -1230,43 +1229,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = slothful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = diligent
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = cynical
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = zealous
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = cruel
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = paranoid
 		}
 	}
@@ -1304,35 +1303,35 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = paranoid
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = trusting
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = cynical
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = zealous
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 	}
@@ -1418,35 +1417,35 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = chaste
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = paranoid
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = trusting
 		}
 	}
@@ -1533,46 +1532,44 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = chaste
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = lustful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = cruel
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = just
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = arbitrary
 		}
 		modifier = {
-			factor = 0.5
-			AND = {
-				is_married = yes
-				NOT = { trait = lustful }
-			}
+			factor = 0.4
+			is_married = yes
+			NOT = { trait = lustful }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			age = 50
 		}
 	}
@@ -1666,43 +1663,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = diligent
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = slothful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = cruel
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = just
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = arbitrary
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = ambitious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = content
 		}
 	}
@@ -1749,35 +1746,35 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = slothful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = diligent
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = chaste
 		}
 	}
@@ -1812,43 +1809,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = diligent
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = slothful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = just
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = honest
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = deceitful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			NOT = { intrigue = 9 }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			intrigue = 16
 		}
 	}
@@ -1913,43 +1910,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = zealous
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = just
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = wroth
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = patient
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = envious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = kind
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = temperate
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gluttonous
 		}
 	}
@@ -2047,43 +2044,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gluttonous
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = temperate
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			prestige = 1500
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			NOT = { prestige = 500 }
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = cruel
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 	}
@@ -2119,35 +2116,35 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gluttonous
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = temperate
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = wroth
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = patient
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = paranoid
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = trusting
 		}
 	}
@@ -2184,43 +2181,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gluttonous
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = temperate
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = ambitious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = content
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = diligent
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = slothful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = greedy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			NOT = { learning = 9 }
 		}
 	}
@@ -2253,7 +2250,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 5000
+		months = 6000
 		modifier = {
 			OR = {
 				culture_group = serindian
@@ -2315,7 +2312,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 4000
+		months = 6000
 	}
 
 	option = {#yes
@@ -2466,27 +2463,27 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = diligent
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = slothful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = envious
 		}
 		modifier = {
@@ -2548,43 +2545,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = diligent
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = slothful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = envious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = honest
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = deceitful
 		}
 	}
@@ -2648,43 +2645,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			intrigue = 14
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			NOT = { intrigue = 8 }
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = diligent
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = slothful
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = deceitful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = honest
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = temperate
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gluttonous
 		}
 	}
@@ -2740,43 +2737,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = proud
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = humble
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = envious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = chaste
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = greedy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = charitable
 		}
 	}
@@ -2866,51 +2863,51 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = proud
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = humble
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = craven
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = brave
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = arbitrary
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = just
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = paranoid
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = trusting
 		}
 	}
@@ -2948,43 +2945,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = proud
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = humble
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = deceitful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = honest
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = paranoid
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = trusting
 		}
 	}
@@ -3024,7 +3021,7 @@ character_event = {
 character_event = {
 	id = VIETScarboroughFair.43
 	desc = VIETScarboroughFair.43.desc
-	picture = GFX_evt_busy_trading_dock_republic
+	picture = GFX_evt_herbs_and_spices
 
 	is_triggered_only = yes
 
@@ -3052,43 +3049,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = shy
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = proud
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = humble
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = deceitful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = honest
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = paranoid
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = trusting
 		}
 	}
@@ -3138,35 +3135,35 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = proud
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = humble
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gluttonous
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = temperate
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = cynical
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = zealous
 		}
 	}
@@ -3210,43 +3207,43 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = chaste
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = proud
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = humble
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = zealous
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = cynical
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = content
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = ambitious
 		}
 	}
@@ -3314,35 +3311,35 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = chaste
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = humble
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = proud
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = cynical
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = zealous
 		}
 	}
@@ -3549,11 +3546,11 @@ character_event = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			year = 1300
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			NOT = { year = 1000 }
 		}
 	}
@@ -3641,55 +3638,55 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 5
+			factor = 2
 			trait = zealous
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = lustful
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = chaste
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = just
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = arbitrary
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = humble
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = proud
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = honest
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = deceitful
 		}
 	}

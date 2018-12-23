@@ -1,0 +1,505 @@
+########################################################
+#
+# Event Chains
+# Fired from on_actions ten year pulse
+# VIETmisc.5000-5999 reserved
+#
+# List of event chains:
+# Cinnamon Toast Crunch 5000 - 5006
+# Napoleon's Omelette 5007-5014
+# The Minotaur 5015-5020
+# Tarim Basin Documents 5021-5027
+# Imouto Toothbrushing 5028-5042
+# Burnt 5043-5053
+# Succubus 5054-5059
+# Imouto Toothbrushing Non-Incest Alternative 5060
+# Fast Love/Kogarashi Sentiment Referencing 5061-5082
+# Toymakers 5083-5088
+# Childhood Friends 5089-
+#
+########################################################
+
+
+namespace = VIETmisc
+
+########################################################################################
+# Kogarashi Sentiment/Fast Love
+#
+# (It's an affectionate parody/po-mo take on 80s/90s shoujo OPs)
+#
+# Romaji and Commiesubs' translation:
+#
+# Riyuu sae mo wasureteta namida de / My memories are still beautiful despite a sheet of frozen tears,
+# Kooritsuita omoide ha kirei de / and I don’t remember why I shed them
+#
+# Ano kisetsu to onaji kogarashi ga / Now the winter winds of yesteryear
+# Futari no jikan wo ima makimodosu / turn back the clock for us
+#
+# Kanchigai ichiji no ki no mayoi / A misunderstanding, a moment’s hesitation
+# Arifureta SENCHIMENTARIRIZUMU / Cliched sentimentalism
+# eien ni / The perfect moment,
+# Mitsukaranai setsuna / lost forever
+#
+# Mou ichido / Once more
+# Mou nidoto / Never again
+# ienai kotoba ha / I remain young and trusting
+# Osanai mama yasashii mama / with my unspoken love
+# Kajikanda kioku / and numb memories
+#
+# Mouichido / Once more
+# Mou nidoto / Never again
+# iwanai kotae mo / I never gave an answer, 
+# Kanashii mama / which pains me
+# Kawaii mama / but I remain beautiful
+# Nukumori dake okiwasurete / the warmth of your skin.
+#
+########################################################################################
+
+
+
+# Wintry Wind Sentiment Introduce
+character_event = {
+	id = VIETmisc.5061
+	title = VIETmisc.5061.title
+	desc = VIETmisc.5061.desc
+	picture = GFX_evt_hyouka
+
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	ai = no
+	only_men = yes
+	war = no
+
+	trigger = {
+		in_command = no
+		NOT = { has_global_flag = VIET_kogarashi_sentiment }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = depressed
+		}
+		modifier = {
+			factor = 0.8
+			trait = hedonist
+		}
+		modifier = {
+			factor = 1.2
+			trait = stressed
+		}
+		modifier = {
+			factor = 0.8
+			trait = celibate
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+
+	option = {
+		name = VIETmisc.5061.a
+		set_global_flag = VIET_kogarashi_sentiment
+		set_character_flag = VIET_kogarashi_sentiment_character
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5062 days = 2 random = 2 }
+		}
+	}
+}
+
+# My Memories are Still Beautiful
+character_event = {
+	id = VIETmisc.5062
+	title = VIETmisc.5062.title
+	desc = VIETmisc.5062.desc
+	picture = GFX_evt_her_smile
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5062.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5063 days = 2 random = 2 }
+		}
+	}
+}
+
+# Despite a Sheet of Frozen Tears
+character_event = {
+	id = VIETmisc.5063
+	title = VIETmisc.5063.title
+	desc = VIETmisc.5063.desc
+	picture = GFX_evt_child_sword
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5063.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5064 days = 2 random = 2 }
+		}
+	}
+}
+
+# And I Don’t Remember
+character_event = {
+	id = VIETmisc.5064
+	title = VIETmisc.5064.title
+	desc = VIETmisc.5064.desc
+	picture = GFX_evt_child_talking
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5064.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5065 days = 2 random = 2 }
+		}
+	}
+}
+
+# Why I Shed These Tears
+character_event = {
+	id = VIETmisc.5065
+	title = VIETmisc.5065.title
+	desc = VIETmisc.5065.desc
+	picture = GFX_evt_quarrel
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5065.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5066 days = 2 random = 2 }
+		}
+	}
+}
+
+# Now the Winter Winds of Yesteryear
+character_event = {
+	id = VIETmisc.5066
+	title = VIETmisc.5066.title
+	desc = VIETmisc.5066.desc
+	picture = GFX_evt_snow_in_winter
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5066.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5067 days = 2 random = 2 }
+		}
+	}
+}
+
+# Turn Back the Clock for Us
+character_event = {
+	id = VIETmisc.5067
+	title = VIETmisc.5067.title
+	desc = VIETmisc.5067.desc
+	picture = GFX_evt_lovers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5067.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5068 days = 2 random = 2 }
+		}
+	}
+}
+
+# A Misunderstanding
+character_event = {
+	id = VIETmisc.5068
+	title = VIETmisc.5068.title
+	desc = VIETmisc.5068.desc
+	picture = GFX_evt_child_talking
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5068.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5069 days = 2 random = 2 }
+		}
+	}
+}
+
+# A Moment’s Hesitation
+character_event = {
+	id = VIETmisc.5069
+	title = VIETmisc.5069.title
+	desc = VIETmisc.5069.desc
+	picture = GFX_evt_quarrel
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5069.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5070 days = 2 random = 2 }
+		}
+	}
+}
+
+# Cliched Sentimentalism
+character_event = {
+	id = VIETmisc.5070
+	title = VIETmisc.5070.title
+	desc = VIETmisc.5070.desc
+	picture = GFX_evt_lovers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5070.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5071 days = 2 random = 2 }
+		}
+	}
+}
+
+# The Perfect Moment
+character_event = {
+	id = VIETmisc.5071
+	title = VIETmisc.5071.title
+	desc = VIETmisc.5071.desc
+	picture = GFX_evt_maiden
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5071.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5072 days = 2 random = 2 }
+		}
+	}
+}
+
+# Lost Forever
+character_event = {
+	id = VIETmisc.5072
+	title = VIETmisc.5072.title
+	desc = VIETmisc.5072.desc
+	picture = GFX_evt_lovers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5072.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5073 days = 2 random = 2 }
+		}
+	}
+}
+
+# Once More, Never Again
+character_event = {
+	id = VIETmisc.5073
+	title = VIETmisc.5073.title
+	desc = VIETmisc.5073.desc
+	picture = GFX_evt_hyouka
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5073.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5074 days = 2 random = 2 }
+		}
+	}
+}
+
+# I Remain Young and Trusting
+character_event = {
+	id = VIETmisc.5074
+	title = VIETmisc.5074.title
+	desc = VIETmisc.5074.desc
+	picture = GFX_evt_her_smile
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5074.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5075 days = 2 random = 2 }
+		}
+	}
+}
+
+# With My Unspoken Love
+character_event = {
+	id = VIETmisc.5075
+	title = VIETmisc.5075.title
+	desc = VIETmisc.5075.desc
+	picture = GFX_evt_lovers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5075.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5076 days = 2 random = 2 }
+		}
+	}
+}
+
+# And Numb Memories
+character_event = {
+	id = VIETmisc.5076
+	title = VIETmisc.5076.title
+	desc = VIETmisc.5076.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5076.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5077 days = 2 random = 2 }
+		}
+	}
+}
+
+# Once More, Never Again
+character_event = {
+	id = VIETmisc.5077
+	title = VIETmisc.5077.title
+	desc = VIETmisc.5077.desc
+	picture = GFX_evt_lovers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5077.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5078 days = 2 random = 2 }
+		}
+	}
+}
+
+# I Never Gave an Answer
+character_event = {
+	id = VIETmisc.5078
+	title = VIETmisc.5078.title
+	desc = VIETmisc.5078.desc
+	picture = GFX_evt_rainstorm
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5078.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5079 days = 2 random = 2 }
+		}
+	}
+}
+
+# Which Pains Me
+character_event = {
+	id = VIETmisc.5079
+	title = VIETmisc.5079.title
+	desc = VIETmisc.5079.desc
+	picture = GFX_evt_rainstorm
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5079.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5080 days = 2 random = 2 }
+		}
+	}
+}
+
+# But I Remain Beautiful
+character_event = {
+	id = VIETmisc.5080
+	title = VIETmisc.5080.title
+	desc = VIETmisc.5080.desc
+	picture = GFX_evt_hyouka
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5080.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5081 days = 2 random = 2 }
+		}
+	}
+}
+
+# And Leave Behind
+character_event = {
+	id = VIETmisc.5081
+	title = VIETmisc.5081.title
+	desc = VIETmisc.5081.desc
+	picture = GFX_evt_snow_in_winter
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5081.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.5082 days = 2 random = 2 }
+		}
+	}
+}
+
+# The Warmth of Your Skin
+character_event = {
+	id = VIETmisc.5082
+	title = VIETmisc.5082.title
+	desc = VIETmisc.5082.desc
+	picture = GFX_evt_her_smile
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5082.a
+		piety = 50
+		add_trait = kind
+		add_trait = humble
+		add_trait = chaste
+	}
+}
+
+
+
+
+

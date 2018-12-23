@@ -39,4 +39,12 @@ spriteTypes = {
 		name = "GFX_VIET_magnifying_glass_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_magnifying_glass_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_nutcracker"
+		texturefile = "gfx\\interface\\artifacts\\VIET_nutcracker.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_nutcracker_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_nutcracker_small.dds"
+	}
 }

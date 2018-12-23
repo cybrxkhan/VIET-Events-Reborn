@@ -23,6 +23,9 @@ VIETmisc.8006.desc;A bridge in [Root.GetName] has recently collapsed. As a major
 VIETmisc.8006.a;Send in emergency resources immediately!;;;;;;;;;;;;;x
 VIETmisc.8006.b;Do whatever is necessary.;;;;;;;;;;;;;x
 VIETmisc.8006.c;The locals can take care of it themselves.;;;;;;;;;;;;;x
+VIET_bridge_fix_sooner;\nThe bridge is fixed in a quick timeframe.;;;;;;;;;;;;;x
+VIET_bridge_fix_okay;\nThe bridge is fixed in a reasonable timeframe.;;;;;;;;;;;;;x
+VIET_bridge_fix_bad;\nThe bridge takes a long while to get fixed.;;;;;;;;;;;;;x
 VIETmisc.8007.desc;The sky over [Root.GetName] turned several colors at once, unnatural hues of purple, red, green, blue, pink, and more. This lasted many days and though there were no known effects, the inhabitants of the region are bewildered. None of the local learned men nor mystics could explain this phenomenon.;;;;;;;;;;;x
 VIETmisc.8007.a;Who knows what mysterious forces are at play here?;;;;;;;;;;;;;x
 VIET_famous_bard_settles;The bard settles down in your lands.;;;;;;;;;;;x
@@ -49,8 +52,11 @@ VIETmisc.8012.a;Suspicious. Very suspicious….;;;;;;;;;;;;;x
 VIETmisc.8012.b;This is awkward.;;;;;;;;;;;;;x
 VIETmisc.8012.c;Sounds good!;;;;;;;;;;;;;x
 VIETmisc.8012.d;I’ll apologize - I’m sure they had their reasons.;;;;;;;;;;;;;x
-VIETmisc.8013.desc;[target_VIET_vanished_death_courtier.GetName] was never found. The trail ran cold. As far as anyone knows, [target_VIET_vanished_death_courtier.GetSheHe] either went somewhere without telling anyone or died. But it is odd that [target_VIET_vanished_death_courtier.GetSheHe] wouldn’t have told anyone, so rumor is that [target_VIET_vanished_death_courtier.GetSheHe] died. What a tragedy!;;;;;;;;;;;x
-VIETmisc.8013.a;What could have happened to them?;;;;;;;;;;;;;x
+VIETmisc.8013.desc;Someone is asking me for recommendations for good reading. By coincidence, just yesterday I finished reading a wonderful book. I enjoyed it greatly and would recommend to a lot of people. Specifically, the story is a...;;;;;;;;;;;x
+VIETmisc.8013.a;Sappy, dramatic romance about true love.;;;;;;;;;;;;;x
+VIETmisc.8013.b;Gritty, dark tale with bloodshed and deviancy.;;;;;;;;;;;;;x
+VIETmisc.8013.c;Fantastical adventure to foreign lands.;;;;;;;;;;;;;x
+VIETmisc.8013.d;Collection of amusing anecdotes about daily life.;;;;;;;;;;;;;x
 VIETmisc.8014.desc;I am entertaining some important members of a nearby city today - they include high ranking officials, merchants, scholars, and more. I notice among them is a young man, handsome and of good heart, yet clearly forlorn and disturbed. “Let him be,” one of his companions whispers to me. “He is melancholy because of a woman!”;;;;;;;;;;;x
 VIETmisc.8014.a;What foolishness! I’ll set the lad’s head straight.;;;;;;;;;;;;;x
 VIETmisc.8014.b;Let me reason with the fellow.;;;;;;;;;;;;;x
@@ -184,7 +190,7 @@ VIETmisc.8048.desc;My chefs prepared an inordinate amount of baklava for a small
 VIETmisc.8048.a;I'm sorry about that, but also not sorry.;;;;;;;;;;;;;x
 VIETmisc.8049.desc;Recently, pistachios from [Root.GetName] have become very popular in the region. It must be something related to their taste or texture. Exports will likely continue to grow in the coming years.;;;;;;;;;;;x
 VIETmisc.8049.a;Good to hear!;;;;;;;;;;;;;x
-VIETmisc.8050.desc;Some of your courtiers are engaged in an intense debate on which sort of incestuous marriage is the best. Though all are, of course, holy and great deeds any [Root.Religion.GetName] believer can do, there are certainly good points and bad points for each type. You decide to perhaps get involved in the conversation - what do you think is the best kind of incestuous marriage?;;;;;;;;;;;x
+VIETmisc.8050.desc;Some of your courtiers are engaged in an intense debate on which sort of incestuous marriage is the best. Though all are, of course, holy and great deeds any [Root.Religion.GetName] believer can do, there are certainly good points and bad points for each type. You decide to get involved in the conversation - what do you think is the best kind of incestuous marriage?;;;;;;;;;;;x
 VIETmisc.8050.a;Siblings.;;;;;;;;;;;;;x
 VIETmisc.8050.b;Not just any siblings, but twins.;;;;;;;;;;;;;x
 VIETmisc.8050.c;Parent and child.;;;;;;;;;;;;;x

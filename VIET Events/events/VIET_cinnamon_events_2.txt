@@ -34,8 +34,8 @@ character_event = {
 	trigger = {
 		in_command = no
 		NOT = { has_character_flag =  VIET_chinese_traveler_tells_stories }
-		OR = {
-			capital_scope = {
+		capital_scope = {
+			OR = {
 				region = custom_eastern_edge_of_map
 				region = world_himalayas
 				region = world_steppe
@@ -43,42 +43,42 @@ character_event = {
 				region = world_persia
 				region = world_middle_east
 				region = world_asia_minor				
-			}
+			}				
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = shy
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = humble
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = proud
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = wroth
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			trait = paranoid
 		}
 	}

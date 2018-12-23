@@ -35,3 +35,9 @@ VIET_magnifying_glass = {
 	#stacking = no
 	picture = "GFX_VIET_magnifying_glass"
 }
+VIET_nutcracker = {
+	monthly_character_prestige = 0.01
+	quality = 1
+	#stacking = no
+	picture = "GFX_VIET_nutcracker"
+}
