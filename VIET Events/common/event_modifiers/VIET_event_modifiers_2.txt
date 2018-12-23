@@ -141,7 +141,7 @@ VIET_province_haunted_ship = {
 	icon = 62
 }
 VIET_province_flat_stone = {
-	cultural_techpoints = 0.1
+	culture_techpoints = 0.1
 	disease_defence = 0.02
 	add_prestige_modifier = 0.05
 	icon = 48
@@ -178,6 +178,7 @@ VIET_nerd_hates_sports = {
 	general_opinion = -10
 	stewardship = 1
 	learning = 1
+	combat_rating = -5
 	icon = 116
 }
 VIET_amazing_singer_modifier = {
@@ -238,4 +239,84 @@ VIET_province_friendly_beach_ghost = {
 	local_tax_modifier = 0.02
 	land_morale = 0.02
 	icon = 8
+}
+VIET_interesting_idealistic_ideas = {
+	learning = 1
+	icon = 85
+}
+VIET_lack_of_good_sleep = {
+	health = -0.75
+	diplomacy = -1
+	combat_rating = -5
+	icon = 70
+}
+VIET_quick_nap = {
+	health = 0.5
+	monthly_character_piety = 0.01
+	icon = 69
+}
+VIET_sore_muscles = {
+	health = -0.2
+	diplomacy = -1
+	icon = 70
+}
+VIET_written_in_chinese_records = {
+	monthly_character_prestige = 0.5
+	general_opinion = 10
+	icon = 99
+}
+VIET_horehound_tea = {
+	health = 0.2
+	icon = 87
+}
+VIET_mountain_tea = {
+	health = 0.1
+	monthly_character_piety = 0.01
+	icon = 87
+}
+VIET_chinese_black_tea_gift = {
+	diplomacy = 2
+	monthly_character_prestige = 0.1
+	icon = 87
+}
+VIET_admiring_beauty = {
+	fertility = 0.05
+	monthly_character_piety = 0.02
+	icon = 39
+}
+VIET_poetry_contemplation = {
+	diplomacy = 1
+	learning = 1
+	icon = 3
+}
+VIET_sobering_lesson = {
+	learning = 1
+	monthly_character_piety = 0.04
+	icon = 3
+}
+VIET_interesting_talk_with_stranger = {
+	diplomacy = 1
+	icon = 18
+}
+VIET_nightgazer = {
+	monthly_character_piety = 0.01
+	icon = 79
+}
+VIET_duck_wobbler = {
+	diplomacy = -1
+	combat_rating = -5
+	icon = 74
+}
+VIET_fox_spirit_dreams = {
+	fertility = 0.03
+	monthly_character_piety = -0.01
+	icon = 71
+}
+VIET_buzzing_noises = {
+	health = -0.5
+	icon = 80
+}
+VIET_province_pistachios = {
+	local_tax_modifier = 0.15
+	icon = 87
 }

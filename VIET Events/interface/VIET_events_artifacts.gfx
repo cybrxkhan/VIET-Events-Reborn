@@ -7,4 +7,44 @@ spriteTypes = {
 		name = "GFX_VIET_abacus_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_abacus_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_ancient_pottery"
+		texturefile = "gfx\\interface\\artifacts\\VIET_ancient_pottery.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_ancient_pottery_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_ancient_pottery_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_calipers"
+		texturefile = "gfx\\interface\\artifacts\\VIET_calipers.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_calipers_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_calipers_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_hourglass"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hourglass.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_hourglass_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hourglass_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_magnifying_glass"
+		texturefile = "gfx\\interface\\artifacts\\VIET_magnifying_glass.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_magnifying_glass_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_magnifying_glass_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_nutcracker"
+		texturefile = "gfx\\interface\\artifacts\\VIET_nutcracker.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_nutcracker_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_nutcracker_small.dds"
+	}
 }

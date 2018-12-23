@@ -5,7 +5,7 @@ on_yearly_pulse = {
 		VIET_yearly_random = {
 			delay = 8
 			
-			5800 = 0
+			20850 = 0
 			
 			#VIET EVENTS
 			#Generic Trait Events
@@ -33,7 +33,11 @@ on_yearly_pulse = {
 			100 = VIETnam.93 # Trusting - courtier played prank on you
 			100 = VIETnam.94 # Deceitful - never show true self
 			100 = VIETnam.95 # Honest - criticize a bad merchant
-			100 = VIETnam.96 # Cruel - your character is a tyrant
+			100 = VIETnam.96 # Cruel - your character is a tyrant			
+			#Food
+			100 = VIETnam.193				# Sour Kefir
+			100 = VIETnam.194				# North African mint tea ceremony
+			100 = VIETnam.195				# Altaic food pit stop
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.1 	# Something in your hair
@@ -54,12 +58,38 @@ on_yearly_pulse = {
 			100 = VIETScarboroughFair.45 	# Courtier does too much perfume
 			100 = VIETScarboroughFair.46 	# Are tans good?
 			
+			#Moss pond
+			100 = VIETmisc.2292 	# Moss Pond
+			#Animal themed
+			100 = VIETmisc.2293 	# Turtle on a rock
+			100 = VIETmisc.2294 	# Annoying bird
+			100 = VIETmisc.2299 	# Hopping mice of India
+			100 = VIETmisc.2304 	# Courtier wobbles like a duck
+			100 = VIETmisc.2306 	# Rat appears
+			#Ear
+			100 = VIETmisc.2310 	# Giant earwax
+			
 			#Reborn Events
 			100 = VIETmisc.8000 # Memories of a lost love
 			100 = VIETmisc.8001 # Servant has a crush on a maid
 			100 = VIETmisc.8002 # Having a good day!
 			100 = VIETmisc.8005 # Courtier said something inappropriate
+			100 = VIETmisc.8012 # Suspicious conversation
 			100 = VIETmisc.8019 # Nightmare about the ocean
+			100 = VIETmisc.8024 # Mint before toothbrushing?
+			100 = VIETmisc.8025 # Nice dream
+			100 = VIETmisc.8027 # Female leader is asked about preferences in men
+			100 = VIETmisc.8030 # Feeling sleepy
+			100 = VIETmisc.8031 # Sore muscles
+			100 = VIETmisc.8032 # Awkward foot cramp
+			100 = VIETmisc.8039 # Sad character cries
+			100 = VIETmisc.8040 # Horehound herbal tea
+			100 = VIETmisc.8041 # Balkan mountain tea
+			100 = VIETmisc.8043 # Too much salt
+			100 = VIETmisc.8044 # How to cook eggs?
+			100 = VIETmisc.8046 # Indian superstition about singing
+			100 = VIETmisc.8047 # Asian superstition about the number of sneezes
+			100 = VIETmisc.8052 # Good dream
 		}
 		
 	}
@@ -72,7 +102,11 @@ on_bi_yearly_pulse = {
 		VIET_bi_yearly_random = {
 			delay = 9
 			
-			5800 = 0
+			15800 = 0
+			
+			#Food
+			100 = VIETnam.191				# Byzantine cook
+			100 = VIETnam.192				# Forks are terrible!
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.0 	# What is greater, the real or the fake?
@@ -85,11 +119,39 @@ on_bi_yearly_pulse = {
 			100 = VIETScarboroughFair.43 	# Gift of cubeb
 			100 = VIETScarboroughFair.44 	# Bring courtesan to bed
 			
+			#Christmas
+			100 = VIETmisc.2286 	# Do you believe Saint Nick is still alive?
+			100 = VIETmisc.2287 	# Mistletoe, but no one is under it with you
+			100 = VIETmisc.2289 	# Nutcracker
+			#Moss
+			100 = VIETmisc.2290 	# Moss on walls
+			100 = VIETmisc.2291 	# Moss and feet
+			#Animal themed
+			100 = VIETmisc.2296 	# Petrels
+			100 = VIETmisc.2297 	# Evil toads
+			100 = VIETmisc.2300 	# Geckos are annoying people
+			100 = VIETmisc.2305 	# Small bird lands on head
+			100 = VIETmisc.2307 	# What does the Tibetan fox say?
+			#Ear
+			100 = VIETmisc.2311		# Lip balm from earwax
+			100 = VIETmisc.2312		# Christian sailor washes ashore
+			100 = VIETmisc.2313		# Buzzing noises
+			100 = VIETmisc.2314		# Buzzing noises - courtier
+			
 			#Reborn Events
 			100 = VIETmisc.8003 # Saw a mudcrab the other day
-			100 = VIETmisc.8013 # Meet a young man who is feeling sad about a girl
+			100 = VIETmisc.8013 # Recommend a book
+			100 = VIETmisc.8014 # Young man is feeling sad about a girl
 			100 = VIETmisc.8016 # Dropped papers in poop
 			100 = VIETmisc.8018 # Chinese women play polo
+			100 = VIETmisc.8022 # Thoughts on vegetarians?
+			100 = VIETmisc.8023 # Rumors about the Blessed Isles
+			100 = VIETmisc.8026 # Female ruler surrounded by hunky bodyguards
+			100 = VIETmisc.8033 # Purchasing an hourglass?
+			100 = VIETmisc.8042 # Gift of herbal tea from China
+			100 = VIETmisc.8048 # Eating Baklava
+			100 = VIETmisc.8050 # Incest argument
+			100 = VIETmisc.8051 # Stars gazing
 		
 		}
 		
@@ -104,7 +166,7 @@ on_five_year_pulse = {
 		VIET_five_year_random = {
 			delay = 28
 			
-			5800 = 0
+			10800 = 0
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.10 	# who cut the cheese?
@@ -116,11 +178,23 @@ on_five_year_pulse = {
 			100 = VIETScarboroughFair.28 	# Merchant offers abacus
 			100 = VIETScarboroughFair.32 	# Gift of reishi mushroom
 			
+			#Christmas
+			100 = VIETmisc.2285 	# Santa Claus is coming to town
+			100 = VIETmisc.2288 	# Candy canes
+			#Animals
+			100 = VIETmisc.2298 	# Owl attack
+			100 = VIETmisc.2302 	# Headless chicken
+			100 = VIETmisc.2303 	# Fiji mermaid hoax
+			
 			#Reborn Events
 			100 = VIETmisc.8004 # STOP! YOU VIOLATED THE LAW!
-			100 = VIETmisc.8012 # Courtier goes missing
 			100 = VIETmisc.8017 # Rumors about a powerful empress
 			100 = VIETmisc.8020 # Wonderful singer
+			100 = VIETmisc.8029 # Flying contraptions
+			100 = VIETmisc.8035 # Magnifying glass
+			100 = VIETmisc.8036 # Calipers
+			100 = VIETmisc.8037 # Spirited Chinese lady visits court
+			100 = VIETmisc.8045 # S'shana the Old Sea Captain
 		
 		}
 		
@@ -134,10 +208,18 @@ on_decade_pulse = {
 			delay = 2
 			5800 = 0
 			
+			#EVENT CHAINS
+			#100 = OCC.1				# Dance with the dead - will need to fix text
+			#100 = OCC.2				# Dance with the dead
+			100 = VIETmisc.5061		# Kogarashi Sentiment
+			
 			#Swansong Events (Swansong no more)
 			1 = VIETScarboroughFair.15			# died choking to death
 			100 = VIETScarboroughFair.48		# Scarborough Fair song
 			100 = VIETScarboroughFair.100		# Xwedodah preacher
+			
+			#Reborn Events
+			100 = VIETmisc.9000					# Meet a merchant who went to China
 		}
 	}
 }

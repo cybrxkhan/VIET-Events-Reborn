@@ -4,7 +4,40 @@ VIET_abacus = {
 	stewardship = 1
 	learning = 1
 	quality = 1
-	stacking = no
+	#stacking = no
 	#flags = { VIET_abacus }
 	picture = "GFX_VIET_abacus"
+}
+VIET_ancient_pottery = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.01
+	quality = 2
+	#stacking = no
+	picture = "GFX_VIET_ancient_pottery"
+}
+VIET_calipers = {
+	stewardship = 1
+	quality = 1
+	#stacking = no
+	picture = "GFX_VIET_calipers"
+}
+VIET_hourglass = {
+	stewardship = 1
+	intrigue = 1
+	quality = 1
+	#stacking = no
+	picture = "GFX_VIET_hourglass"
+}
+VIET_magnifying_glass = {
+	intrigue = 1
+	learning = 1
+	quality = 2
+	#stacking = no
+	picture = "GFX_VIET_magnifying_glass"
+}
+VIET_nutcracker = {
+	monthly_character_prestige = 0.01
+	quality = 1
+	#stacking = no
+	picture = "GFX_VIET_nutcracker"
 }

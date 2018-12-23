@@ -178,7 +178,7 @@ advice_giver = {
 	diplomacy = 1
 	learning = 1
 	monthly_character_prestige = 0.01
-	icon = 7
+	icon = 18
 }
 widowed = {
 	health = -0.2
@@ -784,9 +784,9 @@ VIET_toymaking_boom = {
 	icon = 12
 }
 VIET_good_exercise = {
-	health = 0.2
+	health = 0.5
 	fertility = 0.05
-	icon = 13
+	icon = 123
 }
 VIET_headless_chicken = {
 	monthly_character_prestige = 0.05
@@ -796,7 +796,7 @@ VIET_hoax_catcher = {
 	intrigue = 1
 	monthly_character_prestige = 0.05
 	monthly_character_piety = 0.05
-	icon = 5
+	icon = 81
 }
 VIET_province_wolf_attacks = {
 	local_build_time_modifier = 0.03
@@ -811,7 +811,7 @@ VIET_province_fishing_boom = {
 }
 VIET_using_earwax_lip_balm = {
 	monthly_character_prestige = 0.01
-	fertility = 0.01
+	sex_appeal_opinion = 5
 	icon = 39
 }
 VIET_im_curious = { #cf chitanda
@@ -869,7 +869,7 @@ VIET_loves_cute_maids = {
 	icon = 39
 }
 VIET_dislikes_hipsters = {
-	monthly_character_piety = 0.01
+	monthly_character_piety = 0.05
 	diplomacy = 1
 	learning = -1
 	icon = 10

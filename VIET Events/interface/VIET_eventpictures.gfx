@@ -144,11 +144,11 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\skyrim_forest.tga"
 		allwaystransparent = yes
 	}	
-	spriteType = {
-		name = "GFX_evt_skyrim_forest_muslim"
-		texturefile = "gfx\\event_pictures\\skyrim_forest_muslim.tga"
-		allwaystransparent = yes
-	}
+#	spriteType = {
+#		name = "GFX_evt_skyrim_forest_muslim"
+#		texturefile = "gfx\\event_pictures\\skyrim_forest_muslim.tga"
+#		allwaystransparent = yes
+#	}
 	spriteType = {
 		name = "GFX_evt_fetih"
 		texturefile = "gfx\\event_pictures\\fetih.tga"
@@ -329,26 +329,26 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\skyrim_forest_greek.tga"
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_evt_busy_trading_dock_republic_muslim"
-		texturefile = "gfx\\event_pictures\\busy_trading_dock_republic_muslim.tga"
-		allwaystransparent = yes
-	}
-	spriteType = {
-		name = "GFX_evt_doge_republic_muslim"
-		texturefile = "gfx\\event_pictures\\doge_republic_muslim.tga"
-		allwaystransparent = yes
-	}
-	spriteType = {
-		name = "GFX_evt_trade_post_republic_muslim"
-		texturefile = "gfx\\event_pictures\\trade_post_republic_muslim.tga"
-		allwaystransparent = yes
-	}
-	spriteType = {
-		name = "GFX_evt_family_feud_republic_muslim"
-		texturefile = "gfx\\event_pictures\\Knights_melee_battle_muslim.tga"
-		allwaystransparent = yes
-	}
+#	spriteType = {
+#		name = "GFX_evt_busy_trading_dock_republic_muslim"
+#		texturefile = "gfx\\event_pictures\\busy_trading_dock_republic_muslim.tga"
+#		allwaystransparent = yes
+#	}
+#	spriteType = {
+#		name = "GFX_evt_doge_republic_muslim"
+#		texturefile = "gfx\\event_pictures\\doge_republic_muslim.tga"
+#		allwaystransparent = yes
+#	}
+#	spriteType = {
+#		name = "GFX_evt_trade_post_republic_muslim"
+#		texturefile = "gfx\\event_pictures\\trade_post_republic_muslim.tga"
+#		allwaystransparent = yes
+#	}
+#	spriteType = {
+#		name = "GFX_evt_family_feud_republic_muslim"
+#		texturefile = "gfx\\event_pictures\\Knights_melee_battle_muslim.tga"
+#		allwaystransparent = yes
+#	}
 	spriteType = {
 		name = "GFX_evt_busy_trading_dock_republic_arabic"
 		texturefile = "gfx\\event_pictures\\busy_trading_dock_republic_muslim.tga"
@@ -809,11 +809,11 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\toothbrush.tga"
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_evt_maiden_muslim"
-		texturefile = "gfx\\event_pictures\\maiden_muslim.tga"
-		allwaystransparent = yes
-	}
+	#spriteType = {
+	#	name = "GFX_evt_maiden_muslim"
+	#	texturefile = "gfx\\event_pictures\\maiden_muslim.tga"
+	#	allwaystransparent = yes
+	#}
 	spriteType = {
 		name = "GFX_evt_maiden_turkish"
 		texturefile = "gfx\\event_pictures\\maiden_muslim.tga"
@@ -1054,16 +1054,16 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\african_savanna.tga"
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_evt_castle_construction_muslim"
-		texturefile = "gfx\\event_pictures\\castle_tower_muslim.tga"
-		allwaystransparent = yes
-	}	
-	spriteType = {
-		name = "GFX_evt_castle_construction_zoroastrian_group"
-		texturefile = "gfx\\event_pictures\\castle_tower_muslim.tga"
-		allwaystransparent = yes
-	}	
+#	spriteType = {
+#		name = "GFX_evt_castle_construction_muslim"
+#		texturefile = "gfx\\event_pictures\\castle_tower_muslim.tga"
+#		allwaystransparent = yes
+#	}	
+#	spriteType = {
+#		name = "GFX_evt_castle_construction_zoroastrian_group"
+#		texturefile = "gfx\\event_pictures\\castle_tower_muslim.tga"
+#		allwaystransparent = yes
+#	}	
 	spriteType = {
 		name = "GFX_evt_castle_construction_arabic"
 		texturefile = "gfx\\event_pictures\\castle_tower_muslim.tga"
@@ -1121,16 +1121,16 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\VIET_food_sinic.tga"
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_evt_VIET_food_muslim"
-		texturefile = "gfx\\event_pictures\\VIET_hummus.tga"
-		allwaystransparent = yes
-	}
-	spriteType = {
-		name = "GFX_evt_VIET_food_zoroastrian_group"
-		texturefile = "gfx\\event_pictures\\VIET_food_iranian.tga"
-		allwaystransparent = yes
-	}
+#	spriteType = {
+#		name = "GFX_evt_VIET_food_muslim"
+#		texturefile = "gfx\\event_pictures\\VIET_hummus.tga"
+#		allwaystransparent = yes
+#	}
+#	spriteType = {
+#		name = "GFX_evt_VIET_food_zoroastrian_group"
+#		texturefile = "gfx\\event_pictures\\VIET_food_iranian.tga"
+#		allwaystransparent = yes
+#	}
 	spriteType = {
 		name = "GFX_evt_VIET_food_arabic"
 		texturefile = "gfx\\event_pictures\\VIET_hummus.tga"
@@ -1510,7 +1510,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_evt_skyrim_forest_east_slavic"
-		texturefile = "gfx\\event_pictures\\skyrim_forest_north_germanic.tga"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_east_slavic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
@@ -1578,16 +1578,16 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\burning_house_zoroastrian_group.tga"
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_evt_stone_church_muslim"
-		texturefile = "gfx\\event_pictures\\castle_tower_muslim.tga"
-		allwaystransparent = yes
-	}
-	spriteType = {
-		name = "GFX_evt_stone_church_zoroastrian_group"
-		texturefile = "gfx\\event_pictures\\castle_tower_muslim.tga"
-		allwaystransparent = yes
-	}
+#	spriteType = {
+#		name = "GFX_evt_stone_church_muslim"
+#		texturefile = "gfx\\event_pictures\\castle_tower_muslim.tga"
+#		allwaystransparent = yes
+#	}
+#	spriteType = {
+#		name = "GFX_evt_stone_church_zoroastrian_group"
+#		texturefile = "gfx\\event_pictures\\castle_tower_muslim.tga"
+#		allwaystransparent = yes
+#	}
 	spriteType = {
 		name = "GFX_evt_stone_church_pagan_group"
 		texturefile = "gfx\\event_pictures\\tribal_shrine_cm.tga"
@@ -1899,11 +1899,11 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\ancient_cairn.tga"
 		allwaystransparent = yes
 	}		
-	spriteType = {
-		name = "GFX_evt_ancient_cairn_muslim"
-		texturefile = "gfx\\event_pictures\\ancient_cairn_arabic.tga"
-		allwaystransparent = yes
-	}				
+#	spriteType = {
+#		name = "GFX_evt_ancient_cairn_muslim"
+#		texturefile = "gfx\\event_pictures\\ancient_cairn_arabic.tga"
+#		allwaystransparent = yes
+#	}				
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_arabic"
 		texturefile = "gfx\\event_pictures\\ancient_cairn_arabic.tga"
@@ -1992,6 +1992,121 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_coast_night"
 		texturefile = "gfx\\event_pictures\\coast_night.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_drinking_tea"
+		texturefile = "gfx\\event_pictures\\drinking_tea.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_busy_trading_dock_republic_iberian"
+		texturefile = "gfx\\event_pictures\\columbus.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_chinese_group"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_khitan"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_jurchen"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_east_african"
+		texturefile = "gfx\\event_pictures\\VIET_food_east_african.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_central_african"
+		texturefile = "gfx\\event_pictures\\VIET_food_west_african.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_west_african"
+		texturefile = "gfx\\event_pictures\\VIET_food_west_african.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_north_african"
+		texturefile = "gfx\\event_pictures\\VIET_food_north_african.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_maghreb_arabic"
+		texturefile = "gfx\\event_pictures\\VIET_food_north_african.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_andalusian_arabic"
+		texturefile = "gfx\\event_pictures\\VIET_food_north_african.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_chinese_group"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_khitan"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_jurchen"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_chinese_group"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_khitan"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_jurchen"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_arabic"
+		texturefile = "gfx\\event_pictures\\garden_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_iranian"
+		texturefile = "gfx\\event_pictures\\garden_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_north_african"
+		texturefile = "gfx\\event_pictures\\garden_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_turkish"
+		texturefile = "gfx\\event_pictures\\garden_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_succubus"
+		texturefile = "gfx\\event_pictures\\succubus.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_herbs_and_spices"
+		texturefile = "gfx\\event_pictures\\herbs_and_spices.tga"
 		allwaystransparent = yes
 	}
 	
