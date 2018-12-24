@@ -25,7 +25,7 @@ Please feel free to use my work in your mods, all I ask is that I and my old VIE
 
 DO NOT manually use the master branch unless you know what you're doing as it is the WIP version that is constantly being updated!
 
-1. Extract the .rar file you wish to install to Documents\Paradox Interactive\Crusader Kings II\mod
+1. Extract the .rar file to Documents\Paradox Interactive\Crusader Kings II\mod
 2. Launch CKII and select VIET Events to install in the mod tab.
 3. Enjoy and play!
 
