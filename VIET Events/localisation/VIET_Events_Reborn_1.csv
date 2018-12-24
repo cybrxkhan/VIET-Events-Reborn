@@ -38,7 +38,7 @@ VIETmisc.8009.a;Alarming apparitions….;;;;;;;;;;;;;x
 VIETmisc.8009.b;Probably just some peasant hysteria.;;;;;;;;;;;;;x
 VIETmisc.8010.desc;A peasant in [Root.GetName] got lost recently while trekking near the wilderness. She came across a flat, vertical stone surface where the ancient rulers of the region carved various images and inscriptions. After she reported this to the local officials, you sent in people to investigate and it appears this stone is the last remnants of an imposing ancient monument! The stone can’t be re-used, so it must stand where it is, perhaps for all eternity.;;;;;;;;;;;x
 VIETmisc.8010.a;Quite a sight to behold!;;;;;;;;;;;;;x
-VIETmisc.8010.b;Heathen symbol. DIscourage people from visiting it.;;;;;;;;;;;;;x
+VIETmisc.8010.b;Heathen symbol. Discourage people from visiting it.;;;;;;;;;;;;;x
 VIETmisc.8010.c;This is a holy place - build an altar near it.;;;;;;;;;;;;;x
 VIETmisc.8010.d;Send a few antiquitarians to study it.;;;;;;;;;;;;;x
 VIETmisc.8011.desc;A sandstorm recently swept through [Root.GetName] at a most inopportune time. A large number of people perished, including some soldiers who were on patrol. Furthermore, there was some damage to local infrastructure and buildings.;;;;;;;;;;;x
