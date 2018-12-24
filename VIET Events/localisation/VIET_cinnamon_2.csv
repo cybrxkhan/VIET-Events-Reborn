@@ -1,48 +1,63 @@
-VIETmisc.9000.desc;I meet a local merchant during a banquet. He is somewhat elderly, and lived in China for many years as a young man. He is entertaining me with many tales of his experiences, but there was one person he spoke of who stood out to me. Specifically, the...;;;;;;;;;;;x
-VIETmisc.9000.a;Courtesan;;;;;;;;;;;;;x
-VIETmisc.9000.b;Poet;;;;;;;;;;;;;x
-VIETmisc.9000.c;Soldier;;;;;;;;;;;;;x
-VIETmisc.9000.d;Official;;;;;;;;;;;;;x
-VIETmisc.9001.tooltip;\n\n“Never have I met such a woman before. How many a man must have wished to take her as his wife or concubine! How many must have had their hearts broken.”;;;;;;;;;;;x
-VIETmisc.9001.title;The Courtesan;;;;;;;;;;;x
-VIETmisc.9001.desc;She was beautiful and well-read, he said, but also quite brave and assertive, like a number of Chinese women he met. She could play polo just as well as any of the men, and was often found riding a horse. One time, the merchant recalls, with a smile on his face, she was singing for a party and a drunk patron insulted her music, so she proceeded to beat him up.\n\nShe had many suitors, but no one seemed to impress her enough. It was even rumored she refused to bed any man, no matter the price offered. The merchant says she was still unmarried - and proudly so - when he left China. He did hear that she finally settled on marrying a poor and humble scholar, who impressed her with his kind, intelligent, and courageous nature, but he doesn’t know how true this is.;;;;;;;;;;;x
-VIETmisc.9001.a;An admirable gal! We need more women like her.;;;;;;;;;;;;;x
-VIETmisc.9001.b;I can’t imagine how beautiful and enchanting she must have been.;;;;;;;;;;;;;x
-VIETmisc.9001.c;Such violent seductresses are a threat to society.;;;;;;;;;;;;;x
-VIETmisc.9002.tooltip;\n\n“A most ridiculous fellow in some ways, yet also, in a way, one of the wisest men I’ve ever met. Even now I think his poetry must have been divinely inspired.”;;;;;;;;;;;x
-VIETmisc.9002.title;The Poet;;;;;;;;;;;x
-VIETmisc.9002.desc;He was an odd man, the merchant recalls. He eschewed the life of a government official even though he was considered one of the most brilliant men ever, and instead dedicated his life to writing poetry and always getting drunk.\n\nRumor has it that he recently died while he was drunk one night, and he mistook the moon for a beautiful woman - reaching out to the moon’s reflection in a lake, he fell in and drowned. The merchant wouldn't be surprised if this rumor was true.;;;;;;;;;;;x
-VIETmisc.9002.a;A curious man indeed, but sometimes eccentricity makes better poetry.;;;;;;;;;;;;;x
-VIETmisc.9002.b;Poetry is overrated, especially by self-indulgent types like that man.;;;;;;;;;;;;;x
-VIETmisc.9003.tooltip;\n\n“It is a sad tale, but also another sign about how the ways of heaven are mysterious. A man can be at the top of the world one day, and the bottom the next - or vice versa.”;;;;;;;;;;;x
-VIETmisc.9003.title;The Soldier;;;;;;;;;;;x
-VIETmisc.9003.desc;He was once a prestigious captain of the imperial guard, a loyal servant of the Emperor. But when a new Emperor came to power, he was framed as one of the accomplices behind an attempted coup.\n\nHe was extremely lucky to escape with his life, but he lost everything, and even his wife left him. When the merchant met him, the once respected guard was reduced to becoming an entertainer, showing off his martial skills in the market for money.;;;;;;;;;;;x
-VIETmisc.9003.a;How the mighty fall. A sad story.;;;;;;;;;;;;;x
-VIETmisc.9004.tooltip;\n\n“I have always heard of stories about Chinese officials who were loyal to their masters, sometimes to death.”;;;;;;;;;;;x
-VIETmisc.9004.title;The Official;;;;;;;;;;;x
-VIETmisc.9004.desc;He was a righteous official who served a governor who was a debauched young man. He did not deserve the title, but inherited the position from his father thanks to corruption. He was obsessed with Iranian women, as many foreigners lived in his city. He kept many in his harem whom he spent day and night copulating with, and he also wasted money on aphrodisiacs and herbs to extend his sexual prowess.\n\nThe official tried to dissuade his master to no avail and the governor was killed by a jilted concubine. This official escaped to live the life of a commoner, where he met the merchant. The merchant adds that the official always disliked Persian women after that.;;;;;;;;;;;x
-VIETmisc.9004.a;The man must feel bitter about life, but at least he didn’t die.;;;;;;;;;;;;;x
-VIETmisc.9004.b;I am interested in hearing about the governor’s harem...;;;;;;;;;;;;;x
-VIETmisc.9005.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9005.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9006.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9006.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9007.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9007.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9008.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9008.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9009.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9009.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9010.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9010.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9011.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9011.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9012.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9012.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9013.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9013.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9014.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9014.a;Xxxxxxffff;;;;;;;;;;;;;x
+#VIETmisc.9000.desc;I meet a local merchant during a banquet. He is somewhat elderly, and lived in China for many years as a young man. He is entertaining me with many tales of his experiences, but there was one person he spoke of who stood out to me. Specifically, the...;;;;;;;;;;;x
+#VIETmisc.9000.a;Courtesan;;;;;;;;;;;;;x
+#VIETmisc.9000.b;Poet;;;;;;;;;;;;;x
+#VIETmisc.9000.c;Soldier;;;;;;;;;;;;;x
+#VIETmisc.9000.d;Official;;;;;;;;;;;;;x
+#VIETmisc.9001.tooltip;\n\n“Never have I met such a woman before. How many a man must have wished to take her as his wife or concubine! How many must have had their hearts broken.”;;;;;;;;;;;x
+#VIETmisc.9001.title;The Courtesan;;;;;;;;;;;x
+#VIETmisc.9001.desc;She was beautiful and well-read, he said, but also quite brave and assertive, like a number of Chinese women he met. She could play polo just as well as any of the men, and was often found riding a horse. One time, the merchant recalls, with a smile on his face, she was singing for a party and a drunk patron insulted her music, so she proceeded to beat him up.\n\nShe had many suitors, but no one seemed to impress her enough. It was even rumored she refused to bed any man, no matter the price offered. The merchant says she was still unmarried - and proudly so - when he left China. He did hear that she finally settled on marrying a poor and humble scholar, who impressed her with his kind, intelligent, and courageous nature, but he doesn’t know how true this is.;;;;;;;;;;;x
+#VIETmisc.9001.a;An admirable gal! We need more women like her.;;;;;;;;;;;;;x
+#VIETmisc.9001.b;I can’t imagine how beautiful and enchanting she must have been.;;;;;;;;;;;;;x
+#VIETmisc.9001.c;Such violent seductresses are a threat to society.;;;;;;;;;;;;;x
+#VIETmisc.9002.tooltip;\n\n“A most ridiculous fellow in some ways, yet also, in a way, one of the wisest men I’ve ever met. Even now I think his poetry must have been divinely inspired.”;;;;;;;;;;;x
+#VIETmisc.9002.title;The Poet;;;;;;;;;;;x
+#VIETmisc.9002.desc;He was an odd man, the merchant recalls. He eschewed the life of a government official even though he was considered one of the most brilliant men ever, and instead dedicated his life to writing poetry and always getting drunk.\n\nRumor has it that he recently died while he was drunk one night, and he mistook the moon for a beautiful woman - reaching out to the moon’s reflection in a lake, he fell in and drowned. The merchant wouldn't be surprised if this rumor was true.;;;;;;;;;;;x
+#VIETmisc.9002.a;A curious man indeed, but sometimes eccentricity makes better poetry.;;;;;;;;;;;;;x
+#VIETmisc.9002.b;Poetry is overrated, especially by self-indulgent types like that man.;;;;;;;;;;;;;x
+#VIETmisc.9003.tooltip;\n\n“It is a sad tale, but also another sign about how the ways of heaven are mysterious. A man can be at the top of the world one day, and the bottom the next - or vice versa.”;;;;;;;;;;;x
+#VIETmisc.9003.title;The Soldier;;;;;;;;;;;x
+#VIETmisc.9003.desc;He was once a prestigious captain of the imperial guard, a loyal servant of the Emperor. But when a new Emperor came to power, he was framed as one of the accomplices behind an attempted coup.\n\nHe was extremely lucky to escape with his life, but he lost everything, and even his wife left him. When the merchant met him, the once respected guard was reduced to becoming an entertainer, showing off his martial skills in the market for money.;;;;;;;;;;;x
+#VIETmisc.9003.a;How the mighty fall. A sad story.;;;;;;;;;;;;;x
+#VIETmisc.9004.tooltip;\n\n“I have always heard of stories about Chinese officials who were loyal to their masters, sometimes to death.”;;;;;;;;;;;x
+#VIETmisc.9004.title;The Official;;;;;;;;;;;x
+#VIETmisc.9004.desc;He was a righteous official who served a governor who was a debauched young man. He did not deserve the title, but inherited the position from his father thanks to corruption. He was obsessed with Iranian women, as many foreigners lived in his city. He kept many in his harem whom he spent day and night copulating with, and he also wasted money on aphrodisiacs and herbs to extend his sexual prowess.\n\nThe official tried to dissuade his master to no avail and the governor was killed by a jilted concubine. This official escaped to live the life of a commoner, where he met the merchant. The merchant adds that the official always disliked Persian women after that.;;;;;;;;;;;x
+#VIETmisc.9004.a;The man must feel bitter about life, but at least he didn’t die.;;;;;;;;;;;;;x
+#VIETmisc.9004.b;I am interested in hearing about the governor’s harem...;;;;;;;;;;;;;x
+#VIETmisc.9005.desc;xxxxx;;;;;;;;;;;x
+#VIETmisc.9005.a;Xxxxxxffff;;;;;;;;;;;;;x
+#VIETmisc.9006.desc;xxxxx;;;;;;;;;;;x
+#VIETmisc.9006.a;Xxxxxxffff;;;;;;;;;;;;;x
+#VIETmisc.9007.desc;xxxxx;;;;;;;;;;;x
+#VIETmisc.9007.a;Xxxxxxffff;;;;;;;;;;;;;x
+#VIETmisc.9008.desc;xxxxx;;;;;;;;;;;x
+#VIETmisc.9008.a;Xxxxxxffff;;;;;;;;;;;;;x
+#VIETmisc.9009.desc;xxxxx;;;;;;;;;;;x
+#VIETmisc.9009.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.9010.desc;I meet a local merchant during a banquet. He is somewhat elderly, and lived in China for many years as a young man. He is entertaining me with many tales of his experiences, but there was one person he spoke of who stood out to me. Specifically, the...;;;;;;;;;;;x
+VIETmisc.9010.a;Courtesan;;;;;;;;;;;;;x
+VIETmisc.9010.b;Poet;;;;;;;;;;;;;x
+VIETmisc.9010.c;Soldier;;;;;;;;;;;;;x
+VIETmisc.9010.d;Official;;;;;;;;;;;;;x
+VIETmisc.9011.tooltip;\n\n“Never have I met such a woman before. How many a man must have wished to take her as his wife or concubine! How many must have had their hearts broken.”;;;;;;;;;;;x
+VIETmisc.9011.title;The Courtesan;;;;;;;;;;;x
+VIETmisc.9011.desc;She was beautiful and well-read, he said, but also quite brave and assertive, like a number of Chinese women he met. She could play polo just as well as any of the men, and was often found riding a horse. One time, the merchant recalls, with a smile on his face, she was singing for a party and a drunk patron insulted her music, so she proceeded to beat him up.\n\nShe had many suitors, but no one seemed to impress her enough. It was even rumored she refused to bed any man, no matter the price offered. The merchant says she was still unmarried - and proudly so - when he left China. He did hear that she finally settled on marrying a poor and humble scholar, who impressed her with his kind, intelligent, and courageous nature, but he doesn’t know how true this is.;;;;;;;;;;;x
+VIETmisc.9011.a;An admirable gal! We need more women like her.;;;;;;;;;;;;;x
+VIETmisc.9011.b;I can’t imagine how beautiful and enchanting she must have been.;;;;;;;;;;;;;x
+VIETmisc.9011.c;Such violent seductresses are a threat to society.;;;;;;;;;;;;;x
+VIETmisc.9012.tooltip;\n\n“A most ridiculous fellow in some ways, yet also, in a way, one of the wisest men I’ve ever met. Even now I think his poetry must have been divinely inspired.”;;;;;;;;;;;x
+VIETmisc.9012.title;The Poet;;;;;;;;;;;x
+VIETmisc.9012.desc;He was an odd man, the merchant recalls. He eschewed the life of a government official even though he was considered one of the most brilliant men ever, and instead dedicated his life to writing poetry and always getting drunk.\n\nRumor has it that he recently died while he was drunk one night, and he mistook the moon for a beautiful woman - reaching out to the moon’s reflection in a lake, he fell in and drowned. The merchant wouldn't be surprised if this rumor was true.;;;;;;;;;;;x
+VIETmisc.9012.a;A curious man indeed, but sometimes eccentricity makes better poetry.;;;;;;;;;;;;;x
+VIETmisc.9012.b;Poetry is overrated, especially by self-indulgent types like that man.;;;;;;;;;;;;;x
+VIETmisc.9013.tooltip;\n\n“It is a sad tale, but also another sign about how the ways of heaven are mysterious. A man can be at the top of the world one day, and the bottom the next - or vice versa.”;;;;;;;;;;;x
+VIETmisc.9013.title;The Soldier;;;;;;;;;;;x
+VIETmisc.9013.desc;He was once a prestigious captain of the imperial guard, a loyal servant of the Emperor. But when a new Emperor came to power, he was framed as one of the accomplices behind an attempted coup.\n\nHe was extremely lucky to escape with his life, but he lost everything, and even his wife left him. When the merchant met him, the once respected guard was reduced to becoming an entertainer, showing off his martial skills in the market for money.;;;;;;;;;;;x
+VIETmisc.9013.a;How the mighty fall. A sad story.;;;;;;;;;;;;;x
+VIETmisc.9014.tooltip;\n\n“I have always heard of stories about Chinese officials who were loyal to their masters, sometimes to death.”;;;;;;;;;;;x
+VIETmisc.9014.title;The Official;;;;;;;;;;;x
+VIETmisc.9014.desc;He was a righteous official who served a governor who was a debauched young man. He did not deserve the title, but inherited the position from his father thanks to corruption. He was obsessed with Iranian women, as many foreigners lived in his city. He kept many in his harem whom he spent day and night copulating with, and he also wasted money on aphrodisiacs and herbs to extend his sexual prowess.\n\nThe official tried to dissuade his master to no avail and the governor was killed by a jilted concubine. This official escaped to live the life of a commoner, where he met the merchant. The merchant adds that the official always disliked Persian women after that.;;;;;;;;;;;x
+VIETmisc.9014.a;The man must feel bitter about life, but at least he didn’t die.;;;;;;;;;;;;;x
+VIETmisc.9014.b;I am interested in hearing about the governor’s harem...;;;;;;;;;;;;;x
 VIETmisc.9015.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.9015.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.9016.desc;xxxxx;;;;;;;;;;;x

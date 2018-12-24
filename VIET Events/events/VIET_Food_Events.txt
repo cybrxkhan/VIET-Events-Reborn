@@ -479,6 +479,7 @@ character_event = {
 		in_command = no
 		OR = {
 			culture_group = north_african
+			culture_group = kemetic_group
 			culture = maghreb_arabic
 			culture = andalusian_arabic
 			culture = egyptian_arabic
@@ -488,6 +489,7 @@ character_event = {
 			NOT = { trait = incapable }
 			OR = {
 				culture_group = north_african
+				culture_group = kemetic_group
 				culture = maghreb_arabic
 				culture = andalusian_arabic
 				culture = egyptian_arabic
@@ -541,6 +543,7 @@ character_event = {
 				NOT = { trait = incapable }
 				OR = {
 					culture_group = north_african
+					culture_group = kemetic_group
 					culture = maghreb_arabic
 					culture = andalusian_arabic
 					culture = egyptian_arabic

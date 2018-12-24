@@ -2,11 +2,12 @@
 #
 # Event Chains for VIET Events Reborn
 # Fired from on_actions ten year pulse
-# VIETmisc.9000-9999 reserved
+# VIETmisc.9010-9999 reserved
+# (VIETmisc.9000-9009 reserved for Cretan events)
 #
 # List of event chains:
-# Traveler Recounts Chinese Adventures 9000-9004
-# Dreaming of Emperor Uriel / Patrick Stewart 9004-
+# Traveler Recounts Chinese Adventures 9010-9014
+# Dreaming of Emperor Uriel / Patrick Stewart 9014-
 #
 ########################################################
 
@@ -18,8 +19,8 @@ namespace = VIETmisc
 
 # Meet a traveling merchant at a banquet
 character_event = {
-	id = VIETmisc.9000
-	desc = VIETmisc.9000.desc
+	id = VIETmisc.9010
+	desc = VIETmisc.9010.desc
 	picture = GFX_evt_feast
 	
 	is_triggered_only = yes
@@ -88,64 +89,64 @@ character_event = {
 	}
 	
 	option = { #the courtesan
-		name = VIETmisc.9000.a
+		name = VIETmisc.9010.a
 		add_character_modifier = {
 			name = VIET_chinese_rumors
 			duration = 960
 		}
-		narrative_event = { id = VIETmisc.9001 tooltip = VIETmisc.9001.tooltip }
+		narrative_event = { id = VIETmisc.9011 tooltip = VIETmisc.9011.tooltip }
 	}	
 	option = { #the poet
-		name = VIETmisc.9000.b
+		name = VIETmisc.9010.b
 		add_character_modifier = {
 			name = VIET_chinese_rumors
 			duration = 960
 		}
-		narrative_event = { id = VIETmisc.9002 tooltip = VIETmisc.9002.tooltip }
+		narrative_event = { id = VIETmisc.9012 tooltip = VIETmisc.9012.tooltip }
 	}	
 	option = { #the soldier
-		name = VIETmisc.9000.c
+		name = VIETmisc.9010.c
 		add_character_modifier = {
 			name = VIET_chinese_rumors
 			duration = 960
 		}
-		narrative_event = { id = VIETmisc.9003 tooltip = VIETmisc.9003.tooltip }
+		narrative_event = { id = VIETmisc.9013 tooltip = VIETmisc.9013.tooltip }
 	}	
 	option = { #the official
-		name = VIETmisc.9000.d
+		name = VIETmisc.9010.d
 		add_character_modifier = {
 			name = VIET_chinese_rumors
 			duration = 960
 		}
-		narrative_event = { id = VIETmisc.9004 tooltip = VIETmisc.9004.tooltip }
+		narrative_event = { id = VIETmisc.9014 tooltip = VIETmisc.9014.tooltip }
 	}
 }
 
 # The Courtesan's story
 narrative_event = {
-	id = VIETmisc.9001
-	title = VIETmisc.9001.title
-	desc = VIETmisc.9001.desc
+	id = VIETmisc.9011
+	title = VIETmisc.9011.title
+	desc = VIETmisc.9011.desc
 	picture = GFX_evt_chinese_princess
 	
 	is_triggered_only = yes
 	
 	option = { # strong female characters
-		name = VIETmisc.9001.a
+		name = VIETmisc.9011.a
 		add_character_modifier = {
 			name = VIET_girl_power
 			duration = 365
 		}
 	}	
 	option = { # beautiful!
-		name = VIETmisc.9001.b
+		name = VIETmisc.9011.b
 		add_character_modifier = {
 			name = VIET_admiring_beauty
 			duration = 365
 		}
 	}	
 	option = { # bad wimmin
-		name = VIETmisc.9001.c
+		name = VIETmisc.9011.c
 		add_character_modifier = {
 			name = VIET_sexist_against_women
 			duration = 365
@@ -155,22 +156,22 @@ narrative_event = {
 
 # The Poet's story
 narrative_event = {
-	id = VIETmisc.9002
-	title = VIETmisc.9002.title
-	desc = VIETmisc.9002.desc
+	id = VIETmisc.9012
+	title = VIETmisc.9012.title
+	desc = VIETmisc.9012.desc
 	picture = GFX_evt_artemis_moon
 	
 	is_triggered_only = yes
 	
 	option = { # yay poetry
-		name = VIETmisc.9002.a
+		name = VIETmisc.9012.a
 		add_character_modifier = {
 			name = VIET_poetry_contemplation
 			duration = 365
 		}
 	}	
 	option = { # boo poetry
-		name = VIETmisc.9002.b
+		name = VIETmisc.9012.b
 		add_character_modifier = {
 			name = VIET_dislikes_hipsters
 			duration = 365
@@ -180,15 +181,15 @@ narrative_event = {
 
 # The Soldiers's story
 narrative_event = {
-	id = VIETmisc.9003
-	title = VIETmisc.9003.title
-	desc = VIETmisc.9003.desc
+	id = VIETmisc.9013
+	title = VIETmisc.9013.title
+	desc = VIETmisc.9013.desc
 	picture = GFX_evt_scandal_chinese_group
 	
 	is_triggered_only = yes
 	
 	option = { # sad story
-		name = VIETmisc.9003.a
+		name = VIETmisc.9013.a
 		add_character_modifier = {
 			name = VIET_sobering_lesson
 			duration = 365
@@ -198,22 +199,22 @@ narrative_event = {
 
 # The Official's story
 narrative_event = {
-	id = VIETmisc.9004
-	title = VIETmisc.9004.title
-	desc = VIETmisc.9004.desc
+	id = VIETmisc.9014
+	title = VIETmisc.9014.title
+	desc = VIETmisc.9014.desc
 	picture = GFX_evt_throne_room_chinese_group
 	
 	is_triggered_only = yes
 	
 	option = { # tragedy
-		name = VIETmisc.9004.a
+		name = VIETmisc.9014.a
 		add_character_modifier = {
 			name = VIET_sobering_lesson
 			duration = 365
 		}
 	}	
 	option = { # erotica plox
-		name = VIETmisc.9004.b
+		name = VIETmisc.9014.b
 		add_character_modifier = {
 			name = lustful_ruler
 			duration = 365

@@ -4749,6 +4749,7 @@ character_event = {
 			culture_group = iranian
 			culture_group = south_slavic
 			culture_group = north_african
+			culture_group = kemetic_group
 			culture = turkish
 		}
 	}

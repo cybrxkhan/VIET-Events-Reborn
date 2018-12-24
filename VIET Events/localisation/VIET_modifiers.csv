@@ -229,8 +229,8 @@ VIET_santa_claus_visiting;Charitable Holy Man;Saint Homme charitable;;;;;;;;;;;;
 VIET_santa_claus_visiting_desc;Ho ho ho! A holy man is said to travel around these parts, giving gifts to children and the needy and spreading good cheer.;Ho ho ho ! On dit qu'un saint homme voyage autour de ces lieux, offrant des cadeaux aux enfants et aux nécessiteux et répandant la bonne humeur.;;;;;;;;;;;;x
 VIET_eating_candy;Delicious Candy;Bonbon Délicieux;;;;;;;;;;;;x
 VIET_eating_candy_desc;Candy is a good source of sugar, which most people don't get enough of these days.;Les bonbons sont une bonne source de sucre, dont la plupart des gens n'en ont pas assez de nos jours.;;;;;;;;;;;;x
-VIET_nutcracker;Beautiful Nutcracker;Beau Casse-Noisette;;;;;;;;;;;;x
-VIET_nutcracker_desc;This character possesses a beautiful nutcracker, made of exquisite wood and crafted by expert craftsmen.;Ce personnage possède un magnifique casse-noisette, en bois exquis et fabriqué par des artisans experts.;;;;;;;;;;;;x
+#VIET_nutcracker;Beautiful Nutcracker;Beau Casse-Noisette;;;;;;;;;;;;x
+#VIET_nutcracker_desc;This character possesses a beautiful nutcracker, made of exquisite wood and crafted by expert craftsmen.;Ce personnage possède un magnifique casse-noisette, en bois exquis et fabriqué par des artisans experts.;;;;;;;;;;;;x
 VIET_toymaker_province;Toymakers of [VIET_toymaker_province.GetName];Fabricants de jouets de [VIET_toymaker_province.GetName];;;;;;;;;;;;x
 VIET_toymaker_province_desc;The craftsmen of [VIET_toymaker_province.GetName] are known for their beautifully-made toys.;Les artisans de [VIET_toymaker_province.GetName] sont connus pour leurs jolis jouets.;;;;;;;;;;;;x
 VIET_beautiful_toys;Toys from [VIET_toymaker_province.GetName];Jouets de [VIET_toymaker_province.GetName];;;;;;;;;;;;x

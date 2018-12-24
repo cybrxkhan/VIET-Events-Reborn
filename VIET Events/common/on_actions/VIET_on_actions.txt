@@ -219,7 +219,7 @@ on_decade_pulse = {
 			100 = VIETScarboroughFair.100		# Xwedodah preacher
 			
 			#Reborn Events
-			100 = VIETmisc.9000					# Meet a merchant who went to China
+			100 = VIETmisc.9010					# Meet a merchant who went to China
 		}
 	}
 }

@@ -47,7 +47,7 @@ VIETmisc.8011.a;Troubling news.;;;;;;;;;;;;;x
 #VIETmisc.8012.a;Let us hope it was nothing serious.;;;;;;;;;;;;;x
 #VIETmisc.8013.desc;[target_VIET_vanished_death_courtier.GetName] was never found. The trail ran cold. As far as anyone knows, [target_VIET_vanished_death_courtier.GetSheHe] either went somewhere without telling anyone or died. But it is odd that [target_VIET_vanished_death_courtier.GetSheHe] wouldn’t have told anyone, so rumor is that [target_VIET_vanished_death_courtier.GetSheHe] died. What a tragedy!;;;;;;;;;;;x
 #VIETmisc.8013.a;What could have happened to them?;;;;;;;;;;;;;x
-VIETmisc.8012.desc;You spot [target_VIET_suspicious_courtier_first.GetName] and [target_VIET_suspicious_courtier_second.GetName] talking one day. Having nothing to do at that particular moment, you walk up to them, but when they notice you they immediately stop their conversation. “Is something wrong?” you ask.\n\n”Nothing,” [target_VIET_suspicious_courtier_first.GetName] says, as [target_VIET_suspicious_courtier_second.GetName] raises an eyebrow.;;;;;;;;;;;x
+VIETmisc.8012.desc;You spot two of your courtiers talking one day. Having nothing to do at that particular moment, you walk up to them, but when they notice you they immediately stop their conversation. “Is something wrong?” you ask.\n\n”Nothing,” one of them says, as the other one raises an eyebrow.;;;;;;;;;;;x
 VIETmisc.8012.a;Suspicious. Very suspicious….;;;;;;;;;;;;;x
 VIETmisc.8012.b;This is awkward.;;;;;;;;;;;;;x
 VIETmisc.8012.c;Sounds good!;;;;;;;;;;;;;x
