@@ -5,7 +5,7 @@ on_yearly_pulse = {
 		VIET_yearly_random = {
 			delay = 8
 			
-			20850 = 0
+			15820 = 0
 			
 			#VIET EVENTS
 			#Generic Trait Events
@@ -102,7 +102,7 @@ on_bi_yearly_pulse = {
 		VIET_bi_yearly_random = {
 			delay = 9
 			
-			15800 = 0
+			10500 = 0
 			
 			#Food
 			100 = VIETnam.191				# Byzantine cook
@@ -166,7 +166,7 @@ on_five_year_pulse = {
 		VIET_five_year_random = {
 			delay = 28
 			
-			10800 = 0
+			5800 = 0
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.10 	# who cut the cheese?
