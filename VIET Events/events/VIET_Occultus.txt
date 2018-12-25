@@ -27,7 +27,7 @@ narrative_event = {
 	only_capable = yes
 	
 	trigger = {
-		always = no
+		#always = no
 		OR = {
 			has_game_rule = { name = supernatural_events value = on }
 			has_game_rule = { name = supernatural_events value = unrestricted }

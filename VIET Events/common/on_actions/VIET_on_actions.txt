@@ -209,8 +209,8 @@ on_decade_pulse = {
 			5800 = 0
 			
 			#EVENT CHAINS
-			100 = OCC.1				# Dance with the dead
-			100 = OCC.2				# Dance with the dead
+			50 = OCC.1				# Dance with the dead
+			50 = OCC.2				# Dance with the dead
 			100 = VIETmisc.5061		# Kogarashi Sentiment
 			
 			#Swansong Events (Swansong no more)
