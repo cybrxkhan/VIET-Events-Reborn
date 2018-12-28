@@ -203,30 +203,69 @@ VIETmisc.8051.desc;During the day, I tend to forget the stars. But at night, how
 VIETmisc.8051.a;But I still watch the stars, longing.;;;;;;;;;;;;;x
 VIETmisc.8052.desc;Before me is an endless expanse of grass and the sunset sky colored in pastel shades of rose and gold. A single tree is all there exists. I sit under the tree, and the wind faintly whispers in my ear, singing of the joys and sorrows of the ancients. It gently sways the tree, and shadows of the branches and leaves dance over my face.;;;;;;;;;;;x
 VIETmisc.8052.a;I wake up from the dream, and feel at peace.;;;;;;;;;;;;;x
-VIETmisc.8053.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8053.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8054.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8054.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8055.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8055.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8056.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8056.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8057.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8057.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8058.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8058.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8059.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8059.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8060.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8060.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8061.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8061.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8062.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8062.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8063.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8063.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8064.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8064.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8053.title;Through the Valleys;;;;;;;;;;;x
+VIETmisc.8053.desc;When I fell asleep and traveled to the land of dreams, I found myself on a vast hill of the greenest grass, overlooking a great lake surrounding a mighty city. Below the hill was an ancient marble shrine, while behind me was a small cottage beside a forest, where birds whistled and the trees whispered comfort in my ear. I rested for a while before I decided to...;;;;;;;;;;;x
+VIETmisc.8053.a;Walk down the hill, to see the lake.;;;;;;;;;;;;;x
+VIETmisc.8053.b;See the shrine to pay my respects.;;;;;;;;;;;;;x
+VIETmisc.8053.c;Explore the forest.;;;;;;;;;;;;;x
+VIETmisc.8053.d;Enter the cottage and relax.;;;;;;;;;;;;;x
+VIETmisc.8054.title;Harvest Dawn;;;;;;;;;;;x
+VIETmisc.8054.desc;I emerge from my residence early in the morning to travel to an important noble’s residence some distance from here. Along the way, as the sun slowly crept upwards into the sky, I pass by several villages. Peasants scatter themselves in the fields, working with their crops, though they always stop to pay their respects to me.;;;;;;;;;;;x
+VIETmisc.8054.a;Good to see all is in order.;;;;;;;;;;;;;x
+VIETmisc.8054.b;Those commoners scare me!;;;;;;;;;;;;;x
+VIETmisc.8054.c;I want to ask some of them about how things are going.;;;;;;;;;;;;;x
+VIETmisc.8055.title;King and Country;;;;;;;;;;;x
+VIETmisc.8055.desc;I realize that there must have been many rulers who came before me, lesser lords and ladies, as well as mighty kings and queens, who once ruled this country. Many of them I will never know. Will I, too, be forgotten one day, not even a footnote in a history book nor even a faint whisper in the wind?;;;;;;;;;;;x
+VIETmisc.8055.a;Even if I die, what matters is if I did my duty.;;;;;;;;;;;;;x
+VIETmisc.8055.b;I will do great deeds to ensure my immortality!;;;;;;;;;;;;;x
+VIETmisc.8055.c;As long as I'm happy, then I am fine with whatever happens.;;;;;;;;;;;;;x
+VIETmisc.8055.d;Nothing matters in the end. Why do I even try?;;;;;;;;;;;;;x
+VIETmisc.8056.title;Wings of [Root.Religion.GetRandomGodName];;;;;;;;;;;x
+VIETmisc.8056.desc;I am in another dream again - this time, I am flying in the sky, looking over a realm of grassy pastures and green forests. There are so many places I can go to, yet one place calls to me, one place where I can’t resist exploring:;;;;;;;;;;;x
+VIETmisc.8056.a;The pale, white temple to the north;;;;;;;;;;;;;x
+VIETmisc.8056.b;The cosmopolitan trade port to the west;;;;;;;;;;;;;x
+VIETmisc.8056.c;The mysterious, dark swamp to the south;;;;;;;;;;;;;x
+VIETmisc.8056.d;The vast flower fields to the east;;;;;;;;;;;;;x
+VIETmisc.8057.title;All's Well;;;;;;;;;;;x
+VIETmisc.8057.desc;Today was a very quiet and boring day at court. Nothing exciting happened.;;;;;;;;;;;x
+VIETmisc.8057.a;Excitement isn't always desirable, so I’m glad.;;;;;;;;;;;;;x
+VIETmisc.8057.b;I want excitement! I want to live life!;;;;;;;;;;;;;x
+VIET_alls_well_type_b;\nPeople always say they want excitement in their lives, but they should wish for good things first - after all, excitement isn’t always good.;;;;;;;;;;;x
+VIET_alls_well_type_a;\nIndeed, sometimes people always sit around and don’t do anything with their lives. What’s the purpose of living if you don’t explore the world?;;;;;;;;;;;x
+VIETmisc.8058.title;Watchman's Ease;;;;;;;;;;;x
+VIETmisc.8058.desc;“Top of the morning and nothing to report,” the guard told me as I made a few rounds around my garden.;;;;;;;;;;;x
+VIETmisc.8058.a;Continue as you were.;;;;;;;;;;;;;x
+VIETmisc.8058.b;Stand up straight!;;;;;;;;;;;;;x
+VIETmisc.8058.c;Why aren't you being more vigilant?;;;;;;;;;;;;;x
+VIETmisc.8059.title;Glory of [Root.Capital.GetName];;;;;;;;;;;x
+VIETmisc.8059.desc;There are of course always those who doubt my right to rule this land and claim I am not a rightful [Root.GetTitle]. Yet how can I gaze upon this land of mine, and not see my connection to it? It is my realm too. I have a purpose as its master:;;;;;;;;;;;x
+VIETmisc.8059.a;To…. Actually, I’m not too sure if I have a purpose.;;;;;;;;;;;;;x
+VIETmisc.8059.b;To do with it as I please.;;;;;;;;;;;;;x
+VIETmisc.8059.c;To protect and help my subjects.;;;;;;;;;;;;;x
+VIETmisc.8059.d;To bring glory to my realm and dynasty.;;;;;;;;;;;;;x
+VIETmisc.8060.title;Minstrel's Lament;;;;;;;;;;;x
+VIETmisc.8060.desc;A musician I hired for a banquet sings a rather sad song. Many in my court are moved deeply by the pathos of the story being told.;;;;;;;;;;;x
+VIETmisc.8060.a;I, too, shed a tear.;;;;;;;;;;;;;x
+VIETmisc.8060.b;I didn't find it that sad.;;;;;;;;;;;;;x
+VIETmisc.8061.title;[Root.Religion.GetHighGodName]’s Ascension;;;;;;;;;;;x
+VIETmisc.8061.desc;A physical manifestation of [Root.Religion.GetHighGodName] supposedly appeared in a remote village in [Root.GetName], and blessed a few locals, before ascending into the heavens. Few of the official clergy seem to believe these peasants’ claims, saying it is misunderstandings of the ignorant, but the peasants don’t care and have built altars where these incidents occurred.;;;;;;;;;;;x
+VIETmisc.8061.a;A good omen! Encourage the clergy to support the village.;;;;;;;;;;;;;x
+VIETmisc.8061.b;It was clearly an illusion of [Root.Religion.GetRandomEvilGodName]. Repress the cult!;;;;;;;;;;;;;x
+VIETmisc.8061.c;I have no opinion on these peasants’ superstitions.;;;;;;;;;;;;;x
+VIETmisc.8062.title;Dusk at the Market;;;;;;;;;;;x
+VIETmisc.8062.desc;I rushed to the local market as the sun was setting, hoping to buy something I really wanted, but the merchant told me he had all run out of that product. “It will be a long time before I can acquire more of it,” he told me apologetically, and even if I were to pay him a lot of money, he won’t be able to get it for me right now.;;;;;;;;;;;x
+VIETmisc.8062.a;No problem with that! I will wait.;;;;;;;;;;;;;x
+VIETmisc.8062.b;That bastard! He’s tricking me!;;;;;;;;;;;;;x
+VIETmisc.8062.c;At least he’s honest. Can’t do much now.;;;;;;;;;;;;;x
+VIETmisc.8063.title;Sunrise of Flutes;;;;;;;;;;;x
+VIETmisc.8063.desc;Today I woke up earlier than usual. Feeling a bit restless, I ventured out of my residence and took a walk outside with some trusted guards. We thought we heard a whistling sound up ahead, and upon further investigation we found out that it was a young shepherd with his flock, playing a pleasant song on his wooden flute. He greets me reverently, and wishes me the best.;;;;;;;;;;;x
+VIETmisc.8063.a;Please, play some more music. It’s good.;;;;;;;;;;;;;x
+VIETmisc.8063.b;He’s just a peasant.;;;;;;;;;;;;;x
+VIETmisc.8064.title;Peace of [Root.Religion.GetHighGodName];;;;;;;;;;;x
+VIETmisc.8064.desc;There are those who say that according to the [Root.Religion.GetScriptureName], [Root.Religion.GetHighGodName] wants all peoples to be at peace with one another. But is that just mere idealism? Can true peace under the wisdom and benevolence of [Root.Religion.GetHighGodName] ever be accomplished?;;;;;;;;;;;x
+VIETmisc.8064.a;I think [Root.Religion.GetHighGodName] wants us to smite infidels, not to have peace!;;;;;;;;;;;;;x
+VIETmisc.8064.b;Love and peace! We are indeed all brothers and sisters!;;;;;;;;;;;;;x
+VIETmisc.8064.c;It’s a nice idea, but idealism can only do so much.;;;;;;;;;;;;;x
 VIETmisc.8065.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8065.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8066.desc;xxxxx;;;;;;;;;;;x

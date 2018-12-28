@@ -2108,8 +2108,142 @@ spriteTypes = {
 		name = "GFX_evt_herbs_and_spices"
 		texturefile = "gfx\\event_pictures\\herbs_and_spices.tga"
 		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_byzantine"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_greek.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_roman"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_greek.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_sicilian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_greek.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_italian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_greek.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_dalmatian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_greek.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_swiss"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_alemanni"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_burgundian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_arpitan"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_rhaetian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_carantanian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_armenian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_georgian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_circassian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_caucasian"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_alan"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_noricroman"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_raetoroman"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_romansh"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_swiss.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_frankish"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_french.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_old_frankish"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_french.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_norman"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_french.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_occitan"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_french.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_oblivion_pastoral_dream"
+		texturefile = "gfx\\event_pictures\\oblivion_pastoral_dream.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_prison_cell"
+		texturefile = "gfx\\event_pictures\\prison_cell.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_dark_tunnel"
+		texturefile = "gfx\\event_pictures\\dark_tunnel.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = { #in case I want to use this and not have it replaced by other cultural variants
+		name = "GFX_evt_oblivion_exiting_dungeon_view"
+		texturefile = "gfx\\event_pictures\\oblivion_exiting_dungeon_view.tga"
+		allwaystransparent = yes
 	}
-	
 }
 
 

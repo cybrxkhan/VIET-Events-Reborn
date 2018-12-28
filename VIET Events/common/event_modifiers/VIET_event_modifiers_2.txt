@@ -320,3 +320,73 @@ VIET_province_pistachios = {
 	local_tax_modifier = 0.15
 	icon = 87
 }
+VIET_lake_rumare_dream_lake = {
+	monthly_character_prestige = 0.01
+	diplomacy = 1
+	icon = 133
+}
+VIET_lake_rumare_dream_shrine = {
+	monthly_character_piety = 0.01
+	learning = 1
+	icon = 133
+}
+VIET_lake_rumare_dream_forest = {
+	monthly_character_prestige = 0.01
+	intrigue = 1
+	icon = 133
+}
+VIET_lake_rumare_dream_cottage = {
+	monthly_character_piety = 0.01
+	stewardship = 1
+	icon = 133
+}
+VIET_oblivion_dream_bruma = {
+	martial = 1
+	combat_rating = 5
+	icon = 1
+}
+VIET_oblivion_dream_anvil = {
+	stewardship = 1
+	fertility = 0.05
+	icon = 61
+}
+VIET_oblivion_dream_leyawiin = {
+	intrigue = 1
+	arrest_chance_modifier = 0.05
+	icon = 87
+}
+VIET_oblivion_dream_lake_rumare = {
+	health = 0.5
+	general_opinion = 10
+	icon = 39
+}
+VIET_moved_to_tears = {
+	monthly_character_piety = 0.02
+	icon = 129
+}
+VIET_emotionless_to_art = {
+	general_opinion = -10
+	intrigue = 1
+	icon = 133
+}
+VIET_auriels_ascension = {
+	local_revolt_risk = 0.01
+	monthly_character_piety = 0.03
+	icon = 17
+}
+VIET_repressing_cult = {
+	local_revolt_risk = 0.04
+	monthly_character_prestige = 0.05
+	levy_reinforce_rate = 0.01
+	icon = 76
+}
+VIET_Oblivion_dream_complete = {
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	combat_rating = 10
+	fertility = 0.05
+	icon = 109
+}

@@ -5,7 +5,7 @@
 # VIETmisc.8000-8999 reserved
 #
 # 8000-8052: First batch of reborn events
-#
+# 8053-80XX: Oblivion Soundtrack inspired events
 #
 #
 #
@@ -16,7 +16,7 @@
 namespace = VIETmisc
 
 ###########################################################
-# REBORN!!!
+# REBORN!!! 8000-8052
 ###########################################################
 
 # Remember childhood love
@@ -5112,6 +5112,1259 @@ character_event = {
 	option = { # ok
 		name = VIETmisc.8052.a
 		piety = 1
+	}	
+}
+
+###########################################################
+# INSPIRED BY OBLIVION'S SOUNDTRACK 8053-
+###########################################################
+
+# Through the Valleys - Dream of Lake Rumare
+character_event = {
+	id = VIETmisc.8053
+	title = VIETmisc.8053.title
+	desc = VIETmisc.8053.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+	#}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+	}
+
+	
+	option = { # Go to the lake
+		name = VIETmisc.8053.a
+		random = {
+			add_trait = patient
+			chance = 20
+		}
+		add_character_modifier = {
+			name = VIET_lake_rumare_dream_lake
+			duration = 365
+		}
+	}	
+	option = { # Go to the shrine
+		name = VIETmisc.8053.b
+		random = {
+			add_trait = zealous
+			chance = 20
+		}
+		add_character_modifier = {
+			name = VIET_lake_rumare_dream_shrine
+			duration = 365
+		}
+	}	
+	option = { # Go to the forest
+		name = VIETmisc.8053.c
+		random = {
+			add_trait = brave
+			chance = 20
+		}
+		add_character_modifier = {
+			name = VIET_lake_rumare_dream_forest
+			duration = 365
+		}
+	}	
+	option = { # Go to the cottage
+		name = VIETmisc.8053.d
+		random = {
+			add_trait = content
+			chance = 20
+		}
+		add_character_modifier = {
+			name = VIET_lake_rumare_dream_cottage
+			duration = 365
+		}
+	}	
+}
+
+# Harvest Dawn - Passing by peasants doing farm work
+character_event = {
+	id = VIETmisc.8054
+	title = VIETmisc.8054.title
+	desc = VIETmisc.8054.desc
+	picture = GFX_evt_noble_haughty_talking_to_peasants
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		is_nomadic = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_weak_trigger = yes
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+
+	
+	option = { # Carry on
+		name = VIETmisc.8054.a
+		prestige = 5
+	}	
+	option = { # Working class scum!
+		name = VIETmisc.8054.b
+		if = {
+			limit = {
+				trait = humble
+			}
+			random = {
+				remove_trait = humble
+				chance = 60
+			}
+		}
+		else = {
+			random = {
+				add_trait = proud
+				chance = 25
+			}
+		}
+		if = {
+			limit = {
+				trait = trusting
+			}
+			random = {
+				remove_trait = trusting
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = paranoid
+				chance = 25
+			}
+		}		
+	}		
+	option = { # Talk to the commoners
+		name = VIETmisc.8054.c
+		trigger = {
+			NOT = { trait = shy }
+		}
+		random_list = {
+			15 = { add_trait = gregarious }
+			10 = { add_trait = just }
+			10 = { add_trait = humble }
+			65 = {}
+		}
+	}	
+}
+
+
+# King and Country - Existential crisis
+character_event = {
+	id = VIETmisc.8055
+	title = VIETmisc.8055.title
+	desc = VIETmisc.8055.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		NOT = { personality_traits = 5 }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 3
+			trait = depressed
+		}			
+		modifier = {
+			factor = 1.2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+
+	
+	option = { # Need to do what's important
+		name = VIETmisc.8055.a
+		random_list = {
+			20 = { add_trait = diligent }
+			20 = { add_trait = just }
+			20 = { add_trait = content }
+			40 = { }
+		}
+	}		
+	option = { # Do great deeds to ensure immortality
+		name = VIETmisc.8055.b
+		random_list = {
+			20 = { add_trait = proud }
+			20 = { add_trait = ambitious }
+			20 = { add_trait = stubborn }
+			40 = { }
+		}
+	}			
+	option = { # Happiness is all that matters
+		name = VIETmisc.8055.c
+		random_list = {
+			20 = { add_trait = humble }
+			20 = { add_trait = content }
+			20 = { add_trait = slothful }
+			40 = { }
+		}
+	}			
+	option = { # Why even try?
+		name = VIETmisc.8055.d
+		random_list = {
+			20 = { add_trait = cynical }
+			20 = { add_trait = slothful }
+			20 = { add_trait = honest }
+			40 = { }
+		}
+	}		
+}
+
+
+# Wings of Kynareth - Dreaming of Cyrodiil and deciding where to go
+character_event = {
+	id = VIETmisc.8056
+	title = VIETmisc.8056.title
+	desc = VIETmisc.8056.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+	}
+
+	
+	option = { # Cloud Ruler Temple
+		name = VIETmisc.8056.a
+		random = {
+			add_trait = diligent
+			chance = 20
+		}
+		add_character_modifier = {
+			name = VIET_oblivion_dream_bruma
+			duration = 365
+		}
+	}		
+	option = { # Anvil port
+		name = VIETmisc.8056.b
+		random = {
+			add_trait = gregarious
+			chance = 20
+		}
+		add_character_modifier = {
+			name = VIET_oblivion_dream_anvil
+			duration = 365
+		}
+	}		
+	option = { # Blackwood swamps
+		name = VIETmisc.8056.c
+		random = {
+			add_trait = deceitful
+			chance = 20
+		}
+		add_character_modifier = {
+			name = VIET_oblivion_dream_leyawiin
+			duration = 365
+		}
+	}		
+	option = { # Eastern Lake Rumare
+		name = VIETmisc.8056.d
+		random = {
+			add_trait = kind
+			chance = 20
+		}
+		add_character_modifier = {
+			name = VIET_oblivion_dream_lake_rumare
+			duration = 365
+		}
+	}		
+}
+
+# All's Well - Today nothing exciting happened at court
+character_event = {
+	id = VIETmisc.8057
+	title = VIETmisc.8057.title
+	desc = VIETmisc.8057.desc
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	
+	option = { # Type B personality
+		name = VIETmisc.8057.a
+		piety = 5
+		custom_tooltip = { text = VIET_alls_well_type_b }
+	}		
+	option = { # Type A personality
+		name = VIETmisc.8057.b
+		piety = -5
+		if = {
+			limit = {
+				trait = content
+			}
+			random = {
+				remove_trait = content
+				chance = 60
+			}
+		}
+		else = {
+			random = {
+				add_trait = ambitious
+				chance = 15
+			}
+		}
+		custom_tooltip = { text = VIET_alls_well_type_a }
+	}		
+}
+
+# Watchman's ease - Talking with guard
+character_event = {
+	id = VIETmisc.8058
+	title = VIETmisc.8058.title
+	desc = VIETmisc.8058.desc
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+	#	in_command = no
+	#}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+
+	
+	option = { # Continue
+		name = VIETmisc.8058.a
+		prestige = 5
+	}		
+	option = { # Stand up straight!
+		name = VIETmisc.8058.b
+		random_list = {
+			20 = { add_trait = proud }
+			10 = { add_trait = wroth }
+			70 = { }
+		}
+	}		
+	option = { # Be more vigilant!
+		name = VIETmisc.8058.c
+		if = {
+			limit = {
+				trait = content
+			}
+			random = {
+				remove_trait = content
+				chance = 60
+			}
+		}
+		random = {
+			add_trait = proud
+			chance = 25
+		}
+	}	
+}
+
+# Glory of Cyrodiil - What is my purpose as a ruler?
+character_event = {
+	id = VIETmisc.8059
+	title = VIETmisc.8059.title
+	desc = VIETmisc.8059.desc
+	picture = GFX_evt_garden
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+	#	in_command = no
+		NOT = { personality_traits = 5 }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}		
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+
+	
+	option = { # Unsure
+		name = VIETmisc.8059.a
+		random_list = {
+			15 = { add_trait = content }
+			15 = { add_trait = cynical }
+			15 = { add_trait = humble }
+			15 = { add_trait = slothful }
+			40 = {}
+		}
+	}	
+	option = { # Evil
+		name = VIETmisc.8059.b
+		random_list = {
+			15 = { add_trait = cruel }
+			15 = { add_trait = proud }
+			15 = { add_trait = greedy }
+			15 = { add_trait = arbitrary }
+			40 = {}
+		}
+	}
+	option = { # Protect and help subjects
+		name = VIETmisc.8059.c
+		random_list = {
+			15 = { add_trait = kind }
+			15 = { add_trait = charitable }
+			15 = { add_trait = just }
+			15 = { add_trait = brave }
+			40 = {}
+		}
+	}
+	option = { # Glory
+		name = VIETmisc.8059.d
+		random_list = {
+			15 = { add_trait = ambitious }
+			15 = { add_trait = diligent }
+			15 = { add_trait = stubborn }
+			15 = { add_trait = gregarious }
+			40 = {}
+		}
+	}	
+}
+
+
+# Minstrel's Lament - Musician sings sad song
+character_event = {
+	id = VIETmisc.8060
+	title = VIETmisc.8060.title
+	desc = VIETmisc.8060.desc
+	picture = GFX_evt_rainstorm
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}		
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+	}
+
+	
+	option = { # I cry too
+		name = VIETmisc.8060.a
+		add_character_modifier = {
+			name = VIET_moved_to_tears
+			duration = 543
+		}
+		any_courtier = {
+			limit = {
+				age = 10
+				NOT = { trait = incapable }
+				NOT = { trait = cynical }
+				NOT = { trait = brooding }
+			}
+			add_character_modifier = {
+				name = VIET_moved_to_tears
+				duration = 543
+			}
+		}
+		any_courtier = {
+			limit = {
+				age = 10
+				OR = {
+					trait = brooding
+					trait = cynical
+				}
+			}
+			add_character_modifier = {
+				name = VIET_emotionless_to_art
+				duration = 543
+			}
+		}
+	}	
+	option = { # I don't cry
+		name = VIETmisc.8060.b
+		add_character_modifier = {
+			name = VIET_emotionless_to_art
+			duration = 543
+		}
+		any_courtier = {
+			limit = {
+				age = 10
+				NOT = { trait = incapable }
+				NOT = { trait = cynical }
+				NOT = { trait = brooding }
+			}
+			add_character_modifier = {
+				name = VIET_moved_to_tears
+				duration = 543
+			}
+		}
+		any_courtier = {
+			limit = {
+				age = 10
+				OR = {
+					trait = brooding
+					trait = cynical
+				}
+			}
+			add_character_modifier = {
+				name = VIET_emotionless_to_art
+				duration = 543
+			}
+		}
+	}	
+}
+
+
+# Auriel's Ascension - deity manifests themselves
+province_event = {
+	id = VIETmisc.8061
+	title = VIETmisc.8061.title
+	desc = VIETmisc.8061.desc
+	picture = GFX_evt_holy_light
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_auriels_ascension }
+		owner = {
+			is_nomadic = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 10000
+	}
+
+	
+	option = { # Nice
+		name = VIETmisc.8061.a
+		owner = {
+			piety = 5
+			if = {
+				limit = {
+					trait = cynical
+				}
+				random = {
+					remove_trait = cynical
+					chance = 80
+				}
+			}
+			else = {
+				random = {
+					add_trait = zealous
+					chance = 30
+				}
+			}		
+		}
+		add_province_modifier = {
+			name = VIET_auriels_ascension
+			duration = 12580
+		}
+	}	
+	option = { # It's a cult!
+		name = VIETmisc.8061.b
+		owner = {
+			prestige = 10
+			random = {
+				add_trait = zealous
+				chance = 75
+			}		
+		}
+		add_province_modifier = {
+			name = VIET_repressing_cult
+			duration = 4000
+		}
+		add_province_modifier = {
+			name = VIET_auriels_ascension
+			duration = 4000
+		}
+	}	
+	option = { # No opinion
+		name = VIETmisc.8061.c
+		add_province_modifier = {
+			name = VIET_auriels_ascension
+			duration = 8250
+		}
+	}	
+}
+
+
+
+# Dusk at the Market - Merchant runs out of product
+character_event = {
+	id = VIETmisc.8062
+	title = VIETmisc.8062.title
+	desc = VIETmisc.8062.desc
+	picture = GFX_evt_market
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+	}
+
+	
+	option = { # Will wait
+		name = VIETmisc.8062.a
+		if = {
+			limit = {
+				trait = wroth
+			}
+			random = {
+				remove_trait = wroth
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = patient
+				chance = 50
+			}
+		}
+	}	
+	option = { # How dare he!
+		name = VIETmisc.8062.b
+		if = {
+			limit = {
+				trait = patient
+			}
+			random = {
+				remove_trait = patient
+				chance = 65
+			}
+		}
+		random_list = {
+			25 = { add_trait = wroth }
+			25 = { add_trait = cynical }
+			15 = { add_trait = paranoid }
+			35 = { }
+		}
+	}	
+	option = { # Can't do much about it
+		name = VIETmisc.8062.c
+		random_list = {
+			20 = { add_trait = content }
+			20 = { add_trait = humble }
+			20 = { add_trait = patient }
+			40 = { }
+		}
+	}	
+}
+
+
+# Sunrise of Flutes - Meet a shepherd playing the flute
+character_event = {
+	id = VIETmisc.8063
+	title = VIETmisc.8063.title
+	desc = VIETmisc.8063.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+
+	
+	option = { # Play some more music
+		name = VIETmisc.8063.a
+		add_character_modifier = {
+			name = VIET_good_music
+			duration = 300
+		}
+	}	
+	option = { # lol peasant
+		name = VIETmisc.8063.b
+		prestige = -5
+		if = {
+			limit = {
+				trait = humble
+			}
+			random = {
+				remove_trait = humble
+				chance = 40
+			}
+		}
+	}	
+}
+
+
+
+# Peace of Akatosh - Is peace a worthwhile ideal?
+character_event = {
+	id = VIETmisc.8064
+	title = VIETmisc.8064.title
+	desc = VIETmisc.8064.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+	#	in_command = no
+		NOT = { trait = cynical }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}		
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	
+	option = { # SMITE INFIDELS
+		name = VIETmisc.8064.a
+		piety = 1
+		random = {
+			add_trait = zealous
+			chance = 40
+		}
+	}	
+	option = { # Love and Peace
+		name = VIETmisc.8064.b
+		piety = 1
+		if = {
+			limit = {
+				trait = cruel
+			}
+			random = {
+				remove_trait = cruel
+				chance = 75
+			}
+		}
+		else = {
+			random = {
+				add_trait = kind
+				chance = 60
+			}
+		}
+	}
+	option = { # Silly rabbit, idealism is for kids!
+		name = VIETmisc.8064.c
+		prestige = 1
+		random_list = {
+			15 = { add_trait = cynical }
+			15 = { add_trait = paranoid }
+			15 = { add_trait = deceitful }
+			55 = { }
+		}
 	}	
 }
 

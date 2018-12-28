@@ -7,15 +7,20 @@
 #
 # List of event chains:
 # Traveler Recounts Chinese Adventures 9010-9014
-# Dreaming of Emperor Uriel / Patrick Stewart 9014-
+# Character dreams of playing Elder Scrolls Oblivion 9015-
 #
 ########################################################
 
 namespace = VIETmisc
 
-########################################
+################################################################################
 # TRAVELER RECOUNTS CHINESE ADVENTURES
-########################################
+# 
+# Character meets a merchant who tells about someone interesting they met in China.
+# Four options are possible: Courtesan, Poet, Soldier, and Official. 
+# Will only fire once per character's lifetime
+# 
+################################################################################
 
 # Meet a traveling merchant at a banquet
 character_event = {
@@ -220,4 +225,319 @@ narrative_event = {
 			duration = 365
 		}
 	}
+}
+
+
+
+############################################################################################################
+# 
+# OBLIVION
+# Basically the plot of Oblivion's tutorial.
+# Character has a dream that is suspiciously similar to Elder Scroll Oblivion's storyline.
+# 
+############################################################################################################
+
+# Dreaming
+character_event = {
+	id = VIETmisc.9015
+	title = VIETmisc.9015.title
+	desc = VIETmisc.9015.desc
+	picture = GFX_evt_prison_cell
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	ai = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		NOT = { has_global_flag =  VIET_Oblivion_dream }
+		learning = 6
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			has_virtue_trigger = yes
+		}
+		modifier = {
+			factor = 0.8
+			has_evil_trait_trigger = yes
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_played_oblivion
+		set_global_flag = VIET_Oblivion_dream
+	}
+	
+	option = { #okay
+		name = VIETmisc.9015.a
+		narrative_event = { id = VIETmisc.9016 tooltip = VIETmisc.9016.tooltip days = 3 random = 2 }
+	}
+}
+
+# Guards enter the cell
+narrative_event = {
+	id = VIETmisc.9016
+	title = VIETmisc.9016.title
+	desc = VIETmisc.9016.desc
+	picture = GFX_evt_group_hf
+	
+	is_triggered_only = yes
+	
+	option = { #okay
+		name = VIETmisc.9016.a
+		narrative_event = { id = VIETmisc.9017 tooltip = VIETmisc.9017.tooltip days = 3 random = 2 }
+	}
+}
+
+# "You are the one from my dreams"
+narrative_event = {
+	id = VIETmisc.9017
+	title = VIETmisc.9017.title
+	desc = VIETmisc.9017.desc
+	picture = GFX_evt_prison_cell
+	
+	is_triggered_only = yes
+	
+	option = { #okay
+		name = VIETmisc.9017.a
+		narrative_event = { id = VIETmisc.9018 tooltip = VIETmisc.9018.tooltip days = 3 random = 2 }
+	}
+}
+
+# Follow the Emperor
+narrative_event = {
+	id = VIETmisc.9018
+	title = VIETmisc.9018.title
+	desc = VIETmisc.9018.desc
+	picture = GFX_evt_prison_cell
+	
+	is_triggered_only = yes
+	
+	option = { #okay
+		name = VIETmisc.9018.a
+		narrative_event = { id = VIETmisc.9019 tooltip = VIETmisc.9019.tooltip days = 3 random = 2 }
+	}
+}
+
+# Relationship with the gods?
+narrative_event = {
+	id = VIETmisc.9019
+	title = VIETmisc.9019.title
+	desc = VIETmisc.9019.desc
+	picture = GFX_evt_dark_tunnel
+	
+	is_triggered_only = yes
+	
+	option = { # Guides and Protects Us
+		name = VIETmisc.9019.a
+		random = {
+			add_trait = zealous
+			chance = 20
+		}
+		narrative_event = { id = VIETmisc.9020 tooltip = VIETmisc.9020.tooltip days = 3 random = 2 }
+	}	
+	option = { # Not on Good Terms
+		name = VIETmisc.9019.b
+		random = {
+			add_trait = cynical
+			chance = 20
+		}
+		narrative_event = { id = VIETmisc.9020 tooltip = VIETmisc.9020.tooltip days = 3 random = 2 }
+	}	
+	option = { # Don't Think About It
+		name = VIETmisc.9019.c
+		random = {
+			add_trait = content
+			chance = 20
+		}
+		narrative_event = { id = VIETmisc.9020 tooltip = VIETmisc.9020.tooltip days = 3 random = 2 }
+	}
+}
+
+# Stars
+narrative_event = {
+	id = VIETmisc.9020
+	title = VIETmisc.9020.title
+	desc = VIETmisc.9020.desc
+	picture = GFX_evt_comet
+	
+	is_triggered_only = yes
+	
+	option = { # okay
+		name = VIETmisc.9020.a
+		narrative_event = { id = VIETmisc.9021 tooltip = VIETmisc.9021.tooltip days = 3 random = 2 }
+	}
+}
+
+# Fate, Doom, and all that
+narrative_event = {
+	id = VIETmisc.9021
+	title = VIETmisc.9021.title
+	desc = VIETmisc.9021.desc
+	picture = GFX_evt_dark_tunnel
+	
+	is_triggered_only = yes
+	
+	option = { # okay
+		name = VIETmisc.9021.a
+		narrative_event = { id = VIETmisc.9022 tooltip = VIETmisc.9022.tooltip days = 3 random = 2 }
+	}
+}
+
+# Patrick Stewart's Shakespeare Quote
+narrative_event = {
+	id = VIETmisc.9022
+	title = VIETmisc.9022.title
+	desc = VIETmisc.9022.desc
+	picture = GFX_evt_dueling_knights_hf
+	
+	is_triggered_only = yes
+	
+	option = { # okay
+		name = VIETmisc.9022.a
+		narrative_event = { id = VIETmisc.9023 tooltip = VIETmisc.9023.tooltip days = 3 random = 2 }
+	}
+}
+
+# Farewell to the Emperor
+narrative_event = {
+	id = VIETmisc.9023
+	title = VIETmisc.9023.title
+	desc = VIETmisc.9023.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+	
+	option = { # With all my heart
+		name = VIETmisc.9023.a
+		piety = 5
+		narrative_event = { id = VIETmisc.9024 tooltip = VIETmisc.9024.tooltip.a days = 3 random = 2 }
+	}	
+	option = { # Won't forget
+		name = VIETmisc.9023.b
+		random_list = {
+			50 = { piety = 5 }
+			50 = { prestige = 5 }
+		}
+		narrative_event = { id = VIETmisc.9024 tooltip = VIETmisc.9024.tooltip.b days = 3 random = 2 }
+	}
+	option = { # Take it from here
+		name = VIETmisc.9023.c
+		prestige = 5
+		narrative_event = { id = VIETmisc.9024 tooltip = VIETmisc.9024.tooltip.c days = 3 random = 2 }
+	}
+}
+
+# Boink
+narrative_event = {
+	id = VIETmisc.9024
+	title = VIETmisc.9024.title
+	desc = VIETmisc.9024.desc
+	picture = GFX_evt_cornered_duel_hf
+	
+	is_triggered_only = yes
+	
+	option = { # Nooo!!!
+		name = VIETmisc.9024.a
+		narrative_event = { id = VIETmisc.9025 tooltip = VIETmisc.9025.tooltip days = 3 random = 2 }
+	}	
+}
+
+# Hope
+narrative_event = {
+	id = VIETmisc.9025
+	title = VIETmisc.9025.title
+	desc = VIETmisc.9025.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = VIETmisc.9025.a
+		narrative_event = { id = VIETmisc.9026 tooltip = VIETmisc.9026.tooltip days = 3 random = 2 }
+	}	
+}
+
+# It's Time to Find Jauffre
+narrative_event = {
+	id = VIETmisc.9026
+	title = VIETmisc.9026.title
+	desc = VIETmisc.9026.desc
+	picture = GFX_evt_dark_tunnel
+	
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = VIETmisc.9026.a
+		narrative_event = { id = VIETmisc.9027 tooltip = VIETmisc.9027.tooltip days = 3 random = 2 }
+	}	
+}
+
+
+# Emerge from the Sewers and see Vilverin
+narrative_event = {
+	id = VIETmisc.9027
+	title = VIETmisc.9027.title
+	desc = VIETmisc.9027.desc
+	picture = GFX_evt_oblivion_exiting_dungeon_view
+	
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = VIETmisc.9027.a
+		narrative_event = { id = VIETmisc.9028 tooltip = VIETmisc.9028.tooltip days = 3 random = 2 }
+	}	
+}
+
+
+# Brief Summary of Oblivion's Plot
+narrative_event = {
+	id = VIETmisc.9028
+	title = VIETmisc.9028.title
+	desc = VIETmisc.9028.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = VIETmisc.9028.a
+		piety = 50
+		prestige = 50
+		add_character_modifier = {
+			name = VIET_Oblivion_dream_complete
+			duration = -1 #1825
+		}
+	}	
 }
