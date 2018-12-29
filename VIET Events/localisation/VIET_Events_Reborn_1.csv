@@ -266,26 +266,42 @@ VIETmisc.8064.desc;There are those who say that according to the [Root.Religion.
 VIETmisc.8064.a;I think [Root.Religion.GetHighGodName] wants us to smite infidels, not to have peace!;;;;;;;;;;;;;x
 VIETmisc.8064.b;Love and peace! We are indeed all brothers and sisters!;;;;;;;;;;;;;x
 VIETmisc.8064.c;It’s a nice idea, but idealism can only do so much.;;;;;;;;;;;;;x
-VIETmisc.8065.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8065.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8066.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8066.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8067.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8067.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8068.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8068.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8069.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8069.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8070.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8070.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8071.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8071.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8072.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8072.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8073.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8073.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8074.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8074.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8065.desc;In your dreams you find yourself a soldier in a world torn asunder.. Ash and smoke fill the skies as you stand in a muddy trench, wearing outlandishly shaped, long robes. You glance around and see other men dressed the same way, and conclude this is a uniform of some sort. Nearby, you hear loud noises, like as if thousands of buildings were collapsing.;;;;;;;;;;;x
+VIETmisc.8065.a;You cover your ears and close your eyes.;;;;;;;;;;;;;x
+VIETmisc.8066.tooltip;It doesn’t really help much.;;;;;;;;;;;x
+VIETmisc.8066.title;No Man’s Land;;;;;;;;;;;x
+VIETmisc.8066.desc;Fearfully, you glance over the trench and see nothing but black mud at first. On the ground from one end of the horizon to another are stone-cold corpses with open eyes and still-bleeding wounds. Suddenly, another loud crash, this one closer.\n\nAs men around you begin to shout words you don't know, you see other soldiers grasping their weapons, which are strange, hollowed spears with crooked handles. You do understand, despite your terrified state, that you are to go over the muddy trench you are currently in and charge at some enemy on the other side.;;;;;;;;;;;x
+VIETmisc.8066.a;You hold onto your own hollow spear and follow your comrades outside the trench.;;;;;;;;;;;;;x
+VIETmisc.8067.tooltip;Wait, what was that? Ahhh!;;;;;;;;;;;x
+VIETmisc.8067.title;A World at War;;;;;;;;;;;x
+VIETmisc.8067.desc;You scream as you see metallic horses and birds the size of houses swoop around you, while loud explosions rock everywhere. Men fall down like paper burned by a never-ending inferno, from flying pebbles that tear them to pieces. Others are blown to pieces as thunder strikes seemingly arbitrary places on the ground.\n\nThis is the future of humanity, you realize: there is no future, no hope. This is the war to end all wars, that the world shall end in an apocalypse of fire and hatred.\n\nYou wake up, sweating. Was that a vision of the future? Surely not. But if it was… how much longer until your descendants witness such horrors? A century from now? Two centuries? Ten?;;;;;;;;;;;x
+VIETmisc.8067.a;I lie back down and try to sleep, but can’t.;;;;;;;;;;;;;x
+VIETmisc.8068.desc;There have been many nomad empires, some quite large and some quite small. But today I have met an elderly wise woman and self-proclaimed seer who says we have yet to see the greatest of these empires. She says in the not too distant future, a great conqueror shall come from the steppes and destroy all the kingdoms and empires in his path.;;;;;;;;;;;x
+VIETmisc.8068.a;As if that'd happen.;;;;;;;;;;;;;x
+VIETmisc.8069.tooltip;There are lots of nomad peoples who come and go, what would make this one any different?;;;;;;;;;;;x
+VIETmisc.8069.title;Scourge of [Root.Religion.GetHighGodName];;;;;;;;;;;x
+VIETmisc.8069.desc;This lord shall be born grasping a blood clot in his fist, she proclaims, and his mighty warriors shall pour forth from the steppes like water flows down a river and wash the world in blood and death.\n\nShe laughs at my doubt, and begins to say in a chilling tone: “He is not to be trifled with, for he is the very fist of [Root.Religion.GetHighGodName] to punish all for their wickedness. By his arrows, the Jade Dragon to the east shall perish. Under the hooves of his riders, the Rajas of India shall fall one by one. Against his dark armor, forged from the very sins of mankind, even the fearsome Sword of Islam nor the Crusader Kings will do naught but a scratch to this bloodied messenger of [Root.Religion.GetHighGodName].”;;;;;;;;;;;x
+VIETmisc.8069.a;Ha! The Jade Dragon cannot possibly fall.;;;;;;;;;;;;;x
+VIETmisc.8069.b;The Rajas of India can fight such a monster!;;;;;;;;;;;;;x
+VIETmisc.8069.c;He sounds scary, but the Sword of Islam is stronger.;;;;;;;;;;;;;x
+VIETmisc.8069.d;Surely the Crusader Kings will have the zeal to resist!;;;;;;;;;;;;;x
+VIETmisc.8070.desc;I am asleep and wandering the void before my mind is pulled into a dream. Deep inside my subconsciousness, I know this as a vision of the future, though my consciousness doesn't quite register it as such. There is a fork at the road - at least, I think it is a road, and I think it is a fork at a road - that goes in two directions.
+;;;;;;;;;;;x
+VIETmisc.8070.a;Left;;;;;;;;;;;;;x
+VIETmisc.8070.b;Right;;;;;;;;;;;;;x
+VIETmisc.8071.desc;I see nothing but fire and brimstone. Gone is all hope! Gone is the future of my dynasty and my realm! All has been destroyed by our enemies and the will of the heavens.;;;;;;;;;;;x
+VIETmisc.8071.a;Is this our fate? It can't be!;;;;;;;;;;;;;x
+VIETmisc.8071.b;This is a sign that I must reform myself!;;;;;;;;;;;;;x
+VIETmisc.8072.desc;I see an idyllic landscape as far as the horizon stretches. The sky is bright, the sun is warm, the birds are singing. In this world, my dynasty and my realm prosper.;;;;;;;;;;;x
+VIETmisc.8072.a;It would be good if this came true.;;;;;;;;;;;;;x
+VIETmisc.8072.b;This is but one possible future. I must be cautious!;;;;;;;;;;;;;x
+VIETmisc.8073.desc;A traveling seer is visiting my court today. She is a strange one, sometimes staring into space and saying nothing in the middle of a chat, other times speaking in tongues. But when given some food, she seems to enter a trance. We all watch her, uncertain. It begins with some undecipherable mumbles, but soon becomes comprehensible speech.;;;;;;;;;;;x
+VIETmisc.8073.a;What is… what is she saying?;;;;;;;;;;;;;x
+VIETmisc.8074.tooltip;We all listen closely to hear.;;;;;;;;;;;x
+VIETmisc.8074.desc;The seer’s words are  a chilling prophecy: “A holy fury from the Sons of Abraham shall descend into our land and kill the old gods.” She continues, ranting about how our ancient ways are in grave danger before collapsing and falling asleep. When she wakes up, she doesn't recall anything she said.;;;;;;;;;;;x
+VIETmisc.8074.a;That was a lunatic’s rant - the old gods are strong!;;;;;;;;;;;;;x
+VIETmisc.8074.b;We must prepare to protect ourselves from this holy fury!;;;;;;;;;;;;;x
+VIETmisc.8074.c;The Sons of Abraham are mighty, this is simply our fate.;;;;;;;;;;;;;x
 VIETmisc.8075.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8075.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8076.desc;xxxxx;;;;;;;;;;;x

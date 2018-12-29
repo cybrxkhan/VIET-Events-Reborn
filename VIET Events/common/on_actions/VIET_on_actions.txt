@@ -90,6 +90,12 @@ on_yearly_pulse = {
 			100 = VIETmisc.8046 # Indian superstition about singing
 			100 = VIETmisc.8047 # Asian superstition about the number of sneezes
 			100 = VIETmisc.8052 # Good dream
+			#Oblivion Soundtrack
+			100 = VIETmisc.8054 # Harvest Dawn - Passing by peasants doing farm work
+			100 = VIETmisc.8057 # All's Well - Today nothing exciting happened at court
+			100 = VIETmisc.8058 # Watchman's ease - Talking with guard
+			100 = VIETmisc.8059 # Glory of Cyrodiil - What is my purpose as a ruler?
+			100 = VIETmisc.8064 # Peace of Akatosh - Is peace a worthwhile ideal?
 		}
 		
 	}
@@ -152,6 +158,15 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8048 # Eating Baklava
 			100 = VIETmisc.8050 # Incest argument
 			100 = VIETmisc.8051 # Stars gazing
+			#Oblivion Soundtrack
+			100 = VIETmisc.8053 # Through the Valleys - Dream of Lake Rumare
+			100 = VIETmisc.8055 # King and Country - Existential crisis
+			100 = VIETmisc.8056 # Wings of Kynareth - Dreaming of Cyrodiil and deciding where to go
+			100 = VIETmisc.8060 # Minstrel's Lament - Musician sings sad song
+			100 = VIETmisc.8062 # Dusk at the Market - Merchant runs out of product
+			100 = VIETmisc.8063 # Sunrise of Flutes - Meet a shepherd playing the flute
+			#Prophecy
+			100 = VIETmisc.8070 # Dreaming of your realm's future
 		
 		}
 		
@@ -195,6 +210,11 @@ on_five_year_pulse = {
 			100 = VIETmisc.8036 # Calipers
 			100 = VIETmisc.8037 # Spirited Chinese lady visits court
 			100 = VIETmisc.8045 # S'shani the Old Sea Captain
+			#Prophecy
+			100 = VIETmisc.8065 # Dream about World War 1
+			100 = VIETmisc.8068 # Seer predicts the coming of Genghis Khan
+			100 = VIETmisc.8073 # Pagan seer prophesizes the decline of polytheism
+			
 		
 		}
 		
@@ -220,6 +240,7 @@ on_decade_pulse = {
 			
 			#Reborn Events
 			100 = VIETmisc.9010					# Meet a merchant who went to China
+			100 = VIETmisc.9015					# Literally do the Oblivion main questline
 		}
 	}
 }

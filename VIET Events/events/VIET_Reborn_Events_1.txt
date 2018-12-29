@@ -5,8 +5,7 @@
 # VIETmisc.8000-8999 reserved
 #
 # 8000-8052: First batch of reborn events
-# 8053-80XX: Oblivion Soundtrack inspired events
-#
+# 8053-8064: Oblivion Soundtrack inspired events
 #
 #
 #
@@ -6368,3 +6367,699 @@ character_event = {
 	}	
 }
 
+
+####################################################################
+#
+#
+#
+####################################################################
+
+
+# Enter the WW1 / World War 1 dream
+character_event = {
+	id = VIETmisc.8065
+	desc = VIETmisc.8065.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		NOT = { # A fairly serious event, but dreaming of WW1 might be immersion breaking for some
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
+		}
+		NOT = { has_character_flag = VIET_great_war_dream }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 2
+			war = yes
+		}			
+		modifier = {
+			factor = 0.5
+			war = no
+		}			
+		modifier = {
+			factor = 1.5
+			trait = depressed
+		}			
+		modifier = {
+			factor = 1.5
+			trait = stressed
+		}			
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}		
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_great_war_dream
+	}
+	
+	option = { # Okay
+		name = VIETmisc.8065.a
+		narrative_event = { id = VIETmisc.8066 tooltip = VIETmisc.8066.tooltip }
+	}	
+}
+
+# Over the trench
+character_event = {
+	id = VIETmisc.8066
+	title = VIETmisc.8066.title
+	desc = VIETmisc.8066.desc
+	picture = GFX_evt_battlefield_1_infantry
+	
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = VIETmisc.8066.a
+		narrative_event = { id = VIETmisc.8067 tooltip = VIETmisc.8067.tooltip }
+	}	
+}
+
+# Over the trench
+character_event = {
+	id = VIETmisc.8067
+	title = VIETmisc.8067.title
+	desc = VIETmisc.8067.desc
+	picture = GFX_evt_battlefield_1_landship
+	
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = VIETmisc.8067.a
+		if = {
+			limit = {
+				trait = wroth
+			}
+			remove_trait = wroth
+		}
+		if = {
+			limit = {
+				trait = zealous
+			}
+			remove_trait = zealous
+		}
+		random_list = {
+			15 = { add_trait = cynical }
+			15 = { add_trait = depressed }
+			15 = { add_trait = shy }
+			15 = { add_trait = stressed }
+			40 = { }
+		}
+		add_character_modifier = {
+			name = VIET_world_war_1_dream
+			duration = 1918
+		}
+	}	
+}
+
+
+# Seer predicts the coming of Genghis Khan
+character_event = {
+	id = VIETmisc.8068
+	desc = VIETmisc.8068.desc
+	picture = GFX_evt_khitan
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		NOT = { has_character_flag = VIET_genghis_khan_prophecy }
+		NOR = {
+			has_global_flag = il_khanate_arrival
+			has_global_flag = golden_horde_arrival
+			has_global_flag = mongol_empire_arrival
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 2
+			war = yes
+		}			
+		modifier = {
+			factor = 0.5
+			war = no
+		}			
+		modifier = {
+			factor = 1.5
+			trait = depressed
+		}			
+		modifier = {
+			factor = 1.5
+			trait = stressed
+		}			
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}		
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_genghis_khan_prophecy
+	}
+	
+	option = { # Okay
+		name = VIETmisc.8068.a
+		narrative_event = { id = VIETmisc.8069 tooltip = VIETmisc.8069.tooltip }
+	}	
+}
+
+
+# React to the seer's prediction
+narrative_event = {
+	id = VIETmisc.8069
+	title = VIETmisc.8069.title
+	desc = VIETmisc.8069.desc
+	picture = GFX_evt_khitan
+	
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = VIETmisc.8069.a
+		prestige = 5
+	}	
+	option = { # Okay
+		name = VIETmisc.8069.b
+		prestige = 5
+	}	
+	option = { # Okay
+		name = VIETmisc.8069.c
+		piety = 5
+	}	
+	option = { # Okay
+		name = VIETmisc.8069.d
+		piety = 5
+	}	
+}
+
+
+# Dreaming of your realm's future
+character_event = {
+	id = VIETmisc.8070
+	desc = VIETmisc.8070.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		NOT = { has_character_flag = VIET_future_dream_cool }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_future_dream_cool
+	}
+	
+	# Actual choice of direction doesn't matter, only thing that matters is if character has enough good vs bad traits
+	# Also practicing the application of calc_true_if
+	
+	option = { # Go right
+		name = VIETmisc.8070.a
+		if = { #if you're a dick
+			limit = {
+				calc_true_if = {
+					amount = 4
+					trait = envious
+					trait = greedy
+					trait = lustful
+					trait = proud
+					trait = slothful
+					trait = wroth
+					trait = gluttonous
+					trait = arbitrary
+					trait = ambitious
+					trait = craven
+					trait = cruel
+					trait = impaler
+					trait = hedonist
+				}
+			}
+			random_list = {
+				75 = { character_event = { id = VIETmisc.8071 } }
+				25 = { character_event = { id = VIETmisc.8072 } }
+			}
+			break = yes # Skip tombola, you're done!
+		}
+		if = {
+			limit = {
+				calc_true_if = {
+					amount = 3
+					trait = kind
+					trait = charitable
+					trait = chaste
+					trait = humble
+					trait = diligent
+					trait = patient
+					trait = temperate
+					trait = just
+					trait = content
+					trait = brave
+				}
+			}
+			random_list = {
+				25 = { character_event = { id = VIETmisc.8071 } }
+				75 = { character_event = { id = VIETmisc.8072 } }
+			}
+			break = yes # Skip tombola, you're done!
+		}
+		random_list = {
+			50 = { character_event = { id = VIETmisc.8071 } }
+			50 = { character_event = { id = VIETmisc.8072 } }
+		}
+	}	
+	option = { # Go left
+		name = VIETmisc.8070.b
+		if = { #if you're a dick
+			limit = {
+				calc_true_if = {
+					amount = 4
+					trait = envious
+					trait = greedy
+					trait = lustful
+					trait = proud
+					trait = slothful
+					trait = wroth
+					trait = gluttonous
+					trait = arbitrary
+					trait = ambitious
+					trait = craven
+					trait = cruel
+					trait = impaler
+					trait = hedonist
+				}
+			}
+			random_list = {
+				75 = { character_event = { id = VIETmisc.8071 } }
+				25 = { character_event = { id = VIETmisc.8072 } }
+			}
+			break = yes # Skip tombola, you're done!
+		}
+		if = {
+			limit = {
+				calc_true_if = {
+					amount = 3
+					trait = kind
+					trait = charitable
+					trait = chaste
+					trait = humble
+					trait = diligent
+					trait = patient
+					trait = temperate
+					trait = just
+					trait = content
+					trait = brave
+				}
+			}
+			random_list = {
+				25 = { character_event = { id = VIETmisc.8071 } }
+				75 = { character_event = { id = VIETmisc.8072 } }
+			}
+			break = yes # Skip tombola, you're done!
+		}
+		random_list = {
+			50 = { character_event = { id = VIETmisc.8071 } }
+			50 = { character_event = { id = VIETmisc.8072 } }
+		}
+	}	
+}
+
+
+# Bad future
+character_event = {
+	id = VIETmisc.8071
+	desc = VIETmisc.8071.desc
+	picture = GFX_evt_apocalypto
+	
+	is_triggered_only = yes
+
+	option = { # No!
+		name = VIETmisc.8071.a
+		piety = -3
+		random = {
+			add_trait = depressed
+			chance = 20
+		}
+	}
+	option = { # Reform self
+		name = VIETmisc.8071.b
+		piety = 3
+		if = {
+			limit = {
+				trait = envious
+			}
+			random = {
+				remove_trait = envious
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = greedy
+			}
+			random = {
+				remove_trait = greedy
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = lustful
+			}
+			random = {
+				remove_trait = lustful
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = proud
+			}
+			random = {
+				remove_trait = proud
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = slothful
+			}
+			random = {
+				remove_trait = slothful
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = wroth
+			}
+			random = {
+				remove_trait = wroth
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = gluttonous
+			}
+			random = {
+				remove_trait = gluttonous
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = arbitrary
+			}
+			random = {
+				remove_trait = arbitrary
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = ambitious
+			}
+			random = {
+				remove_trait = ambitious
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = craven
+			}
+			random = {
+				remove_trait = craven
+				chance = 33
+			}
+		}
+		if = {
+			limit = {
+				trait = cruel
+			}
+			random = {
+				remove_trait = cruel
+				chance = 33
+			}
+		}
+	}	
+}
+
+# Good future
+character_event = {
+	id = VIETmisc.8072
+	desc = VIETmisc.8072.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	option = { # Good if came true
+		name = VIETmisc.8072.a
+		piety = 3
+	}
+	option = { # Must be cautious!
+		name = VIETmisc.8072.b
+		prestige = 3
+	}	
+}
+
+
+
+
+# Pagan seer prophesizes the decline of polytheism
+character_event = {
+	id = VIETmisc.8073
+	desc = VIETmisc.8073.desc
+	picture = GFX_evt_irminsul_burning
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		religion_group = pagan_group
+		is_reformed_religion = no
+		NOT = { has_character_flag = VIET_pagan_future }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = { # Bon are far away from the Abrahamics so this would make less sense for them
+			factor = 0.05
+			religion = bon
+		}			
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}		
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = erudite
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_pagan_future
+	}
+	
+	option = { # Go on
+		name = VIETmisc.8073.a
+		character_event = { id = VIETmisc.8073 tooltip = VIETmisc.8073.tooltip }
+	}	
+}
+
+# Pagan seer prophesizes the decline of polytheism
+character_event = {
+	id = VIETmisc.8074
+	desc = VIETmisc.8074.desc
+	picture = GFX_evt_irminsul_burning
+	
+	is_triggered_only = yes
+
+	
+	option = { # Old Gods are strong!
+		name = VIETmisc.8074.a
+		piety = 5
+	}		
+	option = { # Protect ourselves from Holy Fury
+		name = VIETmisc.8074.b
+		piety = 5
+	}			
+	option = { # Sons of Abraham are too mighty
+		name = VIETmisc.8074.c
+		random_list = {
+			15 = { add_trait = cynical }
+			15 = { add_trait = depressed }
+			15 = { add_trait = humble }
+			55 = { }
+		}
+	}	
+}

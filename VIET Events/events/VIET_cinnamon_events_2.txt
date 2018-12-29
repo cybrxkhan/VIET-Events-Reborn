@@ -7,7 +7,7 @@
 #
 # List of event chains:
 # Traveler Recounts Chinese Adventures 9010-9014
-# Character dreams of playing Elder Scrolls Oblivion 9015-
+# Character dreams of playing Elder Scrolls Oblivion 9015-9028
 #
 ########################################################
 

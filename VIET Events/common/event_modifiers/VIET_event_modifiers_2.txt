@@ -390,3 +390,11 @@ VIET_Oblivion_dream_complete = {
 	fertility = 0.05
 	icon = 109
 }
+VIET_world_war_1_dream = {
+	diplomacy = 1
+	martial = -1
+	combat_rating = -10
+	health = -0.2
+	monthly_character_piety = 0.1
+	icon = 118
+}
