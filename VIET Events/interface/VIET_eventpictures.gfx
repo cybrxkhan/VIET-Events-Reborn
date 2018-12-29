@@ -2239,9 +2239,19 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\dark_tunnel.tga"
 		allwaystransparent = yes
 	}		
-	spriteType = { #in case I want to use this and not have it replaced by other cultural variants
+	spriteType = { # in case I want to use this and not have it replaced by other cultural variants, for Oblivion references
 		name = "GFX_evt_oblivion_exiting_dungeon_view"
 		texturefile = "gfx\\event_pictures\\oblivion_exiting_dungeon_view.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = { # obviously should not be used too often 
+		name = "GFX_evt_battlefield_1_infantry"
+		texturefile = "gfx\\event_pictures\\battlefield_1_infantry.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = { # obviously should not be used too often 
+		name = "GFX_evt_battlefield_1_landship"
+		texturefile = "gfx\\event_pictures\\battlefield_1_landship.tga"
 		allwaystransparent = yes
 	}
 }
