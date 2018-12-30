@@ -258,7 +258,7 @@ VIETmisc.8062.a;No problem with that! I will wait.;;;;;;;;;;;;;x
 VIETmisc.8062.b;That bastard! He’s tricking me!;;;;;;;;;;;;;x
 VIETmisc.8062.c;At least he’s honest. Can’t do much now.;;;;;;;;;;;;;x
 VIETmisc.8063.title;Sunrise of Flutes;;;;;;;;;;;x
-VIETmisc.8063.desc;Today I woke up earlier than usual. Feeling a bit restless, I ventured out of my residence and took a walk outside with some trusted guards. We thought we heard a whistling sound up ahead, and upon further investigation we found out that it was a young shepherd with his flock, playing a pleasant song on his wooden flute. He greets me reverently, and wishes me the best.;;;;;;;;;;;x
+VIETmisc.8063.desc;Today I woke up earlier than usual. Feeling a bit restless, I ventured out of my residence and took a walk outside with some trusted guards. We thought we heard a whistling sound up ahead, and upon further investigation we found out that it was a young shepherd with his flock, playing a pleasant song on his wooden flute. He greeted me reverently, and wished me the best.;;;;;;;;;;;x
 VIETmisc.8063.a;Please, play some more music. It’s good.;;;;;;;;;;;;;x
 VIETmisc.8063.b;He’s just a peasant.;;;;;;;;;;;;;x
 VIETmisc.8064.title;Peace of [Root.Religion.GetHighGodName];;;;;;;;;;;x
@@ -266,12 +266,12 @@ VIETmisc.8064.desc;There are those who say that according to the [Root.Religion.
 VIETmisc.8064.a;I think [Root.Religion.GetHighGodName] wants us to smite infidels, not to have peace!;;;;;;;;;;;;;x
 VIETmisc.8064.b;Love and peace! We are indeed all brothers and sisters!;;;;;;;;;;;;;x
 VIETmisc.8064.c;It’s a nice idea, but idealism can only do so much.;;;;;;;;;;;;;x
-VIETmisc.8065.desc;In your dreams you find yourself a soldier in a world torn asunder.. Ash and smoke fill the skies as you stand in a muddy trench, wearing outlandishly shaped, long robes. You glance around and see other men dressed the same way, and conclude this is a uniform of some sort. Nearby, you hear loud noises, like as if thousands of buildings were collapsing.;;;;;;;;;;;x
+VIETmisc.8065.desc;In your dreams you find yourself a soldier in a world torn asunder. Ash and smoke fill the skies as you stand in a muddy trench, wearing outlandishly shaped, long robes. You glance around and see other men dressed the same way, and conclude this is a uniform of some sort. Nearby, you hear loud noises, like as if thousands of buildings were collapsing.;;;;;;;;;;;x
 VIETmisc.8065.a;You cover your ears and close your eyes.;;;;;;;;;;;;;x
 VIETmisc.8066.tooltip;It doesn’t really help much.;;;;;;;;;;;x
 VIETmisc.8066.title;No Man’s Land;;;;;;;;;;;x
 VIETmisc.8066.desc;Fearfully, you glance over the trench and see nothing but black mud at first. On the ground from one end of the horizon to another are stone-cold corpses with open eyes and still-bleeding wounds. Suddenly, another loud crash, this one closer.\n\nAs men around you begin to shout words you don't know, you see other soldiers grasping their weapons, which are strange, hollowed spears with crooked handles. You do understand, despite your terrified state, that you are to go over the muddy trench you are currently in and charge at some enemy on the other side.;;;;;;;;;;;x
-VIETmisc.8066.a;You hold onto your own hollow spear and follow your comrades outside the trench.;;;;;;;;;;;;;x
+VIETmisc.8066.a;You grasp your own hollow spear and follow your comrades over the trench.;;;;;;;;;;;;;x
 VIETmisc.8067.tooltip;Wait, what was that? Ahhh!;;;;;;;;;;;x
 VIETmisc.8067.title;A World at War;;;;;;;;;;;x
 VIETmisc.8067.desc;You scream as you see metallic horses and birds the size of houses swoop around you, while loud explosions rock everywhere. Men fall down like paper burned by a never-ending inferno, from flying pebbles that tear them to pieces. Others are blown to pieces as thunder strikes seemingly arbitrary places on the ground.\n\nThis is the future of humanity, you realize: there is no future, no hope. This is the war to end all wars, that the world shall end in an apocalypse of fire and hatred.\n\nYou wake up, sweating. Was that a vision of the future? Surely not. But if it was… how much longer until your descendants witness such horrors? A century from now? Two centuries? Ten?;;;;;;;;;;;x
@@ -280,12 +280,12 @@ VIETmisc.8068.desc;There have been many nomad empires, some quite large and some
 VIETmisc.8068.a;As if that'd happen.;;;;;;;;;;;;;x
 VIETmisc.8069.tooltip;There are lots of nomad peoples who come and go, what would make this one any different?;;;;;;;;;;;x
 VIETmisc.8069.title;Scourge of [Root.Religion.GetHighGodName];;;;;;;;;;;x
-VIETmisc.8069.desc;This lord shall be born grasping a blood clot in his fist, she proclaims, and his mighty warriors shall pour forth from the steppes like water flows down a river and wash the world in blood and death.\n\nShe laughs at my doubt, and begins to say in a chilling tone: “He is not to be trifled with, for he is the very fist of [Root.Religion.GetHighGodName] to punish all for their wickedness. By his arrows, the Jade Dragon to the east shall perish. Under the hooves of his riders, the Rajas of India shall fall one by one. Against his dark armor, forged from the very sins of mankind, even the fearsome Sword of Islam nor the Crusader Kings will do naught but a scratch to this bloodied messenger of [Root.Religion.GetHighGodName].”;;;;;;;;;;;x
+VIETmisc.8069.desc;This lord shall be born grasping a blood clot in his fist, she proclaims, and his mighty warriors shall pour forth from the steppes like water flows down a river and wash the world in blood and death.\n\nShe laughs at my doubt, and says in a chilling tone: “He is not to be trifled with, for he is the very fist of [Root.Religion.GetHighGodName] to punish all for their wickedness. By his arrows, the Jade Dragon to the east shall perish. Under the hooves of his riders, the Rajas of India shall fall one by one. Against his dark armor, forged from the very sins of mankind, even the fearsome Sword of Islam and the Crusader Kings will do naught but a scratch to this bloodied messenger of [Root.Religion.GetHighGodName].”;;;;;;;;;;;x
 VIETmisc.8069.a;Ha! The Jade Dragon cannot possibly fall.;;;;;;;;;;;;;x
 VIETmisc.8069.b;The Rajas of India can fight such a monster!;;;;;;;;;;;;;x
 VIETmisc.8069.c;He sounds scary, but the Sword of Islam is stronger.;;;;;;;;;;;;;x
 VIETmisc.8069.d;Surely the Crusader Kings will have the zeal to resist!;;;;;;;;;;;;;x
-VIETmisc.8070.desc;I am asleep and wandering the void before my mind is pulled into a dream. Deep inside my subconsciousness, I know this as a vision of the future, though my consciousness doesn't quite register it as such. There is a fork at the road - at least, I think it is a road, and I think it is a fork at a road - that goes in two directions.
+VIETmisc.8070.desc;I am asleep and wandering the void before my mind is pulled into a dream. Deep in my subconsciousness, I know this as a vision of the future, though my consciousness doesn't register it as such. There is a fork at the road - at least, I think it is a road, and I think it is a fork at a road - that goes in two directions.
 ;;;;;;;;;;;x
 VIETmisc.8070.a;Left;;;;;;;;;;;;;x
 VIETmisc.8070.b;Right;;;;;;;;;;;;;x

@@ -35,9 +35,16 @@ on_yearly_pulse = {
 			100 = VIETnam.95 # Honest - criticize a bad merchant
 			100 = VIETnam.96 # Cruel - your character is a tyrant			
 			#Food
-			100 = VIETnam.193				# Sour Kefir
-			100 = VIETnam.194				# North African mint tea ceremony
-			100 = VIETnam.195				# Altaic food pit stop
+			100 = VIETnam.193	# Sour Kefir
+			100 = VIETnam.194	# North African mint tea ceremony
+			100 = VIETnam.195	# Altaic food pit stop
+			#Muslim
+			100 = VIETnam.175	# Wash face - wudu
+			#Alcohol
+			100 = VIETnam.190	# Drunk Courtier interrupts court
+			#TES References
+			100 = VIETnam.197	# Curved. Swords.
+			100 = VIETnam.199	# Generic Oblivion dialogue
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.1 	# Something in your hair
@@ -111,8 +118,19 @@ on_bi_yearly_pulse = {
 			12850 = 0 #May need to adjust
 			
 			#Food
-			100 = VIETnam.191				# Byzantine cook
-			100 = VIETnam.192				# Forks are terrible!
+			100 = VIETnam.191	# Byzantine cook
+			100 = VIETnam.192	# Forks are terrible!
+			#Muslim
+			100 = VIETnam.176	# Critical Sufi master
+			100 = VIETnam.179	# Character defeated by courtier in Persian chess
+			100 = VIETnam.180	# Fame throughout Muslim world
+			100 = VIETnam.181	# Piety throughout Muslim world
+			100 = VIETnam.182	# Hafiz forgets lines
+			#Alcohol
+			100 = VIETnam.189	# Shipment of wines arrive
+			#TES References
+			100 = VIETnam.196	# STOP RIGHT THERE CRIMINAL SCUM
+			100 = VIETnam.198	# Lucien Lachance visits a kinslayer
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.0 	# What is greater, the real or the fake?
@@ -183,6 +201,12 @@ on_five_year_pulse = {
 			
 			8250 = 0 #May need to adjust
 			
+			#Muslim
+			100 = VIETnam.177	# Scholar from the House of Wisdom visits your court
+			100 = VIETnam.183	# Annoying Beggar
+			#Alcohol
+			100 = VIETnam.184	# Courtier challenges you to a drinking contest
+			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.10 	# who cut the cheese?
 			100 = VIETScarboroughFair.20	# Son fornicating with maid
@@ -241,6 +265,20 @@ on_decade_pulse = {
 			#Reborn Events
 			100 = VIETmisc.9010					# Meet a merchant who went to China
 			100 = VIETmisc.9015					# Literally do the Oblivion main questline
+		}
+	}
+}
+
+
+# For characters 2 to 16 years old
+on_yearly_childhood_pulse = {
+	random_events = {
+		VIET_child_random = {
+			delay = 8
+			8000 = 0
+			#Alcohol
+			100 = VIETnam.187
+		
 		}
 	}
 }

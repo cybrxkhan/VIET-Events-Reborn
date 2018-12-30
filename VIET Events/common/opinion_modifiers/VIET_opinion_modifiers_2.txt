@@ -16,3 +16,9 @@ VIET_opinion_interrupted_secret_conversation = {
 VIET_opinion_suspicious_conversation = {
 	opinion = -30
 }
+VIET_opinion_won_drinking_contest = {
+	opinion = 25
+}
+VIET_opinion_lost_drinking_contest = {
+	opinion = -25
+}

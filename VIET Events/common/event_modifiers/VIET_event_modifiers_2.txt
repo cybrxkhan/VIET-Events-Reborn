@@ -398,3 +398,9 @@ VIET_world_war_1_dream = {
 	monthly_character_piety = 0.1
 	icon = 118
 }
+VIET_one_time_lovemaking = {
+	diplomacy = 1
+	fertility = 0.02
+	monthly_character_piety = -0.1
+	icon = 39
+}
