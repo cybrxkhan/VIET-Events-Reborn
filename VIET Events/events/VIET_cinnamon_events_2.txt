@@ -257,6 +257,12 @@ character_event = {
 		in_command = no
 		NOT = { has_global_flag =  VIET_Oblivion_dream }
 		learning = 6
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}		
+		}
 	}
 	
 	weight_multiplier = {
@@ -533,11 +539,12 @@ narrative_event = {
 	
 	option = { # Okay
 		name = VIETmisc.9028.a
-		piety = 50
-		prestige = 50
+		piety = 25
+		prestige = 25
 		add_character_modifier = {
 			name = VIET_Oblivion_dream_complete
 			duration = -1 #1825
 		}
+		add_artifact = VIET_oblivion_dream_book
 	}	
 }

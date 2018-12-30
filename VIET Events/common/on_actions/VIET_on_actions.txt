@@ -300,6 +300,10 @@ on_decade_pulse = {
 			50 = OCC.1				# Dance with the dead
 			50 = OCC.2				# Dance with the dead
 			100 = VIETmisc.5061		# Kogarashi Sentiment
+			100 = VIETmisc.5028		# The infamous toothbrushing scene from Nisemonogatari (incest religion version)
+			100 = VIETmisc.5060		# The infamous toothbrushing scene from Nisemonogatari (non-incest religion version)
+			100 = VIETmisc.5043		# Burnt bread (based on a legend about Alfred the Great)
+			100 = VIETmisc.5054		# Character dreams of meeting a succubus (implied to be sleep paralysis)
 			
 			#Swansong Events (Swansong no more)
 			10 = VIETScarboroughFair.15			# died choking to death
