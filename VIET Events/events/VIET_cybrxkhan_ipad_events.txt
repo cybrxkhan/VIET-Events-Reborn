@@ -1322,9 +1322,9 @@ character_event = {
 				region = world_europe_west_iberia
 				region = world_europe_west_francia
 				region = world_asia_minor
-				region = world_europe_west_iberia
+				region = world_europe_west_iberia # duplicated, maybe other region was intended here?
 				region = world_middle_east
-				region = world_africa_north			
+				region = world_africa_north
 			}
 		}
 	}
@@ -1376,7 +1376,7 @@ character_event = {
 	option = {
 		name = VIETmisc.2014.a
 		trigger = { 
-			NOT = { trait = celibate } 
+			NOT = { trait = celibate }
 		}
 		add_character_modifier = {
 			name = VIET_feeling_sexy

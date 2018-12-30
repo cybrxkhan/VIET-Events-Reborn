@@ -5611,10 +5611,12 @@ character_event = {
 	
 	immediate = {
 		random_courtier = {
-			is_adult = yes
-			NOT = {
-				trait = incapable
-			}	
+			limit = {
+				is_adult = yes
+				NOT = {
+					trait = incapable
+				}
+			}
 			save_event_target_as = target_VIET_random_oblivion_dialogue_courtier
 		}
 	}
@@ -6380,7 +6382,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	min_age = 16
-	is_ruler = yes
+	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	war = no
