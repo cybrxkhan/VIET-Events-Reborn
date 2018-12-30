@@ -218,6 +218,17 @@ province_event = {
 			name = VIET_province_landslide
 			duration = 1200
 		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -6 }
+				}
+			}
+		}
 	}
 	option = {#yes
 		name = VIETScarboroughFair.2.b
@@ -238,6 +249,17 @@ province_event = {
 			name = VIET_province_landslide
 			duration = 1200
 		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -6 }
+				}
+			}
+		}
 	}
 	option = {#yes
 		name = VIETScarboroughFair.2.c
@@ -251,6 +273,17 @@ province_event = {
 				chance = 10
 			}			
 			wealth = -30
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -3 }
+				}
+			}
 		}
 		random_list = {
 			40 = {
@@ -719,12 +752,10 @@ character_event = {
 
 	trigger = {
 		in_command = no
-		NOT = {
-			has_game_rule = {
-				name = VIET_events_rules
-				value = serious
-			}		
-		}
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}		
 	}
 
 	weight_multiplier = {
@@ -1036,7 +1067,7 @@ character_event = {
 	}
 }
 
-# haha u die sucker
+# haha u die sucker - death by choking on food
 character_event = {
 	id = VIETScarboroughFair.15
 	desc = VIETScarboroughFair.15.desc
@@ -1063,7 +1094,7 @@ character_event = {
 	option = {#yes
 		name = VIETScarboroughFair.15.a
 		death = {
-			death_reason = death_accident
+			death_reason = death_VIET_choking_food
 		}
 	}
 }
@@ -1710,6 +1741,12 @@ character_event = {
 			name = VIET_leader_angered_peasants
 			duration = 911
 		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = 1
+		}
 	}
 }
 
@@ -1863,6 +1900,15 @@ character_event = {
 			20 = { add_trait = diligent }
 			40 = { }
 		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = -1
+				chance = 25
+			}
+		}
 	}
 	option = {#yes
 		name = VIETScarboroughFair.24.b
@@ -1874,6 +1920,15 @@ character_event = {
 			20 = { add_trait = patient }
 			30 = { add_trait = proud }
 			50 = { }
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = 1
+				chance = 25
+			}
 		}
 	}
 }
@@ -2784,12 +2839,30 @@ character_event = {
 			name = VIET_new_expensive_cosmetics
 			duration = 777
 		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = 1
+				chance = 25
+			}
+		}
 	}
 	option = {#yes
 		name = VIETScarboroughFair.40.b
 		add_character_modifier = {
 			name = the_prude
 			duration = 365
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = -1
+				chance = 25
+			}
 		}
 	}
 	option = {#yes
@@ -3175,6 +3248,12 @@ character_event = {
 			name = VIET_good_exercise
 			duration = 365
 		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = 2
+		}
 	}
 }
 
@@ -3272,6 +3351,15 @@ character_event = {
 				chance = 30
 			}
 		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = 1
+				chance = 40
+			}
+		}
 	}
 
 	option = {#yes
@@ -3281,6 +3369,15 @@ character_event = {
 			35 = { add_trait = humble }
 			15 = { add_trait = content }
 			50 = { }
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = -1
+				chance = 20
+			}
 		}
 	}
 }
@@ -3589,6 +3686,12 @@ narrative_event = {
 	option = {#yes
 		name = VIETScarboroughFair.49.b
 		set_global_flag = VIET_Scarborough_Fair_blessing_given
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = -8
+		}
 		add_character_modifier = {
 			name = VIET_going_to_Scarborough_Fair
 			duration = -1

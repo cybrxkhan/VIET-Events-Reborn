@@ -398,3 +398,25 @@ VIET_world_war_1_dream = {
 	monthly_character_piety = 0.1
 	icon = 118
 }
+VIET_one_time_lovemaking = {
+	diplomacy = 1
+	fertility = 0.02
+	monthly_character_piety = -0.1
+	icon = 39
+}
+VIET_fruit_loops_poops = {
+	health = -0.2
+	monthly_character_prestige = -0.01
+	icon = 90
+}
+VIET_scorpion_sting = {
+	health = -0.7
+	icon = 70
+}
+VIET_dream_dagoth_ur = {
+	diplomacy = -1
+	learning = 1
+	monthly_character_piety = 0.01
+	monthly_character_prestige = -0.01
+	icon = 41
+}

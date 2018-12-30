@@ -6,6 +6,7 @@
 #
 # 8000-8052: First batch of reborn events
 # 8053-8064: Oblivion Soundtrack inspired events
+# 8065-80??: Prophecy and Future
 #
 #
 #
@@ -452,7 +453,7 @@ character_event = {
 			trait = kind
 		}
 		new_character = {
-			add_character_modifier = { #doesn't seem to work???
+			add_character_modifier = {
 				name = VIET_was_oblivion_guard
 				duration = -1
 			}
@@ -663,6 +664,17 @@ province_event = {
 				}
 			}
 		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -2 }
+				}
+			}
+		}
 	}
 	option = { # Send in some help
 		name = VIETmisc.8006.b
@@ -695,6 +707,17 @@ province_event = {
 						name = VIET_province_bridge_collapse
 						duration = 1200
 					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -3 }
 				}
 			}
 		}
@@ -733,6 +756,17 @@ province_event = {
 						name = VIET_province_bridge_collapse
 						duration = 1600
 					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -7 }
 				}
 			}
 		}
@@ -1054,6 +1088,17 @@ province_event = {
 		add_province_modifier = {
 			name = VIET_province_recent_sandstorm
 			duration = 365
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -8 }
+				}
+			}
 		}
 	}
 }
@@ -1764,12 +1809,7 @@ character_event = {
 		modifier = { #will not be as common for realms far from China
 			factor = 0.3
 			NOR = {
-				culture_group = chinese_group
-				culture_group = serindian
-				culture = tocharian
-				culture = sogdian
-				culture = khitan
-				culture = jurchen
+				is_sinosphere_large_trigger = yes
 				capital_scope = {
 					OR = {
 						region = custom_eastern_edge_of_map
@@ -3847,12 +3887,7 @@ character_event = {
 				region = custom_eastern_edge_of_map
 				region = world_himalayas
 				region = world_steppe_tarim
-				culture_group = chinese_group
-				culture_group = serindian
-				culture = tocharian
-				culture = sogdian
-				culture = khitan
-				culture = jurchen
+				is_sinosphere_large_trigger = yes
 			}
 		}		
 	}
@@ -4194,26 +4229,10 @@ character_event = {
 					region = world_steppe_tarim
 					region = world_persia
 					region = world_india
-					culture_group = chinese_group
-					culture_group = serindian
-					culture_group = tibetan_group
-					culture = tocharian
-					culture = sogdian
-					culture = khitan
-					culture = jurchen
-					culture = mongol
-					culture = uyghur
+					is_sinosphere_large_trigger = yes
 				}
 			}	
-			culture_group = chinese_group
-			culture_group = serindian
-			culture_group = tibetan_group
-			culture = tocharian
-			culture = sogdian
-			culture = khitan
-			culture = jurchen
-			culture = mongol
-			culture = uyghur
+			is_sinosphere_large_trigger = yes
 		}
 	}
 	
@@ -4445,6 +4464,12 @@ character_event = {
 		name = VIETmisc.8044.d
 		if = {
 			limit = {
+				religion_group = muslim
+			}
+			decadence = -1
+		}
+		if = {
+			limit = {
 				trait = gluttonous
 			}
 			random = {
@@ -4659,11 +4684,7 @@ character_event = {
 	
 	trigger = {
 	#	in_command = no
-		OR = {
-			culture_group = chinese_group
-			culture = khitan
-			culture = jurchen
-		}
+		is_sinosphere_small_trigger = yes
 	}
 	
 	weight_multiplier = {
@@ -4739,17 +4760,10 @@ character_event = {
 	trigger = {
 		in_command = no
 		OR = {
-			culture_group = byzantine
-			#culture_group = south_semitic
-			#culture_group = east_semitic
-			#culture_group = northwest_semitic
-			#culture_group = central_semitic
-			culture_group = arabic
-			culture_group = iranian
-			culture_group = south_slavic
-			culture_group = north_african
-			culture_group = kemetic_group
-			culture = turkish
+			is_baklava_culture_trigger = yes
+			capital_scope = {
+				is_baklava_culture_trigger = yes
+			}
 		}
 	}
 	
@@ -4846,7 +4860,7 @@ province_event = {
 	
 
 	option = { # Ok
-		name = VIETmisc.8006.a
+		name = VIETmisc.8049.a
 		random_list = {
 			20 = {
 				add_province_modifier = {
@@ -4871,6 +4885,17 @@ province_event = {
 					name = VIET_province_pistachios
 					duration = 14600
 				}				
+			}
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 8 }
+				}
 			}
 		}
 	}	
@@ -5330,18 +5355,31 @@ character_event = {
 				add_trait = paranoid
 				chance = 25
 			}
-		}		
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = 1
+		}
 	}		
 	option = { # Talk to the commoners
 		name = VIETmisc.8054.c
 		trigger = {
 			NOT = { trait = shy }
 		}
+		prestige = -5
 		random_list = {
 			15 = { add_trait = gregarious }
 			10 = { add_trait = just }
 			10 = { add_trait = humble }
 			65 = {}
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = -1
 		}
 	}	
 }
@@ -5831,6 +5869,15 @@ character_event = {
 			15 = { add_trait = arbitrary }
 			40 = {}
 		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = 1
+				chance = 25
+			}
+		}
 	}
 	option = { # Protect and help subjects
 		name = VIETmisc.8059.c
@@ -5840,6 +5887,15 @@ character_event = {
 			15 = { add_trait = just }
 			15 = { add_trait = brave }
 			40 = {}
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = -1
+				chance = 25
+			}
 		}
 	}
 	option = { # Glory
@@ -6370,7 +6426,9 @@ character_event = {
 
 ####################################################################
 #
+# PROPHECY AND FUTURE
 #
+# Events about the future - whether the prophecies are true or not
 #
 ####################################################################
 
@@ -6464,7 +6522,7 @@ character_event = {
 }
 
 # Over the trench
-character_event = {
+narrative_event = {
 	id = VIETmisc.8066
 	title = VIETmisc.8066.title
 	desc = VIETmisc.8066.desc
@@ -6478,8 +6536,8 @@ character_event = {
 	}	
 }
 
-# Over the trench
-character_event = {
+# The Great War
+narrative_event = {
 	id = VIETmisc.8067
 	title = VIETmisc.8067.title
 	desc = VIETmisc.8067.desc
@@ -6708,7 +6766,7 @@ character_event = {
 		if = { #if you're a dick
 			limit = {
 				calc_true_if = {
-					amount = 4
+					amount = 3
 					trait = envious
 					trait = greedy
 					trait = lustful
@@ -6724,9 +6782,11 @@ character_event = {
 					trait = hedonist
 				}
 			}
-			random_list = {
-				75 = { character_event = { id = VIETmisc.8071 } }
-				25 = { character_event = { id = VIETmisc.8072 } }
+			hidden_tooltip = {
+				random_list = {
+					75 = { character_event = { id = VIETmisc.8071 } }
+					25 = { character_event = { id = VIETmisc.8072 } }
+				}			
 			}
 			break = yes # Skip tombola, you're done!
 		}
@@ -6746,15 +6806,19 @@ character_event = {
 					trait = brave
 				}
 			}
-			random_list = {
-				25 = { character_event = { id = VIETmisc.8071 } }
-				75 = { character_event = { id = VIETmisc.8072 } }
+			hidden_tooltip = {
+				random_list = {
+					25 = { character_event = { id = VIETmisc.8071 } }
+					75 = { character_event = { id = VIETmisc.8072 } }
+				}			
 			}
 			break = yes # Skip tombola, you're done!
 		}
-		random_list = {
-			50 = { character_event = { id = VIETmisc.8071 } }
-			50 = { character_event = { id = VIETmisc.8072 } }
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = VIETmisc.8071 } }
+				50 = { character_event = { id = VIETmisc.8072 } }
+			}		
 		}
 	}	
 	option = { # Go left
@@ -6762,7 +6826,7 @@ character_event = {
 		if = { #if you're a dick
 			limit = {
 				calc_true_if = {
-					amount = 4
+					amount = 3
 					trait = envious
 					trait = greedy
 					trait = lustful
@@ -6778,9 +6842,11 @@ character_event = {
 					trait = hedonist
 				}
 			}
-			random_list = {
-				75 = { character_event = { id = VIETmisc.8071 } }
-				25 = { character_event = { id = VIETmisc.8072 } }
+			hidden_tooltip = {
+				random_list = {
+					75 = { character_event = { id = VIETmisc.8071 } }
+					25 = { character_event = { id = VIETmisc.8072 } }
+				}			
 			}
 			break = yes # Skip tombola, you're done!
 		}
@@ -6800,15 +6866,19 @@ character_event = {
 					trait = brave
 				}
 			}
-			random_list = {
-				25 = { character_event = { id = VIETmisc.8071 } }
-				75 = { character_event = { id = VIETmisc.8072 } }
+			hidden_tooltip = {
+				random_list = {
+					25 = { character_event = { id = VIETmisc.8071 } }
+					75 = { character_event = { id = VIETmisc.8072 } }
+				}			
 			}
 			break = yes # Skip tombola, you're done!
 		}
-		random_list = {
-			50 = { character_event = { id = VIETmisc.8071 } }
-			50 = { character_event = { id = VIETmisc.8072 } }
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = VIETmisc.8071 } }
+				50 = { character_event = { id = VIETmisc.8072 } }
+			}		
 		}
 	}	
 }
@@ -6960,7 +7030,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.8073
 	desc = VIETmisc.8073.desc
-	picture = GFX_evt_irminsul_burning
+	picture = GFX_evt_skyrim_forest
 	
 	is_triggered_only = yes
 	
@@ -7032,7 +7102,7 @@ character_event = {
 	
 	option = { # Go on
 		name = VIETmisc.8073.a
-		character_event = { id = VIETmisc.8073 tooltip = VIETmisc.8073.tooltip }
+		character_event = { id = VIETmisc.8074 tooltip = VIETmisc.8074.tooltip }
 	}	
 }
 

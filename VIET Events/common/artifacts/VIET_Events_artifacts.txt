@@ -41,3 +41,13 @@ VIET_nutcracker = {
 	#stacking = no
 	picture = "GFX_VIET_nutcracker"
 }
+VIET_oblivion_dream_book = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	martial = 1
+	learning = 1
+	quality = 3
+	stacking = no
+	picture = "GFX_VIET_oblivion_dream_book"
+}
