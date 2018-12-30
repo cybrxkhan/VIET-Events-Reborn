@@ -1069,7 +1069,7 @@ character_event = {
 	}
 }
 
-# haha u die sucker
+# haha u die sucker - death by choking on food
 character_event = {
 	id = VIETScarboroughFair.15
 	desc = VIETScarboroughFair.15.desc
@@ -1096,7 +1096,7 @@ character_event = {
 	option = {#yes
 		name = VIETScarboroughFair.15.a
 		death = {
-			death_reason = death_accident
+			death_reason = death_VIET_choking_food
 		}
 	}
 }

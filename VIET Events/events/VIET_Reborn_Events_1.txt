@@ -6782,9 +6782,11 @@ character_event = {
 					trait = hedonist
 				}
 			}
-			random_list = {
-				75 = { character_event = { id = VIETmisc.8071 } }
-				25 = { character_event = { id = VIETmisc.8072 } }
+			hidden_tooltip = {
+				random_list = {
+					75 = { character_event = { id = VIETmisc.8071 } }
+					25 = { character_event = { id = VIETmisc.8072 } }
+				}			
 			}
 			break = yes # Skip tombola, you're done!
 		}
@@ -6804,15 +6806,19 @@ character_event = {
 					trait = brave
 				}
 			}
-			random_list = {
-				25 = { character_event = { id = VIETmisc.8071 } }
-				75 = { character_event = { id = VIETmisc.8072 } }
+			hidden_tooltip = {
+				random_list = {
+					25 = { character_event = { id = VIETmisc.8071 } }
+					75 = { character_event = { id = VIETmisc.8072 } }
+				}			
 			}
 			break = yes # Skip tombola, you're done!
 		}
-		random_list = {
-			50 = { character_event = { id = VIETmisc.8071 } }
-			50 = { character_event = { id = VIETmisc.8072 } }
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = VIETmisc.8071 } }
+				50 = { character_event = { id = VIETmisc.8072 } }
+			}		
 		}
 	}	
 	option = { # Go left
@@ -6836,9 +6842,11 @@ character_event = {
 					trait = hedonist
 				}
 			}
-			random_list = {
-				75 = { character_event = { id = VIETmisc.8071 } }
-				25 = { character_event = { id = VIETmisc.8072 } }
+			hidden_tooltip = {
+				random_list = {
+					75 = { character_event = { id = VIETmisc.8071 } }
+					25 = { character_event = { id = VIETmisc.8072 } }
+				}			
 			}
 			break = yes # Skip tombola, you're done!
 		}
@@ -6858,15 +6866,19 @@ character_event = {
 					trait = brave
 				}
 			}
-			random_list = {
-				25 = { character_event = { id = VIETmisc.8071 } }
-				75 = { character_event = { id = VIETmisc.8072 } }
+			hidden_tooltip = {
+				random_list = {
+					25 = { character_event = { id = VIETmisc.8071 } }
+					75 = { character_event = { id = VIETmisc.8072 } }
+				}			
 			}
 			break = yes # Skip tombola, you're done!
 		}
-		random_list = {
-			50 = { character_event = { id = VIETmisc.8071 } }
-			50 = { character_event = { id = VIETmisc.8072 } }
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = VIETmisc.8071 } }
+				50 = { character_event = { id = VIETmisc.8072 } }
+			}		
 		}
 	}	
 }

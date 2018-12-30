@@ -45,6 +45,15 @@ on_yearly_pulse = {
 			#TES References
 			100 = VIETnam.197	# Curved. Swords.
 			100 = VIETnam.199	# Generic Oblivion dialogue
+			#Dirty
+			100 = VIETnam.200	# Slip in the mud
+			100 = VIETnam.201	# Coin in the ground
+			#Nature
+			100 = VIETnam.205	# Admiring the night sky
+			100 = VIETnam.206	# The Butterfly
+			#Dreams
+			100 = VIETnam.217	# Good dream
+			100 = VIETnam.218	# Battle dream
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.1 	# Something in your hair
@@ -65,7 +74,19 @@ on_yearly_pulse = {
 			100 = VIETScarboroughFair.45 	# Courtier does too much perfume
 			100 = VIETScarboroughFair.46 	# Are tans good?
 			
-			#Moss pond
+			#Vegetables
+			100 = VIETmisc.2000		# A gift of onions
+			100 = VIETmisc.2001		# Character hears about red and yellow carrots (historically most carrots were purplish in this era)	
+			100 = VIETmisc.2002		# Courtier thinks cabbages are too lowly		
+			100 = VIETmisc.2005		# African fufu feast	
+			100 = VIETmisc.2006		# Character wants to eat some Greek salad
+			#Water
+			100 = VIETmisc.2007		# Choked while drinking water	
+			100 = VIETmisc.2008 	# Drinking water is refreshing	
+			#Bitter
+			100 = VIETmisc.2011		# How do you like your coffee?
+			100 = VIETmisc.2013		# Bought crappy bitter olives
+			#Moss
 			100 = VIETmisc.2292 	# Moss Pond
 			#Animal themed
 			100 = VIETmisc.2293 	# Turtle on a rock
@@ -96,12 +117,16 @@ on_yearly_pulse = {
 			100 = VIETmisc.8044 # How to cook eggs?
 			100 = VIETmisc.8046 # Indian superstition about singing
 			100 = VIETmisc.8047 # Asian superstition about the number of sneezes
+			100 = VIETmisc.8048 # Eating Baklava
+			100 = VIETmisc.8051 # Stars gazing
 			100 = VIETmisc.8052 # Good dream
 			#Oblivion Soundtrack
 			100 = VIETmisc.8054 # Harvest Dawn - Passing by peasants doing farm work
+			100 = VIETmisc.8055 # King and Country - Existential crisis
 			100 = VIETmisc.8057 # All's Well - Today nothing exciting happened at court
 			100 = VIETmisc.8058 # Watchman's ease - Talking with guard
 			100 = VIETmisc.8059 # Glory of Cyrodiil - What is my purpose as a ruler?
+			100 = VIETmisc.8060 # Minstrel's Lament - Musician sings sad song
 			100 = VIETmisc.8064 # Peace of Akatosh - Is peace a worthwhile ideal?
 		}
 		
@@ -131,6 +156,13 @@ on_bi_yearly_pulse = {
 			#TES References
 			100 = VIETnam.196	# STOP RIGHT THERE CRIMINAL SCUM
 			100 = VIETnam.198	# Lucien Lachance visits a kinslayer
+			#Dirty
+			100 = VIETnam.202	# Talking with peasants about fertilizer
+			100 = VIETnam.203	# Talking with priests about parchment coloring
+			#Nature
+			100 = VIETnam.207	# The Scorpion
+			#Dreams
+			100 = VIETnam.221	# Dream of temptation
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.0 	# What is greater, the real or the fake?
@@ -143,6 +175,11 @@ on_bi_yearly_pulse = {
 			100 = VIETScarboroughFair.43 	# Gift of cubeb
 			100 = VIETScarboroughFair.44 	# Bring courtesan to bed
 			
+			#Vegetables	
+			100 = VIETmisc.2003		# Onion hair loss treatment
+			100 = VIETmisc.2004		# Garlic protection against vampires
+			#Bitter
+			100 = VIETmisc.2011		# Learning to eat bitter Greek greens
 			#Christmas
 			100 = VIETmisc.2286 	# Do you believe Saint Nick is still alive?
 			100 = VIETmisc.2287 	# Mistletoe, but no one is under it with you
@@ -173,14 +210,10 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8026 # Female ruler surrounded by hunky bodyguards
 			100 = VIETmisc.8033 # Purchasing an hourglass?
 			100 = VIETmisc.8042 # Gift of herbal tea from China
-			100 = VIETmisc.8048 # Eating Baklava
 			100 = VIETmisc.8050 # Incest argument
-			100 = VIETmisc.8051 # Stars gazing
 			#Oblivion Soundtrack
 			100 = VIETmisc.8053 # Through the Valleys - Dream of Lake Rumare
-			100 = VIETmisc.8055 # King and Country - Existential crisis
 			100 = VIETmisc.8056 # Wings of Kynareth - Dreaming of Cyrodiil and deciding where to go
-			100 = VIETmisc.8060 # Minstrel's Lament - Musician sings sad song
 			100 = VIETmisc.8062 # Dusk at the Market - Merchant runs out of product
 			100 = VIETmisc.8063 # Sunrise of Flutes - Meet a shepherd playing the flute
 			#Prophecy
@@ -206,6 +239,11 @@ on_five_year_pulse = {
 			100 = VIETnam.183	# Annoying Beggar
 			#Alcohol
 			100 = VIETnam.184	# Courtier challenges you to a drinking contest
+			#Dirty
+			100 = VIETnam.204	# Courtier has colorful poops / fruit loops poops
+			#Dreams
+			100 = VIETnam.219	# Dagoth Ur dream
+			100 = VIETnam.220	# Dream of Rome
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.10 	# who cut the cheese?
@@ -217,6 +255,12 @@ on_five_year_pulse = {
 			100 = VIETScarboroughFair.28 	# Merchant offers abacus
 			100 = VIETScarboroughFair.32 	# Gift of reishi mushroom
 			
+			#Water
+			100 = VIETmisc.2009 	# Digging a new water well
+			#Bitter
+			100 = VIETmisc.2010 	# Character falls down stairs and uses chicory to heal			
+			100 = VIETmisc.2014 	# Ate a lot of arugula recently			
+			100 = VIETmisc.2015 	# Spinach makes me strong		
 			#Christmas
 			100 = VIETmisc.2285 	# Santa Claus is coming to town
 			100 = VIETmisc.2288 	# Candy canes

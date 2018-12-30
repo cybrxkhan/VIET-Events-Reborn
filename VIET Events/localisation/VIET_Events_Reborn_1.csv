@@ -2,11 +2,11 @@
 VIETmisc.8000.desc;Last night [Root.GetSheHeOpp] appeared in my dream, and we laughed and danced and talked about nothing in particular. My heart was beating so fast, for I was so nervous yet excited that even when I woke up I could still feel it. It has been so long, so many years since we last met, yet even now I still think about [Root.GetHerHimOpp].;;;;;;;;;;;x
 VIETmisc.8000.a;We were so young and innocent.;;;;;;;;;;;;;x
 VIETmisc.8001.desc;I idly sit at court one day when I see one of my young servants staring across the hall at one of my maids for far too long. She notices and looks at him, confused. He immediately jerks his head away, embarrassed, awkwardly avoiding her gaze. It's old news that he finds her attractive but hasn't worked up the courage to tell her, and she is too oblivious to know any better.;;;;;;;;;;;x
-VIETmisc.8001.a;He will find courage soon, or she a brain. It’ll work out.;;;;;;;;;;;;;x
+VIETmisc.8001.a;He will find courage soon, or she a brain. It'll work out.;;;;;;;;;;;;;x
 VIETmisc.8001.b;Silly boy and girl. Fanciful, stupid, fleeting feelings.;;;;;;;;;;;;;x
 VIETmisc.8001.c;Ah, youth!;;;;;;;;;;;;;x
 VIETmisc.8001.d;I sympathize with him. People are scary.;;;;;;;;;;;;;x
-VIETmisc.8001.b.tooltip;It’s not like I was in love with anyone that way or anything like that.;;;;;;;;;;;x
+VIETmisc.8001.b.tooltip;It's not like I was in love with anyone that way or anything like that.;;;;;;;;;;;x
 VIETmisc.8002.desc;I don't know why, but I am feeling quite happy and inspired today.;;;;;;;;;;;x
 VIETmisc.8002.a;It's a good feeling!;;;;;;;;;;;;;x
 VIETmisc.8003.desc;I saw a crab in the mud the other day.;;;;;;;;;;;x
@@ -14,7 +14,7 @@ VIETmisc.8003.a;Horrible creatures! I avoid them whenever I can.;;;;;;;;;;;;;x
 VIETmisc.8004.desc;I am in town one day when I hear a guard shout, “STOP, YOU VIOLATED THE LAW!”\n\nWith superhuman speed, he catches a thief and drags the criminal to jail.;;;;;;;;;;;x
 VIETmisc.8004.a;Most remarkable!;;;;;;;;;;;;;x
 VIETmisc.8004.b;Impressive. Reward the guard for this.;;;;;;;;;;;;;x
-VIETmisc.8004.c;I like him. Why don’t we bring him to my court?;;;;;;;;;;;;;x
+VIETmisc.8004.c;I like him. Why don't we bring him to my court?;;;;;;;;;;;;;x
 VIETmisc.8005.desc;I did not approve of what [target_VIET_inappropriate_courtier.GetFullName] said. It was vulgar and inappropriate for the situation.;;;;;;;;;;;x
 VIETmisc.8005.a;I made my stance clear. How disappointing!;;;;;;;;;;;;;x
 VIETmisc.8005.b;I hinted it might have been unsuitable.;;;;;;;;;;;;;x
@@ -36,35 +36,35 @@ VIETmisc.8008.c;I can understand his reasons in all honesty.;;;;;;;;;;;;;x
 VIETmisc.8009.desc;Disturbing reports from [Root.GetName]. A mysterious wooden ship has been spotted floating in the sky along the far horizon in several areas along the coast. The few ships that tried to approach could never reach it, and it does not fly the flag or banner of any known peoples. Wherever it was spotted, locals reported hearing strange, whistling noises, like a faint, screeching wind, in the night for several weeks afterwards.;;;;;;;;;;;x
 VIETmisc.8009.a;Alarming apparitions….;;;;;;;;;;;;;x
 VIETmisc.8009.b;Probably just some peasant hysteria.;;;;;;;;;;;;;x
-VIETmisc.8010.desc;A peasant in [Root.GetName] got lost recently while trekking near the wilderness. She came across a flat, vertical stone surface where the ancient rulers of the region carved various images and inscriptions. After she reported this to the local officials, you sent in people to investigate and it appears this stone is the last remnants of an imposing ancient monument! The stone can’t be re-used, so it must stand where it is, perhaps for all eternity.;;;;;;;;;;;x
+VIETmisc.8010.desc;A peasant in [Root.GetName] got lost recently while trekking near the wilderness. She came across a flat, vertical stone surface where the ancient rulers of the region carved various images and inscriptions. After she reported this to the local officials, you sent in people to investigate and it appears this stone is the last remnants of an imposing ancient monument! The stone can't be re-used, so it must stand where it is, perhaps for all eternity.;;;;;;;;;;;x
 VIETmisc.8010.a;Quite a sight to behold!;;;;;;;;;;;;;x
 VIETmisc.8010.b;Heathen symbol. Discourage people from visiting it.;;;;;;;;;;;;;x
 VIETmisc.8010.c;This is a holy place - build an altar near it.;;;;;;;;;;;;;x
 VIETmisc.8010.d;Send a few antiquitarians to study it.;;;;;;;;;;;;;x
 VIETmisc.8011.desc;A sandstorm recently swept through [Root.GetName] at a most inopportune time. A large number of people perished, including some soldiers who were on patrol. Furthermore, there was some damage to local infrastructure and buildings.;;;;;;;;;;;x
 VIETmisc.8011.a;Troubling news.;;;;;;;;;;;;;x
-#VIETmisc.8012.desc;[target_VIET_vanished_death_courtier.GetName] was never found. The trail ran cold. As far as anyone knows, [target_VIET_vanished_death_courtier.GetSheHe] either went somewhere without telling anyone or died. But it is odd that [target_VIET_vanished_death_courtier.GetSheHe] wouldn’t have told anyone, so rumor is that [target_VIET_vanished_death_courtier.GetSheHe] died. What a tragedy!;;;;;;;;;;;x
+#VIETmisc.8012.desc;[target_VIET_vanished_death_courtier.GetName] was never found. The trail ran cold. As far as anyone knows, [target_VIET_vanished_death_courtier.GetSheHe] either went somewhere without telling anyone or died. But it is odd that [target_VIET_vanished_death_courtier.GetSheHe] wouldn't have told anyone, so rumor is that [target_VIET_vanished_death_courtier.GetSheHe] died. What a tragedy!;;;;;;;;;;;x
 #VIETmisc.8012.a;Let us hope it was nothing serious.;;;;;;;;;;;;;x
-#VIETmisc.8013.desc;[target_VIET_vanished_death_courtier.GetName] was never found. The trail ran cold. As far as anyone knows, [target_VIET_vanished_death_courtier.GetSheHe] either went somewhere without telling anyone or died. But it is odd that [target_VIET_vanished_death_courtier.GetSheHe] wouldn’t have told anyone, so rumor is that [target_VIET_vanished_death_courtier.GetSheHe] died. What a tragedy!;;;;;;;;;;;x
+#VIETmisc.8013.desc;[target_VIET_vanished_death_courtier.GetName] was never found. The trail ran cold. As far as anyone knows, [target_VIET_vanished_death_courtier.GetSheHe] either went somewhere without telling anyone or died. But it is odd that [target_VIET_vanished_death_courtier.GetSheHe] wouldn't have told anyone, so rumor is that [target_VIET_vanished_death_courtier.GetSheHe] died. What a tragedy!;;;;;;;;;;;x
 #VIETmisc.8013.a;What could have happened to them?;;;;;;;;;;;;;x
 VIETmisc.8012.desc;You spot two of your courtiers talking one day. Having nothing to do at that particular moment, you walk up to them, but when they notice you they immediately stop their conversation. “Is something wrong?” you ask.\n\n”Nothing,” one of them says, as the other one raises an eyebrow.;;;;;;;;;;;x
 VIETmisc.8012.a;Suspicious. Very suspicious….;;;;;;;;;;;;;x
 VIETmisc.8012.b;This is awkward.;;;;;;;;;;;;;x
 VIETmisc.8012.c;Sounds good!;;;;;;;;;;;;;x
-VIETmisc.8012.d;I’ll apologize - I’m sure they had their reasons.;;;;;;;;;;;;;x
+VIETmisc.8012.d;I'll apologize - I'm sure they had their reasons.;;;;;;;;;;;;;x
 VIETmisc.8013.desc;Someone is asking me for recommendations for good reading. By coincidence, just yesterday I finished reading a wonderful book. I enjoyed it greatly and would recommend to a lot of people. Specifically, the story is a...;;;;;;;;;;;x
 VIETmisc.8013.a;Sappy, dramatic romance about true love.;;;;;;;;;;;;;x
 VIETmisc.8013.b;Gritty, dark tale with bloodshed and deviancy.;;;;;;;;;;;;;x
 VIETmisc.8013.c;Fantastical adventure to foreign lands.;;;;;;;;;;;;;x
 VIETmisc.8013.d;Collection of amusing anecdotes about daily life.;;;;;;;;;;;;;x
 VIETmisc.8014.desc;I am entertaining some important members of a nearby city today - they include high ranking officials, merchants, scholars, and more. I notice among them is a young man, handsome and of good heart, yet clearly forlorn and disturbed. “Let him be,” one of his companions whispers to me. “He is melancholy because of a woman!”;;;;;;;;;;;x
-VIETmisc.8014.a;What foolishness! I’ll set the lad’s head straight.;;;;;;;;;;;;;x
+VIETmisc.8014.a;What foolishness! I'll set the lad's head straight.;;;;;;;;;;;;;x
 VIETmisc.8014.b;Let me reason with the fellow.;;;;;;;;;;;;;x
 VIETmisc.8014.c;What woe! Love is cruel. I can relate to him well.;;;;;;;;;;;;;x
-VIETmisc.8014.d;Women? They’re nothing but trouble.;;;;;;;;;;;;;x
-VIETmisc.8014.e;I can offer counsel from a lady’s perspective.;;;;;;;;;;;;;x
+VIETmisc.8014.d;Women? They're nothing but trouble.;;;;;;;;;;;;;x
+VIETmisc.8014.e;I can offer counsel from a lady's perspective.;;;;;;;;;;;;;x
 VIETmisc.8015.tooltip;Perhaps I can help him with his sorrows.;;;;;;;;;;;x
-VIETmisc.8015.desc;As I chat with the young man, he tries to play coy but can’t deny that his heart is broken. I cannot determine whether because the girl rejected him, is with another man, died, or that some other calamity happened, but it is definite he will never be with her. Clearly he is lovesick, and the girl certainly seems like a really impressive woman worthy of love. What should I tell him?;;;;;;;;;;;x
+VIETmisc.8015.desc;As I chat with the young man, he tries to play coy but can't deny that his heart is broken. I cannot determine whether because the girl rejected him, is with another man, died, or that some other calamity happened, but it is definite he will never be with her. Clearly he is lovesick, and the girl certainly seems like a really impressive woman worthy of love. What should I tell him?;;;;;;;;;;;x
 VIETmisc.8015.a;There are many women. Surely you'll meet another!;;;;;;;;;;;;;x
 VIETmisc.8015.b;Find a busty wench to satisfy your carnal desires.;;;;;;;;;;;;;x
 VIETmisc.8015.c;Let your love inspire you to do great things.;;;;;;;;;;;;;x
@@ -95,7 +95,7 @@ VIETmisc.8020.d;I want her at my court, to perform music and other “amusements” 
 VIETmisc.8021.tooltip;\n\nSurely she would not refuse such an opportunity.;;;;;;;;;;;x
 VIETmisc.8021.desc;The lady tells me such a thing would not be possible. She is about to marry a good young man, and cannot bear to leave him alone. She also wishes to continue living in a more familiar setting.;;;;;;;;;;;x
 VIETmisc.8021.a;What a pity. I understand, however.;;;;;;;;;;;;;x
-VIETmisc.8021.b;How dare she! It’s her loss.;;;;;;;;;;;;;x
+VIETmisc.8021.b;How dare she! It's her loss.;;;;;;;;;;;;;x
 VIETmisc.8021.c;Why doesn't she and her husband to be come to my court?;;;;;;;;;;;;;x
 VIET_offer_money_to_singer;With a generous offer of money, you convince the young couple to come and join your court.;;;;;;;;;;;x
 VIETmisc.8022.desc;I have heard about people in the eastern realms live on a vegetarian diet. That is, they refuse to consume meat, often for moral or religious reasons. Clearly there are many different customs around the world, but to subsist without any meat for your entire life? Are there people who would go to such extreme lengths for their beliefs? Does their food even taste good?;;;;;;;;;;;x
@@ -143,20 +143,20 @@ VIETmisc.8033.desc;The traveling merchant shows me a so-called hourglass. It is 
 VIETmisc.8033.a;And I shall!;;;;;;;;;;;;;x
 VIETmisc.8033.b;I have no need.;;;;;;;;;;;;;x
 VIETmisc.8034.desc;A farmer was digging near his residence in [Root.GetName] when he found some small ruins from a bygone era. Though these ruins may be of interest to antiquitarians, not much could be found, as it seems looters already took most of the existing valuables over the centuries - except, that is, an ancient clay pot that despite its age and simplicity, still looks beautiful and exquisite. It is clearly the work of a skilled craftsman. The farmer offers it to you, his liege.;;;;;;;;;;;x
-VIETmisc.8034.a;Good, it’ll make for a nice piece of decoration.;;;;;;;;;;;;;x
+VIETmisc.8034.a;Good, it'll make for a nice piece of decoration.;;;;;;;;;;;;;x
 VIETmisc.8034.b;Compensate the farmer for his efforts before taking it.;;;;;;;;;;;;;x
 VIETmisc.8034.c;Nay, the farmer can keep it since he found it.;;;;;;;;;;;;;x
 VIETmisc.8035.desc;There is a traveling scholar staying at my court for a brief while. He owns many impressive instruments, many which he says would take him too long to explain the purpose of, but a seemingly simple magnifying glass piques your interest, for it has been crafted with care and looks quite nice. The scholar says he is willing to sell you it for a good price before he departs.;;;;;;;;;;;x
 VIETmisc.8035.a;Sounds like a deal!;;;;;;;;;;;;;x
 VIETmisc.8035.b;That's fine, I just think it looks nice.;;;;;;;;;;;;;x
 VIETmisc.8036.desc;I was bored one day and noticed a beautiful looking calliper inside a box. Few are as finely crafted and exquisite in quality, so I asked a maid about it. “Maybe long ago you could find calipers in every household across [Root.Location.GetName], but not anymore,” the maid says, “Especially one of this quality.” As a [Root.GetTitle], I can obviously keep it if I like it, she adds.;;;;;;;;;;;x
-VIETmisc.8036.a;Why not. It’s beautiful.;;;;;;;;;;;;;x
+VIETmisc.8036.a;Why not. It's beautiful.;;;;;;;;;;;;;x
 VIETmisc.8036.b;I am a caliper collector.;;;;;;;;;;;;;x
 VIETmisc.8037.desc;Chinese travelers are staying at my court. Leading them is the daughter of a Chinese official of the great [offmap_china.GetName]. I wanted to show her my manor or the nearby town, but she insists on exploring the local scenery and ancient ruins. She is adventurous, so say her traveling companions, who seem unaffected by her antics, in contrast with your scandalized courtiers.;;;;;;;;;;;x
 VIETmisc.8037.a;What a spirited young lady! I like her spark.;;;;;;;;;;;;;x
 VIETmisc.8037.b;If she wishes it, I shall oblige.;;;;;;;;;;;;;x
-VIETmisc.8037.c;This is inappropriate! Women are weak, and it’s dangerous out there.;;;;;;;;;;;;;x
-VIETmisc.8037.d;She is under my protection, so I can’t let her wander off like that.;;;;;;;;;;;;;x
+VIETmisc.8037.c;This is inappropriate! Women are weak, and it's dangerous out there.;;;;;;;;;;;;;x
+VIETmisc.8037.d;She is under my protection, so I can't let her wander off like that.;;;;;;;;;;;;;x
 VIETmisc.8038.tooltip;\n\nDespite the protests of some of your courtiers, you allow her to go as she wishes. She is clearly no dainty flower!;;;;;;;;;;;x
 VIETmisc.8038.desc;The young Chinese lady was most impressed with the local surroundings. She tells me her husband is an open-minded scholar and historian back in China, and the two of them enjoy discussing ancient cultures and peoples. She will definitely share her observations with her husband when she returns home, and he will undoubtedly write a glowing account of my realm!;;;;;;;;;;;x
 VIETmisc.8038.a;I am flattered!;;;;;;;;;;;;;x
@@ -195,7 +195,7 @@ VIETmisc.8050.a;Siblings.;;;;;;;;;;;;;x
 VIETmisc.8050.b;Not just any siblings, but twins.;;;;;;;;;;;;;x
 VIETmisc.8050.c;Parent and child.;;;;;;;;;;;;;x
 VIETmisc.8050.d;Any incest is good!;;;;;;;;;;;;;x
-VIET_incest_debate_choice_bs;Being closer in age, they are more likely to get along with one another and understand things from the other’s perspective.;;;;;;;;;;;x
+VIET_incest_debate_choice_bs;Being closer in age, they are more likely to get along with one another and understand things from the other's perspective.;;;;;;;;;;;x
 VIET_incest_debate_choice_tw;Twins are more than brother and sister. They shared a womb, came into this world together, and thus belong together.;;;;;;;;;;;x
 VIET_incest_debate_choice_pc;A child must understand the source of their origin, and the creator of life must grow closer to that which they created.;;;;;;;;;;;x
 VIET_incest_debate_choice_all;Come on, why must we fight? This is the sort of bickering of fools that will cause unnecessary divisions between all of us.;;;;;;;;;;;x
@@ -210,7 +210,7 @@ VIETmisc.8053.b;See the shrine to pay my respects.;;;;;;;;;;;;;x
 VIETmisc.8053.c;Explore the forest.;;;;;;;;;;;;;x
 VIETmisc.8053.d;Enter the cottage and relax.;;;;;;;;;;;;;x
 VIETmisc.8054.title;Harvest Dawn;;;;;;;;;;;x
-VIETmisc.8054.desc;I emerge from my residence early in the morning to travel to an important noble’s residence some distance from here. Along the way, as the sun slowly crept upwards into the sky, I pass by several villages. Peasants scatter themselves in the fields, working with their crops, though they always stop to pay their respects to me.;;;;;;;;;;;x
+VIETmisc.8054.desc;I emerge from my residence early in the morning to travel to an important noble's residence some distance from here. Along the way, as the sun slowly crept upwards into the sky, I pass by several villages. Peasants scatter themselves in the fields, working with their crops, though they always stop to pay their respects to me.;;;;;;;;;;;x
 VIETmisc.8054.a;Good to see all is in order.;;;;;;;;;;;;;x
 VIETmisc.8054.b;Those commoners scare me!;;;;;;;;;;;;;x
 VIETmisc.8054.c;I want to ask some of them about how things are going.;;;;;;;;;;;;;x
@@ -221,17 +221,17 @@ VIETmisc.8055.b;I will do great deeds to ensure my immortality!;;;;;;;;;;;;;x
 VIETmisc.8055.c;As long as I'm happy, then I am fine with whatever happens.;;;;;;;;;;;;;x
 VIETmisc.8055.d;Nothing matters in the end. Why do I even try?;;;;;;;;;;;;;x
 VIETmisc.8056.title;Wings of [Root.Religion.GetRandomGodName];;;;;;;;;;;x
-VIETmisc.8056.desc;I am in another dream again - this time, I am flying in the sky, looking over a realm of grassy pastures and green forests. There are so many places I can go to, yet one place calls to me, one place where I can’t resist exploring:;;;;;;;;;;;x
+VIETmisc.8056.desc;I am in another dream again - this time, I am flying in the sky, looking over a realm of grassy pastures and green forests. There are so many places I can go to, yet one place calls to me, one place where I can't resist exploring:;;;;;;;;;;;x
 VIETmisc.8056.a;The pale, white temple to the north;;;;;;;;;;;;;x
 VIETmisc.8056.b;The cosmopolitan trade port to the west;;;;;;;;;;;;;x
 VIETmisc.8056.c;The mysterious, dark swamp to the south;;;;;;;;;;;;;x
 VIETmisc.8056.d;The vast flower fields to the east;;;;;;;;;;;;;x
 VIETmisc.8057.title;All's Well;;;;;;;;;;;x
 VIETmisc.8057.desc;Today was a very quiet and boring day at court. Nothing exciting happened.;;;;;;;;;;;x
-VIETmisc.8057.a;Excitement isn't always desirable, so I’m glad.;;;;;;;;;;;;;x
+VIETmisc.8057.a;Excitement isn't always desirable, so I'm glad.;;;;;;;;;;;;;x
 VIETmisc.8057.b;I want excitement! I want to live life!;;;;;;;;;;;;;x
-VIET_alls_well_type_b;\nPeople always say they want excitement in their lives, but they should wish for good things first - after all, excitement isn’t always good.;;;;;;;;;;;x
-VIET_alls_well_type_a;\nIndeed, sometimes people always sit around and don’t do anything with their lives. What’s the purpose of living if you don’t explore the world?;;;;;;;;;;;x
+VIET_alls_well_type_b;\nPeople always say they want excitement in their lives, but they should wish for good things first - after all, excitement isn't always good.;;;;;;;;;;;x
+VIET_alls_well_type_a;\nIndeed, sometimes people always sit around and don't do anything with their lives. What's the purpose of living if you don't explore the world?;;;;;;;;;;;x
 VIETmisc.8058.title;Watchman's Ease;;;;;;;;;;;x
 VIETmisc.8058.desc;“Top of the morning and nothing to report,” the guard told me as I made a few rounds around my garden.;;;;;;;;;;;x
 VIETmisc.8058.a;Continue as you were.;;;;;;;;;;;;;x
@@ -239,7 +239,7 @@ VIETmisc.8058.b;Stand up straight!;;;;;;;;;;;;;x
 VIETmisc.8058.c;Why aren't you being more vigilant?;;;;;;;;;;;;;x
 VIETmisc.8059.title;Glory of [Root.Capital.GetName];;;;;;;;;;;x
 VIETmisc.8059.desc;There are of course always those who doubt my right to rule this land and claim I am not a rightful [Root.GetTitle]. Yet how can I gaze upon this land of mine, and not see my connection to it? It is my realm too. I have a purpose as its master:;;;;;;;;;;;x
-VIETmisc.8059.a;To…. Actually, I’m not too sure if I have a purpose.;;;;;;;;;;;;;x
+VIETmisc.8059.a;To…. Actually, I'm not too sure if I have a purpose.;;;;;;;;;;;;;x
 VIETmisc.8059.b;To do with it as I please.;;;;;;;;;;;;;x
 VIETmisc.8059.c;To protect and help my subjects.;;;;;;;;;;;;;x
 VIETmisc.8059.d;To bring glory to my realm and dynasty.;;;;;;;;;;;;;x
@@ -247,35 +247,35 @@ VIETmisc.8060.title;Minstrel's Lament;;;;;;;;;;;x
 VIETmisc.8060.desc;A musician I hired for a banquet sings a rather sad song. Many in my court are moved deeply by the pathos of the story being told.;;;;;;;;;;;x
 VIETmisc.8060.a;I, too, shed a tear.;;;;;;;;;;;;;x
 VIETmisc.8060.b;I didn't find it that sad.;;;;;;;;;;;;;x
-VIETmisc.8061.title;[Root.Religion.GetHighGodName]’s Ascension;;;;;;;;;;;x
-VIETmisc.8061.desc;A physical manifestation of [Root.Religion.GetHighGodName] supposedly appeared in a remote village in [Root.GetName], and blessed a few locals, before ascending into the heavens. Few of the official clergy seem to believe these peasants’ claims, saying it is misunderstandings of the ignorant, but the peasants don’t care and have built altars where these incidents occurred.;;;;;;;;;;;x
+VIETmisc.8061.title;[Root.Religion.GetHighGodName]'s Ascension;;;;;;;;;;;x
+VIETmisc.8061.desc;A physical manifestation of [Root.Religion.GetHighGodName] supposedly appeared in a remote village in [Root.GetName], and blessed a few locals, before ascending into the heavens. Few of the official clergy seem to believe these peasants' claims, saying it is misunderstandings of the ignorant, but the peasants don't care and have built altars where these incidents occurred.;;;;;;;;;;;x
 VIETmisc.8061.a;A good omen! Encourage the clergy to support the village.;;;;;;;;;;;;;x
 VIETmisc.8061.b;It was clearly an illusion of [Root.Religion.GetRandomEvilGodName]. Repress the cult!;;;;;;;;;;;;;x
-VIETmisc.8061.c;I have no opinion on these peasants’ superstitions.;;;;;;;;;;;;;x
+VIETmisc.8061.c;I have no opinion on these peasants' superstitions.;;;;;;;;;;;;;x
 VIETmisc.8062.title;Dusk at the Market;;;;;;;;;;;x
-VIETmisc.8062.desc;I rushed to the local market as the sun was setting, hoping to buy something I really wanted, but the merchant told me he had all run out of that product. “It will be a long time before I can acquire more of it,” he told me apologetically, and even if I were to pay him a lot of money, he won’t be able to get it for me right now.;;;;;;;;;;;x
+VIETmisc.8062.desc;I rushed to the local market as the sun was setting, hoping to buy something I really wanted, but the merchant told me he had all run out of that product. “It will be a long time before I can acquire more of it,” he told me apologetically, and even if I were to pay him a lot of money, he won't be able to get it for me right now.;;;;;;;;;;;x
 VIETmisc.8062.a;No problem with that! I will wait.;;;;;;;;;;;;;x
-VIETmisc.8062.b;That bastard! He’s tricking me!;;;;;;;;;;;;;x
-VIETmisc.8062.c;At least he’s honest. Can’t do much now.;;;;;;;;;;;;;x
+VIETmisc.8062.b;That bastard! He's tricking me!;;;;;;;;;;;;;x
+VIETmisc.8062.c;At least he's honest. Can't do much now.;;;;;;;;;;;;;x
 VIETmisc.8063.title;Sunrise of Flutes;;;;;;;;;;;x
 VIETmisc.8063.desc;Today I woke up earlier than usual. Feeling a bit restless, I ventured out of my residence and took a walk outside with some trusted guards. We thought we heard a whistling sound up ahead, and upon further investigation we found out that it was a young shepherd with his flock, playing a pleasant song on his wooden flute. He greeted me reverently, and wished me the best.;;;;;;;;;;;x
-VIETmisc.8063.a;Please, play some more music. It’s good.;;;;;;;;;;;;;x
-VIETmisc.8063.b;He’s just a peasant.;;;;;;;;;;;;;x
+VIETmisc.8063.a;Please, play some more music. It's good.;;;;;;;;;;;;;x
+VIETmisc.8063.b;He's just a peasant.;;;;;;;;;;;;;x
 VIETmisc.8064.title;Peace of [Root.Religion.GetHighGodName];;;;;;;;;;;x
 VIETmisc.8064.desc;There are those who say that according to the [Root.Religion.GetScriptureName], [Root.Religion.GetHighGodName] wants all peoples to be at peace with one another. But is that just mere idealism? Can true peace under the wisdom and benevolence of [Root.Religion.GetHighGodName] ever be accomplished?;;;;;;;;;;;x
 VIETmisc.8064.a;I think [Root.Religion.GetHighGodName] wants us to smite infidels, not to have peace!;;;;;;;;;;;;;x
 VIETmisc.8064.b;Love and peace! We are indeed all brothers and sisters!;;;;;;;;;;;;;x
-VIETmisc.8064.c;It’s a nice idea, but idealism can only do so much.;;;;;;;;;;;;;x
+VIETmisc.8064.c;It's a nice idea, but idealism can only do so much.;;;;;;;;;;;;;x
 VIETmisc.8065.desc;In your dreams you find yourself a soldier in a world torn asunder. Ash and smoke fill the skies as you stand in a muddy trench, wearing outlandishly shaped, long robes. You glance around and see other men dressed the same way, and conclude this is a uniform of some sort. Nearby, you hear loud noises, like as if thousands of buildings were collapsing.;;;;;;;;;;;x
 VIETmisc.8065.a;You cover your ears and close your eyes.;;;;;;;;;;;;;x
-VIETmisc.8066.tooltip;It doesn’t really help much.;;;;;;;;;;;x
-VIETmisc.8066.title;No Man’s Land;;;;;;;;;;;x
+VIETmisc.8066.tooltip;It doesn't really help much.;;;;;;;;;;;x
+VIETmisc.8066.title;No Man's Land;;;;;;;;;;;x
 VIETmisc.8066.desc;Fearfully, you glance over the trench and see nothing but black mud at first. On the ground from one end of the horizon to another are stone-cold corpses with open eyes and still-bleeding wounds. Suddenly, another loud crash, this one closer.\n\nAs men around you begin to shout words you don't know, you see other soldiers grasping their weapons, which are strange, hollowed spears with crooked handles. You do understand, despite your terrified state, that you are to go over the muddy trench you are currently in and charge at some enemy on the other side.;;;;;;;;;;;x
-VIETmisc.8066.a;You grasp your own hollow spear and follow your comrades over the trench.;;;;;;;;;;;;;x
+VIETmisc.8066.a;You grasp your hollow spear and follow the others over the trench.;;;;;;;;;;;;;x
 VIETmisc.8067.tooltip;Wait, what was that? Ahhh!;;;;;;;;;;;x
 VIETmisc.8067.title;A World at War;;;;;;;;;;;x
 VIETmisc.8067.desc;You scream as you see metallic horses and birds the size of houses swoop around you, while loud explosions rock everywhere. Men fall down like paper burned by a never-ending inferno, from flying pebbles that tear them to pieces. Others are blown to pieces as thunder strikes seemingly arbitrary places on the ground.\n\nThis is the future of humanity, you realize: there is no future, no hope. This is the war to end all wars, that the world shall end in an apocalypse of fire and hatred.\n\nYou wake up, sweating. Was that a vision of the future? Surely not. But if it was… how much longer until your descendants witness such horrors? A century from now? Two centuries? Ten?;;;;;;;;;;;x
-VIETmisc.8067.a;I lie back down and try to sleep, but can’t.;;;;;;;;;;;;;x
+VIETmisc.8067.a;I lie back down and try to sleep, but can't.;;;;;;;;;;;;;x
 VIETmisc.8068.desc;There have been many nomad empires, some quite large and some quite small. But today I have met an elderly wise woman and self-proclaimed seer who says we have yet to see the greatest of these empires. She says in the not too distant future, a great conqueror shall come from the steppes and destroy all the kingdoms and empires in his path.;;;;;;;;;;;x
 VIETmisc.8068.a;As if that'd happen.;;;;;;;;;;;;;x
 VIETmisc.8069.tooltip;There are lots of nomad peoples who come and go, what would make this one any different?;;;;;;;;;;;x
@@ -298,8 +298,8 @@ VIETmisc.8072.b;This is but one possible future. I must be cautious!;;;;;;;;;;;;
 VIETmisc.8073.desc;A traveling seer is visiting my court today. She is a strange one, sometimes staring into space and saying nothing in the middle of a chat, other times speaking in tongues. But when given some food, she seems to enter a trance. We all watch her, uncertain. It begins with some undecipherable mumbles, but soon becomes comprehensible speech.;;;;;;;;;;;x
 VIETmisc.8073.a;What is… what is she saying?;;;;;;;;;;;;;x
 VIETmisc.8074.tooltip;We all listen closely to hear.;;;;;;;;;;;x
-VIETmisc.8074.desc;The seer’s words are  a chilling prophecy: “A holy fury from the Sons of Abraham shall descend into our land and kill the old gods.” She continues, ranting about how our ancient ways are in grave danger before collapsing and falling asleep. When she wakes up, she doesn't recall anything she said.;;;;;;;;;;;x
-VIETmisc.8074.a;That was a lunatic’s rant - the old gods are strong!;;;;;;;;;;;;;x
+VIETmisc.8074.desc;The seer's words are  a chilling prophecy: “A holy fury from the Sons of Abraham shall descend into our land and kill the old gods.” She continues, ranting about how our ancient ways are in grave danger before collapsing and falling asleep. When she wakes up, she doesn't recall anything she said.;;;;;;;;;;;x
+VIETmisc.8074.a;That was a lunatic's rant - the old gods are strong!;;;;;;;;;;;;;x
 VIETmisc.8074.b;We must prepare to protect ourselves from this holy fury!;;;;;;;;;;;;;x
 VIETmisc.8074.c;The Sons of Abraham are mighty, this is simply our fate.;;;;;;;;;;;;;x
 VIETmisc.8075.desc;xxxxx;;;;;;;;;;;x
