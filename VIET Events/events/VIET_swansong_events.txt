@@ -752,12 +752,10 @@ character_event = {
 
 	trigger = {
 		in_command = no
-		NOT = {
-			has_game_rule = {
-				name = VIET_events_rules
-				value = serious
-			}		
-		}
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}		
 	}
 
 	weight_multiplier = {
