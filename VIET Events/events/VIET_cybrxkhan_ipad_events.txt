@@ -657,6 +657,15 @@ character_event = {
 				chance = 30
 			}
 		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = -1
+				chance = 25
+			}
+		}
 		add_character_modifier = {
 			name = VIET_good_exercise
 			duration = 456
@@ -2305,6 +2314,17 @@ province_event = {
 			name = VIET_province_wolf_attacks
 			duration = 999
 		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -4 }
+				}
+			}
+		}
 	}
 }
 
@@ -2328,6 +2348,17 @@ province_event = {
 		add_province_modifier = {
 			name = VIET_province_fishing_boom
 			duration = 888
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = 6 }
+				}
+			}
 		}
 	}
 }
@@ -2570,6 +2601,15 @@ character_event = {
 			add_character_modifier = {
 				name = VIET_leader_who_cares
 				duration = 365
+			}
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = -1
+				chance = 25
 			}
 		}
 		set_character_flag = VIET_ear_christian_sailor
