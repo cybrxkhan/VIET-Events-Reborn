@@ -1,5 +1,6 @@
 #VIET Events Rules;;;;;;;;;;;;;;x
-RULE_VIET_EVENTS;VIET Events;Événements de VIET;;;;;;;;;;;;x
+RULE_VIET_EVENTS;§BVIET Events§!;§BÉvénements de VIET§!;;;;;;;;;;;;x
+RULE_GROUP_VIET_REBORN;VIET REBORN;Renaissance de VIET;;;;;;;;;;;;x
 RULE_VIET_EVENTS_BALANCED;Balanced Events (Default);Événements équilibrés (par défaut);;;;;;;;;;;;x
 RULE_VIET_EVENTS_BALANCED_DESC;Most events from VIET events will occur, but the silliest ones that break immersion for some are disabled. Choose this for the best balance between serious and light-hearted events.;La plupart des événements issus des événements de VIET auront lieu, mais les plus stupides qui cassent l'immersion pour certains sont désactivés. Choisissez ceci pour le meilleur équilibre entre le sérieux et la légèreté.;;;;;;;;;;;;x
 RULE_VIET_EVENTS_SERIOUS;Serious Events;Événements sérieux;;;;;;;;;;;;x
