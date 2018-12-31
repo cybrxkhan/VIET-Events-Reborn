@@ -6,8 +6,8 @@
 #
 # 8000-8052: First batch of reborn events
 # 8053-8064: Oblivion Soundtrack inspired events
-# 8065-80??: Prophecy and Future
-#
+# 8065-8081: Prophecy and Future
+# 8082-8088: Sun
 #
 #
 #
@@ -7130,6 +7130,1446 @@ character_event = {
 			15 = { add_trait = depressed }
 			15 = { add_trait = humble }
 			55 = { }
+		}
+	}	
+}
+
+
+
+# Monk claiming to be Maitreya, the Buddha at end times, starts a cult
+province_event = {
+	id = VIETmisc.8075
+	desc = VIETmisc.8075.desc
+	picture = GFX_evt_monk_eastern_group
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_maitreya_cult }
+		owner = {
+			is_nomadic = no
+			OR = {
+				religion = buddhist
+				religion = taoist
+				is_sinosphere_small_trigger = yes
+			}
+		}
+		religion = buddhist
+	}
+	
+	mean_time_to_happen = {
+		months = 12000
+		modifier = {
+			factor = 1.15
+			owner = {
+				NOT = { trait = mahayana_buddhist }
+			}
+		}
+		modifier = { #less likely when China's stable if in non-Indian territory
+			factor = 2
+			NOT = {
+				region = world_india
+			}
+			offmap_china = {
+				NOR = {
+					has_status = china_civil_war
+					has_status = china_plague
+					has_status = china_mongol_invasion
+					has_status = china_jurchen_invasion
+					has_status = china_unrest
+				}			
+			}
+		}
+		#modifier = {
+		#	factor = 1.5
+		#	NOT = { num_of_max_settlements = 5 }
+		#}
+		#modifier = {
+		#	factor = 1.2
+		#	NOT = { num_of_max_settlements = 3 }
+		#}
+	}
+	
+
+	option = { # Imprison and oppress cult
+		name = VIETmisc.8075.a
+		custom_tooltip = { text = VIET_maitreya_cult_imprison }
+		owner = {
+			prestige = 10
+			piety = 10
+		}
+		add_province_modifier = {
+			name = VIET_repressing_cult
+			duration = 4000
+		}
+	}
+	option = { # Execute and oppress cult
+		name = VIETmisc.8075.b
+		custom_tooltip = { text = VIET_maitreya_cult_execute }
+		owner = {
+			prestige = 20
+		}
+		add_province_modifier = {
+			name = VIET_repressing_cult
+			duration = 3000
+		}
+	}
+	option = { # Let him go
+		name = VIETmisc.8075.c
+		custom_tooltip = { text = VIET_maitreya_cult_release }
+		owner = {
+			prestige = -20
+			piety = -10
+			random_list = {
+				15 = { add_trait = slothful }
+				15 = { add_trait = content }
+				15 = { add_trait = cynical }
+				15 = { add_trait = arbitrary }
+				40 = { }
+			}
+		}
+		add_province_modifier = {
+			name = VIET_maitreya_cult
+			duration = 5555
+		}
+	}
+	option = { # Public debate
+		name = VIETmisc.8075.d
+		custom_tooltip = { text = VIET_maitreya_cult_debate }
+		owner = {
+			wealth = -20
+			prestige = 15
+			piety = 15
+		}
+		add_province_modifier = {
+			name = VIET_maitreya_cult
+			duration = 2085
+		}
+	}
+}
+
+# Come across a beggar proclaiming the end is nigh
+character_event = {
+	id = VIETmisc.8076
+	desc = VIETmisc.8076.desc
+	picture = GFX_evt_village_at_night
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}		
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+	}
+	
+	option = { # Ok
+		name = VIETmisc.8076.a
+	}	
+	option = { # NOOOO
+		name = VIETmisc.8076.b
+		if = {
+			limit = {
+				trait = cynical
+			}
+			remove_trait = cynical
+		}
+		else = {
+			random = {
+				add_trait = zealous
+				chance = 33
+			}
+		}
+		random = {
+			add_trait = stressed
+			chance = 20
+		}
+		random = {
+			add_trait = depressed
+			chance = 20
+		}
+	}	
+}
+
+# Meet the whore of Babylon
+character_event = {
+	id = VIETmisc.8077
+	desc = VIETmisc.8077.desc
+	picture = GFX_evt_succubus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	religion_group = christian
+		
+	trigger = {
+		in_command = no
+		OR = {
+			has_vice_trigger = yes
+			has_evil_trait_trigger = yes
+			has_unpleasant_trait_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}		
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+	}
+	
+	option = { # Ok
+		name = VIETmisc.8077.a
+		add_character_modifier = {
+			name = VIET_ominous_dream
+			duration = 456
+		}
+	}	
+}
+
+
+
+
+# Courtier eats food too fast and is warned about it
+character_event = {
+	id = VIETmisc.8078
+	desc = VIETmisc.8078.desc
+	picture = GFX_evt_feast_hf
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_character_flag = VIET_dont_choke_lol }
+		any_courtier = {
+			ai = yes
+			is_adult = yes
+			NOT = { trait = incapable }
+			OR = {
+				trait = gluttonous
+				trait = slothful
+				trait = wroth
+				trait = paranoid
+				is_dumb_trigger = yes
+			}
+			in_command = no
+			is_abroad = no
+			NOT = { trait = temperate }
+			NOT = { trait = patient }
+			#prevent important relatives and spouses from dying
+			NOT = { is_consort = ROOT }
+			NOT = { is_main_spouse = ROOT }
+			NOT = { is_close_relative = ROOT }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}		
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_dont_choke_lol 
+		random_courtier = {
+			limit = {
+				ai = yes
+				is_adult = yes
+				NOT = { trait = incapable }
+				OR = {
+					trait = gluttonous
+					trait = slothful
+					trait = wroth
+					trait = paranoid
+					is_dumb_trigger = yes
+				}
+				in_command = no
+				is_abroad = no
+				NOT = { trait = temperate }
+				NOT = { trait = patient }
+				#prevent important relatives and spouses from dying
+				NOT = { is_consort = ROOT }
+				NOT = { is_main_spouse = ROOT }
+				NOT = { is_close_relative = ROOT }			
+			}
+			save_event_target_as = target_VIET_choking_warning_courtier
+		}	
+	}
+	
+	option = { # Ignore their problem
+		name = VIETmisc.8078.a
+		if = {
+			limit = {
+				trait = kind
+			}
+			random = {
+				remove_trait = kind
+				chance = 45
+			}
+		}
+		hidden_tooltip = {
+			random = {
+				event_target:target_VIET_choking_warning_courtier = {
+					set_character_flag = VIET_marked_for_choking_death
+				}
+				chance = 50
+			}
+			character_event = { id = VIETmisc.8078 days = 30 random = 60 }
+		}
+	}	
+	
+	option = { # Tell them to be careful - will decrease chances of death!
+		name = VIETmisc.8078.b
+		if = {
+			limit = {
+				trait = envious
+			}
+			random = {
+				remove_trait = envious
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = kind
+				chance = 25
+			}
+		}
+		hidden_tooltip = {
+			random = {
+				event_target:target_VIET_choking_warning_courtier = {
+					set_character_flag = VIET_marked_for_choking_death
+				}
+				chance = 25
+			}
+			character_event = { id = VIETmisc.8078 days = 30 random = 60 }
+		}
+	}
+	
+	option = { # Use diplomacy to tell them - will prevent them from dying
+		name = VIETmisc.8078.c
+		tooltip_info = diplomacy
+		trigger = {
+			diplomacy = 10
+		}
+		if = {
+			limit = {
+				trait = envious
+			}
+			random = {
+				remove_trait = envious
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = kind
+				chance = 25
+			}
+		}
+		event_target:target_VIET_choking_warning_courtier = {
+			opinion = {
+				modifier = VIET_opinion_reasonable_advice
+				who = ROOT
+				years = 4
+			}				
+		}
+	}	
+}
+
+
+# Courtier chokes - possibly to death
+character_event = {
+	id = VIETmisc.8079
+	desc = VIETmisc.8079.desc
+	picture = GFX_evt_feast_hf
+	
+	is_triggered_only = yes
+	
+	option = { # Uh oh!
+		name = VIETmisc.8079.a
+		if = {
+			limit = {
+				event_target:target_VIET_choking_warning_courtier = {
+					has_character_flag = VIET_marked_for_choking_death
+				}
+			}
+			event_target:target_VIET_choking_warning_courtier = {
+				death = {
+					death_reason = death_VIET_choking_food
+				}
+			}
+		}
+		else = {
+			event_target:target_VIET_choking_warning_courtier = {
+				prestige = -5
+			}
+		}
+	}	
+}
+
+
+# Are people the same all over?
+character_event = {
+	id = VIETmisc.8080
+	desc = VIETmisc.8080.desc
+	picture = GFX_evt_shaman_social_advice
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		#in_command = no
+		is_dumb_trigger = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # Just like us!
+		name = VIETmisc.8080.a
+		piety = 1
+		add_character_modifier = {
+			name = VIET_navel_gazing
+			duration = 123
+		}
+	}	
+	option = { # Not like us!
+		name = VIETmisc.8080.b
+		prestige = 1
+		add_character_modifier = {
+			name = VIET_navel_gazing
+			duration = 123
+		}
+	}	
+}
+
+# What to do when I'm a grown up?
+character_event = {
+	id = VIETmisc.8081
+	desc = VIETmisc.8081.desc
+	picture = GFX_evt_garden
+	
+	is_triggered_only = yes
+	
+	min_age = 4
+	max_age = 12
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		#in_command = no
+		NOT = { has_character_flag = VIET_what_do_when_grown_up }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			age = 9
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_what_do_when_grown_up
+	}
+	
+	option = { # Adventure
+		name = VIETmisc.8081.a
+		random_list = {
+			10 = { add_trait = curious }
+			10 = { add_trait = playful }
+			10 = { add_trait = willful }
+		}
+		random_list = {
+			10 = { change_martial = 1 }
+			10 = { change_learning = 1 }
+			10 = { change_diplomacy = 1 }
+		}
+	}		
+	option = { # Do forbidden things
+		name = VIETmisc.8081.b
+		random_list = {
+			10 = { add_trait = haughty }
+			10 = { add_trait = rowdy }
+			10 = { add_trait = fussy }
+		}
+		random_list = {
+			10 = { change_martial = 1 }
+			10 = { change_learning = 1 }
+			10 = { change_intrigue = 1 }
+		}
+	}		
+	option = { # Not make trouble
+		name = VIETmisc.8081.c
+		random_list = {
+			10 = { add_trait = timid }
+			10 = { add_trait = indolent }
+			10 = { add_trait = affectionate }
+		}
+		random_list = {
+			10 = { change_stewardship = 1 }
+			10 = { change_learning = 1 }
+			10 = { change_diplomacy = 1 }
+		}
+	}			
+	option = { # Become a good ruler
+		name = VIETmisc.8081.d
+		random_list = {
+			10 = { add_trait = idolizer }
+			10 = { add_trait = conscientious }
+			10 = { add_trait = brooding }
+		}
+		random_list = {
+			10 = { change_martial = 1 }
+			10 = { change_stewardship = 1 }
+			10 = { change_diplomacy = 1 }
+		}
+	}	
+}
+
+
+
+########################################################
+# SUN
+########################################################
+
+
+# Wake up early
+character_event = {
+	id = VIETmisc.8082
+	desc = VIETmisc.8082.desc
+	picture = GFX_evt_stone_church
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	#trigger = {
+		#in_command = no
+	#}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # Take a walk
+		name = VIETmisc.8082.a
+		piety = 2
+	}	
+	option = { # Eat breakfast early
+		name = VIETmisc.8082.b
+		prestige = 2
+	}		
+	option = { # Lie in bed
+		name = VIETmisc.8082.c
+		random = {
+			add_trait = slothful
+			chance = 35
+		}
+	}			
+	option = { # Read a book
+		name = VIETmisc.8082.d
+		piety = 1
+		prestige = 1
+	}	
+}
+
+
+# Traveling under hot sun
+character_event = {
+	id = VIETmisc.8083
+	desc = VIETmisc.8083.desc
+	picture = GFX_evt_travel
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = {
+			location = {
+				terrain = arctic
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			is_weak_trigger = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+	}
+	
+	option = { # Rest
+		name = VIETmisc.8082.a
+		prestige = -5
+		if  = {
+			limit = {
+				trait = diligent
+			}
+			random = {
+				remove_trait = diligent
+				chance = 45
+			}
+		}
+		if  = {
+			limit = {
+				trait = ambitious
+			}
+			random = {
+				remove_trait = ambitious
+				chance = 25
+			}
+		}
+	}		
+	option = { # Continue on!
+		name = VIETmisc.8083.a
+		random = {
+			add_trait = stressed
+			chance = 25
+		}
+		add_character_modifier = {
+			name = VIET_tiring_travel
+			duration = 642
+		}
+	}	
+}
+
+# Sun Wu Kong theatrical performance - yes this is a meta pun on "Sun"
+character_event = {
+	id = VIETmisc.8084
+	desc = VIETmisc.8084.desc
+	picture = GFX_evt_buddhist_pagoda
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		OR = {
+			is_sinosphere_large_trigger = yes
+			capital_scope = {
+				is_sinosphere_small_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+	}
+	
+	option = { # Cool
+		name = VIETmisc.8084.a
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+	}	
+}
+
+# Relaxing under the bright sun
+character_event = {
+	id = VIETmisc.8085
+	desc = VIETmisc.8085.desc
+	picture = GFX_evt_apollo_sun
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	#trigger = {
+	#	in_command = no
+	#}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # Cool
+		name = VIETmisc.8085.a
+		piety = 1
+	}	
+}
+
+# Courtier stepped on a Scorpion
+character_event = {
+	id = VIETmisc.8086
+	desc = VIETmisc.8086.desc
+	picture = GFX_evt_desert
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		capital_scope = {
+			location = { terrain = desert }
+		}
+		any_courtier = {
+			ai = yes
+			is_adult = yes
+			NOT = { trait = incapable }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				ai = yes
+				is_adult = yes
+				NOT = { trait = incapable }		
+			}
+			save_event_target_as = target_VIET_scorpion_victim
+		}
+	}
+	
+	option = { # Uh oh
+		name = VIETmisc.8086.a
+		event_target:target_VIET_scorpion_victim = {
+			random_list = {
+				40 = { }
+				50 = {
+					add_character_modifier = {
+						name = VIET_scorpion_sting
+						duration = 365
+					}
+				}
+				10 = {
+					death = {
+						death_reason = death_VIET_scorpion_sting
+					}
+				}
+			}		
+		}
+	}	
+}
+
+# Zoroastrians and Manicheans view the planets, including the sun and moon, with suspicion: http://www.iranicaonline.org/articles/planets
+character_event = {
+	id = VIETmisc.8087
+	desc = VIETmisc.8087.desc
+	picture = GFX_evt_sun_and_moon
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		religion_group = zoroastrian_group
+		NOT = { religion = mazdaki } # Mazdakites don't for whatever reason
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.8
+			trait = hedonist
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # Discourage foreign learning
+		name = VIETmisc.8087.a
+		piety = 20
+		culture_techpoints = -50
+	}	
+	option = { # Remain neutral
+		name = VIETmisc.8087.b
+	}		
+	option = { # Encourage foreign learning
+		name = VIETmisc.8087.c
+		piety = -20
+		culture_techpoints = 50
+	}	
+}
+
+# Egyptian sunscreen
+character_event = {
+	id = VIETmisc.8088
+	desc = VIETmisc.8088.desc
+	picture = GFX_evt_apollo_sun
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = { #More likely in regions near Egypt
+			factor = 0.1
+			NOR = {
+				capital_scope = {
+					region = world_africa_north
+					region = world_africa_east
+					region = world_middle_east
+					region = world_europe_south
+					region = world_persia
+					region = world_asia_minor
+					region = world_europe_west_iberia
+					region = world_europe_west_francia
+				}
+			}
+		}		
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # Buy them
+		name = VIETmisc.8088.a
+		wealth = -20
+		prestige = 15
+		add_character_modifier = {
+			name = VIET_egyptian_sunscreen
+			duration = 730
+		}
+		any_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+			}
+			add_character_modifier = {
+				name = VIET_egyptian_sunscreen
+				duration = 730
+			}
+		}
+	}
+	option = { # Haggle
+		name = VIETmisc.8088.b
+		tooltip_info = stewardship
+		trigger = {
+			stewardship = 10
+		}
+		wealth = -12
+		prestige = 15
+		add_character_modifier = {
+			name = VIET_egyptian_sunscreen
+			duration = 730
+		}
+		any_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+			}
+			add_character_modifier = {
+				name = VIET_egyptian_sunscreen
+				duration = 730
+			}
+		}
+	}
+	option = { # No need
+		name = VIETmisc.8088.c
+	}	
+}
+
+
+
+
+# Courtier stared at sun for too long
+character_event = {
+	id = VIETmisc.8089
+	desc = VIETmisc.8089.desc
+	picture = GFX_evt_apollo_sun
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		any_courtier = {
+			ai = yes
+			is_adult = yes
+			NOT = { trait = incapable }
+			in_command = no
+			is_abroad = no
+			OR = {
+				is_dumb_trigger = yes
+				trait = stubborn
+				trait = ambitious
+				trait = slothful
+				trait = wroth
+				trait = absentminded
+			}
+			NOR = {
+				trait = content
+				trait = patient
+				is_smart_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = { #don't want it to happen too often
+			factor = 0.05
+			any_courtier = {
+				has_character_modifier = VIET_permanent_sun_damage
+			}
+		}		
+		modifier = {
+			factor = 1.2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+	}
+	
+	option = { # Stupid
+		name = VIETmisc.8089.a
+		random_courtier = {
+			limit = {
+				ai = yes
+				is_adult = yes
+				NOT = { trait = incapable }
+				in_command = no
+				is_abroad = no
+				OR = {
+					is_dumb_trigger = yes
+					trait = stubborn
+					trait = ambitious
+					trait = slothful
+					trait = wroth
+					trait = absentminded
+				}
+				NOR = {
+					trait = content
+					trait = patient
+					is_smart_trigger = yes
+				}			
+			}
+			random_list = {
+				45 = {
+					add_character_modifier = {
+						name = VIET_stared_at_sun
+						duration = 450
+					}
+				}
+				30 = {
+					add_character_modifier = {
+						name = VIET_stared_at_sun
+						duration = 900
+					}
+				}
+				25 = {
+					add_character_modifier = {
+						name = VIET_permanent_sun_damage
+						duration = -1
+					}
+				}
+			}
 		}
 	}	
 }

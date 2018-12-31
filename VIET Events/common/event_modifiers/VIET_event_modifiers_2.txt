@@ -108,7 +108,7 @@ VIET_province_bridge_collapse = {
 	local_tax_modifier = -0.5
 	local_build_cost_modifier = 0.05
 	local_build_time_modifier = 0.05
-	tradevalue = -0.5
+	tradevalue = -10
 	icon = 30
 }
 VIET_helped_emergency_quickly = {
@@ -137,7 +137,7 @@ VIET_famous_bard_province = {
 VIET_province_haunted_ship = {
 	global_revolt_risk = 0.01
 	land_morale = -0.01
-	tradevalue = -0.03
+	tradevalue = -2
 	icon = 62
 }
 VIET_province_flat_stone = {
@@ -419,4 +419,37 @@ VIET_dream_dagoth_ur = {
 	monthly_character_piety = 0.01
 	monthly_character_prestige = -0.01
 	icon = 41
+}
+VIET_maitreya_cult = {
+	local_revolt_risk = 0.1
+	levy_reinforce_rate = -0.05
+	land_morale = -0.05
+	local_tax_modifier = -0.05
+	icon = 102
+}
+VIET_ominous_dream = {
+	monthly_character_piety = -0.03
+	icon = 42
+}
+VIET_tiring_travel = {
+	health = -0.8
+	icon = 134
+}
+VIET_stared_at_sun = {
+	health = -0.25
+	intrigue = -1
+	combat_rating = -5
+	icon = 134
+}
+VIET_permanent_sun_damage = {
+	health = -0.75
+	intrigue = -2
+	combat_rating = -20
+	icon = 134
+}
+VIET_egyptian_sunscreen = {
+	health = 0.5
+	diplomacy = 1
+	sex_appeal_opinion = 5
+	icon = 133
 }

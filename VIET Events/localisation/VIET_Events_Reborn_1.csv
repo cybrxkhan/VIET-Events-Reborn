@@ -302,36 +302,58 @@ VIETmisc.8074.desc;The seer's words are  a chilling prophecy: “A holy fury from 
 VIETmisc.8074.a;That was a lunatic's rant - the old gods are strong!;;;;;;;;;;;;;x
 VIETmisc.8074.b;We must prepare to protect ourselves from this holy fury!;;;;;;;;;;;;;x
 VIETmisc.8074.c;The Sons of Abraham are mighty, this is simply our fate.;;;;;;;;;;;;;x
-VIETmisc.8075.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8075.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8076.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8076.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8077.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8077.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8078.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8078.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8079.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8079.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8080.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8080.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8081.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8081.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8082.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8082.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8083.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8083.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8084.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8084.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8085.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8085.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8086.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8086.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8087.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8087.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8088.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8088.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8089.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8089.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8075.desc;In [Root.GetName], a charismatic monk has become leader of a cult and claims he is the incarnation of Maitreya, the Buddha who would come at the end of this aeon, when the true authentic teachings are no longer practiced. His cult is small, and most people, including many normal clergy, have dismissed him as a charlatan and troublemaker. Yet his followers are fanatical and have already committed some criminal acts. By chance, he was arrested and brought before you for judgment.;;;;;;;;;;;x
+VIETmisc.8075.a;Imprison him and repress the cult.;;;;;;;;;;;;;x
+VIETmisc.8075.b;Execute him and repress the cult.;;;;;;;;;;;;;x
+VIETmisc.8075.c;Let him go, he has not done anything serious yet.;;;;;;;;;;;;;x
+VIETmisc.8075.d;Host a public debate with some real monks.;;;;;;;;;;;;;x
+VIET_maitreya_cult_imprison;We cannot make him a martyr. Imprisonment works better and it will make us look merciful.\n\n;;;;;;;;;;;x
+VIET_maitreya_cult_execute;He is too dangerous, and must be made an example of. Some of his followers will think he is still alive, but they will be few.\n\n;;;;;;;;;;;x
+VIET_maitreya_cult_release;There are many heretics and frauds claiming to be Buddhas. This man is no different, so why should I care?\n\n;;;;;;;;;;;x
+VIET_maitreya_cult_debate;His cult will lose even more power and influence if the people can see legitimate masters argue effectively against him.\n\n;;;;;;;;;;;x
+VIETmisc.8076.desc;You thought he was a beggar screaming nonsense at first. When you asked some locals however, they explained he was actually a deranged lunatic who believed the end times were coming.;;;;;;;;;;;x
+VIETmisc.8076.a;Ah, yes, so the usual sort. Carry on.;;;;;;;;;;;;;x
+VIETmisc.8076.b;Why, the end of the world IS coming soon!;;;;;;;;;;;;;x
+VIETmisc.8077.desc;You had a nightmare that began innocently. At first, you were talking to a beautiful young lady, who seemed most charming, but she transformed into the Whore of Babylon herself, and brought with her fire and death. She laughed as you tried to run away, before screaming in a shrill, demented voice that you nor you realm would escape a terrible fate!;;;;;;;;;;;x
+VIETmisc.8077.a;I awoke, frightened beyond my wits.;;;;;;;;;;;;;x
+VIETmisc.8078.desc;We were having a good meal when someone pointed out that [target_VIET_choking_warning_courtier.GetTitledName] always eats [target_VIET_choking_warning_courtier.GetHerHis] food too quickly. “Be careful! What if you accidentally choke on your food one day?”\n\n[target_VIET_choking_warning_courtier.GetTitledName] laughs and dismisses the warning.;;;;;;;;;;;x
+VIETmisc.8078.a;It's [target_VIET_choking_warning_courtier.GetHerHis] problem.;;;;;;;;;;;;;x
+VIETmisc.8078.b;Do be careful, [target_VIET_choking_warning_courtier.GetTitledName].;;;;;;;;;;;;;x
+VIETmisc.8078.c;I'll persuade [target_VIET_choking_warning_courtier.GetTitledName] to eat more slowly.;;;;;;;;;;;;;x
+VIETmisc.8079.desc;It was a quiet dinner, until [target_VIET_choking_warning_courtier.GetTitledName] began to choke on [target_VIET_choking_warning_courtier.GetHerHis] food! [target_VIET_choking_warning_courtier.GetSheHe] didn't heed the warnings at all!\n\nPeople rush over, trying to help [target_VIET_choking_warning_courtier.GetTitledName], and the situation grows chaotic.;;;;;;;;;;;x
+VIETmisc.8079.a;“AAAWWWCCKKKK - ”;;;;;;;;;;;;;x
+VIETmisc.8080.desc;I wonder if people in the past had the same sort of desires and thoughts I do. I then wonder if people in the future will be the same as me as well.;;;;;;;;;;;x
+VIETmisc.8080.a;Definitely! At the end of the day we are all people.;;;;;;;;;;;;;x
+VIETmisc.8080.b;No, people of the past and future are too different from me.;;;;;;;;;;;;;x
+VIETmisc.8081.desc;Lately, I have been thinking about what I want to do when I grow up. Being a kid is so boring! I can't wait to grow up so I can...;;;;;;;;;;;x
+VIETmisc.8081.a;See the world and fight bad guys;;;;;;;;;;;;;x
+VIETmisc.8081.b;Do the things grown-ups tell me not to do;;;;;;;;;;;;;x
+VIETmisc.8081.c;Be a good [Root.GetBoyGirl] and not make trouble;;;;;;;;;;;;;x
+VIETmisc.8081.d;Learn how to become a wise and great [Root.GetTitle];;;;;;;;;;;;;x
+VIETmisc.8082.desc;For some reason you wake up about an hour or so before you do. You just can't go back to sleep and the sun is already rising above the horizon. Though you feel a little tired, perhaps you can take the opportunity to do something.;;;;;;;;;;;x
+VIETmisc.8082.a;Go outside and take a quick walk;;;;;;;;;;;;;x
+VIETmisc.8082.b;Eat breakfast early;;;;;;;;;;;;;x
+VIETmisc.8082.c;Lie in bed and stare at the ceiling;;;;;;;;;;;;;x
+VIETmisc.8082.d;Read a book;;;;;;;;;;;;;x
+VIETmisc.8083.desc;You are traveling and the sun is beating down on you heavily. However, it is too late to turn back home - you are getting closer to your destination, the mansion of a local noble you have to meet. Yet you are clearly getting more and more tired as the sun rises ever higher in the sky.;;;;;;;;;;;x
+VIETmisc.8083.a;Rest for a bit.;;;;;;;;;;;;;x
+VIETmisc.8083.b;Continue on!;;;;;;;;;;;;;x
+VIETmisc.8084.desc;I am watching a theatrical performance presented by the local Chinese community about Sun Wukong, the Monkey King, who is popular in China and even worshipped by some. An actor dressed as a monkey dances around on stage, giggling as he mocks his enemies and dodges their attacks, in his efforts to save his master, the famous Chinese monk and pilgrim Xuanzang.;;;;;;;;;;;x
+VIETmisc.8084.a;It is an interesting story!;;;;;;;;;;;;;x
+VIETmisc.8085.desc;Today the sky is clear, the bluest of colors. The sun shines high above with nary a cloud to cover it.;;;;;;;;;;;x
+VIETmisc.8085.a;How bright!;;;;;;;;;;;;;x
+VIETmisc.8086.desc;[target_VIET_scorpion_victim.GetTitledName] was feeling a little tired today and, due to the glare of the sun, did not see the scorpion. [target_VIET_scorpion_victim.GetSheHe] stepped on the creature and it stung [target_VIET_scorpion_victim.GetHerHim]!;;;;;;;;;;;x
+VIETmisc.8086.a;Oh no!;;;;;;;;;;;;;x
+VIETmisc.8087.desc;[Root.Religion.GetName] devotees often see stars as symbols of order and thus good, but the planets, even the sun and moon, with their irregular movements, are looked on with suspicion. Some clergy in my realm say we mustn’t be too tolerant of foreign ideas that view these celestial bodies too positively. Others say these foreign ideas can provide us many intellectual boons.;;;;;;;;;;;x
+VIETmisc.8087.a;Discourage learning from foreign astronomical ideas;;;;;;;;;;;;;x
+VIETmisc.8087.b;Remain neutral on the matter;;;;;;;;;;;;;x
+VIETmisc.8087.c;Encourage learning from foreign astronomical ideas;;;;;;;;;;;;;x
+VIETmisc.8088.desc;The traveling merchant makes a convincing case. Sunburns and tans aren't just unattractive, they're also harmful and dangerous. He offers to sell me and my court a special oil mainly made from rice, jasmine, lupine, and other herbs that helps protect one when under the sun for too long. This recipe has been commonly used in parts of Egypt since the days of the Pharaohs!;;;;;;;;;;;x
+VIETmisc.8088.a;Deal! Who'd ever want a tan anyways?;;;;;;;;;;;;;x
+VIETmisc.8088.b;Let's try to haggle a bit.;;;;;;;;;;;;;x
+VIETmisc.8088.c;I think this is a waste of money.;;;;;;;;;;;;;x
+VIETmisc.8089.desc;One of your courtiers was moronic enough to stare at the sun for too long.;;;;;;;;;;;x
+VIETmisc.8089.a;Are you kidding me?;;;;;;;;;;;;;x
 VIETmisc.8090.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8090.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8091.desc;xxxxx;;;;;;;;;;;x

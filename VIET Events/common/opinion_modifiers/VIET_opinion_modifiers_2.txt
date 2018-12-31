@@ -25,3 +25,6 @@ VIET_opinion_lost_drinking_contest = {
 VIET_opinion_fruit_loop_poops_advice = {
 	opinion = 15
 }
+VIET_opinion_reasonable_advice = {
+	opinion = 15
+}

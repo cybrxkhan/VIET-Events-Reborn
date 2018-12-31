@@ -919,7 +919,7 @@ character_event = {
 character_event = {
 	id = VIETScarboroughFair.13
 	desc = VIETScarboroughFair.13.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_apollo_sun
 
 	is_triggered_only = yes
 

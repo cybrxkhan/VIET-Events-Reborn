@@ -5,7 +5,7 @@ on_yearly_pulse = {
 		VIET_yearly_random = {
 			delay = 8
 			
-			18250 = 0 #May need to adjust
+			20000 = 0 #May need to adjust
 			
 			#VIET EVENTS
 			#Generic Trait Events
@@ -135,6 +135,13 @@ on_yearly_pulse = {
 			100 = VIETmisc.8059 # Glory of Cyrodiil - What is my purpose as a ruler?
 			100 = VIETmisc.8060 # Minstrel's Lament - Musician sings sad song
 			100 = VIETmisc.8064 # Peace of Akatosh - Is peace a worthwhile ideal?
+			#Prophecy
+			100 = VIETmisc.8076 # Beggar says the end is nigh
+			100 = VIETmisc.8080 # Are people the same all over?
+			#Sun
+			100 = VIETmisc.8082 # Woke up early
+			100 = VIETmisc.8083 # Traveling under the hot sun
+			100 = VIETmisc.8085 # Relaxing under the sun
 		}
 		
 	}
@@ -147,7 +154,7 @@ on_bi_yearly_pulse = {
 		VIET_bi_yearly_random = {
 			delay = 9
 			
-			12850 = 0 #May need to adjust
+			15000 = 0 #May need to adjust
 			
 			#Food
 			100 = VIETnam.191	# Byzantine cook
@@ -228,6 +235,9 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8063 # Sunrise of Flutes - Meet a shepherd playing the flute
 			#Prophecy
 			100 = VIETmisc.8070 # Dreaming of your realm's future
+			#Sun
+			100 = VIETmisc.8088 # Buy some Egyptian sunscreen?
+			100 = VIETmisc.8089 # Courtier stared at the sun for too long
 		
 		}
 		
@@ -242,7 +252,7 @@ on_five_year_pulse = {
 		VIET_five_year_random = {
 			delay = 28
 			
-			8250 = 0 #May need to adjust
+			10000 = 0 #May need to adjust
 			
 			#Muslim
 			100 = VIETnam.177	# Scholar from the House of Wisdom visits your court
@@ -294,6 +304,12 @@ on_five_year_pulse = {
 			100 = VIETmisc.8065 # Dream about World War 1
 			100 = VIETmisc.8068 # Seer predicts the coming of Genghis Khan
 			100 = VIETmisc.8073 # Pagan seer prophesizes the decline of polytheism
+			100 = VIETmisc.8077 # Dreamt of the whore of Babylon
+			100 = VIETmisc.8078 # Courtier is warned about choking to death
+			#Sun
+			100 = VIETmisc.8084 # Character attends a Chinese play about Sun Wukong, the Monkey King (meta pun on Sun)
+			100 = VIETmisc.8086 # Settler stepped on a scorpion
+			100 = VIETmisc.8087 # Zoroastrians and Manicheans view the planets and sun and moon with suspicion
 			
 		
 		}
@@ -337,7 +353,9 @@ on_yearly_childhood_pulse = {
 			delay = 8
 			8000 = 0
 			#Alcohol
-			100 = VIETnam.187
+			100 = VIETnam.187		# Child accidentally consumes alcohol
+			#Prophecy
+			100 = VIETmisc.8081		# What to be when I grow up?
 		
 		}
 	}
