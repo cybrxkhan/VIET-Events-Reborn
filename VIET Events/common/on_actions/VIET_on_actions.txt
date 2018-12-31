@@ -86,6 +86,13 @@ on_yearly_pulse = {
 			#Bitter
 			100 = VIETmisc.2011		# How do you like your coffee?
 			100 = VIETmisc.2013		# Bought crappy bitter olives
+			#Eggs
+			100 = VIETmisc.2016		# Cosmetics made usnig eggs
+			100 = VIETmisc.2019		# Food courtier gives you has egg shells
+			100 = VIETmisc.2020		# Deviled eggs
+			#Dulcinian (Readapted to other religions)
+			100 = VIETmisc.2021		# How should heretic be purified?
+			100 = VIETmisc.2023		# Vassal isn't being charitable enough
 			#Moss
 			100 = VIETmisc.2292 	# Moss Pond
 			#Animal themed
@@ -180,6 +187,9 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.2004		# Garlic protection against vampires
 			#Bitter
 			100 = VIETmisc.2011		# Learning to eat bitter Greek greens
+			#Eggs
+			100 = VIETmisc.2017		# House is egged
+			100 = VIETmisc.2018		# Bought a lot of pickled eggs
 			#Christmas
 			100 = VIETmisc.2286 	# Do you believe Saint Nick is still alive?
 			100 = VIETmisc.2287 	# Mistletoe, but no one is under it with you
@@ -260,7 +270,9 @@ on_five_year_pulse = {
 			#Bitter
 			100 = VIETmisc.2010 	# Character falls down stairs and uses chicory to heal			
 			100 = VIETmisc.2014 	# Ate a lot of arugula recently			
-			100 = VIETmisc.2015 	# Spinach makes me strong		
+			100 = VIETmisc.2015 	# Spinach makes me strong
+			#Dulcinian (Readapted to other religions)
+			100 = VIETmisc.2025		# Would you kill a baby?		
 			#Christmas
 			100 = VIETmisc.2285 	# Santa Claus is coming to town
 			100 = VIETmisc.2288 	# Candy canes
