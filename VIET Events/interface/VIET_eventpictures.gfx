@@ -2259,6 +2259,86 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\battlefield_1_landship.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_stone_church_north_germanic"
+		texturefile = "gfx\\event_pictures\stone_church_soa_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_finno_ugric"
+		texturefile = "gfx\\event_pictures\stone_church_soa_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_baltic"
+		texturefile = "gfx\\event_pictures\stone_church_soa_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_east_slavic"
+		texturefile = "gfx\\event_pictures\stone_church_soa_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_arabic"
+		texturefile = "gfx\\event_pictures\stone_church_soa_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_iranian"
+		texturefile = "gfx\\event_pictures\stone_church_soa_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_serindian"
+		texturefile = "gfx\\event_pictures\stone_church_soa_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_north_african"
+		texturefile = "gfx\\event_pictures\stone_church_soa_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_turkish"
+		texturefile = "gfx\\event_pictures\stone_church_soa_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cathedral_central_african"
+		texturefile = "gfx\\event_pictures\\mud_mosque.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_central_african"
+		texturefile = "gfx\\event_pictures\\mud_mosque.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cathedral_indo_aryan_group"
+		texturefile = "gfx\\event_pictures\\stone_church_soa_indo_aryan.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_indo_aryan_group"
+		texturefile = "gfx\\event_pictures\\stone_church_soa_indo_aryan.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cathedral_dravidian_group"
+		texturefile = "gfx\\event_pictures\\stone_church_soa_indo_aryan.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_dravidian_group"
+		texturefile = "gfx\\event_pictures\\stone_church_soa_indo_aryan.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_apollo_sun"
+		texturefile = "gfx\\event_pictures\\apollo_sun.tga"
+		allwaystransparent = yes
+	}
 }
 
 
