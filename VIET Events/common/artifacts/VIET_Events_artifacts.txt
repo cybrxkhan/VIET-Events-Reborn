@@ -11,6 +11,7 @@ VIET_abacus = {
 VIET_ancient_pottery = {
 	monthly_character_prestige = 0.02
 	monthly_character_piety = 0.01
+	learning = 1
 	quality = 2
 	#stacking = no
 	picture = "GFX_VIET_ancient_pottery"
