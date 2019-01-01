@@ -1,146 +1,146 @@
-VIET_awkward_encounter_public;Awkward Encounter in Public;;;;;;;;;;;;;x
-VIET_awkward_encounter_public_desc;This character recently did something awkward in public, and not only that, everyone is gossiping about it!;;;;;;;;;;;;;x
-VIET_constant_muslim_fasting;Frequent Fasting;;;;;;;;;;;;;x
-VIET_constant_muslim_fasting_desc;This pious Muslim fasts every now and then, even when it isn't Ramadan!;;;;;;;;;;;;;x
-VIET_remembering_childhood_love;Remembering Childhood Love;;;;;;;;;;;;;x
-VIET_remembering_childhood_love_desc;We were so young, so innocent... and even now, so many years later, the memories of the laughter and joy we shared haunt me.;;;;;;;;;;;;;x
-VIET_eating_baklava;Ate Baklava;;;;;;;;;;;;;x
-VIET_eating_baklava_desc;This character recently had the good fortune of eating some of the most delicious baklava around.;;;;;;;;;;;;;x
-VIET_rewarded_oblivion_guard;Rewarded Dutiful Guard;;;;;;;;;;;;;x
-VIET_rewarded_oblivion_guard_desc;This ruler recently witnessed dutiful guard performing their duties most admirably, and rewarded them.;;;;;;;;;;;;;x
-VIET_was_oblivion_guard;Was Dutiful Town Guard;;;;;;;;;;;;;x
-VIET_was_oblivion_guard_desc;This character had humble origins as a town guard, but the experience was very formative to their zealous sense of justice.;;;;;;;;;;;;;x
-VIET_opinion_publically_chastised_me;Publically Chastised Me;;;;;;;;;;;;;x
-VIET_opinion_inappropriate_speech;Inappropriate Speech;;;;;;;;;;;;;x
-VIET_province_bridge_collapse;Recent Bridge Collapse;;;;;;;;;;;;;x
-VIET_province_bridge_collapse_desc;A bridge recently collapsed in this region. It was a major one, serving as a major connector between various settlements and facilitating trade. Even the briefest interruption will have undesirable consequences to the local economy.;;;;;;;;;;;;;x
-VIET_helped_emergency_quickly;Quickly Aided Locals During Emergency;;;;;;;;;;;;;x
-VIET_helped_emergency_quickly_desc;This character used their leadership to help pull together the local populace during a recent emergency.;;;;;;;;;;;;;x
-VIET_ignored_emergency;Ignored Locals During Emergency;;;;;;;;;;;;;x
-VIET_ignored_emergency_desc;Despite having the responsibility to do so, this character ignored the plight of the local populace under their protection during a recent emergency.;;;;;;;;;;;;;x
-VIET_province_mysterious_colors;Mysterious Colors in the Sky;;;;;;;;;;;;;x
-VIET_province_mysterious_colors_desc;A strange phenomenon has been reported in the area - at random times during the day, the sky becomes unnatural colors such as pink. No one knows why this is happening.;;;;;;;;;;;;;x
-VIET_province_haunted_ship;Haunted Ship in the Sky;;;;;;;;;;;;;x
-VIET_province_haunted_ship_desc;Reports abound of a haunted ship, floating in the sky. It is most likely collective delusions and hallucinations, and nothing else.;;;;;;;;;;;;;x
-VIET_province_recent_sandstorm;Recent Sandstorm;;;;;;;;;;;;;x
-VIET_province_recent_sandstorm_desc;A sandstorm recently swept through the region, killing many and causing much damage.;;;;;;;;;;;;;x
-VIET_touched_poop;Got Hands Dirty;;;;;;;;;;;;;x
-VIET_touched_poop_desc;This character recently got their hands in some unsanitary excrement due to their irrational dedication to their workaholic tendencies....;;;;;;;;;;;;;x
-VIET_thinking_about_foreign_lands;Thinking About Foreign Lands;;;;;;;;;;;;;x
-VIET_thinking_about_foreign_lands_desc;This character has been contemplating the peoples, customs, and geographies of faraway realms as of late.;;;;;;;;;;;;;x
-VIET_girl_power;Supports Female Empowerment;;;;;;;;;;;;;x
-VIET_girl_power_desc;"Things would surely be better if women were in charge... right?";;;;;;;;;;;;;x
-VIET_chinese_rumors;Tales from China;;;;;;;;;;;;;x
-VIET_chinese_rumors_desc;This character is interested in the latest news and stories from China. Whether these stories are true, of course, is another matter altogether.;;;;;;;;;;;;;x
-VIET_sexist_against_women;Looks Down on Women;;;;;;;;;;;;;x
-VIET_sexist_against_women_desc;"I have nothing against women - why, my own mother was a woman! They are merely inferior to men. It's just logical!";;;;;;;;;;;;;x
-VIET_nerd_hates_sports;Hates Sports;;;;;;;;;;;;;x
-VIET_nerd_hates_sports_desc;This character recently made it clear that they don't like sports.;;;;;;;;;;;;;x
-VIET_opinion_patron;Patronized Me;;;;;;;;;;;;;x
-VIET_opinion_amazing_court_singer;Amazing Court Singer;;;;;;;;;;;;;x
-VIET_famous_bard_province;Famous Bard;;;;;;;;;;;;;x
-VIET_famous_bard_province_desc;A bard whose poetry and song is of peerless quality dwells in this land. Yet despite his talents, he refuses to perform for the rich and powerful, and instead goes around the various villages and towns in the region, inspiring the locals and commoners to do great deeds.;;;;;;;;;;;;;x
-VIET_province_flat_stone;Ancient Stone Monument;;;;;;;;;;;;;x
-VIET_province_flat_stone_desc;A single flat stone of considerable size lies somewhere in the wilderness of this province. It must have been carved by bygone peoples from centuries ago, though local attributes some miraculous properties to it. It is too large to be re-used, so it continues to sit, watching the world around it for all eternity.;;;;;;;;;;;;;x
-VIET_amazing_singer_modifier;Amazing Singer;;;;;;;;;;;;;x
-VIET_amazing_singer_modifier_desc;This woman is an amazing singer and musician. Even when she sings a simple children's song, she can enchant and soften the most stone-cold of hearts.;;;;;;;;;;;;;x
-VIET_amazing_singer_husbando_modifier;Husband of Amazing Singer;;;;;;;;;;;;;x
-VIET_amazing_singer_husbando_modifier_desc;This man is or was married to one of the greatest singers and musicians of their generation. Though he did or does not have as much fame as she did or does, he still reaps some benefits from it.;;;;;;;;;;;;;x
-VIET_opinion_interrupted_secret_conversation;Interrupted Secret Conversation;;;;;;;;;;;;;x
-VIET_opinion_suspicious_conversation;Suspicious Conversation;;;;;;;;;;;;;x
-VIET_read_book_romance;Recently Read a Romance Novel;;;;;;;;;;;;;x
-VIET_read_book_romance_desc;"I pray, sir, tell me, is it possible\nThat love should of a sudden take such hold?";;;;;;;;;;;;;x
-VIET_read_book_gritty;Recently Read a Gritty, Dark Novel;;;;;;;;;;;;;x
-VIET_read_book_gritty_desc;Some people think darkness, nihilism, and filling a story with tons of mindless fornication and bloodshed somehow makes a story better. This character is one such deluded person.;;;;;;;;;;;;;x
-VIET_read_book_fantasy;Recently Read a Fantastical Adventure Novel;;;;;;;;;;;;;x
-VIET_read_book_fantasy_desc;"It's a dangerous business, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.";;;;;;;;;;;;;x
-VIET_read_book_slice_of_life;Recently Read an Amusing Collection of Slice of Life Stories;;;;;;;;;;;;;x
-VIET_read_book_slice_of_life_desc;"Humans have a desire for truth or they have a desire to what they know is the truth. In other words, what the truth is exactly second to that. Be careful of what is the truth and what is lie. In other words, always doubt yourself. Harbor an inner devil as you read along... and I won't forget to add that by that point, you might have already fallen into my trap.";;;;;;;;;;;;;x
-VIET_minty_fresh_breath;Minty Fresh Breath;;;;;;;;;;;;;x
-VIET_herbal_mouth_cleaning_other;Using Mouth-cleaning Herbs;;;;;;;;;;;;;x
-VIET_province_friendly_beach_ghost;Friendly Ghost of the Cliffs;;;;;;;;;;;;;x
-VIET_province_friendly_beach_ghost_desc;Sightings of a certain ghost are common in the coastal villages in this province. The ghost is, according to witnesses who claimed to have seen or even interacted with him, not malevolent whatsoever, and sometimes he even leads lost travelers find civilization again.;;;;;;;;;;;;;x
-VIET_interesting_idealistic_ideas;Interesting Idealistic Ideas;;;;;;;;;;;;;x
-VIET_interesting_idealistic_ideas_desc;This character is dreaming of something which seems impossible. But surely, anything is possible if you have the willpower, right?;;;;;;;;;;;;;x
-VIET_lack_of_good_sleep;Lack of Good Sleep;;;;;;;;;;;;;x
-VIET_lack_of_good_sleep_desc;"You need to sleep. Stop staying up late all night doing who knows what!";;;;;;;;;;;;;x
-VIET_quick_nap;Power Naps;;;;;;;;;;;;;x
-VIET_quick_nap_desc;Taking power naps is recommended to help refresh the spirit. This character is heeding that advice.;;;;;;;;;;;;;x
-VIET_sore_muscles;Suffering from Sore Muscles;;;;;;;;;;;;;x
-VIET_sore_muscles_desc;This characters' muscles are currently unusually sore, affecting their ability in all aspects of life.;;;;;;;;;;;;;x
-VIET_written_in_chinese_records;Mentioned in Chinese Records;;;;;;;;;;;;;x
-VIET_written_in_chinese_records_desc;This character, despite dwelling in foreign, barbarian lands, has earned themselves a spot in an important history book written by a Chinese historian. The book paints a flattering picture of this character and their realm.;;;;;;;;;;;;;x
-VIET_horehound_tea;Horehound Tea;;;;;;;;;;;;;x
-VIET_horehound_tea_desc;This character recently consumed tea made from the leaves of the horehound plant.;;;;;;;;;;;;;x
-VIET_mountain_tea;Mountain Tea;;;;;;;;;;;;;x
-VIET_mountain_tea_desc;This character recently consumed the so-called Mountain Tea, which has been popular throughout the Balkans and Asia Minor for centuries. It is made from the leaves, stem, and flowers of the ironwort plant.;;;;;;;;;;;;;x
-VIET_chinese_black_tea_gift;Has Good Stock of Chinese Black Tea;;;;;;;;;;;;;x
-VIET_chinese_black_tea_gift_desc;This character currently has a lot of black tea with them. This high quality black tea from China will surely be the highlight of any social gathering!;;;;;;;;;;;;;x
-VIET_admiring_beauty;Admiring the Ideal of Beauty;;;;;;;;;;;;;x
-VIET_admiring_beauty_desc;Beauty may fade, and flowers may wilt, but that doesn't mean we can't admire the flowers while they are still in bloom.;;;;;;;;;;;;;x
-VIET_poetry_contemplation;Contemplating Poetry;;;;;;;;;;;;;x
-VIET_poetry_contemplation_desc;This character has been trying to learn about the poetry written by other poets.;;;;;;;;;;;;;x
-VIET_sobering_lesson;Sobering Lesson;;;;;;;;;;;;;x
-VIET_sobering_lesson_desc;This character recently learned a sobering lesson about the harsh realities of life.;;;;;;;;;;;;;x
-VIET_interesting_talk_with_stranger;Interesting Talk with Stranger;;;;;;;;;;;;;x
-VIET_interesting_talk_with_stranger_desc;This character recently had a good chat with someone they never met before. Though they will probably never meet this stranger again, that doesn't mean the conversation didn't impact them in some way.;;;;;;;;;;;;;x
-VIET_nightgazer;Avid Nightgazer;;;;;;;;;;;;;x
-VIET_nightgazer_desc;This character gazes into the night often, meditating on the beautiful stars and moon that shine high above in the heavens.;;;;;;;;;;;;;x
-VIET_duck_wobbler;Duck Wobbler;;;;;;;;;;;;;x
-VIET_duck_wobbler_desc;This person walks in a manner that is reminiscent of a wobbling duck. Many people find this amusing.;;;;;;;;;;;;;x
-VIET_fox_spirit_dreams;Daydreaming of Fox Spirits;;;;;;;;;;;;;x
-VIET_fox_spirit_dreams_desc;Traditionally, in East Asia, fox spirits were said to often take the appearance of an attractive young girl. This character has been daydreaming about encountering one such enchanting lady as of late.;;;;;;;;;;;;;x
-VIET_buzzing_noises;Buzzing Noises;;;;;;;;;;;;;x
-VIET_buzzing_noises_desc;This character keeps hearing buzzing noises but doesn't know where they're coming from.;;;;;;;;;;;;;x
-VIET_province_pistachios;Famous Pistachios;;;;;;;;;;;;;x
-VIET_province_pistachios_desc;The pistachios from this province have gained a lot of popularity worldwide.;;;;;;;;;;;;;x
-VIET_lake_rumare_dream_lake;Dreamt of a Great Lake;;;;;;;;;;;;;x
-VIET_lake_rumare_dream_lake_desc;There, before one's eyes, was the most beautiful lake ever seen. It was large enough to be a sea to its own, and surrounding it was a pastoral landscape, farmland and small villages dotting the shores.;;;;;;;;;;;;;x
-VIET_lake_rumare_dream_shrine;Dreamt of a Marble Shrine;;;;;;;;;;;;;x
-VIET_lake_rumare_dream_shrine_desc;It was not particularly large - more like a glorified altar - and its roof was no more, and its marbled columns worn and broken. Yet the aura of an ancient, spiritual power still emanated from it.;;;;;;;;;;;;;x
-VIET_lake_rumare_dream_forest;Dreamt of a Gentle Forest;;;;;;;;;;;;;x
-VIET_lake_rumare_dream_forest_desc;Some forests are dark and dangerous, but this one was the opposite, for there was light to be seen, and birds and other friendly creatures to guide the way. But who knows what secrets it holds, yet to be discovered.;;;;;;;;;;;;;x
-VIET_lake_rumare_dream_cottage;Dreamt of a Cozy Cottage;;;;;;;;;;;;;x
-VIET_lake_rumare_dream_cottage_desc;Inside - fresh and warm food like chewy bread, crisp vegetables, crumbly cheeses. A small fire burned by a fireplace, and a few rugs and chairs kept were as simple decoration alongside a soft, inviting bed.;;;;;;;;;;;;;x
-VIET_oblivion_dream_bruma;Dreamt of an Ancient Temple;;;;;;;;;;;;;x
-VIET_oblivion_dream_bruma_desc;"The sacred stones here are many things. Temple, fortress, safe haven. But it is also a home to those wise and strong enough to defend it.";;;;;;;;;;;;;x
-VIET_oblivion_dream_anvil;Dreamt of a Cosmopolitan Port;;;;;;;;;;;;;x
-VIET_oblivion_dream_anvil_desc;"Many of the city's folk are directly or indirectly associated with ships and sailing... sailors, ship-owners, men made rich and poor by the sea trade, and the lonely wives of men who follow the sea.";;;;;;;;;;;;;x
-VIET_oblivion_dream_leyawiin;Dreamt of a Mysterious Swamp;;;;;;;;;;;;;x
-VIET_oblivion_dream_leyawiin_desc;"The swamp isn't so bad, once you get used to the flies. And being lost all the time.";;;;;;;;;;;;;x
-VIET_oblivion_dream_lake_rumare;Dreamt of Flower Meadows;;;;;;;;;;;;;x
-VIET_oblivion_dream_lake_rumare_desc;"A forest was cleared for agriculture around the lake, but it's mostly wilderness outside of that.";;;;;;;;;;;;;x
-VIET_moved_to_tears;Moved to Tears by Art;;;;;;;;;;;;;x
-VIET_moved_to_tears_desc;"When we are born we cry that we are come\nTo this great stage of fools.";;;;;;;;;;;;;x
-VIET_emotionless_to_art;Didn't Cry to Sad Story;;;;;;;;;;;;;x
-VIET_emotionless_to_art_desc;"To weep is to make less the depth of grief.";;;;;;;;;;;;;x
-VIET_auriels_ascension;[Root.Religion.GetHighGodName]'s Ascension;;;;;;;;;;;;;x
-VIET_auriels_ascension_desc;They say that a physical manifestation of [Root.Religion.GetHighGodName] appeared in a remote village of this province.;;;;;;;;;;;;;x
-VIET_repressing_cult;Repressing Dangerous Cult;;;;;;;;;;;;;x
-VIET_repressing_cult_desc;A heretical cult is active here. Though it does not have many followers, the authorities fear the cult could be quite dangerous, and are cracking down on it.;;;;;;;;;;;;;x
-VIET_Oblivion_dream_complete;Dream of Adventure;;;;;;;;;;;;;x
-VIET_Oblivion_dream_complete_desc;This character once had a most epic dream. In it, they helped a long-lost Prince and his allies defend their home and Empire from a demonic army invading from the gates of hell itself! So vivid was this dream that to this day this character still recalls it.;;;;;;;;;;;;;x
-VIET_world_war_1_dream;Dreamt of a War to End All Wars;;;;;;;;;;;;;x
-VIET_world_war_1_dream_desc;After having such an intense and horrifying dream of the future, where men used cruel and twisted sorcery to tear each other to shreds and die by the thousands, this character has been transformed.;;;;;;;;;;;;;x
-VIET_one_time_lovemaking;One-time Lovemaking;;;;;;;;;;;;;x
-VIET_one_time_lovemaking_desc;This character recently had a quick tryst with someone, most likely a stranger. They certainly enjoyed it, but who knows if their partner, willing or not, felt the same.;;;;;;;;;;;;;x
-VIET_opinion_won_drinking_contest;Won Drinking Contest;;;;;;;;;;;;;x
-VIET_opinion_lost_drinking_contest;Lost Drinking Contest;;;;;;;;;;;;;x
-VIET_opinion_fruit_loop_poops_advice;Advice for Colorful Stool;;;;;;;;;;;;;x
-VIET_fruit_loops_poops;Colorful Stool;;;;;;;;;;;;;x
-VIET_fruit_loops_poops_desc;For some reason, this character's stool is very colorful as of late. It does not seem natural, but no serious medical issues have been linked to this. Yet.;;;;;;;;;;;;;x
-VIET_scorpion_sting;Stung by a Scorpion;;;;;;;;;;;;;x
-VIET_dream_dagoth_ur;Dreamt of a Figure in a Golden Mask;;;;;;;;;;;;;x
-VIET_dream_dagoth_ur_desc;"Come to me, through fire and war. I welcome you.";;;;;;;;;;;;;x
-VIET_maitreya_cult;Maitreya Cult;;;;;;;;;;;;;x
-VIET_maitreya_cult_desc;A Buddhist monk in this province has proclaimed himself to be Maitreya, the Buddha of the next epoch. His small group of fanatical devotees are causing much disturbance and unrest.;;;;;;;;;;;;;x
-VIET_ominous_dream;Ominous Dream;;;;;;;;;;;;;x
-VIET_opinion_reasonable_advice;Reasonable Advice;;;;;;;;;;;;;x
-VIET_tiring_travel;Tiring Travels;;;;;;;;;;;;;x
-VIET_tiring_travel_desc;Maybe it wasn't such a good idea to travel that far and exhaust oneself. Maybe, sometimes, one needs to just relax and not try too hard.;;;;;;;;;;;;;x
-VIET_stared_at_sun;Stared at the Sun for Too Long;;;;;;;;;;;;;x
-VIET_permanent_sun_damage;Permanent Damage to Eyes from the Sun;;;;;;;;;;;;;x
-VIET_permanent_sun_damage_desc;At some point in their life, this character was moronic enough to stare at the sun for too long, causing permanent damage to their eyes. Though they aren't blind per se, their eyesight is not as good as it used to be.;;;;;;;;;;;;;x
-VIET_egyptian_sunscreen;Sunscreen Made Using Egyptian Recipe;;;;;;;;;;;;;x
-VIET_egyptian_sunscreen_desc;This character currently possesses an oil made mostly from rice, jasmine, lupine, and other herbs, that is based on an old Egyptian recipe. It is meant to be applied on the skin to help prevent sunburns and tanning. After all, who would ever think a tan looked good on a person? This character is no ignorant peasant after all!;;;;;;;;;;;;;x
+VIET_awkward_encounter_public;Awkward Encounter in Public;Rencontre maladroite en public;;;;;;;;;;;;x
+VIET_awkward_encounter_public_desc;This character recently did something awkward in public, and not only that, everyone is gossiping about it!;Ce personnage a récemment fait quelque chose de bizarre en public, et pas seulement, tout le monde bavarde à ce sujet !;;;;;;;;;;;;x
+VIET_constant_muslim_fasting;Frequent Fasting;Jeûne fréquent;;;;;;;;;;;;x
+VIET_constant_muslim_fasting_desc;This pious Muslim fasts every now and then, even when it isn't Ramadan!;Ce pieux musulman jeûne de temps en temps, même quand ce n'est pas le Ramadan !;;;;;;;;;;;;x
+VIET_remembering_childhood_love;Remembering Childhood Love;Souvenir de l'amour de l'enfance;;;;;;;;;;;;x
+VIET_remembering_childhood_love_desc;We were so young, so innocent... and even now, so many years later, the memories of the laughter and joy we shared haunt me.;Nous étions si jeunes, si innocents ... et même maintenant, de nombreuses années plus tard, les souvenirs de rire et de joie que nous avons partagés me hantent.;;;;;;;;;;;;x
+VIET_eating_baklava;Ate Baklava;A mangé Baklava;;;;;;;;;;;;x
+VIET_eating_baklava_desc;This character recently had the good fortune of eating some of the most delicious baklava around.;Ce personnage a récemment eu la chance de manger l'un des baklava les plus délicieux qui soit.;;;;;;;;;;;;x
+VIET_rewarded_oblivion_guard;Rewarded Dutiful Guard;Garde du mérite récompensée;;;;;;;;;;;;x
+VIET_rewarded_oblivion_guard_desc;This ruler recently witnessed dutiful guard performing their duties most admirably, and rewarded them.;Ce souverain a récemment vu des gardes consciencieux s’acquitter de leurs fonctions avec la plus grande admiration et les récompenser.;;;;;;;;;;;;x
+VIET_was_oblivion_guard;Was Dutiful Town Guard;Était un garde consciencieux de la ville;;;;;;;;;;;;x
+VIET_was_oblivion_guard_desc;This character had humble origins as a town guard, but the experience was very formative to their zealous sense of justice.;Ce personnage avait des origines modestes en tant que garde de ville, mais l'expérience a été très déterminante pour son sens zélé de la justice.;;;;;;;;;;;;x
+VIET_opinion_publically_chastised_me;Publically Chastised Me;M'a publiquement châtié;;;;;;;;;;;;x
+VIET_opinion_inappropriate_speech;Inappropriate Speech;Discours inapproprié;;;;;;;;;;;;x
+VIET_province_bridge_collapse;Recent Bridge Collapse;Effondrement récent d'un pont;;;;;;;;;;;;x
+VIET_province_bridge_collapse_desc;A bridge recently collapsed in this region. It was a major one, serving as a major connector between various settlements and facilitating trade. Even the briefest interruption will have undesirable consequences to the local economy.;Un pont s'est récemment effondré dans cette région. C’était un important pont servant de lien majeur entre divers établissements et facilitant les échanges. Même la plus brève interruption aura des conséquences indésirables sur l'économie locale.;;;;;;;;;;;;x
+VIET_helped_emergency_quickly;Quickly Aided Locals During Emergency;A aidés les locaux rapidement dans l'urgence;;;;;;;;;;;;x
+VIET_helped_emergency_quickly_desc;This character used their leadership to help pull together the local populace during a recent emergency.;Ce personnage a utilisé son leadership pour aider à rassembler la population locale lors d'une urgence récente.;;;;;;;;;;;;x
+VIET_ignored_emergency;Ignored Locals During Emergency;Locaux ignorés pendant l'urgence;;;;;;;;;;;;x
+VIET_ignored_emergency_desc;Despite having the responsibility to do so, this character ignored the plight of the local populace under their protection during a recent emergency.;Bien qu'ayant la responsabilité de le faire, ce personnage a ignoré le sort tragique de la population locale sous sa protection lors d'une récente urgence.;;;;;;;;;;;;x
+VIET_province_mysterious_colors;Mysterious Colors in the Sky;Couleurs mystérieuses dans le ciel;;;;;;;;;;;;x
+VIET_province_mysterious_colors_desc;A strange phenomenon has been reported in the area - at random times during the day, the sky becomes unnatural colors such as pink. No one knows why this is happening.;Un phénomène étrange a été signalé dans la région - à des moments aléatoires de la journée, le ciel prend des couleurs peu naturelles comme le rose. Personne ne sait pourquoi cela se produit.;;;;;;;;;;;;x
+VIET_province_haunted_ship;Haunted Ship in the Sky;Navire hanté dans le ciel;;;;;;;;;;;;x
+VIET_province_haunted_ship_desc;Reports abound of a haunted ship, floating in the sky. It is most likely collective delusions and hallucinations, and nothing else.;Les rapports abondent sur un navire hanté, flottant dans le ciel. Ce sont très probablement des délires collectifs et des hallucinations, et rien d’autre.;;;;;;;;;;;;x
+VIET_province_recent_sandstorm;Recent Sandstorm;Tempête de sable récente;;;;;;;;;;;;x
+VIET_province_recent_sandstorm_desc;A sandstorm recently swept through the region, killing many and causing much damage.;Une tempête de sable a récemment balayé la région, faisant de nombreuses victimes et causant de nombreux dégâts.;;;;;;;;;;;;x
+VIET_touched_poop;Got Hands Dirty;A les mains sales;;;;;;;;;;;;x
+VIET_touched_poop_desc;This character recently got their hands in some unsanitary excrement due to their irrational dedication to their workaholic tendencies....;Ce personnage a récemment mis la main sur des excréments insalubres en raison de son dévouement irrationnel aux tendances de son bourreau de travail ....;;;;;;;;;;;;x
+VIET_thinking_about_foreign_lands;Thinking About Foreign Lands;Pense aux terres étrangères;;;;;;;;;;;;x
+VIET_thinking_about_foreign_lands_desc;This character has been contemplating the peoples, customs, and geographies of faraway realms as of late.;Ce personnage a récemment contemplé les peuples, les coutumes et les géographies de royaumes lointains.;;;;;;;;;;;;x
+VIET_girl_power;Supports Female Empowerment;Soutient l'autonomisation des femmes;;;;;;;;;;;;x
+VIET_girl_power_desc;"Things would surely be better if women were in charge... right?";"Les choses iraient sûrement mieux si les femmes étaient aux commandes ... pas vrai ?";;;;;;;;;;;;x
+VIET_chinese_rumors;Tales from China;Contes de Chine;;;;;;;;;;;;x
+VIET_chinese_rumors_desc;This character is interested in the latest news and stories from China. Whether these stories are true, of course, is another matter altogether.;Ce personnage s'intéresse aux dernières nouvelles et histoires de Chine. Que ces histoires soient vraies, bien sûr, est une autre question.;;;;;;;;;;;;x
+VIET_sexist_against_women;Looks Down on Women;Regarde les femmes;;;;;;;;;;;;x
+VIET_sexist_against_women_desc;"I have nothing against women - why, my own mother was a woman! They are merely inferior to men. It's just logical!";"Je n'ai rien contre les femmes. Pourquoi cela serait le cas, ma propre mère était une femme ! Elles sont simplement inférieures aux hommes. C'est tout simplement logique !";;;;;;;;;;;;x
+VIET_nerd_hates_sports;Hates Sports;Déteste le sport;;;;;;;;;;;;x
+VIET_nerd_hates_sports_desc;This character recently made it clear that they don't like sports.;Ce personnage a récemment fait savoir qu’il n’aimait pas le sport.;;;;;;;;;;;;x
+VIET_opinion_patron;Patronized Me;M'a Patronisé;;;;;;;;;;;;x
+VIET_opinion_amazing_court_singer;Amazing Court Singer;Chanteur incroyable de la cour;;;;;;;;;;;;x
+VIET_famous_bard_province;Famous Bard;Célèbre barde;;;;;;;;;;;;x
+VIET_famous_bard_province_desc;A bard whose poetry and song is of peerless quality dwells in this land. Yet despite his talents, he refuses to perform for the rich and powerful, and instead goes around the various villages and towns in the region, inspiring the locals and commoners to do great deeds.;Un barde dont la poésie et la chanson sont d'une qualité sans pareil réside dans ce pays. Pourtant, malgré ses talents, il refuse de se produire pour les riches et les puissants, mais se promène plutôt dans les différents villages et villes de la région, incitant les habitants et les citoyens à accomplir de grandes actions.;;;;;;;;;;;;x
+VIET_province_flat_stone;Ancient Stone Monument;Ancien monument en pierre;;;;;;;;;;;;x
+VIET_province_flat_stone_desc;A single flat stone of considerable size lies somewhere in the wilderness of this province. It must have been carved by bygone peoples from centuries ago, though local attributes some miraculous properties to it. It is too large to be re-used, so it continues to sit, watching the world around it for all eternity.;Une seule pierre plate de taille considérable se situe quelque part dans la nature sauvage de cette province. Elle a dû être sculpté par des peuples révolus d'il y a des siècles, bien que les habitants lui attribuent des propriétés miraculeuses. Elle est trop grosse pour être réutilisée, elle continue donc de rester assise à regarder le monde autour d'elle pour l'éternité.;;;;;;;;;;;;x
+VIET_amazing_singer_modifier;Amazing Singer;Chanteuse étonnante;;;;;;;;;;;;x
+VIET_amazing_singer_modifier_desc;This woman is an amazing singer and musician. Even when she sings a simple children's song, she can enchant and soften the most stone-cold of hearts.;Cette femme est une chanteuse et musicienne extraordinaire. Même quand elle chante une simple chanson pour enfants, elle peut enchanter et adoucir les cœurs les plus froids.;;;;;;;;;;;;x
+VIET_amazing_singer_husbando_modifier;Husband of Amazing Singer;Époux de la chanteuse étonnante;;;;;;;;;;;;x
+VIET_amazing_singer_husbando_modifier_desc;This man is or was married to one of the greatest singers and musicians of their generation. Though he did or does not have as much fame as she did or does, he still reaps some benefits from it.;Cet homme est ou était marié à l'une des plus grandes chanteuses et musiciennes de leur génération. Bien qu’il ait eu ou n’ait pas eu autant de célébrité qu’elle a avait ou qu’elle a, il en tire encore quelques avantages.;;;;;;;;;;;;x
+VIET_opinion_interrupted_secret_conversation;Interrupted Secret Conversation;Conversation secrète interrompue;;;;;;;;;;;;x
+VIET_opinion_suspicious_conversation;Suspicious Conversation;Conversation suspecte;;;;;;;;;;;;x
+VIET_read_book_romance;Recently Read a Romance Novel;A récemment lu un roman d'amour;;;;;;;;;;;;x
+VIET_read_book_romance_desc;"I pray, sir, tell me, is it possible\nThat love should of a sudden take such hold?";"Je vous en prie, monsieur, dites-moi, est-il possible\nQue cet amour prenne subitement une telle emprise ?";;;;;;;;;;;;x
+VIET_read_book_gritty;Recently Read a Gritty, Dark Novel;A récemment lu un roman sombre et morne;;;;;;;;;;;;x
+VIET_read_book_gritty_desc;Some people think darkness, nihilism, and filling a story with tons of mindless fornication and bloodshed somehow makes a story better. This character is one such deluded person.;Certaines personnes pensent que l'obscurité, le nihilisme et le fait de remplir une histoire avec des tonnes de fornications insensées et d'effusions de sang rendent en quelque sorte une histoire meilleure. Ce personnage est une telle personne trompée.;;;;;;;;;;;;x
+VIET_read_book_fantasy;Recently Read a Fantastical Adventure Novel;A récemment lu un roman d'aventure fantastique;;;;;;;;;;;;x
+VIET_read_book_fantasy_desc;"It's a dangerous business, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.";"C'est une entreprise dangereuse que de sortir par votre porte. Vous montez sur la route et si vous ne gardez pas les pieds, vous ne saurez pas où vous pourriez être entraîné.";;;;;;;;;;;;x
+VIET_read_book_slice_of_life;Recently Read an Amusing Collection of Slice of Life Stories;A récemment lu une collection amusante d'histoires de la tranche de vie;;;;;;;;;;;;x
+VIET_read_book_slice_of_life_desc;"Humans have a desire for truth or they have a desire to what they know is the truth. In other words, what the truth is exactly second to that. Be careful of what is the truth and what is lie. In other words, always doubt yourself. Harbor an inner devil as you read along... and I won't forget to add that by that point, you might have already fallen into my trap.";"Les humains ont un désir de vérité ou désirent ce qu'ils savent être la vérité. En d'autres termes, la vérité est exactement la seconde à cela. Faites attention à la vérité et au mensonge. En d'autres termes, doutez toujours de vous-même. Portez un démon intérieur en lisant… et je n'oublierai pas d'ajouter qu'à ce moment-là, vous êtes peut-être déjà tombé dans mon piège. ";;;;;;;;;;;;x
+VIET_minty_fresh_breath;Minty Fresh Breath;Souffle frais menthe;;;;;;;;;;;;x
+VIET_herbal_mouth_cleaning_other;Using Mouth-cleaning Herbs;Utiliser des herbes de nettoyage de bouche;;;;;;;;;;;;x
+VIET_province_friendly_beach_ghost;Friendly Ghost of the Cliffs;Fantôme amical des falaises;;;;;;;;;;;;x
+VIET_province_friendly_beach_ghost_desc;Sightings of a certain ghost are common in the coastal villages in this province. The ghost is, according to witnesses who claimed to have seen or even interacted with him, not malevolent whatsoever, and sometimes he even leads lost travelers find civilization again.;Les observations d'un certain fantôme sont courantes dans les villages côtiers de cette province. Selon des témoins qui ont affirmé l'avoir vu ou même échangé avec lui, le fantôme n'était pas malveillant du tout, et il ramenait même parfois les voyageurs égarés à la civilisation.;;;;;;;;;;;;x
+VIET_interesting_idealistic_ideas;Interesting Idealistic Ideas;Idées idéalistes intéressantes;;;;;;;;;;;;x
+VIET_interesting_idealistic_ideas_desc;This character is dreaming of something which seems impossible. But surely, anything is possible if you have the willpower, right?;Ce personnage rêve de quelque chose qui semble impossible. Mais sûrement, tout est possible si vous avez la volonté, non ?;;;;;;;;;;;;x
+VIET_lack_of_good_sleep;Lack of Good Sleep;Manque de bon sommeil;;;;;;;;;;;;x
+VIET_lack_of_good_sleep_desc;"You need to sleep. Stop staying up late all night doing who knows what!";"Tu as besoin de dormir. Arrête d'être encore debout toute la nuit en faisant tu sais quoi !";;;;;;;;;;;;x
+VIET_quick_nap;Power Naps;Les siestes;;;;;;;;;;;;x
+VIET_quick_nap_desc;Taking power naps is recommended to help refresh the spirit. This character is heeding that advice.;Faire des siestes est recommandé pour aider à rafraîchir l'esprit. Ce personnage tient compte de ce conseil.;;;;;;;;;;;;x
+VIET_sore_muscles;Suffering from Sore Muscles;Souffrant de muscles endoloris;;;;;;;;;;;;x
+VIET_sore_muscles_desc;This characters' muscles are currently unusually sore, affecting their ability in all aspects of life.;Les muscles de ce personnage sont actuellement particulièrement endoloris, ce qui affecte sa capacité dans tous les aspects de la vie.;;;;;;;;;;;;x
+VIET_written_in_chinese_records;Mentioned in Chinese Records;Mentionné dans les records chinois;;;;;;;;;;;;x
+VIET_written_in_chinese_records_desc;This character, despite dwelling in foreign, barbarian lands, has earned themselves a spot in an important history book written by a Chinese historian. The book paints a flattering picture of this character and their realm.;Ce personnage, bien que résidant dans des pays étrangers barbares, s'est taillé une place dans un important livre d'histoire écrit par un historien chinois. Le livre brosse un tableau flatteur de ce personnage et de son royaume.;;;;;;;;;;;;x
+VIET_horehound_tea;Horehound Tea;Thé de marrube;;;;;;;;;;;;x
+VIET_horehound_tea_desc;This character recently consumed tea made from the leaves of the horehound plant.;Ce personnage a récemment consommé du thé fabriqué à partir des feuilles de la plante du marrube.;;;;;;;;;;;;x
+VIET_mountain_tea;Mountain Tea;Thé de montagne;;;;;;;;;;;;x
+VIET_mountain_tea_desc;This character recently consumed the so-called Mountain Tea, which has been popular throughout the Balkans and Asia Minor for centuries. It is made from the leaves, stem, and flowers of the ironwort plant.;Ce personnage a récemment consommé le soi-disant thé de montagne, populaire dans les Balkans et en Asie mineure depuis des siècles. Il est fabriqué à partir des feuilles, de la tige et des fleurs de l’agarelle.;;;;;;;;;;;;x
+VIET_chinese_black_tea_gift;Has Good Stock of Chinese Black Tea;A un bon stock de thé noir chinois;;;;;;;;;;;;x
+VIET_chinese_black_tea_gift_desc;This character currently has a lot of black tea with him. This high quality black tea from China will surely be the highlight of any social gathering!;Ce personnage a actuellement beaucoup de thé noir avec lui. Ce thé noir de haute qualité en provenance de Chine sera sûrement le clou de tout rassemblement social !;;;;;;;;;;;;x
+VIET_admiring_beauty;Admiring the Ideal of Beauty;Admirant l'idéal de la beauté;;;;;;;;;;;;x
+VIET_admiring_beauty_desc;Beauty may fade, and flowers may wilt, but that doesn't mean we can't admire the flowers while they are still in bloom.;La beauté peut s'estomper et les fleurs peuvent se faner, mais cela ne signifie pas que nous ne pouvons pas admirer les fleurs tant qu'elles sont en fleurs.;;;;;;;;;;;;x
+VIET_poetry_contemplation;Contemplating Poetry;Poésie contemplative;;;;;;;;;;;;x
+VIET_poetry_contemplation_desc;This character has been trying to learn about the poetry written by other poets.;Ce personnage a essayé d'apprendre sur la poésie écrite par d'autres poètes.;;;;;;;;;;;;x
+VIET_sobering_lesson;Sobering Lesson;Leçon qui donne à réfléchir;;;;;;;;;;;;x
+VIET_sobering_lesson_desc;This character recently learned a sobering lesson about the harsh realities of life.;Ce personnage a récemment appris une leçon qui fait réfléchir sur les dures réalités de la vie.;;;;;;;;;;;;x
+VIET_interesting_talk_with_stranger;Interesting Talk with Stranger;Entretien intéressant avec un étranger;;;;;;;;;;;;x
+VIET_interesting_talk_with_stranger_desc;This character recently had a good chat with someone he never met before. Though he will probably never meet this stranger again, that doesn't mean the conversation didn't impact them in some way.;Ce personnage a récemment eu une bonne conversation avec quelqu'un qu'il n'avait jamais rencontré auparavant. Bien qu'il ne rencontrera probablement jamais plus cet étranger, cela ne signifie pas que la conversation ne les a pas affectés d'une manière ou d'une autre.;;;;;;;;;;;;x
+VIET_nightgazer;Avid Nightgazer;Avid Nightgazer;;;;;;;;;;;;x
+VIET_nightgazer_desc;This character gazes into the night often, meditating on the beautiful stars and moon that shine high above in the heavens.;Ce personnage regarde souvent dans la nuit, méditant sur les belles étoiles et la lune qui brillent au-dessus des cieux.;;;;;;;;;;;;x
+VIET_duck_wobbler;Duck Wobbler;Canard Wobbler;;;;;;;;;;;;x
+VIET_duck_wobbler_desc;This person walks in a manner that is reminiscent of a wobbling duck. Many people find this amusing.;Ce personnage marche d'une manière qui fait penser à un canard vacillant. Beaucoup de gens trouvent cela amusant.;;;;;;;;;;;;x
+VIET_fox_spirit_dreams;Daydreaming of Fox Spirits;Rêverie des esprits de renard;;;;;;;;;;;;x
+VIET_fox_spirit_dreams_desc;Traditionally, in East Asia, fox spirits were said to often take the appearance of an attractive young girl. This character has been daydreaming about encountering one such enchanting lady as of late.;Traditionnellement, en Asie de l’Est, on disait souvent que l’esprit de renard prenait l’aspect d’une jolie jeune fille. Ce personnage a rêvé de rencontrer une femme aussi enchanteresse que récemment.;;;;;;;;;;;;x
+VIET_buzzing_noises;Buzzing Noises;Bourdonnement;;;;;;;;;;;;x
+VIET_buzzing_noises_desc;This character keeps hearing buzzing noises but doesn't know where they're coming from.;Ce personnage continue à entendre les bourdonnements mais ne sait pas d'où ils viennent.;;;;;;;;;;;;x
+VIET_province_pistachios;Famous Pistachios;Pistaches célèbres;;;;;;;;;;;;x
+VIET_province_pistachios_desc;The pistachios from this province have gained a lot of popularity worldwide.;Les pistaches de cette province ont acquis une grande popularité dans le monde entier.;;;;;;;;;;;;x
+VIET_lake_rumare_dream_lake;Dreamt of a Great Lake;A rêvé d'un grand lac;;;;;;;;;;;;x
+VIET_lake_rumare_dream_lake_desc;There, before one's eyes, was the most beautiful lake ever seen. It was large enough to be a sea to its own, and surrounding it was a pastoral landscape, farmland and small villages dotting the shores.;Là, sous ses yeux, se trouvait le plus beau lac jamais vu. Il était assez grand pour être une mer à lui seul et était entouré d’un paysage pastoral, de terres agricoles et de petits villages qui parsèment les rives.;;;;;;;;;;;;x
+VIET_lake_rumare_dream_shrine;Dreamt of a Marble Shrine;A rêvé d'un sanctuaire en marbre;;;;;;;;;;;;x
+VIET_lake_rumare_dream_shrine_desc;It was not particularly large - more like a glorified altar - and its roof was no more, and its marbled columns worn and broken. Yet the aura of an ancient, spiritual power still emanated from it.;Ce n'était pas particulièrement grand - plutôt un autel glorifié - et son toit n'était plus, et ses colonnes marbrées étaient usées et brisées. Pourtant, l'aura d'un ancien pouvoir spirituel en émanait toujours.;;;;;;;;;;;;x
+VIET_lake_rumare_dream_forest;Dreamt of a Gentle Forest;A rêvé d'une forêt douce;;;;;;;;;;;;x
+VIET_lake_rumare_dream_forest_desc;Some forests are dark and dangerous, but this one was the opposite, for there was light to be seen, and birds and other friendly creatures to guide the way. But who knows what secrets it holds, yet to be discovered.;Certaines forêts sont sombres et dangereuses, mais celle-ci était le contraire, car il y avait de la lumière, des oiseaux et d’autres créatures amicales pour guider le chemin. Mais qui sait quels secrets elle détient, cela reste à découvrir.;;;;;;;;;;;;x
+VIET_lake_rumare_dream_cottage;Dreamt of a Cozy Cottage;A rêvé d'un chalet confortable;;;;;;;;;;;;x
+VIET_lake_rumare_dream_cottage_desc;Inside - fresh and warm food like chewy bread, crisp vegetables, crumbly cheeses. A small fire burned by a fireplace, and a few rugs and chairs kept were as simple decoration alongside a soft, inviting bed.;À l'intérieur - des aliments frais et chauds comme du pain à mâcher, des légumes croquants, des fromages friables. Un petit feu brûlé par une cheminée et quelques tapis et chaises conservés constituaient une simple décoration à côté d'un lit moelleux et invitant.;;;;;;;;;;;;x
+VIET_oblivion_dream_bruma;Dreamt of an Ancient Temple;A rêvé d'un ancien temple;;;;;;;;;;;;x
+VIET_oblivion_dream_bruma_desc;"The sacred stones here are many things. Temple, fortress, safe haven. But it is also a home to those wise and strong enough to defend it.";"Les pierres sacrées ici représentent beaucoup de choses. Temple, forteresse, refuge. Mais c'est aussi une demeure pour ceux qui sont assez sages et forts pour la défendre.";;;;;;;;;;;;x
+VIET_oblivion_dream_anvil;Dreamt of a Cosmopolitan Port;A rêvé d'un port cosmopolite;;;;;;;;;;;;x
+VIET_oblivion_dream_anvil_desc;"Many of the city's folk are directly or indirectly associated with ships and sailing... sailors, ship-owners, men made rich and poor by the sea trade, and the lonely wives of men who follow the sea.";"De nombreux habitants de la ville sont directement ou indirectement associés aux navires et à la voile ... des marins, des armateurs, des hommes riches et pauvres enrichis par le commerce maritime et les épouses solitaires d'hommes qui suivent la mer.";;;;;;;;;;;;x
+VIET_oblivion_dream_leyawiin;Dreamt of a Mysterious Swamp;A rêvé d'un marais mystérieux;;;;;;;;;;;;x
+VIET_oblivion_dream_leyawiin_desc;"The swamp isn't so bad, once you get used to the flies. And being lost all the time.";"Le marais n'est pas si terrible, une fois que vous vous êtes habitué aux mouches. Et que vous vous êtes perdu tout le temps.";;;;;;;;;;;;x
+VIET_oblivion_dream_lake_rumare;Dreamt of Flower Meadows;A rêvé de champs de fleurs;;;;;;;;;;;;x
+VIET_oblivion_dream_lake_rumare_desc;"A forest was cleared for agriculture around the lake, but it's mostly wilderness outside of that.";"Une forêt a été défrichée pour l'agriculture autour du lac, mais ce sont surtout des étendues sauvages en dehors de cela.";;;;;;;;;;;;x
+VIET_moved_to_tears;Moved to Tears by Art;Ému aux larmes par l'art;;;;;;;;;;;;x
+VIET_moved_to_tears_desc;"When we are born we cry that we are come\nTo this great stage of fools.";"Quand nous sommes nés, nous pleurons que nous sommes venus\nVers cette grande étape d'idiots.";;;;;;;;;;;;x
+VIET_emotionless_to_art;Didn't Cry to Sad Story;N'a pas pleuré à une triste histoire;;;;;;;;;;;;x
+VIET_emotionless_to_art_desc;"To weep is to make less the depth of grief.";"Pleurer c'est faire moins la profondeur du chagrin.";;;;;;;;;;;;x
+VIET_auriels_ascension;[Root.Religion.GetHighGodName]'s Ascension;Ascension de [Root.Religion.GetHighGodName];;;;;;;;;;;;x
+VIET_auriels_ascension_desc;They say that a physical manifestation of [Root.Religion.GetHighGodName] appeared in a remote village of this province.;Ils disent qu'une manifestation physique de [Root.Religion.GetHighGodName] est apparue dans un village éloigné de cette province.;;;;;;;;;;;;x
+VIET_repressing_cult;Repressing Dangerous Cult;Réprimer le culte dangereux;;;;;;;;;;;;x
+VIET_repressing_cult_desc;A heretical cult is active here. Though it does not have many followers, the authorities fear the cult could be quite dangerous, and are cracking down on it.;Un culte hérétique est actif ici. Bien qu'il n'y ait pas beaucoup d'adeptes, les autorités craignent que le culte ne soit vraiment dangereux et le répriment.;;;;;;;;;;;;x
+VIET_Oblivion_dream_complete;Dream of Adventure;Rêve d'aventure;;;;;;;;;;;;x
+VIET_Oblivion_dream_complete_desc;This character once had a most epic dream. In it, he helped a long-lost Prince and his allies defend their home and Empire from a demonic army invading from the gates of hell itself! So vivid was this dream that to this day this character still recalls it.;Ce personnage a déjà eu un rêve des plus épiques. Il y a aidé un prince perdu depuis longtemps et ses alliés à défendre leur pays et leur Empire contre une armée démoniaque envahissant les portes de l'enfer ! Ce rêve était si vivant qu’à ce jour, ce personnage se le rappelle encore.;;;;;;;;;;;;x
+VIET_world_war_1_dream;Dreamt of a War to End All Wars;A rêvé d'une guerre pour mettre fin à toutes les guerres;;;;;;;;;;;;x
+VIET_world_war_1_dream_desc;After having such an intense and horrifying dream of the future, where men used cruel and twisted sorcery to tear each other to shreds and die by the thousands, this character has been transformed.;Après avoir eu un rêve aussi intense et horrifiant du futur, où des hommes utilisaient une sorcellerie cruelle et tordue pour se déchirer en lambeaux et mourir par milliers, ce personnage a été transformé.;;;;;;;;;;;;x
+VIET_one_time_lovemaking;One-time Lovemaking;Amour unique;;;;;;;;;;;;x
+VIET_one_time_lovemaking_desc;This character recently had a quick tryst with someone, most likely a stranger. They certainly enjoyed it, but who knows if their partner, willing or not, felt the same.;Ce personnage a récemment eu une conversation rapide avec quelqu'un, probablement un étranger. Ils ont certainement apprécié, mais qui sait si leur partenaire, volontaire ou non, a ressenti la même chose.;;;;;;;;;;;;x
+VIET_opinion_won_drinking_contest;Won Drinking Contest;A gagné un concours de beuverie;;;;;;;;;;;;x
+VIET_opinion_lost_drinking_contest;Lost Drinking Contest;A perdu un concours de beuverie;;;;;;;;;;;;x
+VIET_opinion_fruit_loop_poops_advice;Advice for Colorful Stool;Conseils pour les selles colorées;;;;;;;;;;;;x
+VIET_fruit_loops_poops;Colorful Stool;Tabouret Coloré;;;;;;;;;;;;x
+VIET_fruit_loops_poops_desc;For some reason, this character's stool is very colorful as of late. It does not seem natural, but no serious medical issues have been linked to this. Yet.;Pour une raison quelconque, le tabouret de ce personnage est très coloré ces derniers temps. Cela ne semble pas naturel, mais aucun problème médical grave n’y est associé. Encore.;;;;;;;;;;;;x
+VIET_scorpion_sting;Stung by a Scorpion;Piqué par un scorpion;;;;;;;;;;;;x
+VIET_dream_dagoth_ur;Dreamt of a Figure in a Golden Mask;A rêvé d'une figure dans un masque d'or;;;;;;;;;;;;x
+VIET_dream_dagoth_ur_desc;"Come to me, through fire and war. I welcome you.";"Venez à moi, par le feu et la guerre. Je vous souhaite la bienvenue.";;;;;;;;;;;;x
+VIET_maitreya_cult;Maitreya Cult;Culte de Maitreya;;;;;;;;;;;;x
+VIET_maitreya_cult_desc;A Buddhist monk in this province has proclaimed himself to be Maitreya, the Buddha of the next epoch. His small group of fanatical devotees are causing much disturbance and unrest.;Un moine bouddhiste de cette province s'est proclamé Maitreya, le Bouddha de la prochaine époque. Son petit groupe de passionnés fanatiques cause beaucoup de troubles et d'agitation.;;;;;;;;;;;;x
+VIET_ominous_dream;Ominous Dream;Rêve inquiétant;;;;;;;;;;;;x
+VIET_opinion_reasonable_advice;Reasonable Advice;Conseil raisonnable;;;;;;;;;;;;x
+VIET_tiring_travel;Tiring Travels;Voyages fatigants;;;;;;;;;;;;x
+VIET_tiring_travel_desc;Maybe it wasn't such a good idea to travel that far and exhaust oneself. Maybe, sometimes, one needs to just relax and not try too hard.;Ce n’était peut-être pas une si bonne idée de voyager aussi loin et de s’épuiser. Parfois, il faut peut-être simplement se détendre et ne pas essayer trop fort.;;;;;;;;;;;;x
+VIET_stared_at_sun;Stared at the Sun for Too Long;A regardé trop longtemps le soleil;;;;;;;;;;;;x
+VIET_permanent_sun_damage;Permanent Damage to Eyes from the Sun;Dommages permanents aux yeux par le soleil;;;;;;;;;;;;x
+VIET_permanent_sun_damage_desc;At some point in their life, this character was moronic enough to stare at the sun for too long, causing permanent damage to their eyes. Though he isn't blind per se, his eyesight is not as good as it used to be.;À un moment donné de leur vie, ce personnage était assez idiot pour regarder trop longtemps le soleil, causant des lésions permanentes aux yeux. Bien qu'il ne soit pas aveugle en soi, sa vue n'est plus aussi bonne qu'auparavant.;;;;;;;;;;;;x
+VIET_egyptian_sunscreen;Sunscreen Made Using Egyptian Recipe;Crème solaire faite à l'aide d'une recette égyptienne;;;;;;;;;;;;x
+VIET_egyptian_sunscreen_desc;This character currently possesses an oil made mostly from rice, jasmine, lupine, and other herbs, that is based on an old Egyptian recipe. It is meant to be applied on the skin to help prevent sunburns and tanning. After all, who would ever think a tan looked good on a person? This character is no ignorant peasant after all!;Ce personnage possède actuellement une huile principalement composée de riz, de jasmin, de lupin et d'autres herbes, basée sur une vieille recette égyptienne. Elle est destinée à être appliquée sur la peau pour aider à prévenir les coups de soleil et le bronzage. Après tout, qui aurait jamais pensé qu'un bronzage était bien sur une personne ? Ce personnage n'est pas un paysan ignorant après tout !;;;;;;;;;;;;x
 xxxxxxxxx;xxxxx;;;;;;;;;;;;;x
