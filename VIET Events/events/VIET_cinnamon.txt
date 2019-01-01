@@ -196,7 +196,6 @@ character_event = {
 #Finding Karen
 character_event = {
 	id = VIETmisc.5029
-	picture = GFX_evt_courtiers_talking
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -230,7 +229,6 @@ narrative_event = {
 #Karen
 character_event = {
 	id = VIETmisc.5031
-	picture = GFX_evt_courtiers_talking
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -263,7 +261,6 @@ narrative_event = {
 #Karen
 character_event = {
 	id = VIETmisc.5033
-	picture = GFX_evt_courtiers_talking
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -296,7 +293,6 @@ narrative_event = {
 #Karen
 character_event = {
 	id = VIETmisc.5035
-	picture = GFX_evt_courtiers_talking
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -329,7 +325,6 @@ narrative_event = {
 #Karen
 character_event = {
 	id = VIETmisc.5037
-	picture = GFX_evt_courtiers_talking
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -363,7 +358,6 @@ narrative_event = {
 #Karen
 character_event = {
 	id = VIETmisc.5039
-	picture = GFX_evt_courtiers_talking
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -396,7 +390,6 @@ narrative_event = {
 #Karen
 character_event = {
 	id = VIETmisc.5041
-	picture = GFX_evt_courtiers_talking
 
 	hide_window = yes
 	is_triggered_only = yes

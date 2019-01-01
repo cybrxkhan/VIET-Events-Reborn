@@ -84,7 +84,7 @@ on_yearly_pulse = {
 			100 = VIETmisc.2007		# Choked while drinking water	
 			100 = VIETmisc.2008 	# Drinking water is refreshing	
 			#Bitter
-			100 = VIETmisc.2011		# How do you like your coffee?
+			100 = VIETmisc.2012		# How do you like your coffee?
 			100 = VIETmisc.2013		# Bought crappy bitter olives
 			#Eggs
 			100 = VIETmisc.2016		# Cosmetics made usnig eggs

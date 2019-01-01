@@ -3390,8 +3390,6 @@ province_event = {
 	desc = "EVTDESC1000109351"
 	picture = GFX_evt_moorish_decor
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		religion_group = muslim
 		NOT = { has_province_modifier = muslim_paper_makers }

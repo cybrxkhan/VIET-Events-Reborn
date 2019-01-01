@@ -7452,7 +7452,6 @@ character_event = {
 			NOT = { trait = patient }
 			#prevent important relatives and spouses from dying
 			NOT = { is_consort = ROOT }
-			NOT = { is_main_spouse = ROOT }
 			NOT = { is_close_relative = ROOT }
 		}
 	}
@@ -7514,7 +7513,6 @@ character_event = {
 				NOT = { trait = patient }
 				#prevent important relatives and spouses from dying
 				NOT = { is_consort = ROOT }
-				NOT = { is_main_spouse = ROOT }
 				NOT = { is_close_relative = ROOT }			
 			}
 			save_event_target_as = target_VIET_choking_warning_courtier
@@ -7539,7 +7537,7 @@ character_event = {
 				}
 				chance = 50
 			}
-			character_event = { id = VIETmisc.8078 days = 30 random = 60 }
+			character_event = { id = VIETmisc.8079 days = 30 random = 60 }
 		}
 	}	
 	
@@ -7567,7 +7565,7 @@ character_event = {
 				}
 				chance = 25
 			}
-			character_event = { id = VIETmisc.8078 days = 30 random = 60 }
+			character_event = { id = VIETmisc.8079 days = 30 random = 60 }
 		}
 	}
 	

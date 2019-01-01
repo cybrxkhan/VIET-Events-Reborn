@@ -64,15 +64,13 @@ character_event = {
 	trigger = {
 		in_command = no
 		any_courtier = {
-			limit = {
-				NOT = {
-					trait = incapable
-				}
-				prisoner = no
-				age = 16
-				in_command = no
-				is_abroad = no
-			}		
+			NOT = {
+				trait = incapable
+			}
+			prisoner = no
+			age = 16
+			in_command = no
+			is_abroad = no	
 		}
 	}
 	
@@ -1025,7 +1023,7 @@ character_event = {
 		}
 		modifier = {
 				factor = 0.8
-				trait = patient
+				trait = humble
 		}
 	}
 		
@@ -1722,12 +1720,12 @@ character_event = {
 	trigger = {
 		in_command = no
 		is_abroad = no
-		OR = {
-			location = {
+		location = {
+			OR = {
 				region = world_europe
 				region = world_africa_north
 				region = world_middle_east
-				region = world_steppe_west
+				region = world_steppe_west				
 			}
 		}
 		is_nomadic = no
