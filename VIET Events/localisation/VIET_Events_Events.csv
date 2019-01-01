@@ -92,15 +92,15 @@ EVTOPTD1000109119;Fish and chips.;Poissons et frites.;;;;;;;;;;x
 EVTOPTE1000109119;Drizzle something with olive oil, now!;Arrosez quelque chose avec de l'huile d'olive, maintenant !;;;;;;;;;;x
 EVTOPTF1000109119;Did someone say baklava?;Quelqu'un a dit baklava ?;;;;;;;;;;x
 EVTOPTG1000109119;Pretzels! Pretzels for the pretzel [Root.GetTitle]!;Des bretzels ! Bretzels pour le [Root.GetTitle] !;;;;;;;;;;x
-EVTOPTH1000109119;Thick, filling momo dumplings it shall be.;;;;;;;;;;;x
-EVTOPTI1000109119;Rice and tofu with sauce looks good.;;;;;;;;;;;x
-EVTOPTJ1000109119;Inerja bread with different tsebhi stews for me.;;;;;;;;;;;x
-EVTOPTK1000109119;Let us have some okra gumbo.;;;;;;;;;;;x
-EVTOPTL1000109119;Kouign-amann, fattiest of all pastries.;;;;;;;;;;;x
-EVTOPTM1000109119;Bacon and cabbage will be my choice!;;;;;;;;;;;x
-EVTOPTN1000109119;Haggis is the obvious choice.;;;;;;;;;;;x
-EVTOPTO1000109119;Cawl soup, with only the finest leeks.;;;;;;;;;;;x
-EVTOPTP1000109119;Ghormeh sabzi! Use only the finest herbs in this stew!;;;;;;;;;;;x
+EVTOPTH1000109119;Thick, filling momo dumplings it shall be.;Épais, il remplit des boulettes de momo.;;;;;;;;;;x;x
+EVTOPTI1000109119;Rice and tofu with sauce looks good.;Le riz et le tofu en sauce ont bonne mine;;;;;;;;;;x;x
+EVTOPTJ1000109119;Inerja bread with different tsebhi stews for me.;Pain Inerja avec différents ragoûts tsebhi pour moi.;;;;;;;;;;x;x
+EVTOPTK1000109119;Let us have some okra gumbo.;Prenons du gombo à l'okra.;;;;;;;;;;x;x
+EVTOPTL1000109119;Kouign-amann, fattiest of all pastries.;Kouign-amann, la plus grosse des pâtisseries.;;;;;;;;;;x;x
+EVTOPTM1000109119;Bacon and cabbage will be my choice!;Le bacon et le chou seront mon choix !;;;;;;;;;;x;x
+EVTOPTN1000109119;Haggis is the obvious choice.;Haggis est le choix évident.;;;;;;;;;;x;x
+EVTOPTO1000109119;Cawl soup, with only the finest leeks.;Soupe de cawl, avec seulement les meilleurs poireaux.;;;;;;;;;;x;x
+EVTOPTP1000109119;Ghormeh sabzi! Use only the finest herbs in this stew!;Ghormeh sabzi ! Utilisez uniquement les meilleures herbes dans ce ragoût !;;;;;;;;;;x;x
 EVTDESC1000109120;Some people say that my temperance prevents me from properly enjoying life, and I should stop being so prudish.;Certains disent que ma tempérance m'empêche de profiter pleinement de la vie et que je devrais cesser d'être si prude.;;;;;;;;;;x
 EVTOPTA1000109120;Such people are merely fools.;Ces gens ne sont que des idiots.;;;;;;;;;;x
 EVTOPTB1000109120;Maybe they have a point.;Ils ont peut-être raison.;;;;;;;;;;x
@@ -313,7 +313,7 @@ EVTOPTB1000109319;Battling dragons.;Combattant des dragons.;;;;;;;;;;x
 EVTOPTC1000109319;Where the stuff I buy comes from.;D'où viennent les trucs que j'achète.;;;;;;;;;;x
 EVTOPTD1000109319;The heavens and afterlife.;Les cieux et l'au-delà.;;;;;;;;;;x
 EVTDESC1000109320;I’m at a feast, and there’s just so many people! I don’t think I’ve ever seen this many people before in my life, it’s overwhelming. Still, there’s so many different people around, doing so many things - I think I’m starting to learn how to properly act...;Je suis à un festin, et il y a tellement de monde ! Je n'ai jamais vu autant de gens dans ma vie, c'est accablant. Pourtant, il y a tellement de gens différents autour d'eux, qui font tant de choses - je crois que je commence à apprendre à bien agir ...;;;;;;;;;;x
-EVTOPTA1000109320;Amicalement envers les autres.;Amicalement envers les autres.;;;;;;;;;;x
+EVTOPTA1000109320;Amicalement envers les autres.;Amicalement envers les autres.;;;;;;;;;;x;x
 EVTOPTB1000109320;Sweet and nice to all.;Doucement et agréable pour tout le monde.;;;;;;;;;;x
 EVTOPTC1000109320;Rude to fools.;Grossièrement envers les imbéciles.;;;;;;;;;;x
 EVTOPTD1000109320;Quiet to avoid confrontations.;Silencieusement pour éviter les confrontations.;;;;;;;;;;x
@@ -466,7 +466,7 @@ EVTOPTB1000109358;Oh... never again...;Oh ... Plus jamais ...;;;;;;;;;;x
 EVTDESC1000109359;Your head hits the table as you pass out, while [target_VIET_drinking_contest_courtier.GetTitledFirstName] chugs down another mug of alcohol. You’ve lost the drinking game!;Votre tête touche la table au fur et à mesure que vous vous évanouissez, tandis que [target_VIET_drinking_contest_courtier.GetTitledFirstName] consomme une autre tasse d'alcool. Vous avez perdu le jeu d'alcool !;;;;;;;;;;x
 EVTOPTA1000109359;Wha... what happened? Where am I?;Que ... Qu'est ce qui se passe ? Où suis-je ?;;;;;;;;;;x
 EVTDESC1000109360;This grape juice here looks delicious! But it tastes... rather strange...;Ce jus de raisin a l'air délicieux ! Mais ça a un goût... plutôt étrange...;;;;;;;;;;x
-EVTOPTA1000109360;*Hic*;*Hic*;;;;;;;;;;x
+EVTOPTA1000109360;*Hic*;*Hic*;;;;;;;;;;x;x
 EVTDESC1000109361;My ward, [From.GetFirstName], accidentally drank a whole cup of strong wine, mistaking it for grape juice!;Mon pupille, [From.GetFirstName], a bu accidentellement une tasse entière de vin fort, le prenant par erreur pour du jus de raisin !;;;;;;;;;;x
 EVTOPTA1000109361;Punish the child for their negligence!;Punissez l'enfant pour sa négligence !;;;;;;;;;;x
 EVTOPTB1000109361;Haha, that’s great.;Haha, c'est génial.;;;;;;;;;;x
@@ -537,7 +537,7 @@ EVTOPTA1000109380;Ow! Ow!;Ouille ! Ouille !;;;;;;;;;;x
 EVTOPTB1000109380;Thankfully, I dodged it just it time. False alarm!;Heureusement, j'ai évité le moment venu. Fausse alerte !;;;;;;;;;;x
 #Turkish Events ;;;;;;;;;;;;;;x
 EVTDESC1000109381;This year’s annual Oil Wrestling tournament, or Yagli Gures tournament, in our province is drawing an unusually large amount of spectators. What a sight it is, to see such brave and mighty men compete for glory! And so, the fame of our humble land has increased as a result.;Cette année, la lutte turque, ou tournoi Yagli Gures, dans notre province attire un nombre inhabituellement élevé de spectateurs. Quel spectacle de voir des hommes si courageux et si puissants rivaliser pour la gloire ! Et ainsi, la renommée de notre humble terre s'est accrue en conséquence.;;;;;;;;;;x
-EVTOPTA1000109381;Excellent.;Excellent.;;;;;;;;;;x
+EVTOPTA1000109381;Excellent.;Excellent.;;;;;;;;;;x;x
 EVTOPTB1000109381;Why don’t we charge people extra gold coins to spectate?;Pourquoi ne pas faire payer aux gens des pièces d'or supplémentaires pour le spectateur ?;;;;;;;;;;x
 EVTDESC1000109382;While enjoying some kebab with your men, you accidentally injure your tongue with your sword. Some of your men can’t suppress their laughter at the sight of their great leader having accomplished such a harebrained feat.;En mangeant du kebab avec vos hommes, vous vous blessez accidentellement la langue avec votre épée. Certains de vos hommes ne peuvent pas réprimer leur rire à la vue de leur grand chef ayant accompli un tel exploit.;;;;;;;;;;x
 EVTOPTA1000109382;Haha... ow, my tongue.;Haha ... Aïe, ma langue.;;;;;;;;;;x
