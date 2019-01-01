@@ -48,6 +48,8 @@ VIET_oblivion_dream_book = {
 	martial = 1
 	learning = 1
 	quality = 3
+	flags = { book }
 	stacking = no
 	picture = "GFX_VIET_oblivion_dream_book"
+	slot = library
 }
