@@ -1,5 +1,7 @@
 # VIET Events Reborn
 
+## Latest Version: 2.0.1 "Dawn" (Released 1/1/19)
+
 VIET Events Reborn is the reboot of the Events module from the Vanilla Events, Immersion, and Traits mod I created over six years ago before I retired three years back. It includes many new flavor events that add immersion and a diversity of experiences to your playthroughs.
 
 I've learned much over the years I've been away from CKII, and the reboot has some new features, events, and general improvements not seen in the original such as game rules to disable the sillier events for those who don't like them, as well as performance tweaks (mostly courtesy of WTWSMS and LI mod teams). 
@@ -16,9 +18,13 @@ Please feel free to use my work in your mods, all I ask is that I and my old VIE
 ## Features
 
 - Lots of new flavor events and event chains, ranging from small talk with courtiers and eating local cuisine to epic tales about love, philosophy, and the human condition.
-- Game rules to disable sillier events for those who don't like them, with three levels to choose from: Balanced (Default), Serious (Restricted), and Silly (Full).
-- New artifacts to collect and nicknames to acquire from these events.
-- Plenty of new event pictures, including cultural and religious variants of vanilla event pictures!
+- Game rules to disable sillier events for those who don't like them, with three levels to choose from: Balanced (Default), Serious (Restricted), and All Events (Full)
+- New artifacts to collect and nicknames to acquire from these events
+- Plenty of new event pictures, including cultural and religious variants of vanilla event pictures
+- Performance tweaks and miscellaneous improvements over the old VIET Events (many courtesy of the WTWSMS, LI, and Hide Your Jewelry mod teams)
+- Compatibility with almost everything since it doesn’t touch any vanilla files
+- NOT ACHIEVEMENT COMPATIBLE!
+
 
 
 ## Manual Installation Steps
