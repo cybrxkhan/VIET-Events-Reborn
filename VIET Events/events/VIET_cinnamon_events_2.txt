@@ -7,7 +7,7 @@
 #
 # List of event chains:
 # Traveler Recounts Chinese Adventures 9010-9014
-# Character dreams of playing Elder Scrolls Oblivion 9015-9028
+# Dream of Oblivion 9015-9028
 #
 ########################################################
 
@@ -231,7 +231,7 @@ narrative_event = {
 
 ############################################################################################################
 # 
-# OBLIVION
+# DREAM OF OBLIVION
 # Basically the plot of Oblivion's tutorial.
 # Character has a dream that is suspiciously similar to Elder Scroll Oblivion's storyline.
 # 
