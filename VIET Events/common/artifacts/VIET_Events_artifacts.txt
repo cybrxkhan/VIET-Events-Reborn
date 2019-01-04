@@ -54,3 +54,11 @@ VIET_oblivion_dream_book = {
 	picture = "GFX_VIET_oblivion_dream_book"
 	slot = library
 }
+VIET_star_chart = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.04
+	learning = 1
+	quality = 2
+	#stacking = no
+	picture = "GFX_VIET_star_chart"
+}

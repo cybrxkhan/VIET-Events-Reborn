@@ -55,4 +55,12 @@ spriteTypes = {
 		name = "GFX_VIET_oblivion_dream_book_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_oblivion_dream_book_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_star_chart"
+		texturefile = "gfx\\interface\\artifacts\\VIET_star_chart.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_star_chart_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_star_chart_small.dds"
+	}
 }
