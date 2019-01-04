@@ -2341,47 +2341,47 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_evt_village_at_night_arabic"
-		texturefile = "gfx\\event_pictures\\nighttown_arabic.tga"
+		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_village_at_night_iranian"
-		texturefile = "gfx\\event_pictures\\nighttown_arabic.tga"
+		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_village_at_night_north_african"
-		texturefile = "gfx\\event_pictures\\nighttown_arabic.tga"
+		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_village_at_night_east_african"
-		texturefile = "gfx\\event_pictures\\nighttown_arabic.tga"
+		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_village_at_night_west_african"
-		texturefile = "gfx\\event_pictures\\nighttown_arabic.tga"
+		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_village_at_night_east_african"
-		texturefile = "gfx\\event_pictures\\nighttown_arabic.tga"
+		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_village_at_night_central_african"
-		texturefile = "gfx\\event_pictures\\nighttown_arabic.tga"
+		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_village_at_night_serindian"
-		texturefile = "gfx\\event_pictures\\nighttown_arabic.tga"
+		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_village_at_night_turkish"
-		texturefile = "gfx\\event_pictures\\nighttown_arabic.tga"
+		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
 		allwaystransparent = yes
 	}
 }
