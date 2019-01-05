@@ -400,38 +400,50 @@ VIETmisc.8101.d;Execute them. No mercy.;;;;;;;;;;;;;x
 VIETmisc.8102.desc;It has recently come to my attention that a local astronomer has been hard at work developing some star charts to map the heavens. He has graciously given me one of them as a gift.;;;;;;;;;;;x
 VIETmisc.8102.a;How kind!;;;;;;;;;;;;;x
 VIETmisc.8102.b;He can keep it for himself.;;;;;;;;;;;;;x
-VIETmisc.8103.desc;The wind is howling loudly tonight, keeping me awake. It’s scary!;;;;;;;;;;;x
+VIETmisc.8103.desc;The wind is howling loudly tonight, keeping me awake. It's scary!;;;;;;;;;;;x
 VIETmisc.8103.a;Hide behind my covers.;;;;;;;;;;;;;x
-VIETmisc.8103.b;It’s just noise!;;;;;;;;;;;;;x
-VIETmisc.8103.c;Is that [Root.Religion.GetRandomEvilGodName]? I’ll pray to [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
+VIETmisc.8103.b;It's just noise!;;;;;;;;;;;;;x
+VIETmisc.8103.c;Is that [Root.Religion.GetRandomEvilGodName]? I'll pray to [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
 VIETmisc.8103.d;I want to see what it looks like outside!;;;;;;;;;;;;;x
 VIETmisc.8104.desc;I wake up in the middle of the night, feeling hungry. Perhaps I should go get a quick midnight snack?;;;;;;;;;;;x
-VIETmisc.8104.a;I’ll go get it myself;;;;;;;;;;;;;x
+VIETmisc.8104.a;I'll go get it myself;;;;;;;;;;;;;x
 VIETmisc.8104.b;I will call a servant;;;;;;;;;;;;;x
 VIETmisc.8104.c;Maybe I should not;;;;;;;;;;;;;x
 VIETmisc.8104.d;I want to watch the stars;;;;;;;;;;;;;x
 VIETmisc.8105.desc;Because it is so dark at night, while trying to get into bed you accidentally knocked some things over, waking up a few servants, who scurry outside, wondering what all the commotion is about.;;;;;;;;;;;x
 VIETmisc.8105.a;Now everyone knows what a clumsy oaf I am!;;;;;;;;;;;;;x
-VIETmisc.8106.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8106.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8107.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8107.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8108.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8108.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8109.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8109.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8110.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8110.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8111.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8111.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8112.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8112.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8113.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8113.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8114.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8114.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8115.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8115.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8106.desc;Over the past few months, unexplained apparitions have appeared in several areas in [Root.GetName] after sunset, frightening the locals. Suddenly, in the past week or so, however, these ghostly figures have disappeared. Ironically, this frightens the people living here even more, as no one knows if this is an omen of something.;;;;;;;;;;;x
+VIETmisc.8106.a;Dark and troubling news.;;;;;;;;;;;;;x
+VIETmisc.8106.b;I don't find this scary at all.;;;;;;;;;;;;;x
+VIETmisc.8106.c;The so-called ghosts are gone now, we should be happy!;;;;;;;;;;;;;x
+VIETmisc.8107.desc;There have been reports of some sort of demoness, a succubus, active in parts of [Root.GetName]. According to a number of men, and even a few women, this hauntingly beautiful creature attacks them at night by paralyzing them before fornicating with them in the most pleasurable yet sinful ways imaginable. The fact that most of the victims describe the demoness' similarly suggests this might not be a mere bout of hysteria.;;;;;;;;;;;x
+VIETmisc.8107.a;Disturbing, but it's probably nothing, I'm sure of it.;;;;;;;;;;;;;x
+VIETmisc.8107.b;Send in clergy and scholars to help ward off this evil.;;;;;;;;;;;;;x
+VIETmisc.8107.c;I wish I could experience such forbidden pleasures!;;;;;;;;;;;;;x
+VIETmisc.8107.d;It's just a case of many common sleep terrors happening coincidentally.;;;;;;;;;;;;;x
+VIETmisc.8108.desc;I lie down in bed and pull my blanket over me and it brushes my chin. I wonder to myself whether I should have the blanket over my chin, or under it. I try both, switching between one or another, but neither feels proper. Eventually I settle on...;;;;;;;;;;;x
+VIETmisc.8108.a;Over my chin.;;;;;;;;;;;;;x
+VIETmisc.8108.b;Under my chin.;;;;;;;;;;;;;x
+VIETmisc.8109.desc;You were eating a small snack before going to bed, but did not want others to notice you, so you ate it in the darkness. However, this turned out to be a mistake, as you could not see what you were eating. Something must've been lodged in that food, for you began to choke...;;;;;;;;;;;x
+VIETmisc.8109.a;AGGGKKHHGGHHHH -;;;;;;;;;;;;;x
+VIETmisc.8110.desc;Before I go to bed I gaze at the night sky, and can make out a few of the constellations. How lovely they are, artworks dancing in the sky!;;;;;;;;;;;x
+VIETmisc.8110.a;And over there is the Big Dipper...;;;;;;;;;;;;;x
+VIETmisc.8111.desc;For the last week or two, I’ve found myself unable to fall asleep quickly. A few of my courtiers said there is a local herbalist who currently has a large stock of the herb valerian, which she has successfully used to treat several cases of insomnia. Drinking this valerian tea may be just what I need.;;;;;;;;;;;x
+VIETmisc.8111.a;Yes, I will purchase some.;;;;;;;;;;;;;x
+VIETmisc.8111.b;No! I’m fine!;;;;;;;;;;;;;x
+VIETmisc.8112.desc;Lately, several incidents of grave robbing have been reported in a nearby cemetery. The grave robbers strike at night, when few are awake, and no one has been able to catch them yet. Perhaps if you were to dedicate a few soldiers to patrol the location, the criminals could be caught eventually.;;;;;;;;;;;x
+VIETmisc.8112.a;Let’s do that. This travesty cannot continue.;;;;;;;;;;;;;x
+VIETmisc.8112.b;No, it would be a waste of resources.;;;;;;;;;;;;;x
+VIETmisc.8113.tooltip;\n\nThese wrongdoers will face justice soon!;;;;;;;;;;;x
+VIETmisc.8113.title;Grave Robbers Caught;;;;;;;;;;;x
+VIETmisc.8113.desc;Your trusty guards caught the grave robbers after only a few nights, as the robbers made a mistake - they dug what they thought was a grave, but it turned out to be a cache of ancient goods! They made a lot of noise, knocking down several ancient clay pots, and alerting your men.\n\nAfter you punished the criminals accordingly and awarded your men for their efforts, you now have to decide what to do with the cache of ancient goods. Most of them are worn out or broken, and will only be of interest to antiquarians and scholars, but one object remains in good condition: a lovely ancient pot, with intricate designs and decorations.;;;;;;;;;;;x
+VIETmisc.8113.a;This would make a nice decoration, wouldn’t it?;;;;;;;;;;;;;x
+VIETmisc.8114.desc;One of my young servants has always been a daredevil. A friend challenged him to swim in a dangerous part of the beach at night. For once, my servant hesitated, but his friend told him that to be afraid of the danger meant he was a weakling with no ambitions in life, who was just content to sit around. Of course, he did the dare, and drowned as none could see him in the darkness.;;;;;;;;;;;x
+VIETmisc.8114.a;This is a tragedy.;;;;;;;;;;;;;x
+VIETmisc.8114.b;Ha! Weakling!;;;;;;;;;;;;;x
+VIETmisc.8114.c;Imprison his "friend"!;;;;;;;;;;;;;x
+VIETmisc.8115.desc;You decided to see the beach at night out of curiosity, and was rewarded with a wonderful sight: the lovely moon, dancing around the stars, reflected on the ocean waves.;;;;;;;;;;;x
+VIETmisc.8115.a;I’m glad I came here!;;;;;;;;;;;;;x
 VIETmisc.8116.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8116.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8117.desc;xxxxx;;;;;;;;;;;x
