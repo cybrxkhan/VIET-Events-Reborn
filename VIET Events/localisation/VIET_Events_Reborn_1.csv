@@ -354,96 +354,96 @@ VIETmisc.8088.b;Let's try to haggle a bit.;Essayons de marchander un peu.;;;;;;;
 VIETmisc.8088.c;I think this is a waste of money.;Je pense que c'est un gaspillage d'argent.;;;;;;;;;;;;x
 VIETmisc.8089.desc;One of your courtiers was moronic enough to stare at the sun for too long.;Un de vos courtisans était assez débile pour regarder le soleil trop longtemps.;;;;;;;;;;x;x
 VIETmisc.8089.a;Are you kidding me?;Vous plaisantez j'espère ?;;;;;;;;;;;;x
-VIETmisc.8090.desc;While I was sitting still, I thought I saw my shadow move on its own, but I must've been seeing things.;;;;;;;;;;;x
-VIETmisc.8090.a;I was probably seeing things. Right?;;;;;;;;;;;;;x
-VIETmisc.8090.b;No! I saw something! Don't you see it?;;;;;;;;;;;;;x
-VIETmisc.8091.desc;I am holding court one day and feeling extremely bored, so I start to watch the shadows of my courtiers as they talk or move around. It is interesting how these black shades move back and forth - or at least, much more interesting than whatever is going on right now!;;;;;;;;;;;x
-VIETmisc.8091.a;Sorry, I missed that. Can you repeat what you just said?;;;;;;;;;;;;;x
-VIETmisc.8091.b;I can't let myself get distracted from more important matters!;;;;;;;;;;;;;x
-VIETmisc.8092.desc;You are inspecting some soldiers while they are drilling. Standing under the sun is very exhausting, and you feel as if you want to faint. You consider stepping back and sitting under the shade. On the other hand, that would make you look weak and unwilling to share the soldiers' burdens.;;;;;;;;;;;x
-VIETmisc.8092.a;I am just so tired. I'll rest in the shade.;;;;;;;;;;;;;x
-VIETmisc.8092.b;No! I must endure!;;;;;;;;;;;;;x
-VIETmisc.8093.desc;A village in [Root.GetName] has a giant tree that was planted many generations ago to provide shade for the locals. It has been something of a popular site for people to visit, and some in your court suggest you could donate some funds to assist in caring for the tree.;;;;;;;;;;;x
-VIETmisc.8093.a;A good idea!;;;;;;;;;;;;;x
-VIETmisc.8093.b;There is no need to get involved.;;;;;;;;;;;;;x
-VIETmisc.8094.desc;Locals from [Root.GetName] have reported the most unusual and concerning incidents. Several sources have claimed that they have seen otherworldly shadows, vaguely in the shape of people, going around attempting to kill unsuspecting innocents. The common thread here is that the shadows tend to appear at night as people are falling asleep. Reputable scholars and clergy believe this is nothing but hysteria.;;;;;;;;;;;x
-VIETmisc.8094.a;Troubling times we live in.;;;;;;;;;;;;;x
-VIETmisc.8094.b;Send in clergy to pray. [Root.Religion.GetHighGodName] preserve us!;;;;;;;;;;;;;x
-VIETmisc.8094.c;These commoners are making things up!;;;;;;;;;;;;;x
-VIETmisc.8094.d;The scholars are right - sleep terrors are nothing new.;;;;;;;;;;;;;x
-VIETmisc.8095.desc;I was walking along the main street of a local town when I saw a dark shadow quickly move towards me. I froze in place, unsure of how to respond, only to realize a moment later it was just an ordinary townsperson wearing an oversized black cloak. They disappeared into the crowd and I continued on my way.;;;;;;;;;;;x
-VIETmisc.8095.a;Whew! Just a false alarm.;;;;;;;;;;;;;x
-VIETmisc.8095.b;What a very suspicious person.;;;;;;;;;;;;;x
-VIETmisc.8096.title;Shadow of the Colossus;;;;;;;;;;;x
-VIETmisc.8096.desc;While traveling through a part of my realm, I pass by a large rock formation. A local nobleman accompanying me says that according to the legends told by the inhabitants of this region, a giant once terrorized this region until [Root.Religion.GetRandomGodName] put an end to his tyranny by turning him into stone. They call this place the "Shadow of the Colossus.";;;;;;;;;;;x
-VIETmisc.8096.a;Huh. Now that is an interesting tale.;;;;;;;;;;;;;x
-VIETmisc.8097.desc;I wake up in the middle of the night, but feel something heavy on my chest, and it is hard for me to breathe. I open my eyes slightly, and see what I think what is a shadow in a vaguely human shape on top of me. I try to scream, yet I find I cannot scream at all! Moments later, I wake up.;;;;;;;;;;;x
-VIETmisc.8097.a;It was just a bad dream.;;;;;;;;;;;;;x
-VIETmisc.8097.b;I say a prayer to [Root.Religion.GetRandomGodName].;;;;;;;;;;;;;x
-VIETmisc.8097.c;No... no... what if that shadow returns?;;;;;;;;;;;;;x
-VIETmisc.8098.desc;The other day, I found this secret trail nearby that led to a little lake. It was surrounded by many trees and one could easily fall asleep under their shade on one of the rocks.;;;;;;;;;;;x
-VIETmisc.8098.a;I should go here more often by myself to relax.;;;;;;;;;;;;;x
-VIETmisc.8098.b;I want to invite people here - it's a good place to socialize!;;;;;;;;;;;;;x
-VIETmisc.8098.c;This is a great spot to spend with my lover privately.;;;;;;;;;;;;;x
-VIETmisc.8099.desc;Today is unusually hot, but I have some time off. I'd like to go down to the beach to cool myself in the waters and relax under the shade of the palm trees. Perhaps I can even bring someone with me!;;;;;;;;;;;x
-VIETmisc.8099.a;I'll go by myself with a few guards.;;;;;;;;;;;;;x
-VIETmisc.8099.b;Bring my family with me.;;;;;;;;;;;;;x
-VIETmisc.8099.c;Perhaps I can get to know one of my courtiers better.;;;;;;;;;;;;;x
-VIETmisc.8099.d;Why not go with my lover?;;;;;;;;;;;;;x
-VIETmisc.8100.desc;I awoke late at night, and had to go relieve myself. As I walked back from the chamber pot, it was very dark, and I could not see where I was going. I tripped and fell down, making much noise. Several guards on night duty rushed to my side, but thankfully I did not suffer any major injuries.;;;;;;;;;;;x
-VIETmisc.8100.a;Might need a few stitches though.;;;;;;;;;;;;;x
-VIETmisc.8101.desc;In the past few months, a town in [Root.GetName] suffered from quite a scare. Locals heard strange, inhuman sounds at night, and feared [Root.Religion.GetRandomEvilGodName] was up to something. Prayers were offered, officials increased nightly patrols, and so on. However, by chance, it has been discovered the source of all this were several crafty youths who, with nothing better to do, pranked the town at everyone else's expense. The boys are under arrest and their fate is now in your hands.;;;;;;;;;;;x
-VIETmisc.8101.a;No harm done, let them go.;;;;;;;;;;;;;x
-VIETmisc.8101.b;They will be subject to public humiliation.;;;;;;;;;;;;;x
-VIETmisc.8101.c;Imprison them for the crime.;;;;;;;;;;;;;x
-VIETmisc.8101.d;Execute them. No mercy.;;;;;;;;;;;;;x
-VIETmisc.8102.desc;It has recently come to my attention that a local astronomer has been hard at work developing some star charts to map the heavens. He has graciously given me one of them as a gift.;;;;;;;;;;;x
-VIETmisc.8102.a;How kind!;;;;;;;;;;;;;x
-VIETmisc.8102.b;He can keep it for himself.;;;;;;;;;;;;;x
-VIETmisc.8103.desc;The wind is howling loudly tonight, keeping me awake. It's scary!;;;;;;;;;;;x
-VIETmisc.8103.a;Hide behind my covers.;;;;;;;;;;;;;x
-VIETmisc.8103.b;It's just noise!;;;;;;;;;;;;;x
-VIETmisc.8103.c;Is that [Root.Religion.GetRandomEvilGodName]? I'll pray to [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
-VIETmisc.8103.d;I want to see what it looks like outside!;;;;;;;;;;;;;x
-VIETmisc.8104.desc;I wake up in the middle of the night, feeling hungry. Perhaps I should go get a quick midnight snack?;;;;;;;;;;;x
-VIETmisc.8104.a;I'll go get it myself;;;;;;;;;;;;;x
-VIETmisc.8104.b;I will call a servant;;;;;;;;;;;;;x
-VIETmisc.8104.c;Maybe I should not;;;;;;;;;;;;;x
-VIETmisc.8104.d;I want to watch the stars;;;;;;;;;;;;;x
-VIETmisc.8105.desc;Because it is so dark at night, while trying to get into bed you accidentally knocked some things over, waking up a few servants, who scurry outside, wondering what all the commotion is about.;;;;;;;;;;;x
-VIETmisc.8105.a;Now everyone knows what a clumsy oaf I am!;;;;;;;;;;;;;x
-VIETmisc.8106.desc;Over the past few months, unexplained apparitions have appeared in several areas in [Root.GetName] after sunset, frightening the locals. Suddenly, in the past week or so, however, these ghostly figures have disappeared. Ironically, this frightens the people living here even more, as no one knows if this is an omen of something.;;;;;;;;;;;x
-VIETmisc.8106.a;Dark and troubling news.;;;;;;;;;;;;;x
-VIETmisc.8106.b;I don't find this scary at all.;;;;;;;;;;;;;x
-VIETmisc.8106.c;The so-called ghosts are gone now, we should be happy!;;;;;;;;;;;;;x
-VIETmisc.8107.desc;There have been reports of some sort of demoness, a succubus, active in parts of [Root.GetName]. According to a number of men, and even a few women, this hauntingly beautiful creature attacks them at night by paralyzing them before fornicating with them in the most pleasurable yet sinful ways imaginable. The fact that most of the victims describe the demoness' similarly suggests this might not be a mere bout of hysteria.;;;;;;;;;;;x
-VIETmisc.8107.a;Disturbing, but it's probably nothing, I'm sure of it.;;;;;;;;;;;;;x
-VIETmisc.8107.b;Send in clergy and scholars to help ward off this evil.;;;;;;;;;;;;;x
-VIETmisc.8107.c;I wish I could experience such forbidden pleasures!;;;;;;;;;;;;;x
-VIETmisc.8107.d;It's just a case of many common sleep terrors happening coincidentally.;;;;;;;;;;;;;x
-VIETmisc.8108.desc;I lie down in bed and pull my blanket over me and it brushes my chin. I wonder to myself whether I should have the blanket over my chin, or under it. I try both, switching between one or another, but neither feels proper. Eventually I settle on...;;;;;;;;;;;x
-VIETmisc.8108.a;Over my chin.;;;;;;;;;;;;;x
-VIETmisc.8108.b;Under my chin.;;;;;;;;;;;;;x
-VIETmisc.8109.desc;You were eating a small snack before going to bed, but did not want others to notice you, so you ate it in the darkness. However, this turned out to be a mistake, as you could not see what you were eating. Something must've been lodged in that food, for you began to choke...;;;;;;;;;;;x
-VIETmisc.8109.a;AGGGKKHHGGHHHH -;;;;;;;;;;;;;x
-VIETmisc.8110.desc;Before I go to bed I gaze at the night sky, and can make out a few of the constellations. How lovely they are, artworks dancing in the sky!;;;;;;;;;;;x
-VIETmisc.8110.a;And over there is the Big Dipper...;;;;;;;;;;;;;x
-VIETmisc.8111.desc;For the last week or two, I’ve found myself unable to fall asleep quickly. A few of my courtiers said there is a local herbalist who currently has a large stock of the herb valerian, which she has successfully used to treat several cases of insomnia. Drinking this valerian tea may be just what I need.;;;;;;;;;;;x
-VIETmisc.8111.a;Yes, I will purchase some.;;;;;;;;;;;;;x
-VIETmisc.8111.b;No! I’m fine!;;;;;;;;;;;;;x
-VIETmisc.8112.desc;Lately, several incidents of grave robbing have been reported in a nearby cemetery. The grave robbers strike at night, when few are awake, and no one has been able to catch them yet. Perhaps if you were to dedicate a few soldiers to patrol the location, the criminals could be caught eventually.;;;;;;;;;;;x
-VIETmisc.8112.a;Let’s do that. This travesty cannot continue.;;;;;;;;;;;;;x
-VIETmisc.8112.b;No, it would be a waste of resources.;;;;;;;;;;;;;x
-VIETmisc.8113.tooltip;\n\nThese wrongdoers will face justice soon!;;;;;;;;;;;x
-VIETmisc.8113.title;Grave Robbers Caught;;;;;;;;;;;x
-VIETmisc.8113.desc;Your trusty guards caught the grave robbers after only a few nights, as the robbers made a mistake - they dug what they thought was a grave, but it turned out to be a cache of ancient goods! They made a lot of noise, knocking down several ancient clay pots, and alerting your men.\n\nAfter you punished the criminals accordingly and awarded your men for their efforts, you now have to decide what to do with the cache of ancient goods. Most of them are worn out or broken, and will only be of interest to antiquarians and scholars, but one object remains in good condition: a lovely ancient pot, with intricate designs and decorations.;;;;;;;;;;;x
-VIETmisc.8113.a;This would make a nice decoration, wouldn’t it?;;;;;;;;;;;;;x
-VIETmisc.8114.desc;One of my young servants has always been a daredevil. A friend challenged him to swim in a dangerous part of the beach at night. For once, my servant hesitated, but his friend told him that to be afraid of the danger meant he was a weakling with no ambitions in life, who was just content to sit around. Of course, he did the dare, and drowned as none could see him in the darkness.;;;;;;;;;;;x
-VIETmisc.8114.a;This is a tragedy.;;;;;;;;;;;;;x
-VIETmisc.8114.b;Ha! Weakling!;;;;;;;;;;;;;x
-VIETmisc.8114.c;Imprison his "friend"!;;;;;;;;;;;;;x
-VIETmisc.8115.desc;You decided to see the beach at night out of curiosity, and was rewarded with a wonderful sight: the lovely moon, dancing around the stars, reflected on the ocean waves.;;;;;;;;;;;x
-VIETmisc.8115.a;I’m glad I came here!;;;;;;;;;;;;;x
+VIETmisc.8090.desc;While I was sitting still, I thought I saw my shadow move on its own, but I must've been seeing things.;Alors que je restais immobile, je pensais avoir vu mon ombre bouger toute seule, mais je devais voir des choses.;;;;;;;;;;x;x
+VIETmisc.8090.a;I was probably seeing things. Right?;Je voyais probablement des choses. Droite ?;;;;;;;;;;;;x
+VIETmisc.8090.b;No! I saw something! Don't you see it?;Non ! J'ai vu quelque chose ! Tu ne le vois pas ?;;;;;;;;;;;;x
+VIETmisc.8091.desc;I am holding court one day and feeling extremely bored, so I start to watch the shadows of my courtiers as they talk or move around. It is interesting how these black shades move back and forth - or at least, much more interesting than whatever is going on right now!;Un jour, j'étais à la court et je me suis extrêmement ennuyé. Je commence donc à regarder les ombres de mes courtisans qui parlent ou se déplacent. Il est intéressant de voir comment ces nuances de noir vont et viennent - ou du moins, beaucoup plus intéressant que tout ce qui se passe en ce moment !;;;;;;;;;;x;x
+VIETmisc.8091.a;Sorry, I missed that. Can you repeat what you just said?;Désolé, j'ai raté ça. Pouvez-vous répéter ce que vous venez de dire ?;;;;;;;;;;;;x
+VIETmisc.8091.b;I can't let myself get distracted from more important matters!;Je ne peux pas me laisser distraire par des questions plus importantes !;;;;;;;;;;;;x
+VIETmisc.8092.desc;You are inspecting some soldiers while they are drilling. Standing under the sun is very exhausting, and you feel as if you want to faint. You consider stepping back and sitting under the shade. On the other hand, that would make you look weak and unwilling to share the soldiers' burdens.;Vous inspectez des soldats pendant qu'ils forent. Rester sous le soleil est très épuisant et on a l'impression de vouloir s'évanouir. Vous envisagez de reculer et de vous asseoir à l'ombre. D'un autre côté, vous auriez l'air faible et ne voudriez pas partager le fardeau des soldats.;;;;;;;;;;x;x
+VIETmisc.8092.a;I am just so tired. I'll rest in the shade.;Je suis tellement fatigué. Je vais me reposer à l'ombre.;;;;;;;;;;;;x
+VIETmisc.8092.b;No! I must endure!;Non ! Je dois supporter !;;;;;;;;;;;;x
+VIETmisc.8093.desc;A village in [Root.GetName] has a giant tree that was planted many generations ago to provide shade for the locals. It has been something of a popular site for people to visit, and some in your court suggest you could donate some funds to assist in caring for the tree.;Un village de [Root.GetName] possède un arbre géant planté il y a plusieurs générations pour fournir de l'ombre aux habitants. Il s’agit d’un site fréquenté par les visiteurs, et certains membres de votre cour vous suggèrent de donner des fonds pour aider à prendre soin de l’arbre.;;;;;;;;;;x;x
+VIETmisc.8093.a;A good idea!;Une bonne idée !;;;;;;;;;;;;x
+VIETmisc.8093.b;There is no need to get involved.;Il n'y a pas besoin de s'impliquer.;;;;;;;;;;;;x
+VIETmisc.8094.desc;Locals from [Root.GetName] have reported the most unusual and concerning incidents. Several sources have claimed that they have seen otherworldly shadows, vaguely in the shape of people, going around attempting to kill unsuspecting innocents. The common thread here is that the shadows tend to appear at night as people are falling asleep. Reputable scholars and clergy believe this is nothing but hysteria.;Les habitants de [Root.GetName] ont signalé des incidents des plus inhabituels et des plus préoccupants. Plusieurs sources ont affirmé avoir vu des ombres d'un autre monde, vaguement en forme de personnes, tenter de tuer des innocents sans méfiance. Le fil conducteur ici est que les ombres ont tendance à apparaître la nuit lorsque les gens s’endorment. Les érudits et le clergé réputés croient que ce n’est rien que de l’hystérie.;;;;;;;;;;x;x
+VIETmisc.8094.a;Troubling times we live in.;Nous vivons des temps troublants.;;;;;;;;;;;;x
+VIETmisc.8094.b;Send in clergy to pray. [Root.Religion.GetHighGodName] preserve us!;Envoyez le clergé pour prier. [Root.Religion.GetHighGodName] préserve-nous!;;;;;;;;;;;;x
+VIETmisc.8094.c;These commoners are making things up!;Ces roturiers inventent des choses !;;;;;;;;;;;;x
+VIETmisc.8094.d;The scholars are right - sleep terrors are nothing new.;Les érudits ont raison : les terreurs nocturnes ne sont pas nouvelles.;;;;;;;;;;;;x
+VIETmisc.8095.desc;I was walking along the main street of a local town when I saw a dark shadow quickly move towards me. I froze in place, unsure of how to respond, only to realize a moment later it was just an ordinary townsperson wearing an oversized black cloak. They disappeared into the crowd and I continued on my way.;Je marchais dans la rue principale d'une ville locale quand j'ai vu une ombre sombre se diriger rapidement vers moi. Je me figeai sur place, ne sachant pas comment réagir, pour finalement me rendre compte qu'il ne s'agissait que d'un simple citoyen vêtu d'un manteau noir surdimensionné. Il a disparu dans la foule et j'ai continué mon chemin.;;;;;;;;;;x;x
+VIETmisc.8095.a;Whew! Just a false alarm.;Ouf ! Juste une fausse alerte.;;;;;;;;;;;;x
+VIETmisc.8095.b;What a very suspicious person.;Quelle personne très méfiante.;;;;;;;;;;;;x
+VIETmisc.8096.title;Shadow of the Colossus;L'ombre du colosse;;;;;;;;;;x;x
+VIETmisc.8096.desc;While traveling through a part of my realm, I pass by a large rock formation. A local nobleman accompanying me says that according to the legends told by the inhabitants of this region, a giant once terrorized this region until [Root.Religion.GetRandomGodName] put an end to his tyranny by turning him into stone. They call this place the "Shadow of the Colossus.";En parcourant une partie de mon royaume, je passe devant une grande formation rocheuse. Un noble local qui m'accompagne raconte que, selon la légende racontée par les habitants de cette région, un géant aurait terrorisé cette région jusqu'à ce que [Root.Religion.GetRandomGodName] mette fin à sa tyrannie en le transformant en pierre. Ils appellent cet endroit "l'ombre du colosse".;;;;;;;;;;x;x
+VIETmisc.8096.a;Huh. Now that is an interesting tale.;Huh. Maintenant, c'est une histoire intéressante.;;;;;;;;;;;;x
+VIETmisc.8097.desc;I wake up in the middle of the night, but feel something heavy on my chest, and it is hard for me to breathe. I open my eyes slightly, and see what I think what is a shadow in a vaguely human shape on top of me. I try to scream, yet I find I cannot scream at all! Moments later, I wake up.;Je me réveille au milieu de la nuit, mais je sens quelque chose de lourd sur ma poitrine et il m'est difficile de respirer. J'ouvre légèrement les yeux et vois ce que je pense être une ombre au-dessus de moi, vaguement humaine. J'essaie de crier, mais je constate que je ne peux pas crier du tout ! Quelques instants plus tard, je me réveille.;;;;;;;;;;x;x
+VIETmisc.8097.a;It was just a bad dream.;C'était juste un mauvais rêve.;;;;;;;;;;;;x
+VIETmisc.8097.b;I say a prayer to [Root.Religion.GetRandomGodName].;Je dis une prière à [Root.Religion.GetRandomGodName].;;;;;;;;;;;;x
+VIETmisc.8097.c;No... no... what if that shadow returns?;Non ... non ... et si cette ombre revient ?;;;;;;;;;;;;x
+VIETmisc.8098.desc;The other day, I found this secret trail nearby that led to a little lake. It was surrounded by many trees and one could easily fall asleep under their shade on one of the rocks.;L'autre jour, j'ai trouvé ce sentier secret à proximité qui menait à un petit lac. Il était entouré de nombreux arbres et on pouvait facilement s’endormir à l’ombre sur un des rochers.;;;;;;;;;;x;x
+VIETmisc.8098.a;I should go here more often by myself to relax.;Je devrais aller ici plus souvent seul pour me détendre.;;;;;;;;;;;;x
+VIETmisc.8098.b;I want to invite people here - it's a good place to socialize!;Je veux inviter des gens ici - c'est un bon endroit pour socialiser !;;;;;;;;;;;;x
+VIETmisc.8098.c;This is a great spot to spend with my lover privately.;C'est un super endroit à passer avec mon amour en privé.;;;;;;;;;;;;x
+VIETmisc.8099.desc;Today is unusually hot, but I have some time off. I'd like to go down to the beach to cool myself in the waters and relax under the shade of the palm trees. Perhaps I can even bring someone with me!;Il fait exceptionnellement chaud aujourd'hui, mais j'ai du temps libre. J'aimerais descendre à la plage pour me rafraîchir dans les eaux et me détendre à l'ombre des palmiers. Peut-être que je peux même amener quelqu'un avec moi !;;;;;;;;;;x;x
+VIETmisc.8099.a;I'll go by myself with a few guards.;Je vais y aller seul avec quelques gardes.;;;;;;;;;;;;x
+VIETmisc.8099.b;Bring my family with me.;Amenez ma famille avec moi.;;;;;;;;;;;;x
+VIETmisc.8099.c;Perhaps I can get to know one of my courtiers better.;Je pourrais peut-être mieux connaître l'un de mes courtisans.;;;;;;;;;;;;x
+VIETmisc.8099.d;Why not go with my lover?;Pourquoi ne pas aller avec mon amour ?;;;;;;;;;;;;x
+VIETmisc.8100.desc;I awoke late at night, and had to go relieve myself. As I walked back from the chamber pot, it was very dark, and I could not see where I was going. I tripped and fell down, making much noise. Several guards on night duty rushed to my side, but thankfully I did not suffer any major injuries.;Je me suis réveillé tard dans la nuit et j'ai dû aller me soulager. En revenant du pot de chambre, il faisait très noir et je ne pouvais pas voir où j'allais. J'ai trébuché et je suis tombé en faisant beaucoup de bruit. Plusieurs gardes en service de nuit se sont précipités à mes côtés, mais heureusement, je n'ai subi aucune blessure majeure.;;;;;;;;;;x;x
+VIETmisc.8100.a;Might need a few stitches though.;Peut-être besoin de quelques points de suture.;;;;;;;;;;;;x
+VIETmisc.8101.desc;In the past few months, a town in [Root.GetName] suffered from quite a scare. Locals heard strange, inhuman sounds at night, and feared [Root.Religion.GetRandomEvilGodName] was up to something. Prayers were offered, officials increased nightly patrols, and so on. However, by chance, it has been discovered the source of all this were several crafty youths who, with nothing better to do, pranked the town at everyone else's expense. The boys are under arrest and their fate is now in your hands.;Au cours des derniers mois, une ville de [Root.GetName] a eu très peur. Les habitants ont entendu des sons étranges et inhumains la nuit et craignaient que [Root.Religion.GetRandomEvilGodName] prépare quelque chose. Des prières ont été offertes, les officiels ont augmenté le nombre de patrouilles nocturnes, etc. Cependant, par hasard, il a été découvert que de nombreux jeunes gens rusés étaient la source de tout cela, sans rien faire de mieux, se moquant de la ville aux dépens des autres. Les garçons sont en état d'arrestation et leur destin est maintenant entre vos mains.;;;;;;;;;;x;x
+VIETmisc.8101.a;No harm done, let them go.;Pas de mal, laissez-les partir.;;;;;;;;;;;;x
+VIETmisc.8101.b;They will be subject to public humiliation.;Ils seront soumis à l'humiliation publique.;;;;;;;;;;;;x
+VIETmisc.8101.c;Imprison them for the crime.;Les emprisonner pour le crime.;;;;;;;;;;;;x
+VIETmisc.8101.d;Execute them. No mercy.;Les exécuter. Sans pitié.;;;;;;;;;;;;x
+VIETmisc.8102.desc;It has recently come to my attention that a local astronomer has been hard at work developing some star charts to map the heavens. He has graciously given me one of them as a gift.;J'ai récemment appris qu'un astronome local travaillait fort à la mise au point de cartes d'étoiles pour cartographier les cieux. Il m'a gentiment offert l'un d'entre eux en cadeau.;;;;;;;;;;x;x
+VIETmisc.8102.a;How kind!;Comme c'est gentil !;;;;;;;;;;;;x
+VIETmisc.8102.b;He can keep it for himself.;Il peut le garder pour lui-même.;;;;;;;;;;;;x
+VIETmisc.8103.desc;The wind is howling loudly tonight, keeping me awake. It's scary!;Le vent hurle fort ce soir, me tenant éveillé. C'est effrayant !;;;;;;;;;;x;x
+VIETmisc.8103.a;Hide behind my covers.;Se cacher derrière ses couvertures.;;;;;;;;;;;;x
+VIETmisc.8103.b;It's just noise!;C'est juste du bruit !;;;;;;;;;;;;x
+VIETmisc.8103.c;Is that [Root.Religion.GetRandomEvilGodName]? I'll pray to [Root.Religion.GetRandomGodName]!;Est-ce que c'est [Root.Religion.GetRandomEvilGodName]? Je vais prier pour [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;x
+VIETmisc.8103.d;I want to see what it looks like outside!;Je veux voir à quoi ça ressemble à l'extérieur !;;;;;;;;;;;;x
+VIETmisc.8104.desc;I wake up in the middle of the night, feeling hungry. Perhaps I should go get a quick midnight snack?;Je me réveille au milieu de la nuit, j'ai faim. Peut-être que je devrais aller prendre une collation rapide de minuit ?;;;;;;;;;;x;x
+VIETmisc.8104.a;I'll go get it myself;Je vais le chercher moi-même;;;;;;;;;;;;x
+VIETmisc.8104.b;I will call a servant;Je vais appeler un domestique;;;;;;;;;;;;x
+VIETmisc.8104.c;Maybe I should not;Peut-être que je ne devrais pas;;;;;;;;;;;;x
+VIETmisc.8104.d;I want to watch the stars;Je veux regarder les étoiles;;;;;;;;;;;;x
+VIETmisc.8105.desc;Because it is so dark at night, while trying to get into bed you accidentally knocked some things over, waking up a few servants, who scurry outside, wondering what all the commotion is about.;Parce qu'il fait si noir la nuit, alors que vous essayiez de vous coucher, vous renversez accidentellement certaines choses, réveillant quelques serviteurs qui se précipitent dehors, se demandant par quoi tout ce remue-ménage est causé.;;;;;;;;;;x;x
+VIETmisc.8105.a;Now everyone knows what a clumsy oaf I am!;Maintenant tout le monde sait quel fainéant je suis !;;;;;;;;;;;;x
+VIETmisc.8106.desc;Over the past few months, unexplained apparitions have appeared in several areas in [Root.GetName] after sunset, frightening the locals. Suddenly, in the past week or so, however, these ghostly figures have disappeared. Ironically, this frightens the people living here even more, as no one knows if this is an omen of something.;Au cours des derniers mois, des apparitions inexpliquées sont apparues dans plusieurs zones de [Root.GetName] après le coucher du soleil, effrayant les habitants. Soudain, au cours de la semaine dernière, ces figures fantomatiques ont disparu. Ironiquement, cela effraie encore plus les gens qui vivent ici, car personne ne sait si cela présage de quelque chose.;;;;;;;;;;x;x
+VIETmisc.8106.a;Dark and troubling news.;Des nouvelles sombres et troublantes.;;;;;;;;;;;;x
+VIETmisc.8106.b;I don't find this scary at all.;Je ne trouve pas ça effrayant du tout.;;;;;;;;;;;;x
+VIETmisc.8106.c;The so-called ghosts are gone now, we should be happy!;Les soi-disant fantômes sont partis maintenant, nous devrions être heureux !;;;;;;;;;;;;x
+VIETmisc.8107.desc;There have been reports of some sort of demoness, a succubus, active in parts of [Root.GetName]. According to a number of men, and even a few women, this hauntingly beautiful creature attacks them at night by paralyzing them before fornicating with them in the most pleasurable yet sinful ways imaginable. The fact that most of the victims describe the demoness' similarly suggests this might not be a mere bout of hysteria.;Il a été rapporté qu'une sorte de démone, une succube, était active dans certaines parties de [Root.GetName]. Selon un certain nombre d'hommes, et même quelques femmes, cette créature d'une beauté envoûtante les attaque la nuit en les paralysant avant de forniquer avec eux de la manière la plus agréable et la plus pécheresse que l'on puisse imaginer. Le fait que la plupart des victimes décrivent la démone avec similarité suggère de la même manière que cela pourrait ne pas être une simple crise d'hystérie.;;;;;;;;;;x;x
+VIETmisc.8107.a;Disturbing, but it's probably nothing, I'm sure of it.;Dérangeant, mais ce n'est probablement rien, j'en suis sûr.;;;;;;;;;;;;x
+VIETmisc.8107.b;Send in clergy and scholars to help ward off this evil.;Envoyez des membres du clergé et des érudits pour aider à conjurer ce mal.;;;;;;;;;;;;x
+VIETmisc.8107.c;I wish I could experience such forbidden pleasures!;Je souhaite pouvoir vivre de tels plaisirs interdits !;;;;;;;;;;;;x
+VIETmisc.8107.d;It's just a case of many common sleep terrors happening coincidentally.;C'est simplement le cas de nombreuses terreurs nocturnes communes qui se produisent de manière fortuite.;;;;;;;;;;;;x
+VIETmisc.8108.desc;I lie down in bed and pull my blanket over me and it brushes my chin. I wonder to myself whether I should have the blanket over my chin, or under it. I try both, switching between one or another, but neither feels proper. Eventually I settle on...;Je me couche dans mon lit et tire ma couverture sur moi et elle me frotte le menton. Je me demande si je devrais avoir la couverture sur le menton ou en dessous. J'essaie les deux, en passant de l'un à l'autre, mais aucun ne me semble approprié. Finalement, je mets la couverture ...;;;;;;;;;;x;x
+VIETmisc.8108.a;Over my chin.;Sur mon menton.;;;;;;;;;;;;x
+VIETmisc.8108.b;Under my chin.;Sous mon menton.;;;;;;;;;;;;x
+VIETmisc.8109.desc;You were eating a small snack before going to bed, but did not want others to notice you, so you ate it in the darkness. However, this turned out to be a mistake, as you could not see what you were eating. Something must've been lodged in that food, for you began to choke...;Vous mangiez une petite collation avant de vous coucher, mais vous ne voulez pas que les autres vous remarquent, alors vous l’avez mangée dans le noir. Cependant, cela s'est avéré être une erreur, car vous ne pouviez pas voir ce que vous mangiez. Quelque chose a dû être logé dans cette nourriture, car vous avez commencé à vous étouffer ...;;;;;;;;;;x;x
+VIETmisc.8109.a;AGGGKKHHGGHHHH -;AGGGKKHHGGHHHH -;;;;;;;;;;;;x
+VIETmisc.8110.desc;Before I go to bed I gaze at the night sky, and can make out a few of the constellations. How lovely they are, artworks dancing in the sky!;Avant de me coucher, je regarde le ciel nocturne et je peux distinguer quelques-unes des constellations. Comme elles sont belles, des œuvres qui dansent dans le ciel !;;;;;;;;;;x;x
+VIETmisc.8110.a;And over there is the Big Dipper...;Et là-bas se trouve la Grande Ourse ...;;;;;;;;;;;;x
+VIETmisc.8111.desc;For the last week or two, I’ve found myself unable to fall asleep quickly. A few of my courtiers said there is a local herbalist who currently has a large stock of the herb valerian, which she has successfully used to treat several cases of insomnia. Drinking this valerian tea may be just what I need.;Depuis une semaine ou deux, je me suis retrouvé incapable de m'endormir rapidement. Quelques-uns de mes courtisans ont déclaré qu'il existe une herboriste locale qui dispose actuellement d'un stock important de la valériane, qu'elle a utilisée avec succès pour traiter plusieurs cas d'insomnie. Boire ce thé à la valériane est peut-être ce dont j'ai besoin.;;;;;;;;;;x;x
+VIETmisc.8111.a;Yes, I will purchase some.;Oui, je vais en acheter.;;;;;;;;;;;;x
+VIETmisc.8111.b;No! I’m fine!;Non ! Je vais bien !;;;;;;;;;;;;x
+VIETmisc.8112.desc;Lately, several incidents of grave robbing have been reported in a nearby cemetery. The grave robbers strike at night, when few are awake, and no one has been able to catch them yet. Perhaps if you were to dedicate a few soldiers to patrol the location, the criminals could be caught eventually.;Récemment, plusieurs incidents de vol de tombe ont été rapportés dans un cimetière voisin. Les pilleurs de tombes frappent la nuit, quand peu de gens sont réveillés et que personne n’a encore été capable de les attraper. Peut-être que si vous deviez affecter quelques soldats à la patrouille, les criminels pourraient éventuellement être attrapés.;;;;;;;;;;x;x
+VIETmisc.8112.a;Let’s do that. This travesty cannot continue.;Faisons cela. Cette parodie ne peut pas continuer.;;;;;;;;;;;;x
+VIETmisc.8112.b;No, it would be a waste of resources.;Non, ce serait un gaspillage de ressources.;;;;;;;;;;;;x
+VIETmisc.8113.tooltip;\n\nThese wrongdoers will face justice soon!;\n\nCes malfaiteurs vont bientôt faire face à la justice !;;;;;;;;;;x;x
+VIETmisc.8113.title;Grave Robbers Caught;Des voleurs graves pris;;;;;;;;;;x;x
+VIETmisc.8113.desc;Your trusty guards caught the grave robbers after only a few nights, as the robbers made a mistake - they dug what they thought was a grave, but it turned out to be a cache of ancient goods! They made a lot of noise, knocking down several ancient clay pots, and alerting your men.\n\nAfter you punished the criminals accordingly and awarded your men for their efforts, you now have to decide what to do with the cache of ancient goods. Most of them are worn out or broken, and will only be of interest to antiquarians and scholars, but one object remains in good condition: a lovely ancient pot, with intricate designs and decorations.;Vos fidèles gardes ont attrapé les pilleurs de tombes après seulement quelques nuits, alors qu'ils commettaient une erreur : ils ont creusé ce qu'ils pensaient être une tombe, mais il s'est avéré que c'était une cache de biens anciens ! Ils ont fait beaucoup de bruit, détruisant plusieurs anciens pots en argile et alertant vos hommes. \n\nAprès avoir puni les criminels en conséquence et récompensé vos hommes pour leurs efforts, vous devez maintenant décider quoi faire avec la cache de biens anciens. La plupart d'entre eux sont usés ou cassés et n'intéresseront que les antiquaires et les érudits, mais un objet reste en bon état : un joli pot ancien, avec des motifs et des décorations complexes.;;;;;;;;;;x;x
+VIETmisc.8113.a;This would make a nice decoration, wouldn’t it?;Cela ferait une belle décoration, n'est-ce pas ?;;;;;;;;;;;;x
+VIETmisc.8114.desc;One of my young servants has always been a daredevil. A friend challenged him to swim in a dangerous part of the beach at night. For once, my servant hesitated, but his friend told him that to be afraid of the danger meant he was a weakling with no ambitions in life, who was just content to sit around. Of course, he did the dare, and drowned as none could see him in the darkness.;Un de mes jeunes serviteurs a toujours été un casse-cou. Un ami l'a défié de nager dans une partie dangereuse de la plage la nuit. Pour une fois, mon serviteur a hésité, mais son ami lui a dit qu'être effrayé par le danger signifiait qu'il était un faible, sans ambition dans la vie, qui se contentait de rester assis. Bien sûr, il a accepté le défi, et s'est noyé car personne ne pouvait le voir dans l'obscurité.;;;;;;;;;;x;x
+VIETmisc.8114.a;This is a tragedy.;C'est une tragédie.;;;;;;;;;;;;x
+VIETmisc.8114.b;Ha! Weakling!;Ha ! Faible !;;;;;;;;;;;;x
+VIETmisc.8114.c;Imprison his "friend"!;Emprisonner son "ami" !;;;;;;;;;;;;x
+VIETmisc.8115.desc;You decided to see the beach at night out of curiosity, and was rewarded with a wonderful sight: the lovely moon, dancing around the stars, reflected on the ocean waves.;Vous avez décidé de voir la plage la nuit par curiosité et vous avez été récompensé par une vue magnifique : la belle lune, dansant autour des étoiles, se reflétant sur les vagues de l’océan.;;;;;;;;;;x;x
+VIETmisc.8115.a;I’m glad I came here!;Je suis content d’être venu ici !;;;;;;;;;;;;x
 VIETmisc.8116.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8116.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8117.desc;xxxxx;;;;;;;;;;;x
