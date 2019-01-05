@@ -1,0 +1,64 @@
+[h1]Version actuelle : 2.0.1 "Dawn" (Sortie le 01/01/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
+Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn]Github[/url].[/b]
+
+VIET Events Reborn est le redémarrage du module Events du mod VIET (qui faisait partie de HIP) que j'ai créé il y a plus de six ans avant de me retirer il y a trois ans. Les caractéristiques incluent :
+
+[list]
+[*] Des centaines de nouveaux événements de saveur et de chaînes d'événements qui ajoutent une immersion et une diversité d'expériences à vos découvertes ludiques, allant des petites conversations avec vos courtisans et la cuisine locale aux récits épiques sur l'amour, la philosophie et la condition humaine.
+[*] Une règles du jeu pour désactiver les événements plus stupides pour ceux qui ne les aiment pas, avec trois niveaux au choix : Équilibré (par défaut), Sérieux (restreint), et Tous les événements (complet)
+[*] De nouveaux artefacts à collectionner et surnoms à acquérir lors de ces événements
+[*] Beaucoup de nouvelles photos d'événements, y compris des variantes culturelles et religieuses de photos d'événements à la vanille.
+[*] Améliorations de performance et améliorations diverses par rapport aux anciens événements VIET (remerciement aux équipes de WTWSMS, LI, et Hide Your Jewelry mod)
+[*] Compatibilité avec presque tout puisqu'il ne touche pas les fichiers de vanille.
+[*] [b]NON COMPATIBLE AVEC LES SUCCÈS ![/b]
+[/list]
+
+Pour l'instant, le redémarrage n'inclut pas tous les événements originaux. Pour ne pas me submerger, ce que je veux faire c'est ajouter lentement les anciens événements par lots pour que je puisse les réparer, les modifier ou les supprimer comme bon me semble, tout en ajoutant de nouveaux événements pour varier. Toute contribution sur l'équilibre et les bugs est très appréciée alors que je ramène lentement le VIET à la vie ! En particulier, j'essaie encore d'établir un juste équilibre dans la fréquence de ces événements.
+
+N'hésitez pas à utiliser mon travail dans vos mods, tout ce que je demande, c'est que mon ancien partenaire VIET Ordep et moi soyons crédités. Si vous voulez utiliser quelque chose que j'ai emprunté à quelqu'un d'autre, veuillez consulter la section crédits ci-dessous.
+
+Je ne redémarrerai pas non plus Immersion ou Traits pour le moment, bien que mes Packs d'Immersion soient un successeur spirituel de VIET Immersion, alors n'hésitez pas à consulter les Packs d'Immersion de Cybrxkhan, qui sont un successeur spirituel plus modulaire et de moindre envergure à VIET Immersion.
+
+
+
+[h1]Crédits[/h1]
+
+Un grand merci aux équipes de WTWSMS (en particulier IhateTrains et Loup99) et Lux Invicta (dont tsf4), ainsi qu'à M@ni@c, créateur de Hide Your Jewelry, pour avoir maintenu VIET ces dernières années et que j'ai rejoint. Les améliorations que ces moddeurs ont apportées à mon ancien code ont formé la base de ce redémarrage des événements VIET. IhateTrains m'a été particulièrement utile pour détecter certains problèmes et m'aider à me réadapter au modding CKII. La traduction française d'une grande partie du mod est grâce à Loup99, Mouchi, et Domper59.
+
+Des crédits supplémentaires vont à StormWeaver avec qui j'ai travaillé de temps en temps pendant ma retraite pour ajouter quelques événements de saveur au mod Ancient Religions Reborn, et l'inspiration pour nommer les mises à jour après les gens et tout ça.
+
+Je veux aussi, bien sûr, donner beaucoup de crédit à l'équipe HIP, avec qui j'ai travaillé pendant un certain temps avant de prendre ma retraite - en particulier OrdepNM, qui était à bien des égards mon partenaire dans le crime et qui s'est porté volontaire pour m'aider à maintenir mon mod pendant que j'avais de sérieux problèmes médicaux il y a un certain temps.
+
+Veuillez consulter le fil de discussion du forum pour la liste complète des crédits.
+
+[h1]Changelog le plus récent[/h1]
+
+Version 2.0.1 "Dawn".
+
+[i]"Tous les quartiers nous ont connus, et personne n'a supporté notre mort, si ce n'est en tremblant. Peut-être êtes-vous venu à nous par la guerre, ou l'étude, ou l'ombre, ou l'alignement de certains serpents. Bien que chaque chemin soit important en son genre, le prix est toujours ainsi : bienvenue, novice, que vous soyez ici signifie que vous avez la valeur des rois. Cherche ta poche maintenant, et regarde ! Il y a la première clé, scintillant de la lumière d'une nouvelle aube."[/i]
+
+[list]
+[*] Ajoute 12 événements inspirés de la bande originale de TES IV Oblivion
+[*] Ajoute 8 événements sur le thème du Soleil
+[*] Ajoute 17 Prophéties et événements thématiques Futuristes
+[*] Ajout d'une nouvelle chaîne d'événements : Oblivion (sera désactivé avec la règle du jeu "Sérieux" à cause des références)
+[*] Ajoute à nouveau les événements suivants de l'ancien VIET : 9 Musulmans, 7 Boissons et alcools, 4 références à Elder Scrolls, 5 Saletés, 3 Nature, 7 Rêve, 7 Légumes, 3 Eau, 6 Amer, 5 Œufs, 3 Dulcinien*.
+[*] Ajout des chaînes d'événements suivantes de l'ancien VIET : Brosse à dents frères et sœurs, Pain Brulé et Succubus (le premier n'apparaîtra qu'avec la règle du jeu "Tous les événements")
+[*] Plusieurs événements de province VIET augmenteront ou diminueront la prospérité dans la province.
+[*] Plusieurs événements de VIET vont maintenant réduire ou augmenter la décadence des personnages musulmans
+[*] Ajout de quelques localisations supplémentaires en français, gracieuseté de loup99, Mouchi, et Domper59 (certaines ne sont pas encore terminées mais le seront dans la prochaine mise à jour !)
+[*] Ajout de nouveaux décès : Étouffé par la nourriture, piqué par un Scorpion, retrouvé mystérieusement mort dans son lit
+[*] Ajout de plusieurs nouveaux déclencheurs scriptés pour l'efficacité : is_sinosphere_small_trigger, is_sinosphere_large_trigger, is_baklava_culture_trigger, is_hummus_culture_trigger
+[*] La règle de VIET Events est maintenant en haut de la section des règles du jeu pour une meilleure visibilité, de plus le texte et la couleur changent quelque peu - crédits à Mouchi
+[*] Ajoute de nouvelles images d'événements
+[*] Remplacement des images grecques et italiennes de l'événement gastronomique
+[*] L'inceste zoroastrien est maintenant désactivé avec la règle du jeu sérieux
+[*] L'événement "Qui a Coupé le Fromage" n'est désormais activé qu'avec la règle de jeu "Tous les événements".
+[*] Les effets sur la valeur commerciale de l'effondrement d'un pont et du navire hanté ont changé pour être plus conformes aux modificateurs de la vanille.
+[*] L'artefact de Poterie Ancienne donne maintenant +1 apprentissage
+[*] Correction de l'événement de Pistachio avec l'option "Envoyer les ressources d'urgence immédiatement !
+[*] D'autres corrections de bugs divers et de localisation, dont beaucoup ont été apportées par IHateTrains.
+[/list]
+
+*Aucune hérésie dulcine de l'ancienne Immersion VIET n'a été ajoutée. Basé sur la version WTWSMS, certains des anciens événements de saveur dulcine ont été adaptés à d'autres religions et hérésies, le cas échéant.
