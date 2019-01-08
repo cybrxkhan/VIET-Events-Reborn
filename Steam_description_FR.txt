@@ -1,4 +1,4 @@
-[h1]Version actuelle : 2.0.1 "Dawn" (Sortie le 01/01/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[h1]Version actuelle : 2.0.2 "Crépuscule" (Sortie le 07/01/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
 [b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
 Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn]Github[/url].[/b]
 
@@ -34,31 +34,18 @@ Veuillez consulter le fil de discussion du forum pour la liste complète des cr�
 
 [h1]Changelog le plus récent[/h1]
 
-Version 2.0.1 "Dawn".
+Version 2.0.2 "Crépuscule"
 
-[i]"Tous les quartiers nous ont connus, et personne n'a supporté notre mort, si ce n'est en tremblant. Peut-être êtes-vous venu à nous par la guerre, ou l'étude, ou l'ombre, ou l'alignement de certains serpents. Bien que chaque chemin soit important en son genre, le prix est toujours ainsi : bienvenue, novice, que vous soyez ici signifie que vous avez la valeur des rois. Cherche ta poche maintenant, et regarde ! Il y a la première clé, scintillant de la lumière d'une nouvelle aube."[/i]
+[i]"Qu'il ne fasse pas le vœu de marcher dans l'obscurité, lui qui n'a pas vu la tombée de la nuit."
 
-[list]
-[*] Ajoute 12 événements inspirés de la bande originale de TES IV Oblivion
-[*] Ajoute 8 événements sur le thème du Soleil
-[*] Ajoute 17 Prophéties et événements thématiques Futuristes
-[*] Ajout d'une nouvelle chaîne d'événements : Oblivion (sera désactivé avec la règle du jeu "Sérieux" à cause des références)
-[*] Ajoute à nouveau les événements suivants de l'ancien VIET : 9 Musulmans, 7 Boissons et alcools, 4 références à Elder Scrolls, 5 Saletés, 3 Nature, 7 Rêve, 7 Légumes, 3 Eau, 6 Amer, 5 Œufs, 3 Dulcinien*.
-[*] Ajout des chaînes d'événements suivantes de l'ancien VIET : Brosse à dents frères et sœurs, Pain Brulé et Succubus (le premier n'apparaîtra qu'avec la règle du jeu "Tous les événements")
-[*] Plusieurs événements de province VIET augmenteront ou diminueront la prospérité dans la province.
-[*] Plusieurs événements de VIET vont maintenant réduire ou augmenter la décadence des personnages musulmans
-[*] Ajout de quelques localisations supplémentaires en français, gracieuseté de loup99, Mouchi, et Domper59 (certaines ne sont pas encore terminées mais le seront dans la prochaine mise à jour !)
-[*] Ajout de nouveaux décès : Étouffé par la nourriture, piqué par un Scorpion, retrouvé mystérieusement mort dans son lit
-[*] Ajout de plusieurs nouveaux déclencheurs scriptés pour l'efficacité : is_sinosphere_small_trigger, is_sinosphere_large_trigger, is_baklava_culture_trigger, is_hummus_culture_trigger
-[*] La règle de VIET Events est maintenant en haut de la section des règles du jeu pour une meilleure visibilité, de plus le texte et la couleur changent quelque peu - crédits à Mouchi
-[*] Ajoute de nouvelles images d'événements
-[*] Remplacement des images grecques et italiennes de l'événement gastronomique
-[*] L'inceste zoroastrien est maintenant désactivé avec la règle du jeu sérieux
-[*] L'événement "Qui a Coupé le Fromage" n'est désormais activé qu'avec la règle de jeu "Tous les événements".
-[*] Les effets sur la valeur commerciale de l'effondrement d'un pont et du navire hanté ont changé pour être plus conformes aux modificateurs de la vanille.
-[*] L'artefact de Poterie Ancienne donne maintenant +1 apprentissage
-[*] Correction de l'événement de Pistachio avec l'option "Envoyer les ressources d'urgence immédiatement !
-[*] D'autres corrections de bugs divers et de localisation, dont beaucoup ont été apportées par IHateTrains.
-[/list]
+- J.R.R. Tolkien[/i]
 
-*Aucune hérésie dulcine de l'ancienne Immersion VIET n'a été ajoutée. Basé sur la version WTWSMS, certains des anciens événements de saveur dulcine ont été adaptés à d'autres religions et hérésies, le cas échéant.
+[LIST]
+[*]Ajout de 15 événements sur le thème de la nuit
+[*]Ajout de 10 événements sur le thème de l'ombre
+[*]Réintroduction des événements suivants de l'ancien VIET : 5 mauvais, 5 insectes, 5 vieillesse
+[*]Changement d'un événement de poterie ancienne : passage d'un événement de province à un événement de personnage à partir d'actions, pour diminuer sa fréquence
+[*]Suppressions des références aux anciens codes Traits VIET
+[*]Correction de l'événement Grand sanctuaire de l'Antiquité faisant référence à la religion de la province, et non à la religion du propriétaire.
+[/LIST]
+
