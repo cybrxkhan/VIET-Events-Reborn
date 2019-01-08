@@ -3986,10 +3986,10 @@ character_event = {
 			factor = 0.8
 			trait = diligent
 		}
-		modifier = {
-			factor = 3
-			trait = absentminded
-		}
+		#modifier = {
+		#	factor = 3
+		#	trait = absentminded
+		#}
 		modifier = {
 			factor = 3
 			is_dumb_trigger = yes
@@ -5717,10 +5717,10 @@ character_event = {
 			factor = 0.8
 			trait = humble
 		}
-		modifier = {
-			factor = 2
-			trait = absentminded
-		}
+		#modifier = {
+		#	factor = 2
+		#	trait = absentminded
+		#}
 		modifier = {
 			factor = 1.2
 			trait = imbecile
@@ -5842,14 +5842,14 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		
-		modifier = {
-			factor = 1.2
-			trait = perceptive
-		}
-		modifier = {
-			factor = 0.8
-			trait = absentminded
-		}
+		#modifier = {
+		#	factor = 1.2
+		#	trait = perceptive
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	trait = absentminded
+		#}
 		modifier = {
 			factor = 0.8
 			trait = imbecile
@@ -6634,10 +6634,10 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		
-		modifier = {
-			factor = 1.2
-			trait = absentminded
-		}
+		#modifier = {
+		#	factor = 1.2
+		#	trait = absentminded
+		#}
 		modifier = {
 			factor = 0.8
 			trait = paranoid
@@ -6646,10 +6646,10 @@ character_event = {
 			factor = 1.2
 			trait = content
 		}
-		modifier = {
-			factor = 0.8
-			trait = perceptive
-		}
+		#modifier = {
+		#	factor = 0.8
+		#	trait = perceptive
+		#}
 		modifier = {
 			factor = 1.2
 			trait = slothful
@@ -6663,7 +6663,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1000109380" #ow
 		trigger = {
-			NOT = { trait = agile }
+			NOT = { trait = strong }
 		}
 		prestige = -1
 		random_list = {
@@ -6684,9 +6684,9 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTB1000109380" #nvm
-		tooltip_info = agile
+		tooltip_info = strong
 		trigger = {
-			trait = agile
+			trait = strong
 		}
 		prestige = 1
 	}

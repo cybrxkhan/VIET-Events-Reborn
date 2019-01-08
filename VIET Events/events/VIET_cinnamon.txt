@@ -533,14 +533,14 @@ character_event = {
 			factor = 0.8
 			trait = proud
 		}
-		modifier = {
-			factor = 1.2
-			trait = absentminded
-		}
-		modifier = {
-			factor = 0.8
-			trait = perceptive
-		}
+		#modifier = {
+		#	factor = 1.2
+		#	trait = absentminded
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	trait = perceptive
+		#}
 		modifier = {
 			factor = 1.2
 			trait = kind
@@ -896,14 +896,14 @@ character_event = {
 			factor = 0.8
 			trait = humble
 		}
-		modifier = {
-			factor = 1.2
-			trait = absentminded
-		}
-		modifier = {
-			factor = 0.8
-			trait = perceptive
-		}
+		#modifier = {
+		#	factor = 1.2
+		#	trait = absentminded
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	trait = perceptive
+		#}
 		modifier = {
 			factor = 1.2
 			trait = kind

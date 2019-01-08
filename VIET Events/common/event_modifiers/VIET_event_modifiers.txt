@@ -301,14 +301,14 @@ arrogant_ruler = {
 }
 business_partner_fraud = {
 	monthly_character_prestige = -0.01
-	stewardship = -1
+	diplomacy = -1
 	global_tax_modifier = -0.01
 	icon = 24
 }
 having_stomachaches = {
 	health = -0.3
 	fertility = -0.05
-	icon = 26
+	icon = 60
 }
 highly_amused_ruler = {
         diplomacy = 1

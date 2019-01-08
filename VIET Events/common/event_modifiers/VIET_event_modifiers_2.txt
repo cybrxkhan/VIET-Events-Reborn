@@ -453,3 +453,67 @@ VIET_egyptian_sunscreen = {
 	sex_appeal_opinion = 5
 	icon = 133
 }
+VIET_bored_of_duties = {
+	diplomacy = -1
+	stewardship = -1
+	monthly_character_prestige = -0.08
+	icon = 33
+}
+VIET_province_giant_shade_tree = {
+	local_revolt_risk = -0.01
+	local_tax_modifier = 0.01
+	monthly_character_piety = 0.07
+	monthly_character_prestige = 0.07
+	icon = 87
+}
+VIET_learning_local_lore = {
+	diplomacy = 1
+	learning = 2
+	icon = 111
+}
+VIET_secret_relax_spot = {
+	health = 0.5
+	monthly_character_piety = 0.1
+	icon = 39
+}
+VIET_secret_relax_spot_sexy = {
+	fertility = 0.1
+	icon = 39
+}
+VIET_fun_in_the_sun = {
+	diplomacy = 1
+	health = 0.1
+	fertility = 0.02
+	icon = 133
+}
+VIET_province_youth_prank = {
+	local_tax_modifier = -0.01
+	monthly_character_prestige = -0.01
+	icon = 106
+}
+VIET_province_shadow_hysteria = {
+	local_revolt_risk = 0.02
+	local_tax_modifier = -0.01
+	icon = 42
+}
+VIET_province_night_ghosts_disappear = {
+	local_tax_modifier = -0.01
+	icon = 42
+}
+VIET_province_succubus_night_paralysis = {
+	local_tax_modifier = -0.01
+	monthly_character_piety = -0.01
+	monthly_character_prestige = -0.01
+	icon = 40
+}
+VIET_valerian_herb = {
+	health = 0.6
+	combat_rating = 3
+	icon = 87
+}
+VIET_no_empathy = {
+	diplomacy = -1
+	general_opinion = -10
+	combat_rating = 5
+	icon = 36
+}

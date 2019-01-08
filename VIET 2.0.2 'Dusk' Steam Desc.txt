@@ -1,0 +1,54 @@
+[h1]Current Version: 2.0.2 "Dawn" (Released 1/7/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
+[B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn]on Github [/url]
+[/B]
+
+VIET Events Reborn is the reboot of the Events module from the VIET mod (once part of HIP) that I created over six years ago before I retired three years back. Features include:
+
+[LIST]
+[*]Hundreds of new flavor events and event chains that add immersion and a diversity of experiences to your playthroughs, ranging from small talk with courtiers and eating local cuisine to epic tales about love, philosophy, and the human condition
+[*]Game rules to disable sillier events for those who don't like them, with three levels to choose from: Balanced (Default), Serious (Restricted), and All Events (Full)
+[*]New artifacts to collect and nicknames to acquire from these events
+[*]Plenty of new event pictures, including cultural and religious variants of vanilla event pictures
+[*]Performance tweaks and miscellaneous improvements over the old VIET Events (many courtesy of the WTWSMS, LI, and Hide Your Jewelry mod teams)
+[*]Compatibility with almost everything since it doesn’t touch any vanilla files
+[*][B]NOT ACHIEVEMENT COMPATIBLE![/B]
+[/LIST]
+
+At the moment, the reboot does not include all of the original events. To not overwhelm myself, what I want to do is slowly add the old events in batches so I can fix, tweak, or remove them as I see fit, while also adding in new events for variety. Any input with balance and bugs is much appreciated as I slowly bring VIET back to life! In particular I am still trying to determine a right balance in how often these events fire.
+
+Please feel free to use my work in your mods, all I ask is that I and my old VIET partner Ordep are credited. If you want to use something that I borrowed from someone else, please see the credits section below.
+
+I will also not be rebooting Immersion or Traits at this time, though my Immersion Packs are a spiritual successor to VIET Immersion, so feel free to check out [url=https://steamcommunity.com/workshop/filedetails/?id=1601450410]Cybrxkhan's Immersion Packs[/url], which are a smaller scale, more modular spiritual successor to VIET Immersion.
+
+
+
+[h1]Credits[/h1]
+
+A huge thanks to the teams of WTWSMS (especially ILikeTrians and Loup99) and Lux Invicta (including tsf4), as well as M@ni@c, creator of Hide Your Jewelry, for maintaining VIET these past few years and who I reached out to. The improvements these modders did to my old code have formed the basis for this reboot of VIET Events. ILikeTrains has been particularly helpful in catching some issues, and helping me adjust back to CKII modding. The French translation of much of the mod is thanks to Loup99, Mouchi, and Domper59.
+
+Additional credits goes to theStormWeaver who I worked with every now and then during my retirement to add some flavor events to the Ancient Religions Reborn mod, and the inspiration for naming updates after people and stuff.
+
+I also of course want to give big credits to the HIP team, whom I worked with for some time before I retired - in particular OrdepNM, who was in many ways my partner in crime and who stepped up to help maintain my mod while I was having serious medical issues a while back.
+
+Please see the forum thread for the full list of credits.
+
+
+
+[h1]Most Recent Changelog[/h1]
+
+Version 2.0.2 "Dusk"
+
+[I]"Let him not vow to walk in the dark, who has not seen the nightfall."
+
+- J.R.R. Tolkien[/I]
+
+[LIST]
+[*]Added 15 Night themed events
+[*]Added 10 Shadow themed events
+[*]Re-added the following events from old VIET: 5 bad, 5 bug, 5 old age
+[*]Changed ancient pottery event from a province event to a character event fired from on actions, to decrease its frequency
+[*]Commented out references in old VIET Traits in code
+[*]Fixed Large Antiquity shrine event referring to the province’s religion, not the owner’s religion
+[/LIST]
+

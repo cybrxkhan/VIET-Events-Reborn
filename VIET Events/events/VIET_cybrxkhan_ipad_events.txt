@@ -1844,7 +1844,7 @@ character_event = {
 			ai = yes
 			OR = {
 				trait = slothful
-				trait = absentminded
+				#trait = absentminded
 				trait = wroth
 				trait = lunatic
 				trait = possessed
@@ -1922,7 +1922,7 @@ character_event = {
 				ai = yes
 				OR = {
 					trait = slothful
-					trait = absentminded
+					#trait = absentminded
 					trait = wroth
 					trait = lunatic
 					trait = possessed
@@ -3424,14 +3424,14 @@ character_event = {
 			factor = 0.8
 			trait = gregarious
 		}
-		modifier = {
-			factor = 1.2
-			trait = absentminded
-		}
-		modifier = {
-			factor = 0.8
-			trait = perceptive
-		}
+		#modifier = {
+		#	factor = 1.2
+		#	trait = absentminded
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	trait = perceptive
+		#}
 		modifier = {
 			factor = 1.2
 			trait = proud
@@ -4503,7 +4503,7 @@ character_event = {
 		name = VIETmisc.2303.c
 		tooltip_info = intrigue
 		trigger = {
-			NOT = { trait = perceptive }
+			#NOT = { trait = perceptive }
 			intrigue = 10
 		}
 		prestige = 5
@@ -4517,23 +4517,23 @@ character_event = {
 			duration = 666
 		}
 	}
-	option = { #hoax!
-		name = VIETmisc.2303.c
-		tooltip_info = perceptive
-		trigger = {
-			trait = perceptive
-		}
-		prestige = 5
-		random_list = {
-			80 = { }
-			10 = { change_intrigue = 1 }
-			10 = { change_learning = 1 }
-		}
-		add_character_modifier = {
-			name = VIET_hoax_catcher
-			duration = 666
-		}
-	}
+	#option = { #hoax!
+	#	name = VIETmisc.2303.c
+	#	tooltip_info = perceptive
+	#	trigger = {
+	#		trait = perceptive
+	#	}
+	#	prestige = 5
+	#	random_list = {
+	#		80 = { }
+	#		10 = { change_intrigue = 1 }
+	#		10 = { change_learning = 1 }
+	#	}
+	#	add_character_modifier = {
+	#		name = VIET_hoax_catcher
+	#		duration = 666
+	#	}
+	#}
 }
 
 # Duck wobbler

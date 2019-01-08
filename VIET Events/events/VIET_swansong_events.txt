@@ -549,14 +549,14 @@ character_event = {
 			factor = 0.8
 			trait = patient
 		}
-		modifier = {
-			factor = 1.2
-			trait = absentminded
-		}
-		modifier = {
-			factor = 0.8
-			trait = perceptive
-		}
+		#modifier = {
+		#	factor = 1.2
+		#	trait = absentminded
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	trait = perceptive
+		#}
 		modifier = {
 			factor = 1.2
 			is_dumb_trigger = yes
@@ -639,14 +639,14 @@ character_event = {
 			factor = 0.8
 			trait = temperate
 		}
-		modifier = {
-			factor = 1.2
-			trait = absentminded
-		}
-		modifier = {
-			factor = 0.8
-			trait = perceptive
-		}
+		#modifier = {
+		#	factor = 1.2
+		#	trait = absentminded
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	trait = perceptive
+		#}
 	}
 
 	option = {#yes
@@ -784,14 +784,14 @@ character_event = {
 			factor = 0.8
 			trait = gregarious
 		}
-		modifier = {
-			factor = 1.2
-			trait = perceptive
-		}
-		modifier = {
-			factor = 0.8
-			trait = absentminded
-		}
+		#modifier = {
+		#	factor = 1.2
+		#	trait = perceptive
+		#}
+		#modifier = {
+		#	factor = 0.8
+		#	trait = absentminded
+		#}
 		modifier = {
 			factor = 1.2
 			trait = diligent
@@ -3891,7 +3891,7 @@ narrative_event = {
 			trait = brave
 			trait = mastermind_theologian
 			trait = mystic
-			trait = powerful_voice
+			#trait = powerful_voice
 			trait = genius
 			trait = strong
 		}
@@ -3907,8 +3907,8 @@ narrative_event = {
 				1 = { add_trait = blinded }
 				1 = { add_trait = dwarf }
 				1 = { add_trait = fair }
-				1 = { add_trait = tall }
-				1 = { add_trait = imposing }
+				#1 = { add_trait = tall }
+				#1 = { add_trait = imposing }
 				1 = { add_trait = maimed }
 				1 = { add_trait = genius }
 				1 = { add_trait = quick }

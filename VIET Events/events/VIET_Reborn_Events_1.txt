@@ -2322,7 +2322,7 @@ character_event = {
 				#Guaranteed Traits
 				add_trait = poet
 				add_trait = fair
-				add_trait = melodious_voice
+				#add_trait = melodious_voice
 				add_trait = kind
 				add_trait = chaste
 				#Flavor
@@ -2414,7 +2414,7 @@ character_event = {
 				}
 				#Guaranteed Traits
 				add_trait = fair
-				add_trait = tall
+				#add_trait = tall
 				add_trait = kind
 				add_trait = chaste
 
@@ -3639,71 +3639,100 @@ character_event = {
 
 
 # Ancient pot found
-province_event = {
+character_event = {
 	id = VIETmisc.8034
 	desc = VIETmisc.8034.desc
 	picture = GFX_evt_ancient_cairn
 	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
 	trigger = {
-		owner = {
-			NOT = { has_artifact = VIET_ancient_pottery }
-		}
+		in_command = no	
+		NOT = { has_artifact = VIET_ancient_pottery }
 	}
 	
-	mean_time_to_happen = {
-		months = 3000
+	weight_multiplier = {
+		days = 1
+			
 		modifier = {
-			factor = 1.5
-			NOT = { num_of_max_settlements = 5 }
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
 		}
 		modifier = {
 			factor = 1.2
-			NOT = { num_of_max_settlements = 3 }
+			trait = humble
 		}
 		modifier = {
-			factor = 5
-			has_province_flag = VIET_ancient_pottery_artifact_found
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			learning = 13
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { learning = 8 }
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				is_tribal = yes
+				is_nomadic = yes
+			}
 		}
 	}
 	
 
 	option = { # Take it woohoo
 		name = VIETmisc.8034.a
-		owner = {
-			add_artifact = VIET_ancient_pottery
-			new_artifact = {
-				set_creation_date = 1.1.1
-			}		
-		}
+		add_artifact = VIET_ancient_pottery
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}		
 	}
 	option = { # Reward peasant
 		name = VIETmisc.8034.b
-		owner = {
-			wealth = -5
-			piety = 5
-			random_list = {
-				10 = { add_trait = kind }
-				10 = { add_trait = charitable }
-				10 = { add_trait = just }
-				70 = { }
-			}
-			add_artifact = VIET_ancient_pottery
-			new_artifact = {
-				set_creation_date = 1.1.1
-			}		
+		wealth = -5
+		piety = 5
+		random_list = {
+			10 = { add_trait = kind }
+			10 = { add_trait = charitable }
+			10 = { add_trait = just }
+			70 = { }
 		}
+		add_artifact = VIET_ancient_pottery
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}		
 	}
 	option = { # Let peasant keep it
 		name = VIETmisc.8034.c
-		owner = {
-			piety = 5
-			random_list = {
-				20 = { add_trait = kind }
-				20 = { add_trait = charitable }
-				20 = { add_trait = just }
-				40 = { }
-			}	
-		}
+		piety = 10
+		random_list = {
+			20 = { add_trait = kind }
+			20 = { add_trait = charitable }
+			20 = { add_trait = just }
+			40 = { }
+		}	
 	}
 }
 
@@ -8472,7 +8501,7 @@ character_event = {
 				trait = ambitious
 				trait = slothful
 				trait = wroth
-				trait = absentminded
+				#trait = absentminded
 			}
 			NOR = {
 				trait = content
@@ -8540,7 +8569,7 @@ character_event = {
 					trait = ambitious
 					trait = slothful
 					trait = wroth
-					trait = absentminded
+					#trait = absentminded
 				}
 				NOR = {
 					trait = content
@@ -8570,4 +8599,2469 @@ character_event = {
 			}
 		}
 	}	
+}
+
+
+####################################################################
+# SHADOW / SHADE 
+####################################################################
+
+
+# Did my shadow move?
+character_event = {
+	id = VIETmisc.8090
+	desc = VIETmisc.8090.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	#trigger = {
+		#in_command = no
+	#}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = envious
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			is_dumb_trigger = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_smart_trigger = yes
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8090.a
+		prestige = -1
+		if = {
+			limit = {
+				trait = paranoid
+			}
+			random = {
+				remove_trait = paranoid
+				chance = 15
+			}
+		}
+	}	
+	option = { # No! It's there!
+		name = VIETmisc.8090.b
+		prestige = -1
+		random_list = {
+			70 = {}
+			20 = { add_trait = stressed }
+			10 = { add_trait = paranoid }
+		}
+	}	
+}
+
+
+# Bored ruler watching people's shadows
+character_event = {
+	id = VIETmisc.8091
+	desc = VIETmisc.8091.desc
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		#NOT = { trait = diligent }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8091.a
+		prestige = -5
+		add_character_modifier = {
+			name = VIET_bored_of_duties
+			duration = 365
+		}
+	}	
+	option = { # Focus!
+		name = VIETmisc.8091.b
+		tooltip_info = diligent
+		trigger = {
+			trait = diligent
+		}
+		prestige = 5
+	}	
+}
+
+
+# Inspecting troops under the hot sun - rest under shade or not?
+character_event = {
+	id = VIETmisc.8092
+	desc = VIETmisc.8092.desc
+	picture = GFX_evt_apollo_sun #GFX_evt_large_army
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			is_weak_trigger = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+	}
+	
+	option = { # rest in the shade
+		name = VIETmisc.8092.a
+		prestige = -5
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = 1
+		}
+	}	
+	option = { # endure!
+		name = VIETmisc.8092.b
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = -1
+		}
+		
+		prestige = 10
+		
+		random = {
+			health = -0.2
+			chance = 50
+		}
+
+		if = {
+			limit = {
+				is_ill = no
+				NOT = {
+					has_dlc = "Reapers"
+				}
+			}
+			random_list = {
+				67 = { }
+				33 = { add_trait = ill }
+			}
+		}
+		if = {
+			limit = {
+				is_ill = no
+				has_dlc = "Reapers"
+			}
+			
+			random_list = {
+				67 = { }
+				33 = { 
+					set_character_flag = disease_not_serious
+					add_trait = fatigue
+				}
+			}
+			hidden_tooltip = { character_event = { id = RIP.11011 days = 50 random = 200 } }
+		}		
+	}	
+}
+
+
+# A village tree provides shade
+province_event = {
+	id = VIETmisc.8093
+	desc = VIETmisc.8093.desc
+	picture = GFX_evt_garden
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_giant_shade_tree }
+		owner = {
+			is_nomadic = no
+		}
+		NOT = { terrain = desert }
+		NOT = { terrain = arctic }
+	}
+	
+	mean_time_to_happen = {
+		months = 8800
+	}
+	
+
+	option = { # Spend funds to help
+		name = VIETmisc.8093.a
+		owner = {
+			wealth = -20
+			piety = 10
+			prestige = 10
+		}
+		add_province_modifier = {
+			name = VIET_province_giant_shade_tree
+			duration = 10950
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 10 }
+				}
+			}
+		}
+	}	
+	option = { # Don't help
+		name = VIETmisc.8093.b
+		add_province_modifier = {
+			name = VIET_province_giant_shade_tree
+			duration = 3650
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 2 }
+				}
+			}
+		}
+	}	
+}
+
+
+# Shadows attack villagers - implied to be hysteria from several cases of sleep paralysis
+province_event = {
+	id = VIETmisc.8094
+	desc = VIETmisc.8094.desc
+	picture = GFX_evt_village_at_night
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_shadow_hysteria }
+		owner = {
+			is_nomadic = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 8000
+	}
+	
+
+	option = { # Troubling!
+		name = VIETmisc.8094.a
+		add_province_modifier = {
+			name = VIET_province_shadow_hysteria
+			duration = 730
+		}
+	}
+	option = { # Send in clergy to pray
+		name = VIETmisc.8094.b
+		owner = {
+			wealth = -5
+			piety = 5
+		}
+		random_list = {
+			50 = {
+				add_province_modifier = {
+					name = VIET_province_shadow_hysteria
+					duration = 365
+				}			
+			}
+			25 = {
+				add_province_modifier = {
+					name = VIET_province_shadow_hysteria
+					duration = 730
+				}			
+			}
+			25 = {
+				add_province_modifier = {
+					name = VIET_province_shadow_hysteria
+					duration = 1095
+				}			
+			}
+		}
+	}	
+	option = { # Commoners are making things up
+		name = VIETmisc.8094.c
+		owner = {
+			random = {
+				add_trait = cynical
+				chance = 25
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_shadow_hysteria
+			duration = 730
+		}
+	}		
+	option = { # Scholars know this is night terror
+		name = VIETmisc.8094.d
+		tooltip_info = learning
+		trigger = {
+			owner = {
+				learning = 11
+				NOT = { trait = scholar }
+			}
+		}
+		random_list = {
+			75 = {
+				add_province_modifier = {
+					name = VIET_province_shadow_hysteria
+					duration = 365
+				}			
+			}
+			25 = {
+				add_province_modifier = {
+					name = VIET_province_shadow_hysteria
+					duration = 730
+				}			
+			}
+		}		
+	}		
+	option = { # Scholars know this is night terror
+		name = VIETmisc.8094.d
+		tooltip_info = scholar
+		trigger = {
+			owner = {
+				trait = scholar
+			}
+		}
+		random_list = {
+			75 = {
+				add_province_modifier = {
+					name = VIET_province_shadow_hysteria
+					duration = 365
+				}			
+			}
+			25 = {
+				add_province_modifier = {
+					name = VIET_province_shadow_hysteria
+					duration = 730
+				}			
+			}
+		}		
+	}	
+}
+
+
+
+
+# Someone at the market wears a black hoodie
+character_event = {
+	id = VIETmisc.8095
+	desc = VIETmisc.8095.desc
+	picture = GFX_evt_market_hf
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = envious
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+	}
+	
+	option = { # false alarm
+		name = VIETmisc.8095.a
+		random_list = {
+			50 = { prestige = -1 }
+			50 = { piety = -1 }
+		}
+	}	
+	option = { # suspicious...
+		name = VIETmisc.8095.b
+		random_list = {
+			50 = { prestige = -1 }
+			50 = { piety = -1 }
+		}
+		if = {
+			limit = {
+				trait = trusting
+			}
+			random = {
+				remove_trait = trusting
+				chance = 70
+			}
+		}
+		else = {
+			random = {
+				add_trait = paranoid
+				chance = 55
+			}
+		}		
+	}	
+}
+
+
+# Shadow of the Colossus
+character_event = {
+	id = VIETmisc.8096
+	title = VIETmisc.8096.title
+	desc = VIETmisc.8096.desc
+	picture = GFX_evt_skyrim_forest
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = { # false alarm
+		name = VIETmisc.8096.a
+		add_character_modifier = {
+			name = VIET_learning_local_lore
+			duration = 1227
+		}		
+	}	
+}
+
+
+
+# Another sleep paralysis event
+character_event = {
+	id = VIETmisc.8097
+	desc = VIETmisc.8097.desc
+	picture = GFX_evt_bad_news_female
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				trait = stressed
+				trait = depressed
+			}
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+	}
+	
+	option = { # a bad dream
+		name = VIETmisc.8097.a
+		prestige = -1
+		piety = -1
+		add_character_modifier = {
+			name = VIET_ominous_dream
+			duration = 365
+		}		
+	}	
+	option = { # say a prayer
+		name = VIETmisc.8097.b
+		piety = 3
+		prestige = -3
+		add_character_modifier = {
+			name = VIET_ominous_dream
+			duration = 365
+		}		
+	}	
+	option = { # Oh no!
+		name = VIETmisc.8097.c
+		prestige = -1
+		piety = -1
+		add_character_modifier = {
+			name = VIET_ominous_dream
+			duration = 365
+		}
+		random_list = {
+			60 = { }
+			15 = { add_trait = paranoid }
+			15 = { add_trait = stressed }
+			10 = { add_trait = craven }
+		}
+	}	
+}
+
+
+
+# Found a nice secret hiding spot
+character_event = {
+	id = VIETmisc.8098
+	desc = VIETmisc.8098.desc
+	picture = GFX_evt_garden
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+	}
+	
+	option = { # visit by myself
+		name = VIETmisc.8098.a
+		if = {
+			limit = {
+				trait = gregarious
+			}
+			random = {
+				remove_trait = gregarious
+				chance = 80
+			}
+		}
+		health = 0.5
+		piety = 10
+		add_character_modifier = {
+			name = VIET_secret_relax_spot
+			duration = 1825
+		}
+	}	
+	option = { # go with people
+		name = VIETmisc.8098.b
+		prestige = 10
+		if = {
+			limit = {
+				trait = shy
+			}
+			random = {
+				remove_trait = shy
+				chance = 75
+			}
+		}
+		else = {
+			random = {
+				add_trait = gregarious
+				chance = 75
+			}
+		}
+		any_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+			}
+			opinion = {
+				modifier = VIET_opinion_showed_secret_relax_spot
+				who = ROOT
+				years = 10
+			}			
+		}
+	}
+	option = { # go with lover
+		name = VIETmisc.8098.b
+		trigger = {
+			has_lover = yes
+			any_lover = {
+				is_pregnant = no
+				is_female = yes
+				NOR = {
+					trait = incapable
+					age = 45
+				}
+				is_abroad = no
+				in_command = no	
+			}
+		}
+		add_character_modifier = {
+			name = VIET_secret_relax_spot_sexy
+			duration = 1095
+		}
+		random_lover = {
+			limit = {
+				is_pregnant = no
+				is_female = yes
+				NOR = {
+					trait = incapable
+					age = 45
+				}
+				is_abroad = no
+				in_command = no	
+			}
+			opinion = {
+				modifier = VIET_opinion_showed_secret_relax_spot_lover
+				who = ROOT
+				years = 10
+			}
+			add_character_modifier = {
+				name = VIET_secret_relax_spot_sexy
+				duration = 1095
+			}
+			random = {
+				chance = 30
+				impregnate = ROOT
+			}			
+		}
+	}	
+}
+
+
+
+# Fun in the sun
+character_event = {
+	id = VIETmisc.8099
+	desc = VIETmisc.8099.desc
+	picture = GFX_evt_tropicana
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		capital_scope = {
+			port = yes
+			#Warm tropical region
+			OR = {
+				region = world_africa
+				region = world_india
+				region = world_middle_east
+				region = world_persia
+				region = world_asia_minor
+				region = world_europe_south
+				region = world_europe_west_iberia
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # visit by myself
+		name = VIETmisc.8099.a
+		add_character_modifier = {
+			name = VIET_fun_in_the_sun
+			duration = 365
+		}
+	}	
+	option = { # go with family
+		name = VIETmisc.8099.b
+		trigger = {
+			any_courtier = {
+				is_close_relative = ROOT
+				NOT = { trait = incapable }
+				is_abroad = no
+				in_command = no
+			}
+		}
+		any_courtier = {
+			limit = {
+				is_close_relative = ROOT
+				NOT = { trait = incapable }
+				is_abroad = no
+				in_command = no			
+			}
+			opinion = {
+				modifier = VIET_opinion_beach_trip
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_beach_trip
+				who = ROOT
+				years = 1
+			}
+			add_character_modifier = {
+				name = VIET_fun_in_the_sun
+				duration = 365
+			}			
+		}
+		add_character_modifier = {
+			name = VIET_fun_in_the_sun
+			duration = 365
+		}
+	}
+	option = { # get to know courtier
+		name = VIETmisc.8099.c
+		trigger = {
+			any_courtier = {
+				NOT = { trait = incapable }
+				opinion = { who = ROOT value = 0 }
+				is_abroad = no
+				in_command = no
+			}
+		}
+		random_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+				opinion = { who = ROOT value = 0 }
+				is_abroad = no
+				in_command = no	
+			}
+			opinion = {
+				modifier = VIET_opinion_beach_trip
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_beach_trip
+				who = ROOT
+				years = 1
+			}
+			add_character_modifier = {
+				name = VIET_fun_in_the_sun
+				duration = 365
+			}
+			random = {
+				add_friend = ROOT
+				chance = 40
+			}
+		}
+		add_character_modifier = {
+			name = VIET_fun_in_the_sun
+			duration = 365
+		}
+	}
+	option = { # go with lover
+		name = VIETmisc.8099.d
+		trigger = {
+			has_lover = yes
+			any_lover = {
+				is_pregnant = no
+				is_female = yes
+				NOR = {
+					trait = incapable
+					age = 45
+				}
+				is_abroad = no
+				in_command = no	
+			}
+		}
+		random_lover = {
+			limit = {
+				is_pregnant = no
+				is_female = yes
+				NOR = {
+					trait = incapable
+					age = 45
+				}
+				is_abroad = no
+				in_command = no	
+			}
+			opinion = {
+				modifier = VIET_opinion_beach_trip
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_beach_trip
+				who = ROOT
+				years = 1
+			}
+			add_character_modifier = {
+				name = VIET_fun_in_the_sun
+				duration = 365
+			}
+			random = {
+				chance = 30
+				impregnate = ROOT
+			}
+		}
+		add_character_modifier = {
+			name = VIET_fun_in_the_sun
+			duration = 365
+		}
+	}	
+}
+
+
+##################################################################
+# NIGHT
+##################################################################
+
+# Tripping and falling on the stairs at night
+character_event = {
+	id = VIETmisc.8100
+	desc = VIETmisc.8100.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8100.a
+		prestige = -3
+		random = {
+			add_trait = wounded
+			chance = 30
+		}
+	}	
+}
+
+
+
+# Youths prank a village, pretending to be shadow demons
+province_event = {
+	id = VIETmisc.8101
+	desc = VIETmisc.8101.desc
+	picture = GFX_evt_judged_by_ruler
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_youth_prank }
+		owner = {
+			is_nomadic = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 10000
+		modifier = {
+			factor = 1.5
+			NOT = { num_of_max_settlements = 5 }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { num_of_max_settlements = 3 }
+		}
+	}
+	
+
+	option = { # Who cares
+		name = VIETmisc.8101.a
+		owner = {
+			random = {
+				add_trait = arbitrary
+				chance = 30
+			}
+			if = {
+				limit = {
+					trait = wroth
+				}
+				random = {
+					remove_trait = wroth
+					chance = 75
+				}
+			}
+			add_character_modifier = {
+				name = the_merciful
+				duration = 730
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_youth_prank
+			duration = 365
+		}
+	}
+
+	option = { # Public Humiliation
+		name = VIETmisc.8101.b
+		owner = {
+			prestige = 10
+			random = {
+				add_trait = just
+				chance = 20
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_youth_prank
+			duration = 365
+		}
+	}
+
+	option = { # Imprison!
+		name = VIETmisc.8101.c
+		owner = {
+			prestige = 5
+			random_list = {
+				30 = { add_trait = just }
+				20 = { add_trait = wroth }
+				50 = { }
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_youth_prank
+			duration = 365
+		}
+	}
+
+	option = { # Execute!
+		name = VIETmisc.8101.d
+		owner = {
+			random_list = {
+				50 = { add_trait = cruel }
+				35 = { add_trait = wroth }
+				15 = { add_trait = arbitrary }
+			}
+			if = {
+				limit = {
+					trait = kind
+				}
+				remove_trait = kind
+			}
+			if = {
+				limit = {
+					trait = just
+				}
+				random = {
+					remove_trait = just
+					chance = 60
+				}
+			}
+			if = {
+				limit = {
+					trait = patient
+				}
+				random = {
+					remove_trait = patient
+					chance = 30
+				}
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_youth_prank
+			duration = 365
+		}
+	}
+}
+
+
+# Astronomer presents a star chart
+character_event = {
+	id = VIETmisc.8102
+	desc = VIETmisc.8102.desc
+	picture = GFX_evt_comet
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			is_dumb_trigger = yes
+		}		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			learning = 13
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { learning = 7}
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8102.a
+		add_artifact = VIET_star_chart
+	}
+	option = { # don't want
+		name = VIETmisc.8102.b
+	}	
+}
+
+
+
+# Child hears loud wind at night
+character_event = {
+	id = VIETmisc.8103
+	desc = VIETmisc.8103.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+	
+	min_age = 4
+	max_age = 14
+
+	#trigger = {
+	#	has_guardian = yes
+	#}
+	
+	weight_multiplier = {
+		days = 1
+
+		modifier = {
+			factor = 1.2
+			trait = timid
+		}
+		modifier = {
+			factor = 0.8
+			trait = curious
+		}
+		modifier = {
+			factor = 1.2
+			trait = fussy
+		}
+		modifier = {
+			factor = 0.8
+			trait = affectionate
+		}
+		modifier = {
+			factor = 1.2
+			trait = playful
+		}
+		modifier = {
+			factor = 0.8
+			trait = indolent
+		}
+	}
+	
+	option = { # hide behind covers
+		name = VIETmisc.8103.a
+		random = {
+			add_trait = timid
+			chance = 20
+		}
+	}		
+	option = { # it's just noise
+		name = VIETmisc.8103.b
+		random = {
+			add_trait = indolent
+			chance = 20
+		}
+	}		
+	option = { # pray!
+		name = VIETmisc.8103.c
+		random = {
+			add_trait = idolizer
+			chance = 20
+		}
+	}		
+	option = { # pray!
+		name = VIETmisc.8103.d
+		random = {
+			add_trait = curious
+			chance = 20
+		}
+	}	
+}
+
+
+# Child wants a midnight snack
+character_event = {
+	id = VIETmisc.8104
+	desc = VIETmisc.8104.desc
+	picture = GFX_evt_artemis_moon
+	
+	is_triggered_only = yes
+	
+	min_age = 4
+	max_age = 14
+
+	#trigger = {
+	#	has_guardian = yes
+	#}
+	
+	weight_multiplier = {
+		days = 1
+
+		modifier = {
+			factor = 1.2
+			trait = playful
+		}
+		modifier = {
+			factor = 0.8
+			trait = indolent
+		}
+		modifier = {
+			factor = 1.2
+			trait = fussy
+		}
+		modifier = {
+			factor = 0.8
+			trait = timid
+		}
+		modifier = {
+			factor = 1.2
+			trait = rowdy
+		}
+		modifier = {
+			factor = 0.8
+			trait = conscientious
+		}
+	}
+	
+	option = { # go get food
+		name = VIETmisc.8104.a
+		random_list = {
+			25 = { add_trait = playful }
+			25 = { add_trait = willful }
+			25 = { add_trait = conscientious }
+			25 = { }
+		}
+	}
+	
+	option = { # Call a servant
+		name = VIETmisc.8104.b
+		random_list = {
+			25 = { add_trait = fussy }
+			25 = { add_trait = haughty }
+			25 = { add_trait = rowdy }
+			25 = { }
+		}
+	}	
+	
+	option = { # no
+		name = VIETmisc.8104.c
+		random_list = {
+			25 = { add_trait = indolent }
+			25 = { add_trait = timid }
+			25 = { add_trait = brooding }
+			25 = { }
+		}
+	}	
+	
+	option = { # watch the night sky
+		name = VIETmisc.8104.d
+		random_list = {
+			25 = { add_trait = idolizer }
+			25 = { add_trait = curious }
+			25 = { add_trait = affectionate }
+			25 = { }
+		}
+	}	
+}
+
+
+# Knock some things over at night
+character_event = {
+	id = VIETmisc.8105
+	desc = VIETmisc.8105.desc
+	picture = GFX_evt_bad_news_female
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			is_dumb_trigger = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_smart_trigger = yes
+		}		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8105.a
+		add_character_modifier = {
+			name = VIET_awkward_encounter_public
+			duration = 135
+		}
+	}
+}
+
+
+
+
+# Ghostly apparitions no longer appear after sunset
+province_event = {
+	id = VIETmisc.8106
+	desc = VIETmisc.8106.desc
+	picture = GFX_evt_artemis_moon
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_night_ghosts_disappear }
+	}
+	
+	mean_time_to_happen = {
+		months = 7000
+		#modifier = {
+		#	factor = 1.5
+		#	NOT = { num_of_max_settlements = 5 }
+		#}
+		#modifier = {
+		#	factor = 1.2
+		#	NOT = { num_of_max_settlements = 3 }
+		#}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8106.a
+		add_province_modifier = {
+			name = VIET_province_night_ghosts_disappear
+			duration = 666
+		}
+	}	
+
+	option = { # doubt
+		name = VIETmisc.8106.b
+		owner = {
+			random_list = {
+				20 = { add_trait = brave }
+				20 = { add_trait = cynical }
+				10 = { add_trait = proud }
+				50 = { }
+			}
+			if = {
+				limit = {
+					trait = craven
+				}
+				random = {
+					remove_trait = craven
+					chance = 40
+				}
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_night_ghosts_disappear
+			duration = 666
+		}
+	}	
+
+	option = { # celebrate
+		name = VIETmisc.8106.c
+		owner = {
+			random_list = {
+				20 = { add_trait = content }
+				10 = { add_trait = trusting }
+				10 = { add_trait = patient }
+				50 = { }
+			}
+			if = {
+				limit = {
+					trait = craven
+				}
+				random = {
+					remove_trait = craven
+					chance = 30
+				}
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_night_ghosts_disappear
+			duration = 666
+		}
+	}
+}
+
+
+
+# Yet another sleep paralysis event (darn, I have a lot of these, don't I?)
+province_event = {
+	id = VIETmisc.8107
+	desc = VIETmisc.8107.desc
+	picture = GFX_evt_succubus
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_succubus_night_paralysis }
+	}
+	
+	mean_time_to_happen = {
+		months = 7000
+		#modifier = {
+		#	factor = 1.5
+		#	NOT = { num_of_max_settlements = 5 }
+		#}
+		#modifier = {
+		#	factor = 1.2
+		#	NOT = { num_of_max_settlements = 3 }
+		#}
+	}
+	
+
+	option = { # uh oh
+		name = VIETmisc.8107.a
+		add_province_modifier = {
+			name = VIET_province_succubus_night_paralysis
+			duration = 999
+		}
+	}	
+	option = { # send in holy people to take care of it
+		name = VIETmisc.8107.b
+		owner = {
+			piety = -20
+			prestige = 10
+			if = {
+				limit = {
+					trait = cynical
+				}
+				remove_trait = cynical
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_succubus_night_paralysis
+			duration = 365
+		}
+	}		
+	option = { # horny
+		name = VIETmisc.8107.c
+		trigger = {
+			owner = {
+				NOR = {
+					trait = chaste
+					trait = celibate
+					trait = eunuch
+				}
+			}
+		}
+		owner = {
+			random = {
+				add_trait = lustful
+				chance = 15
+			}
+			add_character_modifier = {
+				name = lustful_ruler
+				duration = 365
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_succubus_night_paralysis
+			duration = 999
+		}
+	}		
+	option = { # Scholars know this is night terror
+		name = VIETmisc.8107.d
+		tooltip_info = learning
+		trigger = {
+			owner = {
+				learning = 11
+				NOT = { trait = scholar }
+			}
+		}
+		owner = {
+			prestige = 10
+		}
+		add_province_modifier = {
+			name = VIET_province_succubus_night_paralysis
+			duration = 666
+		}					
+	}		
+	option = { # Scholars know this is night terror
+		name = VIETmisc.8107.d
+		tooltip_info = scholar
+		trigger = {
+			owner = {
+				trait = scholar
+			}
+		}
+		owner = {
+			prestige = 10
+		}
+		add_province_modifier = {
+			name = VIET_province_succubus_night_paralysis
+			duration = 666
+		}			
+	}	
+}
+
+
+
+# Does the blanket go over or under one's chin?
+character_event = {
+	id = VIETmisc.8108
+	desc = VIETmisc.8108.desc
+	picture = GFX_evt_bad_news_female
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+	}
+	
+	option = { # over
+		name = VIETmisc.8108.a
+		prestige = 1
+	}	
+	option = { # under
+		name = VIETmisc.8108.b
+		piety = 1
+	}
+}
+
+
+# Choking on food at night
+character_event = {
+	id = VIETmisc.8109
+	desc = VIETmisc.8109.desc
+	picture = GFX_evt_artemis_moon
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			is_dumb_trigger = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_smart_trigger = yes
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+	}
+	
+	option = { # uh oh
+		name = VIETmisc.8109.a
+		prestige = -3
+		random = {
+			death = {
+				death_reason = death_VIET_choking_food
+			}	
+			chance = 10
+		}
+	}
+}
+
+
+# big dipper at night
+character_event = {
+	id = VIETmisc.8110
+	desc = VIETmisc.8110.desc
+	picture = GFX_evt_artemis_moon
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+		modifier = {
+			factor = 1.2
+			learning = 11
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { learning = 7 }
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8110.a
+		add_character_modifier = {
+			name = VIET_nightgazer
+			duration = 365
+		}
+	}
+}
+
+
+
+# Using Valerian to cure insomnia
+character_event = {
+	id = VIETmisc.8111
+	desc = VIETmisc.8111.desc
+	picture = GFX_evt_drinking_tea
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = temperate
+		}
+		modifier = {
+			factor = 0.8
+			trait = gluttonous
+		}
+	}
+	
+	option = { # purchase some
+		name = VIETmisc.8111.a
+		wealth = -5
+		add_character_modifier = {
+			name = VIET_valerian_herb
+			duration = 730
+		}
+		add_character_modifier = {
+			name = VIET_lack_of_good_sleep
+			duration = 730
+		}
+	}	
+	option = { # don't purchase
+		name = VIETmisc.8111.b
+		add_character_modifier = {
+			name = VIET_lack_of_good_sleep
+			duration = 730
+		}
+	}
+}
+
+
+
+# Grave robbers reported
+character_event = {
+	id = VIETmisc.8112
+	desc = VIETmisc.8112.desc
+	picture = GFX_evt_village_at_night
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_ancient_pottery }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+	}
+	
+	option = { # hunt them down
+		name = VIETmisc.8112.a
+		wealth = -10
+		prestige = -5
+		piety = 5
+		random_list = {
+			25 = { add_trait = just }
+			15 = { add_trait = diligent }
+			10 = { add_trait = zealous }
+			50 = { }
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = -1
+		}
+		narrative_event = { id = VIETmisc.8113 tooltip = VIETmisc.8113.tooltip days = 2 random = 10 }
+	}	
+	option = { # don't care
+		name = VIETmisc.8112.b
+		piety = -5
+		prestige = -5
+		if = {
+			limit = {
+				trait = just
+			}
+			random = {
+				remove_trait = just
+				chance = 66
+			}
+		}
+		else = {
+			random = {
+				add_trait = slothful
+				chance = 25
+			}
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = 1
+		}
+	}
+}
+
+# Grave robbers reported - captured!
+narrative_event = {
+	id = VIETmisc.8113
+	title = VIETmisc.8113.title
+	desc = VIETmisc.8113.desc
+	picture = GFX_evt_gravedigger_hf
+	
+	is_triggered_only = yes
+	
+	option = { # Got a pot!
+		name = VIETmisc.8113.a
+		add_artifact = VIET_ancient_pottery
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}	
+	}	
+}
+
+
+
+# Don't be a dumbass and try to prove your masculinity by swimming around dangerous waters
+character_event = {
+	id = VIETmisc.8114
+	desc = VIETmisc.8114.desc
+	picture = GFX_evt_coast_night
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_character_flag = VIET_servant_drowned_because_of_ambition }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}	
+	
+	immediate = {
+		set_character_flag = VIET_servant_drowned_because_of_ambition
+	}
+	
+	option = { #sad, sad
+		name = VIETmisc.8114.a
+
+		add_character_modifier = {
+			name = VIET_sobering_lesson
+			duration = 365
+		}
+		
+		any_courtier = {
+			limit = {
+				age = 10
+				NOT = { trait = ambitious }
+				NOT = { trait = cruel }
+				NOT = { trait = cynical }
+				NOT = { trait = proud }
+				NOT = { trait = haughty }
+			}
+			add_character_modifier = {
+				name = VIET_sobering_lesson
+				duration = 365
+			}		
+		}
+		
+	}	
+	
+	option = { # weakling!
+		name = VIETmisc.8114.b
+
+		add_character_modifier = {
+			name = VIET_no_empathy
+			duration = 365
+		}
+		
+		any_courtier = {
+			limit = {
+				age = 10
+				NOT = { trait = ambitious }
+				NOT = { trait = cruel }
+				NOT = { trait = cynical }
+				NOT = { trait = proud }
+				NOT = { trait = haughty }
+			}
+			add_character_modifier = {
+				name = VIET_sobering_lesson
+				duration = 365
+			}		
+		}
+		
+	}
+	
+	option = { # Imprison the friend!
+		name = VIETmisc.8114.c
+		
+		prestige = 10
+		
+		random_list = {
+			20 = { add_trait = arbitrary }
+			20 = { add_trait = wroth }
+			20 = { add_trait = just }
+			40 = { }
+		}
+
+		add_character_modifier = {
+			name = VIET_sobering_lesson
+			duration = 365
+		}
+		
+		any_courtier = {
+			limit = {
+				age = 10
+				NOT = { trait = ambitious }
+				NOT = { trait = cruel }
+				NOT = { trait = cynical }
+				NOT = { trait = proud }
+				NOT = { trait = haughty }
+			}
+			add_character_modifier = {
+				name = VIET_sobering_lesson
+				duration = 365
+			}		
+		}
+		
+	}
+	
+}
+
+
+# Go see the ocean at night
+character_event = {
+	id = VIETmisc.8115
+	desc = VIETmisc.8115.desc
+	picture = GFX_evt_coast_night
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}
+	
+	option = { #sad, sad
+		name = VIETmisc.8115.a
+		piety = 2		
+	}
 }

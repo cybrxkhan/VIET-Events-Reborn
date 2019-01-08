@@ -28,3 +28,12 @@ VIET_opinion_fruit_loop_poops_advice = {
 VIET_opinion_reasonable_advice = {
 	opinion = 15
 }
+VIET_opinion_showed_secret_relax_spot = {
+	opinion = 20
+}
+VIET_opinion_showed_secret_relax_spot_lover = {
+	opinion = 30
+}
+VIET_opinion_beach_trip = {
+	opinion = 20
+}

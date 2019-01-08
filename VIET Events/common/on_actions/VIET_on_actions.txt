@@ -34,6 +34,10 @@ on_yearly_pulse = {
 			100 = VIETnam.94 # Deceitful - never show true self
 			100 = VIETnam.95 # Honest - criticize a bad merchant
 			100 = VIETnam.96 # Cruel - your character is a tyrant			
+			#Old age
+			100 = VIETnam.107	# Old person complains about youth			
+			100 = VIETnam.108	# Old person worrying about the afterlife		
+			100 = VIETnam.109	# Old person doesn't understand new slang		
 			#Food
 			100 = VIETnam.193	# Sour Kefir
 			100 = VIETnam.194	# North African mint tea ceremony
@@ -54,6 +58,9 @@ on_yearly_pulse = {
 			#Dreams
 			100 = VIETnam.217	# Good dream
 			100 = VIETnam.218	# Battle dream
+			#Bugs
+			100 = VIETnam.337	# Crickets at night
+			100 = VIETnam.341	# Courtier likes to smash and kill bugs
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.1 	# Something in your hair
@@ -142,6 +149,14 @@ on_yearly_pulse = {
 			100 = VIETmisc.8082 # Woke up early
 			100 = VIETmisc.8083 # Traveling under the hot sun
 			100 = VIETmisc.8085 # Relaxing under the sun
+			#Shadow
+			100 = VIETmisc.8090 # Did my shadow move?
+			100 = VIETmisc.8091 # Bored ruler watching people's shadows
+			100 = VIETmisc.8092 # Inspecting troops under the hot sun - rest under shade or not?
+			#Night
+			100 = VIETmisc.8105 # Knock some things over at night
+			100 = VIETmisc.8108 # Does the blanket go over or under one's chin?
+			100 = VIETmisc.8110 # Looking at the constellations at night
 		}
 		
 	}
@@ -156,6 +171,9 @@ on_bi_yearly_pulse = {
 			
 			15000 = 0 #May need to adjust
 			
+			#Old Age
+			100 = VIETnam.106	# Can't hunt as much in old age		
+			100 = VIETnam.110	# Old person feels weaker and weaker as they get older and older	
 			#Food
 			100 = VIETnam.191	# Byzantine cook
 			100 = VIETnam.192	# Forks are terrible!
@@ -177,6 +195,15 @@ on_bi_yearly_pulse = {
 			100 = VIETnam.207	# The Scorpion
 			#Dreams
 			100 = VIETnam.221	# Dream of temptation
+			#Bad
+			100 = VIETnam.331	# Spoiled baklava presented to a dignitary
+			100 = VIETnam.332	# Innocent man executed
+			100 = VIETnam.333	# Say curse words at court
+			100 = VIETnam.335	# Walk into court naked
+			#Bugs
+			100 = VIETnam.338	# Stung by a bee
+			100 = VIETnam.339	# Ladybugs are good luck
+			100 = VIETnam.340	# Egyptian dung beetles
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.0 	# What is greater, the real or the fake?
@@ -238,6 +265,13 @@ on_bi_yearly_pulse = {
 			#Sun
 			100 = VIETmisc.8088 # Buy some Egyptian sunscreen?
 			100 = VIETmisc.8089 # Courtier stared at the sun for too long
+			#Shadow
+			100 = VIETmisc.8095 # Someone at the market wears a black hoodie
+			100 = VIETmisc.8097 # Another sleep paralysis event
+			#Night
+			100 = VIETmisc.8100 # Tripping and falling on the stairs at night
+			100 = VIETmisc.8111 # Using Valerian to cure insomnia
+			100 = VIETmisc.8115 # Go see the ocean at night
 		
 		}
 		
@@ -264,6 +298,8 @@ on_five_year_pulse = {
 			#Dreams
 			100 = VIETnam.219	# Dagoth Ur dream
 			100 = VIETnam.220	# Dream of Rome
+			#Bad
+			100 = VIETnam.334	# Bad business associate screws you over
 			
 			#Swansong Events (Swansong no more)
 			100 = VIETScarboroughFair.10 	# who cut the cheese?
@@ -296,6 +332,7 @@ on_five_year_pulse = {
 			100 = VIETmisc.8017 # Rumors about a powerful empress
 			100 = VIETmisc.8020 # Wonderful singer
 			100 = VIETmisc.8029 # Flying contraptions
+			100 = VIETmisc.8034 # Farmer finds an ancient pot
 			100 = VIETmisc.8035 # Magnifying glass
 			100 = VIETmisc.8036 # Calipers
 			100 = VIETmisc.8037 # Spirited Chinese lady visits court
@@ -310,6 +347,15 @@ on_five_year_pulse = {
 			100 = VIETmisc.8084 # Character attends a Chinese play about Sun Wukong, the Monkey King (meta pun on Sun)
 			100 = VIETmisc.8086 # Settler stepped on a scorpion
 			100 = VIETmisc.8087 # Zoroastrians and Manicheans view the planets and sun and moon with suspicion
+			#Shadow
+			100 = VIETmisc.8096 # Shadow of the Colossus
+			100 = VIETmisc.8098 # Found a nice secret hiding spot
+			100 = VIETmisc.8099 # Fun in the sun
+			#Night
+			100 = VIETmisc.8102 # Astronomer presents a star chart
+			100 = VIETmisc.8109 # Choking on food at night
+			100 = VIETmisc.8112 # Grave robbers reported
+			100 = VIETmisc.8114 # Servant drowns when he tries to swim in the ocean at night
 			
 		
 		}
@@ -351,11 +397,16 @@ on_yearly_childhood_pulse = {
 	random_events = {
 		VIET_child_random = {
 			delay = 8
-			8000 = 0
+			7000 = 0
 			#Alcohol
 			100 = VIETnam.187		# Child accidentally consumes alcohol
+			#Bugs
+			100 = VIETnam.336		# Child likes eating worms
 			#Prophecy
 			100 = VIETmisc.8081		# What to be when I grow up?
+			#Night
+			100 = VIETmisc.8103		# Child hears loud wind at night
+			100 = VIETmisc.8104		# Child wants a midnight snack
 		
 		}
 	}
