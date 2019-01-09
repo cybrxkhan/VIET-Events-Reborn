@@ -102,7 +102,7 @@ pagan_war_blessing = {
 }
 pagan_peace_blessing = {
 	general_opinion = 5
-	local_revolt_risk = -0.1
+	local_revolt_risk = -0.05
 	icon = 18
 }
 pagan_luck_blessing = {
@@ -355,7 +355,7 @@ VIET_new_expensive_cosmetics = {
 }
 VIET_leader_who_cares = {
 	diplomacy = 2
-	global_revolt_risk = -0.1
+	global_revolt_risk = -0.05
 	icon = 11
 }
 VIET_omelettes_forever = {
@@ -821,7 +821,7 @@ VIET_im_curious = { #cf chitanda
 }
 VIET_leader_angered_peasants = {
 	monthly_character_prestige = -0.05
-	global_revolt_risk = 0.1
+	global_revolt_risk = 0.03
 	icon = 106
 }
 VIET_pun_lover = {

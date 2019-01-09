@@ -118,24 +118,24 @@ VIET_helped_emergency_quickly = {
 	icon = 12
 }
 VIET_ignored_emergency = {
-	global_revolt_risk = 0.04
+	global_revolt_risk = 0.03
 	monthly_character_prestige = -0.03
 	monthly_character_piety = -0.03
 	icon = 30
 }
 VIET_province_mysterious_colors = {
-	global_revolt_risk = 0.01
+	local_revolt_risk = 0.01
 	disease_defence = 0.01
 	icon = 81
 }
 VIET_famous_bard_province = {
-	global_revolt_risk = -0.05
+	local_revolt_risk = -0.05
 	land_morale = 0.1
 	monthly_character_prestige = 0.05
 	icon = 18
 }
 VIET_province_haunted_ship = {
-	global_revolt_risk = 0.01
+	local_revolt_risk = 0.01
 	land_morale = -0.01
 	tradevalue = -2
 	icon = 62
@@ -375,7 +375,7 @@ VIET_auriels_ascension = {
 	icon = 17
 }
 VIET_repressing_cult = {
-	local_revolt_risk = 0.04
+	local_revolt_risk = 0.03
 	monthly_character_prestige = 0.05
 	levy_reinforce_rate = 0.01
 	icon = 76
@@ -492,7 +492,7 @@ VIET_province_youth_prank = {
 	icon = 106
 }
 VIET_province_shadow_hysteria = {
-	local_revolt_risk = 0.02
+	local_revolt_risk = 0.01
 	local_tax_modifier = -0.01
 	icon = 42
 }
