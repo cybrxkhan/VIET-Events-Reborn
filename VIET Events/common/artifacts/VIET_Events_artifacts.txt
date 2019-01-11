@@ -19,7 +19,7 @@ VIET_ancient_pottery = {
 	learning = 1
 	quality = 2
 	#stacking = no
-	flags = { VIET_clutter_flag }
+	flags = { VIET_clutter_flag VIET_ancient_artifact }
 	picture = "GFX_VIET_ancient_pottery"
 	slot = VIET_clutter
 }
@@ -84,7 +84,7 @@ VIET_ostracon = {
 	learning = 1
 	quality = 2
 	#stacking = no
-	flags = { VIET_clutter_flag }
+	flags = { VIET_clutter_flag VIET_ancient_artifact }
 	picture = "GFX_VIET_ostracon"
 	slot = VIET_clutter
 }
@@ -93,7 +93,7 @@ VIET_nok_terracotta_figure = {
 	intrigue = 1
 	quality = 2
 	#stacking = no
-	flags = { VIET_clutter_flag }
+	flags = { VIET_clutter_flag VIET_ancient_artifact }
 	picture = "GFX_VIET_nok_terracotta_figure"
 	slot = VIET_clutter
 }
@@ -102,7 +102,7 @@ VIET_cuneiform_tablet = {
 	intrigue = 1
 	quality = 2
 	#stacking = no
-	flags = { VIET_clutter_flag }
+	flags = { VIET_clutter_flag VIET_ancient_artifact }
 	picture = "GFX_VIET_cuneiform_tablet"
 	slot = VIET_clutter
 }
@@ -142,15 +142,6 @@ VIET_goblet = {
 	picture = "GFX_VIET_goblet"
 	slot = VIET_clutter
 }
-VIET_decorative_lute = {
-	diplomacy = 1
-	learning = 1
-	quality = 3
-	#stacking = no
-	flags = { VIET_clutter_flag }
-	picture = "GFX_VIET_decorative_lute"
-	slot = VIET_clutter
-}
 VIET_beautiful_pitcher = {
 	monthly_character_prestige = 0.01
 	quality = 3
@@ -159,10 +150,22 @@ VIET_beautiful_pitcher = {
 	picture = "GFX_VIET_beautiful_pitcher"
 	slot = VIET_clutter
 }
+VIET_decorative_lute = {
+	diplomacy = 1
+	learning = 1
+	sex_appeal_opinion = 5
+	quality = 3
+	#stacking = no
+	flags = { VIET_clutter_flag }
+	picture = "GFX_VIET_decorative_lute"
+	slot = VIET_clutter
+}
 VIET_secure_chest = {
 	intrigue = 2
-	plot_power_modifier = 0.02
-	defensive_plot_power_modifier = 0.02
+	assassinate_chance_modifier = 0.02
+	arrest_chance_modifier = 0.02
+	plot_power_modifier = 0.04
+	defensive_plot_power_modifier = 0.04
 	quality = 3
 	#stacking = no
 	flags = { VIET_clutter_flag }
