@@ -10,7 +10,7 @@
 # 8082-8089: Sun
 # 8090-8099: Shadow
 # 8100-8115: Night
-#
+# 8116-????: Clutter Artifacts
 #
 #####################################################################
 
@@ -3570,6 +3570,12 @@ character_event = {
 		days = 1
 			
 		modifier = {
+			factor = 0.1
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}			
+		modifier = {
 			factor = 1.2
 			trait = diligent
 		}
@@ -3661,6 +3667,12 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 			
+		modifier = {
+			factor = 0.1
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
 		modifier = {
 			factor = 1.2
 			trait = gregarious
@@ -3757,8 +3769,14 @@ character_event = {
 	}
 	
 	weight_multiplier = {
-		days = 1
-			
+		days = 1		
+		
+		modifier = {
+			factor = 0.1
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
 		modifier = {
 			factor = 1.2
 			trait = diligent
@@ -3811,9 +3829,6 @@ character_event = {
 		name = VIETmisc.8035.a
 		wealth = -5
 		add_artifact = VIET_magnifying_glass
-        #new_artifact = {
-		#	set_creation_date = 1.1.1
-		#}
 	}	
 	option = { # No need
 		name = VIETmisc.8035.b
@@ -3847,6 +3862,12 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 			
+		modifier = {
+			factor = 0.1
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
 		modifier = {
 			factor = 1.2
 			trait = slothful
@@ -3886,9 +3907,6 @@ character_event = {
 		name = VIETmisc.8036.a
 		prestige = -5
 		add_artifact = VIET_calipers
-        #new_artifact = {
-		#	set_creation_date = 1.1.1
-		#}
 	}	
 	option = { # No need
 		name = VIETmisc.8036.b
@@ -5170,7 +5188,7 @@ character_event = {
 }
 
 ###########################################################
-# INSPIRED BY OBLIVION'S SOUNDTRACK 8053-
+# INSPIRED BY OBLIVION'S SOUNDTRACK 8053-8064
 ###########################################################
 
 # Through the Valleys - Dream of Lake Rumare
@@ -6456,7 +6474,7 @@ character_event = {
 
 ####################################################################
 #
-# PROPHECY AND FUTURE
+# PROPHECY AND FUTURE 8065-8081
 #
 # Events about the future - whether the prophecies are true or not
 #
@@ -7833,7 +7851,7 @@ character_event = {
 
 
 ########################################################
-# SUN
+# SUN 8082-8089
 ########################################################
 
 
@@ -8604,7 +8622,7 @@ character_event = {
 
 
 ####################################################################
-# SHADOW / SHADE 
+# SHADOW / SHADE 8090-8099
 ####################################################################
 
 
@@ -9719,7 +9737,7 @@ character_event = {
 
 
 ##################################################################
-# NIGHT
+# NIGHT 8100-8115
 ##################################################################
 
 # Tripping and falling on the stairs at night
@@ -9934,7 +9952,13 @@ character_event = {
 	
 	weight_multiplier = {
 		days = 1
-		
+			
+		modifier = {
+			factor = 0.1
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}			
 		modifier = {
 			factor = 1.2
 			trait = erudite
@@ -10757,7 +10781,13 @@ character_event = {
 	
 	weight_multiplier = {
 		days = 1
-		
+			
+		modifier = {
+			factor = 0.1
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}			
 		modifier = {
 			factor = 1.2
 			trait = ambitious

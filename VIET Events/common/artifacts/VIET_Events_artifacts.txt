@@ -1,12 +1,17 @@
-### Generic ###
+### Clutter ###
+
+slots = {
+	VIET_clutter = 3
+}
 
 VIET_abacus = {
 	stewardship = 1
 	learning = 1
 	quality = 1
 	#stacking = no
-	#flags = { VIET_abacus }
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_abacus"
+	slot = VIET_clutter
 }
 VIET_ancient_pottery = {
 	monthly_character_prestige = 0.02
@@ -14,33 +19,43 @@ VIET_ancient_pottery = {
 	learning = 1
 	quality = 2
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_ancient_pottery"
+	slot = VIET_clutter
 }
 VIET_calipers = {
 	stewardship = 1
 	quality = 1
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_calipers"
+	slot = VIET_clutter
 }
 VIET_hourglass = {
 	stewardship = 1
 	intrigue = 1
 	quality = 1
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_hourglass"
+	slot = VIET_clutter
 }
 VIET_magnifying_glass = {
 	intrigue = 1
 	learning = 1
 	quality = 2
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_magnifying_glass"
+	slot = VIET_clutter
 }
 VIET_nutcracker = {
 	monthly_character_prestige = 0.01
 	quality = 1
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_nutcracker"
+	slot = VIET_clutter
 }
 VIET_oblivion_dream_book = {
 	monthly_character_prestige = 0.02
@@ -60,34 +75,44 @@ VIET_star_chart = {
 	learning = 1
 	quality = 2
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_star_chart"
+	slot = VIET_clutter
 }
 VIET_ostracon = {
 	monthly_character_prestige = 0.02
 	learning = 1
 	quality = 2
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_ostracon"
+	slot = VIET_clutter
 }
 VIET_nok_terracotta_figure = {
 	monthly_character_prestige = 0.05
 	intrigue = 1
 	quality = 2
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_nok_terracotta_figure"
+	slot = VIET_clutter
 }
 VIET_cuneiform_tablet = {
 	monthly_character_prestige = 0.05
 	intrigue = 1
 	quality = 2
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_cuneiform_tablet"
+	slot = VIET_clutter
 }
 VIET_wolf_pelt = {
 	monthly_character_prestige = 0.03
 	quality = 1
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_wolf_pelt"
+	slot = VIET_clutter
 }
 VIET_silverware_set = {
 	monthly_character_prestige = 0.1
@@ -95,34 +120,44 @@ VIET_silverware_set = {
 	diplomacy = 2
 	quality = 2
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_silverware_set"
+	slot = VIET_clutter
 }
 VIET_exotic_quill_pen = {
 	monthly_character_prestige = 0.02
 	diplomacy = 1
 	quality = 2
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_exotic_quill_pen"
+	slot = VIET_clutter
 }
 VIET_goblet = {
 	intrigue = 1
 	defensive_plot_power_modifier = 0.05
 	quality = 1
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_goblet"
+	slot = VIET_clutter
 }
 VIET_decorative_lute = {
 	diplomacy = 1
 	learning = 1
 	quality = 3
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_decorative_lute"
+	slot = VIET_clutter
 }
 VIET_beautiful_pitcher = {
 	monthly_character_prestige = 0.01
 	quality = 3
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_beautiful_pitcher"
+	slot = VIET_clutter
 }
 VIET_secure_chest = {
 	intrigue = 2
@@ -130,5 +165,7 @@ VIET_secure_chest = {
 	defensive_plot_power_modifier = 0.02
 	quality = 3
 	#stacking = no
+	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_secure_chest"
+	slot = VIET_clutter
 }
