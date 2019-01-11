@@ -62,3 +62,73 @@ VIET_star_chart = {
 	#stacking = no
 	picture = "GFX_VIET_star_chart"
 }
+VIET_ostracon = {
+	monthly_character_prestige = 0.02
+	learning = 1
+	quality = 2
+	#stacking = no
+	picture = "GFX_VIET_ostracon"
+}
+VIET_nok_terracotta_figure = {
+	monthly_character_prestige = 0.05
+	intrigue = 1
+	quality = 2
+	#stacking = no
+	picture = "GFX_VIET_nok_terracotta_figure"
+}
+VIET_cuneiform_tablet = {
+	monthly_character_prestige = 0.05
+	intrigue = 1
+	quality = 2
+	#stacking = no
+	picture = "GFX_VIET_cuneiform_tablet"
+}
+VIET_wolf_pelt = {
+	monthly_character_prestige = 0.03
+	quality = 1
+	#stacking = no
+	picture = "GFX_VIET_wolf_pelt"
+}
+VIET_silverware_set = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = -0.05
+	diplomacy = 2
+	quality = 2
+	#stacking = no
+	picture = "GFX_VIET_silverware_set"
+}
+VIET_exotic_quill_pen = {
+	monthly_character_prestige = 0.02
+	diplomacy = 1
+	quality = 2
+	#stacking = no
+	picture = "GFX_VIET_exotic_quill_pen"
+}
+VIET_goblet = {
+	intrigue = 1
+	defensive_plot_power_modifier = 0.05
+	quality = 1
+	#stacking = no
+	picture = "GFX_VIET_goblet"
+}
+VIET_decorative_lute = {
+	diplomacy = 1
+	learning = 1
+	quality = 3
+	#stacking = no
+	picture = "GFX_VIET_decorative_lute"
+}
+VIET_beautiful_pitcher = {
+	monthly_character_prestige = 0.01
+	quality = 3
+	#stacking = no
+	picture = "GFX_VIET_beautiful_pitcher"
+}
+VIET_secure_chest = {
+	intrigue = 2
+	plot_power_modifier = 0.02
+	defensive_plot_power_modifier = 0.02
+	quality = 3
+	#stacking = no
+	picture = "GFX_VIET_secure_chest"
+}

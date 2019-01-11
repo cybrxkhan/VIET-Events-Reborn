@@ -14,4 +14,24 @@ VIET_oblivion_dream_book;Dreams of Another World;Rêves d'un autre monde;;;;;;;;;
 VIET_oblivion_dream_book_desc;This scroll recounts a dream [From.OriginalOwner.GetTitledName] had where [From.OriginalOwner.GetSheHe] helped a long-lost Prince and his allies defend their home and Empire from the hordes of hell led by [From.OriginalOwner.Religion.GetRandomEvilGodName]!;Ce parchemin raconte un rêve de [From.OriginalOwner.GetTitledName] où [From.OriginalOwner.GetSheHe] a aidé un prince perdu depuis longtemps et ses alliés à défendre leur maison et leur Empire des hordes de l'enfer dirigées par [From.OriginalOwner.Religion.GetRandomEvilGodName]!;;;;;;;;;;;;x
 VIET_star_chart;Star Chart;Carte d'étoile;;;;;;;;;;;;x
 VIET_star_chart_desc;A piece of parchment depicting the positions of various celestial bodies.;Un morceau de parchemin décrivant les positions de divers corps célestes.;;;;;;;;;;;;x
+VIET_ostracon;Ancient Ostracon;xxxxx;;;;;;;;;;;;x
+VIET_ostracon_desc;A shard of pottery of stone with an ancient inscription on it.;xxxxx;;;;;;;;;;;;x
+VIET_nok_terracotta_figure;African Terracotta Figure;xxxxx;;;;;;;;;;;;x
+VIET_nok_terracotta_figure_desc;A small clay statue found in West Africa, probably made by some long-lost ancient peoples.;xxxxx;;;;;;;;;;;;x
+VIET_cuneiform_tablet;Cuneiform Tablet;xxxxx;;;;;;;;;;;;x
+VIET_cuneiform_tablet_desc;A cuneiform tablet made by someone from one of the many ancient civilizations of the Middle East.;xxxxx;;;;;;;;;;;;x
+VIET_wolf_pelt;Wolf Pelt;xxxxx;;;;;;;;;;;;x
+VIET_wolf_pelt_desc;A wolf pelt used as a charming house decoration, or, alternatively, as a body warmer.;xxxxx;;;;;;;;;;;;x
+VIET_silverware_set;Extravagant Silverware Set;xxxxx;;;;;;;;;;;;x
+VIET_silverware_set_desc;A set of silverware that shows how elegant, fashionable, and snobby its owner is.;xxxxx;;;;;;;;;;;;x
+VIET_exotic_quill_pen;Exotic Quill Pen;xxxxx;;;;;;;;;;;;x
+VIET_exotic_quill_pen_desc;This quill pen is made using the feather of a bird from a faraway, exotic realm. Rumor has it that bird is now extinct.;xxxxx;;;;;;;;;;;;x
+VIET_goblet;Personal Goblet of [From.OriginalOwner.GetTitledName];xxxxx;;;;;;;;;;;;x
+VIET_goblet_desc;It's better to drink from a cup you trust.;xxxxx;;;;;;;;;;;;x
+VIET_decorative_lute;Decorative Lute;xxxxx;;;;;;;;;;;;x
+VIET_decorative_lute_desc;An old lute that is no longer used to play music. Because it looks quite nice, however, it has found a second life as house decor.;xxxxx;;;;;;;;;;;;x
+VIET_beautiful_pitcher;Beautiful Pitcher;xxxxx;;;;;;;;;;;;x
+VIET_beautiful_pitcher_desc;A pitcher that can not only pour liquids like water or alcohol into a goblet, but one that looks stunningly beautiful.;xxxxx;;;;;;;;;;;;x
+VIET_secure_chest;Very Secure Chest;xxxxx;;;;;;;;;;;;x
+VIET_secure_chest_desc;The lock on this chest is extremely difficult to break or lockpick. Its owner can rest assured whatever they keep in it is safe.;xxxxx;;;;;;;;;;;;x
 xxxxxx;xxxxx;xxxxx;;;;;;;;;;;;x
