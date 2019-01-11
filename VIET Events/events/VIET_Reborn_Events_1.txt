@@ -7,8 +7,9 @@
 # 8000-8052: First batch of reborn events
 # 8053-8064: Oblivion Soundtrack inspired events
 # 8065-8081: Prophecy and Future
-# 8082-8088: Sun
-#
+# 8082-8089: Sun
+# 8090-8099: Shadow
+# 8100-8115: Night
 #
 #
 #####################################################################
