@@ -3570,7 +3570,14 @@ character_event = {
 		days = 1
 			
 		modifier = {
-			factor = 0.1
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
 			any_artifact = {
 				has_artifact_flag = VIET_clutter_flag
 			}
@@ -3668,11 +3675,18 @@ character_event = {
 		days = 1
 			
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			any_artifact = {
+				count = 3
 				has_artifact_flag = VIET_clutter_flag
 			}
 		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}					
 		modifier = {
 			factor = 1.2
 			trait = gregarious
@@ -3770,9 +3784,16 @@ character_event = {
 	
 	weight_multiplier = {
 		days = 1		
-		
+			
 		modifier = {
-			factor = 0.1
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
 			any_artifact = {
 				has_artifact_flag = VIET_clutter_flag
 			}
@@ -3850,7 +3871,8 @@ character_event = {
 	war = no
 	
 	trigger = {
-		in_command = no	
+		in_command = no
+		NOT = { has_artifact = VIET_calipers }
 		NOT = {
 			has_game_rule = {
 				name = VIET_events_rules
@@ -3863,7 +3885,14 @@ character_event = {
 		days = 1
 			
 		modifier = {
-			factor = 0.1
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
 			any_artifact = {
 				has_artifact_flag = VIET_clutter_flag
 			}
@@ -9954,7 +9983,14 @@ character_event = {
 		days = 1
 			
 		modifier = {
-			factor = 0.1
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
 			any_artifact = {
 				has_artifact_flag = VIET_clutter_flag
 			}
@@ -10783,7 +10819,14 @@ character_event = {
 		days = 1
 			
 		modifier = {
-			factor = 0.1
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
 			any_artifact = {
 				has_artifact_flag = VIET_clutter_flag
 			}

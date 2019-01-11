@@ -2231,10 +2231,24 @@ character_event = {
 
 	trigger = {
 		in_command = no
+		NOT = { has_artifact = VIET_abacus }
 	}
 
 	weight_multiplier = {
-		days = 1
+		days = 1			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}	
 		modifier = {
 			factor = 1.2
 			trait = gregarious
