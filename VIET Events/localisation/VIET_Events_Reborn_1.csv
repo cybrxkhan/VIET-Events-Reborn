@@ -444,29 +444,29 @@ VIETmisc.8114.b;Ha! Weakling!;Ha ! Faible !;;;;;;;;;;;;x
 VIETmisc.8114.c;Imprison his "friend"!;Emprisonner son "ami" !;;;;;;;;;;;;x
 VIETmisc.8115.desc;You decided to see the beach at night out of curiosity, and was rewarded with a wonderful sight: the lovely moon, dancing around the stars, reflected on the ocean waves.;Vous avez décidé de voir la plage la nuit par curiosité et vous avez été récompensé par une vue magnifique : la belle lune, dansant autour des étoiles, se reflétant sur les vagues de l'océan.;;;;;;;;;;x;x
 VIETmisc.8115.a;I'm glad I came here!;Je suis content d'être venu ici !;;;;;;;;;;;;x
-VIETmisc.8116.desc;While hunting we recently killed a wolf. Its fur was quite luxurious, unlike any other wolf! We should make a pelt out of it.;;;;;;;;;;;x
-VIETmisc.8116.a;I will decorate one of my rooms with it.;;;;;;;;;;;;;x
-VIETmisc.8116.b;This isn't necessary for me.;;;;;;;;;;;;;x
-VIETmisc.8117.desc;The silversmith said he was willing to sell you a fine set of silverware for a good price. Judging by how luxurious the set looks, this seems like a great deal! However, as some in your court have pointed out, do you really need more symbols of your wealth and influence?;;;;;;;;;;;x
-VIETmisc.8117.a;Why not? I'm not vain - I just like nice things!;;;;;;;;;;;;;x
-VIETmisc.8117.b;They're not wrong. I already have enough tableware.;;;;;;;;;;;;;x
-VIETmisc.8118.desc;The merchant hands me the colorful quill pen, and explains it was made using the feather of an exotic, rare, mythical bird that lives in the legendary tropical island of so-and-so. It is even said this bird has gone extinct, so if I want to buy this quill, I will have to pay a hefty price.;;;;;;;;;;;x
-VIETmisc.8118.a;I can afford such a fine quill.;;;;;;;;;;;;;x
-VIETmisc.8118.b;On second thought, I'm not interested.;;;;;;;;;;;;;x
-VIETmisc.8119.desc;I've grown fond of one of the goblets I use to drink beverages during my meals. Since I'm so attached to it, perhaps I should just keep it with me and use it from now on, instead of other goblets.;;;;;;;;;;;x
-VIETmisc.8119.a;Yes! It will be my special goblet.;;;;;;;;;;;;;x
-VIETmisc.8119.b;Getting obsessed with one goblet is weird.;;;;;;;;;;;;;x
-VIETmisc.8120.desc;You are presented with a gift of a lovely pitcher by some local nobles stopping by to pay a visit. You politely thank them and resume business. Afterwards, you take some time to examine the pitcher. It is definitely a higher quality one, with unique engravings and decorations on it.;;;;;;;;;;;x
-VIETmisc.8120.a;Keep it around for important occasions.;;;;;;;;;;;;;x
-VIETmisc.8120.b;Throw it somewhere. It's not that special.;;;;;;;;;;;;;x
-VIETmisc.8121.desc;Bravo, bravo! The bard you hired played most beautifully. After the performance, you talk with him and the conversation drifts to the topic of his lutes, which are quite ornate and lovely to look at. He says he has one lute he doesn't play with anymore, finding it unsatisfactory. When he shows it to you, you're impressed with its appearance, and he says he can sell it to you for a low price.;;;;;;;;;;;x
-VIETmisc.8121.a;I'll buy it!;;;;;;;;;;;;;x
-VIETmisc.8121.b;I'll convince him to sell it for less.;;;;;;;;;;;;;x
-VIETmisc.8121.c;I can haggle for a lower price.;;;;;;;;;;;;;x
-VIETmisc.8121.d;That's fine, I'm not interested.;;;;;;;;;;;;;x
-VIETmisc.8122.desc;Many claim the local locksmith can make a lock so hard to open, no one will ever lockpick it. Since many people vouch for this man, you consider asking him to design a special chest for you. Whether it's valuables, incriminating letters, or precious mementos, it will keep anything safe - as long as you have the key, of course.;;;;;;;;;;;x
-VIETmisc.8122.a;I will order one to my specifications.;;;;;;;;;;;;;x
-VIETmisc.8122.b;I have nothing to hide, so I don't need it.;;;;;;;;;;;;;x
+VIETmisc.8116.desc;While hunting we recently killed a wolf. Its fur was quite luxurious, unlike any other wolf! We should make a pelt out of it.;Lors de la chasse, nous avons récemment tué un loup. Sa fourrure était assez luxueuse, pas comme les autres loups ! Nous devrions en faire une peau.;;;;;;;;;;x;x
+VIETmisc.8116.a;I will decorate one of my rooms with it.;Je vais décorer une de mes chambres avec elle.;;;;;;;;;;;;x
+VIETmisc.8116.b;This isn't necessary for me.;Ce n'est pas nécessaire pour moi.;;;;;;;;;;;;x
+VIETmisc.8117.desc;The silversmith said he was willing to sell you a fine set of silverware for a good price. Judging by how luxurious the set looks, this seems like a great deal! However, as some in your court have pointed out, do you really need more symbols of your wealth and influence?;L'orfèvre a dit qu'il était disposé à vous vendre un bel ensemble d'argenterie à un bon prix. À en juger par le luxe de l'ensemble, cela semble être une bonne affaire ! Toutefois, comme l'ont souligné certains membres de votre cour, avez-vous vraiment besoin de plus de symboles de votre richesse et de votre influence ?;;;;;;;;;;x;x
+VIETmisc.8117.a;Why not? I'm not vain - I just like nice things!;Pourquoi pas ? Je ne suis pas vaniteux - j'aime juste les belles choses !;;;;;;;;;;;;x
+VIETmisc.8117.b;They're not wrong. I already have enough tableware.;Ils n'ont pas tort. J'ai déjà assez de vaisselle.;;;;;;;;;;;;x
+VIETmisc.8118.desc;The merchant hands me the colorful quill pen, and explains it was made using the feather of an exotic, rare, mythical bird that lives in the legendary tropical island of so-and-so. It is even said this bird has gone extinct, so if I want to buy this quill, I will have to pay a hefty price.;Le marchand me tend la plume colorée et m'explique qu'elle a été réalisée à l'aide de la plume d'un oiseau exotique, rare et mythique, qui vit dans la légendaire île tropicale d'untel. On dit même que cet oiseau a disparu, alors si je veux acheter cette plume, je devrai en payer le prix.;;;;;;;;;;x;x
+VIETmisc.8118.a;I can afford such a fine quill.;Je peux me payer une si belle plume.;;;;;;;;;;;;x
+VIETmisc.8118.b;On second thought, I'm not interested.;À la réflexion, cela ne m'intéresse pas.;;;;;;;;;;;;x
+VIETmisc.8119.desc;I've grown fond of one of the goblets I use to drink beverages during my meals. Since I'm so attached to it, perhaps I should just keep it with me and use it from now on, instead of other goblets.;Je suis devenu attaché à l'une des coupes que j'utilise pour boire des boissons pendant mes repas. Puisque je suis tellement attaché à cela, je devrais peut-être le garder avec moi et l’utiliser à partir de maintenant, au lieu d’autres coupes.;;;;;;;;;;x;x
+VIETmisc.8119.a;Yes! It will be my special goblet.;Oui ! Ce sera ma coupe spéciale.;;;;;;;;;;;;x
+VIETmisc.8119.b;Getting obsessed with one goblet is weird.;Être obsédé par une coupe est étrange.;;;;;;;;;;;;x
+VIETmisc.8120.desc;You are presented with a gift of a lovely pitcher by some local nobles stopping by to pay a visit. You politely thank them and resume business. Afterwards, you take some time to examine the pitcher. It is definitely a higher quality one, with unique engravings and decorations on it.;Un beau pichet vous est offert par des nobles de la région qui s'arrêtent pour vous rendre visite. Vous les remerciez poliment et reprenez les affaires. Ensuite, vous prenez le temps d’examiner le pichet. Il est certainement d'une qualité supérieure, avec des gravures et des décorations uniques.;;;;;;;;;;x;x
+VIETmisc.8120.a;Keep it around for important occasions.;Gardez-le pour les occasions importantes.;;;;;;;;;;;;x
+VIETmisc.8120.b;Throw it somewhere. It's not that special.;Jetez-le quelque part. Ce n'est pas si spécial.;;;;;;;;;;;;x
+VIETmisc.8121.desc;Bravo, bravo! The bard you hired played most beautifully. After the performance, you talk with him and the conversation drifts to the topic of his lutes, which are quite ornate and lovely to look at. He says he has one lute he doesn't play with anymore, finding it unsatisfactory. When he shows it to you, you're impressed with its appearance, and he says he can sell it to you for a low price.;Bravo, bravo ! Le barde que vous avez engagé a joué très magnifiquement. Après la représentation, vous parlez avec lui et la conversation s'oriente sur le sujet de ses luths, qui sont très ornés et agréables à regarder. Il dit qu'il a un luth avec lequel il ne joue plus, le trouvant insatisfaisant. Quand il vous le montre, vous êtes impressionné par son apparence et il dit qu'il peut vous le vendre à bas prix.;;;;;;;;;;x;x
+VIETmisc.8121.a;I'll buy it!;Je vais l'acheter !;;;;;;;;;;;;x
+VIETmisc.8121.b;I'll convince him to sell it for less.;Je vais le convaincre de le vendre moins cher.;;;;;;;;;;;;x
+VIETmisc.8121.c;I can haggle for a lower price.;Je peux marchander pour un prix inférieur.;;;;;;;;;;;;x
+VIETmisc.8121.d;That's fine, I'm not interested.;C'est bon, ça ne m'intéresse pas.;;;;;;;;;;;;x
+VIETmisc.8122.desc;Many claim the local locksmith can make a lock so hard to open, no one will ever lockpick it. Since many people vouch for this man, you consider asking him to design a special chest for you. Whether it's valuables, incriminating letters, or precious mementos, it will keep anything safe - as long as you have the key, of course.;Beaucoup prétendent que le serrurier local peut faire un verrou si difficile à ouvrir que personne ne le crochetera jamais. Puisque de nombreuses personnes se portent garantes pour cet homme, vous envisagez de lui demander de concevoir un coffre spécial pour vous. Qu'il s'agisse d'objets de valeur, de lettres incriminantes ou de précieux souvenirs, tout est mis en sécurité - pour autant que vous ayez la clé, bien sûr.;;;;;;;;;;x;x
+VIETmisc.8122.a;I will order one to my specifications.;Je vais en commander un répondant à mon besoin.;;;;;;;;;;;;x
+VIETmisc.8122.b;I have nothing to hide, so I don't need it.;Je n'ai rien à cacher, alors je n'en ai pas besoin.;;;;;;;;;;;;x
 VIETmisc.8123.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8123.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8124.desc;xxxxx;;;;;;;;;;;x
