@@ -143,4 +143,28 @@ spriteTypes = {
 		name = "GFX_VIET_secure_chest_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_secure_chest_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_hand_mirror"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hand_mirror.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_hand_mirror_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hand_mirror_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_chess_set"
+		texturefile = "gfx\\interface\\artifacts\\VIET_chess_set.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_chess_set_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_chess_set_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dice"
+		texturefile = "gfx\\interface\\artifacts\\VIET_dice.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dice_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_dice_small.dds"
+	}
 }

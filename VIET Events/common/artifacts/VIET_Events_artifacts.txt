@@ -172,3 +172,32 @@ VIET_secure_chest = {
 	picture = "GFX_VIET_secure_chest"
 	slot = VIET_clutter
 }
+VIET_hand_mirror = {
+	general_opinion = 5
+	sex_appeal_opinion = 5
+	diplomacy = 1
+	intrigue = 1
+	quality = 2
+	#stacking = no
+	flags = { VIET_clutter_flag }
+	picture = "GFX_VIET_hand_mirror"
+	slot = VIET_clutter
+}
+VIET_chess_set = {
+	martial = 1
+	intrigue = 1
+	quality = 2
+	#stacking = no
+	flags = { VIET_clutter_flag }
+	picture = "GFX_VIET_chess_set"
+	slot = VIET_clutter
+}
+VIET_dice = {
+	stewardship = -1
+	intrigue = 2
+	quality = 1
+	#stacking = no
+	flags = { VIET_clutter_flag }
+	picture = "GFX_VIET_dice"
+	slot = VIET_clutter
+}
