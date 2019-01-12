@@ -127,7 +127,7 @@ VIET_silverware_set = {
 VIET_exotic_quill_pen = {
 	monthly_character_prestige = 0.02
 	diplomacy = 1
-	quality = 2
+	quality = 3
 	#stacking = no
 	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_exotic_quill_pen"
@@ -144,7 +144,7 @@ VIET_goblet = {
 }
 VIET_beautiful_pitcher = {
 	monthly_character_prestige = 0.01
-	quality = 3
+	quality = 2
 	#stacking = no
 	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_beautiful_pitcher"

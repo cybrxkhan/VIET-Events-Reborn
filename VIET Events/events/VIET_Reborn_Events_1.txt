@@ -11299,7 +11299,7 @@ character_event = {
 
 
 
-# Buy an silverware set?
+# Buy a silverware set?
 character_event = {
 	id = VIETmisc.8117
 	desc = VIETmisc.8117.desc
