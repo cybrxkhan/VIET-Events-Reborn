@@ -227,7 +227,6 @@ on_bi_yearly_pulse = {
 			#Christmas
 			100 = VIETmisc.2286 	# Do you believe Saint Nick is still alive?
 			100 = VIETmisc.2287 	# Mistletoe, but no one is under it with you
-			100 = VIETmisc.2289 	# Nutcracker
 			#Moss
 			100 = VIETmisc.2290 	# Moss on walls
 			100 = VIETmisc.2291 	# Moss and feet
@@ -252,7 +251,6 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8022 # Thoughts on vegetarians?
 			100 = VIETmisc.8023 # Rumors about the Blessed Isles
 			100 = VIETmisc.8026 # Female ruler surrounded by hunky bodyguards
-			100 = VIETmisc.8033 # Purchasing an hourglass?
 			100 = VIETmisc.8042 # Gift of herbal tea from China
 			100 = VIETmisc.8050 # Incest argument
 			#Oblivion Soundtrack
@@ -308,7 +306,7 @@ on_five_year_pulse = {
 			100 = VIETScarboroughFair.22 	# Execution of innocent man
 			100 = VIETScarboroughFair.24 	# Corrupt tax officials
 			100 = VIETScarboroughFair.25	# cock jokes are overdone
-			100 = VIETScarboroughFair.28 	# Merchant offers abacus
+			100 = VIETScarboroughFair.28 	# Artifact: Merchant offers abacus
 			100 = VIETScarboroughFair.32 	# Gift of reishi mushroom
 			
 			#Water
@@ -322,6 +320,7 @@ on_five_year_pulse = {
 			#Christmas
 			100 = VIETmisc.2285 	# Santa Claus is coming to town
 			100 = VIETmisc.2288 	# Candy canes
+			100 = VIETmisc.2289 	# Artifact: Nutcracker
 			#Animals
 			100 = VIETmisc.2298 	# Owl attack
 			100 = VIETmisc.2302 	# Headless chicken
@@ -332,9 +331,10 @@ on_five_year_pulse = {
 			100 = VIETmisc.8017 # Rumors about a powerful empress
 			100 = VIETmisc.8020 # Wonderful singer
 			100 = VIETmisc.8029 # Flying contraptions
-			100 = VIETmisc.8034 # Farmer finds an ancient pot
-			100 = VIETmisc.8035 # Magnifying glass
-			100 = VIETmisc.8036 # Calipers
+			100 = VIETmisc.8033 # Artifact: Purchasing an hourglass?
+			100 = VIETmisc.8034 # Artifact: Farmer finds an ancient pot
+			100 = VIETmisc.8035 # Artifact: Magnifying glass
+			100 = VIETmisc.8036 # Artifact: Calipers
 			100 = VIETmisc.8037 # Spirited Chinese lady visits court
 			100 = VIETmisc.8045 # S'shani the Old Sea Captain
 			#Prophecy
@@ -352,10 +352,18 @@ on_five_year_pulse = {
 			100 = VIETmisc.8098 # Found a nice secret hiding spot
 			100 = VIETmisc.8099 # Fun in the sun
 			#Night
-			100 = VIETmisc.8102 # Astronomer presents a star chart
+			100 = VIETmisc.8102 # Artifact: Astronomer presents a star chart
 			100 = VIETmisc.8109 # Choking on food at night
 			100 = VIETmisc.8112 # Grave robbers reported
 			100 = VIETmisc.8114 # Servant drowns when he tries to swim in the ocean at night
+			#Clutter Artifacts
+			100 = VIETmisc.8116 # Artifact: Hunted a wolf and find a nice wolf pelt
+			100 = VIETmisc.8117 # Artifact: Buy a silverware set?
+			100 = VIETmisc.8118 # Artifact: Colorful quill from an exotic land
+			100 = VIETmisc.8119 # Artifact: Character grows fond of a goblet
+			100 = VIETmisc.8120 # Artifact: Character is presented with a special pitcher
+			100 = VIETmisc.8121 # Artifact: Bard offers you his spare lute
+			100 = VIETmisc.8122 # Artifact: Local locksmith has legendary abilities
 			
 		
 		}
