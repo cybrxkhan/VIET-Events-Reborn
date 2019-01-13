@@ -167,4 +167,20 @@ spriteTypes = {
 		name = "GFX_VIET_dice_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_dice_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_silk_slippers"
+		texturefile = "gfx\\interface\\artifacts\\VIET_silk_slippers.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_silk_slippers_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_silk_slippers_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_porcelain_chopsticks"
+		texturefile = "gfx\\interface\\artifacts\\VIET_porcelain_chopsticks.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_porcelain_chopsticks_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_porcelain_chopsticks_small.dds"
+	}
 }

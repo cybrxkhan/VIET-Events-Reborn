@@ -177,6 +177,7 @@ VIET_hand_mirror = {
 	sex_appeal_opinion = 5
 	diplomacy = 1
 	intrigue = 1
+	monthly_character_prestige = 0.02
 	quality = 2
 	#stacking = no
 	flags = { VIET_clutter_flag }
@@ -193,11 +194,38 @@ VIET_chess_set = {
 	slot = VIET_clutter
 }
 VIET_dice = {
-	stewardship = -1
-	intrigue = 2
+	intrigue = 1
+	monthly_character_piety = -0.02
 	quality = 1
 	#stacking = no
 	flags = { VIET_clutter_flag }
 	picture = "GFX_VIET_dice"
+	slot = VIET_clutter
+}
+VIET_dice = {
+	intrigue = 1
+	monthly_character_piety = -0.02
+	quality = 1
+	#stacking = no
+	flags = { VIET_clutter_flag }
+	picture = "GFX_VIET_dice"
+	slot = VIET_clutter
+}
+VIET_silk_slippers = {
+	monthly_character_prestige = 0.03
+	fertility = 0.02
+	quality = 3
+	#stacking = no
+	flags = { VIET_clutter_flag }
+	picture = "GFX_VIET_silk_slippers"
+	slot = VIET_clutter
+}
+VIET_porcelain_chopsticks = {
+	diplomacy = 1
+	monthly_character_prestige = 0.05
+	quality = 2
+	#stacking = no
+	flags = { VIET_clutter_flag }
+	picture = "GFX_VIET_porcelain_chopsticks"
 	slot = VIET_clutter
 }
