@@ -202,15 +202,6 @@ VIET_dice = {
 	picture = "GFX_VIET_dice"
 	slot = VIET_clutter
 }
-VIET_dice = {
-	intrigue = 1
-	monthly_character_piety = -0.02
-	quality = 1
-	#stacking = no
-	flags = { VIET_clutter_flag }
-	picture = "GFX_VIET_dice"
-	slot = VIET_clutter
-}
 VIET_silk_slippers = {
 	monthly_character_prestige = 0.03
 	fertility = 0.02

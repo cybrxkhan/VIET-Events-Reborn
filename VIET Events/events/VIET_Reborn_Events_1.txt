@@ -10,7 +10,8 @@
 # 8082-8089: Sun
 # 8090-8099: Shadow
 # 8100-8115: Night
-# 8116-8122: Clutter Artifacts
+# 8116-8127: Clutter Artifacts
+# 8128-8135: Ancient Cultures
 #
 #####################################################################
 
@@ -11181,15 +11182,22 @@ character_event = {
 		capital_scope = {
 			NOR = {
 				region = world_africa
-				region = region_iceland
-				region = region_crete
-				region = region_sardinia_corsica
-				region = region_cyprus
-				region = region_baleares
-				region = region_canarias
+				#region = region_iceland
+				#region = region_crete
+				#region = region_sardinia_corsica
+				#region = region_cyprus
+				#region = region_baleares
+				#region = region_canarias
 				duchy = { title = d_lanka }
 				duchy = { title = d_sinhala }
 				duchy = { title = d_nefoud }
+				duchy = { title = d_iceland }
+				duchy = { title = d_krete }
+				duchy = { title = d_sardinia }
+				duchy = { title = d_corsica }
+				duchy = { title = d_cyprus }
+				duchy = { title = d_mallorca }
+				county = { title = c_canarias }
 			}
 		}
 		NOT = { has_artifact = VIET_wolf_pelt }
@@ -11867,5 +11875,1326 @@ character_event = {
 	}	
 	option = { #no
 		name = VIETmisc.8122.b
+	}
+}
+
+
+# Should I buy a mirror?
+character_event = {
+	id = VIETmisc.8123
+	desc = VIETmisc.8123.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_hand_mirror }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = envious
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.8123.a
+		wealth = -10
+		add_artifact = VIET_hand_mirror		
+	}	
+	option = { #no
+		name = VIETmisc.8123.b
+		random_list = {
+			60 = { }
+			20 = { add_trait = content }
+			10 = { add_trait = humble }
+			5 = { add_trait = shy }
+			5 = { add_trait = slothful }
+		}
+	}
+}
+
+
+# Should I buy a chess set?
+character_event = {
+	id = VIETmisc.8124
+	desc = VIETmisc.8124.desc
+	picture = GFX_evt_war_planning
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_chess_set }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}
+		modifier = {
+			factor = 3
+			trait = gamer
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = socializer
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = hedonist
+		}
+		modifier = {
+			factor = 1.2
+			is_smart_trigger = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_dumb_trigger = yes
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.8124.a
+		wealth = -10
+		add_artifact = VIET_chess_set		
+	}	
+	option = { #no
+		name = VIETmisc.8124.b
+	}
+}
+
+
+# Scholar offers Chinese chopsticks
+character_event = {
+	id = VIETmisc.8125
+	desc = VIETmisc.8125.desc
+	picture = GFX_evt_market_chinese_group
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_porcelain_chopsticks }
+		capital_scope = {
+			OR = {
+				region = world_steppe_east
+				region = world_steppe_tarim
+				region = world_himalayas
+				region = world_india
+				region = world_middle_east			
+				region = world_persia			
+				region = world_africa_east			
+				region = world_asia_minor			
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.8125.a
+		trigger = {
+			is_sinosphere_small_trigger = yes
+		}
+		add_artifact = VIET_porcelain_chopsticks		
+	}
+	
+	option = { #ok
+		name = VIETmisc.8125.b
+		trigger = {
+			is_sinosphere_small_trigger = no
+		}
+		add_artifact = VIET_porcelain_chopsticks		
+	}	
+	option = { #no
+		name = VIETmisc.8125.c
+	}
+}
+
+
+# Gambling buddy offers some dice
+character_event = {
+	id = VIETmisc.8126
+	desc = VIETmisc.8126.desc
+	picture = GFX_evt_brothel
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_dice }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}
+		modifier = {
+			factor = 3
+			trait = gamer
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = socializer
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.8126.a
+		add_artifact = VIET_dice		
+	}	
+	option = { #no
+		name = VIETmisc.8126.b
+	}
+}
+
+# Silk slippers?
+character_event = {
+	id = VIETmisc.8127
+	desc = VIETmisc.8127.desc
+	picture = GFX_evt_castle_construction
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_silk_slippers }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.8127.a
+		wealth = -15
+		prestige = 10
+		random_list = {
+			10 = { add_trait = slothful }
+			10 = { add_trait = proud }
+			80 = { }
+		}
+		add_artifact = VIET_silk_slippers		
+	}	
+	option = { #no
+		name = VIETmisc.8127.b
+	}
+}
+
+#####################################################
+#
+# ANCIENT CULTURES EVENTS
+#
+#####################################################
+
+
+# Find an ostracon outside
+character_event = {
+	id = VIETmisc.8128
+	desc = VIETmisc.8128.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_ostracon }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.5
+			location = {
+				NOR = {
+					region = world_africa_central
+					region = world_africa_west
+					region = world_steppe_east
+					region = world_steppe_west
+				}
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+	
+	option = { #keep it
+		name = VIETmisc.8128.a
+		add_artifact = VIET_ostracon		
+	}	
+	option = { #give it to scholars
+		name = VIETmisc.8128.b
+		prestige = 5
+		random = {
+			culture_techpoints = 100
+			chance = 50
+		}
+	}	
+	option = { #destroy it
+		name = VIETmisc.8128.c
+		piety = 5
+		if = {
+			limit = {
+				trait = cynical
+			}
+			random = {
+				remove_trait = cynical
+				chance = 70
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = zealous }
+			}
+			random = {
+				add_trait = zealous
+				chance = 25
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = paranoid }
+			}
+			random = {
+				add_trait = paranoid
+				chance = 45
+			}
+		}
+	}
+}
+
+
+# Farmer uses Nok terracotta statue as a scarecrow - loosely based on how the Nok culture was discovered in the first place
+character_event = {
+	id = VIETmisc.8129
+	desc = VIETmisc.8129.desc
+	picture = GFX_evt_dogon_village
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_nok_terracotta_figure }
+		capital_scope = {
+			OR = {
+				region = world_africa_central
+				region = world_africa_west
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}
+		modifier = {
+			factor = 0.2
+			higher_real_tier_than = DUKE
+		}
+		modifier = {
+			factor = 0.5
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { #looks nice
+		name = VIETmisc.8129.a
+		random_list = {
+			10 = { add_trait = trusting }
+			10 = { add_trait = content }
+			10 = { add_trait = humble }
+			70 = { }
+		}		
+	}	
+	option = { #buy it from the farmer
+		name = VIETmisc.8129.b
+		wealth = -3
+		add_artifact = VIET_nok_terracotta_figure
+	}	
+	option = { #force farmer to give it
+		name = VIETmisc.8129.c
+		trigger = {
+			NOR = {
+				trait = kind
+				trait = just
+				trait = charitable
+			}
+		}
+		piety = -4
+		random_list = {
+			25 = { add_trait = cruel }
+			25 = { add_trait = greedy }
+			25 = { add_trait = arbitrary }
+			25 = { }
+		}
+		add_artifact = VIET_nok_terracotta_figure
+	}
+	option = { #persuade farmer
+		name = VIETmisc.8129.d
+		tooltip_info = diplomacy
+		trigger = {
+			diplomacy = 10
+		}
+		add_artifact = VIET_nok_terracotta_figure
+	}
+}
+
+
+# Servant finds a cuneiform tablet
+character_event = {
+	id = VIETmisc.8130
+	desc = VIETmisc.8130.desc
+	picture = GFX_evt_ancient_cairn
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_cuneiform_tablet }
+		capital_scope = {
+			OR = {
+				region = world_middle_east
+				region = world_asia_minor
+				region = world_persia
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_nomadic = yes
+				is_tribal = yes
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { #keep tablet
+		name = VIETmisc.8130.a
+		add_artifact = VIET_cuneiform_tablet
+	}	
+	option = { #give it to a scholar
+		name = VIETmisc.8130.b
+		prestige = 5
+		random = {
+			culture_techpoints = 100
+			chance = 50
+		}
+	}	
+	option = { #throw it away
+		name = VIETmisc.8130.c
+		trigger = {
+			NOR = {
+				trait = erudite
+				trait = scholar
+				trait = mystic
+				learning = 10
+			}
+		}
+		random_list = {
+			20 = { add_trait = arbitrary }
+			20 = { add_trait = slothful }
+			60 = { }
+		}
+	}	
+	option = { #give it to servant who found it
+		name = VIETmisc.8130.d
+		random_list = {
+			15 = { add_trait = kind }
+			15 = { add_trait = just }
+			15 = { add_trait = trusting }
+			15 = { add_trait = humble }
+			40 = { }
+		}
+	}
+}
+
+
+# Are we barbarians?
+character_event = {
+	id = VIETmisc.8131
+	desc = VIETmisc.8131.desc
+	picture = GFX_evt_rome_restored_byzantine
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		capital_scope = {
+			NOR = {
+				culture_group = latin
+				culture_group = byzantine
+			}
+			OR = {
+				region = world_europe_west
+				region = world_europe_north
+				region = world_europe_east
+				region = world_africa_north
+			}
+		}
+		OR = {
+			culture_group = north_germanic
+			culture_group = west_germanic
+			culture_group = central_germanic
+			culture_group = iberian
+			culture_group = magyar
+			AND = {
+				culture_group = south_slavic
+				NOR = {
+					culture = pannonian
+					culture = romanian
+				}
+			}
+			culture_group = east_slavic
+			culture_group = west_slavic
+			culture_group = baltic
+			culture_group = finno_ugric
+			culture_group = altaic
+			culture_group = arabic
+			culture_group = north_african
+			culture_group = celtic
+		}
+		NOR = {
+			is_nomadic = yes
+			is_tribal = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		#modifier = {
+		#	factor = 2
+		#	OR = {
+		#		is_nomadic = yes
+		#		is_tribal = yes
+		#	}
+		#}
+		modifier = {
+			factor = 1.2
+			learning = 12
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { learning = 8 }
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+	
+	option = { #no longer savages
+		name = VIETmisc.8131.a
+		piety = 3
+		random = {
+			add_trait = humble
+			chance = 30
+		}
+	}	
+	option = { #we aren't barbarians!
+		name = VIETmisc.8131.b
+		prestige = 3
+		random = {
+			add_trait = proud
+			chance = 30
+		}
+	}
+	option = { #our roots lie elsewhere
+		name = VIETmisc.8131.c
+		piety = 3
+		random = {
+			add_trait = deceitful
+			chance = 30
+		}
+	}
+	option = { #Romans and Greeks were bad
+		name = VIETmisc.8131.d
+		piety = 3
+		random = {
+			add_trait = cynical
+			chance = 30
+		}
+	}
+}
+
+
+# Stumble on mummy - most likely in Egypt, but other regions are possible
+character_event = {
+	id = VIETmisc.8132
+	desc = VIETmisc.8132.desc
+	picture = GFX_evt_dark_tunnel
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		capital_scope = {
+			OR = {
+				duchy = { title = d_alexandria }
+				duchy = { title = d_damietta }
+				duchy = { title = d_cairo }
+				duchy = { title = d_aswan }
+				#WTWSMS region, not in vanilla
+				#region = custom_egypt
+				#Other regions with traditions of mummy burials
+				region = world_steppe
+				region = world_africa_north
+				#region = region_canarias
+				region = world_europe_north
+			}
+		}
+		#Following event can be interpreted as just a dream for your character, so I'm not classifying as supernatural
+		#OR = {
+		#	has_game_rule = {
+		#		name = supernatural_events
+		#		value = unrestricted
+		#	}
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = silly
+		#	}		
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.1
+			capital_scope = {
+				NOR = {
+					duchy = { title = d_alexandria }
+					duchy = { title = d_damietta }
+					duchy = { title = d_cairo }
+					duchy = { title = d_aswan }
+				}			
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+	
+	option = { #Sorry for disturbing
+		name = VIETmisc.8132.a
+		piety = 1
+		random_list = {
+			15 = { add_trait = humble }
+			15 = { add_trait = kind }
+			15 = { add_trait = brave }
+			55 = { }
+		}
+		if = {
+			limit = {
+				trait = craven
+			}
+			remove_trait = craven
+		}
+		hidden_tooltip = {
+			long_character_event = { id = VIETmisc.8134 }
+		}
+	}
+	
+	option = { #Quietly gtfo
+		name = VIETmisc.8132.b
+		random_list = {
+			50 = { piety = 1 }
+			50 = { prestige = 1 }
+		}
+	}
+	
+	option = { #Not scared
+		name = VIETmisc.8132.c
+		prestige = 1
+		add_trait = brave
+		add_trait = proud
+		hidden_tooltip = {
+			long_character_event = { id = VIETmisc.8133 }
+		}
+	}
+}
+
+
+# Mummy's curse
+long_character_event = {
+	id = VIETmisc.8133
+	desc = VIETmisc.8133.desc
+	picture = GFX_evt_succubus
+	
+	is_triggered_only = yes
+	
+	option = { # lol sucker
+		name = VIETmisc.8133.a
+		remove_trait = brave
+		piety = -5
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = 1
+		}
+		add_character_modifier = {
+			name = VIET_mummys_curse
+			duration = -1
+		}
+	}
+}
+
+
+# Mummy's blessing
+long_character_event = {
+	id = VIETmisc.8134
+	desc = VIETmisc.8134.desc
+	picture = GFX_evt_maiden
+	
+	is_triggered_only = yes
+	
+	option = { # you chose well
+		name = VIETmisc.8134.a
+		if = {
+			limit = {
+				trait = cynical
+			}
+			remove_trait = cynical
+		}
+		piety = 5
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = -1
+		}
+		add_character_modifier = {
+			name = VIET_mummys_blessing
+			duration = -1
+		}
+	}
+}
+
+# Meet with a group of scholars at some ruins
+character_event = {
+	id = VIETmisc.8135
+	desc = VIETmisc.8135.desc
+	picture = GFX_evt_ancient_cairn
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		in_command = no
+		NOR = {
+			is_tribal = yes
+			is_nomadic = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			learning = 13
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { learning = 7 }
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				trait = erudite
+				trait = scholar
+			}
+		}
+		modifier = {
+			factor = 0.8
+			is_dumb_trigger = yes
+		}
+	}
+	
+	option = { #fall asleep
+		name = VIETmisc.8135.a
+		prestige = -3
+	}	
+	option = { #pretend to listen
+		name = VIETmisc.8135.b
+		piety = -3
+		random = {
+			add_trait = deceitful
+			chance = 10
+		}
+	}		
+	option = { # Impress with learning
+		name = VIETmisc.8135.c
+		tooltip_info = scholar
+		trigger = {
+			trait = scholar
+		}
+		prestige = 5
+		custom_tooltip = { text = VIET_scholar_lecture_correction }
+	}		
+	option = { # Impress with learning
+		name = VIETmisc.8135.c
+		tooltip_info = learning
+		trigger = {
+			learning = 11
+			NOT = { trait = scholar }
+		}
+		prestige = 5	
+		custom_tooltip = { text = VIET_scholar_lecture_correction }	
 	}
 }

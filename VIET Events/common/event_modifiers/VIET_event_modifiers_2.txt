@@ -517,3 +517,33 @@ VIET_no_empathy = {
 	combat_rating = 5
 	icon = 36
 }
+VIET_mummys_curse = {
+	health = -0.5
+	fertility = -0.05
+	diplomacy = -1
+	intrigue = -1
+	combat_rating = -10
+	icon = 42
+}
+VIET_mummys_blessing = {
+	health = 0.5
+	fertility = 0.05
+	diplomacy = 1
+	intrigue = 1
+	combat_rating = 10
+	icon = 41
+}
+VIET_clumsy_maid_special = {
+	diplomacy = 1
+	stewardship = 1
+	intrigue = -1
+	general_opinion = 5
+	sex_appeal_opinion = 5
+	combat_rating = -10
+	icon = 18
+}
+VIET_recent_important_business_deal = {
+	monthly_character_wealth = 0.6
+	monthly_character_prestige = 0.2
+	icon = 6
+}

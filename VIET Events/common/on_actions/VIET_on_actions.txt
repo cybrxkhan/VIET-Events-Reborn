@@ -270,6 +270,9 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8100 # Tripping and falling on the stairs at night
 			100 = VIETmisc.8111 # Using Valerian to cure insomnia
 			100 = VIETmisc.8115 # Go see the ocean at night
+			#Ancient Cultures
+			100 = VIETmisc.8131 # Are we barbarians?
+			100 = VIETmisc.8135 # Meet with a group of scholars at some ruins
 		
 		}
 		
@@ -306,7 +309,6 @@ on_five_year_pulse = {
 			100 = VIETScarboroughFair.22 	# Execution of innocent man
 			100 = VIETScarboroughFair.24 	# Corrupt tax officials
 			100 = VIETScarboroughFair.25	# cock jokes are overdone
-			100 = VIETScarboroughFair.28 	# Artifact: Merchant offers abacus
 			100 = VIETScarboroughFair.32 	# Gift of reishi mushroom
 			
 			#Water
@@ -320,7 +322,6 @@ on_five_year_pulse = {
 			#Christmas
 			100 = VIETmisc.2285 	# Santa Claus is coming to town
 			100 = VIETmisc.2288 	# Candy canes
-			100 = VIETmisc.2289 	# Artifact: Nutcracker
 			#Animals
 			100 = VIETmisc.2298 	# Owl attack
 			100 = VIETmisc.2302 	# Headless chicken
@@ -331,10 +332,6 @@ on_five_year_pulse = {
 			100 = VIETmisc.8017 # Rumors about a powerful empress
 			100 = VIETmisc.8020 # Wonderful singer
 			100 = VIETmisc.8029 # Flying contraptions
-			100 = VIETmisc.8033 # Artifact: Purchasing an hourglass?
-			100 = VIETmisc.8034 # Artifact: Farmer finds an ancient pot
-			100 = VIETmisc.8035 # Artifact: Magnifying glass
-			100 = VIETmisc.8036 # Artifact: Calipers
 			100 = VIETmisc.8037 # Spirited Chinese lady visits court
 			100 = VIETmisc.8045 # S'shani the Old Sea Captain
 			#Prophecy
@@ -352,10 +349,32 @@ on_five_year_pulse = {
 			100 = VIETmisc.8098 # Found a nice secret hiding spot
 			100 = VIETmisc.8099 # Fun in the sun
 			#Night
-			100 = VIETmisc.8102 # Artifact: Astronomer presents a star chart
 			100 = VIETmisc.8109 # Choking on food at night
 			100 = VIETmisc.8112 # Grave robbers reported
 			100 = VIETmisc.8114 # Servant drowns when he tries to swim in the ocean at night
+			#Ancient cultures
+			100 = VIETmisc.8132 # Stumble on mummy - most likely in Egypt, but other regions are possible		
+		}
+		
+		#ALL VIET artifact events should go here!
+		VIET_artifact_gain_random = {
+			delay = 15
+			
+			15000 = 0 #May need to adjust	
+			
+			#Christmas
+			100 = VIETmisc.2289 	# Artifact: Nutcracker
+			
+			#Swansong Events (Swansong no more)
+			100 = VIETScarboroughFair.28 	# Artifact: Merchant offers abacus
+			
+			#Reborn Events
+			100 = VIETmisc.8033 # Artifact: Purchasing an hourglass?
+			100 = VIETmisc.8034 # Artifact: Farmer finds an ancient pot
+			100 = VIETmisc.8035 # Artifact: Magnifying glass
+			100 = VIETmisc.8036 # Artifact: Calipers	
+			#Night
+			100 = VIETmisc.8102 # Artifact: Astronomer presents a star chart		
 			#Clutter Artifacts
 			100 = VIETmisc.8116 # Artifact: Hunted a wolf and find a nice wolf pelt
 			100 = VIETmisc.8117 # Artifact: Buy a silverware set?
@@ -364,8 +383,52 @@ on_five_year_pulse = {
 			100 = VIETmisc.8120 # Artifact: Character is presented with a special pitcher
 			100 = VIETmisc.8121 # Artifact: Bard offers you his spare lute
 			100 = VIETmisc.8122 # Artifact: Local locksmith has legendary abilities
-			
+			100 = VIETmisc.8123 # Artifact: Buy a hand mirror?
+			100 = VIETmisc.8124 # Artifact: Buy a chess set?
+			100 = VIETmisc.8125 # Artifact: Scholar offers Chinese chopsticks
+			100 = VIETmisc.8126 # Artifact: Gambling buddy offers some dice
+			100 = VIETmisc.8127 # Artifact: Buy silk slippers?
+			#Ancient cultures
+			100 = VIETmisc.8128 # Artifact: Find an ostracon outside
+			100 = VIETmisc.8129 # Artifact: Find a Nok statue
+			100 = VIETmisc.8130 # Artifact: Servant finds a cuneiform tablet			
+		}
 		
+		#ALL VIET artifact loss events should go here!
+		VIET_artifact_loss_random = {
+			delay = 45
+			
+			25000 = 0 #May need to adjust	
+
+			#Generic
+			100 = VIETmisc.7000 # misplaced			
+			100 = VIETmisc.7001 # broke			
+			100 = VIETmisc.7002 # thief stole
+			100 = VIETmisc.7008 # fire
+			50 = VIETmisc.7018 # merchant is actually thief
+			50 = VIETmisc.7019 # sell an artifact?
+
+			#Unique	
+			100 = VIETmisc.7003 # Wolf pelt - stained
+			100 = VIETmisc.7004 # Hourglass - dropped
+			100 = VIETmisc.7005 # Ancient artifact - shattered
+			50 = VIETmisc.7006 	# Ancient artifact - clumsy maid accidentally screws up
+			100 = VIETmisc.7009	# Silverware set - eroding from overuse
+			100 = VIETmisc.7010	# Goblet - becoming disgusting
+			100 = VIETmisc.7012	# Exotic quill pen - worn from overuse
+			100 = VIETmisc.7013	# Beautiful pitcher - knock it out of servant's hand
+			100 = VIETmisc.7014	# Secure chest - lost the keys
+			100 = VIETmisc.7015	# Star chart - gets ripped up
+			100 = VIETmisc.7016	# Chess set - lent it to someone who lost the pieces
+			100 = VIETmisc.7017	# Porcelain chopsticks - snapped in half
+			100 = VIETmisc.7020	# Silk slippers - worn from overuse
+			100 = VIETmisc.7021	# Dice set - worn out too
+			100 = VIETmisc.7022	# Hand mirror - drop and shatter it before meeting someone important
+			100 = VIETmisc.7023	# Decorative lute - guest accidentally drops it
+			100 = VIETmisc.7024	# Calipers - laborer mistakes it for a real tool
+			100 = VIETmisc.7025	# Magnifying glass - cracked
+			100 = VIETmisc.7026	# Abacus - gift it to some merchants
+			100 = VIETmisc.7028	# Nutcracker - gets burnt in fire
 		}
 		
 	}
