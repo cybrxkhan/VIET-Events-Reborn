@@ -183,4 +183,20 @@ spriteTypes = {
 		name = "GFX_VIET_porcelain_chopsticks_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_porcelain_chopsticks_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_hellenic_statue_female"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hellenic_statue_female.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_hellenic_statue_female_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hellenic_statue_female_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_hellenic_statue_male"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hellenic_statue_male.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_hellenic_statue_male_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hellenic_statue_male_small.dds"
+	}
 }
