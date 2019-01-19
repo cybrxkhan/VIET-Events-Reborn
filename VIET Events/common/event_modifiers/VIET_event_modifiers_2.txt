@@ -547,3 +547,37 @@ VIET_recent_important_business_deal = {
 	monthly_character_prestige = 0.2
 	icon = 6
 }
+VIET_learning_about_history = {
+	diplomacy = 1
+	learning = 2
+	icon = 2
+}
+VIET_unfinished_work = {
+	diplomacy = -1
+	martial = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -1
+	monthly_character_prestige = -0.03
+	monthly_character_wealth = -0.03
+	icon = 33
+}
+VIET_province_converted_mountain_ruins_temple = {
+	local_tax_modifier = 0.08
+	land_morale = 0.03
+	local_revolt_risk = -0.015
+	monthly_character_piety = 0.05
+	icon = 4
+}
+VIET_province_converted_mountain_ruins_inn = {
+	local_tax_modifier = 0.16
+	land_organisation = 0.025
+	icon = 4
+}
+VIET_province_converted_mountain_ruins_outpost = {
+	local_tax_modifier = 0.06
+	levy_reinforce_rate = 0.02
+	land_organisation = 0.05
+	local_revolt_risk = -0.03
+	icon = 4
+}

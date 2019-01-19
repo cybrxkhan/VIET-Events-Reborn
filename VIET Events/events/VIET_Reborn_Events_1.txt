@@ -11,7 +11,7 @@
 # 8090-8099: Shadow
 # 8100-8115: Night
 # 8116-8127: Clutter Artifacts
-# 8128-8135: Ancient Cultures
+# 8128-8143: Ancient Cultures
 #
 #####################################################################
 
@@ -1927,7 +1927,7 @@ character_event = {
 			culture_group = byzantine
 			culture_group = indo_aryan_group
 			culture_group = dravidian_group
-			capital_scope = {
+			any_demesne_province = {
 				OR = {
 					region = custom_eastern_edge_of_map
 					region = world_himalayas
@@ -9978,6 +9978,7 @@ character_event = {
 		
 	trigger = {
 		in_command = no
+		NOT = { has_artifact = VIET_star_chart }
 	}
 	
 	weight_multiplier = {
@@ -13196,5 +13197,889 @@ character_event = {
 		}
 		prestige = 5	
 		custom_tooltip = { text = VIET_scholar_lecture_correction }	
+	}
+}
+
+
+
+
+
+
+# Hellenic Female Statue - originally ancient Roman in old VIET, made generic so it could happen in other regions of the Hellenic and Roman worlds, or influenced by them
+character_event = {
+	id = VIETmisc.8136
+	desc = VIETmisc.8136.desc
+	picture = GFX_evt_ancient_cairn
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { religion_group = pagan_group }
+		capital_scope = {
+			OR = {
+				region = world_europe_west
+				region = world_europe_south
+				region = world_asia_minor
+				region = world_persia
+				region = world_africa_north
+				region = world_middle_east
+				region = world_india_rajastan
+			}
+		}
+		NOT = { has_artifact = VIET_hellenic_statue_male }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}		
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.2
+			trait = envious
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+		modifier = {
+			factor = 1.2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.8
+			is_dumb_trigger = yes
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8136.a #Bedchamber
+		#tooltip_info = lustful
+		trigger = {
+			NOR = {
+				trait = celibate
+				trait = eunuch
+				trait = chaste
+				AND = {
+					is_female = yes
+					trait = homosexual
+				}
+				AND = {
+					is_female = no
+					NOT = { trait = homosexual }
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.2
+				trait = hedonist
+			}
+			modifier = {
+				factor = 0.8
+				trait = zealous
+			}
+			modifier = {
+				factor = 1.2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.8
+				trait = just
+			}
+			modifier = {
+				factor = 1.2
+				trait = cruel
+			}
+			modifier = {
+				factor = 0.8
+				trait = kind
+			}
+		}
+		piety = -5
+		add_character_modifier = {
+			name = lustful_ruler
+			duration = 365
+		}
+		if = {
+			limit = {
+				NOT = { trait = lustful }
+			}
+			random = {
+				add_trait = lustful
+				chance = 50
+			}
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = 1
+		}
+		add_artifact = VIET_hellenic_statue_male
+	}
+	option = {
+		name = VIETmisc.8136.b #DESTROY
+		trigger = {
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = jewish_group
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.8
+				trait = cynical
+			}
+			modifier = {
+				factor = 1.2
+				trait = humble
+			}
+			modifier = {
+				factor = 0.8
+				trait = proud
+			}
+		}
+		piety = 5
+		if = {
+			limit = {
+				trait = cynical
+			}
+			remove_trait = cynical
+		}
+		random = {
+			add_trait = zealous
+			chance = 33
+		}
+		#add_artifact = VIET_hellenic_statue_male
+	}
+	option = {
+		name = VIETmisc.8136.c # Decorate
+		ai_chance = {
+			factor = 1.2
+			modifier = {
+				factor = 1.2
+				trait = proud
+			}
+			modifier = {
+				factor = 0.25
+				trait = humble
+			}
+			modifier = {
+				factor = 1.2
+				trait = greedy
+			}
+			modifier = {
+				factor = 0.8
+				trait = content
+			}
+			modifier = {
+				factor = 1.2
+				trait = envious
+			}
+			modifier = {
+				factor = 0.8
+				trait = kind
+			}
+		}
+		prestige = 5
+		if = {
+			limit = {
+				trait = humble
+			}
+			random = {
+				remove_trait = humble
+				chance = 30
+			}
+		}
+		else = {
+			random = {
+				add_trait = proud
+				chance = 30
+			}
+		}
+		add_artifact = VIET_hellenic_statue_male
+	}
+	option = {
+		name = VIETmisc.8136.d # Study
+		tooltip_info = scholar
+		trigger = {
+			trait = scholar
+			NOT = { trait = erudite }
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 1.2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.25
+				trait = content
+			}
+			modifier = {
+				factor = 1.2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.8
+				trait = slothful
+			}
+			modifier = {
+				factor = 1.2
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.8
+				trait = zealous
+			}
+		}
+		add_artifact = VIET_hellenic_statue_male
+		random_list = {
+			40 = { }
+			30 = { change_learning = 1 }
+			15 = { change_stewardship = 1 }
+			15 = { change_intrigue = 1 }
+		}
+	}
+	option = {
+		name = VIETmisc.8136.d # Study
+		tooltip_info = erudite
+		trigger = {
+			trait = erudite
+			NOT = { trait = scholar }
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 1.2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.25
+				trait = content
+			}
+			modifier = {
+				factor = 1.2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.8
+				trait = slothful
+			}
+			modifier = {
+				factor = 1.2
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.8
+				trait = zealous
+			}
+		}
+		add_artifact = VIET_hellenic_statue_male
+		random_list = {
+			40 = { }
+			30 = { change_learning = 1 }
+			15 = { change_stewardship = 1 }
+			15 = { change_intrigue = 1 }
+		}
+	}
+	option = {
+		name = VIETmisc.8136.d # Study
+		tooltip_info = learning
+		trigger = {
+			learning = 10
+			NOR = {
+				trait = erudite
+				trait = scholar
+			}
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 1.2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.25
+				trait = content
+			}
+			modifier = {
+				factor = 1.2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.8
+				trait = slothful
+			}
+			modifier = {
+				factor = 1.2
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.8
+				trait = zealous
+			}
+		}
+		add_artifact = VIET_hellenic_statue_male
+		random_list = {
+			40 = { }
+			30 = { change_learning = 1 }
+			15 = { change_stewardship = 1 }
+			15 = { change_intrigue = 1 }
+		}
+	}
+}
+
+
+
+
+# Elders tell stories - Indian
+character_event = {
+	id = VIETmisc.8137
+	desc = VIETmisc.8137.desc
+	picture = GFX_evt_castle_construction_indo_aryan_group
+	
+	is_triggered_only = yes
+	
+	min_age = 4
+	max_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		#in_command = no
+		#NOT = { has_character_flag = VIET_what_do_when_grown_up }
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+			capital_scope = {
+				OR = {
+					culture_group = indo_aryan_group
+					culture_group = dravidian_group
+					region = world_india
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+	}
+	
+	option = { # Greeks
+		name = VIETmisc.8137.a
+		random_list = {
+			50 = { change_learning = 1 }
+			30 = { change_intrigue = 1 }
+			20 = { prestige = 5 }
+		}
+	}	
+	option = { # Hunas
+		name = VIETmisc.8137.b
+		random_list = {
+			50 = { change_martial = 1 }
+			30 = { change_intrigue = 1 }
+			20 = { prestige = 5 }
+		}
+	}	
+	option = { # Kambojas
+		name = VIETmisc.8137.c
+		random_list = {
+			50 = { change_diplomacy = 1 }
+			30 = { change_martial = 1 }
+			20 = { piety = 5 }
+		}
+	}	
+	option = { # Kushans
+		name = VIETmisc.8137.d
+		random_list = {
+			50 = { change_stewardship = 1 }
+			30 = { change_learning = 1 }
+			20 = { piety = 5 }
+		}
+	}	
+}
+
+
+# Elders tell stories - Greco-Roman
+character_event = {
+	id = VIETmisc.8138
+	desc = VIETmisc.8138.desc
+	picture = GFX_evt_busy_trading_dock_republic_hellenic_pagan
+	
+	is_triggered_only = yes
+	
+	min_age = 4
+	max_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		#in_command = no
+		OR = {
+			culture_group = latin
+			culture_group = byzantine
+			culture_group = iberian
+			culture_group = north_african
+			culture = maghreb_arabic
+			culture = andalusian_arabic
+			culture = egyptian_arabic
+			culture = levantine_arabic
+			capital_scope = {
+				OR = {
+					culture_group = latin
+					culture_group = byzantine
+					culture_group = iberian
+					culture_group = north_african
+					culture = maghreb_arabic
+					culture = andalusian_arabic
+					culture = egyptian_arabic
+					culture = levantine_arabic
+					region = world_europe_south
+					region = world_europe_west_iberia
+					region = world_europe_west_francia
+					region = world_africa_north
+					region = world_asia_minor
+					region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+	}
+	
+	option = { # Gauls
+		name = VIETmisc.8138.a
+		random_list = {
+			50 = { change_diplomacy = 1 }
+			30 = { change_martial = 1 }
+			20 = { prestige = 5 }
+		}
+	}	
+	option = { # Goths
+		name = VIETmisc.8138.b
+		random_list = {
+			50 = { change_martial = 1 }
+			30 = { change_stewardship = 1 }
+			20 = { prestige = 5 }
+		}
+	}	
+	option = { # Ethiopians
+		name = VIETmisc.8138.c
+		random_list = {
+			50 = { change_stewardship = 1 }
+			30 = { change_intrigue = 1 }
+			20 = { piety = 5 }
+		}
+	}	
+	option = { # Persians
+		name = VIETmisc.8138.d
+		random_list = {
+			50 = { change_diplomacy = 1 }
+			30 = { change_intrigue = 1 }
+			20 = { piety = 5 }
+		}
+	}	
+}
+
+
+# Elders tell stories - Persian
+character_event = {
+	id = VIETmisc.8139
+	desc = VIETmisc.8139.desc
+	picture = GFX_evt_emissary_zoroastrian_group
+	
+	is_triggered_only = yes
+	
+	min_age = 4
+	max_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+		
+	trigger = {
+		#in_command = no
+		OR = {
+			culture_group = iranian
+			culture_group = serindian
+			capital_scope = {
+				OR = {
+					culture_group = iranian
+					culture_group = serindian
+					region = world_persia
+					region = world_middle_east_arabia
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+	}
+	
+	option = { # Romans
+		name = VIETmisc.8139.a
+		random_list = {
+			50 = { change_diplomacy = 1 }
+			30 = { change_martial = 1 }
+			20 = { prestige = 5 }
+		}
+	}	
+	option = { # Sakas
+		name = VIETmisc.8139.b
+		random_list = {
+			50 = { change_martial = 1 }
+			30 = { change_intrigue = 1 }
+			20 = { prestige = 5 }
+		}
+	}	
+	option = { # Greeks
+		name = VIETmisc.8139.c
+		random_list = {
+			50 = { change_intrigue = 1 }
+			30 = { change_learning = 1 }
+			20 = { piety = 5 }
+		}
+	}	
+	option = { # Chinese
+		name = VIETmisc.8139.d
+		random_list = {
+			50 = { change_stewardship = 1 }
+			30 = { change_diplomacy = 1 }
+			20 = { piety = 5 }
+		}
+	}	
+}
+
+
+# Convert mountainous ancient ruins into something?
+province_event = {
+	id = VIETmisc.8140
+	desc = VIETmisc.8140.desc
+	picture = GFX_evt_ancient_cairn_swiss
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_converted_mountain_ruins_temple }
+		NOT = { has_province_modifier = VIET_province_converted_mountain_ruins_inn }
+		NOT = { has_province_modifier = VIET_province_converted_mountain_ruins_outpost }
+		terrain = mountain
+	}
+	
+	mean_time_to_happen = {
+		months = 12500
+		modifier = {
+			factor = 1.5
+			owner = {
+				OR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { num_of_max_settlements = 5 }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { num_of_max_settlements = 3 }
+		}
+	}
+	
+
+	option = { # no
+		name = VIETmisc.8140.a
+	}
+	option = { # build shrine with inn
+		name = VIETmisc.8140.b
+		trigger = {
+			owner = {
+				OR = {
+					wealth = 50
+					ai = no				
+				}
+			}
+		}
+		wealth = -50
+		add_province_modifier = {
+			name = VIET_province_converted_mountain_ruins_temple
+			duration = 5475
+		}
+	}	
+	option = { # build large inn
+		name = VIETmisc.8140.c
+		trigger = {
+			owner = {
+				OR = {
+					wealth = 50
+					ai = no				
+				}
+			}
+		}
+		wealth = -50
+		add_province_modifier = {
+			name = VIET_province_converted_mountain_ruins_inn
+			duration = 5475
+		}
+	}	
+	option = { # build outpost with inn
+		name = VIETmisc.8140.d
+		trigger = {
+			owner = {
+				OR = {
+					wealth = 50
+					ai = no				
+				}
+			}
+		}
+		wealth = -50
+		add_province_modifier = {
+			name = VIET_province_converted_mountain_ruins_outpost
+			duration = 5475
+		}
+	}	
+}
+
+
+
+
+# Soldiers find an ancient cache of treasure
+character_event = {
+	id = VIETmisc.8141
+	desc = VIETmisc.8141.desc
+	picture = GFX_evt_ancient_cairn_swiss
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		any_demesne_province = {
+			terrain = mountain
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8141.a #Take it
+		wealth = 20
+	}	
+	option = {
+		name = VIETmisc.8141.b #Split it with soldiers
+		wealth = 10
+		if = {
+			limit = {
+				trait = greedy
+			}
+			random = {
+				remove_trait = greedy
+				chance = 45
+			}
+		}
+		else = {
+			random = {
+				add_trait = charitable
+				chance = 30
+			}
+		}
+	}
+	option = {
+		name = VIETmisc.8141.c #Give all to soldiers
+		trigger = {
+			NOT = { trait = greedy }
+		}
+		prestige = 10
+		piety = 10
+		random = {
+			add_trait = charitable
+			chance = 60
+		}
+		add_character_modifier = {
+			name = generous_ruler
+			duration = 852
+		}
+	}
+}
+
+
+# Take a nap at an ancient ruin, get a Thanos reference
+character_event = {
+	id = VIETmisc.8142
+	desc = VIETmisc.8142.desc
+	picture = GFX_evt_ancient_cairn
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8142.a #ok
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8143 }
+		}
+	}
+}
+
+
+# Take a nap at an ancient ruin, get a Thanos reference
+narrative_event = {
+	id = VIETmisc.8143
+	title = VIETmisc.8143.title
+	desc = VIETmisc.8143.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETmisc.8143.a #ok
+		piety = 5
 	}
 }

@@ -58,6 +58,19 @@ on_yearly_pulse = {
 			#Dreams
 			100 = VIETnam.217	# Good dream
 			100 = VIETnam.218	# Battle dream
+			#Sound
+			100 = VIETnam.266	# Muslim call to prayer - but you have work to do
+			100 = VIETnam.267	# Can't fall asleep quickly
+			#Prayer
+			100 = VIETnam.285	# Church prayer
+			100 = VIETnam.286	# Mosque prayer
+			#Memories
+			100 = VIETnam.299	# Remembering a great time with a lover
+			100 = VIETnam.300	# Old age is sad
+			#Shady
+			100 = VIETnam.302	# Bad baklava
+			#Comets
+			100 = VIETnam.307	# Comet sighted in the sky
 			#Bugs
 			100 = VIETnam.337	# Crickets at night
 			100 = VIETnam.341	# Courtier likes to smash and kill bugs
@@ -195,11 +208,27 @@ on_bi_yearly_pulse = {
 			100 = VIETnam.207	# The Scorpion
 			#Dreams
 			100 = VIETnam.221	# Dream of temptation
+			#Ancient Cultures
+			100 = VIETnam.264	# Visiting scholar discusses henges
+			100 = VIETnam.265	# Axumite stelae collapses
+			#Sound
+			100 = VIETnam.272	# Ocean peace
+			100 = VIETnam.273	# Hammers and anvils - and lots of noise at a port
 			#Bad
 			100 = VIETnam.331	# Spoiled baklava presented to a dignitary
 			100 = VIETnam.332	# Innocent man executed
 			100 = VIETnam.333	# Say curse words at court
 			100 = VIETnam.335	# Walk into court naked
+			#Memories
+			100 = VIETnam.295	# Stumble on old hunting grounds
+			#Shady
+			100 = VIETnam.303	# Servant bought a pig but it's actually a cat
+			100 = VIETnam.304	# Servant is a smuggler
+			100 = VIETnam.305	# Saint's bones scam
+			#Comets
+			100 = VIETnam.309	# A good comet for once?
+			100 = VIETnam.310	# Courtier sees a comet
+			100 = VIETnam.312	# Lunatic or possessed character tries to talk to heaven to stop comets
 			#Bugs
 			100 = VIETnam.338	# Stung by a bee
 			100 = VIETnam.339	# Ladybugs are good luck
@@ -272,7 +301,8 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8115 # Go see the ocean at night
 			#Ancient Cultures
 			100 = VIETmisc.8131 # Are we barbarians?
-			100 = VIETmisc.8135 # Meet with a group of scholars at some ruins
+			100 = VIETmisc.8135 # Meet with a group of scholars at some ruins	
+			100 = VIETmisc.8141 # Soldiers find an ancient cache of treasure
 		
 		}
 		
@@ -299,6 +329,16 @@ on_five_year_pulse = {
 			#Dreams
 			100 = VIETnam.219	# Dagoth Ur dream
 			100 = VIETnam.220	# Dream of Rome
+			#Ancient Cultures
+			100 = VIETnam.259	# Stargate reference - stone gateway found
+			100 = VIETnam.261	# Come across an Achaemenid monument
+			100 = VIETnam.262	# Found Scythian gold in the steppes
+			100 = VIETnam.263	# Encounter Bamiyan Buddhas
+			#Memories
+			100 = VIETnam.296	# Bump into a childhood friend who is a merchant
+			100 = VIETnam.301	# Memories of first love
+			#Comets
+			100 = VIETnam.308	# No comets seen for a while
 			#Bad
 			100 = VIETnam.334	# Bad business associate screws you over
 			
@@ -353,7 +393,8 @@ on_five_year_pulse = {
 			100 = VIETmisc.8112 # Grave robbers reported
 			100 = VIETmisc.8114 # Servant drowns when he tries to swim in the ocean at night
 			#Ancient cultures
-			100 = VIETmisc.8132 # Stumble on mummy - most likely in Egypt, but other regions are possible		
+			100 = VIETmisc.8132 # Stumble on mummy - most likely in Egypt, but other regions are possible			
+			100 = VIETmisc.8142 #Take a nap at an ancient ruin, get a Thanos reference		
 		}
 		
 		#ALL VIET artifact events should go here!
@@ -361,6 +402,9 @@ on_five_year_pulse = {
 			delay = 15
 			
 			15000 = 0 #May need to adjust	
+			
+			#Ancient Cultures
+			100 = VIETnam.260	# Artifact: Hellenic female statue
 			
 			#Christmas
 			100 = VIETmisc.2289 	# Artifact: Nutcracker
@@ -392,6 +436,7 @@ on_five_year_pulse = {
 			100 = VIETmisc.8128 # Artifact: Find an ostracon outside
 			100 = VIETmisc.8129 # Artifact: Find a Nok statue
 			100 = VIETmisc.8130 # Artifact: Servant finds a cuneiform tablet			
+			100 = VIETmisc.8136 # Artifact: Hellenic male statue			
 		}
 		
 		#ALL VIET artifact loss events should go here!
@@ -471,6 +516,13 @@ on_yearly_childhood_pulse = {
 			7000 = 0
 			#Alcohol
 			100 = VIETnam.187		# Child accidentally consumes alcohol
+			#Sound
+			100 = VIETnam.268		# Rock and roll mini event chain
+			100 = VIETnam.274		# Character learning baby talk
+			#Prayer
+			100 = VIETnam.284		# Character learning how to pray
+			#Comets
+			100 = VIETnam.311		# Comet when character is a child
 			#Bugs
 			100 = VIETnam.336		# Child likes eating worms
 			#Prophecy
@@ -478,6 +530,10 @@ on_yearly_childhood_pulse = {
 			#Night
 			100 = VIETmisc.8103		# Child hears loud wind at night
 			100 = VIETmisc.8104		# Child wants a midnight snack
+			#Ancient Cultures
+			100 = VIETmisc.8137		# Elders tell stories - Indian
+			100 = VIETmisc.8138		# Elders tell stories - Graeco-Roman
+			100 = VIETmisc.8139		# Elders tell stories - Persian
 		
 		}
 	}
