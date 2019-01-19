@@ -37,3 +37,15 @@ VIET_opinion_showed_secret_relax_spot_lover = {
 VIET_opinion_beach_trip = {
 	opinion = 20
 }
+VIET_opinion_spared_me_punishment = {
+	opinion = 50
+}
+VIET_opinion_lustful_punishment = {
+	opinion = -60
+}
+VIET_opinion_very_disappointed = {
+	opinion = -15
+}
+VIET_opinion_failed_liege = {
+	opinion = -15
+}

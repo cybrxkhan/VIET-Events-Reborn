@@ -227,6 +227,7 @@ generous_ruler = {
 	diplomacy = 1
 	general_opinion = 5
 	global_tax_modifier = -0.01
+	global_revolt_risk = -0.05
 	icon = 15
 }
 stressed_life = {
@@ -276,6 +277,7 @@ polite_ruler = {
 aaaaah_comet = {
 	monthly_character_prestige = -0.2
 	general_opinion = -5
+	global_revolt_risk = 0.02
 	icon = 35
 }
 good_omen_sighted = {

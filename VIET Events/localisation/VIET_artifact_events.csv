@@ -1,0 +1,425 @@
+#Misc Stuff;;;;;;;;;;;;;;x
+VIETmisc.7000.desc;It appears like I somehow misplaced one of my prized possessions.;;;;;;;;;;;x
+VIETmisc.7000.a;That is unfortunate.;;;;;;;;;;;;;x
+VIETmisc.7001.desc;Whoops! Looks like I accidentally broke something.;;;;;;;;;;;x
+VIETmisc.7001.a;Uh-oh...;;;;;;;;;;;;;x
+VIETmisc.7002.desc;Thieves broke into my residence. Thankfully, my guards subdued most of them and managed to recover most of my valuables. However, one thief managed to elude their grasp and got away with one of my valuables. We were unable to track down the scoundrel afterwards.;;;;;;;;;;;x
+VIETmisc.7002.a;Unfortunate.;;;;;;;;;;;;;x
+VIETmisc.7003.desc;Over the years, your wolf pelt has gotten worn out. Now, it is no longer beautiful as it used to be. In fact, it just got stained with something so horrendous, you don't even want to think about it. If anything, it's now making the room it is in look worse, not better!;;;;;;;;;;;x
+VIETmisc.7003.a;Time to get rid of it.;;;;;;;;;;;;;x
+VIETmisc.7004.desc;Oh no! While inspecting my hourglass, I accidentally dropped it and the glass all shattered when it fell on the floor. I sigh with deep regret as servants rush to clean the mess of glass and sand. It was such a nice hourglass, too. I watch for a while as the servants do their work.;;;;;;;;;;;x
+VIETmisc.7004.a;Help the servants clean it up - it was my fault.;;;;;;;;;;;;;x
+VIETmisc.7004.b;Watch the servants.;;;;;;;;;;;;;x
+VIETmisc.7004.c;Angrily berate the servants - it wasn't my fault!;;;;;;;;;;;;;x
+VIETmisc.7005.desc;One day, I came across my ancient artifact laying on the ground, shattered to pieces. Someone or something must have knocked it over, but there's no way of figuring out who.;;;;;;;;;;;x
+VIETmisc.7005.a;Curses. It was so nice, too!;;;;;;;;;;;;;x
+VIETmisc.7005.b;No matter, what's done is done.;;;;;;;;;;;;;x
+VIETmisc.7005.c;Punish every servant! One of them must've caused it.;;;;;;;;;;;;;x
+VIETmisc.7006.desc;How could she? While cleaning, the maid accidentally bumped into one of my priceless, ancient artifacts. It fell into the ground, where it broke into many pieces. Coincidentally I was there to witness the whole incident.;;;;;;;;;;;x
+VIETmisc.7006.a;The girl looks up at me, her eyes wide with fear.;;;;;;;;;;;;;x
+VIETmisc.7007.desc;Now the girl is quivering uncontrollably as I decide what to do with her. She's usually a good, clever, and talented girl, liked by all - she just happens to also be clumsy on occasion.;;;;;;;;;;;x
+VIETmisc.7007.a;She just needs to be more careful from now on.;;;;;;;;;;;;;x
+VIETmisc.7007.b;Beat her for her insolence before firing her.;;;;;;;;;;;;;x
+VIETmisc.7007.c;Maybe she's better suited as a lady in waiting.;;;;;;;;;;;;;x
+VIETmisc.7007.d;I have a better idea on how she can repay her debt.;;;;;;;;;;;;;x
+VIET_maid_artifact_be_nice;\n\nThe artifact is not worth fussing about. Hopefully with time she will learn from her mistakes.;;;;;;;;;;;x
+VIET_maid_artifact_be_asshole;\n\nThat girl was stupid and careless.;;;;;;;;;;;x
+VIET_maid_artifact_promote;\n\nI'm fond of her, to be honest, given her likeable personality, and think maybe with some time and effort, she can be taught to be more graceful and prudent.;;;;;;;;;;;x
+VIET_maid_artifact_bang;\n\nShe is a very pretty girl, after all. Why not get something out of this?;;;;;;;;;;;x
+VIETmisc.7008.desc;A fire broke out in part of your residence today. Since it was small, there was barely any damage, and no one got hurt. However, it did burn and destroy something precious belonging to you...;;;;;;;;;;;x
+VIETmisc.7008.a;Oh no!;;;;;;;;;;;;;x
+VIETmisc.7009.desc;It seems that over time, the silver on most of the silverware in my special set has eroded from overuse. Attempts to polish it have proved futile. There isn't much a point in keeping my old silverware set anymore as it won't impress anyone.;;;;;;;;;;;x
+VIETmisc.7009.a;It isn't doing me any good now.;;;;;;;;;;;;;x
+VIETmisc.7009.b;I could at least pawn off the remaining silver for something.;;;;;;;;;;;;;x
+VIETmisc.7009.c;Perhaps I can give it as a gift to a commoner?;;;;;;;;;;;;;x
+VIETmisc.7010.desc;Over time, my personal goblet has accumulated a lot of grime and muck that has become more and more difficult to scrape off. Everyone says it's disgusting and that I should just get rid of the goblet.;;;;;;;;;;;x
+VIETmisc.7010.a;They have a point.;;;;;;;;;;;;;x
+VIETmisc.7010.b;No! I'll try to keep the goblet!;;;;;;;;;;;;;x
+VIETmisc.7010.c;Come on, the peasants have it worse than this.;;;;;;;;;;;;;x
+VIETmisc.7011.desc;I drank something earlier today from that goblet and I felt really sick, yet everyone else who drank the same thing felt fine.;;;;;;;;;;;x
+VIETmisc.7011.a;Alright, alright, I get your point, I'll get rid of it.;;;;;;;;;;;;;x
+VIETmisc.7012.desc;My colorful, exotic quill pen has worn out from too much use. It can't really write properly anymore.;;;;;;;;;;;x
+VIETmisc.7012.a;In the garbage it goes, then.;;;;;;;;;;;;;x
+VIETmisc.7013.desc;While a servant was pouring something for me out of my lovely pitcher, I accidentally moved my hand over and knocked the pitcher flying, and it shattered on the ground.;;;;;;;;;;;x
+VIETmisc.7013.a;The servant! Punish him! It was... obviously his fault!;;;;;;;;;;;;;x
+VIETmisc.7013.b;Oh well, it lived a good life.;;;;;;;;;;;;;x
+VIETmisc.7014.desc;I somehow lost the normal key AND all the spares key to my special chest. I and all the servants in my household went around searching for it, and it couldn't be found. Not only that, because of how intricate the lock on the chest is, as the original locksmith who designed it is no longer alive, no locksmith knows how to design a key that can open it.;;;;;;;;;;;x
+VIETmisc.7014.a;Oh dear, oh dear.;;;;;;;;;;;;;x
+VIETmisc.7015.desc;While you were enthusiastically showing someone your star chart, you accidentally moved your hands too fast and tore it apart. In panic, you dropped one of the pieces... onto a candle, where it burned.;;;;;;;;;;;x
+VIETmisc.7015.a;No! The whole thing is ruined now!;;;;;;;;;;;;;x
+VIETmisc.7015.b;This is terrible, but I could use the back as scrap paper at least.;;;;;;;;;;;;;x
+VIETmisc.7016.desc;I let [target_VIET_chess_pieces_lost.GetTitledName] borrow my chess set, but when [target_VIET_chess_pieces_lost.GetSheHe] returned it to me a number of the pieces were missing. This is terrible! It appears [target_VIET_chess_pieces_lost.GetSheHe] must have lost it somewhere. The chess set is as good as useless now.;;;;;;;;;;;x
+VIETmisc.7016.a;I'm disappointed in them.;;;;;;;;;;;;;x
+VIETmisc.7016.b;I'm angry!;;;;;;;;;;;;;x
+VIETmisc.7016.c;It's no big deal.;;;;;;;;;;;;;x
+VIETmisc.7017.desc;My porcelain chopsticks... they somehow... snapped in half?;;;;;;;;;;;x
+VIETmisc.7017.a;Wait... how?;;;;;;;;;;;;;x
+VIETmisc.7018.desc;Curses! That traveling merchant that just visited here was no honest merchant, no wonder the goods he was offering me seemed so suspiciously poor in quality - he was a thief! Guards report that they saw him running off with some of my valuables. I've put my soldiers on high alert, but it's possible that thief could be anywhere now.;;;;;;;;;;;x
+VIETmisc.7018.a;Can I even find a good replacement for it?;;;;;;;;;;;;;x
+VIETmisc.7019.desc;I am giving a tour of my house and property to several important elites from elsewhere in my realm. One of them notices something belonging to me, and is quite enamoured with it! They ask if I am willing to part with it for an exorbitant price.;;;;;;;;;;;x
+VIETmisc.7019.a;You got a deal.;;;;;;;;;;;;;x
+VIETmisc.7019.b;No deal.;;;;;;;;;;;;;x
+VIETmisc.7020.desc;My silk slippers have worn out from overuse.;;;;;;;;;;;x
+VIETmisc.7020.a;Time to find something new for my feet.;;;;;;;;;;;;;x
+VIETmisc.7021.desc;My set of dice aren't what they used to be. Parts of it seemed chipped off and it seems unbalanced, so it isn't exactly a fair dice.;;;;;;;;;;;x
+VIETmisc.7021.a;I'll have to throw it away.;;;;;;;;;;;;;x
+VIETmisc.7022.desc;I am preparing for an upcoming meeting with someone important, and inspect myself with my mirror, when I accidentally drop it and it shatters. I have to go meet this person very soon, yet I feel bad just leaving the shards of glass there for the servants to clean up.;;;;;;;;;;;x
+VIETmisc.7022.a;Help the servants. My guest can wait.;;;;;;;;;;;;;x
+VIETmisc.7022.b;My guest is more important.;;;;;;;;;;;;;x
+VIETmisc.7023.desc;You are hosting a small party, and showing some of your guests the lute you keep as decoration, which you currently hang over the wall. One of your guests reaches out to touch it, only to accidentally dislodge it and cause it to come tumbling to the ground, where it breaks. "Oops," your guest mutters.;;;;;;;;;;;x
+VIETmisc.7023.a;You moron! How could you!;;;;;;;;;;;;;x
+VIETmisc.7023.b;It's alright, everyone, I have plenty other nice things to show you.;;;;;;;;;;;;;x
+VIETmisc.7024.desc;While some laborers were renovating a part of your residence, one of them took your precious calipers, not realizing they were decoration and not tools meant to be used. He later misplaced it somewhere and now it is lost. "I'm sure you can find more calipers elsewhere," one of my servants tells me. "They're all over the place.";;;;;;;;;;;x
+VIETmisc.7024.a;I can only sigh. What's done is done.;;;;;;;;;;;;;x
+VIETmisc.7025.desc;It seems my magnifying glass is not as good as it used to be. There is even a large crack in my magnifying glass and I don't know how it got there. Trying to zoom in on small text doesn't work as well as it did when I first got it.;;;;;;;;;;;x
+VIETmisc.7025.a;Looks like I have to get rid of it.;;;;;;;;;;;;;x
+VIETmisc.7026.desc;I met with some merchants the other day and sealed an important deal with them. I decided to gift one of them my prized abacus to butter them up, as it is getting worn from use so I don't like using it that much anymore, but it is still higher quality than other abacuses so it would still make a good gift.;;;;;;;;;;;x
+VIETmisc.7026.a;They seemed to appreciate the gift.;;;;;;;;;;;;;x
+VIETmisc.7027.desc;Afterwards, one of the merchants, learned in mathematics and possessing some business acumen, asked me if I were willing to let him stay at my court so he could assist me with various matters. He seems reasonably intelligent and has a number of good contacts.;;;;;;;;;;;x
+VIETmisc.7027.a;He could make a useful person to have around.;;;;;;;;;;;;;x
+VIETmisc.7027.b;It's fine. Go with your friends and their new abacus.;;;;;;;;;;;;;x
+VIETmisc.7028.desc;We were enjoying a small meal. I was just trying to reach over to grab something, when my hand slipped and knocked my exquisite wooden nutcracker. It flew... and flew... and flew... into the nearby fireplace.;;;;;;;;;;;x
+VIETmisc.7028.a;Well. Darn.;;;;;;;;;;;;;x
+VIETmisc.7028.b;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7029.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7029.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7030.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7030.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7031.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7031.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7032.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7032.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7033.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7033.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7034.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7034.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7035.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7035.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7036.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7036.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7037.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7037.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7038.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7038.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7039.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7039.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7040.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7040.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7041.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7041.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7042.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7042.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7043.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7043.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7044.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7044.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7045.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7045.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7046.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7046.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7047.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7047.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7048.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7048.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7049.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7049.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7050.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7050.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7051.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7051.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7052.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7052.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7053.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7053.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7054.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7054.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7055.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7055.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7056.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7056.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7057.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7057.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7058.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7058.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7059.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7059.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7060.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7060.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7061.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7061.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7062.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7062.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7063.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7063.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7064.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7064.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7065.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7065.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7066.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7066.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7067.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7067.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7068.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7068.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7069.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7069.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7070.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7070.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7071.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7071.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7072.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7072.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7073.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7073.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7074.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7074.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7075.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7075.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7076.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7076.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7077.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7077.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7078.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7078.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7079.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7079.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7080.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7080.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7081.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7081.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7082.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7082.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7083.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7083.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7084.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7084.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7085.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7085.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7086.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7086.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7087.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7087.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7088.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7088.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7089.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7089.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7090.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7090.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7091.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7091.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7092.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7092.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7093.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7093.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7094.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7094.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7095.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7095.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7096.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7096.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7097.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7097.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7098.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7098.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7099.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7099.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7100.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7100.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7101.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7101.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7102.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7102.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7103.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7103.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7104.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7104.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7105.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7105.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7106.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7106.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7107.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7107.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7108.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7108.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7109.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7109.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7110.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7110.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7111.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7111.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7112.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7112.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7113.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7113.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7114.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7114.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7115.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7115.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7116.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7116.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7117.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7117.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7118.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7118.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7119.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7119.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7120.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7120.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7121.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7121.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7122.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7122.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7123.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7123.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7124.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7124.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7125.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7125.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7126.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7126.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7127.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7127.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7128.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7128.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7129.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7129.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7130.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7130.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7131.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7131.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7132.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7132.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7133.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7133.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7134.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7134.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7135.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7135.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7136.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7136.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7137.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7137.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7138.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7138.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7139.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7139.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7140.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7140.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7141.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7141.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7142.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7142.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7143.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7143.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7144.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7144.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7145.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7145.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7146.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7146.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7147.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7147.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7148.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7148.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7149.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7149.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7150.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7150.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7151.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7151.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7152.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7152.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7153.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7153.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7154.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7154.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7155.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7155.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7156.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7156.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7157.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7157.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7158.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7158.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7159.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7159.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7160.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7160.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7161.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7161.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7162.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7162.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7163.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7163.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7164.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7164.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7165.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7165.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7166.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7166.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7167.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7167.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7168.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7168.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7169.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7169.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7170.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7170.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7171.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7171.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7172.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7172.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7173.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7173.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7174.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7174.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7175.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7175.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7176.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7176.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7177.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7177.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7178.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7178.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7179.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7179.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7180.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7180.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7181.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7181.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7182.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7182.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7183.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7183.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7184.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7184.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7185.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7185.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7186.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7186.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7187.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7187.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7188.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7188.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7189.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7189.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7190.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7190.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7191.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7191.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7192.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7192.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7193.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7193.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7194.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7194.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7195.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7195.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7196.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7196.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7197.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7197.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7198.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7198.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.7199.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.7199.a;Xxxxxxffff;;;;;;;;;;;;;x

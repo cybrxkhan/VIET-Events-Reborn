@@ -168,5 +168,26 @@ VIET_province_succubus_night_paralysis_desc;They say a bewitchingly beautiful cr
 VIET_valerian_herb;Valerian Herbal Tea;Tisane à la valériane;;;;;;;;;;;;x
 VIET_valerian_herb_desc;Ever since the days of the ancient Greeks and Romans, the herb valerian has been given to those who are suffering from insomnia or difficulty falling asleep.;Depuis l'époque des Grecs et des Romains, l'herbe valériane était donnée à ceux qui souffraient d'insomnie ou de difficultés à s'endormir.;;;;;;;;;;;;x
 VIET_no_empathy;Lack of Empathy;Manque d'empathie;;;;;;;;;;;;x
-xxxxxxxxx;xxxxx;;;;;;;;;;;;;x
+VIET_mummys_curse;Mummy's Curse;;;;;;;;;;;;;x
+VIET_mummys_curse_desc;This character claims they were cursed when they encountered a mummy and insulted it. Most people believe this is just merely an excuse for some of this character's bad luck.;;;;;;;;;;;;;x
+VIET_mummys_blessing;Mummy's Blessing;;;;;;;;;;;;;x
+VIET_mummys_blessing_desc;This character claims they were blessed when they encountered a mummy and treated it respectfully. Most people believe this is just merely an explanation for some of this character's good luck.;;;;;;;;;;;;;x
+VIET_clumsy_maid_special;Clumsy Maid;;;;;;;;;;;;;x
+VIET_clumsy_maid_special_desc;This lady was originally a good, clever, and talented maid, albeit one cursed with some clumsiness. However, at least when she was a maid, most felt that she had a most agreeable and likeable personality.;;;;;;;;;;;;;x
+VIET_opinion_spared_me_punishment;Spared Me Punishment;;;;;;;;;;;;;x
+VIET_opinion_lustful_punishment;Blackmailed to be Lover;;;;;;;;;;;;;x
+VIET_opinion_very_disappointed;Very Disappointed;;;;;;;;;;;;;x
+VIET_opinion_failed_liege;Failed liege;;;;;;;;;;;;;x
+VIET_recent_important_business_deal;Recent Business Deal;;;;;;;;;;;;;x
+VIET_recent_important_business_deal_desc;This character recently managed to conclude negotiations with some local merchants that resulted in a beneficial outcome for both parties.;;;;;;;;;;;;;x
+VIET_learning_about_history;Learning About History;;;;;;;;;;;;;x
+VIET_learning_about_history_desc;"History doesn't repeat itself, but it does rhyme.";;;;;;;;;;;;;x
+VIET_unfinished_work;Unfinished Work;;;;;;;;;;;;;x
+VIET_unfinished_work_desc;This character's paperwork isn't going to finish itself.;;;;;;;;;;;;;x
+VIET_province_converted_mountain_ruins_temple;Mountain Ruins Converted to Inn with Shrine;;;;;;;;;;;;;x
+VIET_province_converted_mountain_ruins_temple_desc;Well-known ruins in the mountainous region of this province have recently been converted into an inn that also features a sizeable house of worship.;;;;;;;;;;;;;x
+VIET_province_converted_mountain_ruins_inn;Mountain Ruins Converted to Large Inn;;;;;;;;;;;;;x
+VIET_province_converted_mountain_ruins_inn_desc;Well-known ruins in the mountainous region of this province have recently been converted into a spacious inn with good facilities.;;;;;;;;;;;;;x
+VIET_province_converted_mountain_ruins_outpost;Mountain Ruins Converted to Inn with Military Outpost;;;;;;;;;;;;;x
+VIET_province_converted_mountain_ruins_outpost_desc;Well-known ruins in the mountainous region of this province have recently been converted into an inn that is protected by a military outpost.;;;;;;;;;;;;;x
 xxxxxxxxx;xxxxx;;;;;;;;;;;;;x
