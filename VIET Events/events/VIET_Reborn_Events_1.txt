@@ -11097,6 +11097,9 @@ character_event = {
 		
 	trigger = {
 		in_command = no
+		capital_scope = {
+			port = yes
+		}
 	}
 	
 	weight_multiplier = {
@@ -11144,7 +11147,7 @@ character_event = {
 
 #################################################################
 #
-# CLUTTER ARTIFACTS - 8116-8122
+# CLUTTER ARTIFACTS - 8116-8127
 # Useless items like in an RPG
 #
 #################################################################
@@ -12371,6 +12374,8 @@ character_event = {
 #####################################################
 #
 # ANCIENT CULTURES EVENTS
+#
+# 8128-8143
 #
 #####################################################
 
