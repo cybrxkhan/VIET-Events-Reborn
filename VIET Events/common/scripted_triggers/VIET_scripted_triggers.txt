@@ -61,6 +61,7 @@ is_baklava_culture_trigger = {
 				culture_group = iranian
 				culture_group = south_slavic
 				culture_group = north_african
+				culture_group = israelite
 				culture = turkish
 				culture = andalusian_arabic
 			}

@@ -974,12 +974,12 @@ character_event = {
 			40 = { }
 		}
 		hidden_tooltip = {
-			character_event = { id = VIETmisc.7011 }
+			character_event = { id = VIETmisc.7011 days = 5 random = 15 }
 		}	
 	}	
 	
 	option = { #Peasants have it worse than us!
-		name = VIETmisc.7010.b
+		name = VIETmisc.7010.c
 		trigger = {
 			NOR = {
 				trait = proud
@@ -993,7 +993,7 @@ character_event = {
 			55 = { }
 		}
 		hidden_tooltip = {
-			character_event = { id = VIETmisc.7011 }
+			character_event = { id = VIETmisc.7011 days = 5 random = 15 }
 		}	
 	}	
 }

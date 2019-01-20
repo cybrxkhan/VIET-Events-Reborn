@@ -13861,6 +13861,17 @@ province_event = {
 			name = VIET_province_converted_mountain_ruins_temple
 			duration = 5475
 		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 4 }
+				}
+			}
+		}
 	}	
 	option = { # build large inn
 		name = VIETmisc.8140.c
@@ -13877,6 +13888,17 @@ province_event = {
 			name = VIET_province_converted_mountain_ruins_inn
 			duration = 5475
 		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 4 }
+				}
+			}
+		}
 	}	
 	option = { # build outpost with inn
 		name = VIETmisc.8140.d
@@ -13892,6 +13914,17 @@ province_event = {
 		add_province_modifier = {
 			name = VIET_province_converted_mountain_ruins_outpost
 			duration = 5475
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 4 }
+				}
+			}
 		}
 	}	
 }
