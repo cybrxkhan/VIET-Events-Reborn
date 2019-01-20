@@ -13856,7 +13856,9 @@ province_event = {
 				}
 			}
 		}
-		wealth = -50
+		owner = {
+			wealth = -50
+		}
 		add_province_modifier = {
 			name = VIET_province_converted_mountain_ruins_temple
 			duration = 5475
@@ -13883,7 +13885,9 @@ province_event = {
 				}
 			}
 		}
-		wealth = -50
+		owner = {
+			wealth = -50
+		}
 		add_province_modifier = {
 			name = VIET_province_converted_mountain_ruins_inn
 			duration = 5475
@@ -13910,7 +13914,9 @@ province_event = {
 				}
 			}
 		}
-		wealth = -50
+		owner = {
+			wealth = -50
+		}
 		add_province_modifier = {
 			name = VIET_province_converted_mountain_ruins_outpost
 			duration = 5475

@@ -394,7 +394,7 @@ on_five_year_pulse = {
 			100 = VIETmisc.8114 # Servant drowns when he tries to swim in the ocean at night
 			#Ancient cultures
 			100 = VIETmisc.8132 # Stumble on mummy - most likely in Egypt, but other regions are possible			
-			100 = VIETmisc.8142 #Take a nap at an ancient ruin, get a Thanos reference		
+			100 = VIETmisc.8142 # Take a nap at an ancient ruin, get a Thanos reference		
 		}
 		
 		#ALL VIET artifact events should go here!
@@ -489,9 +489,11 @@ on_decade_pulse = {
 			#EVENT CHAINS
 			50 = OCC.1				# Dance with the dead
 			50 = OCC.2				# Dance with the dead
-			100 = VIETmisc.5061		# Kogarashi Sentiment
+			100 = VIETmisc.5015		# Cretan ruler looks for bat bones and encounters Minotaur (supposedly)
+			100 = VIETmisc.5021		# Sogdian/Tocharian ruler reads ancient scroll
 			100 = VIETmisc.5028		# The infamous toothbrushing scene from Nisemonogatari (incest religion version)
 			100 = VIETmisc.5060		# The infamous toothbrushing scene from Nisemonogatari (non-incest religion version)
+			100 = VIETmisc.5061		# Kogarashi Sentiment
 			100 = VIETmisc.5043		# Burnt bread (based on a legend about Alfred the Great)
 			100 = VIETmisc.5054		# Character dreams of meeting a succubus (implied to be sleep paralysis)
 			

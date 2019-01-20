@@ -23,6 +23,610 @@
 namespace = VIETmisc
 
 
+
+
+
+########################################
+# MINOTAUR
+########################################
+
+# Time for some bat bones
+character_event = {
+	id = VIETmisc.5015
+	desc = VIETmisc.5015.desc
+	picture = GFX_evt_ancient_cairn_byzantine
+
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	ai = no
+	war = no
+
+	trigger = {
+		in_command = no
+		is_abroad = no
+		NOT = { has_global_flag =  VIET_minotaur }
+		NOT = { has_character_flag =  VIET_minotaur_failure }
+		OR = {
+			capital_scope = {
+				OR = {
+					province_id = 479
+					province_id = 480
+				}
+			}
+			AND = {
+				primary_title = {
+					title = d_krete
+				}
+				any_realm_province = {
+					OR = {
+						province_id = 479
+						province_id = 480
+					}
+				}
+			}
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.8
+			trait = hedonist
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				OR = {
+					culture = greek
+					#culture = griko #doesn't exist in WtWSMS
+				}
+			}
+		}
+	}
+
+	option = {
+		name = VIETmisc.5015.a
+		set_global_flag =  VIET_minotaur
+		narrative_event = { id = VIETmisc.5016 tooltip = VIETmisc.5016.tooltip days = 5 random = 5  }
+	}
+}
+
+# Into the cave?
+narrative_event = {
+	id = VIETmisc.5016
+	title = VIETmisc.5016.title
+	desc = VIETmisc.5016.desc
+	picture = GFX_evt_skyrim_forest_greek
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5016.a
+		set_global_flag =  VIET_minotaur
+		narrative_event = { id = VIETmisc.5018 tooltip = VIETmisc.5018.tooltip days = 3 random = 3  }
+	}
+	option = {
+		name = VIETmisc.5016.b
+		set_character_flag =  VIET_minotaur_failure
+		random_list = {
+			75 = { }
+			15 = { add_trait = craven }
+			10 = { add_trait = paranoid }
+		}
+		custom_tooltip = { text = VIETmisc.5017.tooltip }
+		hidden_tooltip = {
+			random_list = {
+				70 = { }
+				30 = { character_event = { id = VIETmisc.5017 days = 2 random = 2  } }
+			}
+		}
+	}
+}
+
+# Luck!
+character_event = {
+	id = VIETmisc.5017
+	desc = VIETmisc.5017.desc
+	picture = GFX_evt_tuscan_country_byzantine
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5017.a
+		add_character_modifier = {
+				name = VIET_cretan_bat_bones
+				duration = -1
+		}  
+	}
+}
+
+# Diggin Around
+narrative_event = {
+	id = VIETmisc.5018
+	title = VIETmisc.5018.title
+	desc = VIETmisc.5018.desc
+	picture = GFX_evt_nightmare
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5018.a
+		narrative_event = { id = VIETmisc.5019 tooltip = VIETmisc.5019.tooltip days = 2 }
+	}
+}
+
+# Encountering the Minotaur
+narrative_event = {
+	id = VIETmisc.5019
+	title = VIETmisc.5019.title
+	desc = VIETmisc.5019.desc
+	picture = GFX_evt_nightmare
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5019.a
+		narrative_event = { id = VIETmisc.5020 tooltip = VIETmisc.5020.tooltip days = 2 random = 2  }
+	}
+}
+
+# Leaving
+narrative_event = {
+	id = VIETmisc.5020
+	title = VIETmisc.5020.title
+	desc = VIETmisc.5020.desc
+	picture = GFX_evt_skyrim_forest_greek
+
+	is_triggered_only = yes
+
+	option = { #MINOTAUR
+		name = VIETmisc.5020.a
+		prestige = 5
+		piety = 5
+		add_character_modifier = {
+				name = VIET_cretan_bat_bones
+				duration = 3650
+		}
+		custom_tooltip = { text = lucky_bat_bones }
+	}
+	option = {#Lolimagination
+		name = VIETmisc.5020.b
+		random_list = {
+			75 = { }
+			20 = { add_trait = cynical }
+			5 = { change_learning = 1 }
+		}
+		add_character_modifier = {
+				name = VIET_cretan_bat_bones
+				duration = 3650
+		}
+		custom_tooltip = { text = lucky_bat_bones_wait }
+	}
+}
+
+
+
+
+########################################
+# SOGDIAN TEXTS
+########################################
+
+# Oooh text
+character_event = {
+	id = VIETmisc.5021
+	desc = VIETmisc.5021.desc
+	picture = GFX_evt_tuscan_country_serindian
+
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	ai = no
+	war = no
+
+	trigger = {
+		in_command = no
+		is_abroad = no
+		NOT = { has_character_flag =  VIET_serindian_document }
+		capital_scope = {
+			OR = {
+				region = world_steppe_tarim
+				duchy = { title = d_khuttal }
+				duchy = { title = d_ferghana }
+				duchy = { title = d_gandhara }
+			}
+		}
+		OR = {
+			culture_group = iranian
+			culture_group = serindian
+		}
+		OR = {
+			learning = 10
+			trait = scholar
+			trait = poet
+			trait = erudite
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.8
+			trait = hedonist
+		}
+		modifier = {
+			factor = 1.2
+			trait = poet
+		}
+		modifier = {
+			factor = 0.8
+			trait = impaler
+		}
+		modifier = {
+			factor = 0.05
+			has_global_flag = VIET_serindian_ancient_doc
+		}
+	}
+
+	option = {
+		name = VIETmisc.5021.a
+		set_global_flag =  VIET_serindian_ancient_doc
+		set_character_flag =  VIET_serindian_document
+		narrative_event = { id = VIETmisc.5022 tooltip = VIETmisc.5022.tooltip days = 4 }
+		hidden_tooltip = {
+			random_list = {
+				20 = { narrative_event = { id = VIETmisc.5023 days = 2 } }
+				20 = { narrative_event = { id = VIETmisc.5024 days = 2 } }
+				20 = { narrative_event = { id = VIETmisc.5025 days = 2 } }
+				20 = { narrative_event = { id = VIETmisc.5026 days = 2 } }
+				20 = { narrative_event = { id = VIETmisc.5027 days = 2 } }
+			}
+		}
+	}
+}
+
+
+# Just Like Us Yay Happy
+narrative_event = {
+	id = VIETmisc.5022
+	title = VIETmisc.5022.title
+	desc = VIETmisc.5022.desc
+	picture = GFX_evt_moorish_decor
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5022.a
+		prestige = 5
+		piety = 5
+	}
+}
+
+# A Western Flower
+narrative_event = {
+	id = VIETmisc.5023
+	title = VIETmisc.5023.title
+	desc = VIETmisc.5023.desc
+	picture = GFX_evt_maiden_serindian
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5023.a
+		add_character_modifier = {
+				name = the_prude
+				duration = 800
+		}
+	}
+	option = {
+		name = VIETmisc.5023.b
+		add_character_modifier = {
+				name = highly_amused_ruler
+				duration = 800
+		}
+	}
+	option = {
+		name = VIETmisc.5023.c
+		tooltip_info = scholar
+		trigger = {
+			trait = poet
+		}
+		add_character_modifier = {
+				name = VIET_li_bai_poetry
+				duration = 800
+		}
+	}
+	option = {
+		name = VIETmisc.5023.c
+		tooltip_info = scholar
+		trigger = {
+			trait = scholar
+			NOT = { trait = poet }
+		}
+		add_character_modifier = {
+				name = VIET_li_bai_poetry
+				duration = 800
+		}
+	}
+	option = {
+		name = VIETmisc.5023.c
+		tooltip_info = learning
+		trigger = {
+			learning = 13
+			NOT = { trait = poet }
+			NOT = { trait = scholar }
+		}
+		add_character_modifier = {
+				name = VIET_li_bai_poetry
+				duration = 800
+		}
+	}
+}
+
+# Stuck in Las Vegas
+narrative_event = {
+	id = VIETmisc.5024
+	title = VIETmisc.5024.title
+	desc = VIETmisc.5024.desc
+	picture = GFX_evt_skyrim_forest_serindian
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5024.a
+		add_character_modifier = {
+			name = VIET_deep_contemplation
+			duration = 365
+		}
+	}
+	option = {
+		name = VIETmisc.5024.b
+		add_character_modifier = {
+			name = VIET_deep_contemplation
+			duration = 365
+		}
+	}
+}
+
+# Shopping List
+narrative_event = {
+	id = VIETmisc.5025
+	title = VIETmisc.5025.title
+	desc = VIETmisc.5025.desc
+	picture = GFX_evt_silk_road
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5025.a
+		add_character_modifier = {
+			name = VIET_bored_ruler
+			duration = 365
+		}
+	}
+	option = {
+		name = VIETmisc.5025.b
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}
+	option = {
+		name = VIETmisc.5025.c
+		add_character_modifier = {
+			name = VIET_deep_contemplation
+			duration = 365
+		}
+	}
+}
+
+# Accusations
+narrative_event = {
+	id = VIETmisc.5026
+	title = VIETmisc.5026.title
+	desc = VIETmisc.5026.desc
+	picture = GFX_evt_silk_road
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5026.a
+		add_character_modifier = {
+			name = VIET_impressed_ruler
+			duration = 365
+		}
+	}
+	option = {
+		name = VIETmisc.5026.b
+		random_list = {
+			70 = {}
+			20 = { add_trait = trusting }
+			10 = { add_trait = kind }
+		}
+	}
+	option = {
+		name = VIETmisc.5026.c
+		trigger = {
+			religion = buddhist
+		}
+		piety = 4
+	}
+	option = {
+		name = VIETmisc.5026.d
+		trigger = {
+			NOT = { religion = buddhist }
+		}
+		prestige = 4
+	}
+	option = {
+		name = VIETmisc.5026.e
+		trigger = {
+			NOT = { religion = buddhist }
+		}
+		prestige = 2
+		piety = 2
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 50
+				remove_trait = zealous
+			}
+		}
+	}
+}
+
+# Cows
+narrative_event = {
+	id = VIETmisc.5027
+	title = VIETmisc.5027.title
+	desc = VIETmisc.5027.desc
+	picture = GFX_evt_silk_road
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5027.a
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}
+	option = {
+		name = VIETmisc.5027.b
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}
+	option = {
+		name = VIETmisc.5027.c
+		tooltip_info = gluttonous
+		trigger = {
+			trait = gluttonous
+			NOT = { religion = hindu }
+			NOT = { religion = jain }
+		}
+		add_character_modifier = {
+			name = best_meal_in_ages
+			duration = 365
+		}
+	}
+}
+
+
+
 ########################################
 # IMOVTO TOOTHBRVSHING (see Nisemonogatari, second half of episode 8)
 ########################################
