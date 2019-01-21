@@ -1,6 +1,6 @@
-[h1]Current Version: 2.0.2 "Dusk" (Released 1/7/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.3 "Shen Kuo" (Released 1/20/19, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
-[B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn]on Github [/url]
+[B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
 
 VIET Events Reborn is the reboot of the Events module from the VIET mod (once part of HIP) that I created over six years ago before I retired three years back. Features include:
@@ -12,6 +12,7 @@ VIET Events Reborn is the reboot of the Events module from the VIET mod (once pa
 [*]Plenty of new event pictures, including cultural and religious variants of vanilla event pictures
 [*]Performance tweaks and miscellaneous improvements over the old VIET Events (many courtesy of the WTWSMS, LI, and Hide Your Jewelry mod teams)
 [*]Compatibility with almost everything since it doesn’t touch any vanilla files
+[*]French translation available (credits to Loup99, Mouchi, and Domper59)
 [*][B]NOT ACHIEVEMENT COMPATIBLE![/B]
 [/LIST]
 
@@ -37,18 +38,28 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.2 "Dusk"
+Version 2.0.3 "Shen Kuo"
 
-[I]"Let him not vow to walk in the dark, who has not seen the nightfall."
-
-- J.R.R. Tolkien[/I]
+[I]Shen Kuo was a Chinese polymath, scholar, and official of the Song Dynasty. Among his many achievements in various fields, he developed an academically rigorous approach to archaeology and history for his time.[/I]
 
 [LIST]
-[*]Added 15 Night themed events
-[*]Added 10 Shadow themed events
-[*]Re-added the following events from old VIET: 5 bad, 5 bug, 5 old age
-[*]Changed ancient pottery event from a province event to a character event fired from on actions, to decrease its frequency
-[*]Commented out references in old VIET Traits in code
-[*]Fixed Large Antiquity shrine event referring to the province’s religion, not the owner’s religion
+[*]Added 11 Ancient Culture themed events
+[*]Added 12 Clutter themed events (to gain even more useless clutter!)
+[*]Added 29 events to lose artifacts added in VIET Events - these fire on a separate on_actions and are fairly rare (though will be a little more common for characters with more than three VIET artifacts)
+[*]Re-added the following 41 events from old VIET: 7 Ancient Cultures, 9 Sound, 3 Prayer, 9 Memories, 5 Shady, and 8 Comet Events
+[*]Re-added event chains: Minotaur and Tarim Basin Scrolls
+[*]Added “Clutter” slot in player inventory for the miscellaneous VIET artifacts. Players are now limited to “equipping” three of these at a time, to prevent stacking a crap ton of bonuses.
+[*]Added many new clutter artifacts, including some ancient artifacts
+[*]Events to gain or lose VIET artifacts are now in a separate on_actions - will still need testing to tweak frequency
+[*]Added flags to VIET artifacts
+[*]Reduced frequency of VIET artifact events
+[*]Reduced chances of getting VIET artifacts if character already has one (via scripted trigger)
+[*]Reduced severity of revolt risk for several modifiers
+[*]Nutcracker and Hourglass artifact events now moved to the Five year on_actions pulse (where almost all the other clutter artifact events were)
+[*]Israelite/Jewish cultures now also count for is_baklava_culture_trigger
+[*]Fixed Mysterious Colors, Famous Bard, and Haunted Ship event modifiers giving global revolt risk instead of local revolt risk
+[*]Fixed Calipers and Abacus artifact events being able to fire if character already owns them
+[*]Fixed event where you go to the ocean at night firing if your capital isn’t coastal
+[*]Other miscellaneous fixes
 [/LIST]
 
