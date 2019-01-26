@@ -549,32 +549,73 @@ VIETmisc.8142.a;What an impressive sight this place must have been…;Quel spectac
 VIETmisc.8143.title;It Was Beautiful;C'était beau;;;;;;;;;;x;x
 VIETmisc.8143.desc;A man I do not recognize approaches me. “It was an impressive sight,” he tells me with authority. “It was, many centuries ago, when it was my home.”\n\nI ask him, “You lived here?”\n\nSuddenly, the landscape before me changes! The ruins disappear, and instead I see a magnificent building in a style I do not recognize, surrounded by a spectacular landscape. The man gestures, and answers, “I did, and it was beautiful.”\n\nI admire the scenery for some time, before I gradually wake up and find myself back in the ruins. The man from my dream is nowhere to be seen.;Un homme que je ne reconnais pas m'approche. "C'était un spectacle impressionnant", me dit-il avec autorité. "C’était il y a plusieurs siècles, quand j’étais chez moi."\n\nJe lui demande: "Avez-vous habité ici ?"\n\nSoudain, le paysage devant moi change ! Les ruines disparaissent et je vois à la place un magnifique bâtiment d'un style que je ne reconnais pas, entouré d'un paysage spectaculaire. L'homme gesticule et répond : "Oui, et c'était beau."\n\n J'admire le paysage pendant un certain temps, avant de me réveiller petit à petit et de me retrouver dans les ruines. L'homme de mon rêve est introuvable.;;;;;;;;;;x;x
 VIETmisc.8143.a;And what a dream that was!;Et quel rêve c'était !;;;;;;;;;;;;x
-VIETmisc.8144.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8144.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8145.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8145.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8146.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8146.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8147.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8147.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8148.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8148.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8149.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8149.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8150.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8150.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8151.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8151.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8152.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8152.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8153.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8153.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8154.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8154.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8155.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8155.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8156.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8156.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8144.desc;“By [Root.Religion.GetRandomGodName]! A handsome man in our town at last!” the barmaid says, blushing and smiling as you enter the tavern. You are here to meet a few local patricians on official business, but it will be at least an hour or so before they arrive, so perhaps you can distract myself with this girl...;;;;;;;;;;;x
+VIETmisc.8144.a;She’s obviously saying that to get tips. Ignore her.;;;;;;;;;;;;;x
+VIETmisc.8144.b;Have a friendly chat with her, but nothing inappropriate.;;;;;;;;;;;;;x
+VIETmisc.8144.c;Flirt with her, but not too seriously.;;;;;;;;;;;;;x
+VIETmisc.8144.d;One hour is enough for a bit of fun…;;;;;;;;;;;;;x
+VIETmisc.8144.e;I’m not interested in women anyways.;;;;;;;;;;;;;x
+VIETmisc.8145.desc;I am at a small feast, hosted by a local nobleman. One of his children, a charming [Root.GetBoyGirlOpp], tries to make small talk with me, and coyly says, “It’s a fine day with you around….” This [Root.GetBoyGirlOpp] is clearly inexperienced at conversing with [Root.GetHerHisOpp] betters, but it is endearing. As the two of you continue talking, I see that [Root.GetSheHeOpp] perhaps has some potential.;;;;;;;;;;;x
+VIETmisc.8145.a;Give [Root.GetHerHim] some advice and kind words.;;;;;;;;;;;;;x
+VIETmisc.8145.b;This is boring. I’ll find someone else to talk to.;;;;;;;;;;;;;x
+VIETmisc.8145.c;I’ll suggest to [Root.GetHerHisOpp] father that [Root.GetSheHeOpp] could join my court.;;;;;;;;;;;;;x
+VIET_nice_day_with_you_around_tooltip;\n\n\nIt will undoubtedly offer better opportunities than living in this small mansion forever.;;;;;;;;;;;x
+VIETmisc.8146.desc;A strange mercenary has come to my court from faraway lands. She is a woman, for one thing. Though not too old, she bears a number of battle wounds, and her demeanor suggests she is tough as nails. She tells me, if a bit ominously, “Death is my art, and like all artists, I seek a patron. For a mere handful of gold, I will follow you into any danger.”;;;;;;;;;;;x
+VIETmisc.8146.a;She’s an unconventional sort, but hire her anyways!;;;;;;;;;;;;;x
+VIETmisc.8146.b;No, that’s fine. Thank her for the offer nevertheless.;;;;;;;;;;;;;x
+VIETmisc.8146.c;Hah! A woman thinks she can actually fight?;;;;;;;;;;;;;x
+VIETmisc.8147.desc;I am visiting some of the peasants nearby, to better gauge how things are going in my realm, or at least to pretend I care. I ask one of them how they expect the next harvest to go. “There’s a nip in the air,” the farmer says in his rustic dialect. “Cold won’t be good for my crops.”;;;;;;;;;;;x
+VIETmisc.8147.a;Not my problem, so good luck with that.;;;;;;;;;;;;;x
+VIETmisc.8147.b;Don’t worry. Things will be fine. I promise you!;;;;;;;;;;;;;x
+VIETmisc.8147.c;Pray to [Root.Religion.GetRandomGodName] that nothing happens.;;;;;;;;;;;;;x
+VIETmisc.8147.d;I see. Let’s hope the cold won’t be that bad.;;;;;;;;;;;;;x
+VIETmisc.8148.desc;The village market is always a bustling place. While waiting for someone, I idly watch people. From earnest farmers selling and buying produce to crafty merchants from exotic lands, there are so many here. I notice there is a little girl working at the stall next to me, so I ask her what she is doing here. “I sell fruits and vegetables with my mother. It's fun most days but hard work.”;;;;;;;;;;;x
+VIETmisc.8148.a;Better get used to a life of hard work, kid.;;;;;;;;;;;;;x
+VIETmisc.8148.b;That’s the wrong attitude! Sometimes you have to relax.;;;;;;;;;;;;;x
+VIETmisc.8148.c;Work is pointless without the help of [Root.Religion.GetRandomGodName].;;;;;;;;;;;;;x
+VIETmisc.8148.d;You’re admirable! Maybe there is hope for the future after all.;;;;;;;;;;;;;x
+VIETmisc.8149.desc;You're bored one day and getting to know one of your guards, a friendly fellow who’s also something of an amateur poet. “You know what's wrong with the world these days? Everyone is obsessed with death. People have forgotten humor, poetry and romance. I love a good sword fight as much as the next man, but there's more to life.”;;;;;;;;;;;x
+VIETmisc.8149.a;We can't let frivolous follies distract us, though.;;;;;;;;;;;;;x
+VIETmisc.8149.b;You’re just a lazy loafer, aren’t you?;;;;;;;;;;;;;x
+VIETmisc.8149.c;True enough words! People need to relax.;;;;;;;;;;;;;x
+VIETmisc.8149.d;I like your attitude! Would you like a promotion?;;;;;;;;;;;;;x
+VIETmisc.8150.desc;In the hills of [Root.Capital.GetName], there are some mining operations that bring in much needed profit to the local towns. While visiting one such mining town I learn about its most peculiar arrangement. The town’s two mines are owned by a married couple, except they are business rivals. Thus, husband and wife each own one mine and compete against each other.;;;;;;;;;;;x
+VIETmisc.8150.a;The townsfolk say they constantly bicker.;;;;;;;;;;;;;x
+VIETmisc.8151.tooltip;How are they still married?;;;;;;;;;;;x
+VIETmisc.8151.desc;Somehow, years ago, the husband and wife had a falling out, and are now trying to drive each other out of business. This absurd situation confounds and troubles the townspeople, but given the profits the mines bring in, they decide to live with it. Now, however, with my coming, the husband and wife demand that I support one of them in favor of the other. On one hand, there is no legal need for me to get involved in their bizarre squabble. On the other hand, it’s clear the husband and wife still care about each other and they’re just too proud to believe otherwise, not to mention I could gain some sort of financial benefit from this too by getting a good business deal with one of them.;;;;;;;;;;;x
+VIETmisc.8151.a;The husband seems more reliable than his shrewish wife.;;;;;;;;;;;;;x
+VIETmisc.8151.b;The wife seems sharper than her oafish husband.;;;;;;;;;;;;;x
+VIETmisc.8151.c;Perhaps I can resolve their marital troubles.;;;;;;;;;;;;;x
+VIETmisc.8151.d;I think I can work out a profitable arrangement with both.;;;;;;;;;;;;;x
+VIETmisc.8151.e;Why should I get involved with this?;;;;;;;;;;;;;x
+VIETmisc.8152.desc;A maid is helping me clean out my room. She is infamous for having a sarcastic and occasionally absent-minded personality, even if she is quite capable and undyingly loyal. I hand her a few things to put in the garbage dump, and she rolls her eyes and says sarcastically, “I am sworn to carry your burdens.”;;;;;;;;;;;x
+VIETmisc.8152.a;Don’t talk such rot. I am your liege!;;;;;;;;;;;;;x
+VIETmisc.8152.b;Ha ha! Funny as always!;;;;;;;;;;;;;x
+VIETmisc.8152.c;I need more sharp, witty people like you at court.;;;;;;;;;;;;;x
+VIET_why_hire_lydia;\n\n\nI don’t trust those who use insincere smiles and dishonest flattery.;;;;;;;;;;;x
+VIETmisc.8153.desc;I come across a peasant on the road and try to talk with him. “Come to gawk at a [Root.Culture.GetName] commoner?" he snaps, before quickly apologizing, "I mean no offense. I am but a humble farmer. Not a... a great [Root.GetTitle], like you.”;;;;;;;;;;;x
+VIETmisc.8153.a;No worries. Are you doing alright?;;;;;;;;;;;;;x
+VIETmisc.8153.b;Insolent wretch! I was trying to be friendly!;;;;;;;;;;;;;x
+VIETmisc.8153.c;Guards, beat this man to teach him a lesson.;;;;;;;;;;;;;x
+VIETmisc.8153.d;Guards, imprison this vile knave!;;;;;;;;;;;;;x
+VIETmisc.8154.desc;Today you are in town and paying a visit to someone, and overhear an elderly gentleman saying, “The security in [Root.Capital.GetName] is terrible. Shameful, that’s what it is.” He then continues to criticize your guards and your decisions in regard to protecting the region, without noticing you are right there!;;;;;;;;;;;x
+VIETmisc.8154.a;Ignore him.;;;;;;;;;;;;;x
+VIETmisc.8154.b;Reveal myself and apologize for my errors.;;;;;;;;;;;;;x
+VIETmisc.8154.c;Reveal myself and discuss what he thinks should be done.;;;;;;;;;;;;;x
+VIETmisc.8154.d;Reveal myself and politely tell him to mind his business.;;;;;;;;;;;;;x
+VIETmisc.8155.desc;You and a few guards are traveling in the more rural parts of the country, when you come across a man sitting by an overturned carriage. He appears to be in pain, and explains he is a traveling merchant. Bandits attacked him and took all his goods. However, he still has some left belongings at his camp nearby. If you escorted him back to his camp, he will compensate you.;;;;;;;;;;;x
+VIETmisc.8155.a;Sure! Always glad to lend a hand.;;;;;;;;;;;;;x
+VIETmisc.8155.b;You’re on your own, stranger.;;;;;;;;;;;;;x
+VIETmisc.8155.c;Something seems fishy. We should leave.;;;;;;;;;;;;;x
+VIETmisc.8155.d;Something seems fishy. Let’s help, but be on your guard, men.;;;;;;;;;;;;;x
+VIETmisc.8156.tooltip;\n\n\nYou agree to help the merchant.;;;;;;;;;;;x
+VIETmisc.8156.desc;The merchant happily leads you back to his camp at a surprisingly brisk pace. Once you approach the camp, however, you realize there are heavily armored men around. The ‘merchant’ shouts to the men, “Looks like we've got ourselves another fool!”;;;;;;;;;;;x
+VIETmisc.8156.a;You and your men fought off the bandits and escaped.;;;;;;;;;;;;;x
+VIETmisc.8156.b;You and your men fought the bandits and killed them all.;;;;;;;;;;;;;x
+VIETmisc.8156.c;You and your men were alert and prepared, thankfully.;;;;;;;;;;;;;x
+VIET_telrav_fight_a;How could you have been so gullible? That bandit led you into an ambush that almost claimed your life!;;;;;;;;;;;x
+VIET_telrav_fight_b;Though you were caught off guard, your superior discipline and fighting abilities saved the day, and now the bandits’ ill-gotten gains are all yours.;;;;;;;;;;;x
+VIET_telrav_fight_c;The bandits stood no chance. What more, their ill-gotten gains are all yours now!;;;;;;;;;;;x
 VIETmisc.8157.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8157.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8158.desc;xxxxx;;;;;;;;;;;x

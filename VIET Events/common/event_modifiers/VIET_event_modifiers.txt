@@ -128,7 +128,7 @@ deep_contemplation = {
 	icon = 17
 }
 lustful_ruler = {
-	monthly_character_piety = -0.1
+	monthly_character_piety = -0.05
 	fertility = 0.05
 	icon = 39
 }

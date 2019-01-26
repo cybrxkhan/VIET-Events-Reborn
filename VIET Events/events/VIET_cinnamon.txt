@@ -139,12 +139,14 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.8
-			NOT = {
-				OR = {
-					culture = greek
-					#culture = griko #doesn't exist in WtWSMS
-				}
-			}
+			culture_group = byzantine
+			#NOT = {
+			#	OR = {
+			#		culture = greek
+			#		culture = tsakonian
+			#		culture = griko #doesn't exist in WtWSMS
+			#	}
+			#}
 		}
 	}
 

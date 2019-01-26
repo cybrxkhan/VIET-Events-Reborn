@@ -49,3 +49,6 @@ VIET_opinion_very_disappointed = {
 VIET_opinion_failed_liege = {
 	opinion = -15
 }
+VIET_opinion_sarcastic_lydia = {
+	opinion = 40
+}

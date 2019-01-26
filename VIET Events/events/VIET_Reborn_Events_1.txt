@@ -12,6 +12,7 @@
 # 8100-8115: Night
 # 8116-8127: Clutter Artifacts
 # 8128-8143: Ancient Cultures
+# 8144-8156: Skyrim Conversations
 #
 #####################################################################
 
@@ -2337,10 +2338,10 @@ character_event = {
 					}
 				}
 				opinion = {
+					modifier = opinion_loyal_servant
 					who = ROOT
-					modifier = VIET_opinion_patron
 					years = 100
-				}				
+				}			
 				if = {
 					limit = { has_dlc = "Way of Life" }
 					random_list = {
@@ -2431,8 +2432,8 @@ character_event = {
 					}
 				}
 				opinion = {
+					modifier = opinion_loyal_servant
 					who = ROOT
-					modifier = VIET_opinion_patron
 					years = 100
 				}
 				#Personality Archetypes
@@ -14127,3 +14128,1793 @@ narrative_event = {
 		piety = 5
 	}
 }
+
+
+######################################################################################################################
+#
+# SKYRIM CONVERSATIONS - inspired by Skyrim dialogue (many will be disabled by Serious or Balanced game rule)
+# VIETmisc.8144-8156
+#
+######################################################################################################################
+
+
+
+# Narri - barmaid flirts with character
+character_event = {
+	id = VIETmisc.8144
+	desc = VIETmisc.8144.desc
+	picture = GFX_evt_brothel
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	only_men = yes
+	
+	trigger = {
+		in_command = no
+		has_unattractive_trait_trigger = no
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 2			
+			has_attractive_trait_trigger = yes
+		}		
+		modifier = {
+			factor = 0.5			
+			has_attractive_trait_trigger = no
+		}	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8144.a # Ignore
+		if = {
+			limit = {
+				trait = trusting
+			}
+			random = {
+				remove_trait = trusting
+				chance = 40
+			}
+		}
+		random_list = {
+			75 = { }
+			15 = { add_trait = cynical }
+			5 = { add_trait = paranoid }
+			5 = { add_trait = shy }
+		}
+	}	
+	option = {
+		name = VIETmisc.8144.b # Friendly chat
+		if = {
+			limit = {
+				trait = shy
+			}
+			random = {
+				remove_trait = shy
+				chance = 30
+			}
+		}
+		else = {
+			random = {
+				add_trait = gregarious
+				chance = 30
+			}
+		}
+		add_character_modifier = {
+			name = VIET_interesting_talk_with_stranger
+			duration = 210
+		}
+	}	
+	option = {
+		name = VIETmisc.8144.c # Flirt
+		trigger = {
+			NOR = {
+				trait = celibate
+				trait = eunuch
+				trait = homosexual
+			}
+		}
+		if = {
+			limit = {
+				trait = chaste
+			}
+			random = {
+				remove_trait = chaste
+				chance = 25
+			}
+		}
+		if = {
+			limit = {
+				trait = shy
+			}
+			random = {
+				remove_trait = shy
+				chance = 70
+			}
+		}
+		add_character_modifier = {
+			name = lustful_ruler
+			duration = 210
+		}
+	}	
+	option = {
+		name = VIETmisc.8144.d # Bang
+		trigger = {
+			NOR = {
+				trait = celibate
+				trait = eunuch
+				trait = homosexual
+			}
+		}
+		if = {
+			limit = {
+				trait = chaste
+			}
+			remove_trait = chaste
+		}
+		else = {
+			random = {
+				add_trait = lustful
+				chance = 75
+			}
+		}
+		add_character_modifier = {
+			name = VIET_one_time_lovemaking
+			duration = 365
+		}
+	}	
+	option = {
+		name = VIETmisc.8144.e # Not into women
+		trigger = {
+			OR = {
+				trait = celibate
+				trait = eunuch
+				trait = homosexual
+			}
+		}
+		piety = 5
+	}
+}
+
+# It's a fine day with you around - character meets young noble
+character_event = {
+	id = VIETmisc.8145
+	desc = VIETmisc.8145.desc
+	picture = GFX_evt_dancing
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8145.a # Advice and kind words
+		if = {
+			limit = {
+				trait = envious
+			}
+			random = {
+				remove_trait = envious
+				chance = 30
+			}
+		}
+		else = {
+			random = {
+				add_trait = kind
+				chance = 30
+			}
+		}
+		add_character_modifier = {
+			name = advice_giver
+			duration = 456
+		}
+	}	
+	option = {
+		name = VIETmisc.8145.b # Talk to someone else
+		if = {
+			limit = {
+				trait = patient
+			}
+			random = {
+				remove_trait = patient
+				chance = 30
+			}
+		}
+		else = {
+			random = {
+				add_trait = proud
+				chance = 30
+			}
+		}
+	}	
+	option = {
+		name = VIETmisc.8145.c # Bring to court
+		trigger = {
+			NOT = { has_character_flag = VIET_fine_day_with_you_around }
+		}
+		set_character_flag = VIET_fine_day_with_you_around
+		random_list = {
+			70 = { }
+			10 = { add_trait = charitable }
+			10 = { add_trait = kind }
+			10 = { add_trait = humble }
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_character = {
+				age = 18
+				dynasty = actually_culture
+				religion = ROOT
+				culture = ROOT
+				female = no
+				random_traits = no
+				historical = yes
+			}
+			new_character = {
+				#Education & other basic stuff
+				#set_character_flag = ai_flag_refuse_concubinage
+				#set_character_flag = ai_flag_refuse_marriage
+				set_character_flag = no_court_invites
+				random_list = {
+					70 = { add_trait = charismatic_negotiator }
+					30 = { add_trait = grey_eminence }
+				}	
+				#Guaranteed Traits
+				add_trait = kind
+				add_trait = humble
+				add_trait = shy
+				add_trait = trusting
+				add_trait = fair
+				opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+					years = 100
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			create_character = {
+				age = 18
+				dynasty = actually_culture
+				religion = ROOT
+				culture = ROOT
+				female = yes
+				random_traits = no
+				historical = yes
+			}
+			new_character = {
+				#Education & other basic stuff
+				#set_character_flag = ai_flag_refuse_concubinage
+				#set_character_flag = ai_flag_refuse_marriage
+				set_character_flag = no_court_invites
+				random_list = {
+					70 = { add_trait = charismatic_negotiator }
+					30 = { add_trait = grey_eminence }
+				}	
+				#Guaranteed Traits
+				add_trait = kind
+				add_trait = humble
+				add_trait = shy
+				add_trait = trusting
+				add_trait = fair
+				opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+					years = 100
+				}
+			}
+		}
+		custom_tooltip = { text = VIET_nice_day_with_you_around_tooltip }
+	}
+}
+
+
+# Jenassa - strange female mercenary comes to court
+character_event = {
+	id = VIETmisc.8146
+	desc = VIETmisc.8146.desc
+	picture = GFX_evt_campfire_hf
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		NOT = { has_character_flag = VIET_jenassa_event }
+		#has_game_rule = {
+		#	name = VIET_events_rules
+		#	value = silly
+		#}
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
+		}
+		prestige = 200
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			prestige = 1000
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { prestige = 500 }
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = erudite
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_jenassa_event
+	}
+	
+	option = {
+		name = VIETmisc.8146.a # Hire her
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 30
+			}
+		}
+		wealth = -30
+		prestige = -30
+		create_random_soldier = {
+			age = 30
+			dynasty = culture
+			religion = ROOT
+			culture = random
+			female = yes
+			random_traits = no
+			historical = yes
+			attributes = {
+				diplomacy = 4
+				martial = 7
+				stewardship = 3
+				intrigue = 6
+				learning = 4
+			}
+		}
+		new_character = {
+			#Education & other basic stuff
+			set_character_flag = ai_flag_refuse_concubinage
+			set_character_flag = ai_flag_refuse_marriage
+			set_character_flag = no_court_invites
+			set_character_flag = special_marshal
+			#Guaranteed Traits
+			add_trait = brave
+			add_trait = cynical
+			add_trait = patient
+			add_trait = deceitful
+			add_trait = erudite
+			add_trait = adventurer
+			add_trait = schemer
+			add_artifact = bow_tier_2_new
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+			add_character_modifier = {
+				name = VIET_jenassa_mercenary
+				duration = -1
+			}
+			#Flavor
+			random_list = {
+				90 = { add_scarred_tiered_effect = yes }
+				10 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+			}
+			random = {
+				add_trait = fair
+				chance = 25
+			}
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8146.b # Don't hire
+	}
+	
+	option = {
+		name = VIETmisc.8146.c # Be sexist
+		trigger = {
+			is_female = no
+		}
+		add_character_modifier = {
+			name = VIET_sexist_against_women
+			duration = 900
+		}
+	}
+}
+
+# Bad nip in the air
+character_event = {
+	id = VIETmisc.8147
+	desc = VIETmisc.8147.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#has_game_rule = {
+		#	name = VIET_events_rules
+		#	value = silly
+		#}
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8147.a # Not my problem
+		trigger = {
+			NOR = {
+				trait = just
+				trait = kind
+				trait = charitable
+			}
+		}
+		prestige = 3
+		random_list = {
+			10 = { add_trait = proud }
+			10 = { add_trait = slothful }
+			10 = { add_trait = cynical }
+			70 = { }
+		}
+	}	
+	option = {
+		name = VIETmisc.8147.b # It'll be fine
+		trigger = {
+			NOR = {
+				trait = cynical
+				trait = cruel
+				trait = proud
+			}
+		}
+		piety = 3
+		random_list = {
+			10 = { add_trait = kind }
+			10 = { add_trait = trusting }
+			10 = { add_trait = content }
+			70 = { }
+		}
+	}	
+	option = {
+		name = VIETmisc.8147.c # Pray nothing bad happens!
+		trigger = {
+			NOT = {
+				trait = cynical
+			}
+		}
+		piety = 3
+	}	
+	option = {
+		name = VIETmisc.8147.d # Generic answer
+		prestige = 3
+	}
+}
+
+# Mila Valentina - Chat with a kid helping her mother sell fruits and vegetables
+character_event = {
+	id = VIETmisc.8148
+	desc = VIETmisc.8148.desc
+	picture = GFX_evt_market
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#has_game_rule = {
+		#	name = VIET_events_rules
+		#	value = silly
+		#}
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8148.a # Get used to it
+		random = {
+			add_trait = cynical
+			chance = 25
+		}
+	}	
+	option = {
+		name = VIETmisc.8148.b # Gotta relax
+		trigger = {
+			NOR = {
+				trait = diligent
+				trait = ambitious
+			}
+		}
+		piety = 2
+		random = {
+			add_trait = content
+			chance = 15
+		}
+	}	
+	option = {
+		name = VIETmisc.8148.c # Pray
+		trigger = {
+			NOT = { trait = cynical }
+		}
+		piety = 3
+	}	
+	option = {
+		name = VIETmisc.8148.d # Hope for the future
+		trigger = {
+			NOR = {
+				trait = cruel
+				trait = envious
+			}
+		}
+		prestige = 2
+	}
+}
+
+
+# Jon Battle-Born - Getting to know a friendly, poetic guardsman
+character_event = {
+	id = VIETmisc.8149
+	desc = VIETmisc.8149.desc
+	picture = GFX_evt_castle_construction
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		NOT = { has_character_flag = VIET_jon_battle_born_event }
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_jon_battle_born_event
+	}
+	
+	option = {
+		name = VIETmisc.8149.a # Can't get distracted
+		prestige = 1
+		random_list = {
+			80 = { }
+			5 = { add_trait = diligent }
+			5 = { add_trait = cynical }
+			5 = { add_trait = zealous }
+			5 = { add_trait = paranoid }
+		}
+	}	
+	option = {
+		name = VIETmisc.8149.b # You're lazy
+		prestige = 1
+		random_list = {
+			80 = { }
+			10 = { add_trait = cynical }
+			5 = { add_trait = proud }
+			5 = { add_trait = envious }
+		}
+	}	
+	option = {
+		name = VIETmisc.8149.c # True words
+		piety = 1
+		random = {
+			add_trait = content
+			chance = 15
+		}
+	}	
+	option = {
+		name = VIETmisc.8149.d # Promote
+		prestige = -10
+		create_random_soldier = {
+			age = 25
+			dynasty = actually_culture
+			religion = ROOT
+			culture = ROOT
+			female = no
+			random_traits = no
+			historical = yes
+			attributes = {
+				diplomacy = 7
+				martial = 8
+				stewardship = 5
+				intrigue = 4
+				learning = 6
+			}
+		}
+		new_character = {
+			#Education & other basic stuff
+			set_character_flag = ai_flag_refuse_concubinage
+			set_character_flag = ai_flag_refuse_marriage
+			set_character_flag = no_court_invites
+			#Guaranteed Traits
+			add_trait = poet
+			add_trait = kind
+			add_trait = humble
+			add_trait = gregarious
+			add_trait = chaste
+			add_trait = just
+			add_artifact = bow_tier_2_new
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+			add_character_modifier = {
+				name = VIET_jon_battle_born_soldier
+				duration = -1
+			}
+			#Flavor
+			random_list = {
+				20 = { add_scarred_tiered_effect = yes }
+				80 = { 	}
+			}
+			random = {
+				add_trait = fair
+				chance = 20
+			}
+			random = {
+				add_trait = strong
+				chance = 35
+			}
+		}		
+	}
+}
+
+
+# Beitild and Leigelf - Husband and wife own two mines in a town, yet compete against each other
+character_event = {
+	id = VIETmisc.8150
+	desc = VIETmisc.8150.desc
+	picture = GFX_evt_medieval_mining
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		capital_scope = {
+			OR = {
+				terrain = hills
+				terrain = mountain
+			}
+		}
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8150.a # Huh
+		long_character_event = { id = VIETmisc.8151 tooltip = VIETmisc.8151.tooltip }
+	}
+}
+
+
+# Beitild and Leigelf - Husband and wife own two mines in a town, yet compete against each other - part 2
+long_character_event = {
+	id = VIETmisc.8151
+	desc = VIETmisc.8151.desc
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETmisc.8151.a # Support Husband
+		piety = -10
+		prestige = 10
+		add_character_modifier = {
+			name = VIET_mining_deal
+			duration = 1825
+		}
+	}	
+	option = {
+		name = VIETmisc.8151.b # Support Wife
+		prestige = -10
+		piety = 10
+		add_character_modifier = {
+			name = VIET_mining_deal
+			duration = 1825
+		}
+	}	
+	option = {
+		name = VIETmisc.8151.c # Resolve marital troubles
+		trigger = {
+			diplomacy = 10
+		}
+		tooltip_info = diplomacy
+		piety = 10
+		prestige = 10
+		add_character_modifier = {
+			name = VIET_mining_deal_big
+			duration = 1825
+		}
+	}	
+	option = {
+		name = VIETmisc.8151.d # Negotiate deal where everyone wins
+		trigger = {
+			stewardship = 10
+		}
+		tooltip_info = stewardship
+		piety = 10
+		prestige = 10
+		add_character_modifier = {
+			name = VIET_mining_deal_big
+			duration = 1825
+		}
+	}	
+	option = {
+		name = VIETmisc.8151.e # Don't get involved
+		random_list = {
+			80 = { }
+			10 = { add_trait = slothful }
+			5 = { add_trait = humble }
+			5 = { add_trait = patient }
+		}
+	}
+}
+
+
+# Lydia - A maid is sworn to carry your burdens
+character_event = {
+	id = VIETmisc.8152
+	desc = VIETmisc.8152.desc
+	picture = GFX_evt_castle_construction
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+		NOT = { has_character_flag = VIET_lydia_maid }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			lower_tier_than = DUKE
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_lydia_maid
+	}
+	
+	option = {
+		name = VIETmisc.8152.a # Bad
+		prestige = 1
+		random_list = {
+			70 = { }
+			10 = { add_trait = wroth }
+			10 = { add_trait = proud }
+			10 = { add_trait = stubborn }
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8152.b # Good
+		piety = 1
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8152.c # Bring to court
+		prestige = -10
+		create_character = {
+			age = 22
+			dynasty = none
+			religion = ROOT
+			culture = ROOT
+			female = yes
+			health = 5.5
+			random_traits = no
+			historical = yes
+			attributes = {
+				diplomacy = 4
+				martial = 6
+				stewardship = 4
+				intrigue = 4
+				learning = 4
+			}
+		}
+		new_character = {
+			#Education & other basic stuff
+			add_character_modifier = {
+				name = VIET_lydia_modifier
+				duration = -1
+			}
+			set_character_flag = ai_flag_refuse_concubinage
+			set_character_flag = ai_flag_refuse_marriage
+			set_character_flag = VIET_lydia_character
+			reverse_opinion = { 
+				who = ROOT
+				modifier = VIET_opinion_sarcastic_lydia
+				years = 100
+			}
+			set_character_flag = no_court_invites
+			random_list = {
+				10 = { add_random_education_trait = intrigue }
+				10 = { add_random_education_trait = martial }
+				10 = { add_random_education_trait = stewardship }
+			}	
+			#Guaranteed Traits
+			add_trait = robust
+			add_trait = cynical
+			add_trait = honest
+			add_trait = diligent
+			add_trait = brave
+			add_trait = humble
+			random = {
+				add_trait = fair
+				chance = 20
+			}
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+		}
+		custom_tooltip = { text = VIET_why_hire_lydia }
+	}
+}
+
+
+# Mithorpa Nasyal (unused NPC) - come across a peasant who initially lashes out but apologises
+character_event = {
+	id = VIETmisc.8153
+	desc = VIETmisc.8153.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#has_game_rule = {
+		#	name = VIET_events_rules
+		#	value = silly
+		#}
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8153.a # Forgive him
+		trigger = {
+			NOT = { trait = cruel }
+		}
+		if = {
+			limit = {
+				trait = wroth
+			}
+			random = {
+				remove_trait = wroth
+				chance = 55
+			}
+		}
+		if = {
+			limit = {
+				trait = proud
+			}
+			random = {
+				remove_trait = proud
+				chance = 30
+			}
+		}
+		random_list = {
+			70 = { }
+			15 = { add_trait = patient }
+			15 = { add_trait = humble }
+		}
+		prestige = -4
+		piety = 2
+	}
+	option = {
+		name = VIETmisc.8153.b # I was trying to be friendly!
+		if = {
+			limit = {
+				trait = patient
+			}
+			random = {
+				remove_trait = patient
+				chance = 55
+			}
+		}
+		prestige = -2
+	}
+	option = {
+		name = VIETmisc.8153.c # Tell guards to teach him a lesson
+		if = {
+			limit = {
+				trait = kind
+			}
+			random = {
+				remove_trait = kind
+				chance = 55
+			}
+		}
+		random_list = {
+			70 = { }
+			20 = { add_trait = wroth }
+			10 = { add_trait = proud }
+		}
+		piety = -2
+	}
+	option = {
+		name = VIETmisc.8153.d # Tell guards to imprison him
+		trigger = {
+			NOR = {
+				trait = kind
+				trait = just
+				trait = patient
+			}
+		}
+		random_list = {
+			60 = { }
+			20 = { add_trait = wroth }
+			10 = { add_trait = cruel }
+			10 = { add_trait = arbitrary }
+		}
+		piety = -4
+	}
+}
+
+
+# Sinmir - Elderly townsman criticizes your security
+character_event = {
+	id = VIETmisc.8154
+	desc = VIETmisc.8154.desc
+	picture = GFX_evt_village_at_night
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#has_game_rule = {
+		#	name = VIET_events_rules
+		#	value = silly
+		#}
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8154.a # Ignore
+		prestige = -2
+	}	
+	option = {
+		name = VIETmisc.8154.b # Apologize
+		trigger = {
+			NOR = {
+				trait = proud
+				trait = wroth
+			}
+		}
+		prestige = -4
+		random_list = {
+			70 = { }
+			10 = { add_trait = humble }
+			20 = { add_trait = trusting }
+		}
+	}
+	option = {
+		name = VIETmisc.8154.c # Discuss
+		if = {
+			limit = {
+				trait = wroth
+			}
+			random = {
+				remove_trait = wroth
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = patient
+				chance = 25			
+			}
+		}
+		prestige = -4
+	}
+	option = {
+		name = VIETmisc.8154.d # Tell him to mind his business
+		if = {
+			limit = {
+				trait = patient
+			}
+			random = {
+				remove_trait = patient
+				chance = 25
+			}
+		}
+		random_list = {
+			20 = { add_trait = proud }
+			10 = { add_trait = cynical }
+			70 = { }
+		}
+		piety = -3
+	}
+}
+
+
+# Telrav - encounter a robbed "merchant" on the road
+character_event = {
+	id = VIETmisc.8155
+	desc = VIETmisc.8155.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#has_game_rule = {
+		#	name = VIET_events_rules
+		#	value = silly
+		#}
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8155.a # Help
+		random_list = {
+			70 = { }
+			10 = { add_trait = kind }
+			10 = { add_trait = charitable }
+			10 = { add_trait = just }
+		}
+		piety = 5
+		character_event = { id = VIETmisc.8156 tooltip = VIETmisc.8156.tooltip }
+		#set_character_flag = VIET_telrav_stupid
+	}	
+	option = {
+		name = VIETmisc.8155.b # Ignore
+		if = {
+			limit = {
+				trait = kind
+			}
+			random = {
+				remove_trait = kind
+				chance = 30
+			}
+		}
+	}	
+	option = {
+		name = VIETmisc.8155.c # Fishy
+		tooltip_info = intrigue
+		trigger = {
+			intrigue = 13
+			NOT = { trait = genius }
+			NOT = { trait = quick }
+			NOT = { trait = shrewd }
+		}
+	}	
+	option = {
+		name = VIETmisc.8155.d # Fishy, but help
+		tooltip_info = intrigue
+		trigger = {
+			intrigue = 13
+			NOT = { trait = genius }
+			NOT = { trait = quick }
+			NOT = { trait = shrewd }
+		}
+		set_character_flag = VIET_telrav_smart
+		character_event = { id = VIETmisc.8156 tooltip = VIETmisc.8156.tooltip }
+	}	
+	option = {
+		name = VIETmisc.8155.c # Fishy
+		tooltip_info = genius
+		trigger = {
+			trait = genius
+			NOT = { trait = quick }
+			NOT = { trait = shrewd }
+		}
+	}	
+	option = {
+		name = VIETmisc.8155.d # Fishy, but help
+		tooltip_info = genius
+		trigger = {
+			trait = genius
+			NOT = { trait = quick }
+			NOT = { trait = shrewd }
+		}
+		set_character_flag = VIET_telrav_smart
+		character_event = { id = VIETmisc.8156 tooltip = VIETmisc.8156.tooltip }
+	}	
+	option = {
+		name = VIETmisc.8155.c # Fishy
+		tooltip_info = quick
+		trigger = {
+			trait = quick
+			NOT = { trait = genius }
+			NOT = { trait = shrewd }
+		}
+	}	
+	option = {
+		name = VIETmisc.8155.d # Fishy, but help
+		tooltip_info = quick
+		trigger = {
+			trait = quick
+			NOT = { trait = genius }
+			NOT = { trait = shrewd }
+		}
+		set_character_flag = VIET_telrav_smart
+		character_event = { id = VIETmisc.8156 tooltip = VIETmisc.8156.tooltip }
+	}	
+	option = {
+		name = VIETmisc.8155.c # Fishy
+		tooltip_info = shrewd
+		trigger = {
+			trait = shrewd
+			NOT = { trait = genius }
+			NOT = { trait = quick }
+		}
+	}	
+	option = {
+		name = VIETmisc.8155.d # Fishy, but help
+		tooltip_info = shrewd
+		trigger = {
+			trait = shrewd
+			NOT = { trait = genius }
+			NOT = { trait = quick }
+		}
+		set_character_flag = VIET_telrav_smart
+		character_event = { id = VIETmisc.8156 tooltip = VIETmisc.8156.tooltip }
+	}
+}
+
+
+
+# Telrav - encounter a robbed "merchant" on the road - part 2
+character_event = {
+	id = VIETmisc.8156
+	desc = VIETmisc.8156.desc
+	picture = GFX_evt_skyrim_forest
+	
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.8156.a # Escape
+		trigger = {
+			NOT = { has_character_flag = VIET_telrav_smart }
+			NOR = {
+				martial = 12
+				combat_rating = 15
+			}
+		}
+		random_list = {
+			60 = { }
+			35 = {
+				add_trait = wounded
+			}
+			5 = {
+				modifier = {
+					factor = 0
+					can_be_maimed_trigger = no
+				}
+				add_maimed_trait_effect = yes
+			}
+		}
+		prestige = -10
+		custom_tooltip = { text = VIET_telrav_fight_a }
+	}
+	option = {
+		name = VIETmisc.8156.b # Fight back
+		trigger = {
+			NOT = { has_character_flag = VIET_telrav_smart }
+			OR = {
+				martial = 12
+				combat_rating = 15
+			}
+		}
+		random_list = {
+			75 = { }
+			20 = {
+				add_trait = wounded
+			}
+			5 = {
+				modifier = {
+					factor = 0
+					can_be_maimed_trigger = no
+				}
+				add_maimed_trait_effect = yes
+			}
+		}
+		random_list = {
+			40 = { wealth = 10 }
+			30 = { wealth = 15 }
+			20 = { wealth = 20 }
+			10 = { wealth = 25 }
+		}
+		prestige = 10
+		custom_tooltip = { text = VIET_telrav_fight_b }
+	}
+	option = {
+		name = VIETmisc.8156.c # Prepared
+		trigger = {
+			has_character_flag = VIET_telrav_smart
+		}
+		random_list = {
+			95 = { }
+			4 = {
+				add_trait = wounded
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					can_be_maimed_trigger = no
+				}
+				add_maimed_trait_effect = yes
+			}
+		}
+		random_list = {
+			40 = { wealth = 10 }
+			30 = { wealth = 15 }
+			20 = { wealth = 20 }
+			10 = { wealth = 25 }
+		}
+		prestige = 20
+		clr_character_flag = VIET_telrav_smart
+		custom_tooltip = { text = VIET_telrav_fight_c }
+	}
+}
+

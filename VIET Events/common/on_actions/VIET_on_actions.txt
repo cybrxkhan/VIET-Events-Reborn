@@ -170,6 +170,9 @@ on_yearly_pulse = {
 			100 = VIETmisc.8105 # Knock some things over at night
 			100 = VIETmisc.8108 # Does the blanket go over or under one's chin?
 			100 = VIETmisc.8110 # Looking at the constellations at night
+			#Skyrim dialogue
+			100 = VIETmisc.8147 # Bad nip in the air - character talks with farmer
+			100 = VIETmisc.8153 # Mithorpa Nasyal (unused NPC) - come across a peasant who initially lashes out but apologises
 		}
 		
 	}
@@ -303,6 +306,11 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8131 # Are we barbarians?
 			100 = VIETmisc.8135 # Meet with a group of scholars at some ruins	
 			100 = VIETmisc.8141 # Soldiers find an ancient cache of treasure
+			#Skyrim Dialogue
+			100 = VIETmisc.8144 # Narri - barmaid flirts with character
+			100 = VIETmisc.8145 # It's a fine day with you around - character meets young noble
+			100 = VIETmisc.8148 # Mila Valentina - Chat with a kid helping her mother sell fruits and vegetables
+			100 = VIETmisc.8154 # Sinmir - Elderly townsman criticizes your security
 		
 		}
 		
@@ -394,7 +402,13 @@ on_five_year_pulse = {
 			100 = VIETmisc.8114 # Servant drowns when he tries to swim in the ocean at night
 			#Ancient cultures
 			100 = VIETmisc.8132 # Stumble on mummy - most likely in Egypt, but other regions are possible			
-			100 = VIETmisc.8142 # Take a nap at an ancient ruin, get a Thanos reference		
+			100 = VIETmisc.8142 # Take a nap at an ancient ruin, get a Thanos reference	
+			#Skyrim Dialogue
+			100 = VIETmisc.8146 # Jenassa - strange female mercenary comes to court		
+			100 = VIETmisc.8149 # Jon Battle-Born - Getting to know a friendly, poetic guardsman
+			100 = VIETmisc.8150 # Beitild and Leigelf - Husband and wife own two mines in a town, yet compete against each other
+			100 = VIETmisc.8152 # Lydia - A maid is sworn to carry your burdens
+			100 = VIETmisc.8155 # Telrav - encounter a robbed "merchant" on the road
 		}
 		
 		#ALL VIET artifact events should go here!
