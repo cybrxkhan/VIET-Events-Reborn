@@ -185,7 +185,7 @@ on_bi_yearly_pulse = {
 		VIET_bi_yearly_random = {
 			delay = 9
 			
-			15000 = 0 #May need to adjust
+			18000 = 0 #May need to adjust
 			
 			#Old Age
 			100 = VIETnam.106	# Can't hunt as much in old age		
@@ -325,7 +325,7 @@ on_five_year_pulse = {
 		VIET_five_year_random = {
 			delay = 28
 			
-			10000 = 0 #May need to adjust
+			15000 = 0 #May need to adjust
 			
 			#Muslim
 			100 = VIETnam.177	# Scholar from the House of Wisdom visits your court
@@ -498,7 +498,8 @@ on_decade_pulse = {
 	random_events = {
 		VIET_ten_year_random = {
 			delay = 2
-			5800 = 0
+			
+			12000 = 0
 			
 			#EVENT CHAINS
 			50 = OCC.1				# Dance with the dead
@@ -529,7 +530,7 @@ on_yearly_childhood_pulse = {
 	random_events = {
 		VIET_child_random = {
 			delay = 8
-			7000 = 0
+			8000 = 0
 			#Alcohol
 			100 = VIETnam.187		# Child accidentally consumes alcohol
 			#Sound
