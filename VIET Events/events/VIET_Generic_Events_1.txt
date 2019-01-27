@@ -1599,6 +1599,8 @@ character_event = {
 	trigger = {
 		in_command = no
 		trait = proud
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -2896,10 +2898,12 @@ character_event = {
 	religion_group = muslim
 	#war = no
 	
-	#trigger = {
+	trigger = {
 		#is_ruler = yes
 		#in_command = no
-	#}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
 	
 	weight_multiplier = {
 		days = 1
@@ -3015,6 +3019,8 @@ character_event = {
 	trigger = {
 		in_command = no
 		decadence = 50
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -3301,6 +3307,8 @@ character_event = {
 				trait = mystic
 			}
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -3481,6 +3489,8 @@ character_event = {
 				learning = 11
 			}
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -3827,6 +3837,8 @@ character_event = {
 	trigger = {
 		#in_command = no
 		prestige = 2000
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -3901,6 +3913,8 @@ character_event = {
 	trigger = {
 		#in_command = no
 		piety = 2000
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -3973,6 +3987,8 @@ character_event = {
 	trigger = {
 		in_command = no
 		trait = hafiz
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -4119,6 +4135,8 @@ character_event = {
 	
 	trigger = {
 		in_command = no
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -5368,7 +5386,9 @@ character_event = {
 		has_game_rule = {
 			name = VIET_events_rules
 			value = silly
-		}		
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }		
 	}
 	
 	weight_multiplier = {
@@ -6995,10 +7015,9 @@ character_event = {
 	
 	trigger = {
 		#in_command = no
-		NOT = { has_global_flag = rome_restored }
-		NOR = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
+		NOT = { has_global_flag = rome_restored }		
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 		OR = {
 			has_landed_title = e_byzantium
 			top_liege = {
@@ -7101,6 +7120,8 @@ character_event = {
 			religion_group = jewish_group
 			religion_group = indian_group
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -7315,6 +7336,8 @@ character_event = {
 			}
 		}
 		NOT = { has_character_flag = thestormweaver_stargate_reference }
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -7571,6 +7594,8 @@ character_event = {
 			}
 		}
 		NOT = { has_artifact = VIET_hellenic_statue_female }
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -7966,6 +7991,8 @@ character_event = {
 				duchy = { title = d_jazira }
 			}
 		}
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -8102,6 +8129,8 @@ character_event = {
 		#	religion = tengri_pagan
 		#	religion = tengri_pagan_reformed
 		#}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -8231,6 +8260,8 @@ character_event = {
 				duchy = { title = d_gandhara }
 			}
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -8363,6 +8394,8 @@ character_event = {
 		any_demesne_province = {
 			region = world_europe_west_brittania
 		}
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -8516,6 +8549,8 @@ character_event = {
 				duchy = { title = d_harer }
 			}
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -8616,6 +8651,8 @@ character_event = {
 	
 	trigger = {
 		in_command = no
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -9658,6 +9695,8 @@ character_event = {
 	
 	trigger = {
 		in_command = no
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -9739,6 +9778,8 @@ character_event = {
 	
 	trigger = {
 		in_command = no
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -11324,6 +11365,8 @@ character_event = {
 			is_tribal = yes
 			is_nomadic = yes
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {

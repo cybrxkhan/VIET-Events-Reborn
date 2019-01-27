@@ -36,6 +36,9 @@ narrative_event = {
 			culture_group = north_germanic
 			culture_group = central_germanic
 			culture_group = west_germanic
+			culture_group = latin
+			culture_group = iberian
+			culture_group = celtic
 			capital_scope = {
 				region = world_europe_west
 			}
@@ -173,6 +176,9 @@ narrative_event = {
 			culture_group = north_germanic
 			culture_group = central_germanic
 			culture_group = west_germanic
+			culture_group = latin
+			culture_group = iberian
+			culture_group = celtic
 			capital_scope = {
 				region = world_europe_west
 			}

@@ -489,6 +489,8 @@ character_event = {
 					culture_group = magyar
 					culture_group = latin
 			}
+			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+			NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 		}
 		weight_multiplier = {
 				days = 1
@@ -584,6 +586,8 @@ character_event = {
 				culture_group = west_african
 				culture_group = central_african
 			}
+			#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+			NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 		}
 		
 		weight_multiplier = {
@@ -654,6 +658,8 @@ character_event = {
 					culture_group = byzantine
 				}
 			}
+			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+			NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 		}
 		weight_multiplier = {
 				days = 1
@@ -1059,6 +1065,8 @@ character_event = {
 			culture_group = byzantine
 		}
 		NOT = { has_character_flag = VIET_learning_bitter_greek_greens }
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 		weight_multiplier = {
@@ -1170,6 +1178,8 @@ character_event = {
 			}
 		}
 		year = 1000
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 		weight_multiplier = {
@@ -1254,6 +1264,8 @@ character_event = {
 				culture_group = north_african
 				culture_group = arabic
 			}
+			#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+			NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 		}
 		
 		weight_multiplier = {
@@ -1324,6 +1336,8 @@ character_event = {
 				region = world_africa_north
 			}
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -1518,6 +1532,8 @@ character_event = {
 			culture_group = israelite
 			culture_group = iranian
 		}
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -2158,6 +2174,8 @@ character_event = {
 			#religion = mazdaki
 			#religion = taoist
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -2404,6 +2422,8 @@ character_event = {
 			NOT = { trait = kind }
 			NOT = { trait = just }
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -2644,6 +2664,8 @@ character_event = {
 				religion = waldensian
 			}
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -2847,10 +2869,13 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	war = no
+	religion_group = christian
 	
 	trigger = {
 		in_command = no
-		religion_group = christian
+		#religion_group = christian
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -3064,10 +3089,12 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	war = no
+	religion_group = christian
 	
 	trigger = {
 		in_command = no
-		religion_group = christian
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -3165,7 +3192,6 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		religion_group = christian
 		NOT = { has_artifact = VIET_nutcracker }
 	}
 	
@@ -3409,6 +3435,8 @@ character_event = {
 			culture_group = east_slavic
 			culture_group = siberian_group #used in WtWSMS
 		}
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -4116,6 +4144,8 @@ character_event = {
 				}
 			}		
 		}
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -4198,6 +4228,8 @@ character_event = {
 			}
 		}
 		NOT = { has_character_flag = VIET_geckos_removed }
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -4897,6 +4929,8 @@ character_event = {
 				region = world_india_rajastan
 			}
 		}
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -5231,6 +5265,8 @@ character_event = {
 			port = yes
 			religion_group = christian
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {

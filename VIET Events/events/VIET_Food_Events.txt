@@ -36,6 +36,8 @@ character_event = {
 				}
 			}		
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -214,6 +216,8 @@ character_event = {
 				region = world_europe_west		
 			}
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -346,6 +350,8 @@ character_event = {
 				region = world_asia_minor
 			}
 		}
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -495,6 +501,8 @@ character_event = {
 				culture = egyptian_arabic
 			}
 		}
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -575,6 +583,8 @@ character_event = {
 	
 	trigger = {
 		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {

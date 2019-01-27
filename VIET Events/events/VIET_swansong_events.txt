@@ -2527,6 +2527,8 @@ character_event = {
 
 	trigger = {
 		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 
 	weight_multiplier = {
@@ -3293,8 +3295,9 @@ character_event = {
 			religion_group = muslim
 			NOT = { trait = incapable }
 			trait = proud
-		}
-
+		}		
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 
 	weight_multiplier = {
@@ -3413,6 +3416,8 @@ character_event = {
 
 	trigger = {
 		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 		#Doesn't make sense for Africans
 		NOT = { culture_group = west_african }
 		NOT = { culture_group = east_african }
@@ -3610,7 +3615,8 @@ character_event = {
 					culture = norman
 					province_id = 57				
 				}
-			}	
+			}
+			has_alternate_start_parameter = { key = culture_names value = random }	
 		}
 		NOT = { has_global_flag = VIET_Scarborough_Fair_blessing_given }
 		#Only someone enlightened may hear of Scarborough Fair
@@ -3750,6 +3756,8 @@ character_event = {
 		in_command = no
 		NOT = { has_global_flag =  VIET_xwedodah_preacher }
 		religion_group = zoroastrian_group
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 
 	weight_multiplier = {

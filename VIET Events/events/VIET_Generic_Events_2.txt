@@ -837,6 +837,8 @@ character_event = {
 			#	NOT = { culture = uyghur }
 			#}
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -935,6 +937,8 @@ character_event = {
 		NOT = {
 			religion_group = pagan_group
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {

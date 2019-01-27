@@ -51,6 +51,8 @@ character_event = {
 				region = world_asia_minor				
 			}				
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
