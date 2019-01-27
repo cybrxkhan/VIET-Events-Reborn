@@ -2334,6 +2334,24 @@ province_event = {
 
 	option = {#yes
 		name = VIETScarboroughFair.29.a
+		trigger = {
+			owner = {
+				age = 14
+				OR = {
+					AND = {
+						is_female = no
+						NOT = { trait = homosexual }
+					}
+					AND = {
+						is_female = yes
+						trait = homosexual
+					}
+				}
+				NOT = { trait = eunuch }
+				NOT = { trait = celibate }
+				NOT = { trait = chaste }			
+			}
+		}
 		owner = {
 			add_character_modifier = {
 				name = lustful_ruler
