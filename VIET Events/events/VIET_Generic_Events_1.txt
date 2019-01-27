@@ -7696,6 +7696,9 @@ character_event = {
 			decadence = 1
 		}
 		add_artifact = VIET_hellenic_statue_female
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 	}
 	option = {
 		name = "EVTOPTB1000109433" #DESTROY
@@ -7784,6 +7787,9 @@ character_event = {
 			}
 		}
 		add_artifact = VIET_hellenic_statue_female
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 	}
 	option = {
 		name = "EVTOPTD1000109433" # Study
@@ -7820,6 +7826,9 @@ character_event = {
 			}
 		}
 		add_artifact = VIET_hellenic_statue_female
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 		random_list = {
 			40 = { }
 			30 = { change_learning = 1 }
@@ -7862,6 +7871,9 @@ character_event = {
 			}
 		}
 		add_artifact = VIET_hellenic_statue_female
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 		random_list = {
 			40 = { }
 			30 = { change_learning = 1 }
@@ -7907,6 +7919,9 @@ character_event = {
 			}
 		}
 		add_artifact = VIET_hellenic_statue_female
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 		random_list = {
 			40 = { }
 			30 = { change_learning = 1 }

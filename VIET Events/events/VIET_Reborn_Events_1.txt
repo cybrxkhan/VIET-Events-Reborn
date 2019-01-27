@@ -12471,7 +12471,10 @@ character_event = {
 	
 	option = { #keep it
 		name = VIETmisc.8128.a
-		add_artifact = VIET_ostracon		
+		add_artifact = VIET_ostracon
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}		
 	}	
 	option = { #give it to scholars
 		name = VIETmisc.8128.b
@@ -12611,6 +12614,9 @@ character_event = {
 		name = VIETmisc.8129.b
 		wealth = -3
 		add_artifact = VIET_nok_terracotta_figure
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 	}	
 	option = { #force farmer to give it
 		name = VIETmisc.8129.c
@@ -12629,6 +12635,9 @@ character_event = {
 			25 = { }
 		}
 		add_artifact = VIET_nok_terracotta_figure
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 	}
 	option = { #persuade farmer
 		name = VIETmisc.8129.d
@@ -12637,6 +12646,9 @@ character_event = {
 			diplomacy = 10
 		}
 		add_artifact = VIET_nok_terracotta_figure
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 	}
 }
 
@@ -12727,6 +12739,9 @@ character_event = {
 	option = { #keep tablet
 		name = VIETmisc.8130.a
 		add_artifact = VIET_cuneiform_tablet
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 	}	
 	option = { #give it to a scholar
 		name = VIETmisc.8130.b
@@ -13365,6 +13380,9 @@ character_event = {
 			decadence = 1
 		}
 		add_artifact = VIET_hellenic_statue_male
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 	}
 	option = {
 		name = VIETmisc.8136.b #DESTROY
@@ -13453,6 +13471,9 @@ character_event = {
 			}
 		}
 		add_artifact = VIET_hellenic_statue_male
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 	}
 	option = {
 		name = VIETmisc.8136.d # Study
@@ -13489,6 +13510,9 @@ character_event = {
 			}
 		}
 		add_artifact = VIET_hellenic_statue_male
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 		random_list = {
 			40 = { }
 			30 = { change_learning = 1 }
@@ -13531,6 +13555,9 @@ character_event = {
 			}
 		}
 		add_artifact = VIET_hellenic_statue_male
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 		random_list = {
 			40 = { }
 			30 = { change_learning = 1 }
@@ -13576,6 +13603,9 @@ character_event = {
 			}
 		}
 		add_artifact = VIET_hellenic_statue_male
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}
 		random_list = {
 			40 = { }
 			30 = { change_learning = 1 }
