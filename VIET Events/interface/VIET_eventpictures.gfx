@@ -1117,7 +1117,17 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_evt_VIET_food_italian_group"
+		name = "GFX_evt_VIET_food_italian"
+		texturefile = "gfx\\event_pictures\\VIET_food_italian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_sicilian"
+		texturefile = "gfx\\event_pictures\\VIET_food_italian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_sardinian"
 		texturefile = "gfx\\event_pictures\\VIET_food_italian.tga"
 		allwaystransparent = yes
 	}
