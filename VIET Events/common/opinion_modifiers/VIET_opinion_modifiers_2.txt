@@ -52,3 +52,18 @@ VIET_opinion_failed_liege = {
 VIET_opinion_sarcastic_lydia = {
 	opinion = 40
 }
+VIET_opinion_calmly_corrected_error = {
+	opinion = 20
+}
+VIET_opinion_garlic_breath = {
+	opinion = -5
+}
+VIET_opinion_lack_of_trust = {
+	opinion = -10
+}
+VIET_opinion_suspicious = {
+	opinion = -10
+}
+VIET_romantic_saffron_bath = {
+	opinion = 20
+}

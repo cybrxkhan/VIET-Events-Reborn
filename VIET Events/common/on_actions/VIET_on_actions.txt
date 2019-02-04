@@ -5,7 +5,7 @@ on_yearly_pulse = {
 		VIET_yearly_random = {
 			delay = 8
 			
-			20000 = 0 #May need to adjust
+			22000 = 0 #May need to adjust
 			
 			#VIET EVENTS
 			#Generic Trait Events
@@ -113,6 +113,17 @@ on_yearly_pulse = {
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2021		# How should heretic be purified?
 			100 = VIETmisc.2023		# Vassal isn't being charitable enough
+			#Monogatari references
+			100 = VIETmisc.2244		# Courtier makes rude PMS comment
+			#Urine
+			100 = VIETmisc.2246		# Character miscalculates where to aim urine
+			100 = VIETmisc.2249		# In the middle of meeting someone important, but have to go to the restroom
+			#Rock
+			100 = VIETmisc.2274		# Come across some shiny pebbles
+			#Curry
+			100 = VIETmisc.2279		# Choosing how to eat paneer
+			100 = VIETmisc.2280		# Eating khichri
+			100 = VIETmisc.2281		# Eating parathra bread
 			#Moss
 			100 = VIETmisc.2292 	# Moss Pond
 			#Animal themed
@@ -173,6 +184,19 @@ on_yearly_pulse = {
 			#Skyrim dialogue
 			100 = VIETmisc.8147 # Bad nip in the air - character talks with farmer
 			100 = VIETmisc.8153 # Mithorpa Nasyal (unused NPC) - come across a peasant who initially lashes out but apologises
+			#Spices
+			100 = VIETmisc.8158 # Pasta tastes bland - what to add to it?
+			100 = VIETmisc.8161 # What kind of onion to eat?
+			100 = VIETmisc.8163 # Given Dhana Jiru
+			100 = VIETmisc.8164 # Drinking Jira Water, a traditional South Indian drink
+			100 = VIETmisc.8170 # Scandinavians love using cardamom
+			100 = VIETmisc.8171 # Drinking drink made from the carob plant
+			100 = VIETmisc.8173 # Snack of quark cheese and chives
+			100 = VIETmisc.8175 # More cilantro in food?
+			100 = VIETmisc.8176 # Adding more cumin to food
+			100 = VIETmisc.8177 # Clove oil to help with headaches
+			100 = VIETmisc.8179 # Chewing on fennel seeds to freshen breath
+			100 = VIETmisc.8180 # Drink ginger tea for stomachache
 		}
 		
 	}
@@ -185,7 +209,7 @@ on_bi_yearly_pulse = {
 		VIET_bi_yearly_random = {
 			delay = 9
 			
-			18000 = 0 #May need to adjust
+			20000 = 0 #May need to adjust
 			
 			#Old Age
 			100 = VIETnam.106	# Can't hunt as much in old age		
@@ -256,6 +280,12 @@ on_bi_yearly_pulse = {
 			#Eggs
 			100 = VIETmisc.2017		# House is egged
 			100 = VIETmisc.2018		# Bought a lot of pickled eggs
+			#Urine
+			100 = VIETmisc.2248		# Urine is strange color
+			100 = VIETmisc.2252		# Passing by a peasant who is urinating
+			#Rock
+			100 = VIETmisc.2272		# Come across a boulder with supposed spiritual powers
+			100 = VIETmisc.2278		# Sulfur treatment for acne
 			#Christmas
 			100 = VIETmisc.2286 	# Do you believe Saint Nick is still alive?
 			100 = VIETmisc.2287 	# Mistletoe, but no one is under it with you
@@ -311,6 +341,21 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8145 # It's a fine day with you around - character meets young noble
 			100 = VIETmisc.8148 # Mila Valentina - Chat with a kid helping her mother sell fruits and vegetables
 			100 = VIETmisc.8154 # Sinmir - Elderly townsman criticizes your security
+			#Spices
+			100 = VIETmisc.8159 # In eastern religions, garlic and onion makes you horny - cut down on it?
+			100 = VIETmisc.8160 # Courtier comes to a mosque after eating garlic
+			100 = VIETmisc.8165 # Bathe in saffron to cure depression/stress?
+			100 = VIETmisc.8166 # Bathe in saffron as an aphrodasiac?
+			100 = VIETmisc.8168 # Wood evans growing at home
+			100 = VIETmisc.8172 # Courtier offers caraway breath freshener for everyone
+			100 = VIETmisc.8174 # Visiting someone hanging chives from their doorways
+			100 = VIETmisc.8182 # Meet a maiden picking juniper berries
+			100 = VIETmisc.8183 # Meet a handsome young man picking juniper berries
+			100 = VIETmisc.8184 # Iberian marquetry from bay leaf hardwood
+			100 = VIETmisc.8186 # Use koseret, an Ethiopian herb, as insecticide
+			100 = VIETmisc.8187 # Eating lavender flavored cake with lavender flavored tea
+			100 = VIETmisc.8188 # Using tulsi/holy basil for pest control
+			100 = VIETmisc.8189 # Plant more tulsi/holy basil to worship Vishnu?
 		
 		}
 		
@@ -366,7 +411,25 @@ on_five_year_pulse = {
 			100 = VIETmisc.2014 	# Ate a lot of arugula recently			
 			100 = VIETmisc.2015 	# Spinach makes me strong
 			#Dulcinian (Readapted to other religions)
-			100 = VIETmisc.2025		# Would you kill a baby?		
+			100 = VIETmisc.2025		# Would you kill a baby?
+			#Monogatari References
+			100 = VIETmisc.2240		# Character hears about incest-loving religions		
+			100 = VIETmisc.2242		# Female courtier makes weird comments about male ruler		
+			100 = VIETmisc.2243		# Courtier says something with a posed look	
+			#Urine
+			100 = VIETmisc.2247		# Hearing about using urine as mouthwash	
+			100 = VIETmisc.2253		# Wondering about how the other gender urinates	
+			100 = VIETmisc.2254		# Drinking water from a river and wondering if there is urine in the river water
+			#Rocks
+			100 = VIETmisc.2270		# Courtier falls on rock and hits head
+			100 = VIETmisc.2271		# Find a pretty rock
+			100 = VIETmisc.2275		# Hearing about lingams and yonis
+			100 = VIETmisc.2276		# German kobolds in mines
+			100 = VIETmisc.2277		# Fire-proof napkin from Persia
+			#Curry
+			100 = VIETmisc.2282 	# Courtier gets high on bhang
+			100 = VIETmisc.2283 	# Rumors about Hindu character being a beef-eater
+			100 = VIETmisc.2284 	# Kebab spreads
 			#Christmas
 			100 = VIETmisc.2285 	# Santa Claus is coming to town
 			100 = VIETmisc.2288 	# Candy canes
@@ -409,6 +472,14 @@ on_five_year_pulse = {
 			100 = VIETmisc.8150 # Beitild and Leigelf - Husband and wife own two mines in a town, yet compete against each other
 			100 = VIETmisc.8152 # Lydia - A maid is sworn to carry your burdens
 			100 = VIETmisc.8155 # Telrav - encounter a robbed "merchant" on the road
+			#Spices
+			100 = VIETmisc.8157 # Merchant sells you a 21 spice blend (btw, Trader Joe's 21 Seasoning Salute is awesome)
+			100 = VIETmisc.8162 # Character and courtiers discuss where does cinnamon come from?
+			100 = VIETmisc.8167 # Who to give asafoetida to?
+			100 = VIETmisc.8178 # Farmer gives you Leyden cheese
+			100 = VIETmisc.8181 # Stupid courtier thinks the grains of paradise actually came from heaven
+			100 = VIETmisc.8185 # Heartbroken servant can't afford herbal concoction to heal wounded heart (gender not specified)
+			100 = VIETmisc.8190 # Someone places basil on dead peron before funeral
 		}
 		
 		#ALL VIET artifact events should go here!
@@ -419,6 +490,9 @@ on_five_year_pulse = {
 			
 			#Ancient Cultures
 			100 = VIETnam.260	# Artifact: Hellenic female statue
+			
+			#Rocks
+			100 = VIETmisc.2273 	# Artifact: Dinosaur Bone
 			
 			#Christmas
 			100 = VIETmisc.2289 	# Artifact: Nutcracker
@@ -542,6 +616,8 @@ on_yearly_childhood_pulse = {
 			100 = VIETnam.311		# Comet when character is a child
 			#Bugs
 			100 = VIETnam.336		# Child likes eating worms
+			#Urine
+			100 = VIETmisc.2245		# Child wets bed
 			#Prophecy
 			100 = VIETmisc.8081		# What to be when I grow up?
 			#Night
@@ -551,6 +627,8 @@ on_yearly_childhood_pulse = {
 			100 = VIETmisc.8137		# Elders tell stories - Indian
 			100 = VIETmisc.8138		# Elders tell stories - Graeco-Roman
 			100 = VIETmisc.8139		# Elders tell stories - Persian
+			#Spices
+			100 = VIETmisc.8169		# Child uses alkanet to make fake blood in a prank
 		
 		}
 	}

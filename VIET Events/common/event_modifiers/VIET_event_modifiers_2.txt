@@ -614,3 +614,81 @@ VIET_jon_battle_born_soldier = {
 	monthly_character_piety = 0.02	
 	icon = 123
 }
+VIET_trader_joes_21_seasoning_salute = {
+	health = 0.4
+	fertility = 0.05
+	general_opinion = 5
+	monthly_character_prestige = 0.1
+	icon = 59
+}
+VIET_dhana_jiru = {
+	diplomacy = 1
+	health = 0.1
+	icon = 59
+}
+VIET_refreshing_drink = {
+	health = 0.1
+	monthly_character_piety = 0.01
+	icon = 87
+}
+VIET_saffron_bath = {
+	health = 0.1
+	fertility = 0.1
+	sex_appeal_opinion = 5
+	icon = 87
+}
+VIET_helped_acquaintance = {
+	general_opinion = 3
+	icon = 18
+}
+VIET_caraway_breath_freshener = {
+	health = 0.1
+	general_opinion = 5
+	sex_appeal_opinion = 5
+	icon = 87
+}
+VIET_mild_headaches = {
+	health = -0.2
+	combat_rating = -5
+	stewardship = -1
+	intrigue = -1
+	icon = 40
+}
+VIET_mild_stomachaches = {
+	health = -0.3
+	combat_rating = -5
+	fertility = -0.05
+	icon = 60
+}
+VIET_ginger_tea = {
+	health = 0.3
+	combat_rating = 5
+	fertility = 0.05
+	icon = 87
+}
+VIET_effective_pest_control = {
+	health = 0.5
+	diplomacy = 1
+	intrigue = 1
+	icon = 89
+}
+VIET_province_famous_herbalists = {
+	local_tax_modifier = 0.04
+	levy_reinforce_rate = 0.1
+	supply_limit = 0.5
+	icon = 87
+}
+VIET_boulder_blessing = {
+	monthly_character_piety = 0.03
+	health = 0.05
+	icon = 79
+}
+VIET_urine_strange_color = {
+	health = -0.25
+	fertility = -0.02
+	icon = 40
+}
+VIET_province_araragi_vampire = {
+	supply_limit = -0.1
+	icon = 76
+}
