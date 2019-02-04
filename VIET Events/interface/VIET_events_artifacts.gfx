@@ -199,4 +199,12 @@ spriteTypes = {
 		name = "GFX_VIET_hellenic_statue_male_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_hellenic_statue_male_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_dinosaur_bone_male"
+		texturefile = "gfx\\interface\\artifacts\\VIET_dinosaur_bone.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dinosaur_bone_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_dinosaur_bone_small.dds"
+	}
 }

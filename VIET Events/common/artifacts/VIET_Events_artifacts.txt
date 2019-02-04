@@ -238,3 +238,12 @@ VIET_hellenic_statue_male = {
 	picture = "GFX_VIET_hellenic_statue_male"
 	slot = VIET_clutter
 }
+VIET_dinosaur_bone = {
+	monthly_character_prestige = 0.02
+	learning = 1
+	quality = 2
+	stacking = no
+	flags = { VIET_clutter_flag VIET_ancient_artifact }
+	picture = "GFX_VIET_dinosaur_bone"
+	slot = VIET_clutter
+}
