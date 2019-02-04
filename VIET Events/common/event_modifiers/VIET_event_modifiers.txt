@@ -717,20 +717,20 @@ VIET_good_music = {
 VIET_comfort_food = {
 	diplomacy = 1
 	fertility = 0.01
-	icon = 39
+	icon = 59
 }
 VIET_beef_eater_rumor = {
 	monthly_character_piety = -0.4
-	icon = 26
+	icon = 60
 }
 VIET_loves_kebabs = {
 	diplomacy = 1
-	icon = 18
+	icon = 59
 }
 VIET_hates_kebabs = {
 	diplomacy = -1
 	monthly_character_prestige = 0.25
-	icon = 18
+	icon = 59
 }
 VIET_special_rock = {
 	monthly_character_piety = 0.01
@@ -738,16 +738,17 @@ VIET_special_rock = {
 }
 VIET_kobold_infestation = {
 	tech_growth_modifier_economy = -0.01
-	local_tax_modifier = -0.01
+	local_tax_modifier = -0.03
 	icon = 30
 }
 VIET_magical_napkins = {
-	monthly_character_prestige = 0.02
-	icon = 36
+	monthly_character_prestige = 0.1
+	icon = 18
 }
 VIET_bad_acne = {
 	health = -0.1
 	general_opinion = -10
+	sex_appeal_opinion = -10
 	icon = 36
 }
 VIET_santa_claus_visiting = {
