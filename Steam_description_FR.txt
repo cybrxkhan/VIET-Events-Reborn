@@ -1,6 +1,6 @@
-[h1]Version actuelle : 2.0.2 "Crépuscule" (Sortie le 07/01/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[h1]Version actuelle : 2.0.3 "Shen Kuo" (Sortie le 20/01/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
 [b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
-Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn]Github[/url].[/b]
+Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]Github[/url].[/b]
 
 VIET Events Reborn est le redémarrage du module Events du mod VIET (qui faisait partie de HIP) que j'ai créé il y a plus de six ans avant de me retirer il y a trois ans. Les caractéristiques incluent :
 
@@ -12,6 +12,7 @@ VIET Events Reborn est le redémarrage du module Events du mod VIET (qui faisait
 [*] Améliorations de performance et améliorations diverses par rapport aux anciens événements VIET (remerciement aux équipes de WTWSMS, LI, et Hide Your Jewelry mod)
 [*] Compatibilité avec presque tout puisqu'il ne touche pas les fichiers de vanille.
 [*] [b]NON COMPATIBLE AVEC LES SUCCÈS ![/b]
+[*] Traduction française disponible (remerciements à Loup99, Mouchi et Domper59)
 [/list]
 
 Pour l'instant, le redémarrage n'inclut pas tous les événements originaux. Pour ne pas me submerger, ce que je veux faire c'est ajouter lentement les anciens événements par lots pour que je puisse les réparer, les modifier ou les supprimer comme bon me semble, tout en ajoutant de nouveaux événements pour varier. Toute contribution sur l'équilibre et les bugs est très appréciée alors que je ramène lentement le VIET à la vie ! En particulier, j'essaie encore d'établir un juste équilibre dans la fréquence de ces événements.
@@ -34,18 +35,29 @@ Veuillez consulter le fil de discussion du forum pour la liste complète des cr�
 
 [h1]Changelog le plus récent[/h1]
 
-Version 2.0.2 "Crépuscule"
+Version 2.0.3 "Shen Kuo"
 
-[i]"Qu'il ne fasse pas le vœu de marcher dans l'obscurité, lui qui n'a pas vu la tombée de la nuit."
-
-- J.R.R. Tolkien[/i]
+[I]Shen Kuo était un polymathe chinois, un érudit et un officiel de la dynastie Song. Parmi ses nombreuses réalisations dans divers domaines, il a développé une approche académique rigoureuse de l'archéologie et de l'histoire pour son époque[/I].
 
 [LIST]
-[*]Ajout de 15 événements sur le thème de la nuit
-[*]Ajout de 10 événements sur le thème de l'ombre
-[*]Réintroduction des événements suivants de l'ancien VIET : 5 mauvais, 5 insectes, 5 vieillesse
-[*]Changement d'un événement de poterie ancienne : passage d'un événement de province à un événement de personnage à partir d'actions, pour diminuer sa fréquence
-[*]Suppressions des références aux anciens codes Traits VIET
-[*]Correction de l'événement Grand sanctuaire de l'Antiquité faisant référence à la religion de la province, et non à la religion du propriétaire.
+[*]Ajouté 11 événements sur le thème de la Culture Ancienne
+[*]Ajouté 12 événements sur le thème de l'encombrement (pour gagner encore plus d'encombrement inutile !)
+[*]Ajout de 29 événements pour perdre les artefacts ajoutés dans les événements VIET - cela arrive par un on_actions séparé et cela est assez rares (mais cela sera un peu plus fréquents pour les personnages avec plus de trois artefacts VIET)
+[*]Ajout de nouveau des 41 événements suivants de l'ancien VIET : 7 Cultures anciennes, 9 sons, 3 prières, 9 souvenirs, 5 ombres et 8 événements de comètes
+[*]Chaînes d'événements ajoutées de nouveau  : Parchemins des bassins du Minotaure et du Tarim
+[*]Ajout de l'emplacement "Clutter" dans l'inventaire du joueur pour les divers artefacts VIET. Les joueurs sont maintenant limités à "équiper" trois d'entre eux à la fois, pour éviter d'empiler une tonne de bonus de merde.
+[*]Ajout de nombreux artefacts d'encombrement, y compris d'anciens artefacts.
+[*]Les événements pour gagner ou perdre des artefacts VIET sont maintenant dans un on_actions séparé - ils auront encore besoin d'être testés pour ajuster la fréquence.
+[*]Ajout de drapeaux aux artefacts VIET
+[*]Fréquence réduite des événements d'artefacts VIET
+[*]Réduction des chances d'obtenir des artefacts VIET si le personnage en possède déjà un (via un script de déclenchement)
+[*]Réduction de la gravité du risque de révolte pour plusieurs modificateurs
+[*]Casse-Noisette et sabliers sont maintenant passés dans le on_actions de 5 ans (où se trouvaient presque tous les autres artefacts en désordre).
+[*]Les cultures israélites/juives comptent maintenant aussi pour is_baklava_culture_trigger
+[*]Modificateurs d'événements de Couleurs Mystérieuses, Barde Célèbre, et Bateau Hanté donnant un risque de révolte global au lieu d'un risque de révolte local.
+[*]Corrige les événements d'artefacts Abacus et Calipers pouvant arriver si le personnage en est déjà propriétaire.
+[*]Correction d'événement  de couleurs mystérieuses, de bardes célèbres et de navires hantés donnant un risque de révolte globale au lieu d'un risque de révolte locale.
+[*]Corrections des événements d'artefacts Abacus et Calipers pouvant arriver alors que le personnage en était déjà propriétaire.
+[*]Correction de l'événement où vous allez dans l'océan la nuit esi votre capitale n'est pas côtière.
+[*]Autres corrections diverses
 [/LIST]
-
