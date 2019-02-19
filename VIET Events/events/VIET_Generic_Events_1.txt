@@ -5379,7 +5379,7 @@ character_event = {
 			religion_group = zoroastrian_group
 			culture_group = arabic
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture_group = north_african
 			culture = andalusian_arabic
 		}
