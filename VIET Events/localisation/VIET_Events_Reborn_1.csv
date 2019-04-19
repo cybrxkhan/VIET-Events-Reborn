@@ -753,34 +753,60 @@ VIETmisc.8190.a;I should do the same.;;;;;;;;;;;;;x
 VIETmisc.8190.b;As if that will do anything.;;;;;;;;;;;;;x
 VIETmisc.8191.desc;The herbalists and physicians of [Root.GetName] have become famous in recent times for the quality of their herbal medicines, made using various plants, herbs, minerals, and so on unique to [Root.GetName].;;;;;;;;;;;x
 VIETmisc.8191.a;That is good to hear!;;;;;;;;;;;;;x
-VIETmisc.8192.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8192.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8193.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8193.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8194.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8194.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8195.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8195.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8196.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8196.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8192.desc;“Cookies flavored with rose water, my liege?” my servant asks, offering me some as I sit at my desk doing work one day.;;;;;;;;;;;x
+VIETmisc.8192.a;Of course!;;;;;;;;;;;;;x
+VIETmisc.8192.b;No thanks.;;;;;;;;;;;;;x
+VIETmisc.8193.desc;At a feast like the one you are currently attending, it is customary to use rose water every now and then to wash one's hands during the meal. Tonight, you decide to wash your hands in rose water…;;;;;;;;;;;x
+VIETmisc.8193.a;But only as custom dictates.;;;;;;;;;;;;;x
+VIETmisc.8193.b;As often as possible! Cleanliness is important.;;;;;;;;;;;;;x
+VIETmisc.8193.c;Never. What's the point of it?;;;;;;;;;;;;;x
+VIETmisc.8194.desc;Lately, ointment made out of rose water is becoming a popular fad to help keep the skin moist and clean. Plus, it is very fragrant. Perhaps I'm due to buy some.;;;;;;;;;;;x
+VIETmisc.8194.a;A good idea.;;;;;;;;;;;;;x
+VIETmisc.8194.b;I'll buy some for myself and my spouse.;;;;;;;;;;;;;x
+VIETmisc.8194.c;I'll buy some for myself and my lover.;;;;;;;;;;;;;x
+VIETmisc.8194.d;I don't think I need it.;;;;;;;;;;;;;x
+VIETmisc.8195.desc;Today I am attending a funeral of a prominent noble. Before the remains of the deceased are placed inside, rose water is sprinkled into the grave as is custom.;;;;;;;;;;;x
+VIETmisc.8195.a;A sad day, but alas.;;;;;;;;;;;;;x
+VIETmisc.8195.b;I'm bored - why did I even come?;;;;;;;;;;;;;x
+VIETmisc.8195.c;I'm only here for political reasons.;;;;;;;;;;;;;x
+VIETmisc.8195.d;I personally knew the one who died.;;;;;;;;;;;;;x
+VIETmisc.8196.desc;[target_VIET_rose_garden_courtier.GetTitledName] has recently spent much money and time to cultivate quite a rose garden on [target_VIET_rose_garden_courtier.GetHerHis] property. Today [target_VIET_rose_garden_courtier.GetSheHe] is showing it to me and several members of my court, and I cannot deny it is a colorful and impressive sight.;;;;;;;;;;;x
+VIETmisc.8196.a;Can you help me grow roses in my own garden?;;;;;;;;;;;;;x
+VIETmisc.8196.b;A job well done!;;;;;;;;;;;;;x
+VIETmisc.8196.c;Unremarkable. Anyone could've accomplished that.;;;;;;;;;;;;;x
+VIETmisc.8196.d;We should meet together more to discuss gardening!;;;;;;;;;;;;;x
 VIETmisc.8197.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8197.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8198.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8198.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8199.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8199.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8200.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8200.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8198.desc;To my dearest [Root.GetFirstName],\nFor a [Root.GetRootFromCompliment] such as yourself, I offer you this single rose.\nWe'll never meet, but rest assured - I am protecting you.\n\nWith much love,\nYour truest admirer.;;;;;;;;;;;x
+VIETmisc.8198.a;I guess I'll keep the rose?;;;;;;;;;;;;;x
+VIETmisc.8198.b;Most suspicious! Dispose of the rose!;;;;;;;;;;;;;x
+VIETmisc.8199.desc;They say that oil made from rosehips, the fruit of the rose plant, is good for keeping one's skin looking youthful and beautiful. In these times, when people may judge even a powerful woman like me based on how I look, such an oil may be beneficial. It may be worth it to procure some.;;;;;;;;;;;x
+VIETmisc.8199.a;It is a good investment.;;;;;;;;;;;;;x
+VIETmisc.8199.b;I am not vain like that!;;;;;;;;;;;;;x
+VIETmisc.8200.desc;I am strolling by one day when I stumble on two young servants in the middle of something, so I keep my distance and hide, observing them. The youth gives the maid a rose, telling her they shall be able to marry one day. How silly! That peasant boy must've wasted an inordinate amount of money on that one rose, but everyone knows their affection for each other is genuine.;;;;;;;;;;;x
+VIETmisc.8200.a;Ah, young love!;;;;;;;;;;;;;x
+VIETmisc.8200.b;Hah, women! She'll abandon him for a richer man later.;;;;;;;;;;;;;x
+VIETmisc.8200.c;Hah, men! He'll find a prostitute once he's bored with her.;;;;;;;;;;;;;x
+VIETmisc.8200.d;I can help pay for their wedding. They’ll have my blessing.;;;;;;;;;;;;;x
+VIETmisc.8200.e;What an adorable couple! I can pay for the wedding. ;;;;;;;;;;;;;x
+VIETmisc.8200.f;I've a twisted idea! I'll marry her off to an ugly worm.;;;;;;;;;;;;;x
+VIET_ugly_guy_new_wife_event_text;\n\nI love making people suffer! My pathetic loser of a courtier will have a new wife at last. Imagine the girl having a miserable life with my pathetic loser of a courtier! Imagine the boy seeing his beloved with such an unworthy ruffian! Ha ha! Life is terrible!;;;;;;;;;;;x
+VIET_ugly_guy_new_wife_event_no_courtier_text;\n\nI love making people suffer! Imagine the girl having a miserable life with a pathetic loser! Imagine the boy seeing his beloved with such an unworthy ruffian! Ha ha! Life is terrible!;;;;;;;;;;;x
 VIETmisc.8201.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8201.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8202.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8202.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8203.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8203.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8204.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8204.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8205.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8205.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8202.desc;Though you wouldn’t think it, many herbalists and physicians believe that tea made from the petals and fruit of the rose has a number of beneficial medicinal properties. It is a good thing you are drinking some today, then.;;;;;;;;;;;x
+VIETmisc.8202.a;Delicious, too.;;;;;;;;;;;;;x
+VIETmisc.8203.desc;A traveling monk is paying a visit to my residence today. We were walking around my garden, discussing various matters, when he came across a rose. He then began explaining to me the mystical properties of the rose, and how as the symbol of the Virgin Mary it was sacred and was the key to many spiritual insights. As an amateur gardener, he keeps many roses around.;;;;;;;;;;;x
+VIETmisc.8203.a;Fascinating! Thank you for bringing to my attention.;;;;;;;;;;;;;x
+VIETmisc.8203.b;Politely nod and listen to him drone on and on.;;;;;;;;;;;;;x
+VIETmisc.8203.c;Steer the conversation to other theological matters.;;;;;;;;;;;;;x
+VIETmisc.8203.d;Ask him for gardening tips.;;;;;;;;;;;;;x
+VIETmisc.8204.desc;I am stopping by a village when I see an old man. He appears to be looking at something, and, curious, I approach him. On closer observation, I see that he is examining a wild rose. He seems awfully fascinated with it.;;;;;;;;;;;x
+VIETmisc.8204.a;Admire the flower along with him;;;;;;;;;;;;;x
+VIETmisc.8204.b;Walk away;;;;;;;;;;;;;x
+VIETmisc.8205.title;Flowers in Bloom;;;;;;;;;;;x
+VIETmisc.8205.desc;“Lovely rose, isn’t she?” the elder asks, suddenly.\n\n“It is,” I say.\n\n“You know,” he continues, “when I was younger, I thought it was tragic how the flowers would wilt. But it is like falling in love with a pretty girl or a handsome boy - even if they become old and wrinkled later, that doesn’t diminish their beauty when young. It’s best not to think about how flowers will wilt in the future, but to admire them in the present while they are still blooming.”;;;;;;;;;;;x
+VIETmisc.8205.a;He smiles at me through crooked teeth, before walking away.;;;;;;;;;;;;;x
 VIETmisc.8206.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8206.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8207.desc;xxxxx;;;;;;;;;;;x
