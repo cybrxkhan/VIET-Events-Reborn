@@ -280,5 +280,31 @@ VIET_boulder_blessing;Boulder's Blessing;Bénédiction de Boulder;;;;;;;;;;;;x
 VIET_urine_strange_color;Urine is Strange Color;Urine de couleur étrange;;;;;;;;;;;;x
 VIET_province_araragi_vampire;Legends of the Demon-Slayer and Immortal Servant Girl;Légendes de la Tueuse de Démons et Servante Immortelle;;;;;;;;;;;;x
 VIET_province_araragi_vampire_desc;Recently, there are stories that a demon-slayer who is impervious to any harm or injury is living in this region. According to the fanciful stories told about him, he gained these abilities after encountering otherworldly spirits, particularly an immortal girl who is his servant.;Récemment, il y a des histoires qu'un tueur de démons qui est insensible à tout préjudice ou blessure habite dans cette région. Selon les histoires fantaisistes racontées à son sujet, il a acquis ces capacités après avoir rencontré des esprits d'un autre monde, en particulier une fille immortelle qui est son serviteur.;;;;;;;;;;;;x
->>>>>>> origin/master
+VIET_washed_hands;Washed Hands;;;;;;;;;;;;;x
+VIET_washed_hands_desc;This character knows the importance of washing their hands.;;;;;;;;;;;;;x
+VIET_didnt_wash_hands;Doesn't Wash Hands;;;;;;;;;;;;;x
+VIET_didnt_wash_hands_desc;This character doesn't like washing their hands.;;;;;;;;;;;;;x
+VIET_rosewater_ointment;Rosewater Ointment;;;;;;;;;;;;;x
+VIET_opinion_rosewater_ointment_gift;Bought Me Rosewater Ointment;;;;;;;;;;;;;x
+VIET_opinion_garden_advice;Gardening Advice;;;;;;;;;;;;;x
+VIET_garden_improvements;Garden Improvements;;;;;;;;;;;;;x
+VIET_garden_improvements_desc;This character recently made some improvements to their residence's garden.;;;;;;;;;;;;;x
+VIET_rose_garden;Rose Garden;;;;;;;;;;;;;x
+VIET_rose_garden_desc;There is a beautiful and well-known rose garden on this character's residence.;;;;;;;;;;;;;x
+VIET_opinion_asked_me_for_garden_advice;Asked for Gardening Advice;;;;;;;;;;;;;x
+VIET_opinion_praised_me;Praised Me;;;;;;;;;;;;;x
+VIET_opinion_insulted_me;Insulted Me;;;;;;;;;;;;;x
+VIET_opinion_gardening_discussions;Gardening Discussions;;;;;;;;;;;;;x
+VIET_rosehip_oil;Rosehip Oil;;;;;;;;;;;;;x
+VIET_rosehip_oil_desc;They say that fragrant oils made from rosehip, the fruit of the rose plant, is good for the skin and makes one look younger.;;;;;;;;;;;;;x
+VIET_feeling_jaded_about_life;Feeling Jaded About Life;;;;;;;;;;;;;x
+VIET_feeling_jaded_about_life_desc;For some, life is a bother.;;;;;;;;;;;;;x
+VIET_heartless_villain;Heartless Villain;;;;;;;;;;;;;x
+VIET_heartless_villain_desc;Seeing others suffer is a source of great pleasure and joy for this vile wretch.;;;;;;;;;;;;;x
+VIET_maidservant_forced_marriage;Forced Marriage When Young;;;;;;;;;;;;;x
+VIET_maidservant_forced_marriage_desc;When she was but a young maiden, this lady was forced into a marriage she didn't want. The loss of her innocence in such a manner has made her bitter and melancholy in some ways.;;;;;;;;;;;;;x
+VIET_rose_tea;Rose Tea;;;;;;;;;;;;;x
+VIET_rose_tea_desc;This character recently drank some tea made from the petals and fruit of the rose, mixed together with other herbs.;;;;;;;;;;;;;x
+VIET_uplifting_lesson;Uplifting Lesson;;;;;;;;;;;;;x
+VIET_uplifting_lesson_desc;This character has recently learned an important, uplifting lesson about the positive side of life.;;;;;;;;;;;;;x
 xxxxxxxxx;xxxxx;;;;;;;;;;;;;x
