@@ -306,7 +306,7 @@ character_event = {
 		}
 		OR = {
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 		}
 		OR = {
 			learning = 10

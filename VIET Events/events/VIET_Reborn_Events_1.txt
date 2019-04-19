@@ -1925,7 +1925,7 @@ character_event = {
 		in_command = no
 		#Where people play polo
 		OR = {
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture_group = altaic
 			culture_group = iranian
 			culture_group = arabic
@@ -4685,7 +4685,7 @@ character_event = {
 			culture_group = indo_aryan_group
 			culture_group = dravidian_group
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 		}
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -13943,11 +13943,11 @@ character_event = {
 		#in_command = no
 		OR = {
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			capital_scope = {
 				OR = {
 					culture_group = iranian
-					culture_group = serindian
+					culture_group = serindian # exists in WtWSMS
 					region = world_persia
 					region = world_middle_east_arabia
 				}
@@ -17025,7 +17025,7 @@ character_event = {
 		in_command = no
 		OR = {
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture_group = arabic
 			culture_group = byzantine
 			culture_group = indo_aryan_group
@@ -17161,7 +17161,7 @@ character_event = {
 		in_command = no
 		OR = {
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture_group = arabic
 			culture_group = byzantine
 			culture_group = indo_aryan_group
@@ -18405,7 +18405,7 @@ character_event = {
 			culture_group = iranian
 			culture_group = indo_aryan_group
 			culture_group = dravidian_group
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture = turkish
 		}
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
@@ -18694,7 +18694,7 @@ character_event = {
 			culture_group = indo_aryan_group
 			culture_group = dravidian_group
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 		}
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }

@@ -976,7 +976,6 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		is_ruler = yes
 		trait = wroth
 		NOT = { personality_traits = 5 }
 	}
@@ -1264,12 +1263,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	min_age = 16
+	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	
 	trigger = {
 		in_command = no
-		is_ruler = yes
 		trait = kind
 		NOT = { has_character_flag = VIET_orphaned_knight_child }
 	}
@@ -1472,7 +1471,7 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		is_ruler = no
+		is_ruler = no # Huh, this event cannot occur?
 		trait = brave
 		has_severe_disability_trigger = no
 		is_maimed_trigger = no
@@ -2422,7 +2421,6 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		is_ruler = yes
 		trait = trusting
 		any_courtier = {
 			is_adult = yes
@@ -2796,7 +2794,6 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		is_ruler = yes
 		trait = cruel
 	}
 	
@@ -3283,13 +3280,13 @@ character_event = {
 	is_triggered_only = yes
 	
 	min_age = 16
+	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	religion_group = muslim
 	war = no
 	
 	trigger = {
-		is_ruler = yes
 		in_command = no
 		NOT = { has_character_flag = house_of_wisdom_scholar }
 		any_courtier = {
@@ -4978,12 +4975,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	min_age = 16
+	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	war = no
 	
 	trigger = {
-		is_ruler = yes
 		in_command = no
 		any_courtier = {
 			ai = yes
@@ -5379,7 +5376,7 @@ character_event = {
 			religion_group = zoroastrian_group
 			culture_group = arabic
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture_group = north_african
 			culture = andalusian_arabic
 		}
@@ -11903,12 +11900,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	min_age = 16
+	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	war = no
 	
 	trigger = {
-		is_ruler = yes
 		in_command = no
 		any_courtier = {
 			is_adult = yes
