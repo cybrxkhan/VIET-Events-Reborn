@@ -4515,7 +4515,6 @@ character_event = {
 	war = no
 	
 	trigger = {
-		war = no
 		in_command = no
 		is_abroad = no
 		NOT = { religion_group = indian_group }
