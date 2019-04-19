@@ -67,3 +67,21 @@ VIET_opinion_suspicious = {
 VIET_romantic_saffron_bath = {
 	opinion = 20
 }
+VIET_opinion_rosewater_ointment_gift = {
+	opinion = 5
+}
+VIET_opinion_garden_advice = {
+	opinion = 10
+}
+VIET_opinion_asked_me_for_garden_advice = {
+	opinion = 10
+}
+VIET_opinion_praised_me = {
+	opinion = 20
+}
+VIET_opinion_insulted_me = {
+	opinion = -20
+}
+VIET_opinion_gardening_discussions = {
+	opinion = 20
+}

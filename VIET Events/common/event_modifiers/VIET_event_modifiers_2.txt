@@ -692,3 +692,64 @@ VIET_province_araragi_vampire = {
 	supply_limit = -0.1
 	icon = 76
 }
+VIET_washed_hands = {
+	health = 0.5
+	icon = 39
+}
+VIET_didnt_wash_hands = {
+	health = -0.5
+	icon = 90
+}
+VIET_rosewater_ointment = {
+	monthly_character_prestige = 0.05
+	health = 0.15
+	sex_appeal_opinion = 10
+	icon = 87
+}
+VIET_garden_improvements = {
+	monthly_character_prestige = 0.1
+	diplomacy = 1
+	icon = 87
+}
+VIET_rose_garden = {
+	monthly_character_prestige = 0.25
+	diplomacy = 1
+	sex_appeal_opinion = 5
+	icon = 87
+}
+VIET_rosehip_oil = {
+	monthly_character_prestige = 0.1
+	health = 0.25
+	sex_appeal_opinion = 10
+	icon = 18
+}
+VIET_feeling_jaded_about_life = {
+	intrigue = 1
+	monthly_character_piety = -0.04
+	icon = 41
+}
+VIET_heartless_villain = {
+	intrigue = 2
+	combat_rating = 3
+	general_opinion = -20
+	global_revolt_risk = 0.01
+	monthly_character_piety = -0.1
+	icon = 42
+}
+VIET_maidservant_forced_marriage = {
+	diplomacy = -1
+	intrigue = 1
+	monthly_character_prestige = -0.02
+	icon = 79
+}
+VIET_rose_tea = {
+	health = 0.1
+	icon = 87
+}
+VIET_uplifting_lesson = {
+	diplomacy = 1
+	intrigue = -1
+	health = 0.1
+	monthly_character_piety = 0.06
+	icon = 133
+}
