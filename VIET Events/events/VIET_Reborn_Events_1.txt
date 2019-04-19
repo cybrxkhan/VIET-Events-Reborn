@@ -12957,7 +12957,7 @@ character_event = {
 			AND = {
 				culture_group = south_slavic
 				NOR = {
-					culture = pannonian
+					culture = pannonian #exists in WtWSMS
 					culture = romanian
 				}
 			}
