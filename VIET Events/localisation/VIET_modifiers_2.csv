@@ -201,60 +201,6 @@ VIET_lydia_modifier_desc;This lady was earlier in her life a mere maidservant, b
 VIET_opinion_sarcastic_lydia;Sarcastic Yet Loyal;Sarcastique pourtant loyal;;;;;;;;;;;;x
 VIET_jon_battle_born_soldier;Was a Poetic Guardsman;Était un garde poétique;;;;;;;;;;;;x
 VIET_jon_battle_born_soldier_desc;This character was originally a guardsman renowned for his friendly, righteous outlook on life and his skill as a poet before he was promoted.;Ce personnage était à l’origine un gardien réputé pour son regard droit et amical sur la vie et son habileté en tant que poète avant sa promotion.;;;;;;;;;;;;x
-<<<<<<< HEAD
-VIET_trader_joes_21_seasoning_salute;Twenty One Seasoning Mix;;;;;;;;;;;;;x
-VIET_trader_joes_21_seasoning_salute_desc;This character possesses a stock of a particular blend of twenty-one different spices and herbs, ground and mixed to perfection. It is quite delicious and versatile, and can be used in a lot of different dishes.;;;;;;;;;;;;;x
-VIET_opinion_calmly_corrected_error;Calmly Corrected Me;;;;;;;;;;;;;x
-VIET_opinion_garlic_breath;Garlic Breath;;;;;;;;;;;;;x
-VIET_dhana_jiru;Cooks Using Dhana Jiru;;;;;;;;;;;;;x
-VIET_dhana_jiru_desc;Dhana Jiru is a traditional spice mix from Western India. Its two main ingredients are cumin and coriander.;;;;;;;;;;;;;x
-VIET_refreshing_drink;Refreshing Drink;;;;;;;;;;;;;x
-VIET_romantic_saffron_bath;Romantic Saffron Bath;;;;;;;;;;;;;x
-VIET_saffron_bath;Saffron Bath;;;;;;;;;;;;;x
-VIET_saffron_bath_desc;They say that saffron baths are one of the best aphrodisiacs out there - if, that is, you or your lover can afford it. It is said that Pharaoh Cleopatra herself used them frequently.;;;;;;;;;;;;;x
-VIET_helped_acquaintance;Helped Acquaintance with a Problem;;;;;;;;;;;;;x
-VIET_caraway_breath_freshener;Caraway Breath Freshener;;;;;;;;;;;;;x
-VIET_opinion_lack_of_trust;Lack of Trust;;;;;;;;;;;;;x
-VIET_opinion_suspicious;Suspicious;;;;;;;;;;;;;x
-VIET_mild_headaches;Mild Headaches;;;;;;;;;;;;;x
-VIET_mild_stomachaches;Mild Stomachaches;;;;;;;;;;;;;x
-VIET_ginger_tea;Ginger Tea;;;;;;;;;;;;;x
-VIET_ginger_tea_desc;This character is drinking ginger tea daily to help with their frequent stomachaches.;;;;;;;;;;;;;x
-VIET_effective_pest_control;Effective Pest Control;;;;;;;;;;;;;x
-VIET_province_famous_herbalists;Famous Herbs and Herbalists;;;;;;;;;;;;;x
-VIET_province_famous_herbalists_desc;The herbalists from this province are renowned for the traditional remedies and treatments they have developed, made using the province's unique plants, minerals, and so on.;;;;;;;;;;;;;x
-VIET_boulder_blessing;Boulder's Blessing;;;;;;;;;;;;;x
-VIET_urine_strange_color;Urine is Strange Color;;;;;;;;;;;;;x
-VIET_province_araragi_vampire;Legends of the Demon-Slayer and Immortal Servant Girl;;;;;;;;;;;;;x
-VIET_province_araragi_vampire_desc;Recently, there are stories that a demon-slayer who is impervious to any harm or injury is living in this region. According to the fanciful stories told about him, he gained these abilities after encountering otherworldly spirits, particularly an immortal girl who is his servant.;;;;;;;;;;;;;x
-VIET_washed_hands;Washed Hands;;;;;;;;;;;;;x
-VIET_washed_hands_desc;This character knows the importance of washing their hands.;;;;;;;;;;;;;x
-VIET_didnt_wash_hands;Doesn't Wash Hands;;;;;;;;;;;;;x
-VIET_didnt_wash_hands_desc;This character doesn't like washing their hands.;;;;;;;;;;;;;x
-VIET_rosewater_ointment;Rosewater Ointment;;;;;;;;;;;;;x
-VIET_opinion_rosewater_ointment_gift;Bought Me Rosewater Ointment;;;;;;;;;;;;;x
-VIET_opinion_garden_advice;Gardening Advice;;;;;;;;;;;;;x
-VIET_garden_improvements;Garden Improvements;;;;;;;;;;;;;x
-VIET_garden_improvements_desc;This character recently made some improvements to their residence's garden.;;;;;;;;;;;;;x
-VIET_rose_garden;Rose Garden;;;;;;;;;;;;;x
-VIET_rose_garden_desc;There is a beautiful and well-known rose garden on this character's residence.;;;;;;;;;;;;;x
-VIET_opinion_asked_me_for_garden_advice;Asked for Gardening Advice;;;;;;;;;;;;;x
-VIET_opinion_praised_me;Praised Me;;;;;;;;;;;;;x
-VIET_opinion_insulted_me;Insulted Me;;;;;;;;;;;;;x
-VIET_opinion_gardening_discussions;Gardening Discussions;;;;;;;;;;;;;x
-VIET_rosehip_oil;Rosehip Oil;;;;;;;;;;;;;x
-VIET_rosehip_oil_desc;They say that fragrant oils made from rosehip, the fruit of the rose plant, is good for the skin and makes one look younger.;;;;;;;;;;;;;x
-VIET_feeling_jaded_about_life;Feeling Jaded About Life;;;;;;;;;;;;;x
-VIET_feeling_jaded_about_life_desc;For some, life is a bother.;;;;;;;;;;;;;x
-VIET_heartless_villain;Heartless Villain;;;;;;;;;;;;;x
-VIET_heartless_villain_desc;Seeing others suffer is a source of great pleasure and joy for this vile wretch.;;;;;;;;;;;;;x
-VIET_maidservant_forced_marriage;Forced Marriage When Young;;;;;;;;;;;;;x
-VIET_maidservant_forced_marriage_desc;When she was but a young maiden, this lady was forced into a marriage she didn't want. The loss of her innocence in such a manner has made her bitter and melancholy in some ways.;;;;;;;;;;;;;x
-VIET_rose_tea;Rose Tea;;;;;;;;;;;;;x
-VIET_rose_tea_desc;This character recently drank some tea made from the petals and fruit of the rose, mixed together with other herbs.;;;;;;;;;;;;;x
-VIET_uplifting_lesson;Uplifting Lesson;;;;;;;;;;;;;x
-VIET_uplifting_lesson_desc;This character has recently learned an important, uplifting lesson about the positive side of life.;;;;;;;;;;;;;x
-=======
 VIET_trader_joes_21_seasoning_salute;Twenty One Seasoning Mix;Vingt et un assaisonnements;;;;;;;;;;;;x
 VIET_trader_joes_21_seasoning_salute_desc;This character possesses a stock of a particular blend of twenty-one different spices and herbs, ground and mixed to perfection. It is quite delicious and versatile, and can be used in a lot of different dishes.;Ce personnage possède un stock d'un mélange particulier de vingt et une épices et herbes différentes, moulues et mélangées à la perfection. C'est assez délicieux et polyvalent, et peut être utilisé dans beaucoup de plats différents.;;;;;;;;;;;;x
 VIET_opinion_calmly_corrected_error;Calmly Corrected Me;M'a calmement corrigé;;;;;;;;;;;;x
