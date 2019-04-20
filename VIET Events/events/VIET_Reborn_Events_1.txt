@@ -14,7 +14,7 @@
 # 8128-8143: Ancient Cultures
 # 8144-8156: Skyrim Conversations
 # 8157-8191: Spices and Herbs (A-L mostly)
-# 8192-????: Roses
+# 8192-8205: Roses
 # 
 #####################################################################
 
@@ -21343,5 +21343,259 @@ narrative_event = {
 			name = VIET_uplifting_lesson
 			duration = 365
 		}
+	}
+}
+
+##########################################
+# MUSK DEER
+##########################################
+
+
+# Buy some musk deer products?
+character_event = {
+	id = VIETmisc.8206
+	desc = VIETmisc.8206.desc
+	picture = GFX_evt_market
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		wealth = 20
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		
+		modifier = {
+			factor = 0.4
+			NOR = {
+				region = world_india
+				region = world_steppe
+				region = world_himalayas
+				region = world_persia
+				region = world_middle_east
+				region = world_africa_east
+				region = world_africa_north
+				region = world_asia_minor
+				region = world_europe_south_east
+			}
+		}		
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = groomed
+		}
+		modifier = {
+			factor = 0.8
+			trait = uncouth
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+
+	option = {
+		name = VIETmisc.8206.a # Buy perfumes
+		wealth = -30
+		add_character_modifier = {
+			name = VIET_musk_deer_perfume
+			duration = 730
+		}
+	}
+	option = {
+		name = VIETmisc.8206.b # Buy soaps
+		wealth = -30
+		add_character_modifier = {
+			name = VIET_musk_deer_soap
+			duration = 730
+		}
+	}
+	option = {
+		name = VIETmisc.8206.c # Buy medicines
+		wealth = -30
+		add_character_modifier = {
+			name = VIET_musk_deer_medicine
+			duration = 730
+		}
+	}
+	option = {
+		name = VIETmisc.8206.d # Don't buy any
+		piety = 5
+		if = {
+			limit = {
+				trait = proud
+			}
+			random = {
+				remove_trait = proud
+				chance = 50
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = content }
+			}
+			random = {
+				add_trait = content
+				chance = 30
+			}
+		}
+	}
+}
+
+
+
+# Musk Deer population increases
+province_event = {
+	id = VIETmisc.8207
+	desc = VIETmisc.8207.desc
+	picture = GFX_evt_skyrim_forest
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_musk_deer }
+		OR = {
+			region = world_india_bengal
+			region = world_india_rajastan
+			region = world_steppe_east
+			region = world_steppe_tarim
+			region = world_himalayas
+		}
+		OR = {
+			terrain = hills
+			terrain = mountain
+			terrain = steppe
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 15000
+	}
+	
+
+	option = { # Ok
+		name = VIETmisc.8207.a
+		add_province_modifier = {
+			name = VIET_province_musk_deer
+			duration = 1111
+		}
+	}
+}
+
+
+# Hunters illegally hunting musk deer caught
+character_event = {
+	id = VIETmisc.8208
+	desc = VIETmisc.8208.desc
+	picture = GFX_evt_hunting_scene
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+	}
+
+	option = {
+		name = VIETmisc.8208.a # Let them go
+		trigger = {
+			NOT = { trait = just }
+		}
+		if = {
+			limit = {
+				NOT = { trait = arbitrary }
+			}
+			random = {
+				add_trait = arbitrary
+				chance = 30
+			}
+		}
+		prestige = -10
+	}
+	option = {
+		name = VIETmisc.8208.b # Rid their goods
+		prestige = 5
+	}
+	option = {
+		name = VIETmisc.8208.c # Take their goods
+		random_list = {
+			20 = { add_trait = arbitrary }
+			20 = { add_trait = greedy }
+			60 = { }
+		}
+		prestige = -10
+		piety = -10
+		wealth = 25
 	}
 }

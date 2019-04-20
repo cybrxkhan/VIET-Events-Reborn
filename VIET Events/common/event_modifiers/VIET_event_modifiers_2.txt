@@ -753,3 +753,28 @@ VIET_uplifting_lesson = {
 	monthly_character_piety = 0.06
 	icon = 133
 }
+VIET_musk_deer_perfume = {
+	diplomacy = 1
+	general_opinion = 5
+	sex_appeal_opinion = 10
+	monthly_character_prestige = 0.1
+	icon = 39
+}
+VIET_musk_deer_soap = {
+	general_opinion = 5
+	health = 0.25
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
+	icon = 87
+}
+VIET_musk_deer_medicine = {
+	intrigue = 1
+	health = 0.5
+	monthly_character_piety = 0.1
+	icon = 85
+}
+VIET_province_musk_deer = {
+	local_tax_modifier = 0.04
+	tradevalue = 4
+	icon = 123
+}
