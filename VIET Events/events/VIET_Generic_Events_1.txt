@@ -1471,7 +1471,7 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		is_ruler = no # Huh, this event cannot occur?
+		#is_ruler = no
 		trait = brave
 		has_severe_disability_trigger = no
 		is_maimed_trigger = no
