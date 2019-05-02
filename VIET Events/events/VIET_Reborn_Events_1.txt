@@ -21527,6 +21527,20 @@ character_event = {
 	
 	trigger = {
 		in_command = no
+		capital_scope = {
+			OR = {
+				region = world_india_bengal
+				region = world_india_rajastan
+				region = world_steppe_east
+				region = world_steppe_tarim
+				region = world_himalayas
+			}
+			OR = {
+				terrain = hills
+				terrain = mountain
+				terrain = steppe
+			}		
+		}
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
