@@ -1548,11 +1548,11 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\cathedral_serindian.tga"
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_evt_cathedral_chinese_group"
-		texturefile = "gfx\\event_pictures\\cathedral_sinic.tga"
-		allwaystransparent = yes
-	}
+	#spriteType = {
+	#	name = "GFX_evt_cathedral_chinese_group"
+	#	texturefile = "gfx\\event_pictures\\cathedral_sinic.tga"
+	#	allwaystransparent = yes
+	#}
 	spriteType = {
 		name = "GFX_evt_trade_post_republic_chinese_group"
 		texturefile = "gfx\\event_pictures\\republic_trade_post_sinic.tga"
@@ -2453,7 +2453,12 @@ spriteTypes = {
 		name = "GFX_evt_market_hf_east_african"
 		texturefile = "gfx\\event_pictures\\market_hf_arabic.tga"
 		allwaystransparent = yes
-	}
+	}	
+	spriteType = {
+		name = "GFX_evt_castle_construction_chinese_group"
+		texturefile = "gfx\\event_pictures\\castle_tower_sinic.tga"
+		allwaystransparent = yes
+	}	
 }
 
 

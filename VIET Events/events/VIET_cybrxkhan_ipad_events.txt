@@ -2761,13 +2761,13 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		OR = {
+		NOR = {
 			religion_group = zoroastrian_group
 			religion = messalian
 			has_religion_feature = religion_holy_family 
 			has_religion_feature = religion_feature_zun
 		}
-		NOT = { religion = manichean }
+		#NOT = { religion = manichean }
 		NOT = {
 			has_game_rule = {
 				name = VIET_events_rules
@@ -2927,6 +2927,12 @@ character_event = {
 				trait = paranoid
 				trait = wroth
 				trait = lustful
+			}
+		}
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
 			}
 		}
 	}
@@ -4688,7 +4694,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2277
 	desc = VIETmisc.2277.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_feast
 
 	is_triggered_only = yes
 	
