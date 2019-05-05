@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.3 "Shen Kuo" (Released 1/20/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.4 "Heraclius" (Released 5/4/19, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,28 +38,28 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.3 "Shen Kuo"
+Version 2.0.4 "Heraclius"
 
-[I]Shen Kuo was a Chinese polymath, scholar, and official of the Song Dynasty. Among his many achievements in various fields, he developed an academically rigorous approach to archaeology and history for his time.[/I]
+[I]Heraclius was Roman Emperor from 610 to 641 CE, and ruled during an important, transitionary period in the history of the Empire. During his reign, the Romans finally defeated their ancient nemesis, the Persians, only to lose many of their gains to the rising Arabian Caliphate. He was also responsible for reorganizing the Empire and his reforms, such as changing the official language of the Empire from Latin to Greek.[/I]
 
 [LIST]
-[*]Added 11 Ancient Culture themed events
-[*]Added 12 Clutter themed events (to gain even more useless clutter!)
-[*]Added 29 events to lose artifacts added in VIET Events - these fire on a separate on_actions and are fairly rare (though will be a little more common for characters with more than three VIET artifacts)
-[*]Re-added the following 41 events from old VIET: 7 Ancient Cultures, 9 Sound, 3 Prayer, 9 Memories, 5 Shady, and 8 Comet Events
-[*]Re-added event chains: Minotaur and Tarim Basin Scrolls
-[*]Added “Clutter” slot in player inventory for the miscellaneous VIET artifacts. Players are now limited to “equipping” three of these at a time, to prevent stacking a crap ton of bonuses.
-[*]Added many new clutter artifacts, including some ancient artifacts
-[*]Events to gain or lose VIET artifacts are now in a separate on_actions - will still need testing to tweak frequency
-[*]Added flags to VIET artifacts
-[*]Reduced frequency of VIET artifact events
-[*]Reduced chances of getting VIET artifacts if character already has one (via scripted trigger)
-[*]Reduced severity of revolt risk for several modifiers
-[*]Nutcracker and Hourglass artifact events now moved to the Five year on_actions pulse (where almost all the other clutter artifact events were)
-[*]Israelite/Jewish cultures now also count for is_baklava_culture_trigger
-[*]Fixed Mysterious Colors, Famous Bard, and Haunted Ship event modifiers giving global revolt risk instead of local revolt risk
-[*]Fixed Calipers and Abacus artifact events being able to fire if character already owns them
-[*]Fixed event where you go to the ocean at night firing if your capital isn’t coastal
-[*]Other miscellaneous fixes
+[*]Added 35 Spices themed events
+[*]Added 13 Skyrim dialogue inspired events
+[*]Added 13 Rose themed events
+[*]Added 3 Deer Musk themed events
+[*]Added new artifacts: Mythical Creature’s Bone (Dinosaur Bone)
+[*]Added a few more event pics
+[*]Re-added events from old VIET: 6 Curry, 9 Rocks and Minerals, 10 Urine, 5 Monogatari references
+[*]All VIET clutter artifacts can no longer be stacked
+[*]Some culture/religion/region-specific events will no longer fire in random worlds for obvious reasons
+[*]Ancient artifacts now have an “unknown” creation date, for more immersion
+[*]Dance with the Dead event chain can now happen to Latin, Iberian, and Celtic culture groups, or those in the Western European region, as well
+[*]Nutcracker artifact no longer limited to Christians
+[*]Pistachio event can now also happen in Asia Minor
+[*]Readjusted the likelihood of getting events and event chains, particularly the rarer ones on the five and ten year pulses
+[*]Incestuous runaways event will no longer fire for reformed pagans that have the divine marriage doctrine
+[*]Children under 13, as well as Celibate, Chaste, and Eunuch characters, can no longer respond a little too positively to the good whores province event
+[*]Fixed a couple childhood events giving Conclave childhood traits for those who don’t own the Conclave DLC
+[*]Fixed VIETnam.85 not triggering
 [/LIST]
 
