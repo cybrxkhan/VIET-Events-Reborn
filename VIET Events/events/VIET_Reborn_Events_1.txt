@@ -20520,7 +20520,6 @@ character_event = {
 			ai = yes
 			NOT = { trait = incapable }
 			NOT = { is_consort = ROOT }
-			NOT = { is_main_spouse = ROOT }
 			NOT = { is_close_relative = ROOT }
 			OR = {
 				trait = gardener
@@ -20582,7 +20581,6 @@ character_event = {
 				ai = yes
 				NOT = { trait = incapable }
 				NOT = { is_consort = ROOT }
-				NOT = { is_main_spouse = ROOT }
 				NOT = { is_close_relative = ROOT }
 				OR = {
 					trait = gardener
@@ -20911,6 +20909,49 @@ character_event = {
 			trait = honest
 		}
 	}
+	
+	immediate = {
+	
+		if = {
+			limit = {
+				trait = cruel
+				any_courtier = {
+					is_female = no
+					is_adult = yes
+					ai = yes
+					NOT = { trait = incapable }
+					NOT = { is_close_relative = ROOT }
+					is_married = no
+					has_lover = no
+					OR = {
+						has_evil_trait_trigger = yes
+						has_unpleasant_trait_trigger = yes
+						has_unattractive_trait_trigger = yes
+					}
+					has_attractive_trait_trigger = no				
+				}
+			}
+			set_character_flag = VIET_ugly_jerk_exists
+			random_courtier = {
+				limit = {
+					is_female = no
+					is_adult = yes
+					ai = yes
+					NOT = { trait = incapable }
+					NOT = { is_close_relative = ROOT }
+					is_married = no
+					has_lover = no
+					OR = {
+						has_evil_trait_trigger = yes
+						has_unpleasant_trait_trigger = yes
+						has_unattractive_trait_trigger = yes
+					}
+					has_attractive_trait_trigger = no				
+				}
+				save_event_target_as = target_VIET_ugly_jerk
+			}		
+		}
+	}
 
 	option = {
 		name = VIETmisc.8200.a # Youthful folly
@@ -20988,6 +21029,7 @@ character_event = {
 		name = VIETmisc.8200.f # Marry girl off to ugly fart - asshole option
 		trigger = {
 			trait = cruel
+			NOT = { has_character_flag = VIET_ugly_jerk_exists_already_done }
 		}
 		tooltip_info = cruel
 		piety = -10
@@ -21003,48 +21045,76 @@ character_event = {
 		}
 		if = {
 			limit = {
-				any_courtier = {
-					is_female = no
-					is_adult = yes
-					ai = yes
-					NOT = { trait = incapable }
-					NOT = { is_consort = ROOT }
-					NOT = { is_main_spouse = ROOT }
-					NOT = { is_close_relative = ROOT }
-					is_married = no
-					has_lover = no
-					OR = {
-						has_evil_trait_trigger = yes
-						has_unpleasant_trait_trigger = yes
-						has_unattractive_trait_trigger = yes
-					}
-					has_attractive_trait_trigger = no
-				}
+				has_character_flag = VIET_ugly_jerk_exists
 			}
-			random_courtier = {
-				limit = {
-					is_female = no
-					is_adult = yes
-					ai = yes
-					NOT = { trait = incapable }
-					NOT = { is_consort = ROOT }
-					NOT = { is_main_spouse = ROOT }
-					NOT = { is_close_relative = ROOT }
-					is_married = no
-					has_lover = no
-					OR = {
-						has_evil_trait_trigger = yes
-						has_unpleasant_trait_trigger = yes
-						has_unattractive_trait_trigger = yes
-					}
-					has_attractive_trait_trigger = no				
+			set_character_flag = VIET_ugly_jerk_exists_already_done
+			create_character = {
+				age = 17
+				dynasty = none
+				religion = ROOT
+				culture = ROOT
+				female = yes
+				health = 5
+				random_traits = yes
+				historical = yes
+			}
+			new_character = {
+				add_spouse = event_target:target_VIET_ugly_jerk
+				add_rival = ROOT
+				set_character_flag = ai_flag_refuse_concubinage
+				add_character_modifier = {
+					name = VIET_maidservant_forced_marriage
+					duration = -1
 				}
-				custom_tooltip = { text = VIET_ugly_guy_new_wife_event_text }
-				hidden_tooltip = {
-					character_event = { id = VIETmisc.8201 }
+				#Guaranteed Traits
+				add_trait = fair
+				#Flavor
+				random_list = {
+					80 = { } #Nothing
+					20 = { add_scarred_tiered_effect = yes }
 				}
 			}
 		}
+		#if = {
+		#	limit = {
+		#		any_courtier = {
+		#			is_female = no
+		#			is_adult = yes
+		#			ai = yes
+		#			NOT = { trait = incapable }
+		#			NOT = { is_close_relative = liege }
+		#			is_married = no
+		#			has_lover = no
+		#			OR = {
+		#				has_evil_trait_trigger = yes
+		#				has_unpleasant_trait_trigger = yes
+		#				has_unattractive_trait_trigger = yes
+		#			}
+		#			has_attractive_trait_trigger = no
+		#		}
+		#	}
+		#	random_courtier = {
+		#		limit = {
+		#			is_female = no
+		#			is_adult = yes
+		#			ai = yes
+		#			NOT = { trait = incapable }
+		#			NOT = { is_close_relative = liege }
+		#			is_married = no
+		#			has_lover = no
+		#			OR = {
+		#				has_evil_trait_trigger = yes
+		#				has_unpleasant_trait_trigger = yes
+		#				has_unattractive_trait_trigger = yes
+		#			}
+		#			has_attractive_trait_trigger = no				
+		#		}
+		#		custom_tooltip = { text = VIET_ugly_guy_new_wife_event_text }
+		#		hidden_tooltip = {
+		#			character_event = { id = VIETmisc.8201 }
+		#		}
+		#	}
+		#}
 		else = {
 			custom_tooltip = { text = VIET_ugly_guy_new_wife_event_no_courtier_text }
 		}
@@ -21052,41 +21122,43 @@ character_event = {
 }
 
 # Stumble on two servants in love
-character_event = {
-	id = VIETmisc.8201
-		
-	hide_window = yes
-	
-	immediate = {
-		#Make waifu
-		create_character = {
-			age = 17
-			dynasty = none
-			religion = FROM
-			culture = FROM
-			female = yes
-			health = 5
-			random_traits = yes
-			historical = yes
-		}
-		new_character = {
-			add_spouse = ROOT
-			add_rival = FROM
-			set_character_flag = ai_flag_refuse_concubinage
-			add_character_modifier = {
-				name = VIET_maidservant_forced_marriage
-				duration = -1
-			}
-			#Guaranteed Traits
-			add_trait = fair
-			#Flavor
-			random_list = {
-				80 = { } #Nothing
-				20 = { add_scarred_tiered_effect = yes }
-			}
-		}		
-	}
-}
+#character_event = {
+#	id = VIETmisc.8201
+#		
+#	hide_window = yes
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		#Make waifu
+#		create_character = {
+#			age = 17
+#			dynasty = none
+#			religion = liege
+#			culture = liege
+#			female = yes
+#			health = 5
+#			random_traits = yes
+#			historical = yes
+#		}
+#		new_character = {
+#			add_spouse = ROOT
+#			add_rival = liege
+#			set_character_flag = ai_flag_refuse_concubinage
+#			add_character_modifier = {
+#				name = VIET_maidservant_forced_marriage
+#				duration = -1
+#			}
+#			#Guaranteed Traits
+#			add_trait = fair
+#			#Flavor
+#			random_list = {
+#				80 = { } #Nothing
+#				20 = { add_scarred_tiered_effect = yes }
+#			}
+#		}		
+#	}
+#}
 
 # Rose tea
 character_event = {

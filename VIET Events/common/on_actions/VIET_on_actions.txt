@@ -197,6 +197,11 @@ on_yearly_pulse = {
 			100 = VIETmisc.8177 # Clove oil to help with headaches
 			100 = VIETmisc.8179 # Chewing on fennel seeds to freshen breath
 			100 = VIETmisc.8180 # Drink ginger tea for stomachache
+			#Rose
+			100 = VIETmisc.8192 # Rose water cookies
+			100 = VIETmisc.8193 # Using rose water to wash hands in medieval Europe
+			100 = VIETmisc.8194 # Skin ointment made from rose water
+			100 = VIETmisc.8202 # Rose tea
 		}
 		
 	}
@@ -356,6 +361,13 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8187 # Eating lavender flavored cake with lavender flavored tea
 			100 = VIETmisc.8188 # Using tulsi/holy basil for pest control
 			100 = VIETmisc.8189 # Plant more tulsi/holy basil to worship Vishnu?
+			#Rose
+			100 = VIETmisc.8195 # Sprinkle rose water for funeral of a nobleman
+			100 = VIETmisc.8199 # Female ruler considers using rosehip oil to look youthful
+			100 = VIETmisc.8203 # Monk explains rose's significance as a symbol of the Virgin Mary
+			#Deer musk
+			100 = VIETmisc.8206 # Buy some musk deer products?
+			100 = VIETmisc.8208 # Hunters illegally hunting musk deer caught
 		
 		}
 		
@@ -480,6 +492,11 @@ on_five_year_pulse = {
 			100 = VIETmisc.8181 # Stupid courtier thinks the grains of paradise actually came from heaven
 			100 = VIETmisc.8185 # Heartbroken servant can't afford herbal concoction to heal wounded heart (gender not specified)
 			100 = VIETmisc.8190 # Someone places basil on dead peron before funeral
+			#Rose
+			100 = VIETmisc.8196 # Courtier is growing an impressive rose garden
+			100 = VIETmisc.8197 # Admirer gives a letter with a rose
+			100 = VIETmisc.8200 # Stumble on two servants in love
+			100 = VIETmisc.8204 # Meet an old villager admiring a flower
 		}
 		
 		#ALL VIET artifact events should go here!
