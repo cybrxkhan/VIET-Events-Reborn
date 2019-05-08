@@ -611,7 +611,8 @@ VIET_jon_battle_born_soldier = {
 	martial = 1
 	sex_appeal_opinion = 10
 	monthly_character_prestige = 0.02	
-	monthly_character_piety = 0.02	
+	monthly_character_piety = 0.02
+	combat_rating = 5
 	icon = 123
 }
 VIET_trader_joes_21_seasoning_salute = {
@@ -731,7 +732,7 @@ VIET_feeling_jaded_about_life = {
 VIET_heartless_villain = {
 	intrigue = 2
 	combat_rating = 3
-	general_opinion = -20
+	general_opinion = -30
 	global_revolt_risk = 0.01
 	monthly_character_piety = -0.1
 	icon = 42
@@ -744,6 +745,7 @@ VIET_maidservant_forced_marriage = {
 }
 VIET_rose_tea = {
 	health = 0.1
+	fertility = 0.03
 	icon = 87
 }
 VIET_uplifting_lesson = {

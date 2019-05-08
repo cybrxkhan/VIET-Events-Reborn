@@ -21219,6 +21219,10 @@ character_event = {
 
 	option = {
 		name = VIETmisc.8202.a # ok
+		add_character_modifier = {
+			name = VIET_rose_tea
+			duration = 365
+		}
 	}
 }
 
@@ -21450,16 +21454,18 @@ character_event = {
 		
 		modifier = {
 			factor = 0.4
-			NOR = {
-				region = world_india
-				region = world_steppe
-				region = world_himalayas
-				region = world_persia
-				region = world_middle_east
-				region = world_africa_east
-				region = world_africa_north
-				region = world_asia_minor
-				region = world_europe_south_east
+			capital_scope = {
+				NOR = {
+					region = world_india
+					region = world_steppe
+					region = world_himalayas
+					region = world_persia
+					region = world_middle_east
+					region = world_africa_east
+					region = world_africa_north
+					region = world_asia_minor
+					region = world_europe_south_east
+				}			
 			}
 		}		
 		modifier = {
