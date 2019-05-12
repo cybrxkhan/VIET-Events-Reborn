@@ -2459,6 +2459,26 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\castle_tower_sinic.tga"
 		allwaystransparent = yes
 	}	
+	spriteType = {
+		name = "GFX_evt_tuscan_country_tibetan_group"
+		texturefile = "gfx\\event_pictures\\tuscan_country_altaic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_child_talking_tibetan_group"
+		texturefile = "gfx\\event_pictures\\Children_talking_altaic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_tibetan_group"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_tibetan_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_tibetan_group"
+		texturefile = "gfx\\event_pictures\\market_tibetan_group.tga"
+		allwaystransparent = yes
+	}
 }
 
 

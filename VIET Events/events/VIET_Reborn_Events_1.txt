@@ -16,6 +16,8 @@
 # 8157-8191: Spices and Herbs (A-L mostly)
 # 8192-8205: Roses
 # 8205-8208: Deer Musk
+# 8209-8213: Virginity
+# 8214-8216: Broccoli
 # 
 #####################################################################
 
@@ -6156,6 +6158,7 @@ province_event = {
 		NOT = { has_province_modifier = VIET_auriels_ascension }
 		owner = {
 			is_nomadic = no
+			religion = ROOT
 		}
 	}
 	
@@ -20708,17 +20711,30 @@ character_event = {
 	prisoner = no
 	only_playable = yes
 	
-	mean_time_to_happen = {
-		months = 50000
+	weight_multiplier = {
+		days = 1	
+		
 		modifier = {
-			factor = 1.5
-			is_attractive_trigger = no
+			factor = 1.2
+			is_attractive_trigger = yes
 		}
 		modifier = {
-			factor = 0.85
-			trait = fair
+			factor = 0.8
+			is_unattractive_trigger = yes
 		}
 	}
+	
+	#mean_time_to_happen = {
+	#	months = 50000
+	#	modifier = {
+	#		factor = 1.5
+	#		is_attractive_trigger = no
+	#	}
+	#	modifier = {
+	#		factor = 0.85
+	#		trait = fair
+	#	}
+	#}
 	
 	immediate = {
 		letter_event = { id = VIETmisc.8198 }
@@ -21440,7 +21456,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	war = no
+	#war = no
 	
 	trigger = {
 		in_command = no
@@ -21601,10 +21617,10 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
-	war = no
+	#war = no
 	
 	trigger = {
-		in_command = no
+		#in_command = no
 		capital_scope = {
 			OR = {
 				region = world_india_bengal
@@ -21690,5 +21706,1434 @@ character_event = {
 		prestige = -10
 		piety = -10
 		wealth = 25
+	}
+}
+
+
+##########################################
+# VIRGINITY (based on is_virgin_trigger in vanilla - pretty cool they figured out a way to do that)
+##########################################
+
+
+# Man worries about not having enough experience
+character_event = {
+	id = VIETmisc.8209
+	desc = VIETmisc.8209.desc
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+
+	min_age = 13
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	only_men = yes
+	
+	trigger = {
+		in_command = no
+		is_virgin_trigger = yes
+		NOT = { trait = homosexual }
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+
+	option = { #Visit a brothel
+		name = VIETmisc.8209.a
+		wealth = -5
+		piety = -10
+		add_character_modifier = {
+			name = VIET_one_time_lovemaking
+			duration = 365
+		}
+		if = {
+			limit = {
+				trait = chaste
+			}
+			random = {
+				remove_trait = chaste
+				chance = 75
+			}
+		}
+		if = {
+			limit = {
+				trait = shy
+			}
+			random = {
+				remove_trait = shy
+				chance = 40
+			}
+		}
+		random_list = {
+			70 = { }
+			20 = { add_trait = lustful }
+			20 = { add_trait = gregarious }
+		}
+	}
+	option = { #Boink a maid
+		name = VIETmisc.8209.b
+		if = {
+			limit = {
+				trait = chaste
+			}
+			random = {
+				remove_trait = chaste
+				chance = 50
+			}
+		}
+		add_character_modifier = {
+			name = VIET_one_time_lovemaking
+			duration = 365
+		}
+	}
+	option = { #Don't care
+		name = VIETmisc.8209.c
+		add_character_modifier = {
+			name = VIET_not_enough_sex_rumors
+			duration = 365
+		}
+		random_list = {
+			50 = { }
+			10 = { add_trait = content }
+			10 = { add_trait = slothful }
+			30 = { add_trait = chaste }
+		}
+	}
+	option = { #Doesn't like women
+		name = VIETmisc.8209.d
+		add_character_modifier = {
+			name = VIET_sexist_against_women
+			duration = 365
+		}
+		add_character_modifier = {
+			name = VIET_not_enough_sex_rumors
+			duration = 365
+		}
+	}
+}
+
+# Young noblewoman loses virtue to rakish scoundrel
+character_event = {
+	id = VIETmisc.8210
+	desc = VIETmisc.8210.desc
+	picture = GFX_evt_maiden
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#is_virgin_trigger = yes
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_character_flag = VIET_dishonored_maiden_event_already }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_dishonored_maiden_event_already 
+	}
+
+	option = { #Don't get involved
+		name = VIETmisc.8210.a
+		custom_tooltip = { text = VIET_dishonored_maiden_ignore }
+	}
+	option = { #Look down on girl
+		name = VIETmisc.8210.b
+		prestige = 5
+		add_character_modifier = {
+			name = VIET_sexist_against_women
+			duration = 365
+		}
+		custom_tooltip = { text = VIET_dishonored_maiden_scorn }
+	}
+	option = { #Force man to pay fine
+		name = VIETmisc.8210.c
+		if = {
+			limit = {
+				trait = arbitrary
+			}
+			random = {
+				remove_trait = arbitrary
+				chance = 55
+			}
+		}
+		else = {
+			random = {
+				add_trait = just
+				chance = 35
+			}
+		}
+		custom_tooltip = { text = VIET_dishonored_maiden_compromise }
+	}
+	option = { #Give her a place at my court
+		name = VIETmisc.8210.d
+		trigger = {
+			OR = {
+				trait = kind
+				trait = charitable
+				trait = trusting
+				trait = lustful
+			}
+			NOT = { trait = paranoid }
+			NOT = { trait = proud }
+			NOT = { trait = cruel }
+		}
+		prestige = -20
+		if = {
+			limit = {
+				trait = cruel
+			}
+			remove_trait = cruel
+		}
+		else = {
+			random = {
+				add_trait = kind
+				chance = 45
+			}
+		}
+		random = {
+			add_trait = charitable
+			chance = 35
+		}
+			
+		create_character = {
+			age = 16
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = yes
+			health = 5
+			random_traits = no
+			historical = yes
+		}
+		new_character = {
+			#Education & other basic stuff
+			add_character_modifier = {
+				name = VIET_dishonored_deflowered_maiden
+				duration = -1
+			}
+			#set_character_flag = ai_flag_refuse_concubinage
+			#set_character_flag = ai_flag_refuse_marriage
+			set_character_flag = no_court_invites
+			add_trait = trusting
+			#Flavor
+			random_list = {
+				85 = { } #Nothing
+				15 = { add_scarred_tiered_effect = yes }
+			}
+			random_list = {
+				40 = { } 
+				30 = { add_trait = groomed }
+				30 = { add_trait = fair }
+			}
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}			
+			if = {
+				limit = { has_dlc = "Way of Life" }
+				random_list = {
+					60 = { add_trait = socializer }
+					10 = { add_trait = scholar }
+					10 = { add_trait = seductress }
+					20 = {}
+				}
+			}
+			#Personality Archetypes
+			random_list = {
+				20 = { # Innocent
+					set_character_flag = VIET_dishonored_innocent
+					add_trait = naive_appeaser
+					add_trait = kind
+					add_trait = patient
+					add_trait = humble
+				}
+				20 = { # Nerd
+					set_character_flag = VIET_dishonored_nerd
+					add_trait = scholarly_theologian
+					add_trait = erudite
+					add_trait = diligent
+					add_trait = slothful
+					if = {
+						limit = { has_dlc = "Way of Life" }
+						random_list = {
+							60 = { add_trait = scholar }
+							10 = { add_trait = gamer }
+							10 = { add_trait = mystic }
+							10 = { add_trait = theologian }
+							10 = {}
+						}
+					}
+				}
+				20 = { # Arrogant snob
+					set_character_flag = VIET_dishonored_snob
+					add_trait = thrifty_clerk
+					add_trait = proud
+					add_trait = stubborn
+					add_trait = slothful
+					if = {
+						limit = { has_dlc = "Way of Life" }
+						random_list = {
+							60 = { add_trait = socializer }
+							20 = { add_trait = schemer }
+							20 = {}
+						}
+					}
+				}
+			}
+		}
+		
+		
+		custom_tooltip = { text = VIET_dishonored_maiden_help }
+	}
+}
+
+
+# Vasha from Skyrim - capture notorious bandit wanted for murder, theft, and rape
+character_event = {
+	id = VIETmisc.8211
+	desc = VIETmisc.8211.desc
+	picture = GFX_evt_judged_by_ruler
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#is_virgin_trigger = yes
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_character_flag = VIET_vasha_was_here }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_vasha_was_here 
+	}
+
+	option = { #Execute!
+		name = VIETmisc.8211.a
+		prestige = 20
+		
+		if = {
+			limit = {
+				trait = arbitrary
+			}
+			remove_trait = arbitrary
+		}
+		else = {
+			random = {
+				add_trait = just
+				chance = 50
+			}
+		}
+		
+		add_character_modifier = {
+			name = VIET_captured_notorious_bandit
+			duration = 1666
+		}
+	}
+	option = { #Recruit him
+		name = VIETmisc.8211.b
+		prestige = -50
+		wealth = -50
+		
+		if = {
+			limit = {
+				trait = just
+			}
+			remove_trait = just
+		}
+		
+		add_character_modifier = {
+			name = VIET_hired_notorious_bandit
+			duration = 1666
+		}
+		
+		create_random_soldier = {
+			#age = 16
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = no
+			health = 5
+			random_traits = no
+			historical = yes
+		}
+		new_character = {
+			#Education & other basic stuff
+			add_character_modifier = {
+				name = VIET_notorious_bandit
+				duration = -1
+			}
+			#set_character_flag = ai_flag_refuse_concubinage
+			#set_character_flag = ai_flag_refuse_marriage
+			#set_character_flag = no_court_invites
+			#Flavor
+			random_list = {
+				250 = { } #Nothing
+				100 = { add_scarred_tiered_effect = yes }
+				20 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+				20 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_handed
+				}
+				20 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_legged
+				}
+				5 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_legged
+					add_trait = one_handed
+				}
+				5 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_legged
+					add_trait = one_eyed
+				}
+				5 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+					add_trait = one_handed
+				}
+			}
+			random_list = {
+				40 = { } 
+				20 = { add_trait = robust }
+				20 = { add_trait = sturdy }
+				20 = { add_trait = strong }
+			}
+			random_list = {
+				60 = { add_trait = shrewd }
+				20 = { add_trait = quick }
+				20 = { add_trait = genius }
+			}
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}			
+			#if = {
+			#	limit = { has_dlc = "Way of Life" }
+			#	random_list = {
+			#		10 = { add_trait = seducer }
+			#		10 = { add_trait = duelist }
+			#		10 = { add_trait = impaler }
+			#		10 = { add_trait = schemer }
+			#		10 = { add_trait = strategist }
+			#		20 = {}
+			#	}
+			#}
+			#Personality Archetypes
+			add_trait = cruel
+			add_trait = lustful
+			add_trait = brave
+			random_list = {
+				20 = { # Suave and cunning gentleman
+					set_character_flag = VIET_vasha_suave
+					change_diplomacy = 3
+					change_intrigue = 2
+					add_trait = gregarious
+					add_trait = erudite
+					add_trait = proud
+					add_trait = fair
+					add_trait = scholar
+				}
+				20 = { # Rowdy fun-lover
+					set_character_flag = VIET_vasha_partier
+					add_trait = arbitrary
+					add_trait = gluttonous
+					add_trait = envious
+					add_trait = hedonist
+				}
+				20 = { # Inhumane and immoral
+					set_character_flag = VIET_vasha_asshole
+					change_diplomacy = -5
+					change_martial = 3
+					add_trait = impaler
+					add_trait = greedy
+					add_trait = arbitrary
+					add_trait = wroth
+				}
+				20 = { # All business
+					set_character_flag = VIET_vasha_smuggler
+					change_stewardship = 3
+					add_trait = administrator
+					add_trait = greedy
+					add_trait = cynical
+					add_trait = patient
+				}
+			}
+		}
+		
+		custom_tooltip = { text = VIET_hire_vasha_choice }
+	}
+}
+
+
+# Courtier boasts about supposed conquests of virgins
+character_event = {
+	id = VIETmisc.8212
+	desc = VIETmisc.8212.desc
+	picture = GFX_evt_maiden
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#is_virgin_trigger = yes
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_courtier = {
+			is_adult = yes
+			is_female = no
+			is_virgin_trigger = no
+			NOT = { trait = incapable }
+			OR = {
+				trait = lustful
+				trait = proud
+				trait = hedonist
+				trait = seducer
+				trait = gregarious
+			}			
+			is_married = no
+			has_lover = no
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				is_female = no
+				is_virgin_trigger = no
+				NOT = { trait = incapable }
+				OR = {
+					trait = lustful
+					trait = proud
+					trait = hedonist
+					trait = seducer
+					trait = gregarious
+				}			
+				is_married = no
+				has_lover = no
+			}
+			save_event_target_as = target_VIET_claiming_to_be_womanizer
+		}
+	}
+
+	option = { #Punished in the afterlife!
+		name = VIETmisc.8212.a
+		trigger = {
+			trait = zealous
+		}
+		tooltip_info = zealous
+		piety = 5
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = VIET_opinion_publically_chastised_me
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_shameless_rake
+				who = ROOT
+				years = 3
+			}
+		}		
+	}
+
+	option = { #Amateur
+		name = VIETmisc.8212.b
+		trigger = {
+			trait = seducer
+			is_female = no
+			NOT = { trait = homosexual }
+		}
+		tooltip_info = seducer
+		prestige = 5
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = VIET_opinion_condenscending_attitude
+				who = ROOT
+				years = 1
+			}
+			#reverse_opinion = {
+			#	modifier = VIET_opinion_shameless_rake
+			#	who = ROOT
+			#	years = 3
+			#}
+		}		
+	}
+
+	option = { #Agree
+		name = VIETmisc.8212.c
+		trigger = {
+			OR = {
+				AND = {
+					is_female = no
+					NOT = { trait = homosexual }				
+				}
+				AND = {
+					is_female = yes
+					trait = homosexual
+				}
+			}
+			is_virgin_trigger = no
+		}
+		#tooltip_info = seducer
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = VIET_opinion_condenscending_attitude
+				who = ROOT
+				years = 1
+			}
+			#reverse_opinion = {
+			#	modifier = VIET_opinion_shameless_rake
+			#	who = ROOT
+			#	years = 3
+			#}
+		}		
+	}
+
+	option = { #Don't believe him
+		name = VIETmisc.8212.d
+		#trigger = {
+		#	OR = {
+		#		AND = {
+		#			is_female = no
+		#			NOT = { trait = homosexual }				
+		#		}
+		#		AND = {
+		#			is_female = yes
+		#			trait = homosexual
+		#		}
+		#	}
+		#	is_virgin_trigger = no
+		#}
+		#tooltip_info = seducer
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = VIET_opinion_condenscending_attitude
+				who = ROOT
+				years = 1
+			}
+			#reverse_opinion = {
+			#	modifier = VIET_opinion_shameless_rake
+			#	who = ROOT
+			#	years = 3
+			#}
+		}		
+	}
+
+	option = { #Despicable attitude
+		name = VIETmisc.8212.e
+		#trigger = {
+		#	OR = {
+		#		AND = {
+		#			is_female = no
+		#			NOT = { trait = homosexual }				
+		#		}
+		#		AND = {
+		#			is_female = yes
+		#			trait = homosexual
+		#		}
+		#	}
+		#	is_virgin_trigger = no
+		#}
+		#tooltip_info = seducer
+		add_character_modifier = {
+			name = VIET_respects_women
+			duration = 365
+		}
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = VIET_opinion_publically_chastised_me
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_shameless_rake
+				who = ROOT
+				years = 3
+			}
+		}		
+	}
+}
+
+
+# Courtier is lacking in sexual experience
+character_event = {
+	id = VIETmisc.8213
+	desc = VIETmisc.8213.desc
+	picture = GFX_evt_brothel
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#is_virgin_trigger = yes
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_courtier = {
+			is_adult = yes
+			is_female = no
+			is_virgin_trigger = yes
+			NOT = { trait = incapable }
+			NOT = { trait = celibate }
+			NOT = { trait = eunuch }
+			NOT = { trait = homosexual }
+			#No close relatives unless incest is okay
+			#NOT = { is_consort = ROOT }
+			#NOT = { is_close_relative = ROOT }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				is_female = no
+				is_virgin_trigger = yes
+				NOT = { trait = incapable }
+				NOT = { trait = celibate }
+				NOT = { trait = eunuch }
+				NOT = { trait = homosexual }
+				#No close relatives unless incest is okay
+				#NOT = { is_consort = ROOT }
+				#NOT = { is_close_relative = ROOT }
+			}
+			save_event_target_as = target_VIET_inexperienced_man
+		}
+	}
+
+	option = { #What a loser
+		name = VIETmisc.8213.a
+		if = {
+			limit = {
+				trait = kind
+			}
+			random = {
+				remove_trait = kind
+				chance = 50
+			}
+		}
+		if = {
+			limit = {
+				trait = chaste
+			}
+			random = {
+				remove_trait = chaste
+				chance = 25
+			}
+		}
+		prestige = 5
+		event_target:target_VIET_inexperienced_man = {
+			add_character_modifier = {
+				name = VIET_not_enough_sex_rumors
+				duration = 730
+			}
+			random = {
+				add_trait = depressed
+				chance = 50
+			}
+			opinion = {
+				modifier = opinion_shamed_me
+				who = ROOT
+				years = 1
+			}
+		}		
+	}
+
+	option = { #Go to the whorehouse
+		name = VIETmisc.8213.b
+		if = {
+			limit = {
+				trait = chaste
+			}
+			random = {
+				remove_trait = chaste
+				chance = 50
+			}
+		}
+		add_character_modifier = {
+			name = advice_giver
+			duration = 365
+		}
+		random_list = {
+			50 = { #Accepts advice
+				event_target:target_VIET_inexperienced_man = {
+					add_trait = lustful
+					wealth = -10
+					prestige = 10
+					opinion = {
+						modifier = VIET_opinion_reasonable_advice
+						who = ROOT
+						years = 1
+					}
+				}
+				custom_tooltip = { text = VIET_virgin_accepts_advice }
+			}
+			50 = { #Doesn't accept advice
+				event_target:target_VIET_inexperienced_man = {
+					add_character_modifier = {
+						name = VIET_not_enough_sex_rumors
+						duration = 730
+					}
+					random = {
+						add_trait = depressed
+						chance = 50
+					}
+					opinion = {
+						modifier = opinion_shamed_me
+						who = ROOT
+						years = 1
+					}
+				}
+				custom_tooltip = { text = VIET_virgin_rejects_advice }			
+			}
+		}		
+	}
+
+	option = { #Don't worry about others
+		name = VIETmisc.8213.c
+		random_list = {
+			60 = {}
+			20 = { add_trait = kind }
+			10 = { add_trait = patient }
+			10 = { add_trait = humble }
+		}
+		add_character_modifier = {
+			name = advice_giver
+			duration = 365
+		}
+		event_target:target_VIET_inexperienced_man = {
+			add_character_modifier = {
+				name = VIET_not_enough_sex_rumors
+				duration = 730
+			}
+			opinion = {
+				modifier = opinion_comforted_me
+				who = ROOT
+				years = 1
+			}
+			random = {
+				add_friend = ROOT
+				chance = 33
+			}
+		}		
+	}
+
+	option = { # Teach a thing or two - male option
+		name = VIETmisc.8213.d
+		trigger = {
+			is_female = no
+			is_virgin_trigger = no
+			NOT = { trait = eunuch }
+		}
+		add_character_modifier = {
+			name = advice_giver
+			duration = 365
+		}
+		event_target:target_VIET_inexperienced_man = {
+			opinion = {
+				modifier = opinion_helped_me
+				who = ROOT
+				years = 1
+			}
+			random = {
+				add_friend = ROOT
+				chance = 33
+			}
+			random = {
+				add_trait = lustful
+				chance = 20
+			}
+		}	
+	}
+
+	option = { # Teach a thing or two - female option
+		name = VIETmisc.8213.e
+		trigger = {
+			is_female = yes
+			NOT = { trait = homosexual }
+			is_virgin_trigger = no
+			is_unattractive_trigger = no
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.05
+				has_lover = yes
+			}
+			modifier = {
+				factor = 0.05
+				is_married = yes
+			}
+			modifier = {
+				factor = 0.1
+				event_target:target_VIET_inexperienced_man = {
+					is_unattractive_trigger = yes
+				}
+			}
+		}
+		event_target:target_VIET_inexperienced_man = {
+			add_lover = ROOT
+			random = {
+				add_trait = lustful
+				chance = 20
+			}
+		}		
+	}
+}
+
+####################################################################
+# BROCCOLI
+####################################################################
+
+
+# Exotic broccoli introduced to character
+character_event = {
+	id = VIETmisc.8214
+	desc = VIETmisc.8214.desc
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		capital_scope = {
+			NOR = {
+				region = world_europe_south
+				region = world_europe_south_east
+				region = world_africa_north
+				region = world_asia_minor
+			}
+			NOR = {
+				culture_group = latin
+				culture_group = iberian
+				culture_group = byzantine
+			}
+		}
+		NOR = {
+			culture_group = latin
+			culture_group = iberian
+			culture_group = byzantine
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}
+
+	option = { # Sample a bit
+		name = VIETmisc.8214.a
+		add_character_modifier = {
+			name = VIET_tried_something_new
+			duration = 180
+		}
+	}
+
+	option = { # Keep some around
+		name = VIETmisc.8214.b
+		wealth = -5
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 365
+		}
+	}
+}
+
+# Someone doesn't like broccoli
+character_event = {
+	id = VIETmisc.8215
+	desc = VIETmisc.8215.desc
+	picture = GFX_evt_feast_hf
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture_group = latin
+			culture_group = iberian
+			culture_group = byzantine
+			capital_scope = {
+				OR = {
+					region = world_europe_south
+					region = world_europe_south_east
+					region = world_africa_north
+					region = world_asia_minor
+					culture_group = latin
+					culture_group = iberian
+					culture_group = byzantine
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}
+
+	option = { # I like it
+		name = VIETmisc.8215.a
+		prestige = 3
+	}
+	option = { # Who am I to judge?
+		name = VIETmisc.8215.b
+		random = {
+			add_trait = humble
+			chance = 20
+		}
+	}
+	option = { # Broccoli is terrible
+		name = VIETmisc.8215.c
+		random = {
+			add_trait = proud
+			chance = 20
+		}
+	}
+}
+
+# Broccoli vs cauliflower
+character_event = {
+	id = VIETmisc.8216
+	desc = VIETmisc.8216.desc
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture_group = latin
+			culture_group = iberian
+			culture_group = byzantine
+			capital_scope = {
+				OR = {
+					region = world_europe_south
+					region = world_europe_south_east
+					region = world_africa_north
+					region = world_asia_minor
+					culture_group = latin
+					culture_group = iberian
+					culture_group = byzantine
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+
+	option = { # Broccoli
+		name = VIETmisc.8216.a
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 180
+		}
+	}
+	option = { # Cauliflower
+		name = VIETmisc.8216.b
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 180
+		}
+	}
+	option = { # Ignore and move on
+		name = VIETmisc.8216.c
+		random_list = {
+			70 = { }
+			10 = { add_trait = humble }
+			10 = { add_trait = shy }
+			10 = { add_trait = slothful }
+		}
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 180
+		}
+	}
+	option = { # Both!
+		name = VIETmisc.8216.d
+		random = {
+			add_trait = gluttonous
+			chance = 25
+		}
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 180
+		}
 	}
 }

@@ -85,3 +85,9 @@ VIET_opinion_insulted_me = {
 VIET_opinion_gardening_discussions = {
 	opinion = 20
 }
+VIET_opinion_shameless_rake = {
+	opinion = -25
+}
+VIET_opinion_condenscending_attitude = {
+	opinion = -15
+}

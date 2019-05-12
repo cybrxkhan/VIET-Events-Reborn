@@ -780,3 +780,45 @@ VIET_province_musk_deer = {
 	tradevalue = 4
 	icon = 123
 }
+VIET_not_enough_sex_rumors = {
+	monthly_character_prestige = -0.1
+	general_opinion = -10
+	sex_appeal_opinion = -5
+	icon = 40
+}
+VIET_dishonored_deflowered_maiden = {
+	diplomacy = -2
+	general_opinion = -10
+	sex_appeal_opinion = -10
+	icon = 40
+}
+VIET_captured_notorious_bandit = {
+	global_revolt_risk = -0.03
+	general_opinion = 10
+	monthly_character_prestige = 0.1
+	icon = 117
+}
+VIET_hired_notorious_bandit = {
+	martial = 1
+	intrigue = 2
+	global_revolt_risk = 0.05
+	general_opinion = -25
+	icon = 24
+}
+VIET_notorious_bandit = {
+	martial = 3
+	intrigue = 3
+	general_opinion = -40
+	combat_rating = 25
+	icon = 123
+}
+VIET_respects_women = {
+	female_opinion = 10
+	icon = 18
+}
+VIET_defiler_of_maidens = {
+	fertility = 0.03
+	female_opinion = -10
+	monthly_character_piety = -0.1
+	icon = 18
+}

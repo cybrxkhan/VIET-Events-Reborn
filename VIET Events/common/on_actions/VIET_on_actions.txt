@@ -113,6 +113,10 @@ on_yearly_pulse = {
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2021		# How should heretic be purified?
 			100 = VIETmisc.2023		# Vassal isn't being charitable enough
+			#Furniture
+			100 = VIETmisc.2235		# Fell from chair
+			100 = VIETmisc.2236		# Gum under the table
+			100 = VIETmisc.2237		# Messy desk
 			#Monogatari references
 			100 = VIETmisc.2244		# Courtier makes rude PMS comment
 			#Urine
@@ -202,6 +206,9 @@ on_yearly_pulse = {
 			100 = VIETmisc.8193 # Using rose water to wash hands in medieval Europe
 			100 = VIETmisc.8194 # Skin ointment made from rose water
 			100 = VIETmisc.8202 # Rose tea
+			#Broccoli
+			100 = VIETmisc.8215 # Someone doesn't like broccoli
+			100 = VIETmisc.8216 # Broccoli vs cauliflower
 		}
 		
 	}
@@ -285,6 +292,8 @@ on_bi_yearly_pulse = {
 			#Eggs
 			100 = VIETmisc.2017		# House is egged
 			100 = VIETmisc.2018		# Bought a lot of pickled eggs
+			#Furniture
+			100 = VIETmisc.2234		# New wardrobe
 			#Urine
 			100 = VIETmisc.2248		# Urine is strange color
 			100 = VIETmisc.2252		# Passing by a peasant who is urinating
@@ -368,6 +377,12 @@ on_bi_yearly_pulse = {
 			#Deer musk
 			100 = VIETmisc.8206 # Buy some musk deer products?
 			100 = VIETmisc.8208 # Hunters illegally hunting musk deer caught
+			#Virginity
+			100 = VIETmisc.8209 # Man worries about not having enough experience
+			100 = VIETmisc.8212 # Courtier boasts about supposed conquests of virgins
+			100 = VIETmisc.8213 # Courtier is lacking in sexual experience
+			#Broccoli
+			100 = VIETmisc.8214 # Exotic broccoli introduced to character
 		
 		}
 		
@@ -497,6 +512,9 @@ on_five_year_pulse = {
 			100 = VIETmisc.8197 # Admirer gives a letter with a rose
 			100 = VIETmisc.8200 # Stumble on two servants in love
 			100 = VIETmisc.8204 # Meet an old villager admiring a flower
+			#Virginity
+			100 = VIETmisc.8210 # Young noblewoman loses virtue to rakish scoundrel
+			100 = VIETmisc.8211 # Vasha from Skyrim - capture notorious bandit wanted for murder, theft, and rape
 		}
 		
 		#ALL VIET artifact events should go here!
