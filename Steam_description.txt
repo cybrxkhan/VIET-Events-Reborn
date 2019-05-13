@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.4 "Heraclius" (Released 5/4/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.5 "Broccoli" (Released 5/12/19, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,28 +38,20 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.4 "Heraclius"
+Version 2.0.5 "Broccoli"
 
-[I]Heraclius was Roman Emperor from 610 to 641 CE, and ruled during an important, transitionary period in the history of the Empire. During his reign, the Romans finally defeated their ancient nemesis, the Persians, only to lose many of their gains to the rising Arabian Caliphate. He was also responsible for reorganizing the Empire and his reforms, such as changing the official language of the Empire from Latin to Greek.[/I]
+[I]Remember to eat your veggies![/I]
 
 [LIST]
-[*]Added 35 Spices themed events
-[*]Added 13 Skyrim dialogue inspired events
-[*]Added 13 Rose themed events
-[*]Added 3 Deer Musk themed events
-[*]Added new artifacts: Mythical Creature’s Bone (Dinosaur Bone)
-[*]Added a few more event pics
-[*]Re-added events from old VIET: 6 Curry, 9 Rocks and Minerals, 10 Urine, 5 Monogatari references
-[*]All VIET clutter artifacts can no longer be stacked
-[*]Some culture/religion/region-specific events will no longer fire in random worlds for obvious reasons
-[*]Ancient artifacts now have an “unknown” creation date, for more immersion
-[*]Dance with the Dead event chain can now happen to Latin, Iberian, and Celtic culture groups, or those in the Western European region, as well
-[*]Nutcracker artifact no longer limited to Christians
-[*]Pistachio event can now also happen in Asia Minor
-[*]Readjusted the likelihood of getting events and event chains, particularly the rarer ones on the five and ten year pulses
-[*]Incestuous runaways event will no longer fire for reformed pagans that have the divine marriage doctrine
-[*]Children under 13, as well as Celibate, Chaste, and Eunuch characters, can no longer respond a little too positively to the good whores province event
-[*]Fixed a couple childhood events giving Conclave childhood traits for those who don’t own the Conclave DLC
-[*]Fixed VIETnam.85 not triggering
+[*]Added 3 broccoli flavored events
+[*]Added 6 virginity related events
+[*]Added a couple of Tibetan event pictures
+[*]Re-added the following events from old VIET: 4 furniture events
+[*]Increased Heartless Villain opinion malus
+[*]Rose tea event now gives a “Rose Tea” modifier (to be consistent with other herbal tea events)
+[*]Poetic Guardsman modifier now gives a slight bonus to combat skill
+[*]Fixed Musk Deer product event not properly referencing regions
+[*]Fixed creepy Rose letter event triggering too often
+[*]Fixed Auriel’s Ascension event from triggering when province is different religion than ruler
 [/LIST]
 

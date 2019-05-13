@@ -1,6 +1,6 @@
 # VIET Events Reborn
 
-## Latest Version: 2.0.4 "Heraclius" (Released 5/4/19)
+## Latest Version: 2.0.5 "Broccoli" (Released 5/12/19)
 
 VIET Events Reborn is the reboot of the Events module from the Vanilla Events, Immersion, and Traits mod I created over six years ago before I retired three years back. It includes many new flavor events that add immersion and a diversity of experiences to your playthroughs.
 
