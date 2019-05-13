@@ -22464,7 +22464,7 @@ character_event = {
 				duration = 1519
 			}
 			opinion = {
-				modifier = VIET_opinion_condenscending_attitude
+				modifier = agrees_with_me
 				who = ROOT
 				years = 1
 			}
