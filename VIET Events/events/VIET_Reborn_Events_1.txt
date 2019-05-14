@@ -20704,12 +20704,23 @@ character_event = {
 	id = VIETmisc.8197
 	
 	hide_window = yes
+	
+	is_triggered_only = yes
 
 	ai = no	
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	only_playable = yes
+	
+	#trigger = {
+	#	NOT = {
+	#		has_game_rule = {
+	#			name = VIET_events_rules
+	#			value = serious
+	#		}
+	#	}	
+	#}
 	
 	weight_multiplier = {
 		days = 1	
