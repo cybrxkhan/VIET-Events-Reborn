@@ -1,4 +1,4 @@
-[h1]Version actuelle : 2.0.4 "Heraclius"  (Sortie le 04/05/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[h1]Version actuelle : 2.0.5 "Broccoli"  (Sortie le 12/05/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
 [b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
 Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]Github[/url].[/b]
 
@@ -35,27 +35,19 @@ Veuillez consulter le fil de discussion du forum pour la liste complète des cr�
 
 [h1]Changelog le plus récent[/h1]
 
-Version 2.0.4 "Heraclius"
+Version 2.0.5 "Broccoli"
 
-[I]Heraclius fut empereur romain de 610 à 641 de notre ère, et régna pendant une période importante et transitoire de l'histoire de l'Empire. Pendant son règne, les Romains ont finalement vaincu leur ancien ennemi juré, les Perses, pour perdre beaucoup de leurs gains au profit du califat arabe. Il a également été responsable de la réorganisation de l'Empire et de ses réformes, telles que le changement de la langue officielle de l'Empire du latin au grec.[/I]
+[I]Rappelez-vous de manger vos légumes![/I]
 
 [LIST]
-[*]Ajoute 35 events sur le thème des épices
-[*]Ajoute 13 events inspirés des dialogues de Skyrim
-[*]Ajoute 13 events sur le thème de la rose
-[*]Ajoute 3 events sur le thème des cerfs porte-musc
-[*]Ajoute de nouveaux artefacts : Os de créature mythique (dinosaure)
-[*]Ajoute de nouvelles images d'events
-[*]Ajoute de nouveaux événements de l'ancien VIET : 6 Curry, 9 Roches et minéraux, 10 Urine, 5 Références Monogatari
-[*]Tous les artefacts du VIET ne peuvent plus être empilés.
-[*]Certains événements propres à une culture, à une religion ou à une région ne se dérouleront plus dans des mondes aléatoires pour des raisons évidentes.
-[*]Les artefacts anciens ont maintenant une date de création "inconnue", pour plus d'immersion.
-[*]La chaîne de l'événement Danse avec la Mort peut maintenant se produire dans les groupes de culture latine, ibérique et celtique, ou ceux de la région de l'Europe de l'Ouest, ainsi que dans la région de l'Europe de l'Ouest.
-[*]L'artefact Casse-Noisette n'est plus limité aux chrétiens
-[*]L'événement de la pistache peut maintenant aussi avoir lieu en Asie Mineure.
-[*]Réajuste la probabilité d'obtenir des événements et des chaînes d'événements, en particulier les plus rares sur les impulsions de cinq et dix ans.
-[*]Les events de fugueurs incestueux ne se produiront plus pour les païens réformés qui ont la doctrine du mariage divin.
-[*]Les enfants de moins de 13 ans, ainsi que les personnages célibataires, chastes et eunuques, ne peuvent plus répondre un peu trop positivement à l'événement de la province des bonnes prostituées.
-[*]Corrige quelques événements d'enfance donnant des traits d'enfance Conclave pour ceux qui ne possèdent pas le Conclave DLC.
-[*]Corrige le lancement de l'event VIETnam.85
+[*]Ajoute 3 événements liés aux broccolis
+[*]Ajoute 6 événements liés à la virginité
+[*]Ajoute un couple d'images d'événements du Tibet
+[*]Ajoute des événements de l'ancien VIET : les fournitures
+[*]Augmente le malus d'opinion du Vilain Sans Coeur
+[*]L'événement du thé à la rose donne un modificateur (pour être cohérent avec les autres événements de thé)
+[*]Le modificateur de garde poète donne un léger bonus de combat
+[*]Corrige l'événement de production du musc de cerf qui ne s'appliquait pas aux bonnes régions
+[*]Corrige la lettre de la Rose qui arrivait trop souvent
+[*]Corrige l'événement de l'Ascension d'Auriel qui pouvait arriver dans une province de religion différente de celle de son souverain
 [/LIST]
