@@ -487,7 +487,7 @@ VIETmisc.8128.desc;The nearby land sometimes produces some fascinating finds. Wh
 VIETmisc.8128.a;Yes, let's put it up somewhere!;Oui, mettons ça quelque part !;;;;;;;;;;;;x
 VIETmisc.8128.b;I will donate it to some local scholars for study.;Je le donnerai à des érudits de la région pour qu'ils l'étudient.;;;;;;;;;;;;x
 VIETmisc.8128.c;It could be filled with ancient, evil curses! Destroy it!;Il pourrait être rempli d'anciennes malédictions maléfiques ! Détruisez-le !;;;;;;;;;;;;x
-VIETmisc.8129.desc;You come across a farmer who has a scarecrow with a most curious appearance: it is an ancient terracotta sculpture he found buried in the ground a year or two ago. The clay figurine depicts an African person, with an elongated and stylized face, wearing jewels and ornaments. It is smooth and beautifully made, and it would be a shame to let it remain a scarecrow…;Vous rencontrez un paysan qui a un épouvantail avec un aspect des plus curieux : il s'agit d'une ancienne sculpture en terre cuite qu'il a trouvée ensevelie il y a un an ou deux. La figurine en argile représente un Africain au visage allongé et stylisé, portant des bijoux et des ornements. Elle est lisse et joliment faite, et il serait dommage de la laisser rester un épouvantail…;;;;;;;;;;x;x
+VIETmisc.8129.desc;You come across a farmer who has a scarecrow with a most curious appearance: it is an ancient terracotta sculpture he found buried in the ground a year or two ago. The clay figurine depicts an African person, with an elongated and stylized face, wearing jewels and ornaments. It is smooth and beautifully made, and it would be a shame to let it remain a scarecrow...;Vous rencontrez un paysan qui a un épouvantail avec un aspect des plus curieux : il s'agit d'une ancienne sculpture en terre cuite qu'il a trouvée ensevelie il y a un an ou deux. La figurine en argile représente un Africain au visage allongé et stylisé, portant des bijoux et des ornements. Elle est lisse et joliment faite, et il serait dommage de la laisser rester un épouvantail...;;;;;;;;;;x;x
 VIETmisc.8129.a;The farmer looks happy with it;Le paysan a l'air content;;;;;;;;;;;;x
 VIETmisc.8129.b;Buy it from the farmer;Achetez-la au paysan;;;;;;;;;;;;x
 VIETmisc.8129.c;Force the farmer to hand it over;Forcer le paysan à vous la remettre;;;;;;;;;;;;x
@@ -513,24 +513,24 @@ VIETmisc.8134.a;I woke up, feeling relaxed.;Je me suis réveillé, détendu.;;;;;;;
 VIETmisc.8135.desc;As part of your official duties, you are meeting a group of scholars from a particular part of your realm. They take you and your entourage on a trip to a nearby ruins. The leader among them begins to explain the history of these ruins and who made them, but this stuffy academic has a rather dry and boring manner of speaking, and you find yourself falling asleep.;Dans le cadre de vos fonctions officielles, vous rencontrez un groupe d'érudits appartenant à une partie particulière de votre royaume. Ils vous emmènent avec votre entourage dans des ruines voisines. Le responsable parmi eux commence à expliquer l'histoire de ces ruines et de leurs auteurs, mais cet universitaire a une manière de parler plutôt sèche et ennuyeuse, et vous vous endormez.;;;;;;;;;;x;x
 VIETmisc.8135.a;I'll take a nap - I'm the [Root.GetTitle], they won't protest!;Je vais faire une sieste - je suis le [Root.GetTitle], ils ne protesteront pas !;;;;;;;;;;;;x
 VIETmisc.8135.b;I'll pretend to listen while admiring the scenery.;Je ferai semblant d'écouter en admirant le paysage.;;;;;;;;;;;;x
-VIETmisc.8135.c;"Actually, according to the treatise written by…";"En fait, selon le traité écrit par…";;;;;;;;;;;;x
+VIETmisc.8135.c;"Actually, according to the treatise written by...";"En fait, selon le traité écrit par...";;;;;;;;;;;;x
 VIET_scholar_lecture_correction;\n\nYou correct the scholars and impress them with your knowledge.;\n\nVous corrigez les savants et les impressionner avec vos connaissances.;;;;;;;;;;x;x
 VIETmisc.8136.desc;An ancient marble statue of a man was discovered buried in the wilderness. According to various scholars' assertions, it was perhaps made by ancient Romans or Hellenes many centuries ago. Regardless, perhaps you would like to keep this statue for yourself?;Une ancienne statue en marbre d'un homme a été découverte ensevelie dans le désert. Selon les affirmations de divers érudits, elle aurait été fait il y a plusieurs siècles par les anciens Romains ou Grecs. Quoi qu'il en soit, vous voudriez peut-être garder cette statue pour vous-même ?;;;;;;;;;;x;x
-VIETmisc.8136.a;Those chiseled muscles… I like them….;Ces muscles ciselés… je les aime…;;;;;;;;;;;;x
+VIETmisc.8136.a;Those chiseled muscles... I like them....;Ces muscles ciselés... je les aime...;;;;;;;;;;;;x
 VIETmisc.8136.b;I am not interested in keeping this false idol!;Garder cette fausse idole ne m'intéresse pas !;;;;;;;;;;;;x
 VIETmisc.8136.c;It'd be a fitting decoration in one of my rooms.;Ce serait une décoration appropriée dans l'une de mes chambres.;;;;;;;;;;;;x
 VIETmisc.8136.d;I want to spend some time studying this statue.;Je veux passer du temps à étudier cette statue.;;;;;;;;;;;;x
-VIETmisc.8137.desc;The elders are telling me stories about the foreign peoples who came to India many centuries ago, in ancient times. The ones that interest me the most are the…;Les anciens me racontent des histoires sur les peuples étrangers qui sont venus d'Inde il y a plusieurs siècles, dans les temps anciens. Ceux qui m'intéressent le plus sont les…;;;;;;;;;;x;x
+VIETmisc.8137.desc;The elders are telling me stories about the foreign peoples who came to India many centuries ago, in ancient times. The ones that interest me the most are the...;Les anciens me racontent des histoires sur les peuples étrangers qui sont venus d'Inde il y a plusieurs siècles, dans les temps anciens. Ceux qui m'intéressent le plus sont les...;;;;;;;;;;x;x
 VIETmisc.8137.a;Crafty, clever Yavanas, or Greeks;Yavanas rusés et malins, ou grecs;;;;;;;;;;;;x
 VIETmisc.8137.b;Ruthless warriors and raiders, the Hunas;Guerriers et pillards impitoyables, les Hunas;;;;;;;;;;;;x
 VIETmisc.8137.c;Noble horsemen, the Kambojas;Nobles cavaliers, les Kambojas;;;;;;;;;;;;x
 VIETmisc.8137.d;Mighty and prosperous Kushanas;Kushanas puissant et prospère;;;;;;;;;;;;x
-VIETmisc.8138.desc;The elders are telling me stories about the barbarians who interacted with the ancient Romans and Greeks many centuries ago. The ones that interest me the most are the…;Les anciens me racontent des histoires sur les barbares qui ont eu des contacts avec les anciens Romains et Grecs il y a plusieurs siècles. Ceux qui m'intéressent le plus sont les…;;;;;;;;;;x;x
+VIETmisc.8138.desc;The elders are telling me stories about the barbarians who interacted with the ancient Romans and Greeks many centuries ago. The ones that interest me the most are the...;Les anciens me racontent des histoires sur les barbares qui ont eu des contacts avec les anciens Romains et Grecs il y a plusieurs siècles. Ceux qui m'intéressent le plus sont les...;;;;;;;;;;x;x
 VIETmisc.8138.a;Savage yet noble Gauls;Gaulois sauvages mais nobles;;;;;;;;;;;;x
 VIETmisc.8138.b;Violent yet mighty Goths;Goths violents mais puissants;;;;;;;;;;;;x
 VIETmisc.8138.c;Clever and wealthy Aethiopians;Éthiopiens intelligents et riches;;;;;;;;;;;;x
 VIETmisc.8138.d;Grand and decadent Persians;Perses grands et décadents;;;;;;;;;;;;x
-VIETmisc.8139.desc;The elders are telling me stories about the foreigners who interacted with the ancient Persians many centuries ago. The ones that interest me the most are the…;Les anciens me racontent des histoires sur les étrangers qui ont interagi avec les anciens Perses il y a plusieurs siècles. Ceux qui m'intéressent le plus sont les…;;;;;;;;;;x;x
+VIETmisc.8139.desc;The elders are telling me stories about the foreigners who interacted with the ancient Persians many centuries ago. The ones that interest me the most are the...;Les anciens me racontent des histoires sur les étrangers qui ont interagi avec les anciens Perses il y a plusieurs siècles. Ceux qui m'intéressent le plus sont les...;;;;;;;;;;x;x
 VIETmisc.8139.a;Romans, worthy opponents and rivals;Romains, dignes adversaires et rivaux;;;;;;;;;;;;x
 VIETmisc.8139.b;Sakas, warlike horse lords;Sakas, seigneurs guerriers;;;;;;;;;;;;x
 VIETmisc.8139.c;Greeks, cunning and crafty;Grecs, rusés et malins;;;;;;;;;;;;x
@@ -545,7 +545,7 @@ VIETmisc.8141.a;Excellent, excellent!;Excellent, excellent !;;;;;;;;;;;;x
 VIETmisc.8141.b;Split some of it with the soldiers - that's only fair.;En diviser une partie avec les soldats - ce n'est que justice.;;;;;;;;;;;;x
 VIETmisc.8141.c;Let the soldiers have it all, for they found it.;Laissez les soldats avoir tout, car ils l'ont trouvé.;;;;;;;;;;;;x
 VIETmisc.8142.desc;I am sightseeing a part of my realm today. Having journeyed far, I and several of my companions are weary and tired. We spot some ruins in the distance. They are decrepit, but enough for us to rest in. I make myself comfortable, leaning a smooth, carved stone, and as I fall asleep I mutter to myself:;Je visite une partie de mon royaume aujourd'hui. Après avoir voyagé loin, plusieurs de mes compagnons et moi sommes fatigués et épuisés. Nous repérons des ruines au loin. Ils sont décrépis, mais suffisent pour nous reposer. Je m'installe confortablement en appuyant une pierre lisse et taillée et, lorsque je m'endors, je murmure tout seul :;;;;;;;;;;x;x
-VIETmisc.8142.a;What an impressive sight this place must have been…;Quel spectacle impressionnant cet endroit a dû être…;;;;;;;;;;;;x
+VIETmisc.8142.a;What an impressive sight this place must have been...;Quel spectacle impressionnant cet endroit a dû être...;;;;;;;;;;;;x
 VIETmisc.8143.title;It Was Beautiful;C'était beau;;;;;;;;;;x;x
 VIETmisc.8143.desc;A man I do not recognize approaches me. "It was an impressive sight," he tells me with authority. "It was, many centuries ago, when it was my home."\n\nI ask him, "You lived here?"\n\nSuddenly, the landscape before me changes! The ruins disappear, and instead I see a magnificent building in a style I do not recognize, surrounded by a spectacular landscape. The man gestures, and answers, "I did, and it was beautiful."\n\nI admire the scenery for some time, before I gradually wake up and find myself back in the ruins. The man from my dream is nowhere to be seen.;Un homme que je ne reconnais pas m'approche. "C'était un spectacle impressionnant", me dit-il avec autorité. "C'était il y a plusieurs siècles, quand j'étais chez moi."\n\nJe lui demande: "Avez-vous habité ici ?"\n\nSoudain, le paysage devant moi change ! Les ruines disparaissent et je vois à la place un magnifique bâtiment d'un style que je ne reconnais pas, entouré d'un paysage spectaculaire. L'homme gesticule et répond : "Oui, et c'était beau."\n\n J'admire le paysage pendant un certain temps, avant de me réveiller petit à petit et de me retrouver dans les ruines. L'homme de mon rêve est introuvable.;;;;;;;;;;x;x
 VIETmisc.8143.a;And what a dream that was!;Et quel rêve c'était !;;;;;;;;;;;;x
@@ -553,9 +553,9 @@ VIETmisc.8144.desc;"By [Root.Religion.GetRandomGodName]! A handsome man in our t
 VIETmisc.8144.a;She's obviously saying that to get tips. Ignore her.;Elle dit évidemment cela uniquement pour obtenir des infos. Ignorez-la.;;;;;;;;;;;;x
 VIETmisc.8144.b;Have a friendly chat with her, but nothing inappropriate.;Ayez une conversation amicale avec elle, mais rien d'inapproprié.;;;;;;;;;;;;x
 VIETmisc.8144.c;Flirt with her, but not too seriously.;Flirtez avec elle, mais pas trop sérieusement.;;;;;;;;;;;;x
-VIETmisc.8144.d;One hour is enough for a bit of fun…;Une heure suffit pour s'amuser un peu…;;;;;;;;;;;;x
+VIETmisc.8144.d;One hour is enough for a bit of fun...;Une heure suffit pour s'amuser un peu...;;;;;;;;;;;;x
 VIETmisc.8144.e;I'm not interested in women anyways.;De toute façon, les femmes ne m'intéressent pas.;;;;;;;;;;;;x
-VIETmisc.8145.desc;I am at a small feast, hosted by a local nobleman. One of his children, a charming [Root.GetBoyGirlOpp], tries to make small talk with me, and coyly says, "It's a fine day with you around…." This [Root.GetBoyGirlOpp] is clearly inexperienced at conversing with [Root.GetHerHisOpp] betters, but it is endearing. As the two of you continue talking, I see that [Root.GetSheHeOpp] perhaps has some potential.;Je suis à un petit festin, organisé par un noble local. Un de ses enfants, un charmant [Root.GetBoyGirlOpp], tente de faire une petite conversation avec moi et dit timidement: « C'est un beau jour avec vous….» Ce [Root.GetBoyGirlOpp] est clairement inexpérimenté pour converser avec [Root.GetHerHisOpp] invités, mais c'est attachant. Alors que vous continuez à parler, je constate qu'[Root.GetSheHeOpp] a peut-être un potentiel.;;;;;;;;;;x;x
+VIETmisc.8145.desc;I am at a small feast, hosted by a local nobleman. One of his children, a charming [Root.GetBoyGirlOpp], tries to make small talk with me, and coyly says, "It's a fine day with you around...." This [Root.GetBoyGirlOpp] is clearly inexperienced at conversing with [Root.GetHerHisOpp] betters, but it is endearing. As the two of you continue talking, I see that [Root.GetSheHeOpp] perhaps has some potential.;Je suis à un petit festin, organisé par un noble local. Un de ses enfants, un charmant [Root.GetBoyGirlOpp], tente de faire une petite conversation avec moi et dit timidement: « C'est un beau jour avec vous....» Ce [Root.GetBoyGirlOpp] est clairement inexpérimenté pour converser avec [Root.GetHerHisOpp] invités, mais c'est attachant. Alors que vous continuez à parler, je constate qu'[Root.GetSheHeOpp] a peut-être un potentiel.;;;;;;;;;;x;x
 VIETmisc.8145.a;Give [Root.GetHerHim] some advice and kind words.;Donnez-lui des conseils et des mots gentils.;;;;;;;;;;;;x
 VIETmisc.8145.b;This is boring. I'll find someone else to talk to.;C'est ennuyant. Je vais trouver quelqu'un d'autre à qui parler.;;;;;;;;;;;;x
 VIETmisc.8145.c;I'll suggest to [Root.GetHerHisOpp] father that [Root.GetSheHeOpp] could join my court.;Je vais suggérer à son père qu'[Root.GetSheHeOpp] puisse rejoindre ma cour.;;;;;;;;;;;;x
@@ -620,7 +620,7 @@ VIETmisc.8157.desc;The spice merchant says his special blend of spices is like n
 VIETmisc.8157.a;I will purchase some for my cook to use!;Je vais en acheter pour mon cuisinier !;;;;;;;;;;;;x
 VIETmisc.8157.b;I will purchase a lot for my cook to use!;Je vais acheter beaucoup pour mon cuisinier !;;;;;;;;;;;;x
 VIETmisc.8157.c;It's nice, but not good enough for me.;C'est gentil, mais pas assez bon pour moi.;;;;;;;;;;;;x
-VIETmisc.8158.desc;I am eating pasta, and I realize it tastes rather bland. But what if… I added something to spice it up?\n\nAfter thinking it over, I decide to grace my pasta with a large helping of:;Je mange des pâtes, et je me rends compte que leur goût est plutôt fade. Mais que se passe-t-il si… j'ajoute quelque chose pour les pimenter ? \n\nAprès y avoir réfléchi, je décide de garnir mes pâtes d'une grande portion de :;;;;;;;;;;x;x
+VIETmisc.8158.desc;I am eating pasta, and I realize it tastes rather bland. But what if... I added something to spice it up?\n\nAfter thinking it over, I decide to grace my pasta with a large helping of:;Je mange des pâtes, et je me rends compte que leur goût est plutôt fade. Mais que se passe-t-il si... j'ajoute quelque chose pour les pimenter ? \n\nAprès y avoir réfléchi, je décide de garnir mes pâtes d'une grande portion de :;;;;;;;;;;x;x
 VIETmisc.8158.a;Basil;Basilic;;;;;;;;;;;;x
 VIETmisc.8158.b;Oregano;Origan;;;;;;;;;;;;x
 VIETmisc.8158.c;Crumbly cheese;Fromage friable;;;;;;;;;;;;x
@@ -862,52 +862,73 @@ VIETmisc.8216.a;I prefer broccoli for today's meal.;;;;;;;;;;;;;x
 VIETmisc.8216.b;I think cauliflower suits my current mood.;;;;;;;;;;;;;x
 VIETmisc.8216.c;Ignore them and move on - they'll know what is best.;;;;;;;;;;;;;x
 VIETmisc.8216.d;Why not both?;;;;;;;;;;;;;x
-VIETmisc.8217.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8217.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8218.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8218.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8217.desc;I'm dreaming that I'm at a busy port in an exotic, faraway land. People bustle around on the docks as I gaze upon the mighty ship in front of me. It looks as if it is made out of solid, hard iron and steel, not wood! It seems I am a passenger on this ship, but I do not know what my destination is. After walking through the crowd, I approach the ship's captain, and ask him where we're going. He looks at me with a surprised look, and laughs: "That is your choice, my friend. Where do you want to go? So many places to see across the world, and so little time!";;;;;;;;;;;x
+VIETmisc.8217.a;I was about to tell him when I woke up.;;;;;;;;;;;;;x
+VIETmisc.8218.desc;Another dream whisks me away to a strange land, where people dress in the most unsightly fashion, their hair is strung about like stones thrown about. Yet everyone seems to go about their daily business without interruption. I walk some distance before I come to what appears like a small tavern or establishment of some sort, and meet the person I'm supposed to meet.;;;;;;;;;;;x
+VIETmisc.8218.a;Fancy seeing you here, of all places!;;;;;;;;;;;;;x
 VIETmisc.8219.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8219.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8220.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8220.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8221.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8221.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8222.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8222.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8223.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8223.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8224.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8224.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8225.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8225.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8226.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8226.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8227.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8227.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8228.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8228.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8229.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8229.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8230.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8230.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8231.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8231.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8232.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8232.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8233.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8233.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8234.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8234.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8235.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8235.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8236.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8236.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8237.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8237.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8238.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8238.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8239.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8239.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8220.desc;We chat in an unnaturally calm manner, about this and that, as we sip a strange, paradoxical liquid from a ceramic cup. The drink is unlike anything I've had: it is both black and white in color, and both sweet and bitter in taste. Suddenly, I find myself back in my normal bed, awake. When I discuss this later with [From.GetTitledName], [From.GetSheHe] confirms [From.GetSheHe] shared the exact same dream.;;;;;;;;;;;x
+VIETmisc.8220.a;Most strange! But it wasn't a bad dream.;;;;;;;;;;;;;x
+VIETmisc.8220.b;Why did you have to appear in that dream?;;;;;;;;;;;;;x
+VIETmisc.8221.desc;Somewhere, in the far reaches of my subconscious, I know that I am in a dream, but I otherwise do not remember who I truly am. The room is disorienting at first, with furniture designed in outlandish ways and paintings and decor that looks gaudy and ridiculous. There is, however, a mirror nearby. Perhaps that will give me a clue as to who or what I am, where I am, why I am.;;;;;;;;;;;x
+VIETmisc.8221.a;I glide towards the mirror.;;;;;;;;;;;;;x
+VIET_kdrama_who_am_i;Who am I? What am I? Where am I? Why am I?;;;;;;;;;;;x
+VIETmisc.8222.desc;I look in the mirror and see a lovely, slim girl, with demure eyes and a coy smile. I wear a strange dress of sky blue color. Moments later, before I realize it, the location of the dream changes. Next to me is a tall, handsome boy with piercing eyes and a brooding frown, whom I feel an immense connection with. My waking self wouldn't recognize him, but my dream self does.;;;;;;;;;;;x
+VIETmisc.8222.a;"Are you doing alright?" I ask awkwardly.;;;;;;;;;;;;;x
+VIET_kdrama_girl_talk;"Don't worry about me," he says dismissively. "You don't need to."\n\n"But it is my job to worry about you," I retort. "You still look hurt over that.";;;;;;;;;;;x
+VIETmisc.8223.desc;We walk side by side along a river bank in some small town or city as we engage in casual talk. We've been friends for many years, so we feel much closeness with each other. Yet he's such a nuisance, and what is this tension I feel in the air? He nods, still frowning, as he ruffles through my hair. He is almost like an older brother to me, and yet... and yet... I want more. ;;;;;;;;;;;x
+VIETmisc.8223.a;I shyly hold his hand.;;;;;;;;;;;;;x
+VIETmisc.8223.b;I grab him and confess my feelings.;;;;;;;;;;;;;x
+VIETmisc.8223.c;I say mean things to him.;;;;;;;;;;;;;x
+VIETmisc.8223.d;He shyly holds my hand.;;;;;;;;;;;;;x
+VIETmisc.8224.title;Love?;;;;;;;;;;;x
+VIETmisc.8224.desc;He is about to say something, to respond to me, to say what had been on his mind for what must have been more than a decade, since we played under the old tree by my grandfather's house as children. I hold my breath, waiting to hear what is to come out of his mouth, what will change our lives forever, and he smiles for the first time in years as he says -\n\nI wake up, confused.\n\nA few moments pass, and I worry about where that boy is. And then I realize I am not that quiet, sweet girl, but [Root.GetTitledName]. It takes me several minutes before I remember how to distinguish between reality and that dream.;;;;;;;;;;;x
+VIETmisc.8224.a;Or at least I think this is reality.;;;;;;;;;;;;;x
+VIETmisc.8225.desc;I look in the mirror and see a tall, handsome boy, with piercing eyes and a brooding frown. I wear strange, blue pantaloons and a tight shirt. Moments later, before I realize it, the location of the dream changes. Next to me is a lovely, slim girl with demure eyes and a coy smile, whom I feel an immense connection with. My waking self wouldn't recognize her, but my dream self does.;;;;;;;;;;;x
+VIETmisc.8225.a;"What is it?" I ask, more gruffly than I should.;;;;;;;;;;;;;x
+VIET_kdrama_boy_talk;"Are you alright?" she asks me gently. "Is something wrong?"\n\n"It is not your job to worry about me, and I will be fine," I retort. "I don't feel hurt over that.";;;;;;;;;;;x
+VIETmisc.8226.desc;We walk side by side along a river bank in some small town or city as we engage in casual talk. We've been friends for many years, so we feel much closeness with each other. Yet I still think of her as a stupid, annoying little girl, and what is this tension I feel in the air? She smiles and I can't help but ruffle through her hair. She is almost like a little sister to me, and yet... and yet... I want more.;;;;;;;;;;;x
+VIETmisc.8226.a;I shyly hold her hand.;;;;;;;;;;;;;x
+VIETmisc.8226.b;I grab her and confess my feelings.;;;;;;;;;;;;;x
+VIETmisc.8226.c;I say mean things to her.;;;;;;;;;;;;;x
+VIETmisc.8226.d;She shyly holds my hand.;;;;;;;;;;;;;x
+VIET_kdrama_lewd_handholding;We're both nervous, so much that even holding hands like this feels intense. But it's the first important step!;;;;;;;;;;;x
+VIET_kdrama_dramatic_confession;I have nothing to lose. My friend must know now, before it's too late! A delay of one moment, and this opportunity could be gone - forever.;;;;;;;;;;;x
+VIET_kdrama_tsundere;I am absolutely incapable of discussing things like an adult, because matters of love are so sensitive and tricky.;;;;;;;;;;;x
+VIET_kdrama_be_handheld;I didn't expect them to be so bold. To do something so aggressive and forward... at least for a first step.;;;;;;;;;;;x
+VIETmisc.8227.title;Love?;;;;;;;;;;;x
+VIETmisc.8227.desc;She is about to say something, to respond to me, to say what had been on her mind for what must have been more than a decade, since we played under the old tree by my grandfather's house as children. I hold my breath, waiting to hear what is to come out of her mouth, what will change our lives forever, and she finally cries for the first time in years as she says -\n\nI wake up, confused.\n\nA few moments pass, and I worry about where that girl is. And then I realize I am not that handsome, brooding boy, but [Root.GetTitledName]. It takes me several minutes before I remember how to distinguish between reality and that dream.;;;;;;;;;;;x
+VIETmisc.8227.a;Or at least I think this is reality.;;;;;;;;;;;;;x
+VIETmisc.8228.desc;I wander a field of blurry yet vivid colors, and cannot tell what is above and what is below, what is left and what is right. I am simultaneously floating driftlessly and walking aimlessly. Am I in the primordial churning ocean, or the primeval endless skies? Somewhere deep within myself, though I cannot articulate it, I know that this is the era of dreams, when people could not distinguish between conscious and subconscious, when we walked the dreamscape of the universe under the benevolent watch of GOD.;;;;;;;;;;;x
+VIETmisc.8228.a;I know not the beginning nor the end.;;;;;;;;;;;;;x
+VIETmisc.8229.desc;Eons pass before I slowly regain consciousness.\n\nI find myself back in my bed. ;;;;;;;;;;;x
+VIETmisc.8229.a;Outside, the sun is rising.;;;;;;;;;;;;;x
+VIETmisc.8230.desc;A quiet campfire burns besides me as I sit down. I have been traveling for aeons in this strange dream of mine. Where am I going, and where have I gone? I know not. It is night, and around me is desert sand, yet I feel neither cold nor hot. The skies above fade in and out of different, unnatural colors such as dark emerald, maroon, or the blue of the ocean's depths. I lie back and watch the flickering stars. How beautiful this world is!;;;;;;;;;;;x
+VIETmisc.8230.a;I fall asleep within my dream.;;;;;;;;;;;;;x
+VIETmisc.8231.desc;I wake up with a jolt. Am I back in reality? Or in that dream?;;;;;;;;;;;x
+VIETmisc.8231.a;This is reality.;;;;;;;;;;;;;x
+VIETmisc.8231.b;This is a dream.;;;;;;;;;;;;;x
+VIETmisc.8231.c;I do not know how to distinguish between the two.;;;;;;;;;;;;;x
+VIETmisc.8231.d;Or am I in another dream within a dream?;;;;;;;;;;;;;x
+VIETmisc.8232.desc;The sky is like waves of red and yellow and dark pink, as the sun slowly wades itself deeper and deeper into the horizon. "Isn't it lovely?" my companion asks. I don't disagree.\n\nSuddenly, I begin to wake up. What a beautiful sunset I saw in my dream!;;;;;;;;;;;x
+VIETmisc.8232.a;But who was my mysterious companion?;;;;;;;;;;;;;x
+VIETmisc.8233.desc;There is nothing but a river that goes forever, surrounded by the green grass and lush trees and bushes. If I wander too far, I find myself back at the river, somehow. Above the sky is pale blue, and a gentle breeze whispers past me. And so, on and on I go, along the primordial, endless river. Even when I wake up, and try to recall my dream, it doesn't make sense.;;;;;;;;;;;x
+VIETmisc.8233.a;How can a river be shaped like that?;;;;;;;;;;;;;x
+VIETmisc.8234.desc;I stand on a stage, but one unlike any other I've ever seen before. It is immense in size, more like the throne room of a faraway Emperor. There are bright lights high above, a hundred suns that blind me to the audience below. But even in this dream, I know that I must perform music here. Yet I cannot play. My dream self remembers a painful memory from the past.;;;;;;;;;;;x
+VIETmisc.8234.a;I sorrowfully watch my instrument.;;;;;;;;;;;;;x
+VIET_music_of_love_kdrama_text;It is an organ of the oddest shape, I've never seen before. It is both black and white, and its majesty beckons to me. And yet I cannot.;;;;;;;;;;;x
+VIETmisc.8235.title;Music of Love;;;;;;;;;;;x
+VIETmisc.8235.desc;Far away, at the edge of the stage, hidden behind the curtains, [Root.GetSheHeOpp] stands. "You can do it!" [Root.GetSheHeOpp] mouths to me. "I believe in you!"\n\nI approach the black and white organ with trepidation. Can I still play now, even after what happened back then?\n\nBut I must, if only for [Root.GetHerHimOpp].\n\nI sit before the organ, and begin to play.;;;;;;;;;;;x
+VIETmisc.8235.a;After waking up, I can still hear the song I played in my head.;;;;;;;;;;;;;x
+VIETmisc.8236.desc;I am lost in a maze of tunnels that never seem to end. No matter where I turn, right or left, I cannot find a way out. No matter where I go, there is no one here. I thought there might have been monsters or bandits lurking about, but my only friends and enemies are the flickers of the occasional torch and the cold stone walls. Nothing exists but the dark passageways.;;;;;;;;;;;x
+VIETmisc.8236.a;I wake up, sweating, with a feeling of unease.;;;;;;;;;;;;;x
+VIETmisc.8237.desc;I wander a field that stretches from horizon to horizon, lost. I travel for what seems like years upon years and find no sense of direction, and I grow scared. I beg for some respite. Suddenly, on the horizon, I see something approaching me - a woman dressed in an ethereal dress like clouds in the sky, atop a pale horse. She gazes at me with a neutral expression, and I ask her where I am, and where is the nearest town. She does not speak, but merely points in a certain direction, before riding off and disappearing.;;;;;;;;;;;x
+VIETmisc.8237.a;I follow her directions.;;;;;;;;;;;;;x
+VIETmisc.8238.desc;Some time later - I do not know how long - the faint image of a village appears. Hurrah! It is just as that mysterious woman pointed to me!\n\nAs I wake up from my strange dream, I can only think of one thing.;;;;;;;;;;;x
+VIETmisc.8238.a;Who was that lady?;;;;;;;;;;;;;x
+VIETmisc.8239.desc;He wanders the universe atop his mighty steed, aimlessly, as far as our mortal minds can comprehend. Finally, I meet this figure in my dream, whose appearance and purpose I cannot truly grasp. When I talk or gesture to him, all he does is nod sagely and point towards something far away. I try to reach towards the destination he indicated, but before I arrive, I wake up.;;;;;;;;;;;x
+VIETmisc.8239.a;Who was that man, and where did he tell me to go?;;;;;;;;;;;;;x
 VIETmisc.8240.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8240.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8241.desc;xxxxx;;;;;;;;;;;x
