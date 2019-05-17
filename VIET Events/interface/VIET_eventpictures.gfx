@@ -2479,6 +2479,16 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\market_tibetan_group.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_holy_light_basic"
+		texturefile = "gfx\\event_pictures\\holy_light_basic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_chinese_prince"
+		texturefile = "gfx\\event_pictures\\chinese_prince.tga"
+		allwaystransparent = yes
+	}
 }
 
 
