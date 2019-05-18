@@ -18,6 +18,7 @@
 # 8205-8208: Deer Musk
 # 8209-8213: Virginity
 # 8214-8216: Broccoli
+# 8216-8239: Strange Dreams
 # 
 #####################################################################
 
@@ -470,7 +471,11 @@ character_event = {
 				modifier = opinion_loyal_servant
 				who = ROOT
 				years = 100
-			}				
+			}
+			random = {
+				VIET_give_generic_weapon_effect = yes
+				chance = 20
+			}
 		}
 	}
 }
@@ -2337,6 +2342,11 @@ character_event = {
 				#add_trait = melodious_voice
 				add_trait = kind
 				add_trait = chaste
+				#Clutter Artifact					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
+				}
 				#Flavor
 				random_list = {
 					70 = { } #Nothing
@@ -2428,8 +2438,11 @@ character_event = {
 				add_trait = fair
 				#add_trait = tall
 				add_trait = kind
-				add_trait = chaste
-
+				add_trait = chaste					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
+				}
 				#Flavor
 				random_list = {
 					70 = { } #Nothing
@@ -14663,6 +14676,10 @@ character_event = {
 				random_list = {
 					70 = { add_trait = charismatic_negotiator }
 					30 = { add_trait = grey_eminence }
+				}					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
 				}	
 				#Guaranteed Traits
 				add_trait = kind
@@ -14698,6 +14715,10 @@ character_event = {
 				random_list = {
 					70 = { add_trait = charismatic_negotiator }
 					30 = { add_trait = grey_eminence }
+				}					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
 				}	
 				#Guaranteed Traits
 				add_trait = kind
@@ -15233,8 +15254,11 @@ character_event = {
 			add_trait = humble
 			add_trait = gregarious
 			add_trait = chaste
-			add_trait = just
-			add_artifact = bow_tier_2_new
+			add_trait = just					
+			random = {
+				VIET_give_generic_weapon_effect = yes
+				chance = 20
+			}	
 			opinion = {
 				modifier = opinion_loyal_servant
 				who = ROOT
@@ -15541,7 +15565,11 @@ character_event = {
 				10 = { add_random_education_trait = intrigue }
 				10 = { add_random_education_trait = martial }
 				10 = { add_random_education_trait = stewardship }
-			}	
+			}					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}		
 			#Guaranteed Traits
 			add_trait = robust
 			add_trait = cynical
@@ -21099,7 +21127,11 @@ character_event = {
 				random_list = {
 					80 = { } #Nothing
 					20 = { add_scarred_tiered_effect = yes }
-				}
+				}					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
+				}	
 			}
 		}
 		#if = {
@@ -22005,7 +22037,11 @@ character_event = {
 			#set_character_flag = ai_flag_refuse_concubinage
 			#set_character_flag = ai_flag_refuse_marriage
 			set_character_flag = no_court_invites
-			add_trait = trusting
+			add_trait = trusting					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}	
 			#Flavor
 			random_list = {
 				85 = { } #Nothing
@@ -22200,7 +22236,11 @@ character_event = {
 			}
 			#set_character_flag = ai_flag_refuse_concubinage
 			#set_character_flag = ai_flag_refuse_marriage
-			#set_character_flag = no_court_invites
+			#set_character_flag = no_court_invites					
+			random = {
+				VIET_give_generic_weapon_effect = yes
+				chance = 20
+			}	
 			#Flavor
 			random_list = {
 				250 = { } #Nothing
@@ -23145,6 +23185,1330 @@ character_event = {
 		add_character_modifier = {
 			name = eating_good_food
 			duration = 180
+		}
+	}
+}
+
+#################################################################
+# STRANGE DREAMS
+#################################################################
+
+# Dream of a great ship in a harbor
+long_character_event = {
+	id = VIETmisc.8217
+	desc = VIETmisc.8217.desc
+	picture = GFX_evt_columbus
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Ok
+		name = VIETmisc.8217.a
+		prestige = 1
+		if = {
+			limit = {
+				trait = craven
+			}
+			random = {
+				remove_trait = craven
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = brave
+				chance = 30
+			}
+		}
+		if = {
+			limit = {
+				trait = shy
+			}
+			random = {
+				remove_trait = shy
+				chance = 30
+			}
+		}
+		else = {
+			random = {
+				add_trait = gregarious
+				chance = 20
+			}
+		}
+	}
+}
+
+# Meet someone you know irl in a dream
+character_event = {
+	id = VIETmisc.8218
+	desc = VIETmisc.8218.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		# 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+		any_courtier = {
+			NOT = { trait = incapable }
+			is_adult = yes
+			in_command = no
+			is_abroad = no
+			ai = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # A friend
+		name = VIETmisc.8218.a
+		random_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+				is_adult = yes
+				in_command = no
+				is_abroad = no
+				ai = yes
+			}
+			hidden_tooltip = {
+				character_event = { id = VIETmisc.8219 } #ping
+			}
+		}
+	}
+}
+
+# Meet someone you know irl in a dream
+character_event = {
+	id = VIETmisc.8219
+	desc = VIETmisc.8219.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	option = { # A friend
+		name = VIETmisc.8219.a
+		FROM = {
+			character_event = { id = VIETmisc.8220 } #ping
+		}
+	}
+}
+
+# Meet someone you know irl in a dream
+character_event = {
+	id = VIETmisc.8220
+	desc = VIETmisc.8220.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	option = { # What a coincidence! Good reaction
+		name = VIETmisc.8220.a
+		FROM = {
+			random = {
+				add_friend = ROOT
+				chance = 30
+			}
+			opinion = {
+				modifier = VIET_shared_dream_good
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_shared_dream_good
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+
+	option = { # What a coincidence! Bad reaction
+		name = VIETmisc.8220.b
+		FROM = {
+			random = {
+				add_rival = ROOT
+				chance = 15
+			}
+			opinion = {
+				modifier = VIET_shared_dream_bad
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_shared_dream_bad
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+
+# Dream of a Korean Drama (probably should've been considered an event chain but oh well)
+character_event = {
+	id = VIETmisc.8221
+	desc = VIETmisc.8221.desc
+	picture = GFX_evt_modern_slice_of_life
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
+		}
+		NOT = { has_character_flag = VIET_generic_kdrama_happened_to_me }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+	}
+
+	option = { # Who am I?
+		name = VIETmisc.8221.a
+		set_character_flag = VIET_generic_kdrama_happened_to_me
+		custom_tooltip = { text = VIET_kdrama_who_am_i }
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 1.3
+						AND = {
+							is_female = yes
+							NOT = { trait = homosexual }
+						}
+					}
+					modifier = {
+						factor = 1.3
+						AND = {
+							is_female = no
+							trait = homosexual
+						}
+					}
+					#set_character_flag = VIET_kdrama_girls_pov
+					character_event = { id = VIETmisc.8222 } # girl's POV
+				}
+				50 = {
+					modifier = {
+						factor = 1.3
+						is_female = no
+						NOT = { trait = homosexual }
+					}
+					modifier = {
+						factor = 1.3
+						is_female = yes
+						trait = homosexual
+					}
+					#set_character_flag = VIET_kdrama_boys_pov
+					character_event = { id = VIETmisc.8225 } # boy's POV
+				}
+			}		
+		}
+	}
+}
+
+
+
+# Enter the hot brooding jerk with a heart of gold who takes hot brooding showers
+character_event = {
+	id = VIETmisc.8222
+	desc = VIETmisc.8222.desc
+	picture = GFX_evt_scarborough_fair
+	
+	is_triggered_only = yes
+
+	option = { # talk
+		name = VIETmisc.8222.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8223 }
+		}
+		custom_tooltip = { text = VIET_kdrama_girl_talk }
+	}
+}
+
+
+
+# Walking along the river (girl's POV)
+character_event = {
+	id = VIETmisc.8223
+	desc = VIETmisc.8223.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	option = { # Initiate lewd handholding
+		name = VIETmisc.8223.a
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8224 }
+		}
+		custom_tooltip = { text = VIET_kdrama_lewd_handholding }
+	}
+	option = { # Dramatic confession
+		name = VIETmisc.8223.b
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8224 }
+		}
+		custom_tooltip = { text = VIET_kdrama_dramatic_confession }
+	}
+	option = { # Tsundere
+		name = VIETmisc.8223.c
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8224 }
+		}
+		custom_tooltip = { text = VIET_kdrama_tsundere }
+	}
+	option = { # Receive lewd handholding
+		name = VIETmisc.8223.d
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8224 }
+		}
+		custom_tooltip = { text = VIET_kdrama_be_handheld }
+	}
+}
+
+# Wake up (girl's POV)
+narrative_event = {
+	id = VIETmisc.8224
+	title = VIETmisc.8224.title
+	desc = VIETmisc.8224.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+
+	option = { # boohoo
+		name = VIETmisc.8224.a
+		if = {
+			limit = {
+				trait = wroth
+			}
+			remove_trait = wroth
+		}
+		if = {
+			limit = {
+				trait = cruel
+			}
+			remove_trait = cruel
+		}
+		random = {
+			add_trait = chaste
+			chance = 30
+		}
+		add_character_modifier = {
+			name = VIET_kdrama_dream_girls_pov
+			duration = 1453
+		}
+	}
+}
+
+# Enter the plucky determined naive generic female lead
+character_event = {
+	id = VIETmisc.8225
+	desc = VIETmisc.8225.desc
+	picture = GFX_evt_scarborough_fair
+	
+	is_triggered_only = yes
+
+	option = { # talk
+		name = VIETmisc.8225.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8226 }
+		}
+		custom_tooltip = { text = VIET_kdrama_boy_talk }
+	}
+}
+
+
+
+# Walking along the river (boy's POV)
+character_event = {
+	id = VIETmisc.8226
+	desc = VIETmisc.8226.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	option = { # Initiate lewd handholding
+		name = VIETmisc.8226.a
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8227 }
+		}
+		custom_tooltip = { text = VIET_kdrama_lewd_handholding }
+	}
+	option = { # Dramatic confession
+		name = VIETmisc.8226.b
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8227 }
+		}
+		custom_tooltip = { text = VIET_kdrama_dramatic_confession }
+	}
+	option = { # Tsundere
+		name = VIETmisc.8226.c
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8227 }
+		}
+		custom_tooltip = { text = VIET_kdrama_tsundere }
+	}
+	option = { # Receive lewd handholding
+		name = VIETmisc.8226.d
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8227 }
+		}
+		custom_tooltip = { text = VIET_kdrama_be_handheld }
+	}
+}
+
+# Wake up (girl's POV)
+narrative_event = {
+	id = VIETmisc.8227
+	title = VIETmisc.8227.title
+	desc = VIETmisc.8227.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+
+	option = { # boohoo
+		name = VIETmisc.8227.a
+		if = {
+			limit = {
+				trait = envious
+			}
+			remove_trait = envious
+		}
+		if = {
+			limit = {
+				trait = arbitrary
+			}
+			remove_trait = arbitrary
+		}
+		random = {
+			add_trait = chaste
+			chance = 30
+		}
+		add_character_modifier = {
+			name = VIET_kdrama_dream_boys_pov
+			duration = 1453
+		}
+	}
+}
+
+
+# Exploring the dreamworld at the beginning of time
+long_character_event = {
+	id = VIETmisc.8228
+	desc = VIETmisc.8228.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+
+	option = { # Who am I?
+		name = VIETmisc.8228.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8229 }
+		}
+	}
+}
+
+# Exploring the dreamworld at the beginning of time - waking up 
+character_event = {
+	id = VIETmisc.8229
+	desc = VIETmisc.8229.desc
+	picture = GFX_evt_apollo_sun
+	
+	is_triggered_only = yes
+
+	option = { # Who am I?
+		name = VIETmisc.8229.a
+		if = {
+			limit = {
+				trait = cruel
+			}
+			remove_trait = cruel
+		}
+		if = {
+			limit = {
+				trait = depressed
+			}
+			remove_trait = depressed
+		}
+		if = {
+			limit = {
+				trait = stressed
+			}
+			remove_trait = stressed
+		}
+		add_character_modifier = {
+			name = VIET_dreamscape_dream
+			duration = 888
+		}
+	}
+}
+
+
+# Dream of the desert campfire that's symbolic for something
+long_character_event = {
+	id = VIETmisc.8230
+	desc = VIETmisc.8230.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+
+	option = { # Destination unknown
+		name = VIETmisc.8230.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8231 }
+		}
+	}
+}
+
+# What is reality and what is dream?
+character_event = {
+	id = VIETmisc.8231
+	desc = VIETmisc.8231.desc
+	picture = GFX_evt_recovery
+	
+	is_triggered_only = yes
+
+	option = { # Reality
+		name = VIETmisc.8231.a
+		random = {
+			add_trait = proud
+			chance = 5
+		}
+		add_character_modifier = {
+			name = VIET_campfire_dream
+			duration = 777
+		}
+	}
+	option = { # Dream
+		name = VIETmisc.8231.b
+		random = {
+			add_trait = lunatic
+			chance = 5
+		}
+		add_character_modifier = {
+			name = VIET_campfire_dream
+			duration = 777
+		}
+	}
+	option = { # Cannot distinguish between the two
+		name = VIETmisc.8231.c
+		trigger = {
+			OR = {
+				learning = 11
+				trait = erudite
+				trait = scholar
+				trait = theologian
+				trait = lunatic
+				religion = taoist #Zhuangzi
+			}
+		}
+		add_character_modifier = {
+			name = VIET_navel_gazing
+			duration = 777
+		}
+		add_character_modifier = {
+			name = VIET_campfire_dream
+			duration = 777
+		}
+	}
+	option = { # Dream within a dream
+		name = VIETmisc.8231.d
+		trigger = {
+			OR = {
+				learning = 11
+				trait = erudite
+				trait = scholar
+				trait = theologian
+				trait = lunatic
+				religion = taoist #Zhuangzi
+			}
+		}
+		add_character_modifier = {
+			name = VIET_navel_gazing
+			duration = 777
+		}
+		add_character_modifier = {
+			name = VIET_campfire_dream
+			duration = 777
+		}
+	}
+}
+
+# Sunset dream with a companion
+character_event = {
+	id = VIETmisc.8232
+	desc = VIETmisc.8232.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8232.a
+		if = {
+			limit = {
+				trait = shy
+			}
+			random = {
+				remove_trait = shy
+				chance = 25
+			}
+		}
+		else = {
+			random = {
+				add_trait = gregarious
+				chance = 25
+			}
+		}
+		piety = 2
+	}
+}
+
+# Dream of the primordial river
+character_event = {
+	id = VIETmisc.8233
+	desc = VIETmisc.8233.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = temperate
+		}
+		modifier = {
+			factor = 0.8
+			trait = gluttonous
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8233.a
+		if = {
+			limit = {
+				trait = wroth
+			}
+			random = {
+				remove_trait = wroth
+				chance = 25
+			}
+		}
+		if = {
+			limit = {
+				trait = content
+			}
+			random = {
+				remove_trait = content
+				chance = 25
+			}
+		}
+		add_character_modifier = {
+			name = VIET_primordial_river_dream
+			duration = 852
+		}
+	}
+}
+
+# Dream of a generic music-themed Kdrama titled "Music of Love"
+character_event = {
+	id = VIETmisc.8234
+	desc = VIETmisc.8234.desc
+	picture = GFX_evt_holy_light_basic
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
+		}
+		NOT = { has_character_flag = VIET_music_of_love_kdrama }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 2
+			trait = poet
+		}				
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8234.a
+		set_character_flag = VIET_music_of_love_kdrama
+		custom_tooltip = { text = VIET_music_of_love_kdrama_text }
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8235 }
+		}
+	}
+}
+
+# Dream of a generic music-themed Kdrama titled "Music of Love" - part two
+narrative_event = {
+	id = VIETmisc.8235
+	title = VIETmisc.8235.title
+	desc = VIETmisc.8235.desc
+	picture = GFX_evt_sun_and_moon
+	
+	is_triggered_only = yes
+
+	option = { # ok
+		name = VIETmisc.8235.a
+		add_character_modifier = {
+			name = VIET_kdrama_music_dream
+			duration = 1453
+		}
+	}
+}
+
+
+
+# Lost in an abandoned RPG dungeon dream
+character_event = {
+	id = VIETmisc.8236
+	desc = VIETmisc.8236.desc
+	picture = GFX_evt_dark_tunnel
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8236.a
+		random_list = {
+			80 = { }
+			10 = { add_trait = craven }
+			10 = { add_trait = paranoid }
+		}
+		add_character_modifier = {
+			name = VIET_lost_tunnel_dream
+			duration = 1227
+		}
+	}
+}
+
+
+# Meeting the (female) Dreamer - part of VIET lore about the Dreamers
+long_character_event = {
+	id = VIETmisc.8237
+	desc = VIETmisc.8237.desc
+	picture = GFX_evt_chinese_princess
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8237.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8238 }
+		}
+	}
+}
+
+
+# Meeting the (female) Dreamer - part 2
+character_event = {
+	id = VIETmisc.8238
+	desc = VIETmisc.8238.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	option = { # ok
+		name = VIETmisc.8238.a
+		add_character_modifier = {
+			name = VIET_vague_dream_of_dreamer_female
+			duration = 1368
+		}
+	}
+}
+
+
+# Meeting the (male) Dreamer - part of VIET lore about the Dreamers
+character_event = {
+	id = VIETmisc.8239
+	desc = VIETmisc.8239.desc
+	picture = GFX_evt_chinese_prince
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8239.a		
+		add_character_modifier = {
+			name = VIET_vague_dream_of_dreamer_male
+			duration = 1368
 		}
 	}
 }

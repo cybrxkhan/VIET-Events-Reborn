@@ -3962,7 +3962,11 @@ narrative_event = {
 			add_character_modifier = {
 				name = VIET_obsessed_with_incest
 				duration = -1
-			}
+			}					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}	
 		}
 		custom_tooltip = { text = LONG_LIVE_XWEDODAH }
 	}

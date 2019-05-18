@@ -113,6 +113,10 @@ on_yearly_pulse = {
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2021		# How should heretic be purified?
 			100 = VIETmisc.2023		# Vassal isn't being charitable enough
+			#TES References
+			100 = VIETmisc.2205		# Guard is watching foreigner scum
+			100 = VIETmisc.2209		# Guard on guard duty complains about not fighting infidels
+			100 = VIETmisc.2211		# Wolfish grin on a courtier
 			#Furniture
 			100 = VIETmisc.2235		# Fell from chair
 			100 = VIETmisc.2236		# Gum under the table
@@ -209,6 +213,11 @@ on_yearly_pulse = {
 			#Broccoli
 			100 = VIETmisc.8215 # Someone doesn't like broccoli
 			100 = VIETmisc.8216 # Broccoli vs cauliflower
+			#Strange dreams
+			100 = VIETmisc.8217 # Dream of a great ship in a harbor
+			100 = VIETmisc.8218 # Meet someone you know irl in a dream
+			100 = VIETmisc.8232 # Sunset dream with a companion
+			100 = VIETmisc.8236 # Lost in an abandoned RPG dungeon dream
 		}
 		
 	}
@@ -292,6 +301,9 @@ on_bi_yearly_pulse = {
 			#Eggs
 			100 = VIETmisc.2017		# House is egged
 			100 = VIETmisc.2018		# Bought a lot of pickled eggs
+			#TES References
+			100 = VIETmisc.2210		# Guard thinks maybe he's the Saoshyant
+			100 = VIETmisc.2213		# Nazeem reference - courtier doesn't recognize ruler
 			#Furniture
 			100 = VIETmisc.2234		# New wardrobe
 			#Urine
@@ -383,6 +395,10 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8213 # Courtier is lacking in sexual experience
 			#Broccoli
 			100 = VIETmisc.8214 # Exotic broccoli introduced to character
+			#Strange Dreams
+			100 = VIETmisc.8228 # Exploring the dreamworld at the beginning of time
+			100 = VIETmisc.8230 # Dream of the desert campfire that's symbolic for something
+			100 = VIETmisc.8233 # Dream of the primordial river
 		
 		}
 		
@@ -439,6 +455,11 @@ on_five_year_pulse = {
 			100 = VIETmisc.2015 	# Spinach makes me strong
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2025		# Would you kill a baby?
+			#TES References
+			100 = VIETmisc.2206		# Lusty Argonian Maid
+			100 = VIETmisc.2208		# Cook serves powdered deer penis
+			100 = VIETmisc.2212		# Heimskr appears before you
+			100 = VIETmisc.2216		# the adoring fan appears
 			#Monogatari References
 			100 = VIETmisc.2240		# Character hears about incest-loving religions		
 			100 = VIETmisc.2242		# Female courtier makes weird comments about male ruler		
@@ -515,6 +536,11 @@ on_five_year_pulse = {
 			#Virginity
 			100 = VIETmisc.8210 # Young noblewoman loses virtue to rakish scoundrel
 			100 = VIETmisc.8211 # Vasha from Skyrim - capture notorious bandit wanted for murder, theft, and rape
+			#Strange dreams
+			100 = VIETmisc.8221 # Dream of a Korean Drama (probably should've been considered an event chain but oh well)
+			100 = VIETmisc.8234 # Dream of a generic music-themed Kdrama titled "Music of Love"
+			100 = VIETmisc.8237 # Meeting the (female) Dreamer - part of VIET lore about the Dreamers
+			100 = VIETmisc.8239 # Meeting the (male) Dreamer - part of VIET lore about the Dreamers
 		}
 		
 		#ALL VIET artifact events should go here!

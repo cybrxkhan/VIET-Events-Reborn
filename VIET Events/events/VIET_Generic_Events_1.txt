@@ -10483,7 +10483,11 @@ narrative_event = {
 			add_trait = kind
 			add_trait = chaste
 			add_trait = patient
-			add_trait = humble
+			add_trait = humble					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}	
 			create_character = {
 				female = yes
 				min_age = 25
@@ -10500,7 +10504,11 @@ narrative_event = {
 				add_trait = kind
 				add_trait = chaste
 				add_trait = patient
-				add_trait = humble
+				add_trait = humble					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
+				}	
 			}
 		}
 	}
@@ -10546,7 +10554,11 @@ narrative_event = {
 			add_trait = greedy
 			add_trait = diligent
 			add_trait = ambitious
-			add_trait = temperate
+			add_trait = temperate					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}	
 		}
 	}
 	
@@ -10595,7 +10607,11 @@ narrative_event = {
 			add_trait = cynical
 			add_trait = stubborn
 			add_trait = diligent
-			add_trait = just
+			add_trait = just				
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}	
 		}
 	}
 	
@@ -10645,7 +10661,11 @@ narrative_event = {
 			add_trait = brave
 			add_trait = proud
 			add_trait = diligent
-			add_trait = gregarious
+			add_trait = gregarious					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}	
 		}
 	}
 }
