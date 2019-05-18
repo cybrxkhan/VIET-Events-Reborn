@@ -91,3 +91,9 @@ VIET_opinion_shameless_rake = {
 VIET_opinion_condenscending_attitude = {
 	opinion = -15
 }
+VIET_shared_dream_good = {
+	opinion = 10
+}
+VIET_shared_dream_bad = {
+	opinion = -10
+}

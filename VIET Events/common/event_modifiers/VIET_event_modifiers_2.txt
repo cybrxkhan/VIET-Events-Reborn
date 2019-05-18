@@ -822,3 +822,54 @@ VIET_defiler_of_maidens = {
 	monthly_character_piety = -0.1
 	icon = 18
 }
+VIET_wolfish_grin = {
+	diplomacy = -1
+	combat_rating = 2
+	general_opinion = -5
+	icon = 72
+}
+VIET_kdrama_dream_girls_pov = {
+	monthly_character_piety = 0.02
+	health = 0.1
+	icon = 39
+}
+VIET_kdrama_dream_boys_pov = {
+	monthly_character_piety = 0.02
+	health = 0.1
+	icon = 39
+}
+VIET_dreamscape_dream = {
+	health = 0.5
+	icon = 39
+}
+VIET_campfire_dream = {
+	learning = 1
+	icon = 79
+}
+VIET_primordial_river_dream = {
+	health = 0.5
+	monthly_character_piety = 0.01
+	icon = 48
+}
+VIET_kdrama_music_dream = {
+	diplomacy = 1
+	sex_appeal_opinion = 5
+	icon = 79
+}
+VIET_lost_tunnel_dream = {
+	intrigue = -1
+	health = -0.3
+	icon = 38
+}
+VIET_vague_dream_of_dreamer_female = {
+	health = 1
+	monthly_character_piety = 0.25
+	monthly_character_prestige = 0.25
+	icon = 95
+}
+VIET_vague_dream_of_dreamer_male = {
+	health = 1
+	monthly_character_piety = 0.25
+	monthly_character_prestige = 0.25
+	icon = 95
+}
