@@ -13073,7 +13073,7 @@ character_event = {
 	}
 	option = { #Romans and Greeks were bad
 		name = VIETmisc.8131.d
-		piety = 3
+		prestige = 3
 		random = {
 			add_trait = cynical
 			chance = 30
