@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.5 "Broccoli" (Released 5/12/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.6 "Ibn Sirin" (Released 5/19/19, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,20 +38,16 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.5 "Broccoli"
+Version 2.0.6 "Ibn Sirin"
 
-[I]Remember to eat your veggies![/I]
+[I]Ibn Sirin was a Muslim mystic from the late 7th and early 8th century, who was supposedly well-versed in the art of dream interpretation. The Great Book of Interpretation of Dreams is attributed to him, though he supposedly never liked books and reading much, believing that memorizing things and not relying on texts was superior.[/I]
 
 [LIST]
-[*]Added 3 broccoli flavored events
-[*]Added 6 virginity related events
-[*]Added a couple of Tibetan event pictures
-[*]Re-added the following events from old VIET: 4 furniture events
-[*]Increased Heartless Villain opinion malus
-[*]Rose tea event now gives a “Rose Tea” modifier (to be consistent with other herbal tea events)
-[*]Poetic Guardsman modifier now gives a slight bonus to combat skill
-[*]Fixed Musk Deer product event not properly referencing regions
-[*]Fixed creepy Rose letter event triggering too often
-[*]Fixed Auriel’s Ascension event from triggering when province is different religion than ruler
+[*]Added 24 strange dream events
+[*]Re-added 12 TES inspired events from old VIET
+[*]Added new artifact: The Lusty [Culture] Maid
+[*]Military courtiers generated via events now have a small chance of appearing with military artifacts
+[*]Some courtiers generated via events now have a small chance of appearing with clutter artifacts
+[*]Miscellaneous bug fixes and tweaks as usual
 [/LIST]
 

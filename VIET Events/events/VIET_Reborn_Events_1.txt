@@ -23562,7 +23562,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.8222
 	desc = VIETmisc.8222.desc
-	picture = GFX_evt_scarborough_fair
+	picture = GFX_evt_modern_slice_of_life
 	
 	is_triggered_only = yes
 
@@ -23653,7 +23653,7 @@ narrative_event = {
 character_event = {
 	id = VIETmisc.8225
 	desc = VIETmisc.8225.desc
-	picture = GFX_evt_scarborough_fair
+	picture = GFX_evt_modern_slice_of_life
 	
 	is_triggered_only = yes
 
