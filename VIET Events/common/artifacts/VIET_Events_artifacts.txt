@@ -247,3 +247,14 @@ VIET_dinosaur_bone = {
 	picture = "GFX_VIET_dinosaur_bone"
 	slot = VIET_clutter
 }
+VIET_lusty_argonian_maid = {
+	monthly_character_piety = -0.1
+	diplomacy = 1
+	sex_appeal_opinion = 5
+	fertility = 0.1
+	quality = 2
+	flags = { book }
+	stacking = no
+	picture = "GFX_VIET_lusty_argonian_maid"
+	slot = library
+}

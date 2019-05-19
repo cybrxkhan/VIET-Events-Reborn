@@ -2951,6 +2951,7 @@ narrative_event = {
 			add_trait = trusting
 			chance = 5
 		}
+		add_artifact = VIET_lusty_argonian_maid
 	}
 	option = { #ok
 		name = VIETmisc.2207.c
@@ -2958,6 +2959,7 @@ narrative_event = {
 			name = VIET_feeling_sexy
 			duration = 543
 		}
+		add_artifact = VIET_lusty_argonian_maid
 	}
 }
 
