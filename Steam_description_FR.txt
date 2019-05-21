@@ -1,4 +1,4 @@
-[h1]Version actuelle : 2.0.5 "Broccoli"  (Sortie le 12/05/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[h1]Version actuelle : 2.0.6 "Ibn Sirin"  (Sortie le 19/05/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
 [b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
 Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]Github[/url].[/b]
 
@@ -35,19 +35,15 @@ Veuillez consulter le fil de discussion du forum pour la liste complète des cr�
 
 [h1]Changelog le plus récent[/h1]
 
-Version 2.0.5 "Broccoli"
+Version 2.0.6 "Ibn Sirin"
 
-[I]Rappelez-vous de manger vos légumes![/I]
+[I]Ibn Sirin était un mystique musulman de la fin du VIIe et du début du VIIIe siècle, qui était censé bien connaître l'art de l'interprétation des rêves. On lui attribue le Grand Livre d'Interprétation des Rêves, bien qu'il n'aurait jamais beaucoup aimé les livres et la lecture, croyant que mémoriser les choses et ne pas se fier aux textes était supérieur.[/I]
 
 [LIST]
-[*]Ajoute 3 événements liés aux broccolis
-[*]Ajoute 6 événements liés à la virginité
-[*]Ajoute un couple d'images d'événements du Tibet
-[*]Ajoute des événements de l'ancien VIET : les fournitures
-[*]Augmente le malus d'opinion du Vilain Sans Coeur
-[*]L'événement du thé à la rose donne un modificateur (pour être cohérent avec les autres événements de thé)
-[*]Le modificateur de garde poète donne un léger bonus de combat
-[*]Corrige l'événement de production du musc de cerf qui ne s'appliquait pas aux bonnes régions
-[*]Corrige la lettre de la Rose qui arrivait trop souvent
-[*]Corrige l'événement de l'Ascension d'Auriel qui pouvait arriver dans une province de religion différente de celle de son souverain
+[*]Ajoute 24 événements de rêves étrange
+[*]Ajoute de nouveaux 12 événements inspirés de The Elder Scrolls du vieux VIET
+[*]Ajoute un nouvel artefact: La femme de chambre vigoureuse (pour plusieurs culture)
+[*]Les courtisans militaires générés par les événements ont maintenant peu de chance d'apparaître avec des artefacts militaires.
+[*]Certains courtisans générés par des événements ont maintenant une petite chance d'apparaître avec des artefacts encombrants.
+[*]Divers corrections de bug et équilibrages comme d'habitude
 [/LIST]
