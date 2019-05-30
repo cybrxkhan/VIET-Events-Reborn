@@ -97,3 +97,9 @@ VIET_shared_dream_good = {
 VIET_shared_dream_bad = {
 	opinion = -10
 }
+VIET_opinion_values_our_relationship = {
+	opinion = 10
+}
+VIET_opinion_doesnt_value_relationship = {
+	opinion = -10
+}

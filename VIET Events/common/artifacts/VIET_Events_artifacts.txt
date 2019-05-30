@@ -258,3 +258,14 @@ VIET_lusty_argonian_maid = {
 	picture = "GFX_VIET_lusty_argonian_maid"
 	slot = library
 }
+VIET_guan_yu_statue = {
+	martial = 1
+	combat_rating = 5
+	monthly_character_prestige = 0.04
+	monthly_character_piety = 0.02
+	quality = 2
+	flags = { VIET_clutter_flag VIET_ancient_artifact }
+	stacking = no
+	picture = "GFX_VIET_guan_yu_statue"
+	slot = VIET_clutter
+}

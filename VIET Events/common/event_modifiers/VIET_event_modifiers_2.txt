@@ -873,3 +873,165 @@ VIET_vague_dream_of_dreamer_male = {
 	monthly_character_prestige = 0.25
 	icon = 95
 }
+VIET_appreciates_fine_art = {
+	diplomacy = 1
+	learning = 1
+	sex_appeal_opinion = 5
+	icon = 3
+}
+VIET_three_kingdoms_cao_cao = {
+	diplomacy = 1
+	intrigue = 1
+	learning = 1
+	fertility = 0.05
+	icon = 109
+}
+VIET_three_kingdoms_liu_bei = {
+	diplomacy = 3
+	monthly_character_piety = 0.1
+	icon = 109
+}
+VIET_three_kingdoms_sun_quan = {
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	global_levy_size = 0.04
+	icon = 109
+}
+VIET_three_kingdoms_dong_zhuo = {
+	martial = 1
+	intrigue = 1
+	demesne_size = 1
+	combat_rating = 5
+	general_opinion = -5
+	icon = 109
+}
+VIET_three_kingdoms_guan_yu = {
+	diplomacy = 1
+	martial = 1
+	monthly_character_piety = 0.1
+	combat_rating = 10
+	icon = 115
+}
+VIET_three_kingdoms_zhang_fei = {
+	martial = 1
+	land_morale = 0.02
+	monthly_character_prestige = 0.1
+	combat_rating = 10
+	icon = 115
+}
+VIET_three_kingdoms_xiahou_dun = {
+	general_opinion = 10
+	health = 0.5
+	feudal_opinion = 10
+	combat_rating = 10
+	icon = 115
+}
+VIET_three_kingdoms_lu_bu = {
+	global_revolt_risk = -0.03	
+	health = 0.25
+	combat_rating = 25
+	icon = 115
+}
+VIET_three_kingdoms_zhuge_liang = {
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	monthly_character_wealth = 0.1
+	icon = 99
+}
+VIET_three_kingdoms_sima_yi = {
+	martial = 1
+	intrigue = 2
+	plot_power_modifier = 0.1
+	icon = 99
+}
+VIET_three_kingdoms_zhou_yu = {
+	martial = 1
+	learning = 1
+	general_opinion = 10
+	sex_appeal_opinion = 10
+	icon = 99
+}
+VIET_three_kingdoms_chen_gong = {
+	diplomacy = 1
+	intrigue = 1
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.1
+	icon = 99
+}
+VIET_three_kingdoms_diaochan = {
+	diplomacy = 1
+	intrigue = 1
+	sex_appeal_opinion = 10
+	plot_power_modifier = 0.1
+	icon = 97
+}
+VIET_three_kingdoms_sun_shangxiang = {
+	martial = 1
+	fertility = 0.05
+	combat_rating = 10
+	levy_reinforce_rate = 0.1
+	icon = 97
+}
+VIET_three_kingdoms_qiao_sisters = {
+	diplomacy = 1
+	stewardship = 1
+	health = 0.5
+	fertility = 0.05
+	icon = 97
+}
+VIET_three_kingdoms_huang_yueying = {
+	general_opinion = 10
+	intrigue = 1
+	learning = 2
+	icon = 97
+}
+VIET_liu_bei_shoemaker_shrine_small = {
+	local_revolt_risk = -0.01
+	local_tax_modifier = 0.04
+	levy_reinforce_rate = 0.05
+	icon = 101
+}
+VIET_liu_bei_shoemaker_shrine_large = {
+	local_revolt_risk = -0.02
+	local_tax_modifier = 0.08
+	levy_reinforce_rate = 0.1
+	icon = 101
+}
+VIET_italian_merchant_support = {
+	stewardship = 1
+	intrigue = -1
+	monthly_character_wealth = 0.25
+	monthly_character_prestige = -0.1
+	icon = 4
+}
+VIET_byzantine_noble_support = {
+	diplomacy = -1
+	intrigue = 1
+	monthly_character_wealth = -0.25
+	monthly_character_prestige = 0.1
+	icon = 16
+}
+VIET_negotiated_italian_deals = {
+	local_tax_modifier = 0.15
+	tradevalue = 4
+	icon = 6
+}
+VIET_italian_merchant_negotiator = {
+	diplomacy = 1
+	stewardship = 1
+	intrigue = 1
+	monthly_character_wealth = 0.3
+	monthly_character_prestige = 0.1
+	icon = 6
+}
+VIET_baklava_merchant_origin = {
+	diplomacy = 1
+	stewardship = 1
+	monthly_character_wealth = 0.1
+	health = 0.5
+	general_opinion = 5
+	sex_appeal_opinion = 5
+	icon = 6
+}

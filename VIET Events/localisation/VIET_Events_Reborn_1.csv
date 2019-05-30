@@ -929,30 +929,63 @@ VIETmisc.8238.desc;Some time later - I do not know how long - the faint image of
 VIETmisc.8238.a;Who was that lady?;Qui était cette dame ?;;;;;;;;;;;;x
 VIETmisc.8239.desc;He wanders the universe atop his mighty steed, aimlessly, as far as our mortal minds can comprehend. Finally, I meet this figure in my dream, whose appearance and purpose I cannot truly grasp. When I talk or gesture to him, all he does is nod sagely and point towards something far away. I try to reach towards the destination he indicated, but before I arrive, I wake up.;Il parcourt l'univers au sommet de son puissant cheval, sans aucun but, aussi loin que notre esprit mortel puisse le comprendre. Enfin, je rencontre cette figure dans mon rêve, dont je ne peux pas vraiment comprendre l’apparence et le but. Quand je lui parle ou que je lui fais un geste, il ne fait que hocher la tête et se diriger vers quelque chose de lointain. J'essaie d'atteindre la destination qu'il a indiquée, mais avant d'arriver, je me réveille.;;;;;;;;;;x;x
 VIETmisc.8239.a;Who was that man, and where did he tell me to go?;Qui était cet homme et où m'a-t-il dit d'aller ?;;;;;;;;;;;;x
-VIETmisc.8240.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8240.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8241.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8241.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8242.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8242.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8243.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8243.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8244.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8244.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8245.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8245.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8246.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8246.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8247.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8247.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8248.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8248.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8249.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8249.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8250.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8250.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8251.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8251.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8240.desc;There is a very small but thriving group of Chinese shoemakers living nearby. They ask for your support to help them build a small shrine to the ancient Chinese warlord Liu Bei, who, despite being a distant scion of the Han Dynasty, had humble beginnings as a shoemaker. They say Liu Bei was a virtuous and steadfast man, traits that surely reflect your great rule too.;;;;;;;;;;;x
+VIETmisc.8240.a;Good luck with that. I’m sure you don’t need my help.;;;;;;;;;;;;;x
+VIETmisc.8240.b;I can provide a bit of monetary aid.;;;;;;;;;;;;;x
+VIETmisc.8240.c;I will take the lead in making their dreams become reality.;;;;;;;;;;;;;x
+VIETmisc.8241.desc;I recently provided protection to a small group of Chinese envoys and travelers in my territory. During their journey, they were attacked by ruthless bandits, but my brave men held them off. In gratitude, one my Chinese guests offered a colorful statue of Guan Yu that is an old family heirloom. Guan Yu was an ancient Chinese general who had been deified as a God of War.;;;;;;;;;;;x
+VIETmisc.8241.a;This demonic statue cannot stay with me!;;;;;;;;;;;;;x
+VIETmisc.8241.b;Thank them but politely reject their offer.;;;;;;;;;;;;;x
+VIETmisc.8241.c;Put the statue somewhere suitable in my home.;;;;;;;;;;;;;x
+VIETmisc.8242.desc;A Chinese traveler and poet, who lives in the nearby wilderness, visits my court today, and recites some poetry he recently made. It is stylistically inspired by the poetry of the Three Caos - the great warlord and ruler Cao Cao, and his sons Cao Pi and Cao Zhi - who were influential poets in their day. After he performs it for you, he asks what you think.;;;;;;;;;;;x
+VIETmisc.8242.a;That was bad.;;;;;;;;;;;;;x
+VIETmisc.8242.b;Very good!;;;;;;;;;;;;;x
+VIETmisc.8242.c;I like it so much, I’ll offer him a place at my court.;;;;;;;;;;;;;x
+VIETmisc.8243.desc;You meet a wanderer from a land far away, who recently traveled to the far east. He asks you to regale him with interesting stories from his travels, and in the middle of his account, he tells of a popular Chinese saying he heard: “Brothers are like limbs, wives and children are like clothing. Torn clothing can be repaired, but how can broken limbs be mended?”;;;;;;;;;;;x
+VIETmisc.8243.a;Siblings are more important than wives or children.;;;;;;;;;;;;;x
+VIETmisc.8243.b;How terrible! Our children are our future!;;;;;;;;;;;;;x
+VIETmisc.8243.c;Disagreed. Wives are important, we should respect them.;;;;;;;;;;;;;x
+VIETmisc.8244.desc;Lately, I have been reading about the heroes and villains of the Three Kingdoms, that era of disunity and conflict in China when the Han Dynasty collapsed into civil war. For centuries, people have told many stories, some more fantastical than others, about the deeds and exploits of this fascinating cast of characters. I in particular have an admiration for the…;;;;;;;;;;;x
+VIETmisc.8244.a;Warlords who sought to create order from chaos.;;;;;;;;;;;;;x
+VIETmisc.8244.b;Generals who bravely fought on the battlefield.;;;;;;;;;;;;;x
+VIETmisc.8244.c;Strategists who determined the fates of many.;;;;;;;;;;;;;x
+VIETmisc.8244.d;Noblewomen who were influential in their own ways.;;;;;;;;;;;;;x
+VIETmisc.8245.desc;“The Empire, once united, must divide. Once divided, must unite.” Thus had it always been with Chinese history. In that era of disunity, the Three Kingdoms, plenty of powerful, ambitious leaders sought to reunite China, some virtuous, some unscrupulous. There is one in particular I find very inspiring:;;;;;;;;;;;x
+VIETmisc.8245.a;Cao Cao - cunning and cultured;;;;;;;;;;;;;x
+VIETmisc.8245.b;Liu Bei - just and benevolent;;;;;;;;;;;;;x
+VIETmisc.8245.c;Sun Quan - hardworking and proud;;;;;;;;;;;;;x
+VIETmisc.8245.d;Dong Zhuo - tyrannical and merciless;;;;;;;;;;;;;x
+VIETmisc.8246.desc;Many are the names of the generals from the Three Kingdoms period. Whether with blade or spear or halberd or bow, whether on foot or on horseback, it was these men's daring and courage that determined the course of battles - and the course of history. My favorite general happens to be:;;;;;;;;;;;x
+VIETmisc.8246.a;Righteous Guan Yu, who became a God of War;;;;;;;;;;;;;x
+VIETmisc.8246.b;Fiery Zhang Fei, deathly loyal to Liu Bei’s cause;;;;;;;;;;;;;x
+VIETmisc.8246.c;One-eyed Xiahou Dun, humble soldier of Cao Cao;;;;;;;;;;;;;x
+VIETmisc.8246.d;Ruthless Lu Bu, the treacherous but unmatched Flying General;;;;;;;;;;;;;x
+VIETmisc.8247.desc;The strategists, through their manipulations and complex mind games, are the ones who truly hold the power to shape the course of history. Whether it is choosing battle tactics or contemplating administrative policies, they left their mark on the turbulent times of the Three Kingdoms. My favorite is:;;;;;;;;;;;x
+VIETmisc.8247.a;Zhuge Liang, the peerless sleeping dragon;;;;;;;;;;;;;x
+VIETmisc.8247.b;Sima Yi, the calculating politician;;;;;;;;;;;;;x
+VIETmisc.8247.c;Zhou Yu, the cultured youth;;;;;;;;;;;;;x
+VIETmisc.8247.d;Chen Gong, the doomed gentleman;;;;;;;;;;;;;x
+VIETmisc.8248.desc;Though it was usually men who fought each other in the arenas of battle and politics during the age of the Three Kingdoms, many women also fought in their own ways as well. Even heaven must know of their stories of hardship, dedication, and bravery, even if many people do not. There are quite a number, but the one I respect the most is:;;;;;;;;;;;x
+VIETmisc.8248.a;Diaochan, who sacrificed herself for a nation;;;;;;;;;;;;;x
+VIETmisc.8248.b;Sun Shangxiang, courageous and skilled in the martial arts;;;;;;;;;;;;;x
+VIETmisc.8248.c;Qiao sisters, the two charming and talented beauties;;;;;;;;;;;;;x
+VIETmisc.8248.d;Huang Yueying, who had an unsurpassed mind;;;;;;;;;;;;;x
+VIETmisc.8249.desc;The Prophet (Peace Be Upon Him) is reported to have said, ‘Verily you shall conquer Constantinople. What a wonderful leader will her leader be, and what a wonderful army will that army be!’ Today, this jeweled city, the queen of all cities, still remains in infidel hands. Perhaps one day, a valiant and noble king shall conquer this city in the name of true religion.;;;;;;;;;;;x
+VIETmisc.8249.a;Perhaps it shall be so.;;;;;;;;;;;;;x
+VIETmisc.8249.b;Constantinople's walls are too mighty. Is it even possible?;;;;;;;;;;;;;x
+VIETmisc.8249.c;There're more important things out there than a distant dream.;;;;;;;;;;;;;x
+VIETmisc.8249.d;If I had the opportunity and resources, I could conquer the city!;;;;;;;;;;;;;x
+VIETmisc.8250.desc;Some of Italian merchants based in Constantinople have recently gotten into a number of conflicts with local Roman administrators and noblemen. They argue they need your support to ensure a steady flow of trade in your demesne, while the men under your command argue the Italians cannot be trusted. It is up to you to intervene in their disputes, lest it grows out of hand.;;;;;;;;;;;x
+VIETmisc.8250.a;Support the Italians. We need their business.;;;;;;;;;;;;;x
+VIETmisc.8250.b;Support the local notables. We must be cautious with outsiders.;;;;;;;;;;;;;x
+VIETmisc.8250.c;Support neither - let them sort this out on their own!;;;;;;;;;;;;;x
+VIETmisc.8250.d;Invite an Italian merchant to my court as a representative.;;;;;;;;;;;;;x
+VIET_italian_merchant_negotiation_cool;That way, we’ll have clearer lines of communication. If I and my officials know what the Italians want, it’ll be easier to negotiate with them or even manipulate them to our ends!;;;;;;;;;;;x
+VIETmisc.8251.desc;An acquaintance recently returned from a trip to Constantinople. They regale you with tales of the wonders and splendor of the great city, and you listen with eager ears. There are many stories that you would like to hear about, many things you wish to learn, and in particular, you are most interested in learning about the…;;;;;;;;;;;x
+VIETmisc.8251.a;Dark depths of court intrigue and politics in the ancient city;;;;;;;;;;;;;x
+VIETmisc.8251.b;Pleasure to be had with its courtesans and entertainers;;;;;;;;;;;;;x
+VIETmisc.8251.c;Trade that flows from all corners of the world;;;;;;;;;;;;;x
+VIETmisc.8251.d;Daily lives of its inhabitants, from high nobles to humble commoners;;;;;;;;;;;;;x
 VIETmisc.8252.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8252.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8253.desc;xxxxx;;;;;;;;;;;x

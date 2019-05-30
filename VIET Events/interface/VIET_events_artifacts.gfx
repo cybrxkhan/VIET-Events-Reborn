@@ -215,4 +215,12 @@ spriteTypes = {
 		name = "GFX_VIET_lusty_argonian_maid_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_lusty_argonian_maid_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_guan_yu_statue"
+		texturefile = "gfx\\interface\\artifacts\\VIET_guan_yu_statue.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_guan_yu_statue_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_guan_yu_statue_small.dds"
+	}
 }
