@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.6 "Ibn Sirin" (Released 5/19/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.7 "Constantine XI Palaiologos" (Released 5/29/19, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,16 +38,16 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.6 "Ibn Sirin"
+Version 2.0.7 "Constantine XI Palaiologos"
 
-[I]Ibn Sirin was a Muslim mystic from the late 7th and early 8th century, who was supposedly well-versed in the art of dream interpretation. The Great Book of Interpretation of Dreams is attributed to him, though he supposedly never liked books and reading much, believing that memorizing things and not relying on texts was superior.[/I]
+[I]“The city is fallen but I am still alive!”
+- Constantine XI Palaiologos, the last Roman Emperor, at the siege of Constantinople in 1453 CE[/I]
 
 [LIST]
-[*]Added 24 strange dream events
-[*]Re-added 12 TES inspired events from old VIET
-[*]Added new artifact: The Lusty [Culture] Maid
-[*]Military courtiers generated via events now have a small chance of appearing with military artifacts
-[*]Some courtiers generated via events now have a small chance of appearing with clutter artifacts
-[*]Miscellaneous bug fixes and tweaks as usual
+[*]Added 3 Constantinople themed events
+[*]Added 8 Three Kingdoms themed events
+[*]Added new artifact: Statue of Guan Yu
+[*]Re-added events from old VIET: 9 Byzantine
+[*]Misc minor bug and typo fixes
 [/LIST]
 
