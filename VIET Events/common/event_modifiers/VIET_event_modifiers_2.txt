@@ -1035,3 +1035,12 @@ VIET_baklava_merchant_origin = {
 	sex_appeal_opinion = 5
 	icon = 6
 }
+VIET_open_minded_ruler = {
+	diplomacy = 1
+	learning = 1
+	icon = 2
+}
+VIET_eerie_story = {
+	intrigue = 1
+	icon = 81
+}

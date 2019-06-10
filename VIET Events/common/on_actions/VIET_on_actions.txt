@@ -223,6 +223,11 @@ on_yearly_pulse = {
 			100 = VIETmisc.8236 # Lost in an abandoned RPG dungeon dream
 			#Constantinople
 			100 = VIETmisc.8249	# Will Constantinople ever be taken by a Muslim lord?
+			#Fantastical Stories
+			100 = VIETmisc.8253	# Servant hears about the flying rabbits of the north
+			100 = VIETmisc.8260	# Stories of the immortal horse
+			100 = VIETmisc.8261	# Meeting the woman in white
+			100 = VIETmisc.8265	# Courtiers debate the skin color of the people living on the fantastical Isle of Color (with rhyming)
 		}
 		
 	}
@@ -414,6 +419,10 @@ on_bi_yearly_pulse = {
 			#Constantinople
 			100 = VIETmisc.8250	# Dispute between Italian merchants and Byzantine administrators
 			100 = VIETmisc.8251	# Hearing stories about Constantinople
+			#Fantastical Stories
+			100 = VIETmisc.8252	# Rumors about incestuous marriage in faraway lands
+			100 = VIETmisc.8256	# Hearing about opposite land underground			
+			100 = VIETmisc.8258	# Gate to another world
 		
 		}
 		
@@ -563,6 +572,13 @@ on_five_year_pulse = {
 			100 = VIETmisc.8240	# Chinese shoemakers want to build a small shrine to Liu Bei
 			100 = VIETmisc.8242	# Chinese poet recites poetry inspired by the Three Caos
 			100 = VIETmisc.8244	# Who is your favorite Three Kingdoms character?
+			#Fantastical Stories
+			100 = VIETmisc.8254	# Traveler tells of the lost village in the deserts of Egypt
+			100 = VIETmisc.8255	# Traveler tells of a golden island beyond Japan
+			100 = VIETmisc.8257	# Story of the labyrinth a la the Minotaur
+			100 = VIETmisc.8259	# Old man recounts meeting the Dreamer
+			100 = VIETmisc.8262	# Maid recounts meeting the Dreamer
+			100 = VIETmisc.8263	# Scholar tells of an island on a lake - part 1
 		}
 		
 		#ALL VIET artifact events should go here!

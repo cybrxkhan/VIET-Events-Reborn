@@ -21,6 +21,7 @@
 # 8216-8239: Strange Dreams
 # 8240-8248: Three Kingdoms
 # 8249-8251: Constantinople
+# 8252-8265: Fantastical Stories
 # 
 #####################################################################
 
@@ -25868,6 +25869,1233 @@ character_event = {
 		random = {
 			change_learning = 1
 			chance = 20
+		}
+	}
+}
+
+#################################################################################
+# FANTASTICAL STORIES
+#################################################################################
+
+# Rumors about incestuous marriage in faraway lands
+character_event = {
+	id = VIETmisc.8252
+	desc = VIETmisc.8252.desc
+	picture = GFX_evt_scarborough_fair
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+
+	option = { # Barbaric
+		name = VIETmisc.8252.a
+		trigger = {
+			NOR = {
+				AND = {
+					religion_group = zoroastrian_group
+					NOT = { religion = manichean }	
+				}
+				religion = messalian
+				has_religion_feature = religion_holy_family 
+				has_religion_feature = religion_feature_zun
+			}	
+		}
+		piety = 3
+	}
+	option = { # Open minded
+		name = VIETmisc.8252.b
+		trigger = {
+			NOR = {
+				AND = {
+					religion_group = zoroastrian_group
+					NOT = { religion = manichean }	
+				}
+				religion = messalian
+				has_religion_feature = religion_holy_family 
+				has_religion_feature = religion_feature_zun
+			}	
+		}
+		piety = -3
+		prestige = -3
+		add_character_modifier = {
+			name = VIET_religiously_tolerant_ruler
+			duration = 365
+		}
+	}
+	option = { # Horny
+		name = VIETmisc.8252.c
+		if = {
+			limit = {
+				OR = {
+					religion_group = zoroastrian_group
+					religion = messalian
+					has_religion_feature = religion_holy_family 
+					has_religion_feature = religion_feature_zun
+				}
+				NOT = { religion = manichean }
+			}
+			piety = -5
+			prestige = -5
+			add_character_modifier = {
+				name = VIET_deviant_opinion
+				duration = 365
+			}
+			random = {
+				add_trait = lustful
+				chance = 30
+			}
+		}
+		else = {
+			piety = 3
+			prestige = 3
+			random = {
+				add_trait = lustful
+				chance = 20
+			}
+		}
+	}
+	option = { # Skeptical
+		name = VIETmisc.8252.d
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 365
+		}
+		random = {
+			add_trait = cynical
+			chance = 20
+		}
+	}
+	option = { # Faithful followers
+		name = VIETmisc.8252.e
+		trigger = {
+			OR = {
+				religion_group = zoroastrian_group
+				religion = messalian
+				has_religion_feature = religion_holy_family 
+				has_religion_feature = religion_feature_zun
+			}
+			NOT = { religion = manichean }
+		}
+		piety = 5
+	}
+}
+
+
+
+# Servant hears about the flying rabbits of the north
+character_event = {
+	id = VIETmisc.8253
+	desc = VIETmisc.8253.desc
+	picture = GFX_evt_snow_in_winter
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Rabbits don't fly
+		name = VIETmisc.8253.a
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 180
+		}
+	}
+	option = { # Cool story
+		name = VIETmisc.8253.b
+		random = {
+			add_trait = trusting
+			chance = 25
+		}
+	}
+	option = { # Actually
+		name = VIETmisc.8253.c
+		trigger = {
+			trait = erudite	
+			NOT = { learning = 13 }
+		}
+		tooltip_info = erudite
+		prestige = 4
+	}
+	option = { # Actually
+		name = VIETmisc.8253.d
+		trigger = {
+			learning = 13
+		}
+		tooltip_info = learning
+		prestige = 4
+	}
+}
+
+
+# Traveler tells of the lost village in the deserts of Egypt
+long_character_event = {
+	id = VIETmisc.8254
+	desc = VIETmisc.8254.desc
+	picture = GFX_evt_ancient_egypt
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#NOR = {
+		#	culture = egyptian_arabic
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+	}
+
+	option = { # Amazing
+		name = VIETmisc.8254.a
+		prestige = 5
+		add_character_modifier = {
+			name = VIET_interesting_talk_with_stranger
+			duration = 365
+		}
+	}
+	option = { # Bah!
+		name = VIETmisc.8254.b
+		random_list = {
+			65 = { }
+			25 = { add_trait = proud }
+			10 = { add_trait = cynical }
+		}
+		add_character_modifier = {
+			name = VIET_interesting_talk_with_stranger
+			duration = 365
+		}
+	}
+	option = { # Still around?
+		name = VIETmisc.8254.c
+		piety = 5
+		add_character_modifier = {
+			name = VIET_interesting_talk_with_stranger
+			duration = 365
+		}
+	}
+}
+
+
+
+# Traveler tells of a golden island beyond Japan
+long_character_event = {
+	id = VIETmisc.8255
+	desc = VIETmisc.8255.desc
+	picture = GFX_evt_chinese_prince
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 0.4
+			NOR = {
+				is_sinosphere_large_trigger = yes
+				capital_scope = {
+					OR = {
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_india
+						region = world_persia
+						region = world_middle_east
+						region = world_africa_east
+					}
+				}
+			}
+		}
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+	}
+
+	option = { # Amazing
+		name = VIETmisc.8255.a
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+	}
+	option = { # Bah!
+		name = VIETmisc.8255.b
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 365
+		}
+	}
+}
+
+
+# Hearing about opposite land underground
+long_character_event = {
+	id = VIETmisc.8256
+	desc = VIETmisc.8256.desc
+	picture = GFX_evt_shaman_personal_advice
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+
+	option = { # Amazing
+		name = VIETmisc.8256.a
+		add_character_modifier = {
+			name = VIET_open_minded_ruler
+			duration = 365
+		}
+	}
+	option = { # Bah!
+		name = VIETmisc.8256.b
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 365
+		}
+	}
+	option = { # Fascinating
+		name = VIETmisc.8256.c
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+	}
+}
+
+
+# Story of the labyrinth a la the Minotaur
+character_event = {
+	id = VIETmisc.8257
+	desc = VIETmisc.8257.desc
+	picture = GFX_evt_dark_tunnel
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+	}
+
+	option = { # Deserves freedom
+		name = VIETmisc.8257.a
+		random_list = {
+			70 = { }
+			10 = { add_trait = arbitrary }
+			10 = { add_trait = kind }
+			10 = { add_trait = charitable }
+		}
+	}
+	option = { # Unnecessary
+		name = VIETmisc.8257.b
+		random_list = {
+			70 = { }
+			10 = { add_trait = temperate }
+			10 = { add_trait = slothful }
+			10 = { add_trait = just }
+		}
+	}
+	option = { # Monsters and death traps
+		name = VIETmisc.8257.c
+		random_list = {
+			70 = { }
+			10 = { add_trait = cruel }
+			10 = { add_trait = deceitful }
+			10 = { add_trait = cynical }
+		}
+	}
+}
+
+
+
+# Gate to another world
+character_event = {
+	id = VIETmisc.8258
+	desc = VIETmisc.8258.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+
+	option = { # Wish I could go there
+		name = VIETmisc.8258.a
+		random_list = {
+			70 = { }
+			15 = { add_trait = trusting }
+			15 = { add_trait = envious }
+		}
+	}
+	option = { # I'll best the guardian in combat
+		name = VIETmisc.8258.b
+		random_list = {
+			70 = { }
+			15 = { add_trait = proud }
+			15 = { add_trait = brave }
+		}
+	}
+	option = { # Happy with what I have
+		name = VIETmisc.8258.c
+		random_list = {
+			70 = { }
+			10 = { add_trait = content }
+			10 = { add_trait = patient }
+			10 = { add_trait = humble }
+		}
+	}
+}
+
+
+
+
+# Old man recounts meeting the Dreamer
+character_event = {
+	id = VIETmisc.8259
+	desc = VIETmisc.8259.desc
+	picture = GFX_evt_finnish_mystique
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+
+	option = { # Type A is bad
+		name = VIETmisc.8259.a
+		piety = 5
+		random_list = {
+			50 = { }
+			25 = { add_trait = patient }
+			25 = { add_trait = humble }
+		}
+		if = {
+			limit = {
+				trait = ambitious
+			}
+			random = {
+				remove_trait = ambitious
+				chance = 50
+			}
+		}
+	}
+
+	option = { # Type A is good
+		name = VIETmisc.8259.b
+		piety = 5
+		random_list = {
+			50 = { }
+			25 = { add_trait = brave }
+			25 = { add_trait = arbitrary }
+		}
+		if = {
+			limit = {
+				trait = patient
+			}
+			random = {
+				remove_trait = patient
+				chance = 40
+			}
+		}
+		if = {
+			limit = {
+				trait = temperate
+			}
+			random = {
+				remove_trait = temperate
+				chance = 40
+			}
+		}
+		if = {
+			limit = {
+				trait = humble
+			}
+			random = {
+				remove_trait = humble
+				chance = 40
+			}
+		}
+	}
+
+	option = { # You met the Dreamer?
+		name = VIETmisc.8259.c
+		trigger = { # Dreamer - will have to change later, will not trigger atm
+			has_character_flag = VIET_met_the_dreamer
+		}
+	}
+}
+
+
+
+# Stories of the immortal horse
+character_event = {
+	id = VIETmisc.8260
+	desc = VIETmisc.8260.desc
+	picture = GFX_evt_journey_to_spirit_world_tengri_pagan
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		capital_scope = {
+			NOR = {
+				region = world_africa
+				region = world_europe_west
+				region = world_india_deccan
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 0.5
+			NOR = {
+				is_nomadic = yes
+				culture_group = altaic
+				culture_group = magyar
+				culture_group = finno_ugric
+				culture_group = chinese_group
+				culture_group = tibetan_group
+				culture_group = iranian
+				culture_group = east_slavic
+				#culture_group = south_slavic
+				#culture_group = west_slavic
+				#culture_group = byzantine
+			}
+		}	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = erudite
+		}
+	}
+
+	option = { # Cool!
+		name = VIETmisc.8260.a
+		add_character_modifier = {
+			name = VIET_im_curious
+			duration = 365
+		}
+	}
+	option = { # Not real!
+		name = VIETmisc.8260.b
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 365
+		}
+	}
+}
+
+# Meeting the woman in white
+character_event = {
+	id = VIETmisc.8261
+	desc = VIETmisc.8261.desc
+	picture = GFX_evt_viet_forest_girl
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Coward
+		name = VIETmisc.8261.a
+		prestige = 2
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}
+	option = { # Scary
+		name = VIETmisc.8261.a
+		piety = 2
+		add_character_modifier = {
+			name = VIET_eerie_story
+			duration = 365
+		}
+	}
+}
+
+# Maid recounts meeting the Dreamer
+character_event = {
+	id = VIETmisc.8262
+	desc = VIETmisc.8262.desc
+	picture = GFX_evt_hades_forest
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Scary
+		name = VIETmisc.8262.a
+		add_character_modifier = {
+			name = VIET_eerie_story
+			duration = 365
+		}
+	}
+	option = { # You met the dreamer?
+		name = VIETmisc.8262.b
+		trigger = { # Dreamer - will have to change later, will not trigger atm
+			has_character_flag = VIET_met_the_dreamer
+		}
+	}
+}
+
+
+# Scholar tells of an island on a lake - part 1
+character_event = {
+	id = VIETmisc.8263
+	desc = VIETmisc.8263.desc
+	picture = GFX_evt_skyrim_forest
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Scary
+		name = VIETmisc.8263.a
+		narrative_event = { id = VIETmisc.8264 tooltip = VIETmisc.8264.tooltip }
+	}
+}
+
+
+# Scholar tells of an island on a lake - part 2
+narrative_event = {
+	id = VIETmisc.8264
+	title = VIETmisc.8264.title
+	desc = VIETmisc.8264.desc
+	picture = GFX_evt_stone_church_hellenic_pagan
+	
+	is_triggered_only = yes
+
+	option = { # Scary
+		name = VIETmisc.8264.a
+		add_character_modifier = {
+			name = VIET_eerie_story
+			duration = 365
+		}
+	}
+	option = { # Dream?
+		name = VIETmisc.8264.b
+		add_character_modifier = {
+			name = VIET_navel_gazing
+			duration = 365
+		}
+	}
+	option = { # Curious
+		name = VIETmisc.8264.c
+		add_character_modifier = {
+			name = VIET_im_curious
+			duration = 365
+		}
+	}
+}
+
+# Courtiers debate the skin color of the people living on the fantastical Isle of Color (with rhyming)
+character_event = {
+	id = VIETmisc.8265
+	desc = VIETmisc.8265.desc
+	picture = GFX_evt_skyrim_forest
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+
+	option = { # Doesn't exist
+		name = VIETmisc.8265.a
+		prestige = 3
+	}
+	option = { # Pink skin
+		name = VIETmisc.8265.b
+		prestige = 3
+	}
+	option = { # Dark blue skin
+		name = VIETmisc.8265.c
+		piety = 3
+	}
+	option = { # Green skin
+		name = VIETmisc.8265.c
+		random_list = {
+			50 = { piety = 3 }
+			50 = { prestige = 3 }
 		}
 	}
 }

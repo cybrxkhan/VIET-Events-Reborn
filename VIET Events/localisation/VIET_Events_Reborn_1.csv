@@ -986,34 +986,62 @@ VIETmisc.8251.a;Dark depths of court intrigue and politics in the ancient city;D
 VIETmisc.8251.b;Pleasure to be had with its courtesans and entertainers;Du plaisir d'être avec ses courtisanes et ses artistes;;;;;;;;;;;;x
 VIETmisc.8251.c;Trade that flows from all corners of the world;Du commerce qui coule des quatre coins du monde;;;;;;;;;;;;x
 VIETmisc.8251.d;Daily lives of its inhabitants, from high nobles to humble commoners;De la vie quotidienne de ses habitants, des plus nobles aux plus modestes;;;;;;;;;;;;x
-VIETmisc.8252.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8252.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8253.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8253.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8254.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8254.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8255.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8255.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8256.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8256.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8257.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8257.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8258.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8258.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8259.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8259.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8260.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8260.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8261.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8261.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8262.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8262.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8263.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8263.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8264.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8264.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8265.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8265.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8252.desc;I have heard that there are lands far away from where I live, where the practice of marriage between siblings is common and not just accepted, but actively embraced and encouraged. Could such places even exist? If they did, I have yet to meet anyone from them in person. ;;;;;;;;;;;x
+VIETmisc.8252.a;Absolutely barbaric! Degenerates!;;;;;;;;;;;;;x
+VIETmisc.8252.b;Who am I to judge? Different people have different customs.;;;;;;;;;;;;;x
+VIETmisc.8252.c;Thinking about them gets me all excited.;;;;;;;;;;;;;x
+VIETmisc.8252.d;I don’t think they exist. Probably made up by some pervert.;;;;;;;;;;;;;x
+VIETmisc.8252.e;Perhaps they are true followers of [Root.Religion.GetHighGodName].;;;;;;;;;;;;;x
+VIETmisc.8253.desc;“Have you heard of the flying rabbits of the far north?” my servant asks me one day, while we are conversing about various matters. “Fascinating creatures! Do you think they’re real?”;;;;;;;;;;;x
+VIETmisc.8253.a;Don’t be silly. Rabbits don’t fly, nor live in the frozen north.;;;;;;;;;;;;;x
+VIETmisc.8253.b;Who knows? It’s certainly a possibility!;;;;;;;;;;;;;x
+VIETmisc.8253.c;You’re confusing them with a real creature known as the...;;;;;;;;;;;;;x
+VIETmisc.8253.d;You’re confusing them with a real creature known as the...;;;;;;;;;;;;;x
+VIETmisc.8254.desc;A traveler is regaling me with a tale he heard when he was visiting a town along the Nile one day. “I was told that during Roman times, Egypt’s governor sent a trusted friend and advisor as a diplomat to the southern lands of Ethiopia, but he got lost in the desert not too far from where I stayed. He finally found a large oasis, where people still behaved like the ancient Egyptians, building pyramids and worshipping ancient gods, and they had no knowledge of how the Nile had been conquered by first the Hellenes and then the Romans.”;;;;;;;;;;;x
+VIETmisc.8254.a;That a community would keep alive such ancient customs!;;;;;;;;;;;;;x
+VIETmisc.8254.b;I’m sure they were merely some troglodytic peasants.;;;;;;;;;;;;;x
+VIETmisc.8254.c;Would these hidden oases still be around today?;;;;;;;;;;;;;x
+VIETmisc.8255.desc;“Ah! Let me tell you a story,” the merchant says, after we finish with business. Not one to anger my jolly guest, we sit down as we feast and he tells me what he heard when he visited China not too long ago. “I was told that if one sails east, beyond even the fabled isles of Cipangu, one would eventually reach a large island ruled by towering men who ride steeds of solid gold. These people of the Sun are most intelligent and mighty and ruled by an immortal dragon.”;;;;;;;;;;;x
+VIETmisc.8255.a;Fascinating people! Maybe one day we’ll meet them.;;;;;;;;;;;;;x
+VIETmisc.8255.b;I’m not convinced they exist.;;;;;;;;;;;;;x
+VIETmisc.8256.desc;An acquaintance tells me that she heard if one digs underground deep enough, one will emerge in another world where there are people similar to ours. However, they are the opposite of us - their women are taller than their men, the men stay at home and manage domestic affairs while the women fight wars, and most scandalously, siblings can wed one another. Still, my acquaintance said she heard this land was mostly peaceful and prosperous.;;;;;;;;;;;x
+VIETmisc.8256.a;Perhaps their strange ways are why they’re prosperous and peaceful.;;;;;;;;;;;;;x
+VIETmisc.8256.b;Really now! What kind of society like that could exist?;;;;;;;;;;;;;x
+VIETmisc.8256.c;How exciting! My imagination is trying to envision such a place.;;;;;;;;;;;;;x
+VIETmisc.8257.desc;Someone tells me of a king in a faraway land who was cruel, yet fair in his dealings. Once, he hired an engineer to create the largest labyrinth the world has ever known. Those guilty of the worst crimes are put in this maze of tunnels and hallways. Almost none escape, but there are always a few who have the wits and tenacity, and the king grants these few their freedom.;;;;;;;;;;;x
+VIETmisc.8257.a;Someone capable enough to escape deserves freedom, yes.;;;;;;;;;;;;;x
+VIETmisc.8257.b;A strange ruler! Such unnecessary and outlandish methods.;;;;;;;;;;;;;x
+VIETmisc.8257.c;I hope his labyrinth is full of monsters and death traps!;;;;;;;;;;;;;x
+VIETmisc.8258.desc;I have heard rumors about a noble and valiant warrior woman in a distant land, who is immortal and stands guard over an ancient gate made of marble and obsidian. Those who best her in combat will be allowed into the gate, which is a portal to a heavenly paradise, a most peaceful and pastoral landscape one can live in with no worries nor fears. If it did exist, could I go there?;;;;;;;;;;;x
+VIETmisc.8258.a;If only I could go to such a place, I’d be so happy.;;;;;;;;;;;;;x
+VIETmisc.8258.b;I’m sure I could beat that woman and gain entry.;;;;;;;;;;;;;x
+VIETmisc.8258.c;I don’t need it. I have all I need here.;;;;;;;;;;;;;x
+VIETmisc.8259.desc;I meet a local village elder, a wizened old man, who was a foolhardy adventurer in his youth. He once got lost in a great forest, and almost drowned in its swamps. He was rescued by a mysterious man who referred to himself only as a dreamer and who warned about the seductive dangers of excitement and risk. Afterwards, the old man lived a stable, quiet, happy life back home.;;;;;;;;;;;x
+VIETmisc.8259.a;Agreed! Only idiots blindly worship excitement and ambition.;;;;;;;;;;;;;x
+VIETmisc.8259.b;I disagree. What’s the point of living a boring life?;;;;;;;;;;;;;x
+VIETmisc.8259.c;Wait a moment… did you meet the Dreamer?;;;;;;;;;;;;;x
+VIETmisc.8260.desc;Among the nomad peoples of Eurasia, there are stories of an immortal horse, forever racing across the great steppes, free and bold. The galloping of the mighty steed’s hooves sound like thunder, and it is faster than anything one could see.;;;;;;;;;;;x
+VIETmisc.8260.a;Maybe one day I shall see it!;;;;;;;;;;;;;x
+VIETmisc.8260.b;A fanciful tale, nothing more.;;;;;;;;;;;;;x
+VIETmisc.8261.desc;I have a guard who once visited a distant village by a forest said to be a gateway to the world beyond. He went in the forest despite the locals’ warning. There, he encountered a pale maiden wearing a white dress. Though she was charming and bashful, he fled immediately, knowing this must have been a frightening spirit of some sort. The locals said such sightings are common.;;;;;;;;;;;x
+VIETmisc.8261.a;What a coward! She couldn’t have been a spirit.;;;;;;;;;;;;;x
+VIETmisc.8261.b;Frightening things lie beyond the fringes of civilization!;;;;;;;;;;;;;x
+VIETmisc.8262.desc;My new maid is a strange woman. Her father was a merchant, and she accompanied him on his journeys. She claims when she was little, they visited a forested land when she got lost in the woods at night. A mysterious woman found her sobbing, and guided her back to the main road. The woman barely spoke and merely said she was a dreamer, and disappeared soon after.;;;;;;;;;;;x
+VIETmisc.8262.a;A strange encounter!;;;;;;;;;;;;;x
+VIETmisc.8262.b;Wait - you met the Dreamer, didn't you!;;;;;;;;;;;;;x
+VIETmisc.8263.desc;I am hosting a prominent local scholar. Contrary to my expectations of him being an awkward, doddering old man, he is rather young, handsome, and charismatic. As we talk, he tells me about a large lake in my realm. He once visited it, but almost drowned when he tried taking a swim. When he came to, he found himself on one of the lake’s islands he never saw before.;;;;;;;;;;;x
+VIETmisc.8263.a;What happened next?;;;;;;;;;;;;;x
+VIETmisc.8264.tooltip;He describes its geography, and I do not recall a lake on such an island either. Very mysterious!;;;;;;;;;;;x
+VIETmisc.8264.title;Lost Island;;;;;;;;;;;x
+VIETmisc.8264.desc;The scholar circled the shore of the island and came across an old temple built by the ancients, yet still in good condition despite being abandoned. There, he quickly prayed to [Root.Religion.GetHighGodName]. Afterwards, to his surprise, he found a small boat near the temple which he used to leave the island.\n\nEvery time he returned to the lake, he could never find the island again. No one has heard of an island on that lake with its characteristics and geography, and it isn’t mentioned in local legends, and his fellow scholars have not found a trace of it in historical records.;;;;;;;;;;;x
+VIETmisc.8264.a;There must have been something strange afoot.;;;;;;;;;;;;;x
+VIETmisc.8264.b;Perhaps the whole thing was a dream?;;;;;;;;;;;;;x
+VIETmisc.8264.c;Will I find the island one day? Who knows what secrets it holds!;;;;;;;;;;;;;x
+VIETmisc.8265.desc;I appear to have interrupted a heated debate. A courtiers have been discussing rumors they heard about a distant land known as the Isle of Colors, where men and women are like us, except for one thing: their skin is an unnatural color. What my courtiers cannot seem to agree on, however, is what that skin color is. Perhaps I can provide my input on the matter?;;;;;;;;;;;x
+VIETmisc.8265.a;The Isle of Colors does not exist. Someone made it up.;;;;;;;;;;;;;x
+VIETmisc.8265.b;Their skin’s true color is pink - at least, that’s what I think.;;;;;;;;;;;;;x
+VIETmisc.8265.c;I’d say surely dark blue is their skin’s natural hue!;;;;;;;;;;;;;x
+VIETmisc.8265.d;I’d guess their skin is green, though this I have not seen.;;;;;;;;;;;;;x
 VIETmisc.8266.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8266.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8267.desc;xxxxx;;;;;;;;;;;x

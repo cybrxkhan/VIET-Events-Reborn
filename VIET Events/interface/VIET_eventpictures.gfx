@@ -1931,12 +1931,12 @@ spriteTypes = {
 	}				
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_iranian"
-		texturefile = "gfx\\event_pictures\\ancient_cairn_arabic.tga"
+		texturefile = "gfx\\event_pictures\\persepolis_ruin.tga"
 		allwaystransparent = yes
 	}				
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_serindian"
-		texturefile = "gfx\\event_pictures\\ancient_cairn_arabic.tga"
+		texturefile = "gfx\\event_pictures\\persepolis_ruin.tga"
 		allwaystransparent = yes
 	}		
 	spriteType = {
@@ -2507,6 +2507,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_asian_zither"
 		texturefile = "gfx\\event_pictures\\asian_zither.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_finnish_mystique"
+		texturefile = "gfx\\event_pictures\\finnish_mystique.tga"
 		allwaystransparent = yes
 	}
 }

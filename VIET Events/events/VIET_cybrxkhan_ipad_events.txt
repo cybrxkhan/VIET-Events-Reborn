@@ -2978,6 +2978,7 @@ character_event = {
 	war = no
 	
 	trigger = {
+		always = no
 		in_command = no
 		has_game_rule = {
 			name = VIET_events_rules
