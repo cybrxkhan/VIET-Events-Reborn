@@ -990,7 +990,7 @@ VIETmisc.8252.desc;I have heard that there are lands far away from where I live,
 VIETmisc.8252.a;Absolutely barbaric! Degenerates!;;;;;;;;;;;;;x
 VIETmisc.8252.b;Who am I to judge? Different people have different customs.;;;;;;;;;;;;;x
 VIETmisc.8252.c;Thinking about them gets me all excited.;;;;;;;;;;;;;x
-VIETmisc.8252.d;I don’t think they exist. Probably made up by some pervert.;;;;;;;;;;;;;x
+VIETmisc.8252.d;I don’t think they exist, made up by some pervert without a sister.;;;;;;;;;;;;;x
 VIETmisc.8252.e;Perhaps they are true followers of [Root.Religion.GetHighGodName].;;;;;;;;;;;;;x
 VIETmisc.8253.desc;“Have you heard of the flying rabbits of the far north?” my servant asks me one day, while we are conversing about various matters. “Fascinating creatures! Do you think they’re real?”;;;;;;;;;;;x
 VIETmisc.8253.a;Don’t be silly. Rabbits don’t fly, nor live in the frozen north.;;;;;;;;;;;;;x
@@ -1042,28 +1042,48 @@ VIETmisc.8265.a;The Isle of Colors does not exist. Someone made it up.;;;;;;;;;;
 VIETmisc.8265.b;Their skin’s true color is pink - at least, that’s what I think.;;;;;;;;;;;;;x
 VIETmisc.8265.c;I’d say surely dark blue is their skin’s natural hue!;;;;;;;;;;;;;x
 VIETmisc.8265.d;I’d guess their skin is green, though this I have not seen.;;;;;;;;;;;;;x
-VIETmisc.8266.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8266.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8267.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8267.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8268.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8268.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8269.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8269.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8270.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8270.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8271.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8271.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8272.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8272.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8273.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8273.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8274.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8274.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8275.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8275.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8276.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8276.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8266.desc;When my official put the stamp of approval on the document, the ink got smudged. It still looks recognizable, but it does not look neat at all. On the other hand, rewriting the entire document would mean a waste of time that could be spent elsewhere, as it is a very big document.;;;;;;;;;;;x
+VIETmisc.8266.a;Rewrite it. We don't want any misunderstandings.;;;;;;;;;;;;;x
+VIETmisc.8266.b;It is alright - leave it as it is.;;;;;;;;;;;;;x
+VIETmisc.8267.desc;We spent all day looking for the lost document in the piles of papers and scrolls, but alas, it could not be found. It was an important document too!;;;;;;;;;;;x
+VIETmisc.8267.a;What are we going to do now?;;;;;;;;;;;;;x
+VIETmisc.8268.desc;A local official of yours was accused of corruption. He confessed to being seduced by a young, unmarried noblewoman who asked him to overlook some illegal activities her brother partook in. He has subsequently fined and punished the wrongdoer brother, but he still allowed himself to get into this mess in the first place, not to mention he says he is still in love with the lady.;;;;;;;;;;;x
+VIETmisc.8268.a;All's well that ends well! Give my blessings for their marriage.;;;;;;;;;;;;;x
+VIETmisc.8268.b;Fine the official and tell him not to do it again.;;;;;;;;;;;;;x
+VIETmisc.8268.c;Imprison the official. What he did was wrong.;;;;;;;;;;;;;x
+VIETmisc.8268.d;Execute the official! Such weakness is unacceptable.;;;;;;;;;;;;;x
+VIETmisc.8269.desc;You've heard about one of your lesser officials who is rumored to be incorruptible. Fascinated, you visit him incognito one day, pretending to be a typical nobleman. You offer him bribes of all sorts, promises of fame and glory, and beautiful women, but he seems unmoved. Finally, when you reveal yourself, he still remains unmoved, calmly saying he was merely doing his job.;;;;;;;;;;;x
+VIETmisc.8269.a;Why doesn’t he treat me more special than others?;;;;;;;;;;;;;x
+VIETmisc.8269.b;Good to see I have dependable people working for me.;;;;;;;;;;;;;x
+VIETmisc.8269.c;How admirable! Reward him for his efforts.;;;;;;;;;;;;;x
+VIETmisc.8269.d;I need someone like him by my side at court.;;;;;;;;;;;;;x
+VIETmisc.8270.desc;I've misplaced some critical documents and will have to meet with some officials soon about issues related to those documents. What am I going to do?;;;;;;;;;;;x
+VIETmisc.8270.a;I'm the [Root.GetTitle], they won't dare to reprimand me.;;;;;;;;;;;;;x
+VIETmisc.8270.b;Admit my mistake and promise to make up for it.;;;;;;;;;;;;;x
+VIETmisc.8270.c;Make up some excuse - my horse ate the documents.;;;;;;;;;;;;;x
+VIETmisc.8270.d;Pretend I'm sick so I won't have to meet them.;;;;;;;;;;;;;x
+VIETmisc.8271.desc;You notice a stain on a scroll you're reading. The blotch is awfully distracting. What could have caused it?;;;;;;;;;;;x
+VIETmisc.8271.a;Gross! I don't want to touch that scroll now.;;;;;;;;;;;;;x
+VIETmisc.8271.b;It's probably just water or juice.;;;;;;;;;;;;;x
+VIETmisc.8272.desc;I am receiving some envoys and notice that I am standing a few inches behind where I should ideally stand, if I wanted to follow proper court etiquette and protocol. I take a small step forward to prevent a faux pas.;;;;;;;;;;;x
+VIETmisc.8272.a;That was a close one!;;;;;;;;;;;;;x
+VIETmisc.8273.desc;I sneezed in the middle of a meeting with my counselors. No one said “bless you” to me, as if they did not notice!;;;;;;;;;;;x
+VIETmisc.8273.a;It's no matter.;;;;;;;;;;;;;x
+VIETmisc.8273.b;No one cares about me.;;;;;;;;;;;;;x
+VIETmisc.8273.c;This makes me angry!;;;;;;;;;;;;;x
+VIETmisc.8274.desc;“It’s our policy - we can't go against it,” you overhear one of your bureaucrats explaining to another.\n\nThe other bureaucrat frowns. “If we do it that way, we'll waste a lot of time. The commoners are depending on us to help them.”;;;;;;;;;;;x
+VIETmisc.8274.a;Continue walking along.;;;;;;;;;;;;;x
+VIETmisc.8274.b;Tell them following policy is important.;;;;;;;;;;;;;x
+VIETmisc.8274.c;Tell them to ignore the rules for now.;;;;;;;;;;;;;x
+VIETmisc.8275.desc;One of your minor officials has accused his superior of refusing to promote or reward him. Upon investigation, you find this minor official to be extremely talented and capable. However, when you discuss this with his superior, the senior official says this minor official came from an inferior, lesser background - his mother was once a whore! - so he needs to know his place.;;;;;;;;;;;x
+VIETmisc.8275.a;Good point! Merit is nothing compared to lineage.;;;;;;;;;;;;;x
+VIETmisc.8275.b;I disagree. The minor official will be promoted.;;;;;;;;;;;;;x
+VIETmisc.8275.c;I'm sure they'll sort out their differences eventually.;;;;;;;;;;;;;x
+VIETmisc.8275.d;If he's underappreciated, I'll have him work directly for me.;;;;;;;;;;;;;x
+VIETmisc.8276.desc;While holding court, I suddenly recall something extremely embarrassing and shameful I did years ago. No matter how hard I try, the memories gnaw at my consciousness and sense of decency, and I have to fight hard to ensure I don't turn into a sobbing wreck. I can't believe I did it back then - what was I thinking?;;;;;;;;;;;x
+VIETmisc.8276.a;My stupid mind! Curse you for remembering!;;;;;;;;;;;;;x
+VIETmisc.8276.b;Ignore it, ignore it, ignore it, ignore it!;;;;;;;;;;;;;x
+VIETmisc.8276.c;Actually it was pretty funny.;;;;;;;;;;;;;x
 VIETmisc.8277.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8277.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8278.desc;xxxxx;;;;;;;;;;;x
