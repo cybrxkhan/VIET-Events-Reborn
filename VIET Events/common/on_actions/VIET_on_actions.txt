@@ -228,6 +228,13 @@ on_yearly_pulse = {
 			100 = VIETmisc.8260	# Stories of the immortal horse
 			100 = VIETmisc.8261	# Meeting the woman in white
 			100 = VIETmisc.8265	# Courtiers debate the skin color of the people living on the fantastical Isle of Color (with rhyming)
+			#Daily Work
+			100 = VIETmisc.8266	# Ink smudges document
+			100 = VIETmisc.8267	# Lost an important document
+			100 = VIETmisc.8270	# Misplaced documents before an important meeting
+			100 = VIETmisc.8271	# Stain on a scroll that you're reading
+			100 = VIETmisc.8273	# Sneezing during council meeting
+			100 = VIETmisc.8276	# Remembering something shameful that happened while holding court
 		}
 		
 	}
@@ -423,6 +430,10 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8252	# Rumors about incestuous marriage in faraway lands
 			100 = VIETmisc.8256	# Hearing about opposite land underground			
 			100 = VIETmisc.8258	# Gate to another world
+			# Daily Work
+			100 = VIETmisc.8268	# Official seduced into corruption
+			100 = VIETmisc.8272	# Standing in the wrong place while meeting an envoy
+			100 = VIETmisc.8274	# Officials discuss whether it's better to follow policy or do what's right
 		
 		}
 		
@@ -579,6 +590,9 @@ on_five_year_pulse = {
 			100 = VIETmisc.8259	# Old man recounts meeting the Dreamer
 			100 = VIETmisc.8262	# Maid recounts meeting the Dreamer
 			100 = VIETmisc.8263	# Scholar tells of an island on a lake - part 1
+			#Daily Work
+			100 = VIETmisc.8269	# Testing an upright official incognito
+			100 = VIETmisc.8275	# Minor official overlooked because of humble origin
 		}
 		
 		#ALL VIET artifact events should go here!

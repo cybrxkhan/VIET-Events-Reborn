@@ -1044,3 +1044,27 @@ VIET_eerie_story = {
 	intrigue = 1
 	icon = 81
 }
+VIET_upright_official = {
+	diplomacy = 1
+	stewardship = 1
+	intrigue = -1
+	general_opinion = 10
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.1
+	icon = 8
+}
+VIET_promoted_minor_official = {
+	stewardship = 1
+	monthly_character_piety = 0.05
+	monthly_character_prestige = -0.05
+	icon = 11
+}
+VIET_talented_humble_official = {
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	general_opinion = -20
+	monthly_character_prestige = -0.1
+	icon = 18
+}
