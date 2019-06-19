@@ -600,7 +600,11 @@ character_event = {
 				add_trait = fair
 				add_trait = shrewd
 				add_trait = kind
-				add_trait = humble
+				add_trait = humble				
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
+				}	
 				#Flavor
 				random_list = {
 					80 = { } #Nothing
@@ -699,7 +703,11 @@ character_event = {
 				add_trait = fair
 				add_trait = shrewd
 				add_trait = kind
-				add_trait = humble
+				add_trait = humble				
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
+				}	
 				#Flavor
 				random_list = {
 					80 = { } #Nothing
@@ -2035,7 +2043,11 @@ character_event = {
 				15 = { add_trait = quick }
 				5 = { add_trait = genius }
 				50 = { }
-			}
+			}				
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}	
 			#Personality Archetypes
 			random_list = {
 				20 = { # Hot brooding jerk

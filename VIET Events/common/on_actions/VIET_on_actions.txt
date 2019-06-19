@@ -37,7 +37,10 @@ on_yearly_pulse = {
 			#Old age
 			100 = VIETnam.107	# Old person complains about youth			
 			100 = VIETnam.108	# Old person worrying about the afterlife		
-			100 = VIETnam.109	# Old person doesn't understand new slang		
+			100 = VIETnam.109	# Old person doesn't understand new slang	
+			#Byzantine
+			100 = VIETnam.114	# Baklava		
+			100 = VIETnam.117	# Syrtos Dance	
 			#Food
 			100 = VIETnam.193	# Sour Kefir
 			100 = VIETnam.194	# North African mint tea ceremony
@@ -113,6 +116,14 @@ on_yearly_pulse = {
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2021		# How should heretic be purified?
 			100 = VIETmisc.2023		# Vassal isn't being charitable enough
+			#TES References
+			100 = VIETmisc.2205		# Guard is watching foreigner scum
+			100 = VIETmisc.2209		# Guard on guard duty complains about not fighting infidels
+			100 = VIETmisc.2211		# Wolfish grin on a courtier
+			#Furniture
+			100 = VIETmisc.2235		# Fell from chair
+			100 = VIETmisc.2236		# Gum under the table
+			100 = VIETmisc.2237		# Messy desk
 			#Monogatari references
 			100 = VIETmisc.2244		# Courtier makes rude PMS comment
 			#Urine
@@ -197,6 +208,33 @@ on_yearly_pulse = {
 			100 = VIETmisc.8177 # Clove oil to help with headaches
 			100 = VIETmisc.8179 # Chewing on fennel seeds to freshen breath
 			100 = VIETmisc.8180 # Drink ginger tea for stomachache
+			#Rose
+			100 = VIETmisc.8192 # Rose water cookies
+			100 = VIETmisc.8193 # Using rose water to wash hands in medieval Europe
+			100 = VIETmisc.8194 # Skin ointment made from rose water
+			100 = VIETmisc.8202 # Rose tea
+			#Broccoli
+			100 = VIETmisc.8215 # Someone doesn't like broccoli
+			100 = VIETmisc.8216 # Broccoli vs cauliflower
+			#Strange dreams
+			100 = VIETmisc.8217 # Dream of a great ship in a harbor
+			100 = VIETmisc.8218 # Meet someone you know irl in a dream
+			100 = VIETmisc.8232 # Sunset dream with a companion
+			100 = VIETmisc.8236 # Lost in an abandoned RPG dungeon dream
+			#Constantinople
+			100 = VIETmisc.8249	# Will Constantinople ever be taken by a Muslim lord?
+			#Fantastical Stories
+			100 = VIETmisc.8253	# Servant hears about the flying rabbits of the north
+			100 = VIETmisc.8260	# Stories of the immortal horse
+			100 = VIETmisc.8261	# Meeting the woman in white
+			100 = VIETmisc.8265	# Courtiers debate the skin color of the people living on the fantastical Isle of Color (with rhyming)
+			#Daily Work
+			100 = VIETmisc.8266	# Ink smudges document
+			100 = VIETmisc.8267	# Lost an important document
+			100 = VIETmisc.8270	# Misplaced documents before an important meeting
+			100 = VIETmisc.8271	# Stain on a scroll that you're reading
+			100 = VIETmisc.8273	# Sneezing during council meeting
+			100 = VIETmisc.8276	# Remembering something shameful that happened while holding court
 		}
 		
 	}
@@ -213,7 +251,12 @@ on_bi_yearly_pulse = {
 			
 			#Old Age
 			100 = VIETnam.106	# Can't hunt as much in old age		
-			100 = VIETnam.110	# Old person feels weaker and weaker as they get older and older	
+			100 = VIETnam.110	# Old person feels weaker and weaker as they get older and older
+			#Byzantine
+			100 = VIETnam.112	# From the Byzantine POV, are Catholics or Muslims better?	
+			100 = VIETnam.113	# Old monuments from antiquity
+			100 = VIETnam.115	# Courtier interested in western fashion
+			100 = VIETnam.118	# Visiting an Olive Farmer
 			#Food
 			100 = VIETnam.191	# Byzantine cook
 			100 = VIETnam.192	# Forks are terrible!
@@ -280,6 +323,11 @@ on_bi_yearly_pulse = {
 			#Eggs
 			100 = VIETmisc.2017		# House is egged
 			100 = VIETmisc.2018		# Bought a lot of pickled eggs
+			#TES References
+			100 = VIETmisc.2210		# Guard thinks maybe he's the Saoshyant
+			100 = VIETmisc.2213		# Nazeem reference - courtier doesn't recognize ruler
+			#Furniture
+			100 = VIETmisc.2234		# New wardrobe
 			#Urine
 			100 = VIETmisc.2248		# Urine is strange color
 			100 = VIETmisc.2252		# Passing by a peasant who is urinating
@@ -356,6 +404,36 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8187 # Eating lavender flavored cake with lavender flavored tea
 			100 = VIETmisc.8188 # Using tulsi/holy basil for pest control
 			100 = VIETmisc.8189 # Plant more tulsi/holy basil to worship Vishnu?
+			#Rose
+			100 = VIETmisc.8195 # Sprinkle rose water for funeral of a nobleman
+			100 = VIETmisc.8199 # Female ruler considers using rosehip oil to look youthful
+			100 = VIETmisc.8203 # Monk explains rose's significance as a symbol of the Virgin Mary
+			#Deer musk
+			100 = VIETmisc.8206 # Buy some musk deer products?
+			100 = VIETmisc.8208 # Hunters illegally hunting musk deer caught
+			#Virginity
+			100 = VIETmisc.8209 # Man worries about not having enough experience
+			100 = VIETmisc.8212 # Courtier boasts about supposed conquests of virgins
+			100 = VIETmisc.8213 # Courtier is lacking in sexual experience
+			#Broccoli
+			100 = VIETmisc.8214 # Exotic broccoli introduced to character
+			#Strange Dreams
+			100 = VIETmisc.8228 # Exploring the dreamworld at the beginning of time
+			100 = VIETmisc.8230 # Dream of the desert campfire that's symbolic for something
+			100 = VIETmisc.8233 # Dream of the primordial river
+			#Three Kingdoms
+			100 = VIETmisc.8243 # Hear a Chinese proverb about siblings
+			#Constantinople
+			100 = VIETmisc.8250	# Dispute between Italian merchants and Byzantine administrators
+			100 = VIETmisc.8251	# Hearing stories about Constantinople
+			#Fantastical Stories
+			100 = VIETmisc.8252	# Rumors about incestuous marriage in faraway lands
+			100 = VIETmisc.8256	# Hearing about opposite land underground			
+			100 = VIETmisc.8258	# Gate to another world
+			# Daily Work
+			100 = VIETmisc.8268	# Official seduced into corruption
+			100 = VIETmisc.8272	# Standing in the wrong place while meeting an envoy
+			100 = VIETmisc.8274	# Officials discuss whether it's better to follow policy or do what's right
 		
 		}
 		
@@ -370,8 +448,11 @@ on_five_year_pulse = {
 		VIET_five_year_random = {
 			delay = 28
 			
-			15000 = 0 #May need to adjust
+			16000 = 0 #May need to adjust
 			
+			#Byzantine
+			100 = VIETnam.116	# Western knight comes to character			
+			100 = VIETnam.119	# Bureau of Barbarians requests permission for investigation		
 			#Muslim
 			100 = VIETnam.177	# Scholar from the House of Wisdom visits your court
 			100 = VIETnam.183	# Annoying Beggar
@@ -412,6 +493,11 @@ on_five_year_pulse = {
 			100 = VIETmisc.2015 	# Spinach makes me strong
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2025		# Would you kill a baby?
+			#TES References
+			100 = VIETmisc.2206		# Lusty Argonian Maid
+			100 = VIETmisc.2208		# Cook serves powdered deer penis
+			100 = VIETmisc.2212		# Heimskr appears before you
+			100 = VIETmisc.2216		# the adoring fan appears
 			#Monogatari References
 			100 = VIETmisc.2240		# Character hears about incest-loving religions		
 			100 = VIETmisc.2242		# Female courtier makes weird comments about male ruler		
@@ -480,13 +566,40 @@ on_five_year_pulse = {
 			100 = VIETmisc.8181 # Stupid courtier thinks the grains of paradise actually came from heaven
 			100 = VIETmisc.8185 # Heartbroken servant can't afford herbal concoction to heal wounded heart (gender not specified)
 			100 = VIETmisc.8190 # Someone places basil on dead peron before funeral
+			#Rose
+			100 = VIETmisc.8196 # Courtier is growing an impressive rose garden
+			100 = VIETmisc.8197 # Admirer gives a letter with a rose
+			100 = VIETmisc.8200 # Stumble on two servants in love
+			100 = VIETmisc.8204 # Meet an old villager admiring a flower
+			#Virginity
+			100 = VIETmisc.8210 # Young noblewoman loses virtue to rakish scoundrel
+			100 = VIETmisc.8211 # Vasha from Skyrim - capture notorious bandit wanted for murder, theft, and rape
+			#Strange dreams
+			100 = VIETmisc.8221 # Dream of a Korean Drama (probably should've been considered an event chain but oh well)
+			100 = VIETmisc.8234 # Dream of a generic music-themed Kdrama titled "Music of Love"
+			100 = VIETmisc.8237 # Meeting the (female) Dreamer - part of VIET lore about the Dreamers
+			100 = VIETmisc.8239 # Meeting the (male) Dreamer - part of VIET lore about the Dreamers
+			#Three Kingdoms
+			100 = VIETmisc.8240	# Chinese shoemakers want to build a small shrine to Liu Bei
+			100 = VIETmisc.8242	# Chinese poet recites poetry inspired by the Three Caos
+			100 = VIETmisc.8244	# Who is your favorite Three Kingdoms character?
+			#Fantastical Stories
+			100 = VIETmisc.8254	# Traveler tells of the lost village in the deserts of Egypt
+			100 = VIETmisc.8255	# Traveler tells of a golden island beyond Japan
+			100 = VIETmisc.8257	# Story of the labyrinth a la the Minotaur
+			100 = VIETmisc.8259	# Old man recounts meeting the Dreamer
+			100 = VIETmisc.8262	# Maid recounts meeting the Dreamer
+			100 = VIETmisc.8263	# Scholar tells of an island on a lake - part 1
+			#Daily Work
+			100 = VIETmisc.8269	# Testing an upright official incognito
+			100 = VIETmisc.8275	# Minor official overlooked because of humble origin
 		}
 		
 		#ALL VIET artifact events should go here!
 		VIET_artifact_gain_random = {
 			delay = 15
 			
-			15000 = 0 #May need to adjust	
+			16000 = 0 #May need to adjust	
 			
 			#Ancient Cultures
 			100 = VIETnam.260	# Artifact: Hellenic female statue
@@ -524,7 +637,9 @@ on_five_year_pulse = {
 			100 = VIETmisc.8128 # Artifact: Find an ostracon outside
 			100 = VIETmisc.8129 # Artifact: Find a Nok statue
 			100 = VIETmisc.8130 # Artifact: Servant finds a cuneiform tablet			
-			100 = VIETmisc.8136 # Artifact: Hellenic male statue			
+			100 = VIETmisc.8136 # Artifact: Hellenic male statue
+			# Three Kingdoms
+			100 = VIETmisc.8241 # Artifact: Chinese travelers offer a statue of Guan Yu			
 		}
 		
 		#ALL VIET artifact loss events should go here!

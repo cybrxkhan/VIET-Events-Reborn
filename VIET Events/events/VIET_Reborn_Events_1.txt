@@ -14,6 +14,15 @@
 # 8128-8143: Ancient Cultures
 # 8144-8156: Skyrim Conversations
 # 8157-8191: Spices and Herbs (A-L mostly)
+# 8192-8205: Roses
+# 8205-8208: Deer Musk
+# 8209-8213: Virginity
+# 8214-8216: Broccoli
+# 8216-8239: Strange Dreams
+# 8240-8248: Three Kingdoms
+# 8249-8251: Constantinople
+# 8252-8265: Fantastical Stories
+# 8266-8276: Daily Work
 # 
 #####################################################################
 
@@ -466,7 +475,11 @@ character_event = {
 				modifier = opinion_loyal_servant
 				who = ROOT
 				years = 100
-			}				
+			}
+			random = {
+				VIET_give_generic_weapon_effect = yes
+				chance = 20
+			}
 		}
 	}
 }
@@ -1924,7 +1937,7 @@ character_event = {
 		in_command = no
 		#Where people play polo
 		OR = {
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture_group = altaic
 			culture_group = iranian
 			culture_group = arabic
@@ -2333,6 +2346,11 @@ character_event = {
 				#add_trait = melodious_voice
 				add_trait = kind
 				add_trait = chaste
+				#Clutter Artifact					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
+				}
 				#Flavor
 				random_list = {
 					70 = { } #Nothing
@@ -2424,8 +2442,11 @@ character_event = {
 				add_trait = fair
 				#add_trait = tall
 				add_trait = kind
-				add_trait = chaste
-
+				add_trait = chaste					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
+				}
 				#Flavor
 				random_list = {
 					70 = { } #Nothing
@@ -4684,7 +4705,7 @@ character_event = {
 			culture_group = indo_aryan_group
 			culture_group = dravidian_group
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 		}
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -6154,6 +6175,7 @@ province_event = {
 		NOT = { has_province_modifier = VIET_auriels_ascension }
 		owner = {
 			is_nomadic = no
+			religion = ROOT
 		}
 	}
 	
@@ -12956,7 +12978,7 @@ character_event = {
 			AND = {
 				culture_group = south_slavic
 				NOR = {
-					culture = pannonian
+					culture = pannonian #exists in WtWSMS
 					culture = romanian
 				}
 			}
@@ -13055,7 +13077,7 @@ character_event = {
 	}
 	option = { #Romans and Greeks were bad
 		name = VIETmisc.8131.d
-		piety = 3
+		prestige = 3
 		random = {
 			add_trait = cynical
 			chance = 30
@@ -13942,11 +13964,11 @@ character_event = {
 		#in_command = no
 		OR = {
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			capital_scope = {
 				OR = {
 					culture_group = iranian
-					culture_group = serindian
+					culture_group = serindian # exists in WtWSMS
 					region = world_persia
 					region = world_middle_east_arabia
 				}
@@ -14658,6 +14680,10 @@ character_event = {
 				random_list = {
 					70 = { add_trait = charismatic_negotiator }
 					30 = { add_trait = grey_eminence }
+				}					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
 				}	
 				#Guaranteed Traits
 				add_trait = kind
@@ -14693,6 +14719,10 @@ character_event = {
 				random_list = {
 					70 = { add_trait = charismatic_negotiator }
 					30 = { add_trait = grey_eminence }
+				}					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
 				}	
 				#Guaranteed Traits
 				add_trait = kind
@@ -15228,8 +15258,11 @@ character_event = {
 			add_trait = humble
 			add_trait = gregarious
 			add_trait = chaste
-			add_trait = just
-			add_artifact = bow_tier_2_new
+			add_trait = just					
+			random = {
+				VIET_give_generic_weapon_effect = yes
+				chance = 20
+			}	
 			opinion = {
 				modifier = opinion_loyal_servant
 				who = ROOT
@@ -15536,7 +15569,11 @@ character_event = {
 				10 = { add_random_education_trait = intrigue }
 				10 = { add_random_education_trait = martial }
 				10 = { add_random_education_trait = stewardship }
-			}	
+			}					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}		
 			#Guaranteed Traits
 			add_trait = robust
 			add_trait = cynical
@@ -17024,7 +17061,7 @@ character_event = {
 		in_command = no
 		OR = {
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture_group = arabic
 			culture_group = byzantine
 			culture_group = indo_aryan_group
@@ -17160,7 +17197,7 @@ character_event = {
 		in_command = no
 		OR = {
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture_group = arabic
 			culture_group = byzantine
 			culture_group = indo_aryan_group
@@ -18404,7 +18441,7 @@ character_event = {
 			culture_group = iranian
 			culture_group = indo_aryan_group
 			culture_group = dravidian_group
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 			culture = turkish
 		}
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
@@ -18693,7 +18730,7 @@ character_event = {
 			culture_group = indo_aryan_group
 			culture_group = dravidian_group
 			culture_group = iranian
-			culture_group = serindian
+			culture_group = serindian # exists in WtWSMS
 		}
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -19963,11 +20000,8175 @@ province_event = {
 	}
 	
 
-	option = { # Spend funds to help
+	option = { # Ok
 		name = VIETmisc.8191.a
 		add_province_modifier = {
 			name = VIET_province_famous_herbalists
 			duration = 10950
 		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 4 }
+				}
+			}
+		}
 	}	
 }
+
+
+##################################################
+# ROSES themed events 8192-8205
+##################################################
+
+
+# Rose water cookies
+character_event = {
+	id = VIETmisc.8192
+	desc = VIETmisc.8192.desc
+	picture = GFX_evt_garden
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8192.a # ok
+		prestige = 1
+	}
+	
+	option = {
+		name = VIETmisc.8192.b # No thanks
+		piety = 1
+	}
+}
+
+
+# Using rose water to wash hands in medieval Europe
+character_event = {
+	id = VIETmisc.8193
+	desc = VIETmisc.8193.desc
+	picture = GFX_evt_feast
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture_group = iberian
+			culture_group = west_germanic
+			culture_group = central_germanic
+			culture_group = west_slavic
+			culture_group = east_slavic
+			culture_group = south_slavic
+			culture_group = latin
+			culture_group = celtic
+			culture_group = north_germanic
+			culture_group = byzantine
+			culture_group = baltic
+			culture_group = magyar
+			culture_group = arabic
+			culture_group = north_african
+			culture_group = iranian
+			culture_group = israelite
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = groomed
+		}
+		modifier = {
+			factor = 0.8
+			trait = uncouth
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8193.a # wash hands
+		add_character_modifier = {
+			name = VIET_washed_hands
+			duration = 100
+		}
+		random = {
+			add_trait = humble
+			chance = 25
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8193.b # wash hands a lot
+		add_character_modifier = {
+			name = VIET_washed_hands
+			duration = 365
+		}
+		random = {
+			add_trait = proud
+			chance = 25
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8193.c # don't wash hands
+		add_character_modifier = {
+			name = VIET_didnt_wash_hands
+			duration = 365
+		}
+	}
+}
+
+# Skin ointment made from rose water
+character_event = {
+	id = VIETmisc.8194
+	desc = VIETmisc.8194.desc
+	picture = GFX_evt_homage_hf
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 0.7
+			NOR = {
+				is_sinosphere_large_trigger = yes
+				culture_group = arabic
+				culture_group = iranian
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = byzantine
+				culture_group = north_african
+				religion_group = muslim
+				religion_group = zoroastrian_group
+				religion_group = indian_group
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = groomed
+		}
+		modifier = {
+			factor = 0.8
+			trait = uncouth
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8194.a # buy for self
+		wealth = -10
+		add_character_modifier = {
+			name = VIET_rosewater_ointment
+			duration = 730
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = 1
+				chance = 33
+			}
+		}
+	}	
+	option = {
+		name = VIETmisc.8194.b # buy for self and spouse
+		trigger = {
+			is_married = yes
+		}
+		wealth = -20
+		add_character_modifier = {
+			name = VIET_rosewater_ointment
+			duration = 730
+		}
+		random_spouse = {
+			add_character_modifier = {
+				name = VIET_rosewater_ointment
+				duration = 730
+			}
+			opinion = {
+				modifier = VIET_opinion_rosewater_ointment_gift
+				who = ROOT
+				years = 1
+			}		
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = 1
+				chance = 66
+			}
+		}
+	}	
+	option = {
+		name = VIETmisc.8194.c # buy for self and lover
+		trigger = {
+			has_lover = yes
+		}
+		wealth = -20
+		add_character_modifier = {
+			name = VIET_rosewater_ointment
+			duration = 730
+		}
+		random_lover = {
+			add_character_modifier = {
+				name = VIET_rosewater_ointment
+				duration = 730
+			}
+			opinion = {
+				modifier = VIET_opinion_rosewater_ointment_gift
+				who = ROOT
+				years = 1
+			}		
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = 1
+				chance = 66
+			}
+		}
+	}
+	option = {
+		name = VIETmisc.8194.d # No
+		piety = 5
+		random_list = {
+			60 = { }
+			20 = { add_trait = humble }
+			10 = { add_trait = content }
+			10 = { add_trait = temperate }
+		}
+		if = {
+			limit = {
+				trait = proud
+			}
+			random = {
+				remove_trait = proud
+				chance = 45
+			}
+		}
+	}
+}
+
+
+# Sprinkle rose water for funeral of a nobleman
+character_event = {
+	id = VIETmisc.8195
+	desc = VIETmisc.8195.desc
+	picture = GFX_evt_death
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		NOT = { personality_traits = 5 }
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 0.7
+			NOR = {
+				is_sinosphere_large_trigger = yes
+				culture_group = arabic
+				culture_group = iranian
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = byzantine
+				culture_group = north_african
+				religion_group = muslim
+				religion_group = zoroastrian_group
+				religion_group = indian_group
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = groomed
+		}
+		modifier = {
+			factor = 0.8
+			trait = uncouth
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8195.a # Sad day
+		piety = 5
+	}	
+	option = {
+		name = VIETmisc.8195.b # Bored
+		piety = -5
+		random_list = {
+			60 = { }
+			20 = { add_trait = proud }
+			20 = { add_trait = arbitrary }
+		}
+	}		
+	option = {
+		name = VIETmisc.8195.c # Politics
+		prestige = 5
+		random_list = {
+			50 = { }
+			30 = { add_trait = deceitful }
+			20 = { add_trait = diligent }
+		}
+	}		
+	option = {
+		name = VIETmisc.8195.d # Personally knew
+		random_list = {
+			60 = { }
+			20 = { add_trait = humble }
+			20 = { add_trait = kind }
+		}
+	}	
+}
+
+
+# Courtier is growing an impressive rose garden
+character_event = {
+	id = VIETmisc.8196
+	desc = VIETmisc.8196.desc
+	picture = GFX_evt_garden
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOR = {
+			is_tribal = yes
+			is_nomadic = yes
+		}
+		capital_scope = {
+			NOR = {
+				region = world_africa_west
+				region = world_africa_east
+				region = world_africa_central
+				region = world_steppe
+				terrain = desert
+				terrain = arctic
+			}
+		}
+		any_courtier = {
+			is_adult = yes
+			ai = yes
+			NOT = { trait = incapable }
+			NOT = { is_consort = ROOT }
+			NOT = { is_close_relative = ROOT }
+			OR = {
+				trait = gardener
+				trait = diligent
+				trait = patient
+				trait = shy
+				trait = content
+				trait = deceitful
+				stewardship = 8
+				intrigue = 8
+			}
+			NOT = { trait = wroth }
+			NOT = { trait = slothful }
+			NOT = { trait = ambitious }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				ai = yes
+				NOT = { trait = incapable }
+				NOT = { is_consort = ROOT }
+				NOT = { is_close_relative = ROOT }
+				OR = {
+					trait = gardener
+					trait = diligent
+					trait = patient
+					trait = shy
+					trait = content
+					trait = deceitful
+					stewardship = 8
+					intrigue = 8
+				}
+				NOT = { trait = wroth }
+				NOT = { trait = slothful }
+				NOT = { trait = ambitious }			
+			}
+			save_event_target_as = target_VIET_rose_garden_courtier
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8196.a # Help me with gardening
+		add_character_modifier = {
+			name = VIET_garden_improvements
+			duration = 1000
+		}
+		event_target:target_VIET_rose_garden_courtier = {
+			add_trait = gardener
+			add_character_modifier = {
+				name = VIET_rose_garden
+				duration = -1
+			}
+			opinion = {
+				modifier = VIET_opinion_asked_me_for_garden_advice
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_garden_advice
+				who = ROOT
+				years = 1
+			}		
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8196.b # Praise
+		event_target:target_VIET_rose_garden_courtier = {
+			add_trait = gardener
+			add_character_modifier = {
+				name = VIET_rose_garden
+				duration = -1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_praised_me
+				who = ROOT
+				years = 1
+			}		
+		}
+	}	
+	
+	option = {
+		name = VIETmisc.8196.c # Anyone could've done that
+		random = {
+			add_trait = cynical
+			chance = 50
+		}
+		event_target:target_VIET_rose_garden_courtier = {
+			add_trait = gardener
+			add_character_modifier = {
+				name = VIET_rose_garden
+				duration = -1
+			}
+			opinion = {
+				modifier = VIET_opinion_gardening_discussions
+				who = ROOT
+				years = 1
+			}	
+			reverse_opinion = {
+				modifier = VIET_opinion_gardening_discussions
+				who = ROOT
+				years = 1
+			}		
+		}
+	}		
+	
+	option = {
+		name = VIETmisc.8196.d # Discuss gardening
+		trigger = {
+			trait = gardener
+		}
+		tooltip_info = gardener
+		event_target:target_VIET_rose_garden_courtier = {
+			add_trait = gardener
+			add_character_modifier = {
+				name = VIET_rose_garden
+				duration = -1
+			}
+			opinion = {
+				modifier = VIET_opinion_gardening_discussions
+				who = ROOT
+				years = 1
+			}	
+			reverse_opinion = {
+				modifier = VIET_opinion_gardening_discussions
+				who = ROOT
+				years = 1
+			}	
+			random = {
+				add_friend = ROOT
+				chance = 50
+			}
+		}
+	}	
+}
+
+# Admirer gives a letter with a rose - Part 1
+character_event = {
+	id = VIETmisc.8197
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	ai = no	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	
+	#trigger = {
+	#	NOT = {
+	#		has_game_rule = {
+	#			name = VIET_events_rules
+	#			value = serious
+	#		}
+	#	}	
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+		
+		modifier = {
+			factor = 1.2
+			is_attractive_trigger = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_unattractive_trigger = yes
+		}
+	}
+	
+	#mean_time_to_happen = {
+	#	months = 50000
+	#	modifier = {
+	#		factor = 1.5
+	#		is_attractive_trigger = no
+	#	}
+	#	modifier = {
+	#		factor = 0.85
+	#		trait = fair
+	#	}
+	#}
+	
+	immediate = {
+		letter_event = { id = VIETmisc.8198 }
+	}
+}
+
+# Admirer gives a letter with a rose - Part 2
+letter_event = {
+	id = VIETmisc.8198
+	desc = VIETmisc.8198.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETmisc.8198.a
+		random = {
+			add_trait = trusting
+			chance = 50
+		}
+	}	
+	option = {
+		name = VIETmisc.8198.b
+		random = {
+			add_trait = paranoid
+			chance = 50
+		}
+	}
+}
+
+
+# Female ruler considers using rosehip oil to look youthful
+character_event = {
+	id = VIETmisc.8199
+	desc = VIETmisc.8199.desc
+	picture = GFX_evt_homage_hf
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	only_women = yes
+	
+	trigger = {
+		in_command = no
+		wealth = 10
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		
+		modifier = {
+			factor = 1.2
+			trait = groomed
+		}
+		modifier = {
+			factor = 0.8
+			trait = uncouth
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+
+	option = {
+		name = VIETmisc.8199.a # Buy some
+		wealth = -10
+		add_character_modifier = {
+			name = VIET_rosehip_oil
+			duration = 1717
+		}
+	}
+	option = {
+		name = VIETmisc.8199.b # No need
+		if = {
+			limit = {
+				trait = proud
+			}
+			random = {
+				remove_trait = proud
+				chance = 60
+			}
+		}
+		else = {
+			random = {
+				add_trait = humble
+				chance = 40
+			}		
+		}
+	}
+}
+
+
+# Stumble on two servants in love
+character_event = {
+	id = VIETmisc.8200
+	desc = VIETmisc.8200.desc
+	picture = GFX_evt_maiden
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+	}
+	
+	immediate = {
+	
+		if = {
+			limit = {
+				trait = cruel
+				any_courtier = {
+					is_female = no
+					is_adult = yes
+					ai = yes
+					NOT = { trait = incapable }
+					NOT = { is_close_relative = ROOT }
+					is_married = no
+					has_lover = no
+					OR = {
+						has_evil_trait_trigger = yes
+						has_unpleasant_trait_trigger = yes
+						has_unattractive_trait_trigger = yes
+					}
+					has_attractive_trait_trigger = no				
+				}
+			}
+			set_character_flag = VIET_ugly_jerk_exists
+			random_courtier = {
+				limit = {
+					is_female = no
+					is_adult = yes
+					ai = yes
+					NOT = { trait = incapable }
+					NOT = { is_close_relative = ROOT }
+					is_married = no
+					has_lover = no
+					OR = {
+						has_evil_trait_trigger = yes
+						has_unpleasant_trait_trigger = yes
+						has_unattractive_trait_trigger = yes
+					}
+					has_attractive_trait_trigger = no				
+				}
+				save_event_target_as = target_VIET_ugly_jerk
+			}		
+		}
+	}
+
+	option = {
+		name = VIETmisc.8200.a # Youthful folly
+		piety = 5
+	}
+	
+	option = {
+		name = VIETmisc.8200.b # Cynical comment about women
+		trigger = {
+			trait = cynical
+		}
+		tooltip_info = cynical
+		add_character_modifier = {
+			name = VIET_feeling_jaded_about_life
+			duration = 365
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8200.c # Cynical comment about men
+		trigger = {
+			trait = cynical
+		}
+		tooltip_info = cynical
+		add_character_modifier = {
+			name = VIET_feeling_jaded_about_life
+			duration = 365
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8200.d # Pay for wedding - charitable option
+		trigger = {
+			trait = charitable
+			NOT = { trait = kind }
+		}
+		tooltip_info = charitable
+		wealth = -10
+		piety = 10
+		random = {
+			add_trait = kind
+			chance = 25
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = -1
+				chance = 66
+			}
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8200.e # Pay for wedding - kind option
+		trigger = {
+			trait = kind
+		}
+		tooltip_info = kind
+		wealth = -10
+		piety = 10
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			random = {
+				decadence = -1
+				chance = 66
+			}
+		}
+	}
+	
+	option = {
+		name = VIETmisc.8200.f # Marry girl off to ugly fart - asshole option
+		trigger = {
+			trait = cruel
+			NOT = { has_character_flag = VIET_ugly_jerk_exists_already_done }
+		}
+		tooltip_info = cruel
+		piety = -10
+		add_character_modifier = {
+			name = VIET_heartless_villain
+			duration = 1000
+		}
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			decadence = 1
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_ugly_jerk_exists
+			}
+			set_character_flag = VIET_ugly_jerk_exists_already_done
+			create_character = {
+				age = 17
+				dynasty = none
+				religion = ROOT
+				culture = ROOT
+				female = yes
+				health = 5
+				random_traits = yes
+				historical = yes
+			}
+			new_character = {
+				add_spouse = event_target:target_VIET_ugly_jerk
+				add_rival = ROOT
+				set_character_flag = ai_flag_refuse_concubinage
+				add_character_modifier = {
+					name = VIET_maidservant_forced_marriage
+					duration = -1
+				}
+				#Guaranteed Traits
+				add_trait = fair
+				#Flavor
+				random_list = {
+					80 = { } #Nothing
+					20 = { add_scarred_tiered_effect = yes }
+				}					
+				random = {
+					VIET_give_clutter_artifact_effect = yes
+					chance = 10
+				}	
+			}
+		}
+		#if = {
+		#	limit = {
+		#		any_courtier = {
+		#			is_female = no
+		#			is_adult = yes
+		#			ai = yes
+		#			NOT = { trait = incapable }
+		#			NOT = { is_close_relative = liege }
+		#			is_married = no
+		#			has_lover = no
+		#			OR = {
+		#				has_evil_trait_trigger = yes
+		#				has_unpleasant_trait_trigger = yes
+		#				has_unattractive_trait_trigger = yes
+		#			}
+		#			has_attractive_trait_trigger = no
+		#		}
+		#	}
+		#	random_courtier = {
+		#		limit = {
+		#			is_female = no
+		#			is_adult = yes
+		#			ai = yes
+		#			NOT = { trait = incapable }
+		#			NOT = { is_close_relative = liege }
+		#			is_married = no
+		#			has_lover = no
+		#			OR = {
+		#				has_evil_trait_trigger = yes
+		#				has_unpleasant_trait_trigger = yes
+		#				has_unattractive_trait_trigger = yes
+		#			}
+		#			has_attractive_trait_trigger = no				
+		#		}
+		#		custom_tooltip = { text = VIET_ugly_guy_new_wife_event_text }
+		#		hidden_tooltip = {
+		#			character_event = { id = VIETmisc.8201 }
+		#		}
+		#	}
+		#}
+		else = {
+			custom_tooltip = { text = VIET_ugly_guy_new_wife_event_no_courtier_text }
+		}
+	}
+}
+
+# Stumble on two servants in love
+#character_event = {
+#	id = VIETmisc.8201
+#		
+#	hide_window = yes
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		#Make waifu
+#		create_character = {
+#			age = 17
+#			dynasty = none
+#			religion = liege
+#			culture = liege
+#			female = yes
+#			health = 5
+#			random_traits = yes
+#			historical = yes
+#		}
+#		new_character = {
+#			add_spouse = ROOT
+#			add_rival = liege
+#			set_character_flag = ai_flag_refuse_concubinage
+#			add_character_modifier = {
+#				name = VIET_maidservant_forced_marriage
+#				duration = -1
+#			}
+#			#Guaranteed Traits
+#			add_trait = fair
+#			#Flavor
+#			random_list = {
+#				80 = { } #Nothing
+#				20 = { add_scarred_tiered_effect = yes }
+#			}
+#		}		
+#	}
+#}
+
+# Rose tea
+character_event = {
+	id = VIETmisc.8202
+	desc = VIETmisc.8202.desc
+	picture = GFX_evt_drinking_tea
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+	}
+
+	option = {
+		name = VIETmisc.8202.a # ok
+		add_character_modifier = {
+			name = VIET_rose_tea
+			duration = 365
+		}
+	}
+}
+
+# Monk explains rose's significance as a symbol of the Virgin Mary
+character_event = {
+	id = VIETmisc.8203
+	desc = VIETmisc.8203.desc
+	picture = GFX_evt_monastery_monks
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	religion_group = christian
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = {
+		name = VIETmisc.8203.a # ok
+		piety = 3
+	}
+	option = {
+		name = VIETmisc.8203.b # Be polite
+		prestige = 3
+		random = {
+			add_trait = deceitful
+			chance = 10
+		}
+	}
+	option = {
+		name = VIETmisc.8203.c # ask about other theological matters
+		random = {
+			change_learning = 1
+			chance = 10
+		}
+	}
+	option = {
+		name = VIETmisc.8203.d # Ask for gardening tips
+		trigger = {
+			trait = gardener
+		}
+		tooltip_info = gardener
+		random = {
+			change_stewardship = 1
+			chance = 50
+		}
+		random = {
+			change_learning = 1
+			chance = 50
+		}
+	}
+}
+
+
+# Meet an old villager admiring a flower
+character_event = {
+	id = VIETmisc.8204
+	desc = VIETmisc.8204.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = {
+		name = VIETmisc.8204.a # admire the flower
+		piety = 3
+		random_list = {
+			70 = { }
+			10 = { add_trait = patient }
+			10 = { add_trait = humble }
+			10 = { add_trait = content }
+		}
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8205 }
+		}
+	}
+	option = {
+		name = VIETmisc.8204.b # walk away
+		prestige = 3
+		random_list = {
+			70 = { }
+			10 = { add_trait = proud }
+			10 = { add_trait = shy }
+			5 = { add_trait = ambitious }
+			5 = { add_trait = diligent }
+		}
+	}
+}
+
+
+# Meet an old villager admiring a flower
+narrative_event = {
+	id = VIETmisc.8205
+	title = VIETmisc.8205.title
+	desc = VIETmisc.8205.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.8205.a # lesson learned
+		add_character_modifier = {
+			name = VIET_uplifting_lesson
+			duration = 365
+		}
+	}
+}
+
+##########################################
+# DEER MUSK 8206-8208
+##########################################
+
+
+# Buy some musk deer products?
+character_event = {
+	id = VIETmisc.8206
+	desc = VIETmisc.8206.desc
+	picture = GFX_evt_market
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		wealth = 20
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		
+		modifier = {
+			factor = 0.4
+			capital_scope = {
+				NOR = {
+					region = world_india
+					region = world_steppe
+					region = world_himalayas
+					region = world_persia
+					region = world_middle_east
+					region = world_africa_east
+					region = world_africa_north
+					region = world_asia_minor
+					region = world_europe_south_east
+				}			
+			}
+		}		
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = groomed
+		}
+		modifier = {
+			factor = 0.8
+			trait = uncouth
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+
+	option = {
+		name = VIETmisc.8206.a # Buy perfumes
+		wealth = -30
+		add_character_modifier = {
+			name = VIET_musk_deer_perfume
+			duration = 730
+		}
+	}
+	option = {
+		name = VIETmisc.8206.b # Buy soaps
+		wealth = -30
+		add_character_modifier = {
+			name = VIET_musk_deer_soap
+			duration = 730
+		}
+	}
+	option = {
+		name = VIETmisc.8206.c # Buy medicines
+		wealth = -30
+		add_character_modifier = {
+			name = VIET_musk_deer_medicine
+			duration = 730
+		}
+	}
+	option = {
+		name = VIETmisc.8206.d # Don't buy any
+		piety = 5
+		if = {
+			limit = {
+				trait = proud
+			}
+			random = {
+				remove_trait = proud
+				chance = 50
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = content }
+			}
+			random = {
+				add_trait = content
+				chance = 30
+			}
+		}
+	}
+}
+
+
+
+# Musk Deer population increases
+province_event = {
+	id = VIETmisc.8207
+	desc = VIETmisc.8207.desc
+	picture = GFX_evt_skyrim_forest
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_musk_deer }
+		OR = {
+			region = world_india_bengal
+			region = world_india_rajastan
+			region = world_steppe_east
+			region = world_steppe_tarim
+			region = world_himalayas
+		}
+		OR = {
+			terrain = hills
+			terrain = mountain
+			terrain = steppe
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 15000
+	}
+	
+
+	option = { # Ok
+		name = VIETmisc.8207.a
+		add_province_modifier = {
+			name = VIET_province_musk_deer
+			duration = 1111
+		}
+	}
+}
+
+
+# Hunters illegally hunting musk deer caught
+character_event = {
+	id = VIETmisc.8208
+	desc = VIETmisc.8208.desc
+	picture = GFX_evt_hunting_scene
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		capital_scope = {
+			OR = {
+				region = world_india_bengal
+				region = world_india_rajastan
+				region = world_steppe_east
+				region = world_steppe_tarim
+				region = world_himalayas
+			}
+			OR = {
+				terrain = hills
+				terrain = mountain
+				terrain = steppe
+			}		
+		}
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+	}
+
+	option = {
+		name = VIETmisc.8208.a # Let them go
+		trigger = {
+			NOT = { trait = just }
+		}
+		if = {
+			limit = {
+				NOT = { trait = arbitrary }
+			}
+			random = {
+				add_trait = arbitrary
+				chance = 30
+			}
+		}
+		prestige = -10
+	}
+	option = {
+		name = VIETmisc.8208.b # Rid their goods
+		prestige = 5
+	}
+	option = {
+		name = VIETmisc.8208.c # Take their goods
+		random_list = {
+			20 = { add_trait = arbitrary }
+			20 = { add_trait = greedy }
+			60 = { }
+		}
+		prestige = -10
+		piety = -10
+		wealth = 25
+	}
+}
+
+
+##########################################
+# VIRGINITY (based on is_virgin_trigger in vanilla - pretty cool they figured out a way to do that) 8209-8213
+##########################################
+
+
+# Man worries about not having enough experience
+character_event = {
+	id = VIETmisc.8209
+	desc = VIETmisc.8209.desc
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+
+	min_age = 13
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	only_men = yes
+	
+	trigger = {
+		in_command = no
+		is_virgin_trigger = yes
+		NOT = { trait = homosexual }
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+
+	option = { #Visit a brothel
+		name = VIETmisc.8209.a
+		wealth = -5
+		piety = -10
+		add_character_modifier = {
+			name = VIET_one_time_lovemaking
+			duration = 365
+		}
+		if = {
+			limit = {
+				trait = chaste
+			}
+			random = {
+				remove_trait = chaste
+				chance = 75
+			}
+		}
+		if = {
+			limit = {
+				trait = shy
+			}
+			random = {
+				remove_trait = shy
+				chance = 40
+			}
+		}
+		random_list = {
+			70 = { }
+			20 = { add_trait = lustful }
+			20 = { add_trait = gregarious }
+		}
+	}
+	option = { #Boink a maid
+		name = VIETmisc.8209.b
+		if = {
+			limit = {
+				trait = chaste
+			}
+			random = {
+				remove_trait = chaste
+				chance = 50
+			}
+		}
+		add_character_modifier = {
+			name = VIET_one_time_lovemaking
+			duration = 365
+		}
+	}
+	option = { #Don't care
+		name = VIETmisc.8209.c
+		add_character_modifier = {
+			name = VIET_not_enough_sex_rumors
+			duration = 365
+		}
+		random_list = {
+			50 = { }
+			10 = { add_trait = content }
+			10 = { add_trait = slothful }
+			30 = { add_trait = chaste }
+		}
+	}
+	option = { #Doesn't like women
+		name = VIETmisc.8209.d
+		add_character_modifier = {
+			name = VIET_sexist_against_women
+			duration = 365
+		}
+		add_character_modifier = {
+			name = VIET_not_enough_sex_rumors
+			duration = 365
+		}
+	}
+}
+
+# Young noblewoman loses virtue to rakish scoundrel
+character_event = {
+	id = VIETmisc.8210
+	desc = VIETmisc.8210.desc
+	picture = GFX_evt_maiden
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#is_virgin_trigger = yes
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_character_flag = VIET_dishonored_maiden_event_already }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_dishonored_maiden_event_already 
+	}
+
+	option = { #Don't get involved
+		name = VIETmisc.8210.a
+		custom_tooltip = { text = VIET_dishonored_maiden_ignore }
+	}
+	option = { #Look down on girl
+		name = VIETmisc.8210.b
+		prestige = 5
+		add_character_modifier = {
+			name = VIET_sexist_against_women
+			duration = 365
+		}
+		custom_tooltip = { text = VIET_dishonored_maiden_scorn }
+	}
+	option = { #Force man to pay fine
+		name = VIETmisc.8210.c
+		if = {
+			limit = {
+				trait = arbitrary
+			}
+			random = {
+				remove_trait = arbitrary
+				chance = 55
+			}
+		}
+		else = {
+			random = {
+				add_trait = just
+				chance = 35
+			}
+		}
+		custom_tooltip = { text = VIET_dishonored_maiden_compromise }
+	}
+	option = { #Give her a place at my court
+		name = VIETmisc.8210.d
+		trigger = {
+			OR = {
+				trait = kind
+				trait = charitable
+				trait = trusting
+				trait = lustful
+			}
+			NOT = { trait = paranoid }
+			NOT = { trait = proud }
+			NOT = { trait = cruel }
+		}
+		prestige = -20
+		if = {
+			limit = {
+				trait = cruel
+			}
+			remove_trait = cruel
+		}
+		else = {
+			random = {
+				add_trait = kind
+				chance = 45
+			}
+		}
+		random = {
+			add_trait = charitable
+			chance = 35
+		}
+			
+		create_character = {
+			age = 16
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = yes
+			health = 5
+			random_traits = no
+			historical = yes
+		}
+		new_character = {
+			#Education & other basic stuff
+			add_character_modifier = {
+				name = VIET_dishonored_deflowered_maiden
+				duration = -1
+			}
+			#set_character_flag = ai_flag_refuse_concubinage
+			#set_character_flag = ai_flag_refuse_marriage
+			set_character_flag = no_court_invites
+			add_trait = trusting					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}	
+			#Flavor
+			random_list = {
+				85 = { } #Nothing
+				15 = { add_scarred_tiered_effect = yes }
+			}
+			random_list = {
+				40 = { } 
+				30 = { add_trait = groomed }
+				30 = { add_trait = fair }
+			}
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}			
+			if = {
+				limit = { has_dlc = "Way of Life" }
+				random_list = {
+					60 = { add_trait = socializer }
+					10 = { add_trait = scholar }
+					10 = { add_trait = seductress }
+					20 = {}
+				}
+			}
+			#Personality Archetypes
+			random_list = {
+				20 = { # Innocent
+					set_character_flag = VIET_dishonored_innocent
+					add_trait = naive_appeaser
+					add_trait = kind
+					add_trait = patient
+					add_trait = humble
+				}
+				20 = { # Nerd
+					set_character_flag = VIET_dishonored_nerd
+					add_trait = scholarly_theologian
+					add_trait = erudite
+					add_trait = diligent
+					add_trait = slothful
+					if = {
+						limit = { has_dlc = "Way of Life" }
+						random_list = {
+							60 = { add_trait = scholar }
+							10 = { add_trait = gamer }
+							10 = { add_trait = mystic }
+							10 = { add_trait = theologian }
+							10 = {}
+						}
+					}
+				}
+				20 = { # Arrogant snob
+					set_character_flag = VIET_dishonored_snob
+					add_trait = thrifty_clerk
+					add_trait = proud
+					add_trait = stubborn
+					add_trait = slothful
+					if = {
+						limit = { has_dlc = "Way of Life" }
+						random_list = {
+							60 = { add_trait = socializer }
+							20 = { add_trait = schemer }
+							20 = {}
+						}
+					}
+				}
+			}
+		}
+		
+		
+		custom_tooltip = { text = VIET_dishonored_maiden_help }
+	}
+}
+
+
+# Vasha from Skyrim - capture notorious bandit wanted for murder, theft, and rape
+character_event = {
+	id = VIETmisc.8211
+	desc = VIETmisc.8211.desc
+	picture = GFX_evt_judged_by_ruler
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#is_virgin_trigger = yes
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_character_flag = VIET_vasha_was_here }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_vasha_was_here 
+	}
+
+	option = { #Execute!
+		name = VIETmisc.8211.a
+		prestige = 20
+		
+		if = {
+			limit = {
+				trait = arbitrary
+			}
+			remove_trait = arbitrary
+		}
+		else = {
+			random = {
+				add_trait = just
+				chance = 50
+			}
+		}
+		
+		add_character_modifier = {
+			name = VIET_captured_notorious_bandit
+			duration = 1666
+		}
+	}
+	option = { #Recruit him
+		name = VIETmisc.8211.b
+		prestige = -50
+		wealth = -50
+		
+		if = {
+			limit = {
+				trait = just
+			}
+			remove_trait = just
+		}
+		
+		add_character_modifier = {
+			name = VIET_hired_notorious_bandit
+			duration = 1666
+		}
+		
+		create_random_soldier = {
+			#age = 16
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = no
+			health = 5
+			random_traits = no
+			historical = yes
+		}
+		new_character = {
+			#Education & other basic stuff
+			add_character_modifier = {
+				name = VIET_notorious_bandit
+				duration = -1
+			}
+			#set_character_flag = ai_flag_refuse_concubinage
+			#set_character_flag = ai_flag_refuse_marriage
+			#set_character_flag = no_court_invites					
+			random = {
+				VIET_give_generic_weapon_effect = yes
+				chance = 20
+			}	
+			#Flavor
+			random_list = {
+				250 = { } #Nothing
+				100 = { add_scarred_tiered_effect = yes }
+				20 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+				20 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_handed
+				}
+				20 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_legged
+				}
+				5 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_legged
+					add_trait = one_handed
+				}
+				5 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_legged
+					add_trait = one_eyed
+				}
+				5 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+					add_trait = one_handed
+				}
+			}
+			random_list = {
+				40 = { } 
+				20 = { add_trait = robust }
+				20 = { add_trait = sturdy }
+				20 = { add_trait = strong }
+			}
+			random_list = {
+				60 = { add_trait = shrewd }
+				20 = { add_trait = quick }
+				20 = { add_trait = genius }
+			}
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}			
+			#if = {
+			#	limit = { has_dlc = "Way of Life" }
+			#	random_list = {
+			#		10 = { add_trait = seducer }
+			#		10 = { add_trait = duelist }
+			#		10 = { add_trait = impaler }
+			#		10 = { add_trait = schemer }
+			#		10 = { add_trait = strategist }
+			#		20 = {}
+			#	}
+			#}
+			#Personality Archetypes
+			add_trait = cruel
+			add_trait = lustful
+			add_trait = brave
+			random_list = {
+				20 = { # Suave and cunning gentleman
+					set_character_flag = VIET_vasha_suave
+					change_diplomacy = 3
+					change_intrigue = 2
+					add_trait = gregarious
+					add_trait = erudite
+					add_trait = proud
+					add_trait = fair
+					add_trait = scholar
+				}
+				20 = { # Rowdy fun-lover
+					set_character_flag = VIET_vasha_partier
+					add_trait = arbitrary
+					add_trait = gluttonous
+					add_trait = envious
+					add_trait = hedonist
+				}
+				20 = { # Inhumane and immoral
+					set_character_flag = VIET_vasha_asshole
+					change_diplomacy = -5
+					change_martial = 3
+					add_trait = impaler
+					add_trait = greedy
+					add_trait = arbitrary
+					add_trait = wroth
+				}
+				20 = { # All business
+					set_character_flag = VIET_vasha_smuggler
+					change_stewardship = 3
+					add_trait = administrator
+					add_trait = greedy
+					add_trait = cynical
+					add_trait = patient
+				}
+			}
+		}
+		
+		custom_tooltip = { text = VIET_hire_vasha_choice }
+	}
+}
+
+
+# Courtier boasts about supposed conquests of virgins
+character_event = {
+	id = VIETmisc.8212
+	desc = VIETmisc.8212.desc
+	picture = GFX_evt_maiden
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#is_virgin_trigger = yes
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_courtier = {
+			is_adult = yes
+			is_female = no
+			is_virgin_trigger = no
+			NOT = { trait = incapable }
+			OR = {
+				trait = lustful
+				trait = proud
+				trait = hedonist
+				trait = seducer
+				trait = gregarious
+			}			
+			is_married = no
+			has_lover = no
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				is_female = no
+				is_virgin_trigger = no
+				NOT = { trait = incapable }
+				OR = {
+					trait = lustful
+					trait = proud
+					trait = hedonist
+					trait = seducer
+					trait = gregarious
+				}			
+				is_married = no
+				has_lover = no
+			}
+			save_event_target_as = target_VIET_claiming_to_be_womanizer
+		}
+	}
+
+	option = { #Punished in the afterlife!
+		name = VIETmisc.8212.a
+		trigger = {
+			trait = zealous
+		}
+		tooltip_info = zealous
+		piety = 5
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = VIET_opinion_publically_chastised_me
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_shameless_rake
+				who = ROOT
+				years = 3
+			}
+		}		
+	}
+
+	option = { #Amateur
+		name = VIETmisc.8212.b
+		trigger = {
+			trait = seducer
+			is_female = no
+			NOT = { trait = homosexual }
+		}
+		tooltip_info = seducer
+		prestige = 5
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = VIET_opinion_condenscending_attitude
+				who = ROOT
+				years = 1
+			}
+			#reverse_opinion = {
+			#	modifier = VIET_opinion_shameless_rake
+			#	who = ROOT
+			#	years = 3
+			#}
+		}		
+	}
+
+	option = { #Agree
+		name = VIETmisc.8212.c
+		trigger = {
+			OR = {
+				AND = {
+					is_female = no
+					NOT = { trait = homosexual }				
+				}
+				AND = {
+					is_female = yes
+					trait = homosexual
+				}
+			}
+			is_virgin_trigger = no
+		}
+		#tooltip_info = seducer
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = agrees_with_me
+				who = ROOT
+				years = 1
+			}
+			#reverse_opinion = {
+			#	modifier = VIET_opinion_shameless_rake
+			#	who = ROOT
+			#	years = 3
+			#}
+		}		
+	}
+
+	option = { #Don't believe him
+		name = VIETmisc.8212.d
+		#trigger = {
+		#	OR = {
+		#		AND = {
+		#			is_female = no
+		#			NOT = { trait = homosexual }				
+		#		}
+		#		AND = {
+		#			is_female = yes
+		#			trait = homosexual
+		#		}
+		#	}
+		#	is_virgin_trigger = no
+		#}
+		#tooltip_info = seducer
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = VIET_opinion_condenscending_attitude
+				who = ROOT
+				years = 1
+			}
+			#reverse_opinion = {
+			#	modifier = VIET_opinion_shameless_rake
+			#	who = ROOT
+			#	years = 3
+			#}
+		}		
+	}
+
+	option = { #Despicable attitude
+		name = VIETmisc.8212.e
+		#trigger = {
+		#	OR = {
+		#		AND = {
+		#			is_female = no
+		#			NOT = { trait = homosexual }				
+		#		}
+		#		AND = {
+		#			is_female = yes
+		#			trait = homosexual
+		#		}
+		#	}
+		#	is_virgin_trigger = no
+		#}
+		#tooltip_info = seducer
+		add_character_modifier = {
+			name = VIET_respects_women
+			duration = 365
+		}
+		event_target:target_VIET_claiming_to_be_womanizer = {
+			add_character_modifier = {
+				name = VIET_defiler_of_maidens
+				duration = 1519
+			}
+			opinion = {
+				modifier = VIET_opinion_publically_chastised_me
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_shameless_rake
+				who = ROOT
+				years = 3
+			}
+		}		
+	}
+}
+
+
+# Courtier is lacking in sexual experience
+character_event = {
+	id = VIETmisc.8213
+	desc = VIETmisc.8213.desc
+	picture = GFX_evt_brothel
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#is_virgin_trigger = yes
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_courtier = {
+			is_adult = yes
+			is_female = no
+			is_virgin_trigger = yes
+			NOT = { trait = incapable }
+			NOT = { trait = celibate }
+			NOT = { trait = eunuch }
+			NOT = { trait = homosexual }
+			#No close relatives unless incest is okay
+			#NOT = { is_consort = ROOT }
+			#NOT = { is_close_relative = ROOT }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				is_female = no
+				is_virgin_trigger = yes
+				NOT = { trait = incapable }
+				NOT = { trait = celibate }
+				NOT = { trait = eunuch }
+				NOT = { trait = homosexual }
+				#No close relatives unless incest is okay
+				#NOT = { is_consort = ROOT }
+				#NOT = { is_close_relative = ROOT }
+			}
+			save_event_target_as = target_VIET_inexperienced_man
+		}
+	}
+
+	option = { #What a loser
+		name = VIETmisc.8213.a
+		if = {
+			limit = {
+				trait = kind
+			}
+			random = {
+				remove_trait = kind
+				chance = 50
+			}
+		}
+		if = {
+			limit = {
+				trait = chaste
+			}
+			random = {
+				remove_trait = chaste
+				chance = 25
+			}
+		}
+		prestige = 5
+		event_target:target_VIET_inexperienced_man = {
+			add_character_modifier = {
+				name = VIET_not_enough_sex_rumors
+				duration = 730
+			}
+			random = {
+				add_trait = depressed
+				chance = 50
+			}
+			opinion = {
+				modifier = opinion_shamed_me
+				who = ROOT
+				years = 1
+			}
+		}		
+	}
+
+	option = { #Go to the whorehouse
+		name = VIETmisc.8213.b
+		if = {
+			limit = {
+				trait = chaste
+			}
+			random = {
+				remove_trait = chaste
+				chance = 50
+			}
+		}
+		add_character_modifier = {
+			name = advice_giver
+			duration = 365
+		}
+		random_list = {
+			50 = { #Accepts advice
+				event_target:target_VIET_inexperienced_man = {
+					add_trait = lustful
+					wealth = -10
+					prestige = 10
+					opinion = {
+						modifier = VIET_opinion_reasonable_advice
+						who = ROOT
+						years = 1
+					}
+				}
+				custom_tooltip = { text = VIET_virgin_accepts_advice }
+			}
+			50 = { #Doesn't accept advice
+				event_target:target_VIET_inexperienced_man = {
+					add_character_modifier = {
+						name = VIET_not_enough_sex_rumors
+						duration = 730
+					}
+					random = {
+						add_trait = depressed
+						chance = 50
+					}
+					opinion = {
+						modifier = opinion_shamed_me
+						who = ROOT
+						years = 1
+					}
+				}
+				custom_tooltip = { text = VIET_virgin_rejects_advice }			
+			}
+		}		
+	}
+
+	option = { #Don't worry about others
+		name = VIETmisc.8213.c
+		random_list = {
+			60 = {}
+			20 = { add_trait = kind }
+			10 = { add_trait = patient }
+			10 = { add_trait = humble }
+		}
+		add_character_modifier = {
+			name = advice_giver
+			duration = 365
+		}
+		event_target:target_VIET_inexperienced_man = {
+			add_character_modifier = {
+				name = VIET_not_enough_sex_rumors
+				duration = 730
+			}
+			opinion = {
+				modifier = opinion_comforted_me
+				who = ROOT
+				years = 1
+			}
+			random = {
+				add_friend = ROOT
+				chance = 33
+			}
+		}		
+	}
+
+	option = { # Teach a thing or two - male option
+		name = VIETmisc.8213.d
+		trigger = {
+			is_female = no
+			is_virgin_trigger = no
+			NOT = { trait = eunuch }
+		}
+		add_character_modifier = {
+			name = advice_giver
+			duration = 365
+		}
+		event_target:target_VIET_inexperienced_man = {
+			opinion = {
+				modifier = opinion_helped_me
+				who = ROOT
+				years = 1
+			}
+			random = {
+				add_friend = ROOT
+				chance = 33
+			}
+			random = {
+				add_trait = lustful
+				chance = 20
+			}
+		}	
+	}
+
+	option = { # Teach a thing or two - female option
+		name = VIETmisc.8213.e
+		trigger = {
+			is_female = yes
+			NOT = { trait = homosexual }
+			is_virgin_trigger = no
+			is_unattractive_trigger = no
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.05
+				has_lover = yes
+			}
+			modifier = {
+				factor = 0.05
+				is_married = yes
+			}
+			modifier = {
+				factor = 0.1
+				event_target:target_VIET_inexperienced_man = {
+					is_unattractive_trigger = yes
+				}
+			}
+		}
+		event_target:target_VIET_inexperienced_man = {
+			add_lover = ROOT
+			random = {
+				add_trait = lustful
+				chance = 20
+			}
+		}		
+	}
+}
+
+####################################################################
+# BROCCOLI 8214-8216
+####################################################################
+
+
+# Exotic broccoli introduced to character
+character_event = {
+	id = VIETmisc.8214
+	desc = VIETmisc.8214.desc
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		capital_scope = {
+			NOR = {
+				region = world_europe_south
+				region = world_europe_south_east
+				region = world_africa_north
+				region = world_asia_minor
+			}
+			NOR = {
+				culture_group = latin
+				culture_group = iberian
+				culture_group = byzantine
+			}
+		}
+		NOR = {
+			culture_group = latin
+			culture_group = iberian
+			culture_group = byzantine
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}
+
+	option = { # Sample a bit
+		name = VIETmisc.8214.a
+		add_character_modifier = {
+			name = VIET_tried_something_new
+			duration = 180
+		}
+	}
+
+	option = { # Keep some around
+		name = VIETmisc.8214.b
+		wealth = -5
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 365
+		}
+	}
+}
+
+# Someone doesn't like broccoli
+character_event = {
+	id = VIETmisc.8215
+	desc = VIETmisc.8215.desc
+	picture = GFX_evt_feast_hf
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture_group = latin
+			culture_group = iberian
+			culture_group = byzantine
+			capital_scope = {
+				OR = {
+					region = world_europe_south
+					region = world_europe_south_east
+					region = world_africa_north
+					region = world_asia_minor
+					culture_group = latin
+					culture_group = iberian
+					culture_group = byzantine
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+	}
+
+	option = { # I like it
+		name = VIETmisc.8215.a
+		prestige = 3
+	}
+	option = { # Who am I to judge?
+		name = VIETmisc.8215.b
+		random = {
+			add_trait = humble
+			chance = 20
+		}
+	}
+	option = { # Broccoli is terrible
+		name = VIETmisc.8215.c
+		random = {
+			add_trait = proud
+			chance = 20
+		}
+	}
+}
+
+# Broccoli vs cauliflower
+character_event = {
+	id = VIETmisc.8216
+	desc = VIETmisc.8216.desc
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture_group = latin
+			culture_group = iberian
+			culture_group = byzantine
+			capital_scope = {
+				OR = {
+					region = world_europe_south
+					region = world_europe_south_east
+					region = world_africa_north
+					region = world_asia_minor
+					culture_group = latin
+					culture_group = iberian
+					culture_group = byzantine
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+
+	option = { # Broccoli
+		name = VIETmisc.8216.a
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 180
+		}
+	}
+	option = { # Cauliflower
+		name = VIETmisc.8216.b
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 180
+		}
+	}
+	option = { # Ignore and move on
+		name = VIETmisc.8216.c
+		random_list = {
+			70 = { }
+			10 = { add_trait = humble }
+			10 = { add_trait = shy }
+			10 = { add_trait = slothful }
+		}
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 180
+		}
+	}
+	option = { # Both!
+		name = VIETmisc.8216.d
+		random = {
+			add_trait = gluttonous
+			chance = 25
+		}
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 180
+		}
+	}
+}
+
+#################################################################
+# STRANGE DREAMS 8217-8239
+#################################################################
+
+# Dream of a great ship in a harbor
+long_character_event = {
+	id = VIETmisc.8217
+	desc = VIETmisc.8217.desc
+	picture = GFX_evt_columbus
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Ok
+		name = VIETmisc.8217.a
+		prestige = 1
+		if = {
+			limit = {
+				trait = craven
+			}
+			random = {
+				remove_trait = craven
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = brave
+				chance = 30
+			}
+		}
+		if = {
+			limit = {
+				trait = shy
+			}
+			random = {
+				remove_trait = shy
+				chance = 30
+			}
+		}
+		else = {
+			random = {
+				add_trait = gregarious
+				chance = 20
+			}
+		}
+	}
+}
+
+# Meet someone you know irl in a dream
+character_event = {
+	id = VIETmisc.8218
+	desc = VIETmisc.8218.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		# 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+		any_courtier = {
+			NOT = { trait = incapable }
+			is_adult = yes
+			in_command = no
+			is_abroad = no
+			ai = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # A friend
+		name = VIETmisc.8218.a
+		random_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+				is_adult = yes
+				in_command = no
+				is_abroad = no
+				ai = yes
+			}
+			hidden_tooltip = {
+				character_event = { id = VIETmisc.8219 } #ping
+			}
+		}
+	}
+}
+
+# Meet someone you know irl in a dream
+character_event = {
+	id = VIETmisc.8219
+	desc = VIETmisc.8219.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	option = { # A friend
+		name = VIETmisc.8219.a
+		FROM = {
+			character_event = { id = VIETmisc.8220 } #ping
+		}
+	}
+}
+
+# Meet someone you know irl in a dream
+character_event = {
+	id = VIETmisc.8220
+	desc = VIETmisc.8220.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	option = { # What a coincidence! Good reaction
+		name = VIETmisc.8220.a
+		FROM = {
+			random = {
+				add_friend = ROOT
+				chance = 30
+			}
+			opinion = {
+				modifier = VIET_shared_dream_good
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_shared_dream_good
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+
+	option = { # What a coincidence! Bad reaction
+		name = VIETmisc.8220.b
+		FROM = {
+			random = {
+				add_rival = ROOT
+				chance = 15
+			}
+			opinion = {
+				modifier = VIET_shared_dream_bad
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_shared_dream_bad
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+
+# Dream of a Korean Drama (probably should've been considered an event chain but oh well)
+character_event = {
+	id = VIETmisc.8221
+	desc = VIETmisc.8221.desc
+	picture = GFX_evt_modern_slice_of_life
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
+		}
+		NOT = { has_character_flag = VIET_generic_kdrama_happened_to_me }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+	}
+
+	option = { # Who am I?
+		name = VIETmisc.8221.a
+		set_character_flag = VIET_generic_kdrama_happened_to_me
+		custom_tooltip = { text = VIET_kdrama_who_am_i }
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 1.3
+						is_female = yes
+						NOT = { trait = homosexual }
+					}
+					modifier = {
+						factor = 1.3
+						is_female = no
+						trait = homosexual
+					}
+					#set_character_flag = VIET_kdrama_girls_pov
+					character_event = { id = VIETmisc.8222 } # girl's POV
+				}
+				50 = {
+					modifier = {
+						factor = 1.3
+						is_female = no
+						NOT = { trait = homosexual }
+					}
+					modifier = {
+						factor = 1.3
+						is_female = yes
+						trait = homosexual
+					}
+					#set_character_flag = VIET_kdrama_boys_pov
+					character_event = { id = VIETmisc.8225 } # boy's POV
+				}
+			}		
+		}
+	}
+}
+
+
+
+# Enter the hot brooding jerk with a heart of gold who takes hot brooding showers
+character_event = {
+	id = VIETmisc.8222
+	desc = VIETmisc.8222.desc
+	picture = GFX_evt_modern_slice_of_life
+	
+	is_triggered_only = yes
+
+	option = { # talk
+		name = VIETmisc.8222.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8223 }
+		}
+		custom_tooltip = { text = VIET_kdrama_girl_talk }
+	}
+}
+
+
+
+# Walking along the river (girl's POV)
+character_event = {
+	id = VIETmisc.8223
+	desc = VIETmisc.8223.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	option = { # Initiate lewd handholding
+		name = VIETmisc.8223.a
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8224 }
+		}
+		custom_tooltip = { text = VIET_kdrama_lewd_handholding }
+	}
+	option = { # Dramatic confession
+		name = VIETmisc.8223.b
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8224 }
+		}
+		custom_tooltip = { text = VIET_kdrama_dramatic_confession }
+	}
+	option = { # Tsundere
+		name = VIETmisc.8223.c
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8224 }
+		}
+		custom_tooltip = { text = VIET_kdrama_tsundere }
+	}
+	option = { # Receive lewd handholding
+		name = VIETmisc.8223.d
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8224 }
+		}
+		custom_tooltip = { text = VIET_kdrama_be_handheld }
+	}
+}
+
+# Wake up (girl's POV)
+narrative_event = {
+	id = VIETmisc.8224
+	title = VIETmisc.8224.title
+	desc = VIETmisc.8224.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+
+	option = { # boohoo
+		name = VIETmisc.8224.a
+		if = {
+			limit = {
+				trait = wroth
+			}
+			remove_trait = wroth
+		}
+		if = {
+			limit = {
+				trait = cruel
+			}
+			remove_trait = cruel
+		}
+		random = {
+			add_trait = chaste
+			chance = 30
+		}
+		add_character_modifier = {
+			name = VIET_kdrama_dream_girls_pov
+			duration = 1453
+		}
+	}
+}
+
+# Enter the plucky determined naive generic female lead
+character_event = {
+	id = VIETmisc.8225
+	desc = VIETmisc.8225.desc
+	picture = GFX_evt_modern_slice_of_life
+	
+	is_triggered_only = yes
+
+	option = { # talk
+		name = VIETmisc.8225.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8226 }
+		}
+		custom_tooltip = { text = VIET_kdrama_boy_talk }
+	}
+}
+
+
+
+# Walking along the river (boy's POV)
+character_event = {
+	id = VIETmisc.8226
+	desc = VIETmisc.8226.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	option = { # Initiate lewd handholding
+		name = VIETmisc.8226.a
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8227 }
+		}
+		custom_tooltip = { text = VIET_kdrama_lewd_handholding }
+	}
+	option = { # Dramatic confession
+		name = VIETmisc.8226.b
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8227 }
+		}
+		custom_tooltip = { text = VIET_kdrama_dramatic_confession }
+	}
+	option = { # Tsundere
+		name = VIETmisc.8226.c
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8227 }
+		}
+		custom_tooltip = { text = VIET_kdrama_tsundere }
+	}
+	option = { # Receive lewd handholding
+		name = VIETmisc.8226.d
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8227 }
+		}
+		custom_tooltip = { text = VIET_kdrama_be_handheld }
+	}
+}
+
+# Wake up (girl's POV)
+narrative_event = {
+	id = VIETmisc.8227
+	title = VIETmisc.8227.title
+	desc = VIETmisc.8227.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+
+	option = { # boohoo
+		name = VIETmisc.8227.a
+		if = {
+			limit = {
+				trait = envious
+			}
+			remove_trait = envious
+		}
+		if = {
+			limit = {
+				trait = arbitrary
+			}
+			remove_trait = arbitrary
+		}
+		random = {
+			add_trait = chaste
+			chance = 30
+		}
+		add_character_modifier = {
+			name = VIET_kdrama_dream_boys_pov
+			duration = 1453
+		}
+	}
+}
+
+
+# Exploring the dreamworld at the beginning of time
+long_character_event = {
+	id = VIETmisc.8228
+	desc = VIETmisc.8228.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+
+	option = { # Who am I?
+		name = VIETmisc.8228.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8229 }
+		}
+	}
+}
+
+# Exploring the dreamworld at the beginning of time - waking up 
+character_event = {
+	id = VIETmisc.8229
+	desc = VIETmisc.8229.desc
+	picture = GFX_evt_apollo_sun
+	
+	is_triggered_only = yes
+
+	option = { # Who am I?
+		name = VIETmisc.8229.a
+		if = {
+			limit = {
+				trait = cruel
+			}
+			remove_trait = cruel
+		}
+		if = {
+			limit = {
+				trait = depressed
+			}
+			remove_trait = depressed
+		}
+		if = {
+			limit = {
+				trait = stressed
+			}
+			remove_trait = stressed
+		}
+		add_character_modifier = {
+			name = VIET_dreamscape_dream
+			duration = 888
+		}
+	}
+}
+
+
+# Dream of the desert campfire that's symbolic for something
+long_character_event = {
+	id = VIETmisc.8230
+	desc = VIETmisc.8230.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+
+	option = { # Destination unknown
+		name = VIETmisc.8230.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8231 }
+		}
+	}
+}
+
+# What is reality and what is dream?
+character_event = {
+	id = VIETmisc.8231
+	desc = VIETmisc.8231.desc
+	picture = GFX_evt_recovery
+	
+	is_triggered_only = yes
+
+	option = { # Reality
+		name = VIETmisc.8231.a
+		random = {
+			add_trait = proud
+			chance = 5
+		}
+		add_character_modifier = {
+			name = VIET_campfire_dream
+			duration = 777
+		}
+	}
+	option = { # Dream
+		name = VIETmisc.8231.b
+		random = {
+			add_trait = lunatic
+			chance = 5
+		}
+		add_character_modifier = {
+			name = VIET_campfire_dream
+			duration = 777
+		}
+	}
+	option = { # Cannot distinguish between the two
+		name = VIETmisc.8231.c
+		trigger = {
+			OR = {
+				learning = 11
+				trait = erudite
+				trait = scholar
+				trait = theologian
+				trait = lunatic
+				religion = taoist #Zhuangzi
+			}
+		}
+		add_character_modifier = {
+			name = VIET_navel_gazing
+			duration = 777
+		}
+		add_character_modifier = {
+			name = VIET_campfire_dream
+			duration = 777
+		}
+	}
+	option = { # Dream within a dream
+		name = VIETmisc.8231.d
+		trigger = {
+			OR = {
+				learning = 11
+				trait = erudite
+				trait = scholar
+				trait = theologian
+				trait = lunatic
+				religion = taoist #Zhuangzi
+			}
+		}
+		add_character_modifier = {
+			name = VIET_navel_gazing
+			duration = 777
+		}
+		add_character_modifier = {
+			name = VIET_campfire_dream
+			duration = 777
+		}
+	}
+}
+
+# Sunset dream with a companion
+character_event = {
+	id = VIETmisc.8232
+	desc = VIETmisc.8232.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8232.a
+		if = {
+			limit = {
+				trait = shy
+			}
+			random = {
+				remove_trait = shy
+				chance = 25
+			}
+		}
+		else = {
+			random = {
+				add_trait = gregarious
+				chance = 25
+			}
+		}
+		piety = 2
+	}
+}
+
+# Dream of the primordial river
+character_event = {
+	id = VIETmisc.8233
+	desc = VIETmisc.8233.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = temperate
+		}
+		modifier = {
+			factor = 0.8
+			trait = gluttonous
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8233.a
+		if = {
+			limit = {
+				trait = wroth
+			}
+			random = {
+				remove_trait = wroth
+				chance = 25
+			}
+		}
+		if = {
+			limit = {
+				trait = content
+			}
+			random = {
+				remove_trait = content
+				chance = 25
+			}
+		}
+		add_character_modifier = {
+			name = VIET_primordial_river_dream
+			duration = 852
+		}
+	}
+}
+
+# Dream of a generic music-themed Kdrama titled "Music of Love"
+character_event = {
+	id = VIETmisc.8234
+	desc = VIETmisc.8234.desc
+	picture = GFX_evt_holy_light_basic
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
+		}
+		NOT = { has_character_flag = VIET_music_of_love_kdrama }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 2
+			trait = poet
+		}				
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8234.a
+		set_character_flag = VIET_music_of_love_kdrama
+		custom_tooltip = { text = VIET_music_of_love_kdrama_text }
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8235 }
+		}
+	}
+}
+
+# Dream of a generic music-themed Kdrama titled "Music of Love" - part two
+narrative_event = {
+	id = VIETmisc.8235
+	title = VIETmisc.8235.title
+	desc = VIETmisc.8235.desc
+	picture = GFX_evt_sun_and_moon
+	
+	is_triggered_only = yes
+
+	option = { # ok
+		name = VIETmisc.8235.a
+		add_character_modifier = {
+			name = VIET_kdrama_music_dream
+			duration = 1453
+		}
+	}
+}
+
+
+
+# Lost in an abandoned RPG dungeon dream
+character_event = {
+	id = VIETmisc.8236
+	desc = VIETmisc.8236.desc
+	picture = GFX_evt_dark_tunnel
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8236.a
+		random_list = {
+			80 = { }
+			10 = { add_trait = craven }
+			10 = { add_trait = paranoid }
+		}
+		add_character_modifier = {
+			name = VIET_lost_tunnel_dream
+			duration = 1227
+		}
+	}
+}
+
+
+# Meeting the (female) Dreamer - part of VIET lore about the Dreamers
+long_character_event = {
+	id = VIETmisc.8237
+	desc = VIETmisc.8237.desc
+	picture = GFX_evt_chinese_princess
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8237.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8238 }
+		}
+	}
+}
+
+
+# Meeting the (female) Dreamer - part 2
+character_event = {
+	id = VIETmisc.8238
+	desc = VIETmisc.8238.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	option = { # ok
+		name = VIETmisc.8238.a
+		add_character_modifier = {
+			name = VIET_vague_dream_of_dreamer_female
+			duration = 1368
+		}
+	}
+}
+
+
+# Meeting the (male) Dreamer - part of VIET lore about the Dreamers
+character_event = {
+	id = VIETmisc.8239
+	desc = VIETmisc.8239.desc
+	picture = GFX_evt_chinese_prince
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#Might be immersion breaking for some 
+		#NOT = {
+		#	has_game_rule = {
+		#		name = VIET_events_rules
+		#		value = serious
+		#	}
+		#}
+	#}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+
+	option = { # ok
+		name = VIETmisc.8239.a		
+		add_character_modifier = {
+			name = VIET_vague_dream_of_dreamer_male
+			duration = 1368
+		}
+	}
+}
+
+
+########################################################
+# THREE KINGDOMS
+########################################################
+
+
+# Chinese shoemakers want to build a small shrine to Liu Bei
+character_event = {
+	id = VIETmisc.8240
+	desc = VIETmisc.8240.desc
+	picture = GFX_evt_small_town_chinese_group
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no	
+		NOT = { has_character_flag = VIET_liu_bei_shoemakers }		
+		capital_scope = {
+			OR = {
+				region = custom_eastern_edge_of_map
+				region = world_himalayas
+				region = world_steppe_tarim
+				is_sinosphere_large_trigger = yes
+			}
+		}	
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }	
+	}
+	
+	weight_multiplier = {
+		days = 1	
+				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_liu_bei_shoemakers
+	}
+
+	option = { # Don't help
+		name = VIETmisc.8240.a		
+	}
+	option = { # Provide a bit of aid
+		name = VIETmisc.8240.b
+		wealth = -10
+		prestige = 20
+		capital_scope = {
+			add_province_modifier = {
+				name = VIET_liu_bei_shoemaker_shrine_small
+				duration = 3650
+			}
+		}
+	}
+	option = { # Provide lots of aid
+		name = VIETmisc.8240.c
+		wealth = -25
+		prestige = 50
+		if = {
+			limit = {
+				trait = arbitrary
+			}
+			remove_trait = arbitrary
+		}
+		else = {
+			random = {
+				add_trait = just
+				chance = 40
+			}
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = VIET_liu_bei_shoemaker_shrine_large
+				duration = 3650
+			}
+		}
+	}
+}
+
+
+# Chinese travelers offer a statue of Guan Yu
+character_event = {
+	id = VIETmisc.8241
+	desc = VIETmisc.8241.desc
+	picture = GFX_evt_travel_chinese_group
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no	
+		NOT = { has_character_flag = VIET_guan_yu_statue_event }		
+		capital_scope = {
+			OR = {
+				region = custom_eastern_edge_of_map
+				region = world_himalayas
+				region = world_steppe_tarim
+				region = world_steppe_east
+				region = world_persia
+				region = world_india
+				#is_sinosphere_large_trigger = yes
+			}
+		}	
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }	
+		NOT = { has_artifact = VIET_guan_yu_statue }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				count = 3
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}				
+		modifier = {
+			factor = 0.2
+			location = {
+				NOR = {
+					region = custom_eastern_edge_of_map
+					region = world_himalayas
+					region = world_steppe_tarim
+				}
+			}
+		}
+				
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_guan_yu_statue_event
+	}
+
+	option = { # Heathen statue!
+		name = VIETmisc.8241.a	
+		trigger = {
+			NOR = {
+				religion_group = indian_group
+				religion = bon
+				religion = bon_reformed
+				religion = zoroastrian_group
+				trait = sympathy_indian
+				trait = cynical
+			}
+		}
+		piety = 10
+		prestige = -10
+		random = {
+			add_trait = zealous
+			chance = 40
+		}
+		if = {
+			limit = {
+				trait = patient
+			}
+			random = {
+				remove_trait = patient
+				chance = 50
+			}
+		}
+		if = {
+			limit = {
+				trait = humble
+			}
+			random = {
+				remove_trait = humble
+				chance = 50
+			}
+		}
+	}
+	option = { # Thank but reject
+		name = VIETmisc.8241.b	
+		piety = 5
+	}
+	option = { # Accept
+		name = VIETmisc.8241.c	
+		add_artifact = VIET_guan_yu_statue
+		new_artifact = {
+			set_creation_date = 1.1.1
+		}	
+	}
+}
+
+
+# Chinese poet recites poetry inspired by the Three Caos
+character_event = {
+	id = VIETmisc.8242
+	desc = VIETmisc.8242.desc
+	picture = GFX_evt_asian_calligraphy
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no			
+		capital_scope = {
+			OR = {
+				region = custom_eastern_edge_of_map
+				region = world_himalayas
+				region = world_steppe_tarim
+				is_sinosphere_large_trigger = yes
+			}
+		}	
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }	
+	}
+	
+	weight_multiplier = {
+		days = 1				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = poet
+		}
+		modifier = {
+			factor = 0.8
+			trait = hedonist
+		}
+		modifier = {
+			factor = 1.2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.8
+			trait = hunter
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+	}
+
+	option = { # Don't like poetry
+		name = VIETmisc.8242.a
+		add_character_modifier = {
+			name = VIET_dislikes_hipsters
+			duration = 365
+		}
+	}
+	option = { # Like poetry
+		name = VIETmisc.8242.b
+		add_character_modifier = {
+			name = VIET_appreciates_fine_art
+			duration = 365
+		}
+	}
+	option = { # Recruit poet
+		name = VIETmisc.8242.c
+		trigger = {
+			NOT = { has_character_flag = VIET_cao_cao_poetry_option }
+			NOT = {
+				any_courtier = {
+					has_character_flag = VIET_cao_cao_poet
+				}
+			}
+		}
+		wealth = -20	
+		prestige = -20
+		create_character = {
+			dynasty = random
+			religion = ROOT
+			culture = han
+			female = no
+			health = 5
+			random_traits = no
+			historical = yes
+			attributes = {
+				diplomacy = 7
+				learning = 8
+			}
+		}
+		new_character = {
+			#Education & other basic stuff
+			set_character_flag = VIET_cao_cao_poet
+			set_character_flag = no_court_invites
+			random_list = {
+				25 = { add_trait = charismatic_negotiator }
+				25 = { add_trait = grey_eminence }
+				25 = { add_trait = scholarly_theologian }
+				25 = { add_trait = mastermind_theologian }
+			}	
+			#Guaranteed Traits
+			add_trait = poet
+			#Clutter Artifact					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}
+			#Flavor
+			random_list = {
+				800 = { } #Nothing
+				100 = { add_scarred_tiered_effect = yes }
+				20 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+				20 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_handed
+				}
+				20 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_legged
+				}
+				5 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_legged
+					add_trait = one_handed
+				}
+				5 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_legged
+					add_trait = one_eyed
+				}
+				5 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+					add_trait = one_handed
+				}
+			}
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}			
+			if = {
+				limit = { has_dlc = "Way of Life" }
+				random_list = {
+					50 = { add_trait = scholar }
+					25 = { add_trait = socializer }
+					10 = { add_trait = administrator }
+					10 = { add_trait = hunter }
+					10 = { add_trait = duelist }
+					10 = { add_trait = gardener }
+					300 = {}
+				}
+			}
+			#Personality Archetypes
+			random_list = {
+				20 = { # Noble and virtuous
+					set_character_flag = VIET_cao_cao_poet_nobleman
+					add_trait = humble
+					add_trait = kind
+					add_trait = chaste
+					add_trait = just
+					add_trait = charitable
+				}
+				20 = { # Cunning and realistic
+					set_character_flag = VIET_cao_cao_poet_pragmatist
+					add_trait = cynical
+					add_trait = patient
+					add_trait = erudite
+					add_trait = deceitful
+					add_trait = paranoid
+				}
+				20 = { # Brave and ambitious
+					set_character_flag = VIET_cao_cao_poet_risktaker
+					add_trait = ambitious
+					add_trait = brave
+					add_trait = proud
+					add_trait = stubborn
+					add_trait = diligent
+				}
+				20 = { # Taoist hermit
+					set_character_flag = VIET_cao_cao_poet_hermit
+					religion = taoist
+					add_trait = celibate
+					add_trait = mystic
+					add_trait = patient
+					add_trait = temperate
+					add_trait = content
+					add_trait = honest
+					add_trait = brave
+				}
+				20 = { # Cultured and roguish
+					set_character_flag = VIET_cao_cao_poet_suave
+					add_trait = erudite
+					add_trait = lustful
+					add_trait = slothful
+					add_trait = patient
+					add_trait = gregarious
+				}
+				20 = { # Drunken fool
+					set_character_flag = VIET_cao_cao_poet_li_bai
+					add_trait = drunkard
+					add_trait = erudite
+					add_trait = lustful
+					add_trait = slothful
+					add_trait = patient
+					add_trait = gregarious
+				}
+			}
+		}
+	}
+}
+
+
+# Hear a Chinese proverb about siblings
+character_event = {
+	id = VIETmisc.8243
+	desc = VIETmisc.8243.desc
+	picture = GFX_evt_maiden_chinese_group
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no			
+		capital_scope = {
+			OR = {
+				region = custom_eastern_edge_of_map
+				region = world_himalayas
+				region = world_steppe_tarim
+				is_sinosphere_large_trigger = yes
+			}
+		}	
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }	
+		NOT = { culture_group = chinese_group }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+		modifier = {
+			factor = 0.5
+			NOR = {
+				capital_scope = {
+					OR = {
+						region = custom_eastern_edge_of_map
+						region = world_himalayas
+						region = world_steppe_tarim
+						is_sinosphere_large_trigger = yes
+					}
+				}			
+			}
+		}				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+
+	option = { # Siblings are most important
+		name = VIETmisc.8243.a
+		any_sibling = {
+			opinion = {
+				modifier = VIET_opinion_values_our_relationship
+				who = ROOT
+				years = 3
+			}			
+		}
+		any_spouse = {
+			opinion = {
+				modifier = VIET_opinion_doesnt_value_relationship
+				who = ROOT
+				years = 3
+			}			
+		}
+		any_child = {
+			opinion = {
+				modifier = VIET_opinion_doesnt_value_relationship
+				who = ROOT
+				years = 3
+			}			
+		}
+		add_character_modifier = {
+			name = VIET_sexist_against_women
+			duration = 365
+		}
+	}
+
+	option = { # Children are our future
+		name = VIETmisc.8243.b
+		any_sibling = {
+			opinion = {
+				modifier = VIET_opinion_doesnt_value_relationship
+				who = ROOT
+				years = 3
+			}			
+		}
+		any_child = {
+			opinion = {
+				modifier = VIET_opinion_values_our_relationship
+				who = ROOT
+				years = 3
+			}			
+		}
+	}
+
+	option = { # Wives are important
+		name = VIETmisc.8243.c
+		any_sibling = {
+			opinion = {
+				modifier = VIET_opinion_doesnt_value_relationship
+				who = ROOT
+				years = 3
+			}			
+		}
+		any_spouse = {
+			opinion = {
+				modifier = VIET_opinion_values_our_relationship
+				who = ROOT
+				years = 3
+			}			
+		}
+		add_character_modifier = {
+			name = VIET_respects_women
+			duration = 365
+		}
+	}
+}
+
+
+
+
+# Who is your favorite Three Kingdoms character?
+character_event = {
+	id = VIETmisc.8244
+	desc = VIETmisc.8244.desc
+	picture = GFX_evt_siege_chinese_group
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no			
+		capital_scope = {
+			OR = {
+				region = custom_eastern_edge_of_map
+				region = world_himalayas
+				region = world_steppe_tarim
+				region = world_steppe_east
+				is_sinosphere_large_trigger = yes
+			}
+		}	
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }	
+		NOT = { has_character_flag = VIET_three_kingdoms_inspiration }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+		modifier = {
+			factor = 0.5
+			NOT = {
+				is_sinosphere_small_trigger = yes			
+			}
+		}				
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = poet
+		}
+		modifier = {
+			factor = 0.8
+			trait = hedonist
+		}
+		modifier = {
+			factor = 1.2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.8
+			trait = theologian
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_three_kingdoms_inspiration
+	}
+
+	option = { # Warlord
+		name = VIETmisc.8244.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8245 }
+		}
+	}
+
+	option = { # General
+		name = VIETmisc.8244.b
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8246 }
+		}
+	}
+
+	option = { # Strategist
+		name = VIETmisc.8244.c
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8247 }
+		}
+	}
+
+	option = { # Women
+		name = VIETmisc.8244.d
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8248 }
+		}
+	}
+}
+
+
+
+# Three Kingdoms - warlord
+character_event = {
+	id = VIETmisc.8245
+	desc = VIETmisc.8245.desc
+	picture = GFX_evt_chinese_prince
+	
+	is_triggered_only = yes
+
+	option = { # Warlord
+		name = VIETmisc.8245.a
+		add_character_modifier = {
+			name = VIET_three_kingdoms_cao_cao
+			duration = -1
+		}
+	}
+	option = { # Warlord
+		name = VIETmisc.8245.b
+		add_character_modifier = {
+			name = VIET_three_kingdoms_liu_bei
+			duration = -1
+		}
+	}
+	option = { # Warlord
+		name = VIETmisc.8245.c
+		add_character_modifier = {
+			name = VIET_three_kingdoms_sun_quan
+			duration = -1
+		}
+	}
+	option = { # Warlord
+		name = VIETmisc.8245.d
+		add_character_modifier = {
+			name = VIET_three_kingdoms_dong_zhuo
+			duration = -1
+		}
+	}
+}
+
+# Three Kingdoms - general
+character_event = {
+	id = VIETmisc.8246
+	desc = VIETmisc.8246.desc
+	picture = GFX_evt_battle_chinese_group
+	
+	is_triggered_only = yes
+
+	option = { # General
+		name = VIETmisc.8246.a
+		add_character_modifier = {
+			name = VIET_three_kingdoms_guan_yu
+		}
+	}
+	option = { # General
+		name = VIETmisc.8246.b
+		add_character_modifier = {
+			name = VIET_three_kingdoms_zhang_fei
+			duration = -1
+		}
+	}
+	option = { # General
+		name = VIETmisc.8246.c
+		add_character_modifier = {
+			name = VIET_three_kingdoms_xiahou_dun
+			duration = -1
+		}
+	}
+	option = { # General
+		name = VIETmisc.8246.d
+		add_character_modifier = {
+			name = VIET_three_kingdoms_lu_bu
+			duration = -1
+		}
+	}
+}
+
+# Three Kingdoms - strategist
+character_event = {
+	id = VIETmisc.8247
+	desc = VIETmisc.8247.desc
+	picture = GFX_evt_council_chinese_group
+	
+	is_triggered_only = yes
+
+	option = { # Strategist
+		name = VIETmisc.8247.a
+		add_character_modifier = {
+			name = VIET_three_kingdoms_zhuge_liang
+		}
+	}
+	option = { # Strategist
+		name = VIETmisc.8247.b
+		add_character_modifier = {
+			name = VIET_three_kingdoms_sima_yi
+		}
+	}
+	option = { # Strategist
+		name = VIETmisc.8247.c
+		add_character_modifier = {
+			name = VIET_three_kingdoms_zhou_yu
+		}
+	}
+	option = { # Strategist
+		name = VIETmisc.8247.d
+		add_character_modifier = {
+			name = VIET_three_kingdoms_chen_gong
+		}
+	}
+}
+
+# Three Kingdoms - Ladies
+character_event = {
+	id = VIETmisc.8248
+	desc = VIETmisc.8248.desc
+	picture = GFX_evt_chinese_princess
+	
+	is_triggered_only = yes
+
+	option = { # Ladies
+		name = VIETmisc.8248.a
+		add_character_modifier = {
+			name = VIET_three_kingdoms_diaochan
+		}
+	}
+	option = { # Ladies
+		name = VIETmisc.8248.b
+		add_character_modifier = {
+			name = VIET_three_kingdoms_sun_shangxiang
+		}
+	}
+	option = { # Ladies
+		name = VIETmisc.8248.c
+		add_character_modifier = {
+			name = VIET_three_kingdoms_qiao_sisters
+		}
+	}
+	option = { # Ladies
+		name = VIETmisc.8248.d
+		add_character_modifier = {
+			name = VIET_three_kingdoms_huang_yueying
+		}
+	}
+}
+
+###############################################################
+# CONSTANTINOPLE
+###############################################################
+
+
+
+# Will Constantinople ever be taken by a Muslim lord?
+character_event = {
+	id = VIETmisc.8249
+	desc = VIETmisc.8249.desc
+	picture = GFX_evt_hagia_sofia
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	religion_group = muslim
+	
+	trigger = {
+		#in_command = no
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = {
+			496 = {
+				OR = {
+					owner = {
+						religion_group = muslim
+					}
+					owner = {
+						any_liege = {
+							religion_group = muslim
+						}
+					}				
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+		
+		modifier = {
+			factor = 0.6
+			capital_scope = {
+				NOR = {
+					region = world_asia_minor
+					region = world_europe_south
+					region = world_steppe_west
+					region = world_middle_east
+					region = world_persia
+					region = world_africa_north
+				}
+			}
+		}		
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+
+	option = { # Perhaps one day
+		name = VIETmisc.8249.a
+	}
+	option = { # Constantinople is too mighty
+		name = VIETmisc.8249.b
+		prestige = -2
+		random_list = {
+			10 = { add_trait = craven }
+			10 = { add_trait = slothful }
+			10 = { add_trait = cynical }
+			10 = { add_trait = patient }
+			60 = { }
+		}
+	}
+	option = { # More important things to worry about
+		name = VIETmisc.8249.c
+		piety = -2
+		random_list = {
+			15 = { add_trait = just }
+			15 = { add_trait = diligent }
+			15 = { add_trait = cynical }
+			55 = { }
+		}
+	}
+	option = { # I could conquer it!
+		name = VIETmisc.8249.d
+		random_list = {
+			10 = { add_trait = brave }
+			20 = { add_trait = proud }
+			70 = { }
+		}
+	}
+}
+
+
+# Dispute between Italian merchants and Byzantine administrators
+character_event = {
+	id = VIETmisc.8250
+	desc = VIETmisc.8250.desc
+	picture = GFX_evt_busy_trading_dock_republic
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			top_liege = {
+				has_landed_title = e_byzantium
+			}
+			AND = {
+				culture_group = byzantine
+				capital_scope = {
+					OR = {
+						region = world_asia_minor
+						region = world_europe_south_east
+					}
+				}			
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				has_landed_title = c_byzantion
+			}
+		}		
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+
+	option = { # Support Italians
+		name = VIETmisc.8250.a
+		prestige = -10
+		add_character_modifier = {
+			name = VIET_italian_merchant_support
+			duration = 730
+		}
+	}
+	option = { # Support Byzantine nobles
+		name = VIETmisc.8250.b
+		prestige = -10
+		add_character_modifier = {
+			name = VIET_byzantine_noble_support
+			duration = 730
+		}
+	}
+	option = { # Neither
+		name = VIETmisc.8250.c
+		prestige = -5
+		random_list = {
+			15 = { add_trait = slothful }
+			15 = { add_trait = trusting }
+			15 = { add_trait = craven }
+			55 = { }
+		}
+	}
+	option = { # Invite Italian merchant to act as representative
+		name = VIETmisc.8250.d
+		trigger = {
+			diplomacy = 11
+			NOT = { has_character_flag = VIET_italian_merchant_representative_option }
+		}
+		tooltip_info = diplomacy
+		custom_tooltip = { text = VIET_italian_merchant_negotiation_cool }
+		set_character_flag = VIET_italian_merchant_representative_option
+		prestige = 10
+		capital_scope = {
+			add_province_modifier = {
+				name = VIET_negotiated_italian_deals
+				duration = 1825
+			}
+		}
+		create_random_steward = {
+			dynasty = actually_culture
+			religion = catholic
+			culture = italian
+			female = no
+			random_traits = yes
+			historical = yes
+		}
+		new_character = {
+			#Education & other basic stuff
+			set_character_flag = ai_flag_refuse_concubinage
+			set_character_flag = ai_flag_refuse_marriage
+			set_character_flag = no_court_invites
+			#Guaranteed Traits
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+			#Clutter Artifact					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}
+			#Flavor
+			random_list = {
+				90 = { add_scarred_tiered_effect = yes }
+				10 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+			}
+			add_character_modifier = {
+				name = VIET_italian_merchant_negotiator
+				duration = -1
+			}
+		}
+	}
+}
+
+# Hearing stories about Constantinople
+character_event = {
+	id = VIETmisc.8251
+	desc = VIETmisc.8251.desc
+	picture = GFX_evt_market_byzantine
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		#in_command = no
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOR = {
+			top_liege = {
+				OR = {
+					has_landed_title = e_byzantium
+					has_landed_title = e_roman_empire
+					has_landed_title = c_byzantion
+				}
+			}
+			AND = {
+				culture_group = byzantine
+				capital_scope = {
+					OR = {
+						region = world_asia_minor
+						region = world_europe_south_east
+					}
+				}			
+			}
+			has_landed_title = c_byzantion
+		}
+		capital_scope = {
+			NOR = {
+				region = world_steppe_east
+				#region = world_steppe_tarim
+				region = world_africa_central
+				region = world_himalayas
+				#region = world_india
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+		
+		modifier = {
+			factor = 0.1
+			capital_scope = {
+				OR = {
+					region = world_steppe_tarim
+					region = world_india
+					region = world_africa_east
+				}
+			}
+		}		
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+
+	option = { # Politics
+		name = VIETmisc.8251.a
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+		random = {
+			change_intrigue = 1
+			chance = 20
+		}
+		random = {
+			change_stewardship = 1
+			chance = 20
+		}
+	}
+	option = { # Pleasure
+		name = VIETmisc.8251.b
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+		random = {
+			change_intrigue = 1
+			chance = 20
+		}
+		random = {
+			change_diplomacy = 1
+			chance = 20
+		}
+	}
+	option = { # Trade
+		name = VIETmisc.8251.c
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+		random = {
+			change_stewardship = 1
+			chance = 20
+		}
+		random = {
+			change_diplomacy = 1
+			chance = 20
+		}
+	}
+	option = { # Daily lives
+		name = VIETmisc.8251.d
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+		random = {
+			change_stewardship = 1
+			chance = 20
+		}
+		random = {
+			change_learning = 1
+			chance = 20
+		}
+	}
+}
+
+#################################################################################
+# FANTASTICAL STORIES
+#################################################################################
+
+# Rumors about incestuous marriage in faraway lands
+character_event = {
+	id = VIETmisc.8252
+	desc = VIETmisc.8252.desc
+	picture = GFX_evt_scarborough_fair
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+
+	option = { # Barbaric
+		name = VIETmisc.8252.a
+		trigger = {
+			NOR = {
+				AND = {
+					religion_group = zoroastrian_group
+					NOT = { religion = manichean }	
+				}
+				religion = messalian
+				has_religion_feature = religion_holy_family 
+				has_religion_feature = religion_feature_zun
+			}	
+		}
+		piety = 3
+	}
+	option = { # Open minded
+		name = VIETmisc.8252.b
+		trigger = {
+			NOR = {
+				AND = {
+					religion_group = zoroastrian_group
+					NOT = { religion = manichean }	
+				}
+				religion = messalian
+				has_religion_feature = religion_holy_family 
+				has_religion_feature = religion_feature_zun
+			}	
+		}
+		piety = -3
+		prestige = -3
+		add_character_modifier = {
+			name = VIET_religiously_tolerant_ruler
+			duration = 365
+		}
+	}
+	option = { # Horny
+		name = VIETmisc.8252.c
+		if = {
+			limit = {
+				OR = {
+					religion_group = zoroastrian_group
+					religion = messalian
+					has_religion_feature = religion_holy_family 
+					has_religion_feature = religion_feature_zun
+				}
+				NOT = { religion = manichean }
+			}
+			piety = -5
+			prestige = -5
+			add_character_modifier = {
+				name = VIET_deviant_opinion
+				duration = 365
+			}
+			random = {
+				add_trait = lustful
+				chance = 30
+			}
+		}
+		else = {
+			piety = 3
+			prestige = 3
+			random = {
+				add_trait = lustful
+				chance = 20
+			}
+		}
+	}
+	option = { # Skeptical
+		name = VIETmisc.8252.d
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 365
+		}
+		random = {
+			add_trait = cynical
+			chance = 20
+		}
+	}
+	option = { # Faithful followers
+		name = VIETmisc.8252.e
+		trigger = {
+			OR = {
+				religion_group = zoroastrian_group
+				religion = messalian
+				has_religion_feature = religion_holy_family 
+				has_religion_feature = religion_feature_zun
+			}
+			NOT = { religion = manichean }
+		}
+		piety = 5
+	}
+}
+
+
+
+# Servant hears about the flying rabbits of the north
+character_event = {
+	id = VIETmisc.8253
+	desc = VIETmisc.8253.desc
+	picture = GFX_evt_snow_in_winter
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Rabbits don't fly
+		name = VIETmisc.8253.a
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 180
+		}
+	}
+	option = { # Cool story
+		name = VIETmisc.8253.b
+		random = {
+			add_trait = trusting
+			chance = 25
+		}
+	}
+	option = { # Actually
+		name = VIETmisc.8253.c
+		trigger = {
+			trait = erudite	
+			NOT = { learning = 13 }
+		}
+		tooltip_info = erudite
+		prestige = 4
+	}
+	option = { # Actually
+		name = VIETmisc.8253.d
+		trigger = {
+			learning = 13
+		}
+		tooltip_info = learning
+		prestige = 4
+	}
+}
+
+
+# Traveler tells of the lost village in the deserts of Egypt
+long_character_event = {
+	id = VIETmisc.8254
+	desc = VIETmisc.8254.desc
+	picture = GFX_evt_ancient_egypt
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		#NOR = {
+		#	culture = egyptian_arabic
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+	}
+
+	option = { # Amazing
+		name = VIETmisc.8254.a
+		prestige = 5
+		add_character_modifier = {
+			name = VIET_interesting_talk_with_stranger
+			duration = 365
+		}
+	}
+	option = { # Bah!
+		name = VIETmisc.8254.b
+		random_list = {
+			65 = { }
+			25 = { add_trait = proud }
+			10 = { add_trait = cynical }
+		}
+		add_character_modifier = {
+			name = VIET_interesting_talk_with_stranger
+			duration = 365
+		}
+	}
+	option = { # Still around?
+		name = VIETmisc.8254.c
+		piety = 5
+		add_character_modifier = {
+			name = VIET_interesting_talk_with_stranger
+			duration = 365
+		}
+	}
+}
+
+
+
+# Traveler tells of a golden island beyond Japan
+long_character_event = {
+	id = VIETmisc.8255
+	desc = VIETmisc.8255.desc
+	picture = GFX_evt_chinese_prince
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+
+		modifier = {
+			factor = 0.4
+			NOR = {
+				is_sinosphere_large_trigger = yes
+				capital_scope = {
+					OR = {
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_india
+						region = world_persia
+						region = world_middle_east
+						region = world_africa_east
+					}
+				}
+			}
+		}
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+	}
+
+	option = { # Amazing
+		name = VIETmisc.8255.a
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+	}
+	option = { # Bah!
+		name = VIETmisc.8255.b
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 365
+		}
+	}
+}
+
+
+# Hearing about opposite land underground
+long_character_event = {
+	id = VIETmisc.8256
+	desc = VIETmisc.8256.desc
+	picture = GFX_evt_shaman_personal_advice
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+
+	option = { # Amazing
+		name = VIETmisc.8256.a
+		add_character_modifier = {
+			name = VIET_open_minded_ruler
+			duration = 365
+		}
+	}
+	option = { # Bah!
+		name = VIETmisc.8256.b
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 365
+		}
+	}
+	option = { # Fascinating
+		name = VIETmisc.8256.c
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+	}
+}
+
+
+# Story of the labyrinth a la the Minotaur
+character_event = {
+	id = VIETmisc.8257
+	desc = VIETmisc.8257.desc
+	picture = GFX_evt_dark_tunnel
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+	}
+
+	option = { # Deserves freedom
+		name = VIETmisc.8257.a
+		random_list = {
+			70 = { }
+			10 = { add_trait = arbitrary }
+			10 = { add_trait = kind }
+			10 = { add_trait = charitable }
+		}
+	}
+	option = { # Unnecessary
+		name = VIETmisc.8257.b
+		random_list = {
+			70 = { }
+			10 = { add_trait = temperate }
+			10 = { add_trait = slothful }
+			10 = { add_trait = just }
+		}
+	}
+	option = { # Monsters and death traps
+		name = VIETmisc.8257.c
+		random_list = {
+			70 = { }
+			10 = { add_trait = cruel }
+			10 = { add_trait = deceitful }
+			10 = { add_trait = cynical }
+		}
+	}
+}
+
+
+
+# Gate to another world
+character_event = {
+	id = VIETmisc.8258
+	desc = VIETmisc.8258.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+
+	option = { # Wish I could go there
+		name = VIETmisc.8258.a
+		random_list = {
+			70 = { }
+			15 = { add_trait = trusting }
+			15 = { add_trait = envious }
+		}
+	}
+	option = { # I'll best the guardian in combat
+		name = VIETmisc.8258.b
+		random_list = {
+			70 = { }
+			15 = { add_trait = proud }
+			15 = { add_trait = brave }
+		}
+	}
+	option = { # Happy with what I have
+		name = VIETmisc.8258.c
+		random_list = {
+			70 = { }
+			10 = { add_trait = content }
+			10 = { add_trait = patient }
+			10 = { add_trait = humble }
+		}
+	}
+}
+
+
+
+
+# Old man recounts meeting the Dreamer
+character_event = {
+	id = VIETmisc.8259
+	desc = VIETmisc.8259.desc
+	picture = GFX_evt_finnish_mystique
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+
+	option = { # Type A is bad
+		name = VIETmisc.8259.a
+		piety = 5
+		random_list = {
+			50 = { }
+			25 = { add_trait = patient }
+			25 = { add_trait = humble }
+		}
+		if = {
+			limit = {
+				trait = ambitious
+			}
+			random = {
+				remove_trait = ambitious
+				chance = 50
+			}
+		}
+	}
+
+	option = { # Type A is good
+		name = VIETmisc.8259.b
+		piety = 5
+		random_list = {
+			50 = { }
+			25 = { add_trait = brave }
+			25 = { add_trait = arbitrary }
+		}
+		if = {
+			limit = {
+				trait = patient
+			}
+			random = {
+				remove_trait = patient
+				chance = 40
+			}
+		}
+		if = {
+			limit = {
+				trait = temperate
+			}
+			random = {
+				remove_trait = temperate
+				chance = 40
+			}
+		}
+		if = {
+			limit = {
+				trait = humble
+			}
+			random = {
+				remove_trait = humble
+				chance = 40
+			}
+		}
+	}
+
+	option = { # You met the Dreamer?
+		name = VIETmisc.8259.c
+		trigger = { # Dreamer - will have to change later, will not trigger atm
+			has_character_flag = VIET_met_the_dreamer
+		}
+	}
+}
+
+
+
+# Stories of the immortal horse
+character_event = {
+	id = VIETmisc.8260
+	desc = VIETmisc.8260.desc
+	picture = GFX_evt_journey_to_spirit_world_tengri_pagan
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		capital_scope = {
+			NOR = {
+				region = world_africa
+				region = world_europe_west
+				region = world_india_deccan
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 0.5
+			NOR = {
+				is_nomadic = yes
+				culture_group = altaic
+				culture_group = magyar
+				culture_group = finno_ugric
+				culture_group = chinese_group
+				culture_group = tibetan_group
+				culture_group = iranian
+				culture_group = east_slavic
+				#culture_group = south_slavic
+				#culture_group = west_slavic
+				#culture_group = byzantine
+			}
+		}	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = erudite
+		}
+	}
+
+	option = { # Cool!
+		name = VIETmisc.8260.a
+		add_character_modifier = {
+			name = VIET_im_curious
+			duration = 365
+		}
+	}
+	option = { # Not real!
+		name = VIETmisc.8260.b
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 365
+		}
+	}
+}
+
+# Meeting the woman in white
+character_event = {
+	id = VIETmisc.8261
+	desc = VIETmisc.8261.desc
+	picture = GFX_evt_viet_forest_girl
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Coward
+		name = VIETmisc.8261.a
+		prestige = 2
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}
+	option = { # Scary
+		name = VIETmisc.8261.b
+		piety = 2
+		add_character_modifier = {
+			name = VIET_eerie_story
+			duration = 365
+		}
+	}
+}
+
+# Maid recounts meeting the Dreamer
+character_event = {
+	id = VIETmisc.8262
+	desc = VIETmisc.8262.desc
+	picture = GFX_evt_hades_forest
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Scary
+		name = VIETmisc.8262.a
+		add_character_modifier = {
+			name = VIET_eerie_story
+			duration = 365
+		}
+	}
+	option = { # You met the dreamer?
+		name = VIETmisc.8262.b
+		trigger = { # Dreamer - will have to change later, will not trigger atm
+			has_character_flag = VIET_met_the_dreamer
+		}
+	}
+}
+
+
+# Scholar tells of an island on a lake - part 1
+character_event = {
+	id = VIETmisc.8263
+	desc = VIETmisc.8263.desc
+	picture = GFX_evt_skyrim_forest
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+
+	option = { # Scary
+		name = VIETmisc.8263.a
+		narrative_event = { id = VIETmisc.8264 tooltip = VIETmisc.8264.tooltip }
+	}
+}
+
+
+# Scholar tells of an island on a lake - part 2
+narrative_event = {
+	id = VIETmisc.8264
+	title = VIETmisc.8264.title
+	desc = VIETmisc.8264.desc
+	picture = GFX_evt_stone_church_hellenic_pagan
+	
+	is_triggered_only = yes
+
+	option = { # Scary
+		name = VIETmisc.8264.a
+		add_character_modifier = {
+			name = VIET_eerie_story
+			duration = 365
+		}
+	}
+	option = { # Dream?
+		name = VIETmisc.8264.b
+		add_character_modifier = {
+			name = VIET_navel_gazing
+			duration = 365
+		}
+	}
+	option = { # Curious
+		name = VIETmisc.8264.c
+		add_character_modifier = {
+			name = VIET_im_curious
+			duration = 365
+		}
+	}
+}
+
+# Courtiers debate the skin color of the people living on the fantastical Isle of Color (with rhyming)
+character_event = {
+	id = VIETmisc.8265
+	desc = VIETmisc.8265.desc
+	picture = GFX_evt_tropicana
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+
+	option = { # Doesn't exist
+		name = VIETmisc.8265.a
+		random_list = {
+			50 = { piety = 3 }
+			50 = { prestige = 3 }
+		}
+	}
+	option = { # Pink skin
+		name = VIETmisc.8265.b
+		prestige = 3
+	}
+	option = { # Dark blue skin
+		name = VIETmisc.8265.c
+		piety = 3
+	}
+	option = { # Green skin
+		name = VIETmisc.8265.d
+		random_list = {
+			50 = { piety = 3 }
+			50 = { prestige = 3 }
+		}
+	}
+}
+
+#######################################################################################
+# DAILY WORK 8266-8276
+#######################################################################################
+
+
+# Ink smudges document
+character_event = {
+	id = VIETmisc.8266
+	desc = VIETmisc.8266.desc
+	picture = GFX_evt_stressed_ruler
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+
+	option = { # Rewrite
+		name = VIETmisc.8266.a
+		prestige = -5
+		wealth = -5
+		random = {
+			add_trait = stressed
+			chance = 20
+		}
+	}
+	option = { # Leave as is
+		name = VIETmisc.8266.b
+		prestige = -10
+		if = {
+			limit = {
+				trait = ambitious
+			}
+			random = {
+				remove_trait = ambitious
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = content
+				chance = 40
+			}
+		}
+	}
+}
+
+
+# Lost an important document
+character_event = {
+	id = VIETmisc.8267
+	desc = VIETmisc.8267.desc
+	picture = GFX_evt_open_book_hf
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+
+	option = { # Rewrite
+		name = VIETmisc.8267.a
+		prestige = -5
+	}
+}
+
+
+
+# Official seduced into corruption
+character_event = {
+	id = VIETmisc.8268
+	desc = VIETmisc.8268.desc
+	picture = GFX_evt_eavesdropping
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+	}
+
+	option = { # Bless their marriage
+		name = VIETmisc.8268.a
+		prestige = -15
+		piety = 5
+		random_list = {
+			60 = { }
+			10 = { add_trait = arbitrary }
+			10 = { add_trait = kind }
+			10 = { add_trait = content }
+			10 = { add_trait = patient }
+		}
+	}
+	option = { # Fine official
+		name = VIETmisc.8268.b
+		prestige = -10
+		wealth = 5
+	}
+	option = { # Imprison official
+		name = VIETmisc.8268.c
+		prestige = -5
+		random = {
+			add_trait = just
+			chance = 25
+		}
+	}
+	option = { # Execute official
+		name = VIETmisc.8268.d
+		prestige = -5
+		random_list = {
+			75 = { }
+			10 = { add_trait = arbitrary }
+			10 = { add_trait = wroth }
+			5 = { add_trait = proud }
+		}
+	}
+}
+
+
+
+# Testing an upright official incognito
+character_event = {
+	id = VIETmisc.8269
+	desc = VIETmisc.8269.desc
+	picture = GFX_evt_gathering_of_minds
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+
+	option = { # It's an act
+		name = VIETmisc.8269.a
+		trigger = {
+			trait = proud
+		}
+		tooltip_info = proud
+		random = {
+			add_trait = cynical
+			chance = 30
+		}
+	}
+	option = { # Good!
+		name = VIETmisc.8269.b
+		prestige = 5
+	}
+	option = { # Reward him
+		name = VIETmisc.8269.c
+		prestige = 5
+		wealth = -10
+		random = {
+			add_trait = charitable
+			chance = 30
+		}
+	}
+	option = { # Invite him to court
+		name = VIETmisc.8269.d
+		trigger = {
+			NOT = { has_character_flag = VIET_invited_upright_official_to_court }
+		}
+		set_character_flag = VIET_invited_upright_official_to_court
+		prestige = -25
+		create_random_steward = {
+			dynasty = actually_culture
+			religion = ROOT
+			culture = ROOT
+			female = no
+			random_traits = no
+			historical = yes
+			attributes = {
+				diplomacy = 8
+				martial = 4
+				stewardship = 9
+				intrigue = 6
+				learning = 7
+			}
+		}
+		new_character = {
+			#Education & other basic stuff
+			set_character_flag = ai_flag_refuse_concubinage
+			set_character_flag = ai_flag_refuse_marriage
+			#set_character_flag = no_court_invites
+			#Guaranteed Traits
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+			#Clutter Artifact					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}
+			add_trait = just
+			add_trait = humble
+			add_trait = honest
+			add_trait = patient
+			add_trait = kind
+			add_trait = administrator
+			#Flavor
+			random_list = {
+				100 = { }
+				23 = { add_scarred_tiered_effect = yes }
+				2 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+			}
+			random_list = {
+				5 = { add_trait = genius }
+				10 = { add_trait = quick }
+				25 = { add_trait = shrewd }
+				60 = {}
+			}
+			add_character_modifier = {
+				name = VIET_upright_official
+				duration = -1
+			}
+		}
+	}
+}
+
+# Misplaced documents before an important meeting
+character_event = {
+	id = VIETmisc.8270
+	desc = VIETmisc.8270.desc
+	picture = GFX_evt_stressed_ruler
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			is_dumb_trigger = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_smart_trigger = yes
+		}
+	}
+
+	option = { # They won't reprimand me
+		name = VIETmisc.8270.a
+		prestige = -5
+		if = {
+			limit = {
+				trait = humble
+			}
+			random = {
+				remove_trait = humble
+				chance = 33
+			}
+		}
+		else = {
+			random = {
+				add_trait = proud
+				chance = 33
+			}			
+		}
+	}
+	option = { # Admit mistake
+		name = VIETmisc.8270.b
+		prestige = -5
+		if = {
+			limit = {
+				trait = proud
+			}
+			random = {
+				remove_trait = proud
+				chance = 33
+			}
+		}
+		else = {
+			random = {
+				add_trait = humble
+				chance = 33
+			}			
+		}
+	}
+	option = { # Make an excuse
+		name = VIETmisc.8270.c
+		prestige = -5
+		piety = -5
+	}
+	option = { # Pretend to be sick
+		name = VIETmisc.8270.d
+		random_list = {
+			60 = { }
+			20 = { add_trait = shy }
+			20 = { add_trait = craven }
+		}
+	}
+}
+
+
+
+# Stain on a scroll that you're reading
+character_event = {
+	id = VIETmisc.8271
+	desc = VIETmisc.8271.desc
+	picture = GFX_evt_recieve_letter
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+	}
+
+	option = { # Gross!
+		name = VIETmisc.8271.a
+		prestige = -5
+		random = {
+			add_trait = paranoid
+			chance = 10
+		}
+	}
+	option = { # Whatever
+		name = VIETmisc.8271.b
+		random_list = {
+			85 = { }
+			10 = { add_trait = content }
+			5 = { health = -0.1 }
+		}
+	}
+}
+
+
+
+
+# Standing in the wrong place while meeting an envoy
+character_event = {
+	id = VIETmisc.8272
+	desc = VIETmisc.8272.desc
+	picture = GFX_evt_throne_room
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+
+	option = { # Ok!
+		name = VIETmisc.8272.a
+		prestige = 5
+	}
+}
+
+
+# Sneezing during council meeting
+character_event = {
+	id = VIETmisc.8273
+	desc = VIETmisc.8273.desc
+	picture = GFX_evt_council
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+	}
+
+	option = { # It's ok!
+		name = VIETmisc.8273.a
+		prestige = -4
+	}
+	option = { # No one cares
+		name = VIETmisc.8273.b
+		random_list = {
+			70 = { }
+			10 = { add_trait = shy }
+			10 = { add_trait = envious }
+			10 = { add_trait = cynical }
+		}
+	}
+	option = { # Angry!
+		name = VIETmisc.8273.b
+		random = {
+			add_trait = wroth
+			chance = 25
+		}
+	}
+}
+
+
+
+# Officials discuss whether it's better to follow policy or do what's right
+character_event = {
+	id = VIETmisc.8274
+	desc = VIETmisc.8274.desc
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+
+	option = { # Ignore
+		name = VIETmisc.8274.a
+		random = {
+			add_trait = shy
+			chance = 10
+		}
+	}
+	option = { # Follow policy
+		name = VIETmisc.8274.b
+		prestige = 5
+		piety = -5
+	}
+	option = { # Follow what's right
+		name = VIETmisc.8274.b
+		prestige = -5
+		piety = 5
+	}
+}
+
+
+
+
+# Minor official overlooked because of humble origin
+character_event = {
+	id = VIETmisc.8275
+	desc = VIETmisc.8275.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+
+	option = { # Lineage is most important
+		name = VIETmisc.8275.a
+		prestige = 5
+		piety = -5
+		random = {
+			add_trait = proud
+			chance = 30
+		}
+	}
+	option = { # Promote the minor official
+		name = VIETmisc.8275.b
+		prestige = -5
+		add_character_modifier = {
+			name = VIET_promoted_minor_official
+			duration = 1000
+		}
+	}
+	option = { # Let them sort it out
+		name = VIETmisc.8275.c
+	}
+	option = { # Invite to court
+		name = VIETmisc.8275.d
+		trigger = {
+			NOT = { has_character_flag = VIET_invited_talented_humble_official }
+		}
+		set_character_flag = VIET_invited_talented_humble_official
+		add_character_modifier = {
+			name = VIET_promoted_minor_official
+			duration = 1000
+		}
+		create_random_steward = {
+			dynasty = actually_culture
+			religion = ROOT
+			culture = ROOT
+			female = no
+			random_traits = yes
+			historical = yes
+		}
+		new_character = {
+			#Education & other basic stuff
+			set_character_flag = ai_flag_refuse_concubinage
+			set_character_flag = ai_flag_refuse_marriage
+			#set_character_flag = no_court_invites
+			#Guaranteed Traits
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+			#Clutter Artifact					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}
+			#Flavor
+			random_list = {
+				100 = { }
+				23 = { add_scarred_tiered_effect = yes }
+				2 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+			}
+			random_list = {
+				50 = { add_trait = genius }
+				50 = { add_trait = quick }
+			}
+			random = {
+				add_trait = strong
+				chance = 30
+			}
+			random = {
+				add_trait = fair
+				chance = 30
+			}
+			add_character_modifier = {
+				name = VIET_talented_humble_official
+				duration = -1
+			}
+		}
+	}
+}
+
+
+
+
+# Remembering something shameful that happened while holding court
+character_event = {
+	id = VIETmisc.8276
+	desc = VIETmisc.8276.desc
+	picture = GFX_evt_throne_room
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+
+	option = { # Ugh!
+		name = VIETmisc.8276.a
+		prestige = -1
+		random = {
+			add_trait = stressed
+			chance = 25
+		}
+	}
+	option = { # Ignore it
+		name = VIETmisc.8276.b
+		piety = -1
+		random = {
+			add_trait = stressed
+			chance = 25
+		}
+	}
+	option = { # Pretty funny
+		name = VIETmisc.8276.c
+		prestige = -5
+		piety = 5
+		random = {
+			add_trait = content
+			chance = 25
+		}
+	}
+}
+
+

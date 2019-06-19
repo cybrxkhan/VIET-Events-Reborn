@@ -200,11 +200,27 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\artifacts\\VIET_hellenic_statue_male_small.dds"
 	}
 	spriteType = {
-		name = "GFX_VIET_dinosaur_bone_male"
+		name = "GFX_VIET_dinosaur_bone"
 		texturefile = "gfx\\interface\\artifacts\\VIET_dinosaur_bone.dds"
 	}
 	spriteType = {
 		name = "GFX_VIET_dinosaur_bone_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_dinosaur_bone_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_lusty_argonian_maid"
+		texturefile = "gfx\\interface\\artifacts\\VIET_lusty_argonian_maid.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_lusty_argonian_maid_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_lusty_argonian_maid_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_guan_yu_statue"
+		texturefile = "gfx\\interface\\artifacts\\VIET_guan_yu_statue.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_guan_yu_statue_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_guan_yu_statue_small.dds"
 	}
 }

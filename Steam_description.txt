@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.3 "Shen Kuo" (Released 1/20/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.7 "Constantine XI Palaiologos" (Released 5/29/19, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,28 +38,16 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.3 "Shen Kuo"
+Version 2.0.7 "Constantine XI Palaiologos"
 
-[I]Shen Kuo was a Chinese polymath, scholar, and official of the Song Dynasty. Among his many achievements in various fields, he developed an academically rigorous approach to archaeology and history for his time.[/I]
+[I]“The city is fallen but I am still alive!”
+- Constantine XI Palaiologos, the last Roman Emperor, at the siege of Constantinople in 1453 CE[/I]
 
 [LIST]
-[*]Added 11 Ancient Culture themed events
-[*]Added 12 Clutter themed events (to gain even more useless clutter!)
-[*]Added 29 events to lose artifacts added in VIET Events - these fire on a separate on_actions and are fairly rare (though will be a little more common for characters with more than three VIET artifacts)
-[*]Re-added the following 41 events from old VIET: 7 Ancient Cultures, 9 Sound, 3 Prayer, 9 Memories, 5 Shady, and 8 Comet Events
-[*]Re-added event chains: Minotaur and Tarim Basin Scrolls
-[*]Added “Clutter” slot in player inventory for the miscellaneous VIET artifacts. Players are now limited to “equipping” three of these at a time, to prevent stacking a crap ton of bonuses.
-[*]Added many new clutter artifacts, including some ancient artifacts
-[*]Events to gain or lose VIET artifacts are now in a separate on_actions - will still need testing to tweak frequency
-[*]Added flags to VIET artifacts
-[*]Reduced frequency of VIET artifact events
-[*]Reduced chances of getting VIET artifacts if character already has one (via scripted trigger)
-[*]Reduced severity of revolt risk for several modifiers
-[*]Nutcracker and Hourglass artifact events now moved to the Five year on_actions pulse (where almost all the other clutter artifact events were)
-[*]Israelite/Jewish cultures now also count for is_baklava_culture_trigger
-[*]Fixed Mysterious Colors, Famous Bard, and Haunted Ship event modifiers giving global revolt risk instead of local revolt risk
-[*]Fixed Calipers and Abacus artifact events being able to fire if character already owns them
-[*]Fixed event where you go to the ocean at night firing if your capital isn’t coastal
-[*]Other miscellaneous fixes
+[*]Added 3 Constantinople themed events
+[*]Added 8 Three Kingdoms themed events
+[*]Added new artifact: Statue of Guan Yu
+[*]Re-added events from old VIET: 9 Byzantine
+[*]Misc minor bug and typo fixes
 [/LIST]
 

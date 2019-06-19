@@ -764,11 +764,11 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\skyrim_forest_mesoamerican.tga"
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_evt_small_town_andalusian_arabic"
-		texturefile = "gfx\\event_pictures\\small_town_north_african.tga"
-		allwaystransparent = yes
-	}
+	#spriteType = {
+	#	name = "GFX_evt_small_town_andalusian_arabic"
+	#	texturefile = "gfx\\event_pictures\\small_town_north_african.tga"
+	#	allwaystransparent = yes
+	#}
 	spriteType = {
 		name = "GFX_evt_khitan"
 		texturefile = "gfx\\event_pictures\\khitan_invasion.tga"
@@ -1548,11 +1548,11 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\cathedral_serindian.tga"
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_evt_cathedral_chinese_group"
-		texturefile = "gfx\\event_pictures\\cathedral_sinic.tga"
-		allwaystransparent = yes
-	}
+	#spriteType = {
+	#	name = "GFX_evt_cathedral_chinese_group"
+	#	texturefile = "gfx\\event_pictures\\cathedral_sinic.tga"
+	#	allwaystransparent = yes
+	#}
 	spriteType = {
 		name = "GFX_evt_trade_post_republic_chinese_group"
 		texturefile = "gfx\\event_pictures\\republic_trade_post_sinic.tga"
@@ -1931,12 +1931,12 @@ spriteTypes = {
 	}				
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_iranian"
-		texturefile = "gfx\\event_pictures\\ancient_cairn_arabic.tga"
+		texturefile = "gfx\\event_pictures\\persepolis_ruin.tga"
 		allwaystransparent = yes
 	}				
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_serindian"
-		texturefile = "gfx\\event_pictures\\ancient_cairn_arabic.tga"
+		texturefile = "gfx\\event_pictures\\persepolis_ruin.tga"
 		allwaystransparent = yes
 	}		
 	spriteType = {
@@ -2392,6 +2392,126 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_village_at_night_turkish"
 		texturefile = "gfx\\event_pictures\\village_at_night_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_iberian"
+		texturefile = "gfx\\event_pictures\\small_town_iberian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_andalusian_arabic"
+		texturefile = "gfx\\event_pictures\\small_town_iberian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_tibetan_group"
+		texturefile = "gfx\\event_pictures\\small_town_tibetan_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_castle_construction_tibetan_group"
+		texturefile = "gfx\\event_pictures\\castle_construction_tibetan_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_jugglers_chinese_group"
+		texturefile = "gfx\\event_pictures\\jugglers_chinese.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_hf_arabic"
+		texturefile = "gfx\\event_pictures\\market_hf_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_hf_iranian"
+		texturefile = "gfx\\event_pictures\\market_hf_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_hf_north_african"
+		texturefile = "gfx\\event_pictures\\market_hf_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_hf_andalusian_arabic"
+		texturefile = "gfx\\event_pictures\\market_hf_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_hf_serindian"
+		texturefile = "gfx\\event_pictures\\market_hf_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_hf_turkish"
+		texturefile = "gfx\\event_pictures\\market_hf_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_hf_east_african"
+		texturefile = "gfx\\event_pictures\\market_hf_arabic.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_castle_construction_chinese_group"
+		texturefile = "gfx\\event_pictures\\castle_tower_sinic.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_tuscan_country_tibetan_group"
+		texturefile = "gfx\\event_pictures\\tuscan_country_altaic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_child_talking_tibetan_group"
+		texturefile = "gfx\\event_pictures\\Children_talking_altaic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_tibetan_group"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_tibetan_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_tibetan_group"
+		texturefile = "gfx\\event_pictures\\market_tibetan_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_holy_light_basic"
+		texturefile = "gfx\\event_pictures\\holy_light_basic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_chinese_prince"
+		texturefile = "gfx\\event_pictures\\chinese_prince.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_modern_slice_of_life"
+		texturefile = "gfx\\event_pictures\\modern_slice_of_life.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_asian_calligraphy"
+		texturefile = "gfx\\event_pictures\\asian_calligraphy.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_asian_go_game"
+		texturefile = "gfx\\event_pictures\\asian_go_game.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_asian_zither"
+		texturefile = "gfx\\event_pictures\\asian_zither.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_finnish_mystique"
+		texturefile = "gfx\\event_pictures\\finnish_mystique.tga"
 		allwaystransparent = yes
 	}
 }

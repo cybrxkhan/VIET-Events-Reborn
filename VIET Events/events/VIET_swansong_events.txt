@@ -2322,7 +2322,7 @@ province_event = {
 		months = 6000
 		modifier = {
 			OR = {
-				culture_group = serindian
+				culture_group = serindian # exists in WtWSMS
 				culture = tocharian
 				culture = sogdian
 				culture = saka
@@ -3530,9 +3530,13 @@ province_event = {
 		NOT = { has_province_modifier = VIET_province_incest_couple }
 		NOT = { religion_group = zoroastrian_group }
 		NOT = { religion = messalian }
+		#NOT = { has_religion_feature = religion_holy_family }
+		#NOT = { has_religion_feature = religion_feature_zun }
 		owner = {
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
+			NOT = { has_religion_feature = religion_holy_family }
+			NOT = { has_religion_feature = religion_feature_zun }
 		}
 	}
 
@@ -3616,7 +3620,7 @@ character_event = {
 		in_command = no
 		OR = {
 			culture_group = west_germanic
-			culture_group = gallic
+			#culture_group = gallic
 			culture_group = latin
 			culture_group = celtic
 			culture_group = north_germanic
@@ -3625,7 +3629,7 @@ character_event = {
 			any_realm_province = {
 				OR = {
 					culture_group = west_germanic
-					culture_group = gallic
+					#culture_group = gallic
 					culture_group = latin
 					culture_group = celtic
 					culture_group = north_germanic
@@ -3958,7 +3962,11 @@ narrative_event = {
 			add_character_modifier = {
 				name = VIET_obsessed_with_incest
 				duration = -1
-			}
+			}					
+			random = {
+				VIET_give_clutter_artifact_effect = yes
+				chance = 10
+			}	
 		}
 		custom_tooltip = { text = LONG_LIVE_XWEDODAH }
 	}

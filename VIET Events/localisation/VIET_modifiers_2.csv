@@ -201,29 +201,157 @@ VIET_lydia_modifier_desc;This lady was earlier in her life a mere maidservant, b
 VIET_opinion_sarcastic_lydia;Sarcastic Yet Loyal;Sarcastique pourtant loyal;;;;;;;;;;;;x
 VIET_jon_battle_born_soldier;Was a Poetic Guardsman;Était un garde poétique;;;;;;;;;;;;x
 VIET_jon_battle_born_soldier_desc;This character was originally a guardsman renowned for his friendly, righteous outlook on life and his skill as a poet before he was promoted.;Ce personnage était à l’origine un gardien réputé pour son regard droit et amical sur la vie et son habileté en tant que poète avant sa promotion.;;;;;;;;;;;;x
-VIET_trader_joes_21_seasoning_salute;Twenty One Seasoning Mix;;;;;;;;;;;;;x
-VIET_trader_joes_21_seasoning_salute_desc;This character possesses a stock of a particular blend of twenty-one different spices and herbs, ground and mixed to perfection. It is quite delicious and versatile, and can be used in a lot of different dishes.;;;;;;;;;;;;;x
-VIET_opinion_calmly_corrected_error;Calmly Corrected Me;;;;;;;;;;;;;x
-VIET_opinion_garlic_breath;Garlic Breath;;;;;;;;;;;;;x
-VIET_dhana_jiru;Cooks Using Dhana Jiru;;;;;;;;;;;;;x
-VIET_dhana_jiru_desc;Dhana Jiru is a traditional spice mix from Western India. Its two main ingredients are cumin and coriander.;;;;;;;;;;;;;x
-VIET_refreshing_drink;Refreshing Drink;;;;;;;;;;;;;x
-VIET_romantic_saffron_bath;Romantic Saffron Bath;;;;;;;;;;;;;x
-VIET_saffron_bath;Saffron Bath;;;;;;;;;;;;;x
-VIET_saffron_bath_desc;They say that saffron baths are one of the best aphrodisiacs out there - if, that is, you or your lover can afford it. It is said that Pharaoh Cleopatra herself used them frequently.;;;;;;;;;;;;;x
-VIET_helped_acquaintance;Helped Acquaintance with a Problem;;;;;;;;;;;;;x
-VIET_caraway_breath_freshener;Caraway Breath Freshener;;;;;;;;;;;;;x
-VIET_opinion_lack_of_trust;Lack of Trust;;;;;;;;;;;;;x
-VIET_opinion_suspicious;Suspicious;;;;;;;;;;;;;x
-VIET_mild_headaches;Mild Headaches;;;;;;;;;;;;;x
-VIET_mild_stomachaches;Mild Stomachaches;;;;;;;;;;;;;x
-VIET_ginger_tea;Ginger Tea;;;;;;;;;;;;;x
-VIET_ginger_tea_desc;This character is drinking ginger tea daily to help with their frequent stomachaches.;;;;;;;;;;;;;x
-VIET_effective_pest_control;Effective Pest Control;;;;;;;;;;;;;x
-VIET_province_famous_herbalists;Famous Herbs and Herbalists;;;;;;;;;;;;;x
-VIET_province_famous_herbalists_desc;The herbalists from this province are renowned for the traditional remedies and treatments they have developed, made using the province's unique plants, minerals, and so on.;;;;;;;;;;;;;x
-VIET_boulder_blessing;Boulder's Blessing;;;;;;;;;;;;;x
-VIET_urine_strange_color;Urine is Strange Color;;;;;;;;;;;;;x
-VIET_province_araragi_vampire;Legends of the Demon-Slayer and Immortal Servant Girl;;;;;;;;;;;;;x
-VIET_province_araragi_vampire_desc;Recently, there are stories that a demon-slayer who is impervious to any harm or injury is living in this region. According to the fanciful stories told about him, he gained these abilities after encountering otherworldly spirits, particularly an immortal girl who is his servant.;;;;;;;;;;;;;x
-xxxxxxxxx;xxxxx;;;;;;;;;;;;;x
+VIET_trader_joes_21_seasoning_salute;Twenty One Seasoning Mix;Vingt et un assaisonnements;;;;;;;;;;;;x
+VIET_trader_joes_21_seasoning_salute_desc;This character possesses a stock of a particular blend of twenty-one different spices and herbs, ground and mixed to perfection. It is quite delicious and versatile, and can be used in a lot of different dishes.;Ce personnage possède un stock d'un mélange particulier de vingt et une épices et herbes différentes, moulues et mélangées à la perfection. C'est assez délicieux et polyvalent, et peut être utilisé dans beaucoup de plats différents.;;;;;;;;;;;;x
+VIET_opinion_calmly_corrected_error;Calmly Corrected Me;M'a calmement corrigé;;;;;;;;;;;;x
+VIET_opinion_garlic_breath;Garlic Breath;Haleine d'ail;;;;;;;;;;;;x
+VIET_dhana_jiru;Cooks Using Dhana Jiru;Cuisiniers utilisant du Dhana Jiru;;;;;;;;;;;;x
+VIET_dhana_jiru_desc;Dhana Jiru is a traditional spice mix from Western India. Its two main ingredients are cumin and coriander.;Le Dhana Jiru est un mélange d'épices traditionnel de l'Inde occidentale. Ses deux principaux ingrédients sont le cumin et la coriandre.;;;;;;;;;;;;x
+VIET_refreshing_drink;Refreshing Drink;Boisson rafraîchissante;;;;;;;;;;;;x
+VIET_romantic_saffron_bath;Romantic Saffron Bath;Bain romantique au safran;;;;;;;;;;;;x
+VIET_saffron_bath;Saffron Bath;Bain au safran;;;;;;;;;;;;x
+VIET_saffron_bath_desc;They say that saffron baths are one of the best aphrodisiacs out there - if, that is, you or your lover can afford it. It is said that Pharaoh Cleopatra herself used them frequently.;Ils disent que les bains au safran sont l’un des meilleurs aphrodisiaques du monde - si, c’est-à-dire si vous ou votre partenaire pouvez vous le permettre. On dit que Cléopâtre elle-même les utilisait fréquemment.;;;;;;;;;;;;x
+VIET_helped_acquaintance;Helped Acquaintance with a Problem;A aidé à la connaissance d'un problème;;;;;;;;;;;;x
+VIET_caraway_breath_freshener;Caraway Breath Freshener;Rafraîchisseur d'haleine au cumin;;;;;;;;;;;;x
+VIET_opinion_lack_of_trust;Lack of Trust;Manque de confiance;;;;;;;;;;;;x
+VIET_opinion_suspicious;Suspicious;Méfiant;;;;;;;;;;;;x
+VIET_mild_headaches;Mild Headaches;Maux de tête légers;;;;;;;;;;;;x
+VIET_mild_stomachaches;Mild Stomachaches;Maux d'estomac légers;;;;;;;;;;;;x
+VIET_ginger_tea;Ginger Tea;Thé au gingembre;;;;;;;;;;;;x
+VIET_ginger_tea_desc;This character is drinking ginger tea daily to help with their frequent stomachaches.;Ce personnage boit du thé au gingembre quotidiennement pour l'aider à lutter contre de fréquents maux de ventre.;;;;;;;;;;;;x
+VIET_effective_pest_control;Effective Pest Control;Lutte antiparasitaire efficace;;;;;;;;;;;;x
+VIET_province_famous_herbalists;Famous Herbs and Herbalists;Herbes et Herboristes célèbres;;;;;;;;;;;;x
+VIET_province_famous_herbalists_desc;The herbalists from this province are renowned for the traditional remedies and treatments they have developed, made using the province's unique plants, minerals, and so on.;Les herboristes de cette province sont réputés pour les remèdes et les traitements traditionnels qu'ils ont mis au point, fabriqués à partir des plantes, des minéraux, etc. uniques dans la province.;;;;;;;;;;;;x
+VIET_boulder_blessing;Boulder's Blessing;Bénédiction de Boulder;;;;;;;;;;;;x
+VIET_urine_strange_color;Urine is Strange Color;Urine de couleur étrange;;;;;;;;;;;;x
+VIET_province_araragi_vampire;Legends of the Demon-Slayer and Immortal Servant Girl;Légendes de la Tueuse de Démons et Servante Immortelle;;;;;;;;;;;;x
+VIET_province_araragi_vampire_desc;Recently, there are stories that a demon-slayer who is impervious to any harm or injury is living in this region. According to the fanciful stories told about him, he gained these abilities after encountering otherworldly spirits, particularly an immortal girl who is his servant.;Récemment, il y a des histoires qu'un tueur de démons qui est insensible à tout préjudice ou blessure habite dans cette région. Selon les histoires fantaisistes racontées à son sujet, il a acquis ces capacités après avoir rencontré des esprits d'un autre monde, en particulier une fille immortelle qui est son serviteur.;;;;;;;;;;;;x
+VIET_washed_hands;Washed Hands;Mains lavées;;;;;;;;;;;;x
+VIET_washed_hands_desc;This character knows the importance of washing their hands.;Ce personnage connaît l'importance de se laver les mains.;;;;;;;;;;;;x
+VIET_didnt_wash_hands;Doesn't Wash Hands;Ne se lave pas les mains;;;;;;;;;;;;x
+VIET_didnt_wash_hands_desc;This character doesn't like washing their hands.;Ce personnage n'aime pas se laver les mains.;;;;;;;;;;;;x
+VIET_rosewater_ointment;Rosewater Ointment;Onguent à l'eau de rose;;;;;;;;;;;;x
+VIET_opinion_rosewater_ointment_gift;Bought Me Rosewater Ointment;On m'a acheté l'onguent à l'eau de rose;;;;;;;;;;;;x
+VIET_opinion_garden_advice;Gardening Advice;Conseils de jardinage;;;;;;;;;;;;x
+VIET_garden_improvements;Garden Improvements;Améliorations du jardin;;;;;;;;;;;;x
+VIET_garden_improvements_desc;This character recently made some improvements to their residence's garden.;Ce personnage a récemment apporté quelques améliorations au jardin de sa résidence.;;;;;;;;;;;;x
+VIET_rose_garden;Rose Garden;Roseraie;;;;;;;;;;;;x
+VIET_rose_garden_desc;There is a beautiful and well-known rose garden on this character's residence.;Il y a un beau jardin de roses bien connu sur la résidence de ce personnage.;;;;;;;;;;;;x
+VIET_opinion_asked_me_for_garden_advice;Asked for Gardening Advice;A demandé des conseils de jardinage;;;;;;;;;;;;x
+VIET_opinion_praised_me;Praised Me;M'a loué;;;;;;;;;;;;x
+VIET_opinion_insulted_me;Insulted Me;M'a insulté;;;;;;;;;;;;x
+VIET_opinion_gardening_discussions;Gardening Discussions;Discussions de jardinage;;;;;;;;;;;;x
+VIET_rosehip_oil;Rosehip Oil;Huile de rose musquée;;;;;;;;;;;;x
+VIET_rosehip_oil_desc;They say that fragrant oils made from rosehip, the fruit of the rose plant, is good for the skin and makes one look younger.;Ils disent que les huiles parfumées à base de rose musquée, fruit de la rose, sont bénéfiques pour la peau et rajeunissent.;;;;;;;;;;;;x
+VIET_feeling_jaded_about_life;Feeling Jaded About Life;Se sentir blasé de la vie;;;;;;;;;;;;x
+VIET_feeling_jaded_about_life_desc;For some, life is a bother.;Pour certains, la vie est un problème.;;;;;;;;;;;;x
+VIET_heartless_villain;Heartless Villain;Méchant sans coeur;;;;;;;;;;;;x
+VIET_heartless_villain_desc;Seeing others suffer is a source of great pleasure and joy for this vile wretch.;Voir les autres souffrir est une source de grand plaisir et de joie pour ce vil homme.;;;;;;;;;;;;x
+VIET_maidservant_forced_marriage;Forced Marriage When Young;Mariage forcé à sa jeunesse;;;;;;;;;;;;x
+VIET_maidservant_forced_marriage_desc;When she was but a young maiden, this lady was forced into a marriage she didn't want. The loss of her innocence in such a manner has made her bitter and melancholy in some ways.;Quand elle n'était qu'une jeune fille, cette dame fut forcée de se marier, elle ne le voulait pas. La perte de son innocence de la sorte l'a rendue amère et mélancolique à certains égards.;;;;;;;;;;;;x
+VIET_rose_tea;Rose Tea;Thé rose;;;;;;;;;;;;x
+VIET_rose_tea_desc;This character recently drank some tea made from the petals and fruit of the rose, mixed together with other herbs.;Ce personnage a récemment bu du thé à base de pétales et de fruits de rose, mélangés à d'autres herbes.;;;;;;;;;;;;x
+VIET_uplifting_lesson;Uplifting Lesson;Leçon édifiante;;;;;;;;;;;;x
+VIET_uplifting_lesson_desc;This character has recently learned an important, uplifting lesson about the positive side of life.;Ce personnage a récemment appris une leçon importante et édifiante sur le côté positif de la vie.;;;;;;;;;;;;x
+VIET_uplifting_lesson_desc;This character has recently learned an important, uplifting lesson about the positive side of life.;Ce personnage a récemment appris une leçon importante et édifiante sur le côté positif de la vie.;;;;;;;;;;;;x
+VIET_musk_deer_perfume;Musk Deer Perfume;Parfum de Cerf Porte-Musc;;;;;;;;;;;;x
+VIET_musk_deer_perfume_desc;Musk Deer Perfume;Parfum de Cerf Porte-Musc;;;;;;;;;;;;x
+VIET_musk_deer_soap;Musk Deer Soap;Savon de Cerf Porte-Musc;;;;;;;;;;;;x
+VIET_musk_deer_medicine;Musk Deer Medicines;Médicaments de Cerf Porte-Musc;;;;;;;;;;;;x
+VIET_province_musk_deer;Musk Deer;Cerf Porte-Musc;;;;;;;;;;;;x
+VIET_province_musk_deer_desc;The numbers of musk deer in this province has grown lately. There are huge profits to be made from the glands of male musk deer, used to make perfumes, soaps, medicines, and more, so this has stimulated the local economy.;Le nombre de cerfs porte-musc dans cette province a augmenté ces derniers temps. Les glandes de cerfs porte-musc mâles, utilisés pour la fabrication de parfums, de savons, de médicaments, etc., permettent de réaliser d’énormes profits, ce qui a stimulé l’économie locale.;;;;;;;;;;;;x
+VIET_rose_tea;Rose Tea;Thé rose;;;;;;;;;;;;x
+VIET_rose_tea_desc;This character recently consumed some herbal tea, whose main component were rose petals, the fruit of the rose plant, or both.;Ce personnage a récemment consommé du thé à base de plantes, dont les composants principaux étaient des pétales de rose, le fruit de la rose, ou les deux.;;;;;;;;;;;;x
+VIET_not_enough_sex_rumors;Perceived Lack of Virility;Manque perçu de virilité;;;;;;;;;;;;x
+VIET_not_enough_sex_rumors_desc;Rumor has it this grown man doesn't have enough experience with women.;La rumeur dit que cet homme adulte n'a pas assez d'expérience avec les femmes.;;;;;;;;;;;;x
+VIET_dishonored_deflowered_maiden;Dishonorable Maiden;Fille déshonorée;;;;;;;;;;;;x
+VIET_dishonored_deflowered_maiden_desc;They say when she was younger, this lady lost her innocence to a disreputable man, smearing her and her family's reputation for the rest of her life.;Ils disent que, lorsqu'elle était plus jeune, cette dame avait perdu son innocence face à un homme peu recommandable, la salissant ainsi que la réputation de sa famille pour le restant de ses jours.;;;;;;;;;;;;x
+VIET_captured_notorious_bandit;Captured Notorious Bandit;Bandit notoire capturé;;;;;;;;;;;;x
+VIET_captured_notorious_bandit_desc;Under this person's leadership, a most notorious bandit who had evaded capture for years was finally brought to justice.;Sous le commandement de cette personne, un bandit très célèbre qui avait échappé à la capture pendant des années a finalement été traduit en justice.;;;;;;;;;;;;x
+VIET_hired_notorious_bandit;Hired Notorious Bandit;Bandit notoire engagé;;;;;;;;;;;;x
+VIET_hired_notorious_bandit_desc;This person was responsible for apprehending a most notorious bandit who had evaded capture for years. Yet, instead of serving justice, this person recruited the services of the villain for their own ends.;Cette personne était responsable de l'arrestation d'un bandit très notoire qui avait échappé à la capture pendant des années. Cependant, au lieu de servir la justice, cette personne a recruté les services du méchant à ses propres fins.;;;;;;;;;;;;x
+VIET_notorious_bandit;Notorious Bandit;Bandit notoire;;;;;;;;;;;;x
+VIET_notorious_bandit_desc;This person was once an infamous brigand, a self-proclaimed "obtainer of goods, taker of lives, and defiler of daughters," before they decided to make use of their talents for somewhat more official ends.;Cette personne était autrefois un infâme brigand, un autoproclamé «acquéreur de biens, preneur de vies et défenseur de filles», avant de décider de se servir de leurs talents à des fins un peu plus officielles.;;;;;;;;;;;;x
+VIET_respects_women;Respects Women;Respecte les femmes;;;;;;;;;;;;x
+VIET_opinion_shameless_rake;Shameless Rake;Râteau sans vergogne;;;;;;;;;;;;x
+VIET_opinion_condenscending_attitude;Condenscending Attitude;Attitude condescendante;;;;;;;;;;;;x
+VIET_defiler_of_maidens;Defiler of Maidens;Profanateur de jeunes filles;;;;;;;;;;;;x
+VIET_defiler_of_maidens_desc;This rake enjoys seducing and ruining naive virgins, and is quite proud of that fact. Not too many approve of this hobby of his, particulary given some of the nasty rumors surrounding his antics.;Ce râteau aime séduire et ruiner les vierges naïves et en est très fier. Peu de gens approuvent son passe-temps, surtout compte tenu des mauvaises rumeurs qui entourent ses singeries.;;;;;;;;;;;;x
+VIET_wolfish_grin;Wolfish Grin;Canines de Loup;;;;;;;;;;;;x
+VIET_wolfish_grin_desc;This character has a very unsettling grin that makes them look like a ravenous wolf, ready to pounce on some fresh meat.;Ce personnage a des canines très troublantes qui le fait ressembler à un loup vorace, prêt à se jeter sur de la viande fraîche.;;;;;;;;;;;;x
+VIET_shared_dream_good;Shared Dream (Good);Rêve partagé (bon);;;;;;;;;;;;x
+VIET_shared_dream_bad;Shared Dream (Bad);Rêve partagé (mauvais);;;;;;;;;;;;x
+VIET_kdrama_dream_girls_pov;Dreamt of an Innocent Love Story;A rêvé d'une Histoire d'Amour Innocente;;;;;;;;;;;;x
+VIET_kdrama_dream_girls_pov_desc;"He was handsome and brooding, yet what did she see in this annoying man who was almost like an arrogant older brother to her?";"Il était beau et rêveur, mais qu'a-t-elle vu dans cet homme agaçant qui ressemblait presque à un frère aîné arrogant ?";;;;;;;;;;;;x
+VIET_kdrama_dream_boys_pov;Dreamt of an Innocent Love Story;A rêvé d'une Histoire d'Amour Innocente;;;;;;;;;;;;x
+VIET_kdrama_dream_boys_pov_desc;"She was pretty and plucky, yet what did he see in this silly girl who was almost like a stupid little sister to him?";"Elle était belle et courageuse, mais qu'est-ce qu'il a vu dans cette idiote qui ressemblait presque à une stupide petite soeur ?";;;;;;;;;;;;x
+VIET_dreamscape_dream;Dreamt of a Primordial Universe;A rêvé d'un Univers Primordial;;;;;;;;;;;;x
+VIET_campfire_dream;Reality or Dream?;Réalité ou Rêve ?;;;;;;;;;;;;x
+VIET_primordial_river_dream;Dreamt of a Primordial River;A rêvé d'une Rivière Primordiale;;;;;;;;;;;;x
+VIET_primordial_river_dream_desc;"In the beginning of existence, there was nothing but the primordial river, that stretched endlessly. All that was, was the river.";"Au début de l'existence, il n'y avait que la rivière primordiale, qui s'étendait sans fin. Tout ce qui existait, c'était la rivière.";;;;;;;;;;;;x
+VIET_kdrama_music_dream;Inspiring Dream about Music;Rêve inspirant à propos de la musique;;;;;;;;;;;;x
+VIET_kdrama_music_dream_desc;In dreams, in music, and in love, there are no impossibilities.;En rêve, en musique et en amour, il n'y a pas d'impossibilités.;;;;;;;;;;;;x
+VIET_lost_tunnel_dream;Dreamt of an Endless Dungeon;A rêvé d'un Donjon sans Fin;;;;;;;;;;;;x
+VIET_lost_tunnel_dream_desc;This unfortunate victim never found a way out in a dream they recently had.;Cette malheureuse victime n’a jamais trouvé le moyen de sortir de son rêve.;;;;;;;;;;;;x
+VIET_vague_dream_of_dreamer_female;Dreamed of a Mysterious Woman;A rêvé d'une Femme Mystérieuse;;;;;;;;;;;;x
+VIET_vague_dream_of_dreamer_female_desc;"In the primordial fields, she wandered in a dream at the end of time.";"Dans les champs primordiaux, elle a erré dans un rêve à la fin des temps.";;;;;;;;;;;;x
+VIET_vague_dream_of_dreamer_male;Dreamed of a Mysterious Man;A rêvé d'un Homme Mystérieux;;;;;;;;;;;;x
+VIET_vague_dream_of_dreamer_male_desc;"In the primordial fields, he wandered in a dream at the end of time.";"Dans les champs primordiaux, il a erré dans un rêve à la fin des temps.";;;;;;;;;;;;x
+VIET_appreciates_fine_art;Appreciates True Art;Apprécie le vrai art;;;;;;;;;;;;x
+VIET_appreciates_fine_art_desc;"Only a cultured person such as myself can understand the intricacies and nuances of the artist's hidden message!";"Seule une personne cultivée comme moi peut comprendre les subtilités et les nuances du message caché de l'artiste!";;;;;;;;;;;;x
+VIET_opinion_values_our_relationship;Values Our Relationship;Valorise notre relation;;;;;;;;;;;;x
+VIET_opinion_doesnt_value_relationship;Doesn't Value Relationship;Ne valorise pas la relation;;;;;;;;;;;;x
+VIET_three_kingdoms_cao_cao;Inspired by the Three Kingdoms Warlord Cao Cao;Inspiré par le seigneur de guerre des Trois Royaumes, Cao Cao;;;;;;;;;;;;x
+VIET_three_kingdoms_cao_cao_desc;"I would rather betray the world, then have the world betray me.";"Je préférerais trahir le monde, que le monde me trahisse.";;;;;;;;;;;;x
+VIET_three_kingdoms_liu_bei;Inspired by the Three Kingdoms Warlord Liu Bei;Inspiré par le seigneur de guerre des Trois Royaumes Liu Bei;;;;;;;;;;;;x
+VIET_three_kingdoms_liu_bei_desc;Benevolence!;Bienveillance !;;;;;;;;;;;;x
+VIET_three_kingdoms_sun_quan;Inspired by the Three Kingdoms Warlord Sun Quan;Inspiré par le seigneur de guerre des Trois Royaumes Sun Quan ;;;;;;;;;;;;x
+VIET_three_kingdoms_sun_quan_desc;The longest-lived of the founders of the Three Kingdoms, his contributions and ability have often been underestimated, even in death. This person understands things differently.;Le fondateur des Trois Royaumes, qui a vécu le plus longtemps, ses contributions et ses capacités ont souvent été sous-estimées, même à la mort. Cette personne comprend les choses différemment.;;;;;;;;;;;;x
+VIET_three_kingdoms_dong_zhuo;Inspired by the Three Kingdoms Warlord Dong Zhuo;Inspiré par le seigneur de guerre des Trois Royaumes, Dong Zhuo;;;;;;;;;;;;x
+VIET_three_kingdoms_dong_zhuo_desc;Although Dong Zhuo is generally considered a villain, this person sees instead the value power, ambition, and harsh authority can bring - so long as it is not mixed with lust and arrogance.;Bien que Dong Zhuo soit généralement considéré comme un méchant, cette personne voit plutôt la valeur que le pouvoir, l'ambition et une autorité dure peuvent apporter - tant que cela n'est pas mélangé avec la luxure et l'arrogance.;;;;;;;;;;;;x
+VIET_three_kingdoms_guan_yu;Inspired by the Three Kingdoms General Guan Yu;Inspiré par le général des Trois Royaumes, Guan Yu;;;;;;;;;;;;x
+VIET_three_kingdoms_guan_yu_desc;Guan Yu was so famed and respected in real life as a warrior that he was later deified in China. Whether this person believes Guan Yu is truly the God of War or not, they see in his honor and bravery an example for all.;Guan Yu était si célèbre et respecté dans la vie réelle en tant que guerrier qu'il a ensuite été déifié en Chine. Que cette personne pense que Guan Yu est vraiment le Dieu de la Guerre ou non, elle voit dans son honneur et son courage un exemple pour tous.;;;;;;;;;;;;x
+VIET_three_kingdoms_zhang_fei;Inspired by the Three Kingdoms General Zhang Fei;Inspiré par le général des Trois Royaumes, Zhang Fei;;;;;;;;;;;;x
+VIET_three_kingdoms_zhang_fei_desc;Though often an angry drunk who was not as calm and sensible as his elder sworn brothers Liu Bei and Guan Yu, Zhang Fei was nevertheless a fearsome and capable warrior, and for this reason this person holds him in high regard.;Bien souvent ivre et en colère, il n’était pas aussi calme et sensé que ses frères aînés assermentés, Liu Bei et Guan Yu. Zhang Fei était néanmoins un guerrier redoutable et capable, et pour cette raison, cette personne le tient en haute estime.;;;;;;;;;;;;x
+VIET_three_kingdoms_xiahou_dun;Inspired by the Three Kingdoms General Xiahou Dun;Inspiré par le général des Trois Royaumes, Xiahou Dun;;;;;;;;;;;;x
+VIET_three_kingdoms_xiahou_dun_desc;It is said that when an arrow struck his eye in battle, Cao Cao's general, Xiahou Dun, plucked out his eye and ate it, saying that he could not simply discard that which his parents gave him.;Il est dit que lorsqu'une flèche a frappé son œil au combat, le général de Cao Cao, Xiahou Dun, l'a arraché et l'a mangé, affirmant qu'il ne pouvait pas simplement se débarrasser de ce que ses parents lui avaient donné.;;;;;;;;;;;;x
+VIET_three_kingdoms_lu_bu;Inspired by the Three Kingdoms General Lu Bu;Inspiré par le général des Trois Royaumes, Lu Bu;;;;;;;;;;;;x
+VIET_three_kingdoms_lu_bu_desc;"Among men, Lu Bu. Among steeds, Red Hare.";"Parmi les hommes, Lu Bu. Parmi les chevaux, Lièvre Rouge.";;;;;;;;;;;;x
+VIET_three_kingdoms_zhuge_liang;Inspired by the Three Kingdoms Strategist Zhuge Liang;Inspiré par le stratège des Trois Royaumes, Zhuge Liang;;;;;;;;;;;;x
+VIET_three_kingdoms_zhuge_liang_desc;"Without modest simplicity, one cannot brighten volition. Without tranquility and serenity, one cannot reach far.";"Sans une simplicité modeste, on ne peut pas éclairer la volonté. Sans tranquillité et sérénité, on ne peut pas aller loin.";;;;;;;;;;;;x
+VIET_three_kingdoms_sima_yi;Inspired by the Three Kingdoms Strategist Sima Yi;Inspiré par le stratège des Trois Royaumes, Sima Yi;;;;;;;;;;;;x
+VIET_three_kingdoms_sima_yi_desc;This character greatly admires the Chinese general, strategist, and statesman Sima Yi. Though he has been overshadowed by his rival Zhuge Liang, few can deny he too had his own immense talents and capabilities - after all, few could even match the famed Zhuge Liang as something of an equal.;Ce personnage admire grandement le général, stratège et homme d'État Chinois Sima Yi. Bien qu'il ait été éclipsé par son rival Zhuge Liang, peu de gens peuvent le nier. Il possédait lui-même d'immenses talents et capacités. Après tout, peu de gens pouvaient égaler le célèbre Zhuge Liang.;;;;;;;;;;;;x
+VIET_three_kingdoms_zhou_yu;Inspired by the Three Kingdoms Strategist Zhou Yu;Inspiré par le stratège des Trois Royaumes, Zhou Yu;;;;;;;;;;;;x
+VIET_three_kingdoms_zhou_yu_desc;Handsome, charming, intelligent, cultured, and capable - what else could anyone want in an advisor? It is little wonder that this person greatly admires the character of Zhou Yu. If only he had not died so young!;Beau, charmant, intelligent, cultivé et capable - que demander de plus à un conseiller ? Il n’est pas étonnant que cette personne admire grandement le personnage de Zhou Yu. Si seulement il n'était pas mort si jeune !;;;;;;;;;;;;x
+VIET_three_kingdoms_chen_gong;Inspired by the Three Kingdoms Strategist Chen Gong;Inspiré par le stratège des Trois Royaumes, Chen Gong;;;;;;;;;;;;x
+VIET_three_kingdoms_chen_gong_desc;If only Lu Bu had listened to the virtuous and shrewd Chen Gong, how different Chinese history would have been! At the very least, that's what this person thinks.;Si seulement Lu Bu avait écouté le vertueux et astucieux Chen Gong, à quel point l'histoire chinoise aurait été différente ! À tout le moins, c'est ce que cette personne pense.;;;;;;;;;;;;x
+VIET_three_kingdoms_diaochan;Inspired by the Three Kingdoms Noblewoman Diaochan;Inspiré par la noble femme des Trois Royaumes, Diaochan;;;;;;;;;;;;x
+VIET_three_kingdoms_diaochan_desc;As a later poet would compose in honor of Diaochan, who sacrificed herself for a nation:\n\n"Wang Yun staked the empire's fate on a gentle maiden's charm\nSprear and shield were set aside, no soldier came to harm\nIn the fray at Tiger Pass three heroes fought in vain\nInstead the victory song was sung at Phoenix Pavilion.";Comme un poète le composerait plus tard en l'honneur de Diaochan, qui s'est sacrifié pour une nation:\n\n"Wang Yun a misé le destin de l'empire sur le charme d'une jeune fille douc \nL'apparence et le bouclier ont été mis de côté, aucun soldat n'est venu blesser\nDans la mêlée du Passage du Tigre, trois héros se sont battus au vain\nAlors que le chant de la victoire a été chanté au Pavillon de Phénix. ";;;;;;;;;;;;x
+VIET_three_kingdoms_sun_shangxiang;Inspired by the Three Kingdoms Noblewoman Sun Shangxiang;Inspiré par la noble femme des Trois Royaumes, Sun Shangxiang;;;;;;;;;;;;x
+VIET_three_kingdoms_sun_shangxiang_desc;Whoever said a woman can't fight well? Certainly not this person, who admires Sun Shangxiang.;Qui a dit qu'une femme ne peut pas bien se battre ? Certainement pas cette personne qui admire Sun Shangxiang.;;;;;;;;;;;;x
+VIET_three_kingdoms_qiao_sisters;Inspired by the Three Kingdoms Noblewomen, the Qiao Sisters;Inspiré par les nobles femmes des Trois Royaumes, les Sœurs Qiao;;;;;;;;;;;;x
+VIET_three_kingdoms_qiao_sisters_desc;The Qiao sisters are remembered as the devoted wives of the Chinese warlord Sun Ce and his general and friend Zhou Yu. The lascivious warlord Cao Cao coveted them, and his son supposedly wrote the following poem to express his father's desire:\n\n"Aloft on either side, twin towers —\nLeft, Jade Dragon, and Right, Golden Phoenix —\nHolding two Qiaos,\nOne would rejoice day and night.;On se souvient des sœurs Qiao comme des épouses dévouées du seigneur de guerre chinois Sun Ce et de son général et ami Zhou Yu. Le seigneur de guerre lascif, Cao Cao, les convoitait et son fils aurait écrit le poème suivant pour exprimer le désir de son père:\n\n"En haut de chaque côté, des tours jumelles —\nà gauche, le Dragon de Jade, et à droite, le Phénix d'Or —\ntenant deux Qiaos,\nquelqu'un se réjouirait jour et nuit.;;;;;;;;;;;;x
+VIET_three_kingdoms_huang_yueying;Inspired by the Three Kingdoms Noblewoman Huang Yueying;Inspiré par la noble femme des Trois Royaumes, Huang Yueying;;;;;;;;;;;;x
+VIET_three_kingdoms_huang_yueying_desc;There is a saying in China: "Don't be like Kongming when you choose a wife. He ended up with Huang Chengyan's ugly daughter, Huang Yueying." It was said Lady Huang may have actually been beautiful, but her father spread rumors that his talented daughter was ugly so that he could find a worthy son-in-law. This character, like Kongming, understands that an intelligent, capable woman is someone to be admired, no matter her looks.;Il y a un dicton en Chine : "Ne soyez pas comme Kongming lorsque vous choisissez une femme. Il s'est retrouvé avec la fille laide de Huang Chengyan, Huang Yueying." Il a été dit que Lady Huang avait peut-être été belle, mais son père avait répandu des rumeurs selon lesquelles sa talentueuse fille était laide pour pouvoir trouver un digne fils. Ce personnage, comme Kongming, comprend qu'une femme intelligente et capable est une personne à admirer, peu importe son apparence.;;;;;;;;;;;;x
+VIET_liu_bei_shoemaker_shrine_small;Small Shrine to Liu Bei;Petit sanctuaire de Liu Bei;;;;;;;;;;;;x
+VIET_liu_bei_shoemaker_shrine_large;Large Shrine to Liu Bei;Grand sanctuaire de Liu Bei;;;;;;;;;;;;x
+VIET_italian_merchant_support;Supported Italian Merchants against Local Officials;A soutenu les marchands italiens contre les officiels locaux;;;;;;;;;;;;x
+VIET_byzantine_noble_support;Supported Local Officials against Italian Merchants;A soutenu les officiels locaux contre les marchands italiens;;;;;;;;;;;;x
+VIET_negotiated_italian_deals;Negotiated Deals with Italian Merchants;A négocié avec des marchands italiens;;;;;;;;;;;;x
+VIET_negotiated_italian_deals_desc;The leadership here was initially involed in some disputes with Italian merchants operating locally. However, through some careful negotiations, a deal was established that benefits both sides.;Les dirigeants ont été impliqués dans des conflits avec des marchands italiens opérant localement. Toutefois, grâce à des négociations minutieuses, un accord a été conclu qui bénéficie aux deux parties.;;;;;;;;;;;;x
+VIET_italian_merchant_negotiator;Negotiator for Italian Merchants;Négociateur pour les marchands italiens;;;;;;;;;;;;x
+VIET_italian_merchant_negotiator_desc;This character first rose to prominence acting as a negotiator for a collective group of Italian merchants seeking to make profitable deals with officials serving local regimes in the Eastern Mediterranean.;Ce personnage s'est d'abord fait connaître en tant que négociateur pour un groupe de marchands italiens cherchant à conclure de bonnes affaires avec des fonctionnaires servant les régimes locaux de la Méditerranée orientale.;;;;;;;;;;;;x
+VIET_baklava_merchant_origin;Baklava Merchant;Marchand de baklava;;;;;;;;;;;;x
+VIET_baklava_merchant_origin_desc;This man was once a baklava merchant. He still to this day treats his guests to the most syrupy and sweetest baklava ever.;Cet homme était autrefois un marchand de baklava. Aujourd'hui encore, il offre à ses invités le baklava le plus sirupeux et le plus sucré de tous les temps.;;;;;;;;;;;;x
+VIET_open_minded_ruler;Open Minded Ruler;xxxxx;;;;;;;;;;;;x
+VIET_eerie_story;Eerie Story;xxxxx;;;;;;;;;;;;x
+VIET_eerie_story_desc;This character was recently told an eerie story. There are many strange things out there!;xxxxx;;;;;;;;;;;;x
+VIET_upright_official;Upright Official;xxxxx;;;;;;;;;;;;x
+VIET_upright_official_desc;This character was previously a lesser civil official, known for being extremely upright, fair, and capable in administrative dealings.;xxxxx;;;;;;;;;;;;x
+VIET_promoted_minor_official;Promoted Minor Official of Inferior Origins;xxxxx;;;;;;;;;;;;x
+VIET_promoted_minor_official_desc;This character recently promoted a lesser official who was being ignored by his superiors, despite possessing great skill and talent, simply due to having a humble, inferior family background.;xxxxx;;;;;;;;;;;;x
+VIET_talented_humble_official;Talented Official of Humble Origins;xxxxx;;;;;;;;;;;;x
+VIET_talented_humble_official_desc;Rumors abound that this man's mother was a common whore. Whatever the truth may be, it is undeniable he had very humble origins, yet despite this he made a name for himself as a talented and capable official.;xxxxx;;;;;;;;;;;;x
+xxxxxxxxxx;xxxxx;xxxxx;;;;;;;;;;;;x
+xxxxxxxxxx;xxxxx;xxxxx;;;;;;;;;;;;x
+xxxxxxxxxx;xxxxx;xxxxx;;;;;;;;;;;;x
