@@ -1560,7 +1560,7 @@ character_event = {
 				any_artifact = {
 					count = 3
 					has_artifact_flag = VIET_clutter_flag
-				}			
+				}
 			}
 		}
 		modifier = {
