@@ -35,9 +35,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				viet_artifact_loss_three_flags = yes
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
@@ -1422,9 +1420,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				viet_artifact_loss_three_flags = yes
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
