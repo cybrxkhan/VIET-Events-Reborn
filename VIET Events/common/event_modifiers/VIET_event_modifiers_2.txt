@@ -1068,3 +1068,8 @@ VIET_talented_humble_official = {
 	monthly_character_prestige = -0.1
 	icon = 18
 }
+VIET_bread_crust_lover = {
+	health = 0.5
+	monthly_character_prestige = -0.2
+	icon = 59
+}
