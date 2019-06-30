@@ -3476,6 +3476,10 @@ character_event = {
 	
 	trigger = {
 		in_command = no
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}
 	}
 	
 	weight_multiplier = {
@@ -3793,15 +3797,13 @@ character_event = {
 		any_courtier = {
 			is_adult = yes
 			NOT = { trait = incapable }
-			AND = {
-				trait = proud
-				OR = {
-					trait = gluttonous
-					trait = drunkard
-					trait = gregarious
-					trait = slothful
-					trait = stubborn
-				}
+			trait = proud
+			OR = {
+				trait = gluttonous
+				trait = drunkard
+				trait = gregarious
+				trait = slothful
+				trait = stubborn
 			}
 		}
 	}
@@ -3848,15 +3850,13 @@ character_event = {
 			limit = {
 				is_adult = yes
 				NOT = { trait = incapable }
-				AND = {
-					trait = proud
-					OR = {
-						trait = gluttonous
-						trait = drunkard
-						trait = gregarious
-						trait = slothful
-						trait = stubborn
-					}
+				trait = proud
+				OR = {
+					trait = gluttonous
+					trait = drunkard
+					trait = gregarious
+					trait = slothful
+					trait = stubborn
 				}
 			}
 			prestige = -5
