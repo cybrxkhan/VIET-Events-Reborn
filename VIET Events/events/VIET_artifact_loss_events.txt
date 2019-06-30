@@ -24,10 +24,7 @@ character_event = {
 	#war = no
 		
 	trigger = {
-		in_command = no
-		any_artifact = {
-			has_artifact_flag = VIET_clutter_flag
-		}
+		viet_artifact_loss_command_flag = yes
 	}
 	
 	weight_multiplier = {
@@ -38,19 +35,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes
 		}
 	}
 	
@@ -81,10 +70,7 @@ character_event = {
 	#war = no
 		
 	trigger = {
-		in_command = no
-		any_artifact = {
-			has_artifact_flag = VIET_clutter_flag
-		}
+		viet_artifact_loss_command_flag = yes
 	}
 	
 	weight_multiplier = {
@@ -95,19 +81,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -139,10 +117,7 @@ character_event = {
 	#war = no
 		
 	trigger = {
-		in_command = no
-		any_artifact = {
-			has_artifact_flag = VIET_clutter_flag
-		}
+		viet_artifact_loss_command_flag = yes
 	}
 	
 	weight_multiplier = {
@@ -153,19 +128,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -208,19 +175,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -258,19 +217,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -355,19 +306,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -474,19 +417,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -785,10 +720,7 @@ character_event = {
 	#war = no
 		
 	trigger = {
-		in_command = no
-		any_artifact = {
-			has_artifact_flag = VIET_clutter_flag
-		}
+		viet_artifact_loss_command_flag = yes
 	}
 	
 	weight_multiplier = {
@@ -799,19 +731,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -857,19 +781,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -944,19 +860,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -1078,19 +986,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -1127,19 +1027,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -1206,19 +1098,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -1258,19 +1142,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -1323,19 +1199,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -1460,19 +1328,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 
@@ -1500,10 +1360,7 @@ character_event = {
 	#war = no
 		
 	trigger = {
-		in_command = no
-		any_artifact = {
-			has_artifact_flag = VIET_clutter_flag
-		}
+		viet_artifact_loss_command_flag = yes
 	}
 	
 	weight_multiplier = {
@@ -1514,19 +1371,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -1560,10 +1409,7 @@ character_event = {
 	#war = no
 		
 	trigger = {
-		in_command = no
-		any_artifact = {
-			has_artifact_flag = VIET_clutter_flag
-		}
+		viet_artifact_loss_command_flag = yes
 	}
 	
 	weight_multiplier = {
@@ -1574,19 +1420,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 	
@@ -1634,19 +1472,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 
@@ -1684,19 +1514,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 
@@ -1734,19 +1556,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 
@@ -1808,19 +1622,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 
@@ -1867,19 +1673,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 
@@ -1917,19 +1715,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 
@@ -1967,19 +1757,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 
@@ -2129,19 +1911,11 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = {
-				any_artifact = {
-					count = 3
-					has_artifact_flag = VIET_clutter_flag
-				}			
-			}
+			viet_artifact_loss_three_flags = no
 		}
 		modifier = {
 			factor = 2
-			any_artifact = {
-				count = 3
-				has_artifact_flag = VIET_clutter_flag
-			}		
+			viet_artifact_loss_three_flags = yes		
 		}
 	}
 
