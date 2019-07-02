@@ -300,3 +300,12 @@ destroy_random_flagged_viet_artifact = {
 		destroy_artifact = yes
 	}
 }
+
+destroy_random_flagged_ancient_viet_artifact = {
+	random_artifact = {
+		limit = {
+			has_artifact_flag = VIET_ancient_artifact
+		}
+		destroy_artifact = yes
+	}	
+}

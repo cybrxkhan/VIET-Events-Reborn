@@ -301,7 +301,7 @@ character_event = {
 	
 	option = { # Oh no
 		name = VIETmisc.7005.a
-		destroy_random_flagged_viet_artifact = yes
+		destroy_random_flagged_ancient_viet_artifact = yes
 	}	
 	option = { # Accept it
 		name = VIETmisc.7005.b
@@ -325,7 +325,7 @@ character_event = {
 				chance = 55
 			}
 		}
-		destroy_random_flagged_viet_artifact = yes
+		destroy_random_flagged_ancient_viet_artifact = yes
 	}
 	option = { # Punish servants!
 		name = VIETmisc.7005.c
@@ -343,7 +343,7 @@ character_event = {
 			20 = { add_trait = cruel }
 			40 = { }
 		}
-		destroy_random_flagged_viet_artifact = yes
+		destroy_random_flagged_ancient_viet_artifact = yes
 	}
 }
 
@@ -398,7 +398,7 @@ character_event = {
 	option = { # Oh no
 		name = VIETmisc.7006.a
 		set_character_flag = VIET_clumy_maid_dropped
-		destroy_random_flagged_viet_artifact = yes
+		destroy_random_flagged_ancient_viet_artifact = yes
 		hidden_tooltip = {
 			character_event = { id = VIETmisc.7007 }
 		}		
