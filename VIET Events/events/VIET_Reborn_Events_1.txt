@@ -27778,7 +27778,7 @@ character_event = {
 		}
 	}
 	option = { # Angry!
-		name = VIETmisc.8273.b
+		name = VIETmisc.8273.c
 		random = {
 			add_trait = wroth
 			chance = 25
@@ -27858,7 +27858,7 @@ character_event = {
 		piety = -5
 	}
 	option = { # Follow what's right
-		name = VIETmisc.8274.b
+		name = VIETmisc.8274.c
 		prestige = -5
 		piety = 5
 	}
@@ -27950,11 +27950,13 @@ character_event = {
 			NOT = { has_character_flag = VIET_invited_talented_humble_official }
 		}
 		set_character_flag = VIET_invited_talented_humble_official
+		prestige = -20
+		wealth = -5
 		add_character_modifier = {
 			name = VIET_promoted_minor_official
 			duration = 1000
 		}
-		create_random_steward = {
+		create_character = {
 			dynasty = actually_culture
 			religion = ROOT
 			culture = ROOT

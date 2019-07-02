@@ -116,6 +116,14 @@ on_yearly_pulse = {
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2021		# How should heretic be purified?
 			100 = VIETmisc.2023		# Vassal isn't being charitable enough
+			#Bread
+			100 = VIETmisc.2192		# Trenchers to the poor?
+			100 = VIETmisc.2195		# Sangak
+			100 = VIETmisc.2197		# Bird feeding
+			#Halloween
+			100 = VIETmisc.2201		# Carving Pumpkins
+			100 = VIETmisc.2202		# Pumpkin seeds
+			100 = VIETmisc.2204		# too much candy
 			#TES References
 			100 = VIETmisc.2205		# Guard is watching foreigner scum
 			100 = VIETmisc.2209		# Guard on guard duty complains about not fighting infidels
@@ -323,6 +331,13 @@ on_bi_yearly_pulse = {
 			#Eggs
 			100 = VIETmisc.2017		# House is egged
 			100 = VIETmisc.2018		# Bought a lot of pickled eggs
+			#Bread
+			100 = VIETmisc.2193		# Good health from bread crusts
+			100 = VIETmisc.2194		# Hardtack
+			100 = VIETmisc.2196		# Baker punishment
+			100 = VIETmisc.2199		# Cute food vendor offers melons
+			#Bread
+			100 = VIETmisc.2203		# Apple cider jerk
 			#TES References
 			100 = VIETmisc.2210		# Guard thinks maybe he's the Saoshyant
 			100 = VIETmisc.2213		# Nazeem reference - courtier doesn't recognize ruler
@@ -493,6 +508,10 @@ on_five_year_pulse = {
 			100 = VIETmisc.2015 	# Spinach makes me strong
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2025		# Would you kill a baby?
+			#Bread
+			100 = VIETmisc.2198		# Old bread book
+			#Halloween
+			100 = VIETmisc.2200		# Candy Apples
 			#TES References
 			100 = VIETmisc.2206		# Lusty Argonian Maid
 			100 = VIETmisc.2208		# Cook serves powdered deer penis
