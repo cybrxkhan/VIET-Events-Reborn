@@ -309,3 +309,22 @@ destroy_random_flagged_ancient_viet_artifact = {
 		destroy_artifact = yes
 	}	
 }
+
+new_viet_character_setup_byzantine = {
+	new_character = {
+		set_character_flag = no_court_invites
+		random = {
+			VIET_give_clutter_artifact_effect = yes
+			chance = 10
+		}	
+		opinion = {
+			modifier = opinion_loyal_servant
+			who = ROOT
+			years = 100
+		}
+		add_character_modifier = {
+			name = VIET_baklava_merchant_origin
+			duration = -1
+		}
+	}
+}
