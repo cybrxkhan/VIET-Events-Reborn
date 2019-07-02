@@ -292,9 +292,11 @@ VIET_give_clutter_artifact_effect = {
 	}
 }
 
-
-
-
-
-
-
+destroy_random_flagged_viet_artifact = {
+	random_artifact = {
+		limit = {
+			has_artifact_flag = VIET_clutter_flag
+		}
+		destroy_artifact = yes
+	}
+}
