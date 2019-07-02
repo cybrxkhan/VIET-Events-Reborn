@@ -1,4 +1,4 @@
-[h1]Version actuelle : 2.0.7 "Constantine XI Palaiologo"  (Sortie le 29/05/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[h1]Version actuelle : 2.0.8 "Zerzura"  (Sortie le 30/06/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
 [b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
 Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]Github[/url].[/b]
 
@@ -35,15 +35,13 @@ Veuillez consulter le fil de discussion du forum pour la liste complète des cr�
 
 [h1]Changelog le plus récent[/h1]
 
-Version 2.0.7 "Constantine XI Palaiologo"
+Version 2.0.8 "Zerzura"
 
-[I]La ville est tombée mais je suis toujours en vie !
-- Constantin XI Palaiologos, le dernier empereur romain, au siège de Constantinople en 1453[/I]
+[I]Zerzura était une ville oasis légendaire, située quelque part dans le désert du Sahara. Elle était aussi connue pour être blanche comme une colombe et pleine de trésors, et on l'appelait aussi l'Oasis des Petits Oiseaux. Ni les explorateurs médiévaux ni les explorateurs modernes n'en ont jamais trouvé la trace, et c'est probablement un mythe.[/I]
 
 [LIST]
-[*]Ajout de 3 événements sur le thème de Constantinople
-[*]Ajout de 8 événements sur le thème des Trois Royaumes
-[*]Ajout d'un nouvel artefact: la Statue de Guan Yu
-[*]Ajout de 9 événements Byzantins de l'ancien VIET
-[*]Divers corrections de bug et de typo
+[*]Ajout de 11 événements sur le thème de la fantaisie
+[*]Ajout de 11 événements sur le thème du labeur quotidien
+[*]Ajout d'événements de l'ancien VIET : 5 événements de nourriture d'Halloween, 18 événements de pain
+[*]Divers corrections de bug
 [/LIST]
