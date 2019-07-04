@@ -1241,22 +1241,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 			10 = { #2
 				create_random_steward = {
@@ -1269,22 +1254,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 			10 = { #3
 				create_random_steward = {
@@ -1297,22 +1267,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 			10 = { #4
 				create_random_steward = {
@@ -1325,22 +1280,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 			10 = { #5
 				create_random_steward = {
@@ -1353,22 +1293,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 			10 = { #6
 				create_random_steward = {
@@ -1381,22 +1306,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 			10 = { #7
 				create_random_steward = {
@@ -1409,22 +1319,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 			10 = { #8
 				create_random_steward = {
@@ -1437,22 +1332,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 			10 = { #9
 				create_random_steward = {
@@ -1465,22 +1345,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 			10 = { #10
 				create_random_steward = {
@@ -1493,22 +1358,7 @@ character_event = {
 						stewardship = 7
 					}
 				}
-				new_character = {
-					set_character_flag = no_court_invites
-					random = {
-						VIET_give_clutter_artifact_effect = yes
-						chance = 10
-					}	
-					opinion = {
-						modifier = opinion_loyal_servant
-						who = ROOT
-						years = 100
-					}
-					add_character_modifier = {
-						name = VIET_baklava_merchant_origin
-						duration = -1
-					}
-				}
+new_viet_character_setup_byzantine = yes
 			}
 		}
 	}

@@ -45,12 +45,7 @@ character_event = {
 	
 	option = { #whelp
 		name = VIETmisc.7000.a
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_clutter_flag
-			}
-			destroy_artifact = yes
-		}
+		destroy_random_flagged_viet_artifact = yes
 	}
 }
 
@@ -91,12 +86,7 @@ character_event = {
 	
 	option = { #whelp
 		name = VIETmisc.7001.a
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_clutter_flag
-			}
-			destroy_artifact = yes
-		}
+		destroy_random_flagged_viet_artifact = yes
 	}
 }
 
@@ -138,12 +128,7 @@ character_event = {
 	
 	option = { #whelp
 		name = VIETmisc.7002.a
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_clutter_flag
-			}
-			destroy_artifact = yes
-		}
+		destroy_random_flagged_viet_artifact = yes
 	}
 }
 
@@ -316,12 +301,7 @@ character_event = {
 	
 	option = { # Oh no
 		name = VIETmisc.7005.a
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_ancient_artifact
-			}
-			destroy_artifact = yes
-		}		
+		destroy_random_flagged_ancient_viet_artifact = yes
 	}	
 	option = { # Accept it
 		name = VIETmisc.7005.b
@@ -345,12 +325,7 @@ character_event = {
 				chance = 55
 			}
 		}
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_ancient_artifact
-			}
-			destroy_artifact = yes
-		}		
+		destroy_random_flagged_ancient_viet_artifact = yes
 	}
 	option = { # Punish servants!
 		name = VIETmisc.7005.c
@@ -368,12 +343,7 @@ character_event = {
 			20 = { add_trait = cruel }
 			40 = { }
 		}
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_ancient_artifact
-			}
-			destroy_artifact = yes
-		}		
+		destroy_random_flagged_ancient_viet_artifact = yes
 	}
 }
 
@@ -428,12 +398,7 @@ character_event = {
 	option = { # Oh no
 		name = VIETmisc.7006.a
 		set_character_flag = VIET_clumy_maid_dropped
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_ancient_artifact
-			}
-			destroy_artifact = yes
-		}
+		destroy_random_flagged_ancient_viet_artifact = yes
 		hidden_tooltip = {
 			character_event = { id = VIETmisc.7007 }
 		}		
@@ -741,12 +706,7 @@ character_event = {
 	
 	option = { #whelp
 		name = VIETmisc.7008.a
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_clutter_flag
-			}
-			destroy_artifact = yes
-		}
+		destroy_random_flagged_viet_artifact = yes
 	}
 }
 
@@ -1382,12 +1342,7 @@ character_event = {
 	option = { #whelp
 		name = VIETmisc.7018.a
 		prestige = -5
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_clutter_flag
-			}
-			destroy_artifact = yes
-		}
+		destroy_random_flagged_viet_artifact = yes
 	}
 }
 
@@ -1431,12 +1386,7 @@ character_event = {
 	option = { #sure
 		name = VIETmisc.7019.a
 		wealth = 25
-		random_artifact = {
-			limit = {
-				has_artifact_flag = VIET_clutter_flag
-			}
-			destroy_artifact = yes
-		}
+		destroy_random_flagged_viet_artifact = yes
 	}	
 	option = { #no
 		name = VIETmisc.7019.b
