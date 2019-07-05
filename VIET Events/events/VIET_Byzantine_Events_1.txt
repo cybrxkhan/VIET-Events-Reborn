@@ -602,6 +602,19 @@ character_event = {
 						20 = { add_scarred_tiered_effect = yes }
 						80 = { 	}
 					}
+					#Randomize appearance
+					random_list = {
+						5 = { set_graphical_culture = german }
+						5 = { set_graphical_culture = frankish }
+						5 = { set_graphical_culture = dalmatian }
+						5 = { set_graphical_culture = levantine_arabic }
+						5 = { set_graphical_culture = castillan }
+						5 = { set_graphical_culture = greek }
+						5 = { set_graphical_culture = outremer }
+						5 = { set_graphical_culture = serbian }
+						5 = { set_graphical_culture = polish }
+						55 = { }
+					}	
 				}
 			}
 			20 = {
@@ -631,6 +644,17 @@ character_event = {
 						20 = { add_scarred_tiered_effect = yes }
 						80 = { 	}
 					}
+					#Appearance randomizer
+					random_list = {
+						10 = { set_graphical_culture = outremer }
+						10 = { set_graphical_culture = german }
+						10 = { set_graphical_culture = italian }
+						10 = { set_graphical_culture = castillan }
+						5 = { set_graphical_culture = english }
+						5 = { set_graphical_culture = irish }
+						5 = { set_graphical_culture = norse }
+						45 = { }
+					}	
 				}
 			}
 			20 = {
@@ -659,6 +683,17 @@ character_event = {
 					random_list = {
 						20 = { add_scarred_tiered_effect = yes }
 						80 = { 	}
+					}
+					#Appearance randomizer
+					random_list = {
+						10 = { set_graphical_culture = norse }
+						10 = { set_graphical_culture = german }
+						10 = { set_graphical_culture = frankish }
+						5 = { set_graphical_culture = outremer }
+						5 = { set_graphical_culture = irish }
+						5 = { set_graphical_culture = italian }
+						5 = { set_graphical_culture = polish }
+						50 = { }
 					}
 				}
 			}
@@ -689,6 +724,17 @@ character_event = {
 						20 = { add_scarred_tiered_effect = yes }
 						80 = { 	}
 					}
+					#Appearance randomizer
+					random_list = {
+						10 = { set_graphical_culture = outremer }
+						10 = { set_graphical_culture = german }
+						10 = { set_graphical_culture = italian }
+						10 = { set_graphical_culture = castillan }
+						5 = { set_graphical_culture = english }
+						5 = { set_graphical_culture = irish }
+						5 = { set_graphical_culture = norse }
+						45 = { }
+					}
 				}
 			}
 			20 = {
@@ -717,6 +763,17 @@ character_event = {
 					random_list = {
 						20 = { add_scarred_tiered_effect = yes }
 						80 = { 	}
+					}
+					#Appearance randomizer
+					random_list = {
+						10 = { set_graphical_culture = polish }
+						10 = { set_graphical_culture = norse }
+						10 = { set_graphical_culture = frankish }
+						5 = { set_graphical_culture = english }
+						5 = { set_graphical_culture = dalmatian }
+						5 = { set_graphical_culture = serbian }
+						5 = { set_graphical_culture = lithuanian }
+						45 = { }
 					}
 				}
 			}
@@ -747,6 +804,20 @@ character_event = {
 						20 = { add_scarred_tiered_effect = yes }
 						80 = { 	}
 					}
+					#Appearance randomizer
+					random_list = {
+						10 = { set_graphical_culture = italian }
+						10 = { set_graphical_culture = frankish }
+						5 = { set_graphical_culture = dalmatian }
+						5 = { set_graphical_culture = castillan }
+						5 = { set_graphical_culture = greek }
+						5 = { set_graphical_culture = serbian }
+						5 = { set_graphical_culture = outremer }
+						5 = { set_graphical_culture = levantine_arabic }
+						5 = { set_graphical_culture = english }
+						5 = { set_graphical_culture = polish }
+						40 = { }
+					}	
 				}
 			}
 			20 = {
@@ -776,6 +847,17 @@ character_event = {
 						20 = { add_scarred_tiered_effect = yes }
 						80 = { 	}
 					}
+					#Appearance randomizer
+					random_list = {
+						15 = { set_graphical_culture = german }
+						10 = { set_graphical_culture = frankish }
+						10 = { set_graphical_culture = norse }
+						5 = { set_graphical_culture = outremer }
+						5 = { set_graphical_culture = italian }
+						5 = { set_graphical_culture = irish }
+						5 = { set_graphical_culture = polish }
+						45 = { }
+					}	
 				}
 			}
 		}
