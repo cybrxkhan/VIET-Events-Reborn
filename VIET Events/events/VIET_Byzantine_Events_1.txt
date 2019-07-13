@@ -1323,7 +1323,20 @@ character_event = {
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = {
+						10 = { set_graphical_culture = outremer }
+						10 = { set_graphical_culture = german }
+						10 = { set_graphical_culture = italian }
+						10 = { set_graphical_culture = castillan }
+						5 = { set_graphical_culture = english }
+						5 = { set_graphical_culture = irish }
+						5 = { set_graphical_culture = norse }
+						45 = { }
+					}							
+				}
 			}
 			10 = { #2
 				create_random_steward = {
@@ -1336,7 +1349,21 @@ new_viet_character_setup_byzantine = yes
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = {
+						15 = { set_graphical_culture = persian }
+						10 = { set_graphical_culture = greek }
+						5 = { set_graphical_culture = ethiopian }
+						5 = { set_graphical_culture = turkish }
+						5 = { set_graphical_culture = cuman }
+						5 = { set_graphical_culture = italian }
+						5 = { set_graphical_culture = dalmatian }
+						5 = { set_graphical_culture = serbian }
+						45 = { }
+					}				
+				}
 			}
 			10 = { #3
 				create_random_steward = {
@@ -1349,7 +1376,21 @@ new_viet_character_setup_byzantine = yes
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = {
+						10 = { set_graphical_culture = levantine_arabic }
+						10 = { set_graphical_culture = greek }
+						5 = { set_graphical_culture = castillan }
+						5 = { set_graphical_culture = dalmatian }
+						5 = { set_graphical_culture = german }
+						5 = { set_graphical_culture = frankish }
+						5 = { set_graphical_culture = outremer }
+						5 = { set_graphical_culture = serbian }
+						50 = { }
+					}					
+				}
 			}
 			10 = { #4
 				create_random_steward = {
@@ -1362,7 +1403,21 @@ new_viet_character_setup_byzantine = yes
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = {
+						15 = { set_graphical_culture = levantine_arabic }
+						15 = { set_graphical_culture = greek }
+						5 = { set_graphical_culture = turkish }
+						5 = { set_graphical_culture = cuman }
+						5 = { set_graphical_culture = serbian }
+						5 = { set_graphical_culture = polish }
+						5 = { set_graphical_culture = russian }
+						5 = { set_graphical_culture = hindustani }
+						40 = { }
+					}	
+				}
 			}
 			10 = { #5
 				create_random_steward = {
@@ -1375,7 +1430,20 @@ new_viet_character_setup_byzantine = yes
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = {
+						15 = { set_graphical_culture = persian }
+						10 = { set_graphical_culture = levantine_arabic }
+						5 = { set_graphical_culture = turkish }
+						5 = { set_graphical_culture = cuman }
+						5 = { set_graphical_culture = russian }
+						5 = { set_graphical_culture = polish }
+						5 = { set_graphical_culture = serbian }
+						50 = { }
+					}
+				}
 			}
 			10 = { #6
 				create_random_steward = {
@@ -1388,7 +1456,22 @@ new_viet_character_setup_byzantine = yes
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = {
+						10 = { set_graphical_culture = manden }
+						10 = { set_graphical_culture = ethiopian }
+						5 = { set_graphical_culture = castillan }
+						5 = { set_graphical_culture = italian }
+						5 = { set_graphical_culture = greek }
+						5 = { set_graphical_culture = dalmatian }
+						5 = { set_graphical_culture = serbian }
+						5 = { set_graphical_culture = frankish }
+						5 = { set_graphical_culture = outremer }
+						45 = { }
+					}
+				}
 			}
 			10 = { #7
 				create_random_steward = {
@@ -1401,7 +1484,15 @@ new_viet_character_setup_byzantine = yes
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = { 
+						10 = { set_graphical_culture = levantine_arabic }
+						30 = { set_graphical_culture = manden }
+						60 = {}
+					}
+				}
 			}
 			10 = { #8
 				create_random_steward = {
@@ -1414,7 +1505,20 @@ new_viet_character_setup_byzantine = yes
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = {
+						20 = { set_graphical_culture = ethiopian }
+						30 = { set_graphical_culture = levantine_arabic }
+						10 = { set_graphical_culture = persian }
+						5 = { set_graphical_culture = castillan }
+						5 = { set_graphical_culture = italian }
+						5 = { set_graphical_culture = dalmatian }
+						5 = { set_graphical_culture = manden }
+						30 = { }
+					}
+				}
 			}
 			10 = { #9
 				create_random_steward = {
@@ -1427,7 +1531,26 @@ new_viet_character_setup_byzantine = yes
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = {
+						10 = { set_graphical_culture = turkish }
+						10 = { set_graphical_culture = mongol }
+						5 = { set_graphical_culture = persian }
+						5 = { set_graphical_culture = han }
+						5 = { set_graphical_culture = bodpa }
+						5 = { set_graphical_culture = hungarian }
+						5 = { set_graphical_culture = serbian }
+						5 = { set_graphical_culture = polish }
+						5 = { set_graphical_culture = russian }
+						5 = { set_graphical_culture = bodpa }
+						5 = { set_graphical_culture = levantine_arabic }
+						5 = { set_graphical_culture = hindustani }
+						5 = { set_graphical_culture = finnish }
+						30 = { }
+					}
+				}
 			}
 			10 = { #10
 				create_random_steward = {
@@ -1440,7 +1563,22 @@ new_viet_character_setup_byzantine = yes
 						stewardship = 7
 					}
 				}
-new_viet_character_setup_byzantine = yes
+				new_viet_character_setup_byzantine = yes
+				new_character = {
+					#Appearance randomizer
+					random_list = {
+						5 = { set_graphical_culture = mongol }
+						5 = { set_graphical_culture = finnish }
+						5 = { set_graphical_culture = levantine_arabic }
+						5 = { set_graphical_culture = hungarian }
+						5 = { set_graphical_culture = serbian }
+						10 = { set_graphical_culture = russian }
+						10 = { set_graphical_culture = cuman }
+						10 = { set_graphical_culture = greek }
+						10 = { set_graphical_culture = persian }
+						25 = { }
+					}	
+				}
 			}
 		}
 	}
