@@ -269,3 +269,140 @@ VIET_guan_yu_statue = {
 	picture = "GFX_VIET_guan_yu_statue"
 	slot = VIET_clutter
 }
+VIET_pewter_spoon = {
+	intrigue = 1
+	quality = 1
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_pewter_spoon"
+	slot = VIET_clutter
+}
+VIET_measuring_rod = {
+	learning = 1
+	build_cost_modifier = -0.03
+	build_time_modifier = -0.03
+	quality = 1
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_measuring_rod"
+	slot = VIET_clutter
+}
+VIET_flower_vase = {
+	monthly_character_prestige = 0.01
+	fertility = 0.03
+	general_opinion = 3
+	quality = 2
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_flower_vase"
+	slot = VIET_clutter
+}
+VIET_ancient_statue_desert = {
+	monthly_character_prestige = 0.02
+	learning = 1
+	quality = 2
+	flags = { VIET_clutter_flag VIET_ancient_artifact }
+	stacking = no
+	picture = "GFX_VIET_ancient_statue_desert"
+	slot = VIET_clutter
+}
+VIET_prehistoric_bone_flute = {
+	diplomacy = 1
+	monthly_character_piety = 0.01
+	fertility = 0.01
+	quality = 1
+	flags = { VIET_clutter_flag VIET_ancient_artifact }
+	stacking = no
+	picture = "GFX_VIET_prehistoric_bone_flute"
+	slot = VIET_clutter
+}
+VIET_celtic_stone_head = {
+	diplomacy = 1
+	learning = 1
+	monthly_character_prestige = 0.06
+	quality = 3
+	flags = { VIET_clutter_flag VIET_ancient_artifact }
+	stacking = no
+	picture = "GFX_VIET_celtic_stone_head"
+	slot = VIET_clutter
+}
+VIET_weighing_scales = {
+	global_tax_modifier = 0.01
+	stewardship = 1
+	intrigue = 1
+	quality = 2
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_weighing_scales"
+	slot = VIET_clutter
+}
+VIET_hammer = {
+	stewardship = 1
+	global_revolt_risk = -0.01
+	quality = 1
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_hammer"
+	slot = VIET_clutter
+}
+VIET_trusty_shovel = {
+	intrigue = 1
+	assassinate_chance_modifier = 0.01
+	plot_power_modifier = 0.01
+	quality = 1
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_trusty_shovel"
+	slot = VIET_clutter
+}
+VIET_leather_knapsack = {
+	intrigue = 2
+	combat_rating = 2
+	quality = 1
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_leather_knapsack"
+	slot = VIET_clutter
+}
+VIET_landscape_painting_lake = {
+	diplomacy = 1
+	general_opinion = 5
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.05
+	quality = 3
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_landscape_painting_lake"
+	slot = VIET_clutter
+}
+VIET_landscape_painting_ruin = {
+	intrigue = 1
+	learning = 1
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.1
+	quality = 3
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_landscape_painting_ruin"
+	slot = VIET_clutter
+}
+VIET_landscape_painting_forest = {
+	diplomacy = 1
+	intrigue = 1
+	fertility = 0.02
+	monthly_character_prestige = 0.1
+	quality = 3
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_landscape_painting_forest"
+	slot = VIET_clutter
+}
+VIET_wooden_bowl = {
+	health = 0.15
+	defensive_plot_power_modifier = 0.03
+	quality = 1
+	flags = { VIET_clutter_flag }
+	stacking = no
+	picture = "GFX_VIET_wooden_bowl"
+	slot = VIET_clutter
+}

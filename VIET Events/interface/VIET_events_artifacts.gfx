@@ -223,4 +223,116 @@ spriteTypes = {
 		name = "GFX_VIET_guan_yu_statue_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_guan_yu_statue_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_pewter_spoon"
+		texturefile = "gfx\\interface\\artifacts\\VIET_pewter_spoon.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_pewter_spoon_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_pewter_spoon_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_measuring_rod"
+		texturefile = "gfx\\interface\\artifacts\\VIET_measuring_rod.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_measuring_rod_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_measuring_rod_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_flower_vase"
+		texturefile = "gfx\\interface\\artifacts\\VIET_flower_vase.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_flower_vase_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_flower_vase_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_ancient_statue_desert"
+		texturefile = "gfx\\interface\\artifacts\\VIET_ancient_statue_desert.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_ancient_statue_desert_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_ancient_statue_desert_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_prehistoric_bone_flute"
+		texturefile = "gfx\\interface\\artifacts\\VIET_prehistoric_bone_flute.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_prehistoric_bone_flute_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_prehistoric_bone_flute_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_celtic_stone_head"
+		texturefile = "gfx\\interface\\artifacts\\VIET_celtic_stone_head.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_celtic_stone_head_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_celtic_stone_head_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_weighing_scales"
+		texturefile = "gfx\\interface\\artifacts\\VIET_weighing_scales.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_weighing_scales_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_weighing_scales_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_hammer"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hammer.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_hammer_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_hammer_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_trusty_shovel"
+		texturefile = "gfx\\interface\\artifacts\\VIET_trusty_shovel.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_trusty_shovel_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_trusty_shovel_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_leather_knapsack"
+		texturefile = "gfx\\interface\\artifacts\\VIET_leather_knapsack.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_leather_knapsack_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_leather_knapsack_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_landscape_painting_lake"
+		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_lake.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_landscape_painting_lake_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_lake_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_landscape_painting_ruin"
+		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_ruin.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_landscape_painting_ruin_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_ruin_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_landscape_painting_forest"
+		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_lake.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_landscape_painting_forest_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_lake_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_wooden_bowl"
+		texturefile = "gfx\\interface\\artifacts\\VIET_wooden_bowl.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_wooden_bowl_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_wooden_bowl_small.dds"
+	}
 }

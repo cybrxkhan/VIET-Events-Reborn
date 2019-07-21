@@ -1073,3 +1073,47 @@ VIET_bread_crust_lover = {
 	monthly_character_prestige = -0.2
 	icon = 59
 }
+VIET_wolf_protector = {
+	health = 0.5
+	defensive_plot_power_modifier = 0.08
+	icon = 71
+}
+VIET_province_blacksmiths_renowned = {
+	local_tax_modifier = 0.04
+	levy_reinforce_rate = 0.12
+	icon = 115
+}
+VIET_magnificent_castle_dream = {
+	monthly_character_prestige = 0.02
+	icon = 8
+}
+VIET_notorious_jailbreak = {
+	global_revolt_risk = 0.01
+	monthly_character_prestige = -0.1
+	general_opinion = -5
+	icon = 8
+}
+VIET_province_forest_spirit_guardian = {
+	local_revolt_risk = -0.01
+	add_piety_modifier = 0.05
+	local_tax_modifier = 0.01
+	icon = 71
+}
+VIET_province_mad_scientist_rumors = {
+	local_tax_modifier = -0.01
+	add_piety_modifier = -0.03
+	add_prestige_modifier = -0.03
+	icon = 86
+}
+VIET_province_abandoned_village = {
+	local_tax_modifier = -0.02
+	tradevalue = -3
+	garrison_size = -0.05
+	icon = 36
+}
+VIET_province_perfect_marriage = {
+	local_revolt_risk = -0.05
+	local_tax_modifier = 0.01
+	land_morale = 0.01
+	icon = 39
+}

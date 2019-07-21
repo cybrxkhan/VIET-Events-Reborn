@@ -18,7 +18,7 @@ VIET_star_chart_desc;A piece of parchment depicting the positions of various cel
 VIET_ostracon;Ancient Ostracon;Ostracon Antique;;;;;;;;;;;;x
 VIET_ostracon_desc;A shard of pottery of stone with an ancient inscription on it.;Un éclat de poterie en pierre avec une ancienne inscription dessus.;;;;;;;;;;;;x
 VIET_nok_terracotta_figure;African Terracotta Figure;Figurine Africaine En Terre Cuite;;;;;;;;;;;;x
-VIET_nok_terracotta_figure_desc;A small clay statue found in West Africa, probably made by some long-lost ancient peoples.;Une petite statue en argile trouvée en Afrique de l’Ouest, probablement fabriquée par des peuples antiques et perdus depuis longtemps.;;;;;;;;;;;;x
+VIET_nok_terracotta_figure_desc;A small clay statue found in West Africa, probably made by some long-lost ancient peoples.;Une petite statue en argile trouvée en Afrique de l'Ouest, probablement fabriquée par des peuples antiques et perdus depuis longtemps.;;;;;;;;;;;;x
 VIET_cuneiform_tablet;Cuneiform Tablet;Tablette cunéiforme;;;;;;;;;;;;x
 VIET_cuneiform_tablet_desc;A cuneiform tablet made by someone from one of the many ancient civilizations of the Middle East.;Tablette cunéiforme fabriquée par quelqu'un de l'une des nombreuses civilisations anciennes du Moyen-Orient.;;;;;;;;;;;;x
 VIET_wolf_pelt;Wolf Pelt;Peau de loup;;;;;;;;;;;;x
@@ -26,13 +26,13 @@ VIET_wolf_pelt_desc;A wolf pelt used as a charming house decoration, or, alterna
 VIET_silverware_set;Ornate Silverware Set;Service à couverts ornés;;;;;;;;;;;;x
 VIET_silverware_set_desc;A set of silverware that shows how elegant, fashionable, and snobby its owner is.;Un ensemble de couverts qui montre à quel point son propriétaire est élégant, à la mode et snob.;;;;;;;;;;;;x
 VIET_exotic_quill_pen;Exotic Quill Pen;Plume exotique;;;;;;;;;;;;x
-VIET_exotic_quill_pen_desc;This quill pen is made using the feather of a bird from a faraway, exotic realm. Rumor has it that bird is now extinct.;Cette plume est fabriquée avec la plume d’un oiseau d’un royaume lointain et exotique. La rumeur dit que cet oiseau est maintenant éteint.;;;;;;;;;;;;x
+VIET_exotic_quill_pen_desc;This quill pen is made using the feather of a bird from a faraway, exotic realm. Rumor has it that bird is now extinct.;Cette plume est fabriquée avec la plume d'un oiseau d'un royaume lointain et exotique. La rumeur dit que cet oiseau est maintenant éteint.;;;;;;;;;;;;x
 VIET_goblet;Personal Goblet of [From.OriginalOwner.GetTitledName];Coupe personnelle de [From.OriginalOwner.GetTitledName];;;;;;;;;;;;x
 VIET_goblet_desc;It's better to drink from a cup you trust.;Mieux vaut boire dans une coupe dans laquelle vous avez confiance.;;;;;;;;;;;;x
 VIET_decorative_lute;Decorative Lute;Luth décoratif;;;;;;;;;;;;x
 VIET_decorative_lute_desc;An old lute that is no longer used to play music. Because it looks quite nice, however, it has found a second life as house decor.;Un vieux luth qui n'est plus utilisé pour jouer de la musique. Comme il a l'air plutôt joli, il a trouvé une seconde vie en tant que décoration d'intérieur.;;;;;;;;;;;;x
 VIET_beautiful_pitcher;Beautiful Pitcher;Beau pichet;;;;;;;;;;;;x
-VIET_beautiful_pitcher_desc;A pitcher that can not only pour liquids like water or alcohol into a goblet, but one that looks stunningly beautiful.;Un pichet qui peut non seulement verser des liquides comme de l’eau ou de l’alcool dans un verre, mais qui a l’air magnifique.;;;;;;;;;;;;x
+VIET_beautiful_pitcher_desc;A pitcher that can not only pour liquids like water or alcohol into a goblet, but one that looks stunningly beautiful.;Un pichet qui peut non seulement verser des liquides comme de l'eau ou de l'alcool dans un verre, mais qui a l'air magnifique.;;;;;;;;;;;;x
 VIET_secure_chest;Very Secure Chest;Coffre très sécurisé;;;;;;;;;;;;x
 VIET_secure_chest_desc;The lock on this chest is extremely difficult to break or lockpick. Its owner can rest assured whatever they keep in it is safe.;La serrure de ce coffre est extrêmement difficile à casser ou à crocheter. Son propriétaire peut être assuré que tout ce qu'il gardent est en sécurité.;;;;;;;;;;;;x
 VIET_hand_mirror;Glass Hand Mirror;Miroir à main en verre;;;;;;;;;;;;x
@@ -55,4 +55,32 @@ VIET_lusty_argonian_maid;The Lusty [From.OriginalOwner.Culture.GetName] Maid;La 
 VIET_lusty_argonian_maid_desc;A play about the bawdy adventures of a [From.OriginalOwner.Culture.GetName] girl.;Une pièce sur les aventures débiles d'une fille [From.OriginalOwner.Culture.GetName].;;;;;;;;;;;;x
 VIET_guan_yu_statue;Statue of Guan Yu;Statue de Guan Yu;;;;;;;;;;;;x
 VIET_guan_yu_statue_desc;A small, beautiful sculpture of Guan Yu, the Chinese God of War, stands watch over whoever owns it.;Une belle et petite sculpture de Guan Yu, le Dieu Chinois de la Guerre, surveille qui que ce soit qui le possède.;;;;;;;;;;;;x
+VIET_pewter_spoon;Pewter Spoon;xxxxx;;;;;;;;;;;;x
+VIET_pewter_spoon_desc;A good spoon used to eat good food.;xxxxx;;;;;;;;;;;;x
+VIET_measuring_rod;Measuring Rod;xxxxx;;;;;;;;;;;;x
+VIET_measuring_rod_desc;To measure things is to know them, to know them is to control them.;xxxxx;;;;;;;;;;;;x
+VIET_flower_vase;Flower Vase;xxxxx;;;;;;;;;;;;x
+VIET_flower_vase_desc;A lovely flower vase, expertly made with intricate designs. It is a cornerstone of any home's decor.;xxxxx;;;;;;;;;;;;x
+VIET_ancient_statue_desert;Ancient Statue;xxxxx;;;;;;;;;;;;x
+VIET_ancient_statue_desert_desc;An ancient statue that was found in the desert. Who made it, and for what purpose did it serve?;xxxxx;;;;;;;;;;;;x
+VIET_prehistoric_bone_flute;Ancient Bone Flute;xxxxx;;;;;;;;;;;;x
+VIET_prehistoric_bone_flute_desc;A flute from antediluvian times, made from the bone of a large creature or man.;xxxxx;;;;;;;;;;;;x
+VIET_celtic_stone_head;Ancient Stone Head;xxxxx;;;;;;;;;;;;x
+VIET_celtic_stone_head_desc;Fine stone, carved into the shape of a mustached man by the ancients.;xxxxx;;;;;;;;;;;;x
+VIET_weighing_scales;Weighing Scales;xxxxx;;;;;;;;;;;;x
+VIET_weighing_scales_desc;It is important to trust the scales one use, lest one be duped by knaves and cheats.;xxxxx;;;;;;;;;;;;x
+VIET_hammer;Common Hammer;xxxxx;;;;;;;;;;;;x
+VIET_hammer_desc;If the only tool you have is a hammer, every problem will look like a nail.;xxxxx;;;;;;;;;;;;x
+VIET_trusty_shovel;Trusty Shovel;xxxxx;;;;;;;;;;;;x
+VIET_trusty_shovel_desc;Useful for digging or moving materials, and occasionally for smacking someone on the head.;xxxxx;;;;;;;;;;;;x
+VIET_leather_knapsack;Leather Knapsack;xxxxx;;;;;;;;;;;;x
+VIET_leather_knapsack_desc;Why carry something in your hands when you can put it in a trusty knapsack?;xxxxx;;;;;;;;;;;;x
+VIET_landscape_painting_lake;Landscape Painting (Lake);xxxxx;;;;;;;;;;;;x
+VIET_landscape_painting_lake_desc;A lovely painting of a lake. It so realistic, as if one can bathe in its cool waters!;xxxxx;;;;;;;;;;;;x
+VIET_landscape_painting_ruin;Landscape Painting (Ruin);xxxxx;;;;;;;;;;;;x
+VIET_landscape_painting_ruin_desc;A thoughtful painting of an ancient ruin. What secrets does it hold?;xxxxx;;;;;;;;;;;;x
+VIET_landscape_painting_forest;Landscape Painting (Forest);xxxxx;;;;;;;;;;;;x
+VIET_landscape_painting_forest_desc;A gorgeous painting of a forest, a lush vision of the possibilities of life.;xxxxx;;;;;;;;;;;;x
+VIET_wooden_bowl;Wooden Bowl;xxxxx;;;;;;;;;;;;x
+VIET_wooden_bowl_desc;Though this wooden bowl is simple, one must remember that there can be beauty in simplicity.;xxxxx;;;;;;;;;;;;x
 xxxxxx;xxxxx;xxxxx;;;;;;;;;;;;x

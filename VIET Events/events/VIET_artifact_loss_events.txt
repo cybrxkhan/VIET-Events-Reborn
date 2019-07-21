@@ -1875,3 +1875,478 @@ character_event = {
 		destroy_artifact = VIET_nutcracker
 	}
 }
+
+# Wooden bowl - cracks
+character_event = {
+	id = VIETmisc.7029
+	desc = VIETmisc.7029.desc
+	picture = GFX_evt_feast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_wooden_bowl
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7029.a
+		destroy_artifact = VIET_wooden_bowl
+	}
+}
+
+# Pewter spoon - snaps in half
+character_event = {
+	id = VIETmisc.7030
+	desc = VIETmisc.7030.desc
+	picture = GFX_evt_feast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_pewter_spoon
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7030.a
+		destroy_artifact = VIET_pewter_spoon
+	}
+}
+
+# Measuring rod - breaks in half
+character_event = {
+	id = VIETmisc.7031
+	desc = VIETmisc.7031.desc
+	picture = GFX_evt_stressed_ruler
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_measuring_rod
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7031.a
+		destroy_artifact = VIET_measuring_rod
+	}
+}
+
+# Flower vase - breaks
+character_event = {
+	id = VIETmisc.7032
+	desc = VIETmisc.7032.desc
+	picture = GFX_evt_castle_construction
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_flower_vase
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7032.a
+		destroy_artifact = VIET_flower_vase
+	}
+}
+
+
+# Leather knapsack - gets torn
+character_event = {
+	id = VIETmisc.7033
+	desc = VIETmisc.7033.desc
+	picture = GFX_evt_castle_construction
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_leather_knapsack
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7033.a
+		destroy_artifact = VIET_leather_knapsack
+	}
+}
+
+# Weighing scales - break
+character_event = {
+	id = VIETmisc.7034
+	desc = VIETmisc.7034.desc
+	picture = GFX_evt_stressed_ruler
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_weighing_scales
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7034.a
+		destroy_artifact = VIET_weighing_scales
+	}
+}
+
+# Hammer - break
+character_event = {
+	id = VIETmisc.7035
+	desc = VIETmisc.7035.desc
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_hammer
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7035.a
+		destroy_artifact = VIET_hammer
+	}
+}
+
+# Trusty shovel - breaks
+character_event = {
+	id = VIETmisc.7036
+	desc = VIETmisc.7036.desc
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_trusty_shovel
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7036.a
+		destroy_artifact = VIET_trusty_shovel
+	}
+}
+
+# Painting of lake - dropped on candle
+character_event = {
+	id = VIETmisc.7037
+	desc = VIETmisc.7037.desc
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_landscape_painting_lake
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7037.a
+		destroy_artifact = VIET_landscape_painting_lake
+	}	
+	option = { # fix it
+		name = VIETmisc.7037.b
+		wealth = -25
+	}
+}
+
+# Painting of ruin - fell while being adjusted
+character_event = {
+	id = VIETmisc.7038
+	desc = VIETmisc.7038.desc
+	picture = GFX_evt_castle_construction
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_landscape_painting_ruin
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7038.a
+		destroy_artifact = VIET_landscape_painting_ruin
+	}	
+	option = { # fix it
+		name = VIETmisc.7038.b
+		wealth = -25
+	}
+}
+
+# Painting of forest - knocked it over
+character_event = {
+	id = VIETmisc.7039
+	desc = VIETmisc.7039.desc
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		has_artifact = VIET_landscape_painting_forest
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+		modifier = {
+			factor = 0.5
+			viet_artifact_loss_three_flags = no
+		}
+		modifier = {
+			factor = 2
+			viet_artifact_loss_three_flags = yes		
+		}
+	}
+
+	
+	option = { # ok
+		name = VIETmisc.7039.a
+		destroy_artifact = VIET_landscape_painting_forest
+	}	
+	option = { # fix it
+		name = VIETmisc.7039.b
+		wealth = -25
+	}
+}

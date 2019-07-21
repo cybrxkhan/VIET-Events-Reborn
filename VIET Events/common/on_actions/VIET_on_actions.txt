@@ -243,6 +243,14 @@ on_yearly_pulse = {
 			100 = VIETmisc.8271	# Stain on a scroll that you're reading
 			100 = VIETmisc.8273	# Sneezing during council meeting
 			100 = VIETmisc.8276	# Remembering something shameful that happened while holding court
+			#Generic
+			100 = VIETmisc.8281 # Smiths in army camp doing work
+			100 = VIETmisc.8283 # Met someone interesting at a ball
+			100 = VIETmisc.8284 # Dream of a big castle
+			100 = VIETmisc.8289 # Witness a happy peasant family
+			100 = VIETmisc.8293 # Guards making an arrest accidentally burst into the wrong person's house
+			100 = VIETmisc.8311	# Beautiful view of mountains
+			100 = VIETmisc.8312	# Dreamt of being ambushed at night
 		}
 		
 	}
@@ -449,6 +457,16 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8268	# Official seduced into corruption
 			100 = VIETmisc.8272	# Standing in the wrong place while meeting an envoy
 			100 = VIETmisc.8274	# Officials discuss whether it's better to follow policy or do what's right
+			#Generic
+			100 = VIETmisc.8277	# Almost struck by lightning
+			100 = VIETmisc.8278	# Visiting an herbalist lady
+			100 = VIETmisc.8285 # Is China the greatest?
+			100 = VIETmisc.8286 # Did a physician botch a surgery of a nobleman?
+			100 = VIETmisc.8287 # Notorious criminal breaks out of jail
+			100 = VIETmisc.8290 # Maid reports your courtier wrote her a creepy love letter
+			100 = VIETmisc.8291 # Nobleman complains about loud construction noise
+			100 = VIETmisc.8295 # Could there be even wealthier kingdoms south of West Africa?
+			100 = VIETmisc.8313 # Nobleman runs away from criminals trying to kill him
 		
 		}
 		
@@ -612,6 +630,11 @@ on_five_year_pulse = {
 			#Daily Work
 			100 = VIETmisc.8269	# Testing an upright official incognito
 			100 = VIETmisc.8275	# Minor official overlooked because of humble origin
+			#Generic
+			100 = VIETmisc.8278 # Wolf hanging around house
+			100 = VIETmisc.8280 # Bloody knife found on bed - implied to maybe be a prank
+			100 = VIETmisc.8294 # Hearing about the barbarian invasions of Rome
+			100 = VIETmisc.8296 # Scholar owns an indecipherable scroll - is it evil?
 		}
 		
 		#ALL VIET artifact events should go here!
@@ -658,14 +681,29 @@ on_five_year_pulse = {
 			100 = VIETmisc.8130 # Artifact: Servant finds a cuneiform tablet			
 			100 = VIETmisc.8136 # Artifact: Hellenic male statue
 			# Three Kingdoms
-			100 = VIETmisc.8241 # Artifact: Chinese travelers offer a statue of Guan Yu			
+			100 = VIETmisc.8241 # Artifact: Chinese travelers offer a statue of Guan Yu	
+			#Generic
+			100 = VIETmisc.8297 # Artifact: Tavern owner gives present of wooden bowl			
+			100 = VIETmisc.8298 # Artifact: Keep a pewter spoon around?			
+			100 = VIETmisc.8299 # Artifact: Measuring rod			
+			100 = VIETmisc.8300 # Artifact: Flower vase			
+			100 = VIETmisc.8301 # Artifact: Leather knapsack			
+			100 = VIETmisc.8302 # Artifact: Ancient Desert Statue - guard finds it while lost			
+			100 = VIETmisc.8303 # Artifact: Ancient European (Celtic) stone head - peasant finds a mustached statue
+			100 = VIETmisc.8304 # Artifact: Weighing scale - merchants offer
+			100 = VIETmisc.8305 # Artifact: Hammer - keep it?
+			100 = VIETmisc.8306 # Artifact: Trusty shovel - fascinated by laborer's nice shovel
+			100 = VIETmisc.8307 # Artifact: Painting of a lake for sale
+			100 = VIETmisc.8308 # Artifact: Painting of a ruin for sale
+			100 = VIETmisc.8309 # Artifact: Painting of a forest for sale
+			100 = VIETmisc.8310 # Artifact: Prehistoric ancient bone flute - hunter finds it buried
 		}
 		
 		#ALL VIET artifact loss events should go here!
 		VIET_artifact_loss_random = {
 			delay = 45
 			
-			25000 = 0 #May need to adjust	
+			22000 = 0 #May need to adjust	
 
 			#Generic
 			100 = VIETmisc.7000 # misplaced			
@@ -696,6 +734,17 @@ on_five_year_pulse = {
 			100 = VIETmisc.7025	# Magnifying glass - cracked
 			100 = VIETmisc.7026	# Abacus - gift it to some merchants
 			100 = VIETmisc.7028	# Nutcracker - gets burnt in fire
+			100 = VIETmisc.7029	# Wooden bowl - cracks
+			100 = VIETmisc.7030	# Pewter spoon - snaps in half
+			100 = VIETmisc.7031	# Measuring rod - breaks in half
+			100 = VIETmisc.7032	# Flower vase - breaks in half
+			100 = VIETmisc.7033	# Leather knapsack - gets torn
+			100 = VIETmisc.7034	# Weighing scales - break
+			100 = VIETmisc.7035	# Hammer - break
+			100 = VIETmisc.7036	# Trusty shovel - breaks
+			100 = VIETmisc.7037	# Painting of lake - dropped on candle
+			100 = VIETmisc.7038	# Painting of ruin - fell while being adjusted
+			100 = VIETmisc.7039	# Painting of ruin - knocked it over
 		}
 		
 	}
