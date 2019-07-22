@@ -28210,7 +28210,7 @@ character_event = {
 	}
 
 	option = { # Whew
-		name = VIETmisc.8276.a
+		name = VIETmisc.8277.a
 		piety = 4
 	}
 }
@@ -28275,7 +28275,7 @@ character_event = {
 	}
 
 	option = { # buy some
-		name = VIETmisc.8277.a
+		name = VIETmisc.8278.a
 		wealth = -10
 		random_list = {
 			40 = { health = 0.15 }
@@ -28785,7 +28785,9 @@ character_event = {
 	#war = no
 	
 	trigger = {
-		is_sinosphere_small_trigger = no
+		NOT = {
+			culture_group = chinese_group
+		}
 		#in_command = no
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -28865,7 +28867,7 @@ character_event = {
 		}
 	}
 	option = { # No better than anyone else
-		name = VIETmisc.8285.b
+		name = VIETmisc.8285.c
 		random = {
 			add_trait = cynical
 			chance = 40
@@ -29091,7 +29093,7 @@ province_event = {
 			terrain = desert
 			terrain = arctic
 			terrain = steppe
-			terrain = mountain
+			#terrain = mountain
 		}
 	}
 	
@@ -31377,6 +31379,15 @@ character_event = {
 	
 	trigger = {
 		in_command = no
+		capital_scope = {
+			OR = {
+				terrain = mountain
+				terrain = hills
+				any_neighbor_province = {
+					terrain = mountain
+				}
+			}
+		}
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}

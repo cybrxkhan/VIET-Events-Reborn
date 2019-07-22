@@ -1202,10 +1202,10 @@ VIETmisc.8313.desc;Unsavory bandits blackmailed the orphaned, young nobleman int
 VIETmisc.8313.a;I can afford to send a few guards to take care of these criminals.;;;;;;;;;;;;;x
 VIETmisc.8313.b;This is not my problem. Figure this out on your own!;;;;;;;;;;;;;x
 VIETmisc.8313.c;Stay at my court, where you will be safe.;;;;;;;;;;;;;x
-VIETmisc.8314.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8314.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8315.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8315.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8314.desc;Unnerving news from [Root.GetName]. There was a village there that was relatively prosperous and sizeable. However, recently, all of its inhabitants simply vanished. People from nearby settlements organized search parties, and even some of your local officials went to investigate the matter, but no one from that village was ever found. Now, all that remains is the wind whistling through the village, dark, abandoned, and lifeless.;;;;;;;;;;;x
+VIETmisc.8314.a;What on earth happened to that village?;;;;;;;;;;;;;x
+VIETmisc.8315.desc;Two commoners from powerful local families recently wed in [Root.GetName] - the groom a handsome, intelligent, virtuous youth, and the bride a beautiful, clever, gentle maiden. The two were apparently friends as children, and the match a perfect and blissful one. During the wedding, to the amazement of all, the clouds appeared in the shape of various good omens, and some claim that they heard sounds and voices from heaven above blessing this marriage!;;;;;;;;;;;x
+VIETmisc.8315.a;Interesting news.;;;;;;;;;;;;;x
 VIETmisc.8316.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8316.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8317.desc;xxxxx;;;;;;;;;;;x

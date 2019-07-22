@@ -321,11 +321,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_VIET_landscape_painting_forest"
-		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_lake.dds"
+		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_forest.dds"
 	}
 	spriteType = {
 		name = "GFX_VIET_landscape_painting_forest_small"
-		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_lake_small.dds"
+		texturefile = "gfx\\interface\\artifacts\\VIET_landscape_painting_forest_small.dds"
 	}
 	spriteType = {
 		name = "GFX_VIET_wooden_bowl"
