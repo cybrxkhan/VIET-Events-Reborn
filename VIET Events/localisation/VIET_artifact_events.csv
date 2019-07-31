@@ -1,59 +1,59 @@
 #Misc Stuff;;;;;;;;;;;;;;x
-VIETmisc.7000.desc;It appears like I somehow misplaced one of my prized possessions.;;;;;;;;;;;x
-VIETmisc.7000.a;That is unfortunate.;;;;;;;;;;;;;x
-VIETmisc.7001.desc;Whoops! Looks like I accidentally broke something.;;;;;;;;;;;x
-VIETmisc.7001.a;Uh-oh...;;;;;;;;;;;;;x
-VIETmisc.7002.desc;Thieves broke into my residence. Thankfully, my guards subdued most of them and managed to recover most of my valuables. However, one thief managed to elude their grasp and got away with one of my valuables. We were unable to track down the scoundrel afterwards.;;;;;;;;;;;x
-VIETmisc.7002.a;Unfortunate.;;;;;;;;;;;;;x
-VIETmisc.7003.desc;Over the years, your wolf pelt has gotten worn out. Now, it is no longer beautiful as it used to be. In fact, it just got stained with something so horrendous, you don't even want to think about it. If anything, it's now making the room it is in look worse, not better!;;;;;;;;;;;x
-VIETmisc.7003.a;Time to get rid of it.;;;;;;;;;;;;;x
-VIETmisc.7004.desc;Oh no! While inspecting my hourglass, I accidentally dropped it and the glass all shattered when it fell on the floor. I sigh with deep regret as servants rush to clean the mess of glass and sand. It was such a nice hourglass, too. I watch for a while as the servants do their work.;;;;;;;;;;;x
-VIETmisc.7004.a;Help the servants clean it up - it was my fault.;;;;;;;;;;;;;x
-VIETmisc.7004.b;Watch the servants.;;;;;;;;;;;;;x
-VIETmisc.7004.c;Angrily berate the servants - it wasn't my fault!;;;;;;;;;;;;;x
-VIETmisc.7005.desc;One day, I came across my ancient artifact laying on the ground, shattered to pieces. Someone or something must have knocked it over, but there's no way of figuring out who.;;;;;;;;;;;x
-VIETmisc.7005.a;Curses. It was so nice, too!;;;;;;;;;;;;;x
-VIETmisc.7005.b;No matter, what's done is done.;;;;;;;;;;;;;x
-VIETmisc.7005.c;Punish every servant! One of them must've caused it.;;;;;;;;;;;;;x
-VIETmisc.7006.desc;How could she? While cleaning, the maid accidentally bumped into one of my priceless, ancient artifacts. It fell into the ground, where it broke into many pieces. Coincidentally I was there to witness the whole incident.;;;;;;;;;;;x
-VIETmisc.7006.a;The girl looks up at me, her eyes wide with fear.;;;;;;;;;;;;;x
-VIETmisc.7007.desc;Now the girl is quivering uncontrollably as I decide what to do with her. She's usually a good, clever, and talented girl, liked by all - she just happens to also be clumsy on occasion.;;;;;;;;;;;x
-VIETmisc.7007.a;She just needs to be more careful from now on.;;;;;;;;;;;;;x
-VIETmisc.7007.b;Beat her for her insolence before firing her.;;;;;;;;;;;;;x
-VIETmisc.7007.c;Maybe she's better suited as a lady in waiting.;;;;;;;;;;;;;x
-VIETmisc.7007.d;I have a better idea on how she can repay her debt.;;;;;;;;;;;;;x
-VIET_maid_artifact_be_nice;\n\nThe artifact is not worth fussing about. Hopefully with time she will learn from her mistakes.;;;;;;;;;;;x
-VIET_maid_artifact_be_asshole;\n\nThat girl was stupid and careless.;;;;;;;;;;;x
-VIET_maid_artifact_promote;\n\nI'm fond of her, to be honest, given her likeable personality, and think maybe with some time and effort, she can be taught to be more graceful and prudent.;;;;;;;;;;;x
-VIET_maid_artifact_bang;\n\nShe is a very pretty girl, after all. Why not get something out of this?;;;;;;;;;;;x
-VIETmisc.7008.desc;A fire broke out in part of your residence today. Since it was small, there was barely any damage, and no one got hurt. However, it did burn and destroy something precious belonging to you...;;;;;;;;;;;x
-VIETmisc.7008.a;Oh no!;;;;;;;;;;;;;x
-VIETmisc.7009.desc;It seems that over time, the silver on most of the silverware in my special set has eroded from overuse. Attempts to polish it have proved futile. There isn't much a point in keeping my old silverware set anymore as it won't impress anyone.;;;;;;;;;;;x
-VIETmisc.7009.a;It isn't doing me any good now.;;;;;;;;;;;;;x
-VIETmisc.7009.b;I could at least pawn off the remaining silver for something.;;;;;;;;;;;;;x
-VIETmisc.7009.c;Perhaps I can give it as a gift to a commoner?;;;;;;;;;;;;;x
-VIETmisc.7010.desc;Over time, my personal goblet has accumulated a lot of grime and muck that has become more and more difficult to scrape off. Everyone says it's disgusting and that I should just get rid of the goblet.;;;;;;;;;;;x
-VIETmisc.7010.a;They have a point.;;;;;;;;;;;;;x
-VIETmisc.7010.b;No! I'll try to keep the goblet!;;;;;;;;;;;;;x
-VIETmisc.7010.c;Come on, the peasants have it worse than this.;;;;;;;;;;;;;x
-VIETmisc.7011.desc;I drank something earlier today from that goblet and I felt really sick, yet everyone else who drank the same thing felt fine.;;;;;;;;;;;x
-VIETmisc.7011.a;Alright, alright, I get your point, I'll get rid of it.;;;;;;;;;;;;;x
-VIETmisc.7012.desc;My colorful, exotic quill pen has worn out from too much use. It can't really write properly anymore.;;;;;;;;;;;x
-VIETmisc.7012.a;In the garbage it goes, then.;;;;;;;;;;;;;x
-VIETmisc.7013.desc;While a servant was pouring something for me out of my lovely pitcher, I accidentally moved my hand over and knocked the pitcher flying, and it shattered on the ground.;;;;;;;;;;;x
-VIETmisc.7013.a;The servant! Punish him! It was... obviously his fault!;;;;;;;;;;;;;x
-VIETmisc.7013.b;Oh well, it lived a good life.;;;;;;;;;;;;;x
-VIETmisc.7014.desc;I somehow lost the normal key AND all the spares key to my special chest. I and all the servants in my household went around searching for it, and it couldn't be found. Not only that, because of how intricate the lock on the chest is, as the original locksmith who designed it is no longer alive, no locksmith knows how to design a key that can open it.;;;;;;;;;;;x
-VIETmisc.7014.a;Oh dear, oh dear.;;;;;;;;;;;;;x
-VIETmisc.7015.desc;While you were enthusiastically showing someone your star chart, you accidentally moved your hands too fast and tore it apart. In panic, you dropped one of the pieces... onto a candle, where it burned.;;;;;;;;;;;x
-VIETmisc.7015.a;No! The whole thing is ruined now!;;;;;;;;;;;;;x
-VIETmisc.7015.b;This is terrible, but I could use the back as scrap paper at least.;;;;;;;;;;;;;x
-VIETmisc.7016.desc;I let [target_VIET_chess_pieces_lost.GetTitledName] borrow my chess set, but when [target_VIET_chess_pieces_lost.GetSheHe] returned it to me a number of the pieces were missing. This is terrible! It appears [target_VIET_chess_pieces_lost.GetSheHe] must have lost it somewhere. The chess set is as good as useless now.;;;;;;;;;;;x
-VIETmisc.7016.a;I'm disappointed in them.;;;;;;;;;;;;;x
-VIETmisc.7016.b;I'm angry!;;;;;;;;;;;;;x
-VIETmisc.7016.c;It's no big deal.;;;;;;;;;;;;;x
-VIETmisc.7017.desc;My porcelain chopsticks... they somehow... snapped in half?;;;;;;;;;;;x
-VIETmisc.7017.a;Wait... how?;;;;;;;;;;;;;x
+VIETmisc.7000.desc;It appears like I somehow misplaced one of my prized possessions.;Il semble que j'ai en quelque sorte égaré l'un de mes précieux biens.;;;;;;;;;;x;x
+VIETmisc.7000.a;That is unfortunate.;C'est regrettable.;;;;;;;;;;;;x
+VIETmisc.7001.desc;Whoops! Looks like I accidentally broke something.;Oups ! On dirait que j'ai accidentellement cassé quelque chose.;;;;;;;;;;x;x
+VIETmisc.7001.a;Uh-oh...;Uh-oh ...;;;;;;;;;;;;x
+VIETmisc.7002.desc;Thieves broke into my residence. Thankfully, my guards subdued most of them and managed to recover most of my valuables. However, one thief managed to elude their grasp and got away with one of my valuables. We were unable to track down the scoundrel afterwards.;Des voleurs ont fait irruption chez moi. Heureusement, mes gardes ont maîtrisé la plupart d'entre eux et ont réussi à récupérer la plupart de mes objets de valeur. Cependant, un voleur a réussi à leur échapper et s'est enfui avec l'un de mes objets de valeur. Nous avons été incapables de retrouver le scélérat après.;;;;;;;;;;x;x
+VIETmisc.7002.a;Unfortunate.;Malheureux.;;;;;;;;;;;;x
+VIETmisc.7003.desc;Over the years, your wolf pelt has gotten worn out. Now, it is no longer beautiful as it used to be. In fact, it just got stained with something so horrendous, you don't even want to think about it. If anything, it's now making the room it is in look worse, not better!;Au fil des années, votre peau de loup s'est usée. Maintenant, elle n’est plus aussi belle qu’autrefois. En fait, elle est devenue tachée par quelque chose d'aussi horrible que vous ne voulez même pas y penser. Quoi qu'il en soit, cela rend maintenant la pièce dans laquelle elle est pire, pas meilleure !;;;;;;;;;;x;x
+VIETmisc.7003.a;Time to get rid of it.;Il est temps de s'en débarrasser.;;;;;;;;;;;;x
+VIETmisc.7004.desc;Oh no! While inspecting my hourglass, I accidentally dropped it and the glass all shattered when it fell on the floor. I sigh with deep regret as servants rush to clean the mess of glass and sand. It was such a nice hourglass, too. I watch for a while as the servants do their work.;Oh non! Lors de l'inspection de mon sablier, je l'ai accidentellement laissé tomber et le verre s'est brisé lorsqu'il est tombé par terre. Je soupire avec un profond regret alors que les serviteurs s'empressent de nettoyer les débris de verre et de sable. C'était aussi un bon sablier. Je regarde pendant un moment pendant que les domestiques font leur travail.;;;;;;;;;;x;x
+VIETmisc.7004.a;Help the servants clean it up - it was my fault.;Aider les domestiques à le nettoyer - c'était de ma faute.;;;;;;;;;;;;x
+VIETmisc.7004.b;Watch the servants.;Regarder les domestiques.;;;;;;;;;;;;x
+VIETmisc.7004.c;Angrily berate the servants - it wasn't my fault!;En colère gronder les serviteurs - ce n'était pas de ma faute !;;;;;;;;;;;;x
+VIETmisc.7005.desc;One day, I came across my ancient artifact laying on the ground, shattered to pieces. Someone or something must have knocked it over, but there's no way of figuring out who.;Un jour, je suis tombé sur mon ancien artefact étendu sur le sol, brisé en morceaux. Quelqu'un ou quelque chose doit l'avoir renversé, mais il n'y a aucun moyen de savoir qui.;;;;;;;;;;x;x
+VIETmisc.7005.a;Curses. It was so nice, too!;Malédictions. C'était tellement bien aussi !;;;;;;;;;;;;x
+VIETmisc.7005.b;No matter, what's done is done.;Peu importe, ce qui est fait est fait.;;;;;;;;;;;;x
+VIETmisc.7005.c;Punish every servant! One of them must've caused it.;Punissez chaque serviteur ! L'un d'entre eux a dû le causer.;;;;;;;;;;;;x
+VIETmisc.7006.desc;How could she? While cleaning, the maid accidentally bumped into one of my priceless, ancient artifacts. It fell into the ground, where it broke into many pieces. Coincidentally I was there to witness the whole incident.;Comment pourrait-elle ? Pendant le nettoyage, la femme de ménage est tombée accidentellement sur l'un de mes anciens artefacts inestimables. Il est tombé au sol, où il s'est brisé en plusieurs morceaux. Par coïncidence, j'étais sur place pour assister à tout l'incident.;;;;;;;;;;x;x
+VIETmisc.7006.a;The girl looks up at me, her eyes wide with fear.;La fille me regarde, les yeux écarquillés de peur.;;;;;;;;;;;;x
+VIETmisc.7007.desc;Now the girl is quivering uncontrollably as I decide what to do with her. She's usually a good, clever, and talented girl, liked by all - she just happens to also be clumsy on occasion.;Maintenant, la fille tremble de manière incontrôlable alors que je décide quoi faire avec elle. Elle est généralement une fille bonne, intelligente et talentueuse, appréciée de tous - elle se trouve aussi être maladroite à l’occasion.;;;;;;;;;;x;x
+VIETmisc.7007.a;She just needs to be more careful from now on.;Elle a juste besoin d'être plus prudente à partir de maintenant.;;;;;;;;;;;;x
+VIETmisc.7007.b;Beat her for her insolence before firing her.;La battre pour son insolence avant de la licencier.;;;;;;;;;;;;x
+VIETmisc.7007.c;Maybe she's better suited as a lady in waiting.;Peut-être qu'elle est mieux adaptée en tant que femme d'attente.;;;;;;;;;;;;x
+VIETmisc.7007.d;I have a better idea on how she can repay her debt.;J'ai une meilleure idée de la façon dont elle peut rembourser sa dette.;;;;;;;;;;;;x
+VIET_maid_artifact_be_nice;\n\nThe artifact is not worth fussing about. Hopefully with time she will learn from her mistakes.;\n\nL'artefact ne vaut pas la peine qu'on s'y attarde. Espérons qu'avec le temps, elle apprendra de ses erreurs.;;;;;;;;;;x;x
+VIET_maid_artifact_be_asshole;\n\nThat girl was stupid and careless.;\n\nCette fille était stupide et négligente.;;;;;;;;;;x;x
+VIET_maid_artifact_promote;\n\nI'm fond of her, to be honest, given her likeable personality, and think maybe with some time and effort, she can be taught to be more graceful and prudent.;\n\n Je l'aime sincèrement, compte tenu de sa personnalité attrayante, et je pense que, avec un peu de temps et d'efforts, on peut lui apprendre à être plus gracieuse et plus prudente.;;;;;;;;;;x;x
+VIET_maid_artifact_bang;\n\nShe is a very pretty girl, after all. Why not get something out of this?;\n\nC'est une très jolie fille, après tout. Pourquoi ne pas en tirer quelque chose ?;;;;;;;;;;x;x
+VIETmisc.7008.desc;A fire broke out in part of your residence today. Since it was small, there was barely any damage, and no one got hurt. However, it did burn and destroy something precious belonging to you...;Un incendie s'est déclaré dans une partie de votre résidence aujourd'hui. Comme elle était petite, il n’y a pratiquement pas eu de dégâts et personne n’a été blessé. Cependant, cela a brûlé et détruit quelque chose de précieux qui vous appartient ...;;;;;;;;;;x;x
+VIETmisc.7008.a;Oh no!;Oh non !;;;;;;;;;;;;x
+VIETmisc.7009.desc;It seems that over time, the silver on most of the silverware in my special set has eroded from overuse. Attempts to polish it have proved futile. There isn't much a point in keeping my old silverware set anymore as it won't impress anyone.;Il semble qu'au fil du temps, l'argent de la plupart des couverts de mon ensemble spécial s'est érodé. Les tentatives pour les polir se sont avérées vaines. Il ne sert à rien de conserver mon ancien ensemble d'argenterie car cela n'impressionnera personne.;;;;;;;;;;x;x
+VIETmisc.7009.a;It isn't doing me any good now.;Cela ne me fait aucun bien maintenant.;;;;;;;;;;;;x
+VIETmisc.7009.b;I could at least pawn off the remaining silver for something.;Je pourrais au moins mettre en gage l'argent restant pour quelque chose.;;;;;;;;;;;;x
+VIETmisc.7009.c;Perhaps I can give it as a gift to a commoner?;Peut-être que je peux le donner en cadeau à un roturier ?;;;;;;;;;;;;x
+VIETmisc.7010.desc;Over time, my personal goblet has accumulated a lot of grime and muck that has become more and more difficult to scrape off. Everyone says it's disgusting and that I should just get rid of the goblet.;Au fil du temps, mon verre personnel a accumulé beaucoup de saleté et de boue qu'il est devenu de plus en plus difficile à enlever. Tout le monde dit que c'est dégueulasse et que je devrais juste me débarrasser du gobelet.;;;;;;;;;;x;x
+VIETmisc.7010.a;They have a point.;Ils ont un point.;;;;;;;;;;;;x
+VIETmisc.7010.b;No! I'll try to keep the goblet!;Non ! Je vais essayer de garder le gobelet !;;;;;;;;;;;;x
+VIETmisc.7010.c;Come on, the peasants have it worse than this.;Allez, les paysans ont pire que ça.;;;;;;;;;;;;x
+VIETmisc.7011.desc;I drank something earlier today from that goblet and I felt really sick, yet everyone else who drank the same thing felt fine.;Plus tôt dans la journée, j'ai bu quelque chose dans ce verre et je me suis senti très malade. Pourtant, tous ceux qui avaient bu la même chose se sentaient bien.;;;;;;;;;;x;x
+VIETmisc.7011.a;Alright, alright, I get your point, I'll get rid of it.;D'accord, d'accord, je comprends ce que vous voulez dire, je vais m'en débarrasser.;;;;;;;;;;;;x
+VIETmisc.7012.desc;My colorful, exotic quill pen has worn out from too much use. It can't really write properly anymore.;Mon porte-plume coloré et exotique a trop servi. Il ne peut plus vraiment écrire correctement.;;;;;;;;;;x;x
+VIETmisc.7012.a;In the garbage it goes, then.;À la poubelle ça va, alors.;;;;;;;;;;;;x
+VIETmisc.7013.desc;While a servant was pouring something for me out of my lovely pitcher, I accidentally moved my hand over and knocked the pitcher flying, and it shattered on the ground.;Tandis qu'un serviteur sortait quelque chose pour moi de ma belle cruche, j'ai accidentellement déplacé ma main et j'ai renversé la cruche en vol, et celle-ci s'est brisée au sol.;;;;;;;;;;x;x
+VIETmisc.7013.a;The servant! Punish him! It was... obviously his fault!;Le serviteur ! Punissez-le ! C'était ... visiblement sa faute !;;;;;;;;;;;;x
+VIETmisc.7013.b;Oh well, it lived a good life.;Oh bien, ça a bien vécu.;;;;;;;;;;;;x
+VIETmisc.7014.desc;I somehow lost the normal key AND all the spares key to my special chest. I and all the servants in my household went around searching for it, and it couldn't be found. Not only that, because of how intricate the lock on the chest is, as the original locksmith who designed it is no longer alive, no locksmith knows how to design a key that can open it.;J'ai en quelque sorte perdu la clé normale ET tous les doubles de mon coffre spécial. Tous les domestiques de ma maison et moi sommes allés les chercher, et elles n’ont pas pu être trouvées. En plus cela, à cause de la complexité de la serrure sur le coffre, aucun serrurier ne sait concevoir une clé capable de l'ouvrir, car le serrurier d'origine qui l'a conçue n'est plus en vie.;;;;;;;;;;x;x
+VIETmisc.7014.a;Oh dear, oh dear.;Oh cher, oh cher.;;;;;;;;;;;;x
+VIETmisc.7015.desc;While you were enthusiastically showing someone your star chart, you accidentally moved your hands too fast and tore it apart. In panic, you dropped one of the pieces... onto a candle, where it burned.;Tandis que vous montriez avec enthousiasme votre carte des étoiles à quelqu'un, vous avez accidentellement déplacé vos mains trop rapidement et vous l'avez déchirée. En panique, vous avez déposé l'une des pièces ... sur une bougie, où elle a brûlé.;;;;;;;;;;x;x
+VIETmisc.7015.a;No! The whole thing is ruined now!;Non ! Le tout est en ruine maintenant !;;;;;;;;;;;;x
+VIETmisc.7015.b;This is terrible, but I could use the back as scrap paper at least.;C'est terrible, mais je pourrais utiliser le verso comme papier au moins.;;;;;;;;;;;;x
+VIETmisc.7016.desc;I let [target_VIET_chess_pieces_lost.GetTitledName] borrow my chess set, but when [target_VIET_chess_pieces_lost.GetSheHe] returned it to me a number of the pieces were missing. This is terrible! It appears [target_VIET_chess_pieces_lost.GetSheHe] must have lost it somewhere. The chess set is as good as useless now.;J'ai laissé [target_VIET_chess_pieces_lost.GetTitledName] emprunter mon jeu d'échecs, mais lorsque [target_VIET_chess_pieces_lost.GetSheHe] me l'a retourné, un certain nombre de pièces manquaient. C'est terrible ! Il semble que [target_VIET_chess_pieces_lost.GetSheHe] l'ait perdue quelque part. Le jeu d'échecs est quasiment inutile maintenant.;;;;;;;;;;x;x
+VIETmisc.7016.a;I'm disappointed in them.;Je suis déçu d'eux.;;;;;;;;;;;;x
+VIETmisc.7016.b;I'm angry!;Je suis en colère !;;;;;;;;;;;;x
+VIETmisc.7016.c;It's no big deal.;Ce n'est pas grand chose.;;;;;;;;;;;;x
+VIETmisc.7017.desc;My porcelain chopsticks... they somehow... snapped in half?;Mes baguettes en porcelaine ... elles se sont cassées en deux ?;;;;;;;;;;x;x
+VIETmisc.7017.a;Wait... how?;Attends ... comment?;;;;;;;;;;;;x
 VIETmisc.7018.desc;Curses! That traveling merchant that just visited here was no honest merchant, no wonder the goods he was offering me seemed so suspiciously poor in quality - he was a thief! Guards report that they saw him running off with some of my valuables. I've put my soldiers on high alert, but it's possible that thief could be anywhere now.;;;;;;;;;;;x
 VIETmisc.7018.a;Can I even find a good replacement for it?;;;;;;;;;;;;;x
 VIETmisc.7019.desc;I am giving a tour of my house and property to several important elites from elsewhere in my realm. One of them notices something belonging to me, and is quite enamoured with it! They ask if I am willing to part with it for an exorbitant price.;;;;;;;;;;;x
