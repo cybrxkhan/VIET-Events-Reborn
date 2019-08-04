@@ -55,32 +55,32 @@ VIET_lusty_argonian_maid;The Lusty [From.OriginalOwner.Culture.GetName] Maid;La 
 VIET_lusty_argonian_maid_desc;A play about the bawdy adventures of a [From.OriginalOwner.Culture.GetName] girl.;Une pièce sur les aventures débiles d'une fille [From.OriginalOwner.Culture.GetName].;;;;;;;;;;;;x
 VIET_guan_yu_statue;Statue of Guan Yu;Statue de Guan Yu;;;;;;;;;;;;x
 VIET_guan_yu_statue_desc;A small, beautiful sculpture of Guan Yu, the Chinese God of War, stands watch over whoever owns it.;Une belle et petite sculpture de Guan Yu, le Dieu Chinois de la Guerre, surveille qui que ce soit qui le possède.;;;;;;;;;;;;x
-VIET_pewter_spoon;Pewter Spoon;xxxxx;;;;;;;;;;;;x
-VIET_pewter_spoon_desc;A good spoon used to eat good food.;xxxxx;;;;;;;;;;;;x
-VIET_measuring_rod;Measuring Rod;xxxxx;;;;;;;;;;;;x
-VIET_measuring_rod_desc;To measure things is to know them, to know them is to control them.;xxxxx;;;;;;;;;;;;x
-VIET_flower_vase;Flower Vase;xxxxx;;;;;;;;;;;;x
-VIET_flower_vase_desc;A lovely flower vase, expertly made with intricate designs. It is a cornerstone of any home's decor.;xxxxx;;;;;;;;;;;;x
-VIET_ancient_statue_desert;Ancient Statue;xxxxx;;;;;;;;;;;;x
-VIET_ancient_statue_desert_desc;An ancient statue that was found in the desert. Who made it, and for what purpose did it serve?;xxxxx;;;;;;;;;;;;x
-VIET_prehistoric_bone_flute;Ancient Bone Flute;xxxxx;;;;;;;;;;;;x
-VIET_prehistoric_bone_flute_desc;A flute from antediluvian times, made from the bone of a large creature or man.;xxxxx;;;;;;;;;;;;x
-VIET_celtic_stone_head;Ancient Stone Head;xxxxx;;;;;;;;;;;;x
-VIET_celtic_stone_head_desc;Fine stone, carved into the shape of a mustached man by the ancients.;xxxxx;;;;;;;;;;;;x
-VIET_weighing_scales;Weighing Scales;xxxxx;;;;;;;;;;;;x
-VIET_weighing_scales_desc;It is important to trust the scales one use, lest one be duped by knaves and cheats.;xxxxx;;;;;;;;;;;;x
-VIET_hammer;Common Hammer;xxxxx;;;;;;;;;;;;x
-VIET_hammer_desc;If the only tool you have is a hammer, every problem will look like a nail.;xxxxx;;;;;;;;;;;;x
-VIET_trusty_shovel;Trusty Shovel;xxxxx;;;;;;;;;;;;x
-VIET_trusty_shovel_desc;Useful for digging or moving materials, and occasionally for smacking someone on the head.;xxxxx;;;;;;;;;;;;x
-VIET_leather_knapsack;Leather Knapsack;xxxxx;;;;;;;;;;;;x
-VIET_leather_knapsack_desc;Why carry something in your hands when you can put it in a trusty knapsack?;xxxxx;;;;;;;;;;;;x
-VIET_landscape_painting_lake;Landscape Painting (Lake);xxxxx;;;;;;;;;;;;x
-VIET_landscape_painting_lake_desc;A lovely painting of a lake. It so realistic, as if one can bathe in its cool waters!;xxxxx;;;;;;;;;;;;x
-VIET_landscape_painting_ruin;Landscape Painting (Ruin);xxxxx;;;;;;;;;;;;x
-VIET_landscape_painting_ruin_desc;A thoughtful painting of an ancient ruin. What secrets does it hold?;xxxxx;;;;;;;;;;;;x
-VIET_landscape_painting_forest;Landscape Painting (Forest);xxxxx;;;;;;;;;;;;x
-VIET_landscape_painting_forest_desc;A gorgeous painting of a forest, a lush vision of the possibilities of life.;xxxxx;;;;;;;;;;;;x
-VIET_wooden_bowl;Wooden Bowl;xxxxx;;;;;;;;;;;;x
-VIET_wooden_bowl_desc;Though this wooden bowl is simple, one must remember that there can be beauty in simplicity.;xxxxx;;;;;;;;;;;;x
+VIET_pewter_spoon;Pewter Spoon;Cuillère en étain;;;;;;;;;;;;x
+VIET_pewter_spoon_desc;A good spoon used to eat good food.;Une bonne cuillère utilisée d'habitude pour manger de la bonne nourriture.;;;;;;;;;;;;x
+VIET_measuring_rod;Measuring Rod;Tige de mesure;;;;;;;;;;;;x
+VIET_measuring_rod_desc;To measure things is to know them, to know them is to control them.;Mesurer les choses, c'est les connaître, les connaître, c'est les contrôler.;;;;;;;;;;;;x
+VIET_flower_vase;Flower Vase;Vase à fleurs;;;;;;;;;;;;x
+VIET_flower_vase_desc;A lovely flower vase, expertly made with intricate designs. It is a cornerstone of any home's decor.;Un joli vase à fleurs, conçu avec des motifs complexes. C'est la pierre angulaire du décor de toute maison.;;;;;;;;;;;;x
+VIET_ancient_statue_desert;Ancient Statue;Statue antique;;;;;;;;;;;;x
+VIET_ancient_statue_desert_desc;An ancient statue that was found in the desert. Who made it, and for what purpose did it serve?;Une statue antique qui a été trouvée dans le désert. Qui l'a fabriqué et dans quel but l'a-t-elle pu servir ?;;;;;;;;;;;;x
+VIET_prehistoric_bone_flute;Ancient Bone Flute;Flûte à os antique;;;;;;;;;;;;x
+VIET_prehistoric_bone_flute_desc;A flute from antediluvian times, made from the bone of a large creature or man.;Flûte des temps antédiluviens, fabriquée à partir d'os d'une grande créature ou d'un homme.;;;;;;;;;;;;x
+VIET_celtic_stone_head;Ancient Stone Head;Tête de pierre ancienne;;;;;;;;;;;;x
+VIET_celtic_stone_head_desc;Fine stone, carved into the shape of a mustached man by the ancients.;Pierre fine, taillée dans la forme d'un moustachu par les anciens.;;;;;;;;;;;;x
+VIET_weighing_scales;Weighing Scales;Balance De Pesage;;;;;;;;;;;;x
+VIET_weighing_scales_desc;It is important to trust the scales one use, lest one be duped by knaves and cheats.;Il est important de faire confiance aux balances que l'on utilise pour éviter de se faire duper par des fripons et des tricheurs.;;;;;;;;;;;;x
+VIET_hammer;Common Hammer;Marteau commun;;;;;;;;;;;;x
+VIET_hammer_desc;If the only tool you have is a hammer, every problem will look like a nail.;Si le seul outil dont vous disposez est un marteau, chaque problème ressemblera à un clou.;;;;;;;;;;;;x
+VIET_trusty_shovel;Trusty Shovel;Pelle de confiance;;;;;;;;;;;;x
+VIET_trusty_shovel_desc;Useful for digging or moving materials, and occasionally for smacking someone on the head.;Utile pour creuser ou déplacer des matériaux, et occasionnellement pour frapper quelqu'un sur la tête.;;;;;;;;;;;;x
+VIET_leather_knapsack;Leather Knapsack;Sac à dos en cuir;;;;;;;;;;;;x
+VIET_leather_knapsack_desc;Why carry something in your hands when you can put it in a trusty knapsack?;Pourquoi porter quelque chose dans vos mains quand vous pouvez le mettre dans un fidèle sac à dos ?;;;;;;;;;;;;x
+VIET_landscape_painting_lake;Landscape Painting (Lake);Peinture de paysage (lac);;;;;;;;;;;;x
+VIET_landscape_painting_lake_desc;A lovely painting of a lake. It so realistic, as if one can bathe in its cool waters!;Une belle peinture d'un lac. C'est si réaliste, comme si on pouvait se baigner dans ses eaux fraîches !;;;;;;;;;;;;x
+VIET_landscape_painting_ruin;Landscape Painting (Ruin);Peinture de paysage (ruine);;;;;;;;;;;;x
+VIET_landscape_painting_ruin_desc;A thoughtful painting of an ancient ruin. What secrets does it hold?;Une peinture réfléchie d'une ruine ancienne. Quels secrets détient-elle ?;;;;;;;;;;;;x
+VIET_landscape_painting_forest;Landscape Painting (Forest);Peinture de paysage (forêt);;;;;;;;;;;;x
+VIET_landscape_painting_forest_desc;A gorgeous painting of a forest, a lush vision of the possibilities of life.;Une peinture magnifique d'une forêt, une vision luxuriante des possibilités de la vie.;;;;;;;;;;;;x
+VIET_wooden_bowl;Wooden Bowl;Bol en bois;;;;;;;;;;;;x
+VIET_wooden_bowl_desc;Though this wooden bowl is simple, one must remember that there can be beauty in simplicity.;Bien que ce bol en bois soit simple, il ne faut pas oublier qu'il peut y avoir de la beauté dans la simplicité.;;;;;;;;;;;;x
 xxxxxx;xxxxx;xxxxx;;;;;;;;;;;;x
