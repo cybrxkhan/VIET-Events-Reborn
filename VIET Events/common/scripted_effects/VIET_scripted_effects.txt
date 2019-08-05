@@ -38,6 +38,25 @@ VIET_give_generic_weapon_effect = {
 				add_artifact = scimitar_tier_1_new
 			}
 			10 = {
+				modifier = {
+					factor = 5
+					OR = {
+						culture_group = arabic
+						culture_group = iranian
+						culture_group = north_african
+						culture_group = indo_aryan_group
+						culture_group = dravidian_group
+					}
+				}
+				modifier = {
+					factor = 3
+					OR = {
+						culture_group = serindian
+						culture_group = east_african
+						culture_group = byzantine
+						culture_group = altaic
+					}
+				}
 				add_artifact = scimitar_tier_2_new
 			}
 			30 = {
@@ -287,6 +306,97 @@ VIET_give_clutter_artifact_effect = {
 					}
 				}
 				add_artifact = VIET_porcelain_chopsticks
+			}
+			10 = {
+				modifier = {
+					factor = 1.2
+					trait = humble
+				}
+				modifier = {
+					factor = 0.8
+					trait = proud
+				}
+				add_artifact = VIET_pewter_spoon
+			}
+			10 = {
+				modifier = {
+					factor = 1.2
+					trait = humble
+				}
+				modifier = {
+					factor = 0.8
+					trait = proud
+				}
+				add_artifact = VIET_wooden_bowl
+			}
+			10 = {
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = architect
+						stewardship = 10					
+					}
+				}
+				add_artifact = VIET_measuring_rod
+			}
+			10 = {
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = proud
+						trait = lustful
+					}
+				}
+				add_artifact = VIET_flower_vase
+			}
+			10 = {
+				modifier = {
+					factor = 1.2
+					stewardship = 10
+				}
+				add_artifact = VIET_weighing_scales
+			}
+			10 = {
+				modifier = {
+					factor = 1.2
+					trait = architect
+				}
+				add_artifact = VIET_hammer
+			}
+			10 = {
+				modifier = {
+					factor = 1.2
+					intrigue = 10
+				}
+				add_artifact = VIET_trusty_shovel
+			}
+			10 = {
+				modifier = {
+					factor = 1.2
+					trait = diligent
+				}
+				add_artifact = VIET_leather_knapsack
+			}
+			10 = {
+				modifier = {
+					factor = 0.8
+					NOT = { trait = proud }
+				}
+				add_artifact = VIET_landscape_painting_lake
+			}
+			10 = {
+				modifier = {
+					factor = 0.8
+					NOT = { trait = proud }
+				}
+				add_artifact = VIET_landscape_painting_ruin
+			}
+			10 = {
+				modifier = {
+					factor = 0.8
+					NOT = { trait = proud }
+				}
+				add_artifact = VIET_landscape_painting_forest
 			}
 		}
 	}
