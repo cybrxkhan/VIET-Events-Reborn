@@ -41,6 +41,14 @@ on_yearly_pulse = {
 			#Byzantine
 			100 = VIETnam.114	# Baklava		
 			100 = VIETnam.117	# Syrtos Dance	
+			#Muslim Republic
+			100 = VIETnam.130	# Character considers donating money to the poor
+			100 = VIETnam.132	# Character gets baklava
+			100 = VIETnam.134	# Character figures what exotic wares to buy
+			#Republic
+			100 = VIETnam.148	# Pickpocket!
+			100 = VIETnam.149	# Ruined clothes
+			100 = VIETnam.151	# Religious convictions for character gets in the way
 			#Food
 			100 = VIETnam.193	# Sour Kefir
 			100 = VIETnam.194	# North African mint tea ceremony
@@ -273,6 +281,12 @@ on_bi_yearly_pulse = {
 			100 = VIETnam.113	# Old monuments from antiquity
 			100 = VIETnam.115	# Courtier interested in western fashion
 			100 = VIETnam.118	# Visiting an Olive Farmer
+			#Muslim Republic
+			100 = VIETnam.128	# Coffee arrives in character's city
+			100 = VIETnam.123	# Character tells Western merchant about his/her people
+			#Republic
+			100 = VIETnam.150	# Grounded Ship
+			100 = VIETnam.155	# Character misjudged prices
 			#Food
 			100 = VIETnam.191	# Byzantine cook
 			100 = VIETnam.192	# Forks are terrible!
@@ -485,7 +499,13 @@ on_five_year_pulse = {
 			
 			#Byzantine
 			100 = VIETnam.116	# Western knight comes to character			
-			100 = VIETnam.119	# Bureau of Barbarians requests permission for investigation		
+			100 = VIETnam.119	# Bureau of Barbarians requests permission for investigation	
+			#Muslim Republic
+			100 = VIETnam.129	# Sinbad the Sailor visits character	
+			100 = VIETnam.131	# Ambassador from the Orient arrives
+			100 = VIETnam.135	# Pickpocket!
+			#Republic
+			100 = VIETnam.152	# Character's associate gone bankrupt, asks for money
 			#Muslim
 			100 = VIETnam.177	# Scholar from the House of Wisdom visits your court
 			100 = VIETnam.183	# Annoying Beggar

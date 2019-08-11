@@ -103,3 +103,6 @@ VIET_opinion_values_our_relationship = {
 VIET_opinion_doesnt_value_relationship = {
 	opinion = -10
 }
+VIET_muslim_republic_adopted_urchin = {
+	opinion = 100
+}

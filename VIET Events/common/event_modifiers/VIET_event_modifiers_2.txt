@@ -1117,3 +1117,10 @@ VIET_province_perfect_marriage = {
 	land_morale = 0.01
 	icon = 39
 }
+VIET_aladdin_street_rat = {
+	intrigue = 2
+	general_opinion = -20
+	global_revolt_risk = -0.01
+	combat_rating = 15
+	icon = 89
+}
