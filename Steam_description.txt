@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.8 "Zerzura" (Released 6/30/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.9 "Speculum Maius" (Released 8/17/19, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,14 +38,18 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.8 "Zerzura"
+Version 2.0.9 "Speculum Maius"
 
-[I]Zerzura was a legendary oasis city said to be somewhere in the Sahara desert. It was also known for being white as a dove in color and full of treasures, and was also called the Oasis of Little Birds. Neither medieval nor modern explorers have ever found a trace of it, and it is likely a myth.[/I]
+[I]The Speculum Maius, or Great Mirror, was a major work of scholarship by a French friar, Vincent of Beauvais, who lived in the 13th century. It is one of the most extensive encyclopedias and compilations of knowledge from medieval Europe, and drew on many sources, including Greek, Latin, Arabic, and Hebrew sources. The text is divided into three parts, called the Mirror of Nature (Speculum Naturale), Mirror of Doctrine (Speculum Doctrinale) and Mirror of History (Speculum Historiale).[/I]
 
 [LIST]
-[*]Added 11 fantastical stories themed events
-[*]Added 11 daily work themed events
-[*]Re-added events from old VIET: 5 Halloween Food events, 18 Bread events
-[*]Fixed some minor issues
+[*]VIET Events guide is now available for some more information and details
+[*]Added 39 generic events (mostly inspired by/using vanilla event pictures I’ve never used or haven’t used often)
+[*]Re-added 10 Muslim Republic events and 7 generic Republic events (do note, the Muslim Republic events aren’t necessarily for Muslims, some can fire if you’re in the right region)
+[*]Added 11 new clutter artifacts: pewter spoon, measuring rod, flower vase, ancient statue (desert), ancient stone head, prehistoric flute, landscape painting (ruin), landscape painting (lake), landscape painting (forest), leather knapsack, wooden bowl, weighing scales, hammer, trusty shovel
+[*]For events that spawn characters of a specific ethnicity, their graphical culture now has a chance of randomization (for instance, a spawned Chinese character has a chance of having a Mongol or Tibetan appearance, but their culture will still be Chinese)
+[*]Musk Deer province event now increases prosperity
+[*]Slightly increased the chances to get artifact loss events
+[*]Miscellaneous bugfixes as usual
 [/LIST]
 

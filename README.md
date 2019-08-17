@@ -1,6 +1,6 @@
 # VIET Events Reborn
 
-## Latest Version: 2.0.8 "Zerzura" (Released 6/30/19)
+## Latest Version: 2.0.9 "Speculum Maius" (Released 8/17/19)
 
 VIET Events Reborn is the reboot of the Events module from the Vanilla Events, Immersion, and Traits mod I created over six years ago before I retired three years back. It includes many new flavor events that add immersion and a diversity of experiences to your playthroughs.
 
