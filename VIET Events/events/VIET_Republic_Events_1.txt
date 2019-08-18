@@ -880,22 +880,6 @@ character_event = {
 				10 = { add_trait = genius }
 				10 = { add_trait = quick }
 			}
-			random = {
-				add_trait = Conscientious
-				chance = 33
-			}
-			random = {
-				add_trait = brooding
-				chance = 33
-			}
-			random = {
-				add_trait = idolizer
-				chance = 33
-			}
-			random = {
-				add_trait = affectionate
-				chance = 33
-			}
 			random_list = {
 				5 = { add_trait = strong }
 				10 = { add_trait = sturdy }
@@ -910,6 +894,41 @@ character_event = {
 			add_character_modifier = {
 				name = VIET_aladdin_street_rat
 				duration = -1
+			}
+			if = {
+				limit = {
+					has_dlc = "Zeus"
+				}
+				random = {
+					add_trait = conscientious
+					chance = 33
+				}
+				random = {
+					add_trait = brooding
+					chance = 33
+				}
+				random = {
+					add_trait = idolizer
+					chance = 33
+				}
+				random = {
+					add_trait = affectionate
+					chance = 33
+				}
+			}
+			else = {
+				random = {
+					add_trait = just
+					chance = 33
+				}
+				random = {
+					add_trait = humble
+					chance = 33
+				}
+				random = {
+					add_trait = kind
+					chance = 33
+				}		
 			}
 		}
 	}
