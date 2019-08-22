@@ -1,4 +1,4 @@
-[h1]Version actuelle : 2.0.8 "Zerzura"  (Sortie le 30/06/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[h1]Version actuelle : 2.0.9 "Speculum Maius" (Sortie le 17/08/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
 [b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
 Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]Github[/url].[/b]
 
@@ -35,13 +35,16 @@ Veuillez consulter le fil de discussion du forum pour la liste complète des cr�
 
 [h1]Changelog le plus récent[/h1]
 
-Version 2.0.8 "Zerzura"
+Version 2.0.9 "Speculum Maius"
 
-[I]Zerzura était une ville oasis légendaire, située quelque part dans le désert du Sahara. Elle était aussi connue pour être blanche comme une colombe et pleine de trésors, et on l'appelait aussi l'Oasis des Petits Oiseaux. Ni les explorateurs médiévaux ni les explorateurs modernes n'en ont jamais trouvé la trace, et c'est probablement un mythe.[/I]
+[I]Le Speculum Maius, ou Grand Miroir, fut une œuvre savante majeure d'un frère français, Vincent de Beauvais, qui vécut au XIIIe siècle. C'est l'une des encyclopédies et compilations de connaissances les plus complètes de l'Europe médiévale, et elle s'appuie sur de nombreuses sources, notamment grecques, latines, arabes et hébraïques. Le texte est divisé en trois parties, appelées le Miroir de la Nature (Speculum Naturale), le Miroir de la Doctrine (Speculum Doctrinale) et le Miroir de l'Histoire (Speculum Historiale).[/I]
 
 [LIST]
-[*]Ajout de 11 événements sur le thème de la fantaisie
-[*]Ajout de 11 événements sur le thème du labeur quotidien
-[*]Ajout d'événements de l'ancien VIET : 5 événements de nourriture d'Halloween, 18 événements de pain
+[*]Ajout de 39 événements génériques (principalement inspiré par les images d'événement de la Vanilla que j'ai pas ou peu souvent utilisé)
+[*]Ajout de de 10 événements de république musulmane et 7 événements de république générique (remarque : les événements de république musulmane ne sont pas réservés aux musulmans, vous pouvez en voir si vous êtes dans la bonne région)
+[*]Ajout de 14 nouveaux artefacts : cuillère en étain, baguette de mesure, vase à fleurs, statue ancienne (désert), tête de pierre ancienne, flûte préhistorique, peinture de paysage (ruine), peinture de paysage (lac), peinture de paysage (forêt), sac à dos en cuir, bol en bois, balance, marteau, pelle fidèle.
+[*]Pour les événements qui engendrent des personnages d'une ethnie spécifique, leur culture graphique a maintenant une chance de randomisation (par exemple, un personnage chinois engendré a une chance d'avoir un aspect mongol ou tibétain, mais leur culture sera toujours chinoise).
+[*]L'événement de la province de Cerf Musqué augmente maintenant la prospérité
+[*]Légère augmentation des chances d'avoir des événements de perte d'artefacts
 [*]Divers corrections de bug
 [/LIST]
