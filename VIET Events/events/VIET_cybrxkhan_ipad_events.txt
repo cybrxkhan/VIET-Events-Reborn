@@ -2740,6 +2740,1706 @@ character_event = {
 }
 
 
+################################
+# HUMMUS
+################################
+
+
+# Nice huge (falafel) balls
+character_event = {
+	id = VIETmisc.2140
+	desc = VIETmisc.2140.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+		has_game_rule = {
+			name = VIET_events_rules
+			value = silly
+		}	
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.2140.a
+		add_character_modifier = {
+			name = VIET_having_a_good_time
+			duration = 400
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = VIET_huge_falafel_balls
+				duration = 365
+			}
+		}
+	}
+}
+
+# New hummus in town
+character_event = {
+	id = VIETmisc.2141
+	desc = VIETmisc.2141.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.2141.a
+		add_character_modifier = {
+			name = VIET_great_hummus
+			duration = 444
+		}
+	}
+}
+
+# Hummus varieties
+character_event = {
+	id = VIETmisc.2142
+	desc = VIETmisc.2142.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.2142.a
+		piety = 2
+		add_character_modifier = {
+			name = VIET_great_hummus
+			duration = 365
+		}
+	}
+	option = { #ok
+		name = VIETmisc.2142.b
+		trigger = {
+			has_global_flag = aztec_food #Peppers
+		}
+		prestige = 1
+		piety = 1
+		add_character_modifier = {
+			name = VIET_great_hummus
+			duration = 365
+		}
+	}
+	option = { #ok
+		name = VIETmisc.2142.c
+		random_list = {
+			50 = { piety = 2 }
+			50 = { prestige = 2 }
+		}
+		add_character_modifier = {
+			name = VIET_great_hummus
+			duration = 365
+		}
+	}
+	option = { #ok
+		name = VIETmisc.2142.d
+		prestige = 2
+		add_character_modifier = {
+			name = VIET_great_hummus
+			duration = 365
+		}
+	}
+}
+
+# Foreigner who never knew hummus
+character_event = {
+	id = VIETmisc.2143
+	desc = VIETmisc.2143.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			higher_tier_than = duke
+		}
+		modifier = {
+			factor = 0.8
+			lower_tier_than = duke
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.2143.a
+		add_character_modifier = {
+			name = VIET_great_hummus
+			duration = 234
+		}
+	}
+}
+
+# Who invented hummus?
+character_event = {
+	id = VIETmisc.2144
+	desc = VIETmisc.2144.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		NOT = { trait = deaf }
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			lower_tier_than = duke
+		}
+		modifier = {
+			factor = 0.8
+			higher_tier_than = duke
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				is_merchant_republic = yes
+				is_patrician = yes
+			}
+		}
+		modifier = {
+			factor = 0.8
+			trait = imbecile
+		}
+	}
+	
+	option = { #egypt
+		name = VIETmisc.2144.a
+		piety = 3
+	}
+	option = { #israel
+		name = VIETmisc.2144.b
+		random_list = {
+			50 = { prestige = 3 }
+			50 = { piety = 3 }
+		}
+	}
+	option = { #levantine
+		name = VIETmisc.2144.c
+		prestige = 3
+	}
+}
+
+# Not enough hummus makes the throat sore
+character_event = {
+	id = VIETmisc.2145
+	desc = VIETmisc.2145.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.2145.a
+		prestige = -1
+	}
+}
+
+# Too much hummus on bread
+character_event = {
+	id = VIETmisc.2146
+	desc = VIETmisc.2146.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.2146.a
+		prestige = -1
+	}
+}
+
+# Character is a hummus addict
+character_event = {
+	id = VIETmisc.2147
+	desc = VIETmisc.2147.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+		NOT = { has_character_flag = VIET_hummus_addict }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.2147.a
+		health = 0.3
+		set_character_flag = VIET_hummus_addict
+	}
+}
+
+# Merchant commits fraud by mixing sawdust in hummus
+character_event = {
+	id = VIETmisc.2148
+	desc = VIETmisc.2148.desc
+	picture = GFX_evt_travel
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+	}
+	
+	option = { #ok
+		name = VIETmisc.2148.a
+		add_character_modifier = {
+			name = VIET_ate_bad_food
+			duration = 365
+		}
+	}
+}
+
+# Too many spices in hummus
+character_event = {
+	id = VIETmisc.2149
+	desc = VIETmisc.2149.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { #not ok
+		name = VIETmisc.2149.a
+		prestige = 2
+	}
+	option = { #ok
+		name = VIETmisc.2149.b
+		random_list = {
+			65 = { }
+			35 = { add_trait = content }
+		}
+	}
+}
+
+# Msbababababa Msabbaha - hummus made with whole chickpeas
+character_event = {
+	id = VIETmisc.2150
+	desc = VIETmisc.2150.desc
+	picture = GFX_evt_feast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		#in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+	
+	option = { #not ok
+		name = VIETmisc.2150.a
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 480
+		}
+	}
+}
+
+# Someone don't like hummus
+character_event = {
+	id = VIETmisc.2151
+	desc = VIETmisc.2151.desc
+	picture = GFX_evt_scandal
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+		any_vassal = {
+			is_adult = yes
+			NOT = { trait = incapable }
+			NOT = { trait = gluttonous }
+			NOT = { has_character_modifier = VIET_hummus_hater }
+			ai = yes
+		}
+		NOT = {
+			any_vassal = {
+				has_character_modifier = VIET_hummus_hater
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+	}
+	
+	option = { #not ok
+		name = VIETmisc.2151.a
+		random_vassal = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				NOT = { trait = gluttonous }
+				NOT = { has_character_modifier = VIET_hummus_hater }
+				ai = yes
+			}
+			add_character_modifier = {
+				name = VIET_hummus_hater
+				duration = -1
+			}
+		}
+	}
+}
+
+# Fine hummus region rising
+province_event = {
+	id = VIETmisc.2152
+	desc = VIETmisc.2152.desc
+	picture = GFX_evt_hummus
+	
+	trigger = {
+		is_hummus_culture_trigger = yes
+		NOT = { has_province_modifier = VIET_hummus_producing_region }
+		NOT = { has_province_flag = VIET_hummus_producing_region_counter }
+		NOT = {
+			kingdom = {
+				ROOT = {
+					owner = {
+						top_liege = {
+							ROOT = {
+								kingdom = {
+									PREVPREV = {
+										any_realm_province = {
+											kingdom = {
+												title = PREVPREVPREV
+											}
+											has_province_modifier = VIET_hummus_producing_region
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5000
+	}
+	
+	option = { #not ok
+		name = VIETmisc.2152.a
+		add_province_modifier = {
+			name = VIET_hummus_producing_region
+			duration = -1
+		}
+		set_province_flag = VIET_hummus_producing_region_counter
+	}
+}
+
+# Fine hummus region declining
+province_event = {
+	id = VIETmisc.2153
+	desc = VIETmisc.2153.desc
+	picture = GFX_evt_hummus
+	
+	trigger = {
+		has_province_modifier = VIET_hummus_producing_region
+		had_province_flag = { flag = VIET_hummus_producing_region_counter days = 7300 }
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+	}
+	
+	option = { #not ok
+		name = VIETmisc.2153.a
+		remove_province_modifier = VIET_hummus_producing_region
+		clr_province_flag = VIET_hummus_producing_region_counter
+	}
+}
+
+
+
+# The great hummus debate - how much hummus on bread?
+character_event = {
+	id = VIETmisc.2154
+	desc = VIETmisc.2154.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { #MOAR
+		name = VIETmisc.2154.a
+		prestige = 1
+	}
+	option = { #less
+		name = VIETmisc.2154.b
+		piety = 1
+	}
+	option = { #middle way
+		name = VIETmisc.2154.c
+		random_list = {
+			50 = { piety = 1 }
+			50 = { prestige = 1 }
+		}
+	}
+	option = { #HATE
+		name = VIETmisc.2154.d
+		trigger = {
+			OR = {
+				ai = no
+				trait = lunatic
+				trait = inbred
+				trait = imbecile
+				trait = temperate
+				trait = ambitious
+				trait = arbitrary
+				trait = paranoid
+			}
+		}
+		add_character_modifier = {
+			name = VIET_hummus_hater
+			duration = -1
+		}
+	}
+}
+
+# Baklava or hummus?
+character_event = {
+	id = VIETmisc.2155
+	desc = VIETmisc.2155.desc
+	picture = GFX_evt_tropicana
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		is_hummus_culture_trigger = yes
+		is_baklava_culture_trigger = yes
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+	}
+	
+	option = { #Hummus
+		name = VIETmisc.2155.a
+		piety = 1
+	}
+	option = { #Baklava
+		name = VIETmisc.2155.b
+		prestige = 1
+	}
+}
+
+# What is this "hummus" you speak of?
+character_event = {
+	id = VIETmisc.2156
+	desc = VIETmisc.2156.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		NOR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.2
+			OR = {
+				is_merchant_republic = yes
+				is_patrician = yes
+			}
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { diplomacy = 6 }
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { #Hummus
+		name = VIETmisc.2156.a
+		add_character_modifier = {
+			name = VIET_great_hummus
+			duration = 365
+		}
+		wealth = -5
+	}
+	option = { #Baklava
+		name = VIETmisc.2156.b
+	}
+}
+
+# Ful medames and hummus
+character_event = {
+	id = VIETmisc.2157
+	desc = VIETmisc.2157.desc
+	picture = GFX_evt_hummus
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture = egyptian_arabic
+				capital_scope = {
+					OR = {
+						duchy = { title = d_alexandria }
+						duchy = { title = d_aswan }
+						duchy = { title = d_cairo }
+						duchy = { title = d_damietta }					
+						duchy = { title = d_sinai }					
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOR = {
+				culture = egyptian_arabic
+				capital_scope = {
+					OR = {
+						duchy = { title = d_alexandria }
+						duchy = { title = d_aswan }
+						duchy = { title = d_cairo }
+						duchy = { title = d_damietta }					
+						duchy = { title = d_sinai }					
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			culture = egyptian_arabic
+		}
+		modifier = {
+			factor = 0.8
+			prestige = 1000
+		}
+	}
+	
+	option = { #Hummus
+		name = VIETmisc.2157.a
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 365
+		}
+	}
+}
+
+# Meze with hummus
+character_event = {
+	id = VIETmisc.2158
+	desc = VIETmisc.2158.desc
+	picture = GFX_evt_feast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			is_hummus_culture_trigger = yes
+			capital_scope = {
+				is_hummus_culture_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			culture = turkish
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				culture_group = south_slavic
+				culture_group = iranian
+				culture_group = byzantine
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { #Hummus
+		name = VIETmisc.2158.a
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 365
+		}
+	}
+}
+
+
+
+# Hummus gift from locals
+province_event = {
+	id = VIETmisc.2159
+	desc = VIETmisc.2159.desc
+	picture = GFX_evt_hummus
+	
+	trigger = {
+		has_province_modifier = VIET_hummus_producing_region
+		owner = {
+			NOT = { has_character_flag = VIET_given_hummus_gift }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+	}
+	
+	option = { #not ok
+		name = VIETmisc.2159.a
+		owner = {
+			set_character_flag = VIET_given_hummus_gift
+			prestige = 10
+			add_character_modifier = {
+				name = VIET_great_hummus
+				duration = 365
+			}
+		}
+	}
+}
+
+
 
 ###################################
 # BREAD

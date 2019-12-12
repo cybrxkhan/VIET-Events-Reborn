@@ -49,6 +49,8 @@ on_yearly_pulse = {
 			100 = VIETnam.148	# Pickpocket!
 			100 = VIETnam.149	# Ruined clothes
 			100 = VIETnam.151	# Religious convictions for character gets in the way
+			#Holy War
+			100 = VIETnam.163	# Is Holy War justified?
 			#Food
 			100 = VIETnam.193	# Sour Kefir
 			100 = VIETnam.194	# North African mint tea ceremony
@@ -69,12 +71,16 @@ on_yearly_pulse = {
 			#Dreams
 			100 = VIETnam.217	# Good dream
 			100 = VIETnam.218	# Battle dream
+			#Zoroastrian
+			100 = VIETnam.227	# Toenail clippings
 			#Sound
 			100 = VIETnam.266	# Muslim call to prayer - but you have work to do
 			100 = VIETnam.267	# Can't fall asleep quickly
 			#Prayer
 			100 = VIETnam.285	# Church prayer
 			100 = VIETnam.286	# Mosque prayer
+			#Jewish
+			100 = VIETnam.293	# Morning prayers
 			#Memories
 			100 = VIETnam.299	# Remembering a great time with a lover
 			100 = VIETnam.300	# Old age is sad
@@ -82,6 +88,9 @@ on_yearly_pulse = {
 			100 = VIETnam.302	# Bad baklava
 			#Comets
 			100 = VIETnam.307	# Comet sighted in the sky
+			#Buddhist
+			100 = VIETnam.321	# Begging monks
+			100 = VIETnam.322	# Stop with the incense!
 			#Bugs
 			100 = VIETnam.337	# Crickets at night
 			100 = VIETnam.341	# Courtier likes to smash and kill bugs
@@ -124,6 +133,16 @@ on_yearly_pulse = {
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2021		# How should heretic be purified?
 			100 = VIETmisc.2023		# Vassal isn't being charitable enough
+			#Hummus
+			100 = VIETmisc.2142		# Hummus varieties
+			100 = VIETmisc.2145		# Not enough hummus makes the throat sore
+			100 = VIETmisc.2146		# Too much hummus on bread
+			100 = VIETmisc.2149		# Too many spices in hummus
+			100 = VIETmisc.2150		# Msbababababa Msabbaha - hummus made with whole chickpeas
+			100 = VIETmisc.2154		# The great hummus debate - how much hummus on bread?
+			100 = VIETmisc.2155		# Baklava or hummus?
+			100 = VIETmisc.2157		# Ful medames and hummus
+			100 = VIETmisc.2158		# Meze with hummus
 			#Bread
 			100 = VIETmisc.2192		# Trenchers to the poor?
 			100 = VIETmisc.2195		# Sangak
@@ -259,6 +278,13 @@ on_yearly_pulse = {
 			100 = VIETmisc.8293 # Guards making an arrest accidentally burst into the wrong person's house
 			100 = VIETmisc.8311	# Beautiful view of mountains
 			100 = VIETmisc.8312	# Dreamt of being ambushed at night
+			#Rain
+			100 = VIETmisc.8319 # Courtier plays in rain puddles
+			100 = VIETmisc.8320 # Staring outside a rainy window
+			#Reading Stories
+			100 = VIETmisc.8327 # Watched entertaining slice of life play about love
+			100 = VIETmisc.8331 # Reading about ancient warriors
+			100 = VIETmisc.8332 # Read a cute love story
 		}
 		
 	}
@@ -283,10 +309,13 @@ on_bi_yearly_pulse = {
 			100 = VIETnam.118	# Visiting an Olive Farmer
 			#Muslim Republic
 			100 = VIETnam.128	# Coffee arrives in character's city
-			100 = VIETnam.123	# Character tells Western merchant about his/her people
+			100 = VIETnam.133	# Character tells Western merchant about his/her people
 			#Republic
 			100 = VIETnam.150	# Grounded Ship
 			100 = VIETnam.155	# Character misjudged prices
+			#Holy War
+			100 = VIETnam.158	# Muslim character comes across Christian pilgrims
+			100 = VIETnam.159	# Christian character comes across Saint's tomb
 			#Food
 			100 = VIETnam.191	# Byzantine cook
 			100 = VIETnam.192	# Forks are terrible!
@@ -308,6 +337,9 @@ on_bi_yearly_pulse = {
 			100 = VIETnam.207	# The Scorpion
 			#Dreams
 			100 = VIETnam.221	# Dream of temptation
+			#Zoroastrian
+			100 = VIETnam.224	# Honesty is the best policy
+			100 = VIETnam.226	# Defiling the Pure Holy Fire
 			#Ancient Cultures
 			100 = VIETnam.264	# Visiting scholar discusses henges
 			100 = VIETnam.265	# Axumite stelae collapses
@@ -319,6 +351,9 @@ on_bi_yearly_pulse = {
 			100 = VIETnam.332	# Innocent man executed
 			100 = VIETnam.333	# Say curse words at court
 			100 = VIETnam.335	# Walk into court naked
+			#Jewish
+			100 = VIETnam.290	# Courtier argues with scholar
+			100 = VIETnam.291	# Kosher food
 			#Memories
 			100 = VIETnam.295	# Stumble on old hunting grounds
 			#Shady
@@ -329,6 +364,11 @@ on_bi_yearly_pulse = {
 			100 = VIETnam.309	# A good comet for once?
 			100 = VIETnam.310	# Courtier sees a comet
 			100 = VIETnam.312	# Lunatic or possessed character tries to talk to heaven to stop comets
+			#Buddhist
+			100 = VIETnam.316	# A Buddhist master
+			100 = VIETnam.317	# Meditation
+			100 = VIETnam.318	# Death of a bodyguard
+			100 = VIETnam.320	# Nature is to save
 			#Bugs
 			100 = VIETnam.338	# Stung by a bee
 			100 = VIETnam.339	# Ladybugs are good luck
@@ -353,6 +393,11 @@ on_bi_yearly_pulse = {
 			#Eggs
 			100 = VIETmisc.2017		# House is egged
 			100 = VIETmisc.2018		# Bought a lot of pickled eggs
+			#Hummus
+			100 = VIETmisc.2140		# Nice huge (falafel) balls
+			100 = VIETmisc.2141		# New hummus in town
+			100 = VIETmisc.2143		# Foreigner who never knew hummus
+			100 = VIETmisc.2144		# Who invented hummus?
 			#Bread
 			100 = VIETmisc.2193		# Good health from bread crusts
 			100 = VIETmisc.2194		# Hardtack
@@ -474,6 +519,7 @@ on_bi_yearly_pulse = {
 			#Generic
 			100 = VIETmisc.8277	# Almost struck by lightning
 			100 = VIETmisc.8278	# Visiting an herbalist lady
+			100 = VIETmisc.8279	# Wolf hanging around house
 			100 = VIETmisc.8285 # Is China the greatest?
 			100 = VIETmisc.8286 # Did a physician botch a surgery of a nobleman?
 			100 = VIETmisc.8287 # Notorious criminal breaks out of jail
@@ -481,6 +527,13 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8291 # Nobleman complains about loud construction noise
 			100 = VIETmisc.8295 # Could there be even wealthier kingdoms south of West Africa?
 			100 = VIETmisc.8313 # Nobleman runs away from criminals trying to kill him
+			#Rain
+			100 = VIETmisc.8322 # It is raining despite being also sunny
+			100 = VIETmisc.8323 # Part of residence collapses from rain
+			#Reading Stories
+			100 = VIETmisc.8326 # Read Hotel Del Luna - i.e., what happens when cybrxkhan watches a K-Drama on a whim and finds it's actually great
+			100 = VIETmisc.8328 # Poet tells historical story with inaccuracy
+			100 = VIETmisc.8329 # Read a book that is 3deep5me
 		
 		}
 		
@@ -506,6 +559,9 @@ on_five_year_pulse = {
 			100 = VIETnam.135	# Pickpocket!
 			#Republic
 			100 = VIETnam.152	# Character's associate gone bankrupt, asks for money
+			#Holy War
+			100 = VIETnam.156	# Character meets lost infidel warrior
+			100 = VIETnam.160	# Crusader/Mujahid worries about having vices
 			#Muslim
 			100 = VIETnam.177	# Scholar from the House of Wisdom visits your court
 			100 = VIETnam.183	# Annoying Beggar
@@ -516,16 +572,24 @@ on_five_year_pulse = {
 			#Dreams
 			100 = VIETnam.219	# Dagoth Ur dream
 			100 = VIETnam.220	# Dream of Rome
+			#Zoroastrian
+			100 = VIETnam.225	# The Baklava Thief
 			#Ancient Cultures
 			100 = VIETnam.259	# Stargate reference - stone gateway found
 			100 = VIETnam.261	# Come across an Achaemenid monument
 			100 = VIETnam.262	# Found Scythian gold in the steppes
 			100 = VIETnam.263	# Encounter Bamiyan Buddhas
+			#Jewish
+			100 = VIETnam.289	# Dream (based on Jewish story of Rabbis winning an argument with God)
+			100 = VIETnam.292	# Kabbalist reincarnation
 			#Memories
 			100 = VIETnam.296	# Bump into a childhood friend who is a merchant
 			100 = VIETnam.301	# Memories of first love
 			#Comets
 			100 = VIETnam.308	# No comets seen for a while
+			#Buddhist
+			100 = VIETnam.315	# TO hunt or not?
+			100 = VIETnam.319	# Bodhidharma
 			#Bad
 			100 = VIETnam.334	# Bad business associate screws you over
 			
@@ -546,6 +610,11 @@ on_five_year_pulse = {
 			100 = VIETmisc.2015 	# Spinach makes me strong
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2025		# Would you kill a baby?
+			#Hummus
+			100 = VIETmisc.2147		# Character is a hummus addict
+			100 = VIETmisc.2148		# Merchant commits fraud by mixing sawdust in hummus
+			100 = VIETmisc.2151		# Someone don't like hummus
+			100 = VIETmisc.2156		# What is this "hummus" you speak of?
 			#Bread
 			100 = VIETmisc.2198		# Old bread book
 			#Halloween
@@ -655,6 +724,8 @@ on_five_year_pulse = {
 			100 = VIETmisc.8280 # Bloody knife found on bed - implied to maybe be a prank
 			100 = VIETmisc.8294 # Hearing about the barbarian invasions of Rome
 			100 = VIETmisc.8296 # Scholar owns an indecipherable scroll - is it evil?
+			#Reading stories
+			100 = VIETmisc.8330 # Saw a vision of the past while reading a book
 		}
 		
 		#ALL VIET artifact events should go here!
@@ -832,6 +903,8 @@ on_yearly_childhood_pulse = {
 			100 = VIETmisc.8139		# Elders tell stories - Persian
 			#Spices
 			100 = VIETmisc.8169		# Child uses alkanet to make fake blood in a prank
+			#Rain
+			100 = VIETmisc.8316		# Playing in the rain with another child/childhood crush
 		
 		}
 	}

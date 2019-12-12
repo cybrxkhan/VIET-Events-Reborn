@@ -923,7 +923,7 @@ VIET_three_kingdoms_zhang_fei = {
 VIET_three_kingdoms_xiahou_dun = {
 	general_opinion = 10
 	health = 0.5
-	feudal_opinion = 10
+	castle_opinion = 10
 	combat_rating = 10
 	icon = 115
 }
@@ -1123,4 +1123,37 @@ VIET_aladdin_street_rat = {
 	global_revolt_risk = -0.01
 	combat_rating = 15
 	icon = 89
+}
+VIET_province_ancient_cistern_restored = {
+	disease_defence = 0.03
+	local_tax_modifier = 0.06
+	tech_growth_modifier_economy = 0.02
+	icon = 12
+}
+VIET_province_colorful_rain_good = {
+	disease_defence = 0.01
+	local_revolt_risk = -0.01
+	icon = 129
+}
+VIET_province_colorful_rain_bad = {
+	disease_defence = -0.01
+	local_revolt_risk = 0.01
+	icon = 130
+}
+VIET_read_book_hotel_del_luna = {
+	diplomacy = 2
+	learning = 1
+	general_opinion = 5
+	monthly_character_piety = 0.02
+	icon = 2
+}
+VIET_mysterious_vision_past = {
+	intrigue = 1
+	learning = 1
+	icon = 52
+}
+VIET_read_book_cute_love_story = {
+	sex_appeal_opinion = 5
+	fertility = 0.01
+	icon = 39
 }

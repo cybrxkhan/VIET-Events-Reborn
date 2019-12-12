@@ -71,7 +71,7 @@ is_baklava_culture_trigger = {
 
 is_hummus_culture_trigger = { 
 	custom_tooltip = {
-		text = is_baklava_culture_desc
+		text = is_hummus_culture_desc
 		hidden_tooltip = {
 			OR = { 
 				#might need to change this at some point

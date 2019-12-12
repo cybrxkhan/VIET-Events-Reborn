@@ -1206,40 +1206,57 @@ VIETmisc.8314.desc;Unnerving news from [Root.GetName]. There was a village there
 VIETmisc.8314.a;What on earth happened to that village?;Qu'est-ce qui est arrivé à ce village ?;;;;;;;;;;;;x
 VIETmisc.8315.desc;Two commoners from powerful local families recently wed in [Root.GetName] - the groom a handsome, intelligent, virtuous youth, and the bride a beautiful, clever, gentle maiden. The two were apparently friends as children, and the match a perfect and blissful one. During the wedding, to the amazement of all, the clouds appeared in the shape of various good omens, and some claim that they heard sounds and voices from heaven above blessing this marriage!;Deux citoyens ordinaires appartenant à de puissantes familles locales se sont récemment mariés à [Root.GetName] - le marié, un jeune beau, intelligent et vertueux, et la mariée, une belle, intelligente et douce jeune fille. Les deux étaient apparemment des amis enfants et l’union était parfaite et heureuse. Pendant le mariage, à la stupéfaction de tous, les nuages ??sont apparus sous la forme de divers bons présages, et certains affirment avoir entendu des sons et des voix du ciel au-dessus de la bénédiction de ce mariage !;;;;;;;;;;x;x
 VIETmisc.8315.a;Interesting news.;Nouvelles intéressantes.;;;;;;;;;;;;x
-VIETmisc.8316.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8316.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8317.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8317.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8318.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8318.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8319.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8319.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8320.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8320.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8321.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8321.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8322.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8322.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8323.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8323.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8324.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8324.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8325.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8325.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8326.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8326.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8327.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8327.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8328.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8328.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8329.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8329.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8330.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8330.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8331.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8331.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8332.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8332.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8316.desc;I was playing outside with one of my friends from the village, running around and laughing, with not a care in the world.;;;;;;;;;;;x
+VIETmisc.8316.a;Suddenly, [Root.GetSheHeOpp] looks up.;;;;;;;;;;;;;x
+VIETmisc.8317.tooltip; \n\nWhat is it?;;;;;;;;;;;x
+VIETmisc.8317.desc;It begins raining out of nowhere, and within seconds the drizzle turns into a raging storm. “Hurry!” [Root.GetSheHeOpp] calls to me;;;;;;;;;;;x
+VIETmisc.8317.a;We rush to find cover under a large boulder.;;;;;;;;;;;;;x
+VIETmisc.8318.tooltip;That was a close one!;;;;;;;;;;;x
+VIETmisc.8318.desc;We huddle under the boulder, waiting for the rain to stop. The storm clears up about an hour later, but I realize my friend has fallen asleep, [Root.GetHerHisOpp] head resting on my shoulder!;;;;;;;;;;;x
+VIETmisc.8318.a;Let [Root.GetHerHisOpp] sleep... [Root.GetSheHeOpp] looks angelic.;;;;;;;;;;;;;x
+VIETmisc.8318.b;Gently wake [Root.GetHerHisOpp] up.;;;;;;;;;;;;;x
+VIETmisc.8318.c;Prank [Root.GetHerHisOpp] to make [Root.GetHerHisOpp] wake up.;;;;;;;;;;;;;x
+VIETmisc.8319.desc;The rain fell harder earlier today, but now it has lessened to a light drizzle, so you and a few courtiers go outside to experience the fresh air. [target_VIET_rain_puddle_dancer.GetTitledName] suddenly starts hopping around in one of the puddles like a child, laughing and splashing around.;;;;;;;;;;;x
+VIETmisc.8319.a;Stop that now! How immature!;;;;;;;;;;;;;x
+VIETmisc.8319.b;That looks fun, but I'll stay out.;;;;;;;;;;;;;x
+VIETmisc.8319.c;Let me join in!;;;;;;;;;;;;;x
+VIETmisc.8320.desc;It is raining heavily today. I sit by the window, gazing outside.;;;;;;;;;;;x
+VIETmisc.8320.a;This weather is so depressing.;;;;;;;;;;;;;x
+VIETmisc.8320.b;I love rain - it is so healing.;;;;;;;;;;;;;x
+VIETmisc.8321.desc;A large cistern was discovered in [Root.GetName]. It seems to have been used by ancient peoples to collect rainwater, and as it is still in relatively good condition, the locals plan to refurbish and reuse it. Perhaps we can lend some funds to help them in this endeavor? The economic and social benefits would be considerable.;;;;;;;;;;;x
+VIETmisc.8321.a;Great idea! Lend them some financial support.;;;;;;;;;;;;;x
+VIETmisc.8321.b;I will fully fund their efforts.;;;;;;;;;;;;;x
+VIETmisc.8321.c;I have no interest in helping.;;;;;;;;;;;;;x
+VIETmisc.8322.desc;Today it is raining, yet the sun is still shining!;;;;;;;;;;;x
+VIETmisc.8322.a;Amazing sight!;;;;;;;;;;;;;x
+VIETmisc.8323.desc;Last night the rain was so heavy a part of my house collapsed and flooded. I will now have to dedicate some funds to fixing and restoring the mess.;;;;;;;;;;;x
+VIETmisc.8323.a;As if I didn't have enough problems.;;;;;;;;;;;;;x
+VIETmisc.8324.desc;In parts of [Root.GetName], colorful rain was reported to have fallen for several days. After some deliberation, locals consider this to be a good omen of things to come.;;;;;;;;;;;x
+VIETmisc.8324.a;Good to hear.;;;;;;;;;;;;;x
+VIETmisc.8325.desc;In parts of [Root.GetName], colorful rain was reported to have fallen for several days. After some deliberation, locals consider this to be a bad omen of things to come.;;;;;;;;;;;x
+VIETmisc.8325.a;Oh no....;;;;;;;;;;;;;x
+VIETmisc.8326.desc;The book I read looked like a typical vapid romance at first. Instead, it was an epic love story with drama, comedy and tragedy, that raised poignant, difficult questions about human morality and mortality. Immensely moved, I now find it hard to fall asleep at night as I think about the characters I’d grown to love and their bittersweet fates. Will I ever read a story like that again?;;;;;;;;;;;x
+VIETmisc.8326.a;I never expected to like that kind of story in the first place! ;;;;;;;;;;;;;x
+VIETmisc.8327.desc;I was watching a play a traveling troupe was performing. Though it was a short and simple love story without much drama or conflict, the characters were likeable and realistic in their motivations and desires. Despite its simplicity and lack of tension, many in the audience loved the story.;;;;;;;;;;;x
+VIETmisc.8327.a;Those plebians - it’s just some banal fluff!;;;;;;;;;;;;;x
+VIETmisc.8327.b;I admit, it brought a smile to my face.;;;;;;;;;;;;;x
+VIETmisc.8328.desc;A poet is reciting a tale about a historical event long ago before me and an audience. I realize he just made a mistake, and there are some inaccuracies in his retelling of what happened!;;;;;;;;;;;x
+VIETmisc.8328.a;Don’t say anything.;;;;;;;;;;;;;x
+VIETmisc.8328.b;Correct him - history should not be lies!;;;;;;;;;;;;;x
+VIETmisc.8328.c;Correct him - the true history is more interesting.;;;;;;;;;;;;;x
+VIETmisc.8328.d;Correct him - I want to show off my knowledge.;;;;;;;;;;;;;x
+VIETmisc.8329.desc;The book you are reading is dense and full of complex ideas about philosophy and the meaning of life. Even though the characters, plot, and setting are interesting, the book itself is an extremely difficult read and you feel like you cannot finish it.;;;;;;;;;;;x
+VIETmisc.8329.a;Bear through it - I must discover its meaning!;;;;;;;;;;;;;x
+VIETmisc.8329.b;I give up! I have better things to do.;;;;;;;;;;;;;x
+VIETmisc.8330.desc;I was idly reading a book about historical events in ancient times. Suddenly, when I came across a particular section, disjointed images and scenes flashed before my mind, as if I was really there. My servants found me on the ground moments later, having fainted. They were skeptical when I described what happened, but the feelings of sadness, joy, hatred, love - I felt all that!;;;;;;;;;;;x
+VIETmisc.8330.a;Was I really there, in the past? Why am I here now?;;;;;;;;;;;;;x
+VIETmisc.8331.desc;You recently took the time to read through various books explaining the exploits and deeds of ancient heroes and warriors. It was informative, and helped you to better understand:;;;;;;;;;;;x
+VIETmisc.8331.a;Which tactics and strategies work, and which ones don’t.;;;;;;;;;;;;;x
+VIETmisc.8331.b;What makes a person brave and able to fight the odds.;;;;;;;;;;;;;x
+VIETmisc.8331.c;How to uphold justice and righteousness among all.;;;;;;;;;;;;;x
+VIETmisc.8332.desc;You recently read a touching story about a pure-hearted romance between a young man and woman who had grown up as neighbors and friends. Their virtue and honesty helped them ensure many hardships so they could be united in marriage.;;;;;;;;;;;x
+VIETmisc.8332.a;I hate stupid love stories. Why did I read that?;;;;;;;;;;;;;x
+VIETmisc.8332.b;It was an adorable tale about true love.;;;;;;;;;;;;;x
 VIETmisc.8333.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8333.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8334.desc;xxxxx;;;;;;;;;;;x
