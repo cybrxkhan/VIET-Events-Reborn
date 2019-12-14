@@ -1206,58 +1206,58 @@ VIETmisc.8314.desc;Unnerving news from [Root.GetName]. There was a village there
 VIETmisc.8314.a;What on earth happened to that village?;Qu'est-ce qui est arrivé à ce village ?;;;;;;;;;;;;x
 VIETmisc.8315.desc;Two commoners from powerful local families recently wed in [Root.GetName] - the groom a handsome, intelligent, virtuous youth, and the bride a beautiful, clever, gentle maiden. The two were apparently friends as children, and the match a perfect and blissful one. During the wedding, to the amazement of all, the clouds appeared in the shape of various good omens, and some claim that they heard sounds and voices from heaven above blessing this marriage!;Deux citoyens ordinaires appartenant à de puissantes familles locales se sont récemment mariés à [Root.GetName] - le marié, un jeune beau, intelligent et vertueux, et la mariée, une belle, intelligente et douce jeune fille. Les deux étaient apparemment des amis enfants et l’union était parfaite et heureuse. Pendant le mariage, à la stupéfaction de tous, les nuages ??sont apparus sous la forme de divers bons présages, et certains affirment avoir entendu des sons et des voix du ciel au-dessus de la bénédiction de ce mariage !;;;;;;;;;;x;x
 VIETmisc.8315.a;Interesting news.;Nouvelles intéressantes.;;;;;;;;;;;;x
-VIETmisc.8316.desc;I was playing outside with one of my friends from the village, running around and laughing, with not a care in the world.;;;;;;;;;;;x
-VIETmisc.8316.a;Suddenly, [Root.GetSheHeOpp] looks up.;;;;;;;;;;;;;x
-VIETmisc.8317.tooltip; \n\nWhat is it?;;;;;;;;;;;x
-VIETmisc.8317.desc;It begins raining out of nowhere, and within seconds the drizzle turns into a raging storm. “Hurry!” [Root.GetSheHeOpp] calls to me;;;;;;;;;;;x
-VIETmisc.8317.a;We rush to find cover under a large boulder.;;;;;;;;;;;;;x
-VIETmisc.8318.tooltip;That was a close one!;;;;;;;;;;;x
-VIETmisc.8318.desc;We huddle under the boulder, waiting for the rain to stop. The storm clears up about an hour later, but I realize my friend has fallen asleep, [Root.GetHerHisOpp] head resting on my shoulder!;;;;;;;;;;;x
-VIETmisc.8318.a;Let [Root.GetHerHisOpp] sleep... [Root.GetSheHeOpp] looks angelic.;;;;;;;;;;;;;x
-VIETmisc.8318.b;Gently wake [Root.GetHerHisOpp] up.;;;;;;;;;;;;;x
-VIETmisc.8318.c;Prank [Root.GetHerHisOpp] to make [Root.GetHerHisOpp] wake up.;;;;;;;;;;;;;x
-VIETmisc.8319.desc;The rain fell harder earlier today, but now it has lessened to a light drizzle, so you and a few courtiers go outside to experience the fresh air. [target_VIET_rain_puddle_dancer.GetTitledName] suddenly starts hopping around in one of the puddles like a child, laughing and splashing around.;;;;;;;;;;;x
-VIETmisc.8319.a;Stop that now! How immature!;;;;;;;;;;;;;x
-VIETmisc.8319.b;That looks fun, but I'll stay out.;;;;;;;;;;;;;x
-VIETmisc.8319.c;Let me join in!;;;;;;;;;;;;;x
-VIETmisc.8320.desc;It is raining heavily today. I sit by the window, gazing outside.;;;;;;;;;;;x
-VIETmisc.8320.a;This weather is so depressing.;;;;;;;;;;;;;x
-VIETmisc.8320.b;I love rain - it is so healing.;;;;;;;;;;;;;x
-VIETmisc.8321.desc;A large cistern was discovered in [Root.GetName]. It seems to have been used by ancient peoples to collect rainwater, and as it is still in relatively good condition, the locals plan to refurbish and reuse it. Perhaps we can lend some funds to help them in this endeavor? The economic and social benefits would be considerable.;;;;;;;;;;;x
-VIETmisc.8321.a;Great idea! Lend them some financial support.;;;;;;;;;;;;;x
-VIETmisc.8321.b;I will fully fund their efforts.;;;;;;;;;;;;;x
-VIETmisc.8321.c;I have no interest in helping.;;;;;;;;;;;;;x
-VIETmisc.8322.desc;Today it is raining, yet the sun is still shining!;;;;;;;;;;;x
-VIETmisc.8322.a;Amazing sight!;;;;;;;;;;;;;x
-VIETmisc.8323.desc;Last night the rain was so heavy a part of my house collapsed and flooded. I will now have to dedicate some funds to fixing and restoring the mess.;;;;;;;;;;;x
-VIETmisc.8323.a;As if I didn't have enough problems.;;;;;;;;;;;;;x
-VIETmisc.8324.desc;In parts of [Root.GetName], colorful rain was reported to have fallen for several days. After some deliberation, locals consider this to be a good omen of things to come.;;;;;;;;;;;x
-VIETmisc.8324.a;Good to hear.;;;;;;;;;;;;;x
-VIETmisc.8325.desc;In parts of [Root.GetName], colorful rain was reported to have fallen for several days. After some deliberation, locals consider this to be a bad omen of things to come.;;;;;;;;;;;x
-VIETmisc.8325.a;Oh no....;;;;;;;;;;;;;x
-VIETmisc.8326.desc;The book I read looked like a typical vapid romance at first. Instead, it was an epic love story with drama, comedy and tragedy, that raised poignant, difficult questions about human morality and mortality. Immensely moved, I now find it hard to fall asleep at night as I think about the characters I’d grown to love and their bittersweet fates. Will I ever read a story like that again?;;;;;;;;;;;x
-VIETmisc.8326.a;I never expected to like that kind of story in the first place! ;;;;;;;;;;;;;x
-VIETmisc.8327.desc;I was watching a play a traveling troupe was performing. Though it was a short and simple love story without much drama or conflict, the characters were likeable and realistic in their motivations and desires. Despite its simplicity and lack of tension, many in the audience loved the story.;;;;;;;;;;;x
-VIETmisc.8327.a;Those plebians - it’s just some banal fluff!;;;;;;;;;;;;;x
-VIETmisc.8327.b;I admit, it brought a smile to my face.;;;;;;;;;;;;;x
-VIETmisc.8328.desc;A poet is reciting a tale about a historical event long ago before me and an audience. I realize he just made a mistake, and there are some inaccuracies in his retelling of what happened!;;;;;;;;;;;x
-VIETmisc.8328.a;Don’t say anything.;;;;;;;;;;;;;x
-VIETmisc.8328.b;Correct him - history should not be lies!;;;;;;;;;;;;;x
-VIETmisc.8328.c;Correct him - the true history is more interesting.;;;;;;;;;;;;;x
-VIETmisc.8328.d;Correct him - I want to show off my knowledge.;;;;;;;;;;;;;x
-VIETmisc.8329.desc;The book you are reading is dense and full of complex ideas about philosophy and the meaning of life. Even though the characters, plot, and setting are interesting, the book itself is an extremely difficult read and you feel like you cannot finish it.;;;;;;;;;;;x
-VIETmisc.8329.a;Bear through it - I must discover its meaning!;;;;;;;;;;;;;x
-VIETmisc.8329.b;I give up! I have better things to do.;;;;;;;;;;;;;x
-VIETmisc.8330.desc;I was idly reading a book about historical events in ancient times. Suddenly, when I came across a particular section, disjointed images and scenes flashed before my mind, as if I was really there. My servants found me on the ground moments later, having fainted. They were skeptical when I described what happened, but the feelings of sadness, joy, hatred, love - I felt all that!;;;;;;;;;;;x
-VIETmisc.8330.a;Was I really there, in the past? Why am I here now?;;;;;;;;;;;;;x
-VIETmisc.8331.desc;You recently took the time to read through various books explaining the exploits and deeds of ancient heroes and warriors. It was informative, and helped you to better understand:;;;;;;;;;;;x
-VIETmisc.8331.a;Which tactics and strategies work, and which ones don’t.;;;;;;;;;;;;;x
-VIETmisc.8331.b;What makes a person brave and able to fight the odds.;;;;;;;;;;;;;x
-VIETmisc.8331.c;How to uphold justice and righteousness among all.;;;;;;;;;;;;;x
-VIETmisc.8332.desc;You recently read a touching story about a pure-hearted romance between a young man and woman who had grown up as neighbors and friends. Their virtue and honesty helped them ensure many hardships so they could be united in marriage.;;;;;;;;;;;x
-VIETmisc.8332.a;I hate stupid love stories. Why did I read that?;;;;;;;;;;;;;x
-VIETmisc.8332.b;It was an adorable tale about true love.;;;;;;;;;;;;;x
-VIETmisc.8333.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8316.desc;I was playing outside with one of my friends from the village, running around and laughing, with not a care in the world.;Je jouais dehors avec un de mes amis du village, je courais partout et je riais, sans souci du monde.;;;;;;;;;;x;x
+VIETmisc.8316.a;Suddenly, [Root.GetSheHeOpp] looks up.;Soudain, [Root.GetSheHeOpp] lève les yeux.;;;;;;;;;;;;x
+VIETmisc.8317.tooltip; \n\nWhat is it?;\n\nQu'est-ce que c'est ?;;;;;;;;;;x;x
+VIETmisc.8317.desc;It begins raining out of nowhere, and within seconds the drizzle turns into a raging storm. “Hurry!” [Root.GetSheHeOpp] calls to me;Il commence à pleuvoir de nulle part, et en quelques secondes la bruine se transforme en tempête déchaînée. "Dépêchez-vous !" [Root.GetSheHeOpp] m'appelle;;;;;;;;;;x;x
+VIETmisc.8317.a;We rush to find cover under a large boulder.;Nous nous précipitons pour trouver un abri sous un gros rocher.;;;;;;;;;;;;x
+VIETmisc.8318.tooltip;That was a close one!;C'était proche !;;;;;;;;;;x;x
+VIETmisc.8318.desc;We huddle under the boulder, waiting for the rain to stop. The storm clears up about an hour later, but I realize my friend has fallen asleep, [Root.GetHerHisOpp] head resting on my shoulder!;Nous nous blottissons sous le rocher, attendant que la pluie cesse. La tempête s'éclaircit environ une heure plus tard, mais je me rends compte que mon ami s'est endormi, [Root.GetHerHisOpp] tête de posée sur mon épaule !;;;;;;;;;;x;x
+VIETmisc.8318.a;Let [Root.GetHerHisOpp] sleep... [Root.GetSheHeOpp] looks angelic.;Laissez [Root.GetHerHisOpp] dormir ... [Root.GetSheHeOpp] a l'air angélique.;;;;;;;;;;;;x
+VIETmisc.8318.b;Gently wake [Root.GetHerHisOpp] up.;Réveillez-[Root.GetHerHisOpp] doucement.;;;;;;;;;;;;x
+VIETmisc.8318.c;Prank [Root.GetHerHisOpp] to make [Root.GetHerHisOpp] wake up.;Lui faire une blague pour [Root.GetHerHisOpp] réveiller.;;;;;;;;;;;;x
+VIETmisc.8319.desc;The rain fell harder earlier today, but now it has lessened to a light drizzle, so you and a few courtiers go outside to experience the fresh air. [target_VIET_rain_puddle_dancer.GetTitledName] suddenly starts hopping around in one of the puddles like a child, laughing and splashing around.;La pluie est tombée plus fort plus tôt dans la journée, mais maintenant elle a diminué pour devenir une légère bruine, donc vous et quelques courtisans sortez pour profiter de l'air frais. [target_VIET_rain_puddle_dancer.GetTitledName] commence soudainement à sauter dans l'une des flaques comme un enfant, à rire et à barboter.;;;;;;;;;;x;x
+VIETmisc.8319.a;Stop that now! How immature!;Arrête ça maintenant ! Quel immature !;;;;;;;;;;;;x
+VIETmisc.8319.b;That looks fun, but I'll stay out.;Ça a l'air amusant, mais je vais rester en dehors.;;;;;;;;;;;;x
+VIETmisc.8319.c;Let me join in!;Laisse-moi participer !;;;;;;;;;;;;x
+VIETmisc.8320.desc;It is raining heavily today. I sit by the window, gazing outside.;Il pleut beaucoup aujourd'hui. Je m'assois près de la fenêtre, regardant dehors.;;;;;;;;;;x;x
+VIETmisc.8320.a;This weather is so depressing.;Ce temps est si déprimant.;;;;;;;;;;;;x
+VIETmisc.8320.b;I love rain - it is so healing.;J'adore la pluie - elle guérit tellement.;;;;;;;;;;;;x
+VIETmisc.8321.desc;A large cistern was discovered in [Root.GetName]. It seems to have been used by ancient peoples to collect rainwater, and as it is still in relatively good condition, the locals plan to refurbish and reuse it. Perhaps we can lend some funds to help them in this endeavor? The economic and social benefits would be considerable.;Une grande citerne a été découverte dans [Root.GetName]. Elle semble avoir été utilisée par les anciens peuples pour collecter l'eau de pluie, et comme elle est encore en assez bon état, les habitants prévoient de la rénover et de la réutiliser. Peut-être pouvons-nous prêter des fonds pour les aider dans cette entreprise ? Les avantages économiques et sociaux seraient considérables.;;;;;;;;;;x;x
+VIETmisc.8321.a;Great idea! Lend them some financial support.;Bonne idée ! Apportez-leur un soutien financier.;;;;;;;;;;;;x
+VIETmisc.8321.b;I will fully fund their efforts.;Je financerai pleinement leurs efforts.;;;;;;;;;;;;x
+VIETmisc.8321.c;I have no interest in helping.;Je n'ai aucun intérêt à aider.;;;;;;;;;;;;x
+VIETmisc.8322.desc;Today it is raining, yet the sun is still shining!;Aujourd'hui, il pleut, mais le soleil brille toujours !;;;;;;;;;;x;x
+VIETmisc.8322.a;Amazing sight!;Vue incroyable !;;;;;;;;;;;;x
+VIETmisc.8323.desc;Last night the rain was so heavy a part of my house collapsed and flooded. I will now have to dedicate some funds to fixing and restoring the mess.;La nuit dernière, la pluie a été si forte qu'une partie de ma maison s'est effondrée et est inondée. Je vais maintenant devoir consacrer des fonds à la réparation et à la restauration du gâchis.;;;;;;;;;;x;x
+VIETmisc.8323.a;As if I didn't have enough problems.;Comme si je n'avais pas assez de problèmes.;;;;;;;;;;;;x
+VIETmisc.8324.desc;In parts of [Root.GetName], colorful rain was reported to have fallen for several days. After some deliberation, locals consider this to be a good omen of things to come.;Dans certaines parties de [Root.GetName], des pluies colorées seraient tombées pendant plusieurs jours. Après quelques délibérations, les habitants considèrent que c'est un bon présage des choses à venir.;;;;;;;;;;x;x
+VIETmisc.8324.a;Good to hear.;Bon à entendre.;;;;;;;;;;;;x
+VIETmisc.8325.desc;In parts of [Root.GetName], colorful rain was reported to have fallen for several days. After some deliberation, locals consider this to be a bad omen of things to come.;Dans certaines parties de [Root.GetName], des pluies colorées seraient tombées pendant plusieurs jours. Après quelques délibérations, les habitants considèrent que c'est un mauvais présage des choses à venir.;;;;;;;;;;x;x
+VIETmisc.8325.a;Oh no....;Oh non....;;;;;;;;;;;;x
+VIETmisc.8326.desc;The book I read looked like a typical vapid romance at first. Instead, it was an epic love story with drama, comedy and tragedy, that raised poignant, difficult questions about human morality and mortality. Immensely moved, I now find it hard to fall asleep at night as I think about the characters I’d grown to love and their bittersweet fates. Will I ever read a story like that again?;Le livre que j'ai lu ressemblait au début à une romance idiote typique. Au lieu de cela, c'était une histoire d'amour épique avec drame, comédie et tragédie, qui a soulevé des questions poignantes et difficiles sur la moralité et la mortalité humaines. Immensément ému, je trouve maintenant difficile de m'endormir la nuit en pensant aux personnages que j'aimais et à leur destin doux-amer. Vais-je jamais relire une histoire comme ça ?;;;;;;;;;;x;x
+VIETmisc.8326.a;I never expected to like that kind of story in the first place! ;Je ne m'attendais pas à aimer ce genre d'histoire en premier lieu !;;;;;;;;;;;;x
+VIETmisc.8327.desc;I was watching a play a traveling troupe was performing. Though it was a short and simple love story without much drama or conflict, the characters were likeable and realistic in their motivations and desires. Despite its simplicity and lack of tension, many in the audience loved the story.;Je regardais une pièce jouée par une troupe itinérante. Bien qu'il s'agissait d'une histoire d'amour courte et simple sans beaucoup de drame ou de conflit, les personnages étaient sympathiques et réalistes dans leurs motivations et leurs désirs. Malgré sa simplicité et son manque de tension, de nombreux spectateurs ont adoré l'histoire.;;;;;;;;;;x;x
+VIETmisc.8327.a;Those plebians - it’s just some banal fluff!;Ces plébéiens - ce ne sont que des peluches banales !;;;;;;;;;;;;x
+VIETmisc.8327.b;I admit, it brought a smile to my face.;J'avoue, cela m'a fait sourire.;;;;;;;;;;;;x
+VIETmisc.8328.desc;A poet is reciting a tale about a historical event long ago before me and an audience. I realize he just made a mistake, and there are some inaccuracies in his retelling of what happened!;Un poète récite un conte sur un événement historique il y a longtemps devant moi et un public. Je me rends compte qu'il vient de faire une erreur, et il y a des inexactitudes dans son récit de ce qui s'est passé !;;;;;;;;;;x;x
+VIETmisc.8328.a;Don’t say anything.;Ne rien dire.;;;;;;;;;;;;x
+VIETmisc.8328.b;Correct him - history should not be lies!;Corrigez-le - l'histoire ne doit pas être un mensonge !;;;;;;;;;;;;x
+VIETmisc.8328.c;Correct him - the true history is more interesting.;Corrigez-le - la véritable histoire est plus intéressante.;;;;;;;;;;;;x
+VIETmisc.8328.d;Correct him - I want to show off my knowledge.;Corrigez-le - je veux montrer mes connaissances.;;;;;;;;;;;;x
+VIETmisc.8329.desc;The book you are reading is dense and full of complex ideas about philosophy and the meaning of life. Even though the characters, plot, and setting are interesting, the book itself is an extremely difficult read and you feel like you cannot finish it.;Le livre que vous lisez est dense et plein d'idées complexes sur la philosophie et le sens de la vie. Même si les personnages, l'intrigue et le cadre sont intéressants, le livre lui-même est une lecture extrêmement difficile et vous avez l'impression que vous ne pouvez pas le terminer.;;;;;;;;;;x;x
+VIETmisc.8329.a;Bear through it - I must discover its meaning!;Poursuivez-le - je dois découvrir sa signification !;;;;;;;;;;;;x
+VIETmisc.8329.b;I give up! I have better things to do.;J'abandonne ! J'ai de meilleures choses à faire.;;;;;;;;;;;;x
+VIETmisc.8330.desc;I was idly reading a book about historical events in ancient times. Suddenly, when I came across a particular section, disjointed images and scenes flashed before my mind, as if I was really there. My servants found me on the ground moments later, having fainted. They were skeptical when I described what happened, but the feelings of sadness, joy, hatred, love - I felt all that!;Je lisais paresseusement un livre sur les événements historiques de l'Antiquité. Soudain, quand je suis tombé sur une section particulière, des images et des scènes disjointes ont défilé devant mon esprit, comme si j'étais vraiment là. Mes serviteurs m'ont retrouvé au sol quelques instants plus tard, après m'être évanoui. Ils étaient sceptiques quand j'ai décrit ce qui s'est passé, mais les sentiments de tristesse, de joie, de haine, d'amour - j'ai ressenti tout ça !;;;;;;;;;;x;x
+VIETmisc.8330.a;Was I really there, in the past? Why am I here now?;J'étais vraiment là, dans le passé ? Pourquoi suis-je ici maintenant ?;;;;;;;;;;;;x
+VIETmisc.8331.desc;You recently took the time to read through various books explaining the exploits and deeds of ancient heroes and warriors. It was informative, and helped you to better understand:;Vous avez récemment pris le temps de lire divers livres expliquant les exploits et les actes des anciens héros et guerriers. C'était instructif et vous a aidé à mieux comprendre :;;;;;;;;;;x;x
+VIETmisc.8331.a;Which tactics and strategies work, and which ones don’t.;Quelles tactiques et stratégies fonctionnent et lesquelles ne fonctionnent pas.;;;;;;;;;;;;x
+VIETmisc.8331.b;What makes a person brave and able to fight the odds.;Ce qui rend une personne courageuse et capable de lutter contre les obstacles.;;;;;;;;;;;;x
+VIETmisc.8331.c;How to uphold justice and righteousness among all.;Comment faire respecter la justice et la droiture entre tous.;;;;;;;;;;;;x
+VIETmisc.8332.desc;You recently read a touching story about a pure-hearted romance between a young man and woman who had grown up as neighbors and friends. Their virtue and honesty helped them ensure many hardships so they could be united in marriage.;Vous avez récemment lu une histoire touchante sur une romance au cœur pur entre un jeune homme et une femme qui avaient grandi en tant que voisins et amis. Leur vertu et leur honnêteté les ont aidés à faire face à de nombreuses difficultés afin qu'ils puissent être unis dans le mariage.;;;;;;;;;;x;x
+VIETmisc.8332.a;I hate stupid love stories. Why did I read that?;Je déteste les histoires d'amour stupides. Pourquoi ai-je lu ça ?;;;;;;;;;;;;x
+VIETmisc.8332.b;It was an adorable tale about true love.;C'était un conte adorable sur le véritable amour.;;;;;;;;;;;;x
+VIETmisc.8333.desc;xxxxx;xxxxx;;;;;;;;;;x;x
 VIETmisc.8333.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8334.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8334.a;Xxxxxxffff;;;;;;;;;;;;;x

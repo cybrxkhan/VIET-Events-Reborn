@@ -1,4 +1,4 @@
-[h1]Version actuelle : 2.0.9 "Speculum Maius" (Sortie le 17/08/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[h1]Version actuelle : 2.0.10 "Histoire Secrète" (Sortie le 11/12/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
 [b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
 Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]Github[/url].[/b]
 
@@ -35,16 +35,16 @@ Veuillez consulter le fil de discussion du forum pour la liste complète des cr�
 
 [h1]Changelog le plus récent[/h1]
 
-Version 2.0.9 "Speculum Maius"
+Version 2.0.10 "Histoire Secrète"
 
-[I]Le Speculum Maius, ou Grand Miroir, fut une œuvre savante majeure d'un frère français, Vincent de Beauvais, qui vécut au XIIIe siècle. C'est l'une des encyclopédies et compilations de connaissances les plus complètes de l'Europe médiévale, et elle s'appuie sur de nombreuses sources, notamment grecques, latines, arabes et hébraïques. Le texte est divisé en trois parties, appelées le Miroir de la Nature (Speculum Naturale), le Miroir de la Doctrine (Speculum Doctrinale) et le Miroir de l'Histoire (Speculum Historiale).[/I]
+Fait amusant : C'est le 7e anniversaire de la sortie de la première version de VIET - pour tous les VIETerans, le temps passe si vite !
+
+[I]L'Histoire Secrète des Mongols est l'œuvre la plus ancienne de la littérature mongole. Il s'agit d'un récit semi-mythologique et historique de la vie de Gengis Khan, écrit au XIIIe siècle par un auteur anonyme. Il couvre ses luttes de jeunesse pour survivre à ses ennemis et unifier les tribus mongoles, puis ses conquêtes à travers l'Eurasie. Il aborde également d'autres sujets tels que la culture, la religion et la politique mongole de l'époque.[/I]
 
 [LIST]
-[*]Ajout de 39 événements génériques (principalement inspiré par les images d'événement de la Vanilla que j'ai pas ou peu souvent utilisé)
-[*]Ajout de de 10 événements de république musulmane et 7 événements de république générique (remarque : les événements de république musulmane ne sont pas réservés aux musulmans, vous pouvez en voir si vous êtes dans la bonne région)
-[*]Ajout de 14 nouveaux artefacts : cuillère en étain, baguette de mesure, vase à fleurs, statue ancienne (désert), tête de pierre ancienne, flûte préhistorique, peinture de paysage (ruine), peinture de paysage (lac), peinture de paysage (forêt), sac à dos en cuir, bol en bois, balance, marteau, pelle fidèle.
-[*]Pour les événements qui engendrent des personnages d'une ethnie spécifique, leur culture graphique a maintenant une chance de randomisation (par exemple, un personnage chinois engendré a une chance d'avoir un aspect mongol ou tibétain, mais leur culture sera toujours chinoise).
-[*]L'événement de la province de Cerf Musqué augmente maintenant la prospérité
-[*]Légère augmentation des chances d'avoir des événements de perte d'artefacts
+[*]Ajout de 7 événements de lecture d'histoires
+[*]Ajout de de 10 événements consacré à la pluie
+[*]Ajout d'événements de l'ancien VIET: 8 sur les Guerres Saintes, 4 sur Zoroastrian, 5 sur les Juifs, 8 sur les Bouddhistes, 20 sur le hoummus
+[*]Correction de problèmes potentiels de localisation et d'autres bugs mineurs lors de l'exécution du mod avec Ancient Religions Reborn
 [*]Divers corrections de bug
 [/LIST]
