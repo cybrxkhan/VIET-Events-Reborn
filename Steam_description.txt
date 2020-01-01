@@ -45,7 +45,8 @@ Version 2.0.11 "Morning Star"
 [LIST]
 [*]Added 20 Oblivion inspired events
 [*]Added potential new ending event for the Oblivion Dream event
-[*]Re-Added the Cinnamon Toast Crunch event chain
+[*]Added new artifact: Shadow Banish Wine Recipe
+[*]Re-Added the Cinnamon Toast Crunch event chain from old VIET
 [*]Tweaked chances of events firing (again)
 [*]Other misc. bug fixes
 [/LIST]
