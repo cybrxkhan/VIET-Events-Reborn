@@ -406,3 +406,26 @@ VIET_wooden_bowl = {
 	picture = "GFX_VIET_wooden_bowl"
 	slot = VIET_clutter
 }
+VIET_shadowbanish_wine_recipe = {
+	intrigue = 1
+	plot_power_modifier = 0.1
+	defensive_plot_power_modifier = 0.1
+	combat_rating = 5
+	quality = 3
+	flags = { book }
+	stacking = no
+	picture = "GFX_VIET_shadowbanish_wine_recipe"
+	slot = library
+}
+VIET_oblivion_dream_book_alt = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	martial = 1
+	learning = 1
+	quality = 3
+	flags = { book }
+	stacking = no
+	picture = "GFX_VIET_oblivion_dream_book"
+	slot = library
+}

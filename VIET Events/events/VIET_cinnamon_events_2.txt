@@ -525,7 +525,15 @@ narrative_event = {
 	
 	option = { # Okay
 		name = VIETmisc.9027.a
-		narrative_event = { id = VIETmisc.9028 tooltip = VIETmisc.9028.tooltip days = 3 random = 2 }
+		custom_tooltip = {
+			text = VIETmisc.9028.tooltip
+		}
+		hidden_tooltip = {
+			random_list = {
+				75 = { narrative_event = { id = VIETmisc.9028 days = 3 random = 2 } }
+				25 = { narrative_event = { id = VIETmisc.9029 days = 3 random = 2 } }
+			}
+		}
 	}	
 }
 
@@ -548,5 +556,59 @@ narrative_event = {
 			duration = -1 #1825
 		}
 		add_artifact = VIET_oblivion_dream_book
+	}	
+}
+
+
+# Brief Summary of Oblivion's Plot... if you didn't bother with the main quest
+# Credits to this_anon from this reddit thread, the text was mostly their idea, with some minor tweaks and changes on my part:
+# https://www.reddit.com/r/CrusaderKings/comments/dhi7v2/cant_wait_for_the_elder_scrolls_vi_wallachia/f3p3t9t/
+narrative_event = {
+	id = VIETmisc.9029
+	title = VIETmisc.9029.title
+	desc = VIETmisc.9029.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = VIETmisc.9029.a
+		piety = 25
+		prestige = 25
+		add_character_modifier = {
+			name = VIET_Oblivion_dream_complete
+			duration = -1 #1825
+		}
+		add_artifact = VIET_oblivion_dream_book_alt
+		random_list = {
+			60 = { }
+			20 = { add_trait = cynical }
+			20 = { add_trait = depressed }
+		}
+	}		
+	option = { # Okay
+		name = VIETmisc.9029.b
+		piety = 25
+		prestige = 25
+		add_character_modifier = {
+			name = VIET_Oblivion_dream_complete
+			duration = -1 #1825
+		}
+		add_artifact = VIET_oblivion_dream_book_alt
+		random_list = {
+			60 = { }
+			20 = { add_trait = diligent }
+			20 = { add_trait = stressed }
+		}		
+	}		
+	option = { # Okay
+		name = VIETmisc.9029.c
+		piety = 25
+		prestige = 25
+		add_character_modifier = {
+			name = VIET_Oblivion_dream_complete
+			duration = -1 #1825
+		}
+		add_artifact = VIET_oblivion_dream_book_alt
 	}	
 }

@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.10 "Secret History" (Released 12/11/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.11 "Morning Star" (Released 12/31/19, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,17 +38,15 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.10 "Secret History"
+Version 2.0.11 "Morning Star"
 
-Fun fact: It's the 7th anniversary of when I released the first version of VIET - for any VIETerans out there, time flies by so quickly!
-
-[I]The Secret History of the Mongols is the oldest surviving work of Mongolian literature. It is a semi-mythological, historical account of the life of Genghis Khan written sometime in the 13th century by an anonymous author. It covers his struggles in early life to survive his enemies and unify the Mongol tribes, and then his conquests across Eurasia. It is also touches on other topics such as Mongolian culture, religion, and politics of the time.[/I]
+[I]The term 'morning star' commonly refers to the planet Venus when it appears in the east before sunrise.[/I]
 
 [LIST]
-[*]Added 7 events about reading stories
-[*]Added 10 Rain themed events
-[*]Re-added events from old VIET: 8 Holy War, 4 Zoroastrian, 5 Jewish, 8 Buddhist, 20 hummus
-[*]Fixed potential localization issues and other minor bugs when running the mod with Ancient Religions Reborn
-[*]Miscellaneous bugfixes as usual
+[*]Added 20 Oblivion inspired events
+[*]Added potential new ending event for the Oblivion Dream event
+[*]Re-Added the Cinnamon Toast Crunch event chain
+[*]Tweaked chances of events firing (again)
+[*]Other misc. bug fixes
 [/LIST]
 

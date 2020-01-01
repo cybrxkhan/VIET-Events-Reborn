@@ -335,4 +335,12 @@ spriteTypes = {
 		name = "GFX_VIET_wooden_bowl_small"
 		texturefile = "gfx\\interface\\artifacts\\VIET_wooden_bowl_small.dds"
 	}
+	spriteType = {
+		name = "GFX_VIET_shadowbanish_wine_recipe"
+		texturefile = "gfx\\interface\\artifacts\\VIET_shadowbanish_wine_recipe.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_shadowbanish_wine_recipe_small"
+		texturefile = "gfx\\interface\\artifacts\\VIET_shadowbanish_wine_recipe_small.dds"
+	}
 }

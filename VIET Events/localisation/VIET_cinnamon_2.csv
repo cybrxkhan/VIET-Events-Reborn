@@ -121,9 +121,11 @@ VIETmisc.9028.title;Oblivion of Dreams;L'oubli des rêves;;;;;;;;;;x;x
 VIETmisc.9028.desc;The dream passes by like a blur. I rescue the Emperor's last heir, just as [Root.Religion.GetRandomEvilGodName] invades the world with demonic forces. Together with the Prince and other allies, we manage to figure out a way to defeat the hellish hordes and expel them from this world, though it comes at a price, as the Prince sacrifices his life in the end. Still, we triumph, and as I wake up from the dream, I feel a feeling of bittersweetness.\n\nWas it really a dream? It felt so real, like another universe out there.;Le rêve passe comme un flou. Je sauve le dernier héritier de l'Empereur, tout comme [Root.Religion.GetRandomEvilGodName] envahit le monde avec des forces démoniaques. Avec le Prince et d'autres alliés, nous parvenons à trouver un moyen de vaincre les hordes infernales et de les expulser de ce monde, même si cela a un prix, car le Prince finit par sacrifier sa vie. Malgré tout, nous triomphons et, à mon réveil, je ressens un sentiment doux-amer.\n\nEst-ce vraiment un rêve ? C'était tellement réel, comme un autre univers là-bas.;;;;;;;;;;x;x
 VIETmisc.9028.a;I must write down as much as I can!;Je dois écrire autant que je peux !;;;;;;;;;;;;x
 VIETmisc.9029.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.9029.title;xxxxx;;;;;;;;;;;x
-VIETmisc.9029.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9029.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.9029.title;Oblivion of Dreams;;;;;;;;;;;x
+VIETmisc.9029.desc;The horizons of your dream expand into an entire lifetime of roaming the idyllic countryside, slaying beasts and bandits, raiding ancient ruins, and getting involved with the locals and aiding them where possible for fortune and fame. You even become intertwined in multiple guilds and master their arts of combat, sorcery, and guile.\n\nYou awaken in a sweat, contemplating the breadth of this incredible epic you dreamt of. As you write down everything you remember, recalling with shocking clarity the fanciful details of this otherworldly existence, it suddenly strikes you that in all those years, you never did do as the long dead Emperor requested and bring his enchanted jewelry to his associate.;;;;;;;;;;;x
+VIETmisc.9029.a;How is anyone supposed to rely on me?;;;;;;;;;;;;;x
+VIETmisc.9029.b;I must make every effort to fulfill my oaths.;;;;;;;;;;;;;x
+VIETmisc.9029.c;That was just a pleasant dream!;;;;;;;;;;;;;x
 VIETmisc.9030.tooltip;xxxxx;;;;;;;;;;;x
 VIETmisc.9030.title;xxxxx;;;;;;;;;;;x
 VIETmisc.9030.desc;xxxxx;;;;;;;;;;;x

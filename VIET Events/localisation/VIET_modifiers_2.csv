@@ -55,7 +55,7 @@ VIET_read_book_gritty_desc;Some people think darkness, nihilism, and filling a s
 VIET_read_book_fantasy;Recently Read a Fantastical Adventure Novel;A récemment lu un roman d'aventure fantastique;;;;;;;;;;;;x
 VIET_read_book_fantasy_desc;"It's a dangerous business, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.";"C'est une entreprise dangereuse que de sortir par votre porte. Vous montez sur la route et si vous ne gardez pas les pieds, vous ne saurez pas où vous pourriez être entraîné.";;;;;;;;;;;;x
 VIET_read_book_slice_of_life;Recently Read an Amusing Collection of Slice of Life Stories;A récemment lu une collection amusante d'histoires de la tranche de vie;;;;;;;;;;;;x
-VIET_read_book_slice_of_life_desc;"Humans have a desire for truth or they have a desire to what they know is the truth. In other words, what the truth is exactly second to that. Be careful of what is the truth and what is lie. In other words, always doubt yourself. Harbor an inner devil as you read along... and I won't forget to add that by that point, you might have already fallen into my trap.";"Les humains ont un désir de vérité ou désirent ce qu'ils savent être la vérité. En d'autres termes, la vérité est exactement la seconde à cela. Faites attention à la vérité et au mensonge. En d'autres termes, doutez toujours de vous-même. Portez un démon intérieur en lisant… et je n'oublierai pas d'ajouter qu'à ce moment-là, vous êtes peut-être déjà tombé dans mon piège. ";;;;;;;;;;;;x
+VIET_read_book_slice_of_life_desc;"Humans have a desire for truth or they have a desire to what they know is the truth. In other words, what the truth is exactly second to that. Be careful of what is the truth and what is lie. In other words, always doubt yourself. Harbor an inner devil as you read along... and I won't forget to add that by that point, you might have already fallen into my trap.";"Les humains ont un désir de vérité ou désirent ce qu'ils savent être la vérité. En d'autres termes, la vérité est exactement la seconde à cela. Faites attention à la vérité et au mensonge. En d'autres termes, doutez toujours de vous-même. Portez un démon intérieur en lisant... et je n'oublierai pas d'ajouter qu'à ce moment-là, vous êtes peut-être déjà tombé dans mon piège. ";;;;;;;;;;;;x
 VIET_minty_fresh_breath;Minty Fresh Breath;Souffle frais menthe;;;;;;;;;;;;x
 VIET_herbal_mouth_cleaning_other;Using Mouth-cleaning Herbs;Utiliser des herbes de nettoyage de bouche;;;;;;;;;;;;x
 VIET_province_friendly_beach_ghost;Friendly Ghost of the Cliffs;Fantôme amical des falaises;;;;;;;;;;;;x
@@ -384,4 +384,31 @@ VIET_mysterious_vision_past;Mysterious Vision of the Past;Vision mystérieuse du 
 VIET_mysterious_vision_past_desc;Was that vision truly from some past life?;Cette vision venait-elle vraiment d'une vie passée ?;;;;;;;;;;;;x
 VIET_read_book_cute_love_story;Read Simple Love Story;A lu une Histoire d'Amour Simple;;;;;;;;;;;;x
 VIET_read_book_cute_love_story_desc;Sometimes, it is the simple, endearing stories that affect us the most.;Parfois, ce sont les histoires simples et attachantes qui nous touchent le plus.;;;;;;;;;;;;x
+VIET_second_hand_embarassment;Experienced Second Hand Embarassment;xxxxx;;;;;;;;;;;;x
+VIET_province_popular_oblivion_wayshrine;Old Wayshrine;xxxxx;;;;;;;;;;;;x
+VIET_province_popular_oblivion_wayshrine_desc;An old wayshrine in this region has recently become quite famous, attracting pilgrims and travelers from afar. It is a boost to the local economy.;xxxxx;;;;;;;;;;;;x
+VIET_bought_discount_merchandise;Bought Cheap, Discounted Merchandise;xxxxx;;;;;;;;;;;;x
+VIET_bought_discount_merchandise_desc;"You don't want the very best. You want cheap. I got cheap.";xxxxx;;;;;;;;;;;;x
+VIET_shadowbanish_wine;Drank Bottle of "Shadow Banish" Wine;xxxxx;;;;;;;;;;;;x
+VIET_shadowbanish_wine_desc;This character drank a bottle of a special wine which supposedly has the ability to improve one's eyesight at night, and see that which could not otherwise be seen in the darkness.;xxxxx;;;;;;;;;;;;x
+VIET_minor_curse;Rumors of a Curse;xxxxx;;;;;;;;;;;;x
+VIET_minor_curse_desc;This character is rumored to have been on the receiving end of a minor curse. Is it true, or is it just everyone's imagination? No one knows for sure.;xxxxx;;;;;;;;;;;;x
+VIET_mazoga_the_orc;Knight of Dubious Origin;xxxxx;;;;;;;;;;;;x
+VIET_mazoga_the_orc_desc;This woman of dubious origins is a self-proclaimed knight. Whether her claims are true or not, her skill in battle is not to be scoffed at, nor is her deep sense of justice.;xxxxx;;;;;;;;;;;;x
+VIET_ontus_vanin_character;Lazy Old Scholar;xxxxx;;;;;;;;;;;;x
+VIET_ontus_vanin_character_desc;This retired, old scholar enjoys sleeping in late and reading trashy books. He also has a lot of knowledge about local shrines and geography.;xxxxx;;;;;;;;;;;;x
+VIET_runs_in_circles;Runs In Circles;xxxxx;;;;;;;;;;;;x
+VIET_runs_in_circles_desc;Most of the time this lady acts odd but relatively normal. However, she is a madwoman. The moment she gets provoked, she'll start screaming “Ni ni ni ni ni!” and running around in circles, hence her nickname, “Runs in Circles.”;xxxxx;;;;;;;;;;;;x
+VIET_province_elder_scrolls_mudcrab;Giant Mudcrab;xxxxx;;;;;;;;;;;;x
+VIET_province_elder_scrolls_mudcrab_desc;In this province, there have been purported sightings of an otherworldly, giant mudcrab wandering the coast and rivers.;xxxxx;;;;;;;;;;;;x
+VIET_anvil_dream_gold_coast;Dreamt of a Golden Coastline;xxxxx;;;;;;;;;;;;x
+VIET_anvil_dream_gold_coast_desc;Far from the bustling of the port city was an untouched, pristine coast. The beaches were warm and sandy, with clear waters, and the nearby terrain was filled with thriving, golden grasses and small shrubs and plants scattered among the rocks.;xxxxx;;;;;;;;;;;;x
+VIET_anvil_dream_ladys_stone;Dreamt of the Lady's Stone;xxxxx;;;;;;;;;;;;x
+VIET_anvil_dream_ladys_stone_desc;It was an ancient standing stone - the locals said it was supposedly built in a mythic era, when the barriers between the divine and human worlds had not yet existed. Whatever it is, in its presence one can surely feel the weight of timeless existence.;xxxxx;;;;;;;;;;;;x
+VIET_anvil_dream_anvil_docks;Dreamt of the Bustling Docks of a Port City;xxxxx;;;;;;;;;;;;x
+VIET_anvil_dream_anvil_docks_desc;Many of the town's folk were directly or indirectly associated with ships and sailing... sailors, ship-owners, men made rich and poor by the sea trade, and the lonely wives of men who follow the sea.;xxxxx;;;;;;;;;;;;x
+VIET_anvil_dream_anvil_streets;Dreamt of the Beautiful Streets of a Port City;xxxxx;;;;;;;;;;;;x
+VIET_anvil_dream_anvil_streets_desc;It was initially just supposed to be a mundane walk through the cobbled streets. But when the sun began to set, and its fading rays illuminated the rose-fired sky behind the marbled buildings and olive trees.... This was beauty, true and simple, indeed!;xxxxx;;;;;;;;;;;;x
+VIET_Oblivion_dream_complete_alt;Dream of Adventure;Rêve d'aventure;;;;;;;;;;;;x
+VIET_Oblivion_dream_complete_desc_alt;This character once had a most epic dream. In it, they helped a long-lost Prince and his allies defend their home and Empire from a demonic army invading from the gates of hell itself... or at least they were supposed to, but instead got distracted running around doing random quests and errands for the locals. So vivid was this dream that to this day this character still recalls it.;;;;;;;;;;;;;x
 xxxxxxxxxx;xxxxx;xxxxx;;;;;;;;;;;;x
