@@ -1,4 +1,4 @@
-[h1]Version actuelle : 2.0.10 "Histoire Secrète" (Sortie le 11/12/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[h1]Version actuelle : 2.0.11 "Étoile du matin" (Sortie le 31/12/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
 [b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
 Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]Github[/url].[/b]
 
@@ -35,16 +35,15 @@ Veuillez consulter le fil de discussion du forum pour la liste complète des cr�
 
 [h1]Changelog le plus récent[/h1]
 
-Version 2.0.10 "Histoire Secrète"
+Version 2.0.11 "Étoile du matin"
 
-Fait amusant : C'est le 7e anniversaire de la sortie de la première version de VIET - pour tous les VIETerans, le temps passe si vite !
-
-[I]L'Histoire Secrète des Mongols est l'œuvre la plus ancienne de la littérature mongole. Il s'agit d'un récit semi-mythologique et historique de la vie de Gengis Khan, écrit au XIIIe siècle par un auteur anonyme. Il couvre ses luttes de jeunesse pour survivre à ses ennemis et unifier les tribus mongoles, puis ses conquêtes à travers l'Eurasie. Il aborde également d'autres sujets tels que la culture, la religion et la politique mongole de l'époque.[/I]
+[I]Le terme "étoile du matin" désigne communément la planète Vénus lorsqu'elle apparaît à l'est avant le lever du soleil.[/I]
 
 [LIST]
-[*]Ajout de 7 événements de lecture d'histoires
-[*]Ajout de de 10 événements consacré à la pluie
-[*]Ajout d'événements de l'ancien VIET: 8 sur les Guerres Saintes, 4 sur Zoroastrian, 5 sur les Juifs, 8 sur les Bouddhistes, 20 sur le hoummus
-[*]Correction de problèmes potentiels de localisation et d'autres bugs mineurs lors de l'exécution du mod avec Ancient Religions Reborn
-[*]Divers corrections de bug
+[*]Ajout de 20 événements inspirés par l'Oblivion
+[*]Ajout d'un nouvel événement de clôture potentiel pour l'événement Rêve d'Oblivion
+[*]Ajout d'un nouvel artefact : Recette de vin Shadow Banish
+[*]Ré-ajout de la chaîne d'événements Cinnamon Toast Crunch de l'ancien VIET
+[*]Chances réduites de voir les événements se déclencher (à nouveau)
+[*]Autres corrections de bugs divers
 [/LIST]
