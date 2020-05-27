@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.11 "Morning Star" (Released 12/31/19, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.12 "Death" (Released 5/30/20, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,16 +38,22 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.11 "Morning Star"
+Version 2.0.12 "Death"
 
-[I]The term 'morning star' commonly refers to the planet Venus when it appears in the east before sunrise.[/I]
+[I]Strange—is it not?—that of the myriads who
+Before us passed the door of Darkness through,
+Not one returns to tell us of the road
+Which to discover we must travel too.
+- Omar Khayyam[/I]
 
 [LIST]
-[*]Added 20 Oblivion inspired events
-[*]Added potential new ending event for the Oblivion Dream event
-[*]Added new artifact: Shadow Banish Wine Recipe
-[*]Re-Added the Cinnamon Toast Crunch event chain from old VIET
-[*]Tweaked chances of events firing (again)
-[*]Other misc. bug fixes
+[*]Added 52 Death themed events
+[*]Added 2 event chains: Lost Love and Dream of the Final Journey
+[*]Re-added events from old VIET: 5 time themed events
+[*]Fixed missing French localization I forgot to add in half a year ago
+[*]Fixed a few province events’ localization saying prosperity will be decreased when it is actually the opposite
+[*]Fixed Cinnamon Toast Crunch event chain triggering if Serious game rule is turned on
+[*]Fixed Nine Divines road travel dialogue event not triggering properly
+[*]Miscellaneous minor typos and bugfixes
 [/LIST]
 
