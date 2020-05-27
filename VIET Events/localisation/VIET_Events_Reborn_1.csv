@@ -1334,110 +1334,154 @@ VIETmisc.8352.a;Explore the golden coastline nearby and see what secrets it hold
 VIETmisc.8352.b;Make my way to a nearby shrine, nicknamed the Lady's Stone by locals ;Aller dans un sanctuaire voisin, surnommé la Pierre de la Dame par les habitants;;;;;;;;;;;;x
 VIETmisc.8352.c;Visit the docks, and find the houses of pleasure near it;Visiter les quais et trouver les maisons de plaisance à proximité;;;;;;;;;;;;x
 VIETmisc.8352.d;Walk through the streets and take in the sights;Se promener dans les rues et admirer les sites;;;;;;;;;;;;x
-VIETmisc.8353.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8353.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8354.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8354.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8355.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8355.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8356.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8356.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8357.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8357.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8358.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8358.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8359.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8359.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8360.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8360.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8361.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8361.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8362.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8362.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8363.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8363.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8364.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8364.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8365.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8365.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8366.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8366.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8367.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8367.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8368.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8368.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8369.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8369.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8370.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8370.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8371.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8371.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8372.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8372.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8373.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8373.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8374.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8374.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8375.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8375.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8376.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8376.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8377.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8377.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8378.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8378.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8379.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8379.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8380.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8380.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8381.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8381.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8382.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8382.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8383.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8383.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8384.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8384.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8385.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8385.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8386.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8386.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8387.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8387.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8388.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8388.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8389.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8389.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8390.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8390.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8391.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8391.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8392.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8392.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8393.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8393.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8394.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8394.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8395.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8395.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8396.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8396.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8397.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8397.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8398.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8398.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8399.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8399.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8400.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8400.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8401.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8401.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8402.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8402.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8403.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8403.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8404.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8404.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8353.desc;Some have told me that the process of dying is like stepping into a strange but gentle dream. Is there any truth to this?;;;;;;;;;;;x
+VIETmisc.8353.a;Perhaps. But thinking about this is unhelpful while we're alive.;;;;;;;;;;;;;x
+VIETmisc.8353.b;Life is but a dream as well, is it not?;;;;;;;;;;;;;x
+VIETmisc.8353.c;I won't know for sure until I begin my final journey myself.;;;;;;;;;;;;;x
+VIETmisc.8353.d;The scholars of the [Root.Religion.GetName] faith say that when one dies...;;;;;;;;;;;;;x
+VIETmisc.8354.desc;Ever since I was a child, there was one servant in our family I was always close to and was like a second parent to me. She passed away of old age a couple days ago, and I have been greatly affected by this, feeling drained and mentally exhausted at times, trying to process this event. Strangely, last night, she visited me in a dream.;;;;;;;;;;;x
+VIETmisc.8354.a;I try to recall what happened.;;;;;;;;;;;;;x
+VIETmisc.8355.desc;We met somewhere in my dream - I cannot tell where, but all I recall was some sort of brilliant light, and the feeling of a gentle breeze caressing my face. My servant told me she had always loved me like her own child, but now she had to go. She embraced me, wished me the best in life, and said goodbye for one last time before her final journey. I felt much better after that dream.;;;;;;;;;;;x
+VIETmisc.8355.a;Farewell... but will it be forever?;;;;;;;;;;;;;x
+VIETmisc.8356.desc;One of my trusted servants is on his deathbed. His death will come as a blow to many of us, as we respected the old man for his patience, humility, and wisdom, which he tried his best to impart to us. I and others are by his bedside as his final hour draws near, and I ask him if he is afraid of the end.;;;;;;;;;;;x
+VIETmisc.8356.a;He smiles gently.;;;;;;;;;;;;;x
+VIETmisc.8357.desc;"End? No, the journey doesn't end here," he says. "Death is just another path, one that we all must take. The grey rain-curtain of this world rolls back, and all turns to silver glass. And then you see it.... White shores... and beyond, a far green country under a swift sunrise." He looks at me serenely, before closing his eyes. Several hours later, he passes away. ;;;;;;;;;;;x
+VIETmisc.8357.a;I stay by his bedside for some time, contemplating his words.;;;;;;;;;;;;;x
+VIETmisc.8358.desc;I walk through a vast expanse of green grass, covered above by a sky of pure, pale blue. I come to a river where I see many people. I recognize them all as people in my life who passed away, some many years ago, from relatives and friends to old servants.\n\nOne goes up to me and says in a calm but concerned tone, "Why are you here? You will join us on this journey one day, but it is not your time yet. But you can enjoy the sunshine and fresh air with us for a little longer.";;;;;;;;;;;x
+VIETmisc.8358.a;I wake up peacefully, after spending time relaxing in that strange dream world.;;;;;;;;;;;;;x
+VIETmisc.8359.desc;While walking near my residence, I spotted something on the ground by a patch of grass. To my surprise, I found a rat lying on its side. I was not fearful of it, as I realized it was dying. Its eyes gazed at me with a look full of solemn clarity, in a way one did not expect from such a creature - almost as if it was telling me something. Then, it stopped moving, and passed away.;;;;;;;;;;;x
+VIETmisc.8359.a;There was something profound about it. Life is full of wonders.;;;;;;;;;;;;;x
+VIETmisc.8359.b;That was weird. But a rat's a rat. Well now! Back to my walk.;;;;;;;;;;;;;x
+VIETmisc.8359.c;An extraordinary rat! I'll cover its body with leaves as a sign of respect.;;;;;;;;;;;;;x
+VIETmisc.8360.desc;That night, I dreamt I was standing in front of an old woman I never met before. Despite her age, she carried herself with grace, and she curtsied me. "Thank you for your kind gesture earlier today," she said. "Most would have ignored me. Whatever your intentions, your noble deed brings me peace in the afterlife, and I can move on." When I woke up, I was confused.;;;;;;;;;;;x
+VIETmisc.8360.a;There was no way... could it have been?;;;;;;;;;;;;;x
+VIETmisc.8361.desc;An acquaintance of mine was on his deathbed, unconscious and unresponsive for days. His family had gathered around him to pray and prepare his soul for the afterlife, when all of a sudden, he sat up, alert and sharp. His family was relieved and tried to talk to him, thinking he had recovered somehow, yet he just kept asking for me to come visit.;;;;;;;;;;;x
+VIETmisc.8361.a;I hastened to come to his bedside to witness this little miracle.;;;;;;;;;;;;;x
+VIETmisc.8362.tooltip;\n\nI wonder why he wanted to see me?;;;;;;;;;;;x
+VIETmisc.8362.desc;When I arrived at his house and entered his bedroom, he clapped with joy, and beckoned me to sit next to him. He inquired about various matters of state and provided me advice, claiming it was given to him by the wise spirits of the deceased. We humored him for an hour or so until he said he was tired, and bid all farewell. The moment he closed his eyes, he passed away.;;;;;;;;;;;x
+VIETmisc.8362.a;Strangely, his advice turned out to be actually very helpful. ;;;;;;;;;;;;;x
+VIETmisc.8363.desc;I am pouring over a document at my desk at night when I see an adorable little girl scurrying back and forth in my room. Upon seeing each other, we both stare in confusion, so I ask her who she is and why she's here. "I'm cold and hungry," she mumbles shyly. Feeling sorry for her, I point to some food I had left on my table, and tell her to eat some.;;;;;;;;;;;x
+VIETmisc.8363.a;"Thank you, my [Root.GetLordLady]," she squeaks, before she eats.;;;;;;;;;;;;;x
+VIETmisc.8364.desc;I suddenly wake up, realizing I must have dozed off while reading, and that the little girl must have been from a dream I had. I go to finish the rest of my food, but contrary to what I remember, none of my meal is left, save for a few crumbs.\n\nThe next morning, when I ask about her, I learned her appearance matched one of my guard's daughters, who passed away from illness a few days ago. The guard, a devout [Root.Religion.GetName] believer, tells me he is certain I helped her soul pass into the afterlife, and thanks me.;;;;;;;;;;;x
+VIETmisc.8364.a;She was a polite, kind child. She is surely at peace now.;;;;;;;;;;;;;x
+VIETmisc.8364.b;It must be a coincidence, but if it makes you feel better.;;;;;;;;;;;;;x
+VIETmisc.8365.desc;A trusted guard recently got injured, and while it thankfully isn't too painful, it's clear that it doesn't bode well for his health as he is now bedridden for much of the day. He is old and about to retire, anyways. One morning, you pay a visit when he tells you his grandparents stopped by just before you did. You point out that they died decades ago, but he assures you they did visit.;;;;;;;;;;;x
+VIETmisc.8365.a;Are you really sure? Maybe you are imagining things.;;;;;;;;;;;;;x
+VIETmisc.8365.b;Really! A truly marvelous thing. I hope they mean well.;;;;;;;;;;;;;x
+VIETmisc.8365.c;Perhaps they did come. The universe is full of mysteries.;;;;;;;;;;;;;x
+VIETmisc.8366.desc;You receive word that your trusted guard who recently got injured and was on his deathbed just passed away. Strangely, the day before that, his relatives said he told them that his grandparents came to help him pack for a journey. Could that have been a sign of things to come? Strange things have always preceded death, after all, as the stories tell.;;;;;;;;;;;x
+VIETmisc.8366.a;He will be missed.;;;;;;;;;;;;;x
+VIETmisc.8367.desc;On an official trip, you are passing by one of the villages of your realm. As you leave the borders of the village, you see something odd by a bush and, together with your entourage, go to investigate. To your shock, it is the corpse of a haggard-looking old man in rags. You demand an explanation from the villagers, who say he was the local town beggar who just passed away.;;;;;;;;;;;x
+VIETmisc.8367.a;I see. Very well, it is none of my concern - carry on.;;;;;;;;;;;;;x
+VIETmisc.8367.b;Please dispose of the corpse, will you? It's unclean.;;;;;;;;;;;;;x
+VIETmisc.8367.c;Beggar or not, everyone deserves to be treated with dignity!;;;;;;;;;;;;;x
+VIET_beggars_deserve_dignified_burials_too;\n\nYou make the villagers give the man a proper funeral. Yet instead of being angry, the villagers are moved by your compassion.;;;;;;;;;;;x
+VIETmisc.8368.desc;There are those who argue a quick death is better, for it will be less painful and you won't have as much to worry and ruminate over. Others believe a slow and gradual death is preferable, for it gives one time to let go of regrets, pray, and make peace with one's family, friends, and [Root.Religion.GetHighGodName].;;;;;;;;;;;x
+VIETmisc.8368.a;I prefer a quick death - things are simpler that way.;;;;;;;;;;;;;x
+VIETmisc.8368.b;It's better if one has time to prepare before passing on.;;;;;;;;;;;;;x
+VIETmisc.8369.desc;Several hooligans were recently caught trying to raid a cemetery not too far from where I live, and they were apprehended by the local watchmen. This, of course, is absolutely forbidden out of respect for the spirits of the dead, and it is now up to me to determine the fate of these men.;;;;;;;;;;;x
+VIETmisc.8369.a;Release the desperate, poor men. They've learned their lesson.;;;;;;;;;;;;;x
+VIETmisc.8369.b;To think they wanted to desecrate the dead! Toss them in prison.;;;;;;;;;;;;;x
+VIETmisc.8370.desc;Stories abound of ghosts frequently passing through a village in [Root.GetName]. The locals are of two minds, unsure on how to react to this. Some are terrified, and believe it is best to send in holy men and women to exorcise these restless spirits. Others view this through a more rational lens, seeing it as a blessing and an opportunity to honor and say prayers to the dead. Yet others say these are all just some hallucinations by deranged individuals.;;;;;;;;;;;x
+VIETmisc.8370.a;Strange stories, indeed! Who knows what the truth is?;;;;;;;;;;;;;x
+VIETmisc.8371.desc;In one of the larger villages of [Root.GetName], a respected elder recently passed away. He was beloved by all for his virtue and wisdom. Few had anything bad to say about him. His funeral attracted many who wished to pay their respects to him, and some even claim that his spirit will provide the land with many blessings before he passes into the afterlife.;;;;;;;;;;;x
+VIETmisc.8371.a;May his soul rest in peace.;;;;;;;;;;;;;x
+VIETmisc.8372.desc;Last night, I was in bed when I heard a noise. Alarmed, I sat up, and saw a young man pacing to and fro, as if busy with some matter. He apologized to me for the disturbance, and sheepishly said, "I apologize, my [Root.GetLordLady]. I need to take care of business in the underworld and accidentally stumbled here." We exchanged small talk before he left. The next morning, when I asked the people of my household about it, no one reported ever seeing such a man. It is most bizarre! ;;;;;;;;;;;x
+VIETmisc.8372.a;Maybe it was just a dream, yet it did not feel like a dream....;;;;;;;;;;;;;x
+VIETmisc.8373.desc;I am walking down the road when a pretty young woman in white robes approaches me. On her shoulder is a pet owl, though for some reason I suddenly recall that the sacred animal of the [Root.Religion.GetName] deity of death, Giltine, was an owl. The girl smiles, revealing an oddly long tongue, and she asks if she can kiss me. As her owl flutters away, I feel something is off.;;;;;;;;;;;x
+VIETmisc.8373.a;I hastily make an excuse and leave the stranger alone.;;;;;;;;;;;;;x
+VIETmisc.8373.b;Oh, I'm just nervous! Come to me, my beauty!;;;;;;;;;;;;;x
+VIETmisc.8374.desc;The girl moves forward, but her tongue suddenly extends forth, becoming unnaturally long. Her pretty visage turns into that of an old, withered hag. I am trapped, unable to move. She licks my face, and I feel darkness overtake me.... And then I wake up. It was just a nightmare, but how was I that stupid to be seduced by the Goddess of Death! An ill omen, but at least it was just a dream.;;;;;;;;;;;x
+VIETmisc.8374.a;Right...?;;;;;;;;;;;;;x
+VIETmisc.8375.desc;Shortly before a respected member of the local [Root.Culture.GetName] community died recently, several relatives claimed to witness the shrieking and wailing of banshees, both of gruesome or comely visage. Today, though, I wondered to myself: while people understandably fear these female spirits, isn't it nice to have a warning when something bad might happen?;;;;;;;;;;;x
+VIETmisc.8375.a;At least that's what I think.;;;;;;;;;;;;;x
+VIETmisc.8375.b;It's stupid superstition either way.;;;;;;;;;;;;;x
+VIETmisc.8376.desc.a;[target_VIET_myling_courtier.GetTitledName] claimed that last night, [target_VIET_myling_courtier.GetSheHe] came across a Myling - the ghost of a dead child who had been wrongly killed by its parents. [target_VIET_myling_courtier.GetFirstName] knew it was a dangerous but inescapable situation, and rushed to guide the child to a nearby cemetery, a hallowed ground. Yet, contrary to the scary [Root.Religion.GetName] tales, the child was friendly and thanked [target_VIET_myling_courtier.GetFirstName] for [target_VIET_myling_courtier.GetHerHis] compassion.;;;;;;;;;;;x
+VIETmisc.8376.desc.b;[target_VIET_myling_courtier.GetTitledName] claimed that last night, [target_VIET_myling_courtier.GetSheHe] came across a Myling - the ghost of a dead child who had been wrongly killed by its parents. [target_VIET_myling_courtier.GetFirstName] knew it was a dangerous but inescapable situation, and rushed to guide the child to a nearby cemetery, a hallowed ground. Yet, contrary to the scary [Root.Culture.GetName] tales, the child was friendly and thanked [target_VIET_myling_courtier.GetFirstName] for [target_VIET_myling_courtier.GetHerHis] compassion.;;;;;;;;;;;x
+VIETmisc.8376.a;Ha! An interesting tale. You always loved making up stories.;;;;;;;;;;;;;x
+VIETmisc.8376.b;It's either a dream or a lie. Mylings are vengeful beings, not harmless!;;;;;;;;;;;;;x
+VIETmisc.8376.c;Oh dear! At least the ghost seemed like a kind one.;;;;;;;;;;;;;x
+VIETmisc.8377.desc;On the road, my entourage and I come across a [Root.Religion.GetName] holy man, dressed in robes. He is kneeling on the ground, looking at nowhere in particular, as he chants some prayers.\n\nAfter he finishes, I ask him what he was doing, and he explains that recently, a woman died here in an accident. She was a poor woman with no family, so this holy man, out of compassion, gave her a modest but dignified funeral. He hopes her spirit will find peace with [Root.Religion.GetHighGodName].;;;;;;;;;;;x
+VIETmisc.8377.a;For a mere peasant? What a waste of time.;;;;;;;;;;;;;x
+VIETmisc.8377.b;I understand. Carry on, then. We shan't bother you.;;;;;;;;;;;;;x
+VIETmisc.8377.c;How noble! May we join you in praying for her spirit?;;;;;;;;;;;;;x
+VIETmisc.8378.desc;A most amusing yet strange tale! I know of this noblewoman in my realm who is quite annoying. She's not a bad person, but she's unbelievably chatty and intensely emotional, and if crossed can be quite a nag. Though middle aged, she died a few weeks ago... only to come back to life a few hours later. She said that apparently Death came to get her, but was so fed up with her company that he hurried to take her back home so he could come get her later. She's still healthy today.;;;;;;;;;;;x
+VIETmisc.8378.a;Ha ha! I do feel sorry for old Death.;;;;;;;;;;;;;x
+VIETmisc.8378.b;She was seeing things at the time, but that's funny.;;;;;;;;;;;;;x
+VIETmisc.8379.desc;I rest in bed one evening when I hear a knock on the door. Thinking it is one of my servants, I beckon them in, only to see a pleasant young woman I do not recognize. Suddenly, there is a chill in the air, and the candles flicker out. The stranger looks at me with her dark eyes, and I hold my breath in anticipation. "I am Death," she says in a low, yet soothing whisper. "It's time for...";;;;;;;;;;;x
+VIETmisc.8379.a;Wait... what's going on?;;;;;;;;;;;;;x
+VIETmisc.8380.tooltip;\n\nIs it... is it time for me to go?;;;;;;;;;;;x
+VIETmisc.8380.title;Common Mistake;;;;;;;;;;;x
+VIETmisc.8380.desc;Surprisingly, I am calm as I wait for her to finish - if it is my time to go, there isn't much I can do. But she stops herself and looks around, as if she just realized where she is. Suddenly, the candles are alight once more, and she bows to me.\n\nI look at her in bewilderment as she says, "I'm so sorry! You're the wrong person... I knew I got lost somehow. Dammit... why does this happen to me? I'm so unprofessional. Oh! My sincere apologies, I know this is such an inconvenience to you. And... um, by the way, I know I'm not in any position to ask, but do you by any chance know the way to...";;;;;;;;;;;x
+VIETmisc.8380.a;Um.... Is it the village by the river of.... And it's north of.... I know it!;;;;;;;;;;;;;x
+VIETmisc.8381.tooltip;\n\nTo be fair to her, it is confusing if you've never been there before, so I kindly provide her some directions. I reassure her, when she looks embarrassed, "It's a common mistake everyone makes. The roads in that part can be disorienting!";;;;;;;;;;;x
+VIETmisc.8381.title;Good Directions;;;;;;;;;;;x
+VIETmisc.8381.desc;"Thank you so much!" the maiden says cheerfully, with a beaming smile before she leaves. "I'll be back later, but not today. I wish you nothing but luck and fortune, [Root.GetFirstName]!"\n\nThe next morning, no one knows what I'm talking about when I ask if they saw a girl with the same description as that maiden. I chalk up the whole incident as a dream my sleep-deprived mind concocted, until I later receive news in the afternoon that an acquaintance of mine died last night.\n\nHe happened to live in that village the maiden needed to travel to.;;;;;;;;;;;x
+VIETmisc.8381.a;That absentminded girl who visited me was... Death?;;;;;;;;;;;;;x
+VIETmisc.8381.b;I'm pretty sure it's a coincidence and was just a dream.;;;;;;;;;;;;;x
+VIETmisc.8382.desc;A wandering holy man is stopping by our court today, and telling us stories of the various phenomena he has encountered, as he is sometimes called on by people to resolve supernatural problems. For instance, recently, as he passed by a village in my domain, he had to exorcise a mischievous ghost who made loud noises and threw around objects in a peasant's house.;;;;;;;;;;;x
+VIETmisc.8382.a;Fascinating! Some spirits are just as troublesome as the living.;;;;;;;;;;;;;x
+VIETmisc.8382.b;I am not sure whether I find such a story believable.;;;;;;;;;;;;;x
+VIETmisc.8383.desc;Commoners have always told tales about corpses rising from the dead if their funerals were not performed properly, or if they died in unjust ways. Lately I hear more and more rumors about such occurrences in the region, but the scholars and clergy assure me such things are mere superstitions. No true believer of the [Root.Religion.GetName] faith would ever believe in such drivel!;;;;;;;;;;;x
+VIETmisc.8383.a;I agree very much with the views of the learned men.;;;;;;;;;;;;;x
+VIETmisc.8383.b;You can never be so sure, right? Maybe the peasants are right.;;;;;;;;;;;;;x
+VIETmisc.8384.desc;I was thinking today - all the people who have come and go since the beginning of time.... It is interesting, if somber, to imagine what they would think of us, their descendants, and whether they would be proud or disappointed in us.;;;;;;;;;;;x
+VIETmisc.8384.a;It is a good question.;;;;;;;;;;;;;x
+VIETmisc.8385.desc;When I die one day - as all do, inevitably - will people still remember me?;;;;;;;;;;;x
+VIETmisc.8385.a;Of course! I'm such a great [Root.GetTitle].;;;;;;;;;;;;;x
+VIETmisc.8385.b;Why wouldn't they? They'll still remember.;;;;;;;;;;;;;x
+VIETmisc.8385.c;They won't, and I hate that that is what will happen.;;;;;;;;;;;;;x
+VIETmisc.8385.d;No, but that's not a bad thing. Life will go on!;;;;;;;;;;;;;x
+VIETmisc.8386.desc;I'm paying a visit to an acquaintance of mine, who nearly died in an accident when she was a young woman, and was in fact unconscious for a week after it before she slowly recovered. She said that during that week, she actually had a glimpse of the afterlife, and she said it looked like a simple yet beautiful garden filled with light. The experience moved her greatly.;;;;;;;;;;;x
+VIETmisc.8386.a;Perhaps that is what the afterlife will be. We'll see for sure, one day.;;;;;;;;;;;;;x
+VIETmisc.8387.desc;I'm paying a visit to an acquaintance of mine, who nearly died in an accident when he was a young man, and was in fact unconscious for a week after it before he slowly recovered. He said that during that week, he actually had a glimpse of the afterlife, and he said it looked like a quiet, peaceful beach full of bright sunshine. The experience moved him greatly.;;;;;;;;;;;x
+VIETmisc.8387.a;Perhaps that is what the afterlife will be. We'll see for sure, one day.;;;;;;;;;;;;;x
+VIETmisc.8388.desc;Though my parents have passed away for quite some time, I suddenly recalled a warm, happy memory of them today. Regardless of my feelings about them while they were alive, even after death, my memories of them can bring me joy.;;;;;;;;;;;x
+VIETmisc.8388.a;I am glad.;;;;;;;;;;;;;x
+VIETmisc.8389.desc;In several villages of [Root.GetName], there are reports of strange processions of people at night, wearing somber clothing, and accompanied by bustling winds and a chill in the air. Locals believe that for whatever reason, these are spirits of the dead going to and fro. Others, such as more rational scholars and clergy, think this might simply just be a few scattered accounts of hallucinations.;;;;;;;;;;;x
+VIETmisc.8389.a;Strange times we live in.;;;;;;;;;;;;;x
+VIETmisc.8390.desc;Several heinous murders were recently committed in [Root.GetName], the victims' corpses horrifically mutilated. Authorities were unable to find the perpetrator until local guards devised a cunning ambush and caught him, who turned out to be a young nobleman whom everyone thought was friendly and kind! He cackled with glee as he lunged at the guards and they were forced to kill him, for he preferred to die rather than be caught alive and be brought to trial for his crimes.;;;;;;;;;;;x
+VIETmisc.8390.a;A tragic story. Alas! Such madmen exist.;;;;;;;;;;;;;x
+VIETmisc.8390.b;Reward the guards for their deeds.;;;;;;;;;;;;;x
+VIETmisc.8391.desc;Phantoms were observed in large numbers in a specific region of [Root.GetName], though the witnesses claimed these ghosts were harmless, and were preoccupied with engaging in mundane activities like chatting, enjoying feasts, singing, dancing, and playing various games - almost like as if there was a separate town of ghosts at night. No reputable scholar or clergy has been able to verify these claims.;;;;;;;;;;;x
+VIETmisc.8391.a;We must give these spirits their due respect!;;;;;;;;;;;;;x
+VIETmisc.8391.b;These silly peasants are hallucinating things.;;;;;;;;;;;;;x
+VIETmisc.8392.desc;The death of several important officials in [Root.GetName] around the same time has thrown the region into a bit of chaos, given the difficulties in securing reliable replacements for several positions at the same time. This will likely cause some disruptions to the local administration, but hopefully it will be brief.;;;;;;;;;;;x
+VIETmisc.8392.a;Unfortunate, but let's do our best.;;;;;;;;;;;;;x
+VIETmisc.8392.b;Thankfully, I already prepared some contingency plans.;;;;;;;;;;;;;x
+VIETmisc.8393.desc;A powerful local official in [Root.GetName] recently died. Given his prominence, many mourned at first, until evidence of severe corruption was discovered among his belongings and properties, from bribery to involvement in smuggling to abuses of local peasants. He cunningly covered it all up under his benevolent facade. After all this came out and we learned of the mind-boggling magnitude of his corruption, it's certain province will do much better without him!;;;;;;;;;;;x
+VIETmisc.8393.a;A pity we didn't catch him while he was still alive.;;;;;;;;;;;;;x
+VIETmisc.8394.desc;A hermit has lived in the wilderness of [Root.GetName] for decades, engaging in meditation, prayer, and other spiritual practices. He was kind and always offered spiritual teachings for any who requested it, though he refused all offerings of food, drink, or other luxuries. Now, news arrives that he has passed away while meditating - and yet, his corpse still sits upright, and does not decay at all. Locals have begun to make pilgrimage to receive blessings from the hermit's presence.;;;;;;;;;;;x
+VIETmisc.8394.a;A most interesting development.;;;;;;;;;;;;;x
+VIETmisc.8395.desc;A runestone has recently been discovered in [Root.GetName]. It appears to be centuries old at the least, and though the writing is difficult to read, you were able to find a local scholar who could translate it, and who says the runestone seems to have been carved and raised many generations ago following the death of some important local figure in their honor. Little else can be discerned, given the writing is so worn out and in an ancient style.;;;;;;;;;;;x
+VIETmisc.8395.a;A piece of history, no less!;;;;;;;;;;;;;x
+VIETmisc.8396.desc;An old woman passed away in [Root.GetName] recently. Though a humble villager, this beloved "grandmother of all" lived a very long time - more than a century, some claim - and was of humble and virtuous temperament, doing her best to guide the community and provide her wisdom to all. She received visitors from even local nobles from other villages nearby. There have already been claims that her spirit will bless these lands for many years to come.;;;;;;;;;;;x
+VIETmisc.8396.a;This grandmother will be sorely missed.;;;;;;;;;;;;;x
+VIETmisc.8397.desc;There are many places who ascribe all manner of ill omens to black cats, that seeing one is a portent of death. Today, I just happened to come across a stray black cat.;;;;;;;;;;;x
+VIETmisc.8397.a;I will go away as quickly as I can.;;;;;;;;;;;;;x
+VIETmisc.8397.b;I fear no cat. It even looks sweet.;;;;;;;;;;;;;x
+VIET_silly_rationality_about_black_cat;\n\nThough you feel a strange feeling, as if... something isn't right.;;;;;;;;;;;x
+VIETmisc.8398.desc;The [Root.Culture.GetName] people have always seen black cats as a sign of good luck and fortune, so long as they are treated with respect. Yet I hear tales of people from other lands fearing them as harbingers of death and destruction, and even sad and gut-wrenching tales of black cats being tortured and murdered because of this.;;;;;;;;;;;x
+VIETmisc.8398.a;Such are the strange and horrifying customs of others!;;;;;;;;;;;;;x
+VIETmisc.8399.desc;I am traveling in a less populated and more rugged part of my realm, and my entourage and I come across a number of corpses, and the stench of decaying flesh is noticeable to everyone. Judging by the armor and clothing on the bodies, as well as the wounds on them, it seems that this may have been the scene of a recent battle between rival bandit gangs that infest this region.;;;;;;;;;;;x
+VIETmisc.8399.a;These lowly people deserve to be food for vultures and crows.;;;;;;;;;;;;;x
+VIETmisc.8399.b;Let's properly dispose of these bodies, lest they rise as vengeful spirits!;;;;;;;;;;;;;x
+VIETmisc.8399.c;Bandits or not, we should give them a funeral, to ease their souls.;;;;;;;;;;;;;x
+VIETmisc.8400.desc;I was making my way through a local town market when I felt something was watching me. I looked around and saw nothing, yet could not shake off the feeling. My concerned guards thought maybe I sensed an assassin. A passing holy man noticed my anxiety, and told me cryptically: "Ah, a ghost seems attached to you. Don't worry - it's a gentle spirit who means no harm, and who is more curious and playful than anything. It might even help you out, and will leave you alone once its curiosity has been sated.";;;;;;;;;;;x
+VIETmisc.8400.a;He had disappeared into the crowds before I could question him further.;;;;;;;;;;;;;x
+VIETmisc.8401.desc;A local townsman is accused of abominable crimes! Known for his insatiable lust, he frequents houses of ill repute and tries to seduce any woman, from innocent virgins to old widows. He even went to graveyards at night to fornicate with the lonely female ghosts - or so his accusers claim to have witnessed. Others argue that despite his vices, there is no sound evidence of this.;;;;;;;;;;;x
+VIETmisc.8401.a;Clearly baseless stories made up by his enemies. Ignore the matter.;;;;;;;;;;;;;x
+VIETmisc.8401.b;This man is a necrophiliac! He must be executed immediately!;;;;;;;;;;;;;x
+VIETmisc.8401.c;Such terrible things - he will be imprisoned, make no mistake.;;;;;;;;;;;;;x
+VIETmisc.8402.desc;My servant's pet dog died. As he was really close to the dog, he's been feeling rather dejected and sad, which has been affecting his ability to perform his duties. Perhaps I should say something to him?;;;;;;;;;;;x
+VIETmisc.8402.a;Silly boy, it's just a stupid dog. Get over it.;;;;;;;;;;;;;x
+VIETmisc.8402.b;Shape up or else I'll punish you severely.;;;;;;;;;;;;;x
+VIETmisc.8402.c;Cheer up! We'll find you a new dog.;;;;;;;;;;;;;x
+VIETmisc.8402.d;It's in a better place now but take your time to grieve. ;;;;;;;;;;;;;x
+VIETmisc.8403.desc;While I am in one of the more distant parts of my realm, I come across an ancient tombstone partly buried in the ground. On it are etched the words:\n\nRemember me as you pass by,\nAs you are now, so once was I,\nAs I am now, so you will be,\nPrepare for death and follow me.;;;;;;;;;;;x
+VIETmisc.8403.a;Alas! We are but dust and shadows.;;;;;;;;;;;;;x
+VIETmisc.8404.desc;Last night, I had a most wonderful dream! I found myself basking in a realm of infinite light - nothing but light - and saw before me many men and women, some of whom I recognized as my deceased relatives. Even those I did not recognize I knew were my distant ancestors. We neither talked nor interacted directly, and I merely basked in their benevolent presence.;;;;;;;;;;;x
+VIETmisc.8404.a;After I woke up, I felt most blessed.;;;;;;;;;;;;;x
 VIETmisc.8405.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8405.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8406.desc;xxxxx;;;;;;;;;;;x
@@ -1628,3 +1672,203 @@ VIETmisc.8498.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8498.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8499.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8499.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8500.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8500.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8501.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8501.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8502.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8502.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8503.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8503.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8504.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8504.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8505.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8505.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8506.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8506.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8507.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8507.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8508.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8508.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8509.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8509.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8510.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8510.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8511.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8511.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8512.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8512.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8513.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8513.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8514.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8514.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8515.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8515.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8516.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8516.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8517.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8517.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8518.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8518.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8519.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8519.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8520.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8520.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8521.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8521.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8522.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8522.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8523.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8523.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8524.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8524.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8525.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8525.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8526.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8526.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8527.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8527.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8528.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8528.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8529.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8529.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8530.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8530.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8531.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8531.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8532.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8532.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8533.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8533.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8534.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8534.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8535.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8535.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8536.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8536.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8537.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8537.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8538.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8538.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8539.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8539.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8540.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8540.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8541.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8541.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8542.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8542.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8543.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8543.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8544.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8544.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8545.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8545.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8546.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8546.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8547.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8547.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8548.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8548.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8549.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8549.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8550.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8550.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8551.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8551.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8552.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8552.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8553.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8553.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8554.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8554.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8555.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8555.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8556.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8556.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8557.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8557.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8558.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8558.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8559.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8559.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8560.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8560.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8561.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8561.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8562.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8562.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8563.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8563.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8564.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8564.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8565.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8565.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8566.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8566.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8567.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8567.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8568.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8568.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8569.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8569.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8570.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8570.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8571.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8571.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8572.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8572.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8573.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8573.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8574.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8574.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8575.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8575.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8576.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8576.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8577.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8577.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8578.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8578.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8579.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8579.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8580.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8580.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8581.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8581.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8582.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8582.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8583.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8583.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8584.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8584.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8585.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8585.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8586.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8586.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8587.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8587.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8588.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8588.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8589.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8589.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8590.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8590.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8591.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8591.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8592.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8592.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8593.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8593.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8594.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8594.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8595.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8595.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8596.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8596.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8597.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8597.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8598.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8598.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8599.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.8599.a;Xxxxxxffff;;;;;;;;;;;;;x

@@ -47,9 +47,11 @@ character_event = {
 		NOT = { has_global_flag =  VIET_cinnamon_toast_crunch_yeah }
 		wealth = 100
 		NOT = { trait = temperate }
-		has_game_rule = {
-			name = VIET_events
-			value = on
+		NOT = {
+			has_game_rule = {
+				name = VIET_events_rules
+				value = serious
+			}
 		}
 	}
 	

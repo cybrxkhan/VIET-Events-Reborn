@@ -1241,3 +1241,128 @@ VIET_Oblivion_dream_complete_alt = {
 	fertility = 0.05
 	icon = 109
 }
+VIET_comforting_dream_deceased = {
+	monthly_character_piety = 0.04
+	icon = 39
+}
+VIET_deathbed_wisdom = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	icon = 79
+}
+VIET_rat_spirit_blessings = {
+	stewardship = 1
+	general_opinion = 10
+	monthly_character_piety = 0.03
+	icon = 89
+}
+VIET_dying_acquaintance_advice = {
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	icon = 10
+}
+VIET_province_ghostly_visitors_blessing = {
+	local_tax_modifier = 0.02
+	icon = 18
+}
+VIET_province_ghostly_visitors_curse = {
+	local_revolt_risk = 0.02
+	icon = 36
+}
+VIET_province_respected_elder_death_blessings = {
+	local_tax_modifier = 0.03
+	local_build_cost_modifier = -0.1
+	local_revolt_risk = -0.03
+	land_morale = 0.05
+	icon = 8
+}
+VIET_curse_of_giltine = {
+	health = -1
+	fertility = -0.2
+	intrigue = -1
+	icon = 49
+}
+VIET_deaths_blessing = {
+	health = 1
+	monthly_character_piety = 0.1
+	diplomacy = 1
+	intrigue = 1
+	combat_rating = 10
+	icon = 41
+}
+VIET_zombie_outbreak_stories = {
+	disease_defence = -0.02
+	local_revolt_risk = 0.01
+	icon = 42
+}
+VIET_happy_memory_of_parents = {
+	monthly_character_piety = 0.03
+	icon = 39
+}
+VIET_province_procession_of_the_dead = {
+	local_build_cost_modifier = 0.02
+	local_build_time_modifier = 0.02
+	icon = 42
+}
+VIET_province_serial_killer_found = {
+	local_build_cost_modifier = -0.02
+	local_build_time_modifier = -0.02
+	icon = 115
+}
+VIET_province_literal_ghost_town = {
+	local_tax_modifier = 0.03
+	local_build_cost_modifier = -0.01
+	icon = 41
+}
+VIET_province_death_of_several_officials = {
+	local_revolt_risk = 0.03
+	local_tax_modifier = -0.1
+	local_build_cost_modifier = 0.2
+	local_build_time_modifier = 0.2
+	icon = 29
+}
+VIET_province_secretly_corrupt_official_dies = {
+	tradevalue = 2
+	local_tax_modifier = 0.02
+	local_build_cost_modifier = -0.1
+	local_build_time_modifier = -0.1
+	icon = 3
+}
+VIET_province_holy_hermit_passes_away = {
+	local_revolt_risk = -0.04
+	local_tax_modifier = 0.02
+	add_piety_modifier = 0.1
+	icon = 8
+}
+VIET_province_old_runestone_found = {
+	culture_techpoints = 0.1
+	icon = 48
+}
+VIET_province_grandmother_passes_away = {
+	local_revolt_risk = -0.01
+	local_tax_modifier = 0.04
+	add_piety_modifier = 0.05
+	icon = 39
+}
+VIET_friendly_ghost_stalker = {
+	stewardship = 1
+	intrigue = 1
+	monthly_character_prestige = 0.04
+	icon = 41
+}
+VIET_servants_death_love_lesson = {
+	monthly_character_piety = 0.5
+	icon = 39
+}
+VIET_final_journey_dream_relative = {
+	monthly_character_piety = 0.4
+	icon = 39
+}
+VIET_nobleman_with_criminal_problems = {
+	intrigue = 1
+	combat_rating = 5
+	icon = 14
+}

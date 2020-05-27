@@ -112,3 +112,9 @@ VIET_opinion_disappointed = {
 VIET_opinion_likes_to_be_silly_with_me = {
 	opinion = 5
 }
+VIET_opinion_didnt_believe_me = {
+	opinion = -5
+}
+VIET_opinion_believes_me = {
+	opinion = 5
+}

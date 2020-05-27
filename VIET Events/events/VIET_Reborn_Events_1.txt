@@ -27,6 +27,7 @@
 # 8316-8325: Rain
 # 8326-8332: Reading Stories
 # 8333-8352: Oblivion Inspired Events
+# 8353-8404: Death
 # 
 #####################################################################
 
@@ -21591,7 +21592,7 @@ province_event = {
 				has_dlc = "Reapers"
 			}
 			custom_tooltip = {
-				text = decrease_prosperity_custom_tooltip
+				text = increase_prosperity_custom_tooltip
 				hidden_tooltip = {
 					change_variable = { which = prosperity_value value = 5 }
 				}
@@ -24688,7 +24689,7 @@ character_event = {
 				religion_group = indian_group
 				religion = bon
 				religion = bon_reformed
-				religion = zoroastrian_group
+				religion_group = zoroastrian_group
 				trait = sympathy_indian
 				trait = cynical
 			}
@@ -28809,8 +28810,8 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {
-				capital_scope = {
+			capital_scope = {
+				OR = {
 					region = world_africa_west
 					region = world_africa_north
 					region = world_europe_east
@@ -29122,7 +29123,7 @@ province_event = {
 				has_dlc = "Reapers"
 			}
 			custom_tooltip = {
-				text = decrease_prosperity_custom_tooltip
+				text = increase_prosperity_custom_tooltip
 				hidden_tooltip = {
 					change_variable = { which = prosperity_value value = 3 }
 				}
@@ -33057,7 +33058,7 @@ character_event = {
 }
 
 ############################################################################
-# OBLIVION INSPIRED 8233-????
+# OBLIVION INSPIRED 8333-8352
 ############################################################################
 
 
@@ -34832,3 +34833,3398 @@ character_event = {
 		}
 	}
 }
+
+
+############################################################################
+# DEATH 8353-8388
+############################################################################
+
+
+# Is death like a dream?
+character_event = {
+	id = VIETmisc.8353
+	desc = VIETmisc.8353.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+	}
+	
+	option = { # unhelpful thinking about this
+		name = VIETmisc.8353.a
+		prestige = 1
+	}
+	
+	option = { # life is a dream, yes?
+		name = VIETmisc.8353.b
+		random_list = {
+			10 = { piety = 1 }
+			10 = { prestige = 1 }
+		}
+	}
+	
+	option = { # who knows
+		name = VIETmisc.8353.c
+		piety = 1
+	}
+	
+	option = { # religious answer
+		name = VIETmisc.8353.d
+		trigger = {
+			learning = 10
+		}
+		tooltip_info = learning
+		piety = 3
+	}
+}
+
+
+
+# Cherished old maid passes away
+character_event = {
+	id = VIETmisc.8354
+	desc = VIETmisc.8354.desc
+	picture = GFX_evt_died_old_age
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	max_age = 50 # Makes more sense if character isn't that old
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+	}
+	
+	option = { # what?
+		name = VIETmisc.8354.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8355 }
+		}
+	}
+}
+
+# Old maid passes away
+character_event = {
+	id = VIETmisc.8355
+	desc = VIETmisc.8355.desc
+	picture = GFX_evt_holy_light_basic
+	
+	is_triggered_only = yes
+	
+	option = { # what?
+		name = VIETmisc.8355.a
+		add_character_modifier = {
+			name = VIET_comforting_dream_deceased
+			duration = 365
+		}
+		if = {
+			limit = {
+				trait = depressed
+			}
+			remove_trait = depressed
+		}
+		if = {
+			limit = {
+				trait = stressed
+			}
+			remove_trait = stressed
+		}
+	}
+}
+
+
+# Cherished old servant passes away (Tolkien quote)
+character_event = {
+	id = VIETmisc.8356
+	desc = VIETmisc.8356.desc
+	picture = GFX_evt_died_old_age
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+	}
+	
+	option = { # what?
+		name = VIETmisc.8356.a
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8357 }
+		}
+	}
+}
+
+
+# Cherished old servant passes away (Tolkien quote)
+character_event = {
+	id = VIETmisc.8357
+	desc = VIETmisc.8357.desc
+	picture = GFX_evt_rider_adventure
+	
+	is_triggered_only = yes
+	
+	option = { # what?
+		name = VIETmisc.8357.a
+		add_character_modifier = {
+			name = VIET_deathbed_wisdom
+			duration = 365
+		}
+		random_list = {
+			20 = { change_learning = 1 }
+			10 = { change_stewardship = 1 }
+		}
+	}
+}
+
+
+
+# Meet the deceased - it is not your time yet
+long_character_event = {
+	id = VIETmisc.8358
+	desc = VIETmisc.8358.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8358.a
+		piety = 2
+	}
+}
+
+
+# Witnessing the death of a rat
+character_event = {
+	id = VIETmisc.8359
+	desc = VIETmisc.8359.desc
+	picture = GFX_evt_skyrim_forest
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = temperate
+		}
+		modifier = {
+			factor = 0.8
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+	}
+	
+	option = { # strange
+		name = VIETmisc.8359.a
+		random_list = {
+			10 = { piety = 1 }
+			10 = { prestige = 1 }
+		}
+	}	
+	option = { # strange
+		name = VIETmisc.8359.b
+		prestige = 1
+	}	
+	option = { # give it respect
+		name = VIETmisc.8359.c
+		piety = 1
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.8360 }
+		}
+	}
+}
+
+# Witnessing the death of a rat - its spirit gives you a blessing in a dream, maybe?
+character_event = {
+	id = VIETmisc.8360
+	desc = VIETmisc.8360.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+	
+	option = { # strange
+		name = VIETmisc.8359.a
+		add_character_modifier = {
+			name = VIET_rat_spirit_blessings
+			duration = 3650
+		}
+	}
+}
+
+# Terminal lucidity in dying acquaintance
+character_event = {
+	id = VIETmisc.8361
+	desc = VIETmisc.8361.desc
+	picture = GFX_evt_recovery
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { # he gives advice from the spirits
+		name = VIETmisc.8361.a
+		character_event = { id = VIETmisc.8362 tooltip = VIETmisc.8362.tooltip }
+	}
+}
+
+# Terminal lucidity in dying acquaintance - the advice actually works
+character_event = {
+	id = VIETmisc.8362
+	desc = VIETmisc.8362.desc
+	picture = GFX_evt_prospering_province
+	
+	is_triggered_only = yes
+	
+	option = { # strange
+		name = VIETmisc.8362.a
+		add_character_modifier = {
+			name = VIET_dying_acquaintance_advice
+			duration = 1444
+		}
+	}
+}
+
+# Visit from a ghostly little girl
+character_event = {
+	id = VIETmisc.8363
+	desc = VIETmisc.8363.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { trait = cruel }
+		NOT = { trait = impaler }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+	
+	option = { # the little girl eats the food
+		name = VIETmisc.8363.a
+		random = {
+			add_trait = charitable
+			chance = 10
+		}
+		hidden_tooltip = { long_character_event = { id = VIETmisc.8364 } }
+	}
+}
+
+# Visit from a ghostly little girl
+long_character_event = {
+	id = VIETmisc.8364
+	desc = VIETmisc.8364.desc
+	picture = GFX_evt_castle_construction #GFX_evt_prospering_province
+	
+	is_triggered_only = yes
+	
+	option = { # she's a good kid
+		name = VIETmisc.8364.a
+		piety = 5
+	}	
+	option = { # if it makes you happy
+		name = VIETmisc.8364.b
+		random = {
+			add_trait = cynical
+			chance = 30
+		}
+	}
+}
+
+# Guardsman sees grandparents before dying (common phenomonon at end of life)
+character_event = {
+	id = VIETmisc.8365
+	desc = VIETmisc.8365.desc
+	picture = GFX_evt_recovery
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { # doubt
+		name = VIETmisc.8365.a
+		random = {
+			add_trait = cynical
+			chance = 15
+		}
+		hidden_tooltip = { character_event = { id = VIETmisc.8366 days = 5 random = 5 } }
+	}	
+	option = { # hopefully they meant well
+		name = VIETmisc.8365.b
+		random = {
+			add_trait = trusting
+			chance = 15
+		}
+		hidden_tooltip = { character_event = { id = VIETmisc.8366 days = 5 random = 5 } }
+	}	
+	option = { # universe is full of mysteries
+		name = VIETmisc.8365.c
+		random = {
+			add_trait = humble
+			chance = 15
+		}
+		hidden_tooltip = { character_event = { id = VIETmisc.8366 days = 5 random = 5 } }
+	}
+}
+
+# Guardsman gets an end of life dream - a sign of coming death
+character_event = {
+	id = VIETmisc.8366
+	desc = VIETmisc.8366.desc
+	picture = GFX_evt_died_illness #GFX_evt_prospering_province
+	
+	is_triggered_only = yes
+	
+	option = { # strange
+		name = VIETmisc.8366.a
+		piety = 5
+	}
+}
+
+# Find a beggar's corpse on the side of the road
+character_event = {
+	id = VIETmisc.8367
+	desc = VIETmisc.8367.desc
+	picture = GFX_evt_dead_body_hf
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8367.a
+		prestige = 4
+	}
+	
+	option = { # dispose of it!
+		name = VIETmisc.8367.b
+		prestige = 2
+		piety = 2
+	}
+	
+	option = { # bury it properly
+		name = VIETmisc.8367.c
+		trigger = {
+			wealth = 5
+		}
+		wealth = -5
+		piety = 10
+		if = {
+			limit = {
+				trait = cruel
+			}
+			random = {
+				remove_trait = cruel
+				chance = 50
+			}
+		}
+		if = {
+			limit = {
+				trait = proud
+			}
+			random = {
+				remove_trait = proud
+				chance = 50
+			}
+		}
+		random_list = {
+			60 = { }
+			10 = { add_trait = humble }
+			10 = { add_trait = kind }
+			10 = { add_trait = charitable }
+			10 = { add_trait = just }
+		}
+		custom_tooltip = { text = VIET_beggars_deserve_dignified_burials_too }
+	}
+}
+
+
+# A quick death or a gradual death?
+character_event = {
+	id = VIETmisc.8368
+	desc = VIETmisc.8368.desc
+	picture = GFX_evt_skulls_hf
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+	}
+	
+	option = { # quick death
+		name = VIETmisc.8368.a
+		prestige = 1
+		random_list = {
+			80 = { }
+			10 = { add_trait = craven }
+			10 = { add_trait = diligent }
+		}
+	}
+	
+	option = { # gradual death
+		name = VIETmisc.8368.b
+		piety = 1
+		random_list = {
+			80 = { }
+			10 = { add_trait = humble }
+			10 = { add_trait = content }
+		}
+	}
+}
+
+
+# Grave robbers caught nearby
+character_event = {
+	id = VIETmisc.8369
+	desc = VIETmisc.8369.desc
+	picture = GFX_evt_gravedigger_hf
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+	}
+	
+	option = { # let them go
+		name = VIETmisc.8369.a
+		random_list = {
+			10 = { piety = -5 }
+			10 = { prestige = -5 }
+			10 = { }
+		}
+		random_list = {
+			55 = { }
+			15 = { add_trait = arbitrary }
+			15 = { add_trait = trusting }
+			15 = { add_trait = patient }
+		}
+	}
+	
+	option = { # imprison them
+		name = VIETmisc.8369.b
+		prestige = 5
+		random = {
+			add_trait = just
+			chance = 25
+		}
+	}
+}
+
+
+
+# Ghosts keep visiting a province
+province_event = {
+	id = VIETmisc.8370
+	desc = VIETmisc.8370.desc
+	picture = GFX_evt_village_at_night
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_ghostly_visitors_blessing }
+		NOT = { has_province_modifier = VIET_province_ghostly_visitors_curse }
+		#NOR = {
+		#	region = world_steppe_east
+		#	region = world_steppe_west
+		#	region = world_europe_north
+		#	region = world_europe_east
+		#	region = world_himalayas
+		#}
+	}
+	
+	mean_time_to_happen = {
+		months = 7000
+		modifier = {
+			factor = 1.2
+			NOT = { num_of_max_settlements = 5 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { num_of_max_settlements = 3 }
+		}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8370.a
+		random_list = {
+			10 = {
+				add_province_modifier = {
+					name = VIET_province_ghostly_visitors_blessing
+					duration = 1825
+				}			
+			}
+			10 = {
+				add_province_modifier = {
+					name = VIET_province_ghostly_visitors_curse
+					duration = 1825
+				}			
+			}
+		}
+	}
+}
+
+
+# Respected elder passes away
+province_event = {
+	id = VIETmisc.8371
+	desc = VIETmisc.8371.desc
+	picture = GFX_evt_died_funeral
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_respected_elder_death_blessings }
+		#NOR = {
+		#	region = world_steppe_east
+		#	region = world_steppe_west
+		#	region = world_europe_north
+		#	region = world_europe_east
+		#	region = world_himalayas
+		#}
+	}
+	
+	mean_time_to_happen = {
+		months = 8000
+		modifier = {
+			factor = 1.2
+			NOT = { num_of_max_settlements = 5 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { num_of_max_settlements = 3 }
+		}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8371.a
+		add_province_modifier = {
+			name = VIET_province_respected_elder_death_blessings
+			duration = 7300
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 2 }
+				}
+			}
+		}
+	}
+}
+
+
+# Visit from an otherworldly being, or just a dream?
+long_character_event = {
+	id = VIETmisc.8372
+	desc = VIETmisc.8372.desc
+	picture = GFX_evt_meeting_hf
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+	}
+	
+	option = { # let them go
+		name = VIETmisc.8372.a
+		piety = 2
+	}
+}
+
+
+# Meeting the Lithuanian goddess of death
+character_event = {
+	id = VIETmisc.8373
+	desc = VIETmisc.8373.desc
+	picture = GFX_evt_viet_forest_girl
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			religion = baltic_pagan
+			religion = baltic_pagan_reformed
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+	}
+	
+	option = { # leave
+		name = VIETmisc.8373.a
+	}	
+	option = { # do it
+		name = VIETmisc.8373.b
+		trigger = {
+			OR = {
+				AND = {
+					is_female = no
+					NOT = { trait = homosexual }
+				}
+				AND = {
+					is_female = yes
+					trait = homosexual
+				}
+			}
+			NOR = {
+				trait = chaste
+				trait = celibate
+				trait = eunuch
+			}
+		}
+		add_trait = lustful
+		prestige = 5
+		hidden_tooltip = { character_event = { id = VIETmisc.8374 } }
+	}
+}
+
+
+# Meeting the Lithuanian goddess of death
+character_event = {
+	id = VIETmisc.8374
+	desc = VIETmisc.8374.desc
+	picture = GFX_evt_whispers
+	
+	is_triggered_only = yes
+	
+	option = { # leave
+		name = VIETmisc.8374.a
+		prestige = -5
+		piety = -5
+		add_character_modifier = {
+			name = VIET_curse_of_giltine
+			duration = 1444
+		}
+	}
+}
+
+
+# Are banshees good?
+character_event = {
+	id = VIETmisc.8375
+	desc = VIETmisc.8375.desc
+	picture = GFX_evt_died_old_age
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture = irish
+			culture = scottish
+			culture = welsh
+			culture = cumbrian
+			culture = cornish
+			culture = breton
+			culture = english
+			culture = saxon
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # leave
+		name = VIETmisc.8375.a
+		piety = 1
+	}	
+	option = { # stupid superstition
+		name = VIETmisc.8375.b
+		trigger = {
+			trait = cynical
+		}
+		tooltip_info = cynical
+	}
+}
+
+
+# Coming across a Myling (Nordic mythology)
+character_event = {
+	id = VIETmisc.8376
+	#desc = VIETmisc.8376.desc
+	picture = GFX_evt_artemis_moon
+	
+	# Religious based
+	desc = {
+		text = VIETmisc.8376.desc.a
+		trigger = {
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed		
+			}		
+		}
+	}
+	#Cultural based if not pagan
+	desc = {
+		text = VIETmisc.8376.desc.b
+		trigger = {
+			NOR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed		
+			}		
+		}
+	}
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture_group = north_germanic
+			culture = finnish
+			culture = lappish
+			culture = ugricbaltic
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+		}
+		any_courtier = {
+			is_adult = yes
+			NOT = { trait = incapable }
+			ai = yes
+			OR = {
+				religion = ROOT
+				culture = ROOT
+			}
+			OR = {
+				trait = zealous
+				trait = brave
+				trait = kind
+				trait = lunatic
+				trait = possessed
+				trait = charitable
+			}
+			NOT = { trait = cynical }
+			NOT = { trait = craven }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				ai = yes
+				OR = {
+					religion = ROOT
+					culture = ROOT
+				}
+				OR = {
+					trait = zealous
+					trait = brave
+					trait = kind
+					trait = lunatic
+					trait = possessed
+					trait = charitable
+				}
+				NOT = { trait = cynical }
+				NOT = { trait = craven }
+			}
+			save_event_target_as = target_VIET_myling_courtier
+		}
+	}
+	
+	option = { # haha funny
+		name = VIETmisc.8376.a
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+		event_target:target_VIET_myling_courtier = {
+			opinion = {
+				modifier = VIET_opinion_didnt_believe_me
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+	
+	option = { # it's a lie
+		name = VIETmisc.8376.b
+		prestige = 5
+		event_target:target_VIET_myling_courtier = {
+			opinion = {
+				modifier = VIET_opinion_didnt_believe_me
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+	
+	option = { # just a strange dream
+		name = VIETmisc.8376.c
+		piety = 5
+		event_target:target_VIET_myling_courtier = {
+			opinion = {
+				modifier = VIET_opinion_believes_me
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+
+# Holy man praying for a deceased woman with no family
+long_character_event = {
+	id = VIETmisc.8377
+	desc = VIETmisc.8377.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = { # waste of time
+		name = VIETmisc.8377.a
+		trigger = {
+			NOT = { trait = humble }
+			NOT = { trait = kind }
+			NOT = { trait = charitable }
+		}
+		random = {
+			add_trait = proud
+			chance = 40
+		}
+	}
+	
+	option = { # carry on
+		name = VIETmisc.8377.b
+		prestige = 4
+	}
+	
+	option = { # can I join in?
+		name = VIETmisc.8377.c
+		trigger = {
+			NOT = { trait = zealous }
+		}
+		piety = 4
+		random_list = {
+			80 = { }
+			10 = { add_trait = zealous }
+			10 = { add_trait = humble }
+		}
+	}
+}
+
+
+# Woman annoys death so much he takes her back to the land of the living
+long_character_event = {
+	id = VIETmisc.8378
+	desc = VIETmisc.8378.desc
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # hah
+		name = VIETmisc.8378.a
+		piety = 2
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}	
+	option = { # hah
+		name = VIETmisc.8378.b
+		prestige = 2
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}
+}
+
+
+# The Grim Reaper is an absentminded girl and she stops by after getting lost
+character_event = {
+	id = VIETmisc.8379
+	desc = VIETmisc.8379.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # uh oh
+		name = VIETmisc.8379.a
+		narrative_event = { id = VIETmisc.8380 tooltip = VIETmisc.8380.tooltip }
+	}
+}
+
+
+# The Grim Reaper is an absentminded girl and she stops by after getting lost - part 2
+narrative_event = {
+	id = VIETmisc.8380
+	title = VIETmisc.8380.title
+	desc = VIETmisc.8380.desc
+	picture = GFX_evt_artemis_moon
+	
+	is_triggered_only = yes
+	
+	option = { # Grim Reaper needs directions
+		name = VIETmisc.8380.a
+		narrative_event = { id = VIETmisc.8381 tooltip = VIETmisc.8381.tooltip }
+	}
+}
+
+
+# The Grim Reaper is an absentminded girl and she stops by after getting lost - part 3
+narrative_event = {
+	id = VIETmisc.8381
+	title = VIETmisc.8381.title
+	desc = VIETmisc.8381.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+	
+	option = { # Odd
+		name = VIETmisc.8381.a
+		piety = 5
+		add_character_modifier = {
+			name = VIET_deaths_blessing
+			duration = -1
+		}
+	}	
+	option = { # Must be a dream
+		name = VIETmisc.8381.b
+		prestige = 5
+		add_character_modifier = {
+			name = VIET_deaths_blessing
+			duration = -1
+		}
+	}
+}
+
+
+
+
+
+# Holy man tells of dealing with polteregists
+character_event = {
+	id = VIETmisc.8382
+	desc = VIETmisc.8382.desc
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+	}
+	
+	option = { # i believe you
+		name = VIETmisc.8382.a
+		piety = 5
+		random = {
+			add_trait = trusting
+			chance = 15
+		}
+	}	
+	option = { # i don't believe you
+		name = VIETmisc.8382.b
+		prestige = 5
+		random = {
+			add_trait = cynical
+			chance = 15
+		}
+	}
+}
+
+
+# Stories about zombies
+character_event = {
+	id = VIETmisc.8383
+	desc = VIETmisc.8383.desc
+	picture = GFX_evt_plague_spreading
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+	}
+	
+	option = { # i believe you
+		name = VIETmisc.8383.a
+		piety = 5
+		capital_scope = {
+			add_province_modifier = {
+				name = VIET_zombie_outbreak_stories
+				duration = 666
+			}
+		}
+	}	
+	option = { # i don't believe you
+		name = VIETmisc.8383.b
+		random = {
+			add_trait = paranoid
+			chance = 25
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = VIET_zombie_outbreak_stories
+				duration = 666
+			}
+		}
+	}
+}
+
+# Thinking about people who have come before us
+character_event = {
+	id = VIETmisc.8384
+	desc = VIETmisc.8384.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8384.a
+		add_character_modifier = {
+			name = VIET_navel_gazing
+			duration = 246
+		}
+	}
+}
+
+
+
+# Will people remember me after I die?
+character_event = {
+	id = VIETmisc.8385
+	desc = VIETmisc.8385.desc
+	picture = GFX_evt_ancient_cairn
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { trait = immortal }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+	
+	option = { # proud
+		name = VIETmisc.8385.a
+		prestige = 2
+		if = {
+			limit = {
+				trait = humble
+			}
+			remove_trait = humble
+		}
+		random = {
+			add_trait = proud
+			chance = 30
+		}
+	}
+	
+	option = { # yes - normal
+		name = VIETmisc.8385.b
+		piety = 2
+	}
+	
+	option = { # no - normal
+		name = VIETmisc.8385.c
+		prestige = 2
+	}
+	
+	option = { # no - humble
+		name = VIETmisc.8385.d
+		prestige = 2
+		if = {
+			limit = {
+				trait = proud
+			}
+			remove_trait = proud
+		}
+		random = {
+			add_trait = humble
+			chance = 30
+		}
+	}
+}
+
+
+# Acquaintance recalls near death experience (female)
+character_event = {
+	id = VIETmisc.8386
+	desc = VIETmisc.8386.desc
+	picture = GFX_evt_garden
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8386.a
+		piety = 3
+	}
+}
+
+
+# Acquaintance recalls near death experience (male)
+character_event = {
+	id = VIETmisc.8387
+	desc = VIETmisc.8387.desc
+	picture = GFX_evt_tropicana
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8387.a
+		piety = 3
+	}
+}
+
+
+# Recall happy memory about late parents
+character_event = {
+	id = VIETmisc.8388
+	desc = VIETmisc.8388.desc
+	picture = GFX_evt_family
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		father = { is_alive = no }
+		mother = { is_alive = no }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8388.a
+		add_character_modifier = {
+			name = VIET_happy_memory_of_parents
+			duration = 365
+		}
+	}
+}
+	
+# Procession of the dead
+province_event = {
+	id = VIETmisc.8389
+	desc = VIETmisc.8389.desc
+	picture = GFX_evt_died_funeral
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_procession_of_the_dead }
+		is_nomadic = no
+	}
+	
+	mean_time_to_happen = {
+		months = 8000
+		modifier = {
+			factor = 1.2
+			NOT = { num_of_max_settlements = 5 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { num_of_max_settlements = 3 }
+		}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8389.a
+		add_province_modifier = {
+			name = VIET_province_procession_of_the_dead
+			duration = 1460
+		}
+	}
+}
+	
+# Serial killer
+province_event = {
+	id = VIETmisc.8390
+	desc = VIETmisc.8390.desc
+	picture = GFX_evt_bloody_tools
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_serial_killer_found }
+	}
+	
+	mean_time_to_happen = {
+		months = 8000
+		modifier = {
+			factor = 1.2
+			NOT = { num_of_max_settlements = 5 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { num_of_max_settlements = 3 }
+		}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8390.a
+		owner = {
+			prestige = 5
+		}
+		add_province_modifier = {
+			name = VIET_province_serial_killer_found
+			duration = 1460
+		}
+	}
+	option = { # ok
+		name = VIETmisc.8390.b
+		trigger = {
+			owner = {
+				ai = no
+				wealth = 20
+			}
+		}
+		owner = {
+			wealth = -20
+			prestige = 15
+			random_list = {
+				15 = { add_trait = just }
+				15 = { add_trait = charitable }
+				70 = { }
+			}
+		}
+		add_province_modifier = {
+			name = VIET_province_serial_killer_found
+			duration = 1460
+		}
+	}
+}
+	
+# Locals witness literal ghost towns - ghosts doing daily business
+province_event = {
+	id = VIETmisc.8391
+	desc = VIETmisc.8391.desc
+	picture = GFX_evt_village_at_night
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_literal_ghost_town }		
+	}
+	
+	mean_time_to_happen = {
+		months = 9000
+		modifier = {
+			factor = 1.2
+			NOT = { num_of_max_settlements = 5 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { num_of_max_settlements = 3 }
+		}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8391.a
+		trigger = {
+			owner = {
+				NOT = { trait = cynical }
+			}
+		}
+		owner = {
+			piety = 5
+		}
+		add_province_modifier = {
+			name = VIET_province_literal_ghost_town
+			duration = 2190
+		}
+	}
+	option = { # ok
+		name = VIETmisc.8391.b
+		owner = {
+			prestige = 5
+		}
+		add_province_modifier = {
+			name = VIET_province_literal_ghost_town
+			duration = 2190
+		}
+	}
+}
+
+	
+# Several local officials coincidentally die around the same time
+province_event = {
+	id = VIETmisc.8392
+	desc = VIETmisc.8392.desc
+	picture = GFX_evt_council
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_death_of_several_officials }
+	}
+	
+	mean_time_to_happen = {
+		months = 5000
+		modifier = {
+			factor = 1.2
+			NOT = { num_of_max_settlements = 5 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { num_of_max_settlements = 3 }
+		}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8392.a
+		add_province_modifier = {
+			name = VIET_province_death_of_several_officials
+			duration = 1825
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -4 }
+				}
+			}
+		}
+	}
+	option = { # ok
+		name = VIETmisc.8392.b
+		trigger = {
+			owner = {
+				trait = administrator
+			}
+		}
+		tooltip_info = administrator
+		add_province_modifier = {
+			name = VIET_province_death_of_several_officials
+			duration = 1095
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -2 }
+				}
+			}
+		}
+	}
+	option = { # ok
+		name = VIETmisc.8392.b
+		trigger = {
+			owner = {
+				stewardship = 11
+				NOT = { trait = administrator }
+			}
+		}
+		tooltip_info = stewardship
+		add_province_modifier = {
+			name = VIET_province_death_of_several_officials
+			duration = 1095
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = decrease_prosperity_custom_tooltip
+				hidden_tooltip = {
+					change_variable = { which = prosperity_value value = -2 }
+				}
+			}
+		}
+	}
+}
+
+	
+# Secretly corrupt official passes away
+province_event = {
+	id = VIETmisc.8393
+	desc = VIETmisc.8393.desc
+	picture = GFX_evt_secret_ceremony
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_secretly_corrupt_official_dies }
+	}
+	
+	mean_time_to_happen = {
+		months = 5000
+		modifier = {
+			factor = 1.2
+			NOT = { num_of_max_settlements = 5 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { num_of_max_settlements = 3 }
+		}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8393.a
+		add_province_modifier = {
+			name = VIET_province_secretly_corrupt_official_dies
+			duration = 1825
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 2 }
+				}
+			}
+		}
+	}
+}
+	
+# Hermit passes away, yet body does not decay
+province_event = {
+	id = VIETmisc.8394
+	desc = VIETmisc.8394.desc
+	picture = GFX_evt_monk_eastern_group
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_holy_hermit_passes_away }
+	}
+	
+	mean_time_to_happen = {
+		months = 9500
+		#modifier = {
+		#	factor = 1.2
+		#	NOT = { num_of_max_settlements = 5 }
+		#}
+		#modifier = {
+		#	factor = 1.1
+		#	NOT = { num_of_max_settlements = 3 }
+		#}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8394.a
+		add_province_modifier = {
+			name = VIET_province_holy_hermit_passes_away
+			duration = 7300
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 3 }
+				}
+			}
+		}
+	}
+}
+	
+# Runestone discovered
+province_event = {
+	id = VIETmisc.8395
+	desc = VIETmisc.8395.desc
+	picture = GFX_evt_runestone_raising_oldgods
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_old_runestone_found }
+		OR = {
+			region = world_europe_north
+			region = world_europe_west_brittania
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	mean_time_to_happen = {
+		months = 9500
+		modifier = {
+			factor = 1.3
+			region = world_europe_west_brittania
+		}
+		modifier = {
+			factor = 1.3
+			NOR = {
+				culture_group = north_germanic
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+			}
+		}
+		#modifier = {
+		#	factor = 1.2
+		#	NOT = { num_of_max_settlements = 5 }
+		#}
+		#modifier = {
+		#	factor = 1.1
+		#	NOT = { num_of_max_settlements = 3 }
+		#}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8395.a
+		add_province_modifier = {
+			name = VIET_province_old_runestone_found
+			duration = 1460
+		}
+	}
+}
+	
+# Beloved grandmother passes away
+province_event = {
+	id = VIETmisc.8396
+	desc = VIETmisc.8396.desc
+	picture = GFX_evt_died_illness
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_grandmother_passes_away }
+	}
+	
+	mean_time_to_happen = {
+		months = 7500
+		#modifier = {
+		#	factor = 1.2
+		#	NOT = { num_of_max_settlements = 5 }
+		#}
+		#modifier = {
+		#	factor = 1.1
+		#	NOT = { num_of_max_settlements = 3 }
+		#}
+	}
+	
+
+	option = { # ok
+		name = VIETmisc.8396.a
+		add_province_modifier = {
+			name = VIET_province_grandmother_passes_away
+			duration = 7300
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 2 }
+				}
+			}
+		}
+	}
+}
+
+
+
+# Come across a black cat
+character_event = {
+	id = VIETmisc.8397
+	desc = VIETmisc.8397.desc
+	picture = GFX_evt_cat
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		# Cultures where black cats are seen as good, or cats are revered in general
+		NOR = {
+			culture_group = celtic
+			culture_group = west_germanic
+			culture = norman
+			culture_group = arabic
+			culture = coptic
+			culture_group = chinese_group
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8397.a
+		random_list = {
+			10 = { piety = -2 }
+			10 = { prestige = -2 }
+		}
+	}
+	
+	option = { # no fear!
+		name = VIETmisc.8397.b
+		random_list = {
+			75 = { }
+			20 = { add_trait = brave }
+			5 = { add_trait = trusting }
+		}
+		custom_tooltip = { text = VIET_silly_rationality_about_black_cat }
+		hidden_tooltip = {
+			random_list = {
+				40 = { }
+				30 = { health = 0.3 }
+				20 = { health = 0.6 }
+				10 = { health = 1 }
+				30 = { health = -0.3 }
+				20 = { health = -0.6 }
+				10 = { health = -1 }
+			}
+		}
+	}
+}
+
+
+# Our culture sees black cats as good, why do others not see the same?
+character_event = {
+	id = VIETmisc.8398
+	desc = VIETmisc.8398.desc
+	picture = GFX_evt_cat
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		# Cultures where black cats are seen as good, or cats are revered in general
+		OR = {
+			culture_group = celtic
+			culture_group = west_germanic
+			culture = norman
+			culture_group = arabic
+			culture = coptic
+			culture_group = chinese_group
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.8
+			trait = zealous
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8398.a
+		add_character_modifier = {
+			name = VIET_thinking_about_foreign_lands
+			duration = 365
+		}
+	}
+}
+
+# Character comes across scene of bandit battle
+character_event = {
+	id = VIETmisc.8399
+	desc = VIETmisc.8399.desc
+	picture = GFX_evt_died_battle
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8399.a
+		trigger = {
+			NOT = { trait = humble }
+		}
+		prestige = 4
+		random_list = {
+			60 = { }
+			20 = { add_trait = cruel }
+			20 = { add_trait = proud }
+		}
+	}	
+	option = { # ok
+		name = VIETmisc.8399.b
+		piety = 2
+		prestige = 2
+	}	
+	option = { # ok
+		name = VIETmisc.8399.c
+		trigger = {
+			NOT = { trait = cruel }
+		}
+		piety = 4
+		random_list = {
+			60 = { }
+			20 = { add_trait = kind }
+			20 = { add_trait = humble }
+		}
+	}
+}
+
+# Character may be stalked by a harmless, gentle ghost
+long_character_event = {
+	id = VIETmisc.8400
+	desc = VIETmisc.8400.desc
+	picture = GFX_evt_uncomfortable
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8400.a
+		add_character_modifier = {
+			name = VIET_friendly_ghost_stalker
+			duration = 365
+		}
+	}
+}
+
+# Local townsman accused of having sex with ghosts
+character_event = {
+	id = VIETmisc.8401
+	desc = VIETmisc.8401.desc
+	picture = GFX_evt_dark_love
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8401.a
+		random = {
+			add_trait = cynical
+			chance = 25
+		}
+		prestige = 5
+		add_character_modifier = {
+			name = VIET_leader_angered_peasants
+			duration = 666
+		}
+	}
+	
+	option = { # execute the necrophiliac!
+		name = VIETmisc.8401.b
+		random = {
+			add_trait = arbitrary
+			chance = 25
+		}
+		piety = 5
+		add_character_modifier = {
+			name = VIET_leader_who_cares
+			duration = 666
+		}
+	}
+	
+	option = { # imprison him
+		name = VIETmisc.8401.c
+		piety = 5
+		add_character_modifier = {
+			name = VIET_leader_who_cares
+			duration = 666
+		}
+	}
+}
+
+# Servant's pet dog passed away
+character_event = {
+	id = VIETmisc.8402
+	desc = VIETmisc.8402.desc
+	picture = GFX_evt_hunting_scene
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = erudite
+		}
+	}
+	
+	option = { # stupid dog
+		name = VIETmisc.8402.a
+		if = {
+			limit = {
+				trait = kind
+			}
+			random = {
+				remove_trait = kind
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = cruel
+				chance = 30
+			}
+		}
+	}
+	
+	option = { # shape up or i'll punish you
+		name = VIETmisc.8402.b
+		trigger = {
+			NOT = { trait = kind }
+		}
+		if = {
+			limit = {
+				trait = patient
+			}
+			random = {
+				remove_trait = patient
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = wroth
+				chance = 30
+			}
+		}
+	}
+	
+	option = { # find you a new dog
+		name = VIETmisc.8402.c
+		if = {
+			limit = {
+				trait = wroth
+			}
+			random = {
+				remove_trait = wroth
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = patient
+				chance = 30
+			}
+		}
+	}
+	
+	option = { # take your time
+		name = VIETmisc.8402.d
+		if = {
+			limit = {
+				trait = cruel
+			}
+			random = {
+				remove_trait = cruel
+				chance = 30
+			}
+		}
+		random_list = {
+			70 = { }
+			20 = { add_trait = kind }
+			10 = { add_trait = patient }
+		}
+	}
+}
+
+# Pass by a tombstone with a meaningful, profound warning
+long_character_event = {
+	id = VIETmisc.8403
+	desc = VIETmisc.8403.desc
+	picture = GFX_evt_ancient_cairn
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # alas!
+		name = VIETmisc.8403.a
+		piety = 2
+	}
+}
+
+# Character dreams of ancestors coming to visit
+character_event = {
+	id = VIETmisc.8404
+	desc = VIETmisc.8404.desc
+	picture = GFX_evt_holy_light_basic
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	#trigger = {
+		#in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	#}
+	
+	weight_multiplier = {
+		days = 1				
+	
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # blessing
+		name = VIETmisc.8404.a
+		piety = 2
+	}
+}
+
