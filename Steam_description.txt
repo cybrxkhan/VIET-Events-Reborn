@@ -49,7 +49,7 @@ Which to discover we must travel too.
 [LIST]
 [*]Added 52 Death themed events
 [*]Added 2 event chains: Lost Love and Dream of the Final Journey
-[*]Re-added events from old VIET: 5 time themed events
+[*]Re-added events from old VIET: 4 time themed events
 [*]Added a few new event pictures
 [*]Fixed missing French localization I forgot to add in half a year ago
 [*]Fixed a few province events’ localization saying prosperity will be decreased when it is actually the opposite
