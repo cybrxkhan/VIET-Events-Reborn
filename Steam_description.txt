@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.12 "Death" (Released 5/30/20, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.12 "Death" (Released 5/31/20, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
