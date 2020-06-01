@@ -610,6 +610,16 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_evt_skyrim_forest_arpitan"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_old_frankish"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_evt_skyrim_forest_latin"
 		texturefile = "gfx\\event_pictures\\skyrim_forest_french.tga"
 		allwaystransparent = yes
@@ -1202,7 +1212,7 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_evt_VIET_food_french"
+		name = "GFX_evt_VIET_food_frankish"
 		texturefile = "gfx\\event_pictures\\VIET_food_french.tga"
 		allwaystransparent = yes
 	}
@@ -1213,6 +1223,16 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_evt_VIET_food_occitan"
+		texturefile = "gfx\\event_pictures\\VIET_food_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_arpitan"
+		texturefile = "gfx\\event_pictures\\VIET_food_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_old_frankish"
 		texturefile = "gfx\\event_pictures\\VIET_food_french.tga"
 		allwaystransparent = yes
 	}
@@ -1449,7 +1469,7 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_evt_small_town_french"
+		name = "GFX_evt_small_town_frankish"
 		texturefile = "gfx\\event_pictures\\small_town_gallic.tga"
 		allwaystransparent = yes
 	}
@@ -1465,6 +1485,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_evt_small_town_occitan"
+		texturefile = "gfx\\event_pictures\\small_town_gallic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_arpitan"
 		texturefile = "gfx\\event_pictures\\small_town_gallic.tga"
 		allwaystransparent = yes
 	}
@@ -1675,17 +1700,27 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_evt_tuscan_country_gallic"
-		texturefile = "gfx\\event_pictures\\tuscan_countryside_west_germanic.tga"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_french.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_tuscan_country_frankish"
-		texturefile = "gfx\\event_pictures\\tuscan_countryside_west_germanic.tga"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_french.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_tuscan_country_occitan"
-		texturefile = "gfx\\event_pictures\\tuscan_countryside_west_germanic.tga"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_old_frankish"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_arpitan"
+		texturefile = "gfx\\event_pictures\\tuscan_countryside_french.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
@@ -1961,17 +1996,17 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_east_slavic"
-		texturefile = "gfx\\event_pictures\\ancient_cairn_north_germanic.tga"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_celtic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_finno_ugric"
-		texturefile = "gfx\\event_pictures\\ancient_cairn_north_germanic.tga"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_celtic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_siberian_group"
-		texturefile = "gfx\\event_pictures\\ancient_cairn_north_germanic.tga"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_celtic.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
@@ -2236,6 +2271,11 @@ spriteTypes = {
 	}		
 	spriteType = {
 		name = "GFX_evt_ancient_cairn_occitan"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_french.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_arpitan"
 		texturefile = "gfx\\event_pictures\\ancient_cairn_french.tga"
 		allwaystransparent = yes
 	}		
@@ -2512,6 +2552,66 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_finnish_mystique"
 		texturefile = "gfx\\event_pictures\\finnish_mystique.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_courtiers_talking_chinese_group"
+		texturefile = "gfx\\event_pictures\\courtiers_talking_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_courtiers_talking_khitan"
+		texturefile = "gfx\\event_pictures\\courtiers_talking_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_courtiers_talking_jurchen"
+		texturefile = "gfx\\event_pictures\\courtiers_talking_chinese_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_celtic"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_celtic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_west_germanic"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_celtic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ancient_cairn_central_germanic"
+		texturefile = "gfx\\event_pictures\\ancient_cairn_celtic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_gallic"
+		texturefile = "gfx\\event_pictures\\garden_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_frankish"
+		texturefile = "gfx\\event_pictures\\garden_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_occitan"
+		texturefile = "gfx\\event_pictures\\garden_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_old_frankish"
+		texturefile = "gfx\\event_pictures\\garden_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_arpitan"
+		texturefile = "gfx\\event_pictures\\garden_french.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_norman"
+		texturefile = "gfx\\event_pictures\\garden_french.tga"
 		allwaystransparent = yes
 	}
 }

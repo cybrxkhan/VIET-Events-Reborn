@@ -133,6 +133,9 @@ on_yearly_pulse = {
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2021		# How should heretic be purified?
 			100 = VIETmisc.2023		# Vassal isn't being charitable enough
+			#Time
+			100 = VIETmisc.2046		# Overslept
+			100 = VIETmisc.2049		# Noontime hijinks
 			#Hummus
 			100 = VIETmisc.2142		# Hummus varieties
 			100 = VIETmisc.2145		# Not enough hummus makes the throat sore
@@ -412,6 +415,8 @@ on_bi_yearly_pulse = {
 			#Eggs
 			100 = VIETmisc.2017		# House is egged
 			100 = VIETmisc.2018		# Bought a lot of pickled eggs
+			#Time
+			100 = VIETmisc.2047		# Diligent servant
 			#Hummus
 			100 = VIETmisc.2140		# Nice huge (falafel) balls
 			100 = VIETmisc.2141		# New hummus in town
@@ -645,6 +650,8 @@ on_five_year_pulse = {
 			100 = VIETmisc.2015 	# Spinach makes me strong
 			#Dulcinian (Readapted to other religions)
 			100 = VIETmisc.2025		# Would you kill a baby?
+			#Time
+			100 = VIETmisc.2048		# Fire in village
 			#Hummus
 			100 = VIETmisc.2147		# Character is a hummus addict
 			100 = VIETmisc.2148		# Merchant commits fraud by mixing sawdust in hummus

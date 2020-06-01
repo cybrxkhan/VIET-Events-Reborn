@@ -1094,7 +1094,7 @@ character_event = {
 	
 	option = { #okay
 		name = VIETmisc.9039.a
-		hidden_tooltip = { long_character_event = { id = VIETmisc.9040 } }
+		hidden_tooltip = { long_character_event = { id = VIETmisc.9040 days = 30 random = 60 } }
 	}
 }
 
@@ -1109,7 +1109,7 @@ long_character_event = {
 	
 	option = { #okay
 		name = VIETmisc.9040.a
-		hidden_tooltip = { narrative_event = { id = VIETmisc.9041 } }
+		hidden_tooltip = { narrative_event = { id = VIETmisc.9041 days = 30 random = 60 } }
 	}
 }
 
@@ -1139,11 +1139,11 @@ character_event = {
 	
 	option = { #okay
 		name = VIETmisc.9042.a
-		narrative_event = { id = VIETmisc.9043 tooltip = VIETmisc.9043.tooltip }
+		narrative_event = { id = VIETmisc.9043 tooltip = VIETmisc.9043.tooltip days = 10 random = 20 }
 	}
 }
 
-# Character wakes up and starts to show signs of impending death but is at ease and peace
+# Character prepares for death
 narrative_event = {
 	id = VIETmisc.9043
 	title = VIETmisc.9043.title

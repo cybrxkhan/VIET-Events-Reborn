@@ -2739,6 +2739,469 @@ character_event = {
 	}
 }
 
+########################################
+# TIME
+########################################
+
+# The Hourglass - removed because redundant due to new hourglass event
+#character_event = {
+#	id = VIETmisc.2045
+#	desc = VIETmisc.2045.desc
+#	picture = GFX_evt_courtiers_talking
+#	
+#	is_triggered_only = yes
+#	
+#	only_rulers = yes
+#	min_age = 16
+#	capable_only = yes
+#	prisoner = no
+#	war = no
+#	
+#	trigger = {
+#		is_ruler = yes
+#		in_command = no
+#		year = 1200
+#		NOT = { has_character_flag = VIET_has_hourglass }
+#	}
+#	
+#	weight_multiplier = {
+#		days = 1
+#		
+#		modifier = {
+#			factor = 1.2
+#			trait = charitable
+#		}
+#		modifier = {
+#			factor = 0.8
+#			trait = greedy
+#		}
+#		modifier = {
+#			factor = 1.2
+#			trait = kind
+#		}
+#		modifier = {
+#			factor = 0.8
+#			trait = cruel
+#		}
+#		modifier = {
+#			factor = 1.2
+#			trait = slothful
+#		}
+#		modifier = {
+#			factor = 0.8
+#			trait = diligent
+#		}
+#		modifier = {
+#			factor = 1.2
+#			trait = ambitious
+#		}
+#		modifier = {
+#			factor = 0.8
+#			trait = content
+#		}
+#		modifier = {
+#			factor = 1.2
+#			trait = gregarious
+#		}
+#		modifier = {
+#			factor = 0.8
+#			trait = shy
+#		}
+#		modifier = {
+#			factor = 1.2
+#			trait = patient
+#		}
+#		modifier = {
+#			factor = 0.8
+#			trait = wroth
+#		}
+#		modifier = {
+#			factor = 1.2
+#			trait = scholar
+#		}
+#		modifier = {
+#			factor = 0.8
+#			trait = hedonist
+#		}
+#		modifier = {
+#			factor = 0.8
+#			NOT = { year = 1350 }
+#		}
+#	}
+#	
+#	option = {
+#		name = "VIETmisc.2045.a" #ok
+#		set_character_flag = VIET_has_hourglass
+#		add_character_modifier = {
+#			name = VIET_efficient_time
+#			duration = 1111
+#		}
+#	}
+#}
+
+# Overslept
+character_event = {
+	id = VIETmisc.2046
+	desc = VIETmisc.2046.desc
+	picture = GFX_evt_bad_news
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+	}
+	
+	option = {
+		name = "VIETmisc.2046.a" #ok
+		prestige = -3
+	}
+}
+
+# Diligent servant
+character_event = {
+	id = VIETmisc.2047
+	desc = VIETmisc.2047.desc
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = {
+		name = "VIETmisc.2047.a" #ok
+		add_character_modifier = {
+			name = VIET_efficient_time
+			duration = 2222
+		}
+	}
+}
+
+# Fire in village
+character_event = {
+	id = VIETmisc.2048
+	desc = VIETmisc.2048.desc
+	picture = GFX_evt_apocalypto
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	#war = no
+	religion_group = christian #Why???
+	
+	trigger = {
+		in_command = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = {
+		name = "VIETmisc.2048.a" #ok
+		piety = 2
+	}
+	option = {
+		name = "VIETmisc.2048.b" #help
+		wealth = -15
+		piety = 5
+		random_list = {
+			15 = { add_trait = kind }
+			15 = { add_trait = just }
+			10 = { add_trait = humble }
+			60 = {}
+		}
+	}
+}
+
+# Noontime hijinks
+character_event = {
+	id = VIETmisc.2049
+	desc = VIETmisc.2049.desc
+	picture = GFX_evt_apollo_sun
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		month = 4
+		NOT = { month = 9 }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = gardener
+		}
+		modifier = {
+			factor = 0.8
+			trait = scholar
+		}
+	}
+	
+	option = {
+		name = "VIETmisc.2049.a" #ok
+		random = {
+			add_character_modifier = {
+				name = VIET_mild_headaches
+				duration = 365
+			}
+			chance = 25
+		}
+		if = {
+			limit = {
+				trait = diligent
+			}
+			random = {
+				chance = 25
+				remove_trait = diligent
+			}
+		}
+	}
+	option = {
+		name = "VIETmisc.2049.b" #ok
+		tooltip_info = diligent
+		trigger = {
+			trait = diligent
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					name = VIET_mild_headaches
+					duration = 365
+				}			
+			}
+			33 = {
+				health = -0.5
+				add_character_modifier = {
+					name = VIET_mild_headaches
+					duration = 365
+				}			
+			}
+			33 = { }
+		}
+	}
+}
+
 
 ################################
 # HUMMUS
