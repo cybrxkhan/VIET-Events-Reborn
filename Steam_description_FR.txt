@@ -1,4 +1,4 @@
-[h1]Version actuelle : 2.0.11 "Étoile du matin" (Sortie le 31/12/19, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
+[h1]Version actuelle : 2.0.13 "Rhazes" (Sortie le 13/06/20, Compatible avec le Patch 3.X et le DLC Holy Fury)[/h1]
 [b]Consultez [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]le thread du forum[/url] pour plus d'informations.
 Téléchargement direct disponible sur [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]Github[/url].[/b]
 
@@ -35,15 +35,19 @@ Veuillez consulter le fil de discussion du forum pour la liste complète des cr�
 
 [h1]Changelog le plus récent[/h1]
 
-Version 2.0.11 "Étoile du matin"
+Version 2.0.13 "Rhazes"
 
-[I]Le terme "étoile du matin" désigne communément la planète Vénus lorsqu'elle apparaît à l'est avant le lever du soleil.[/I]
+[I]“Le but du médecin est de faire le bien, même à nos ennemis, bien plus encore à nos amis, et ma profession nous interdit de faire du mal à nos semblables, car elle est instituée pour le bénéfice et le bien-être de la race humaine, et Dieu a imposé aux médecins le serment de ne pas composer de remèdes mortifères.”
+
+Rhazes (854 - 925) était un polymathe, alchimiste et médecin persan. Il était l'un des plus grands experts et chercheurs médicaux de son temps, et était également très respecté pour son profond sens de la compassion et de la charité envers tous, y compris les pauvres et les opprimés, qu'il traitait souvent gratuitement. Même après sa mort, ses textes médicaux ont été étudiés pendant des siècles au Moyen-Orient et en Europe.[/I]
 
 [LIST]
-[*]Ajout de 20 événements inspirés par l'Oblivion
-[*]Ajout d'un nouvel événement de clôture potentiel pour l'événement Rêve d'Oblivion
-[*]Ajout d'un nouvel artefact : Recette de vin Shadow Banish
-[*]Ré-ajout de la chaîne d'événements Cinnamon Toast Crunch de l'ancien VIET
-[*]Chances réduites de voir les événements se déclencher (à nouveau)
+[*]Ajout de 9 événements sur le thème de la Médecine
+[*]Ajout de 20 événements sur le thème des épices et herbes
+[*]Réajout des événements de l'ancien VIET : 10 événements sur le thème de la brosse à dents et de l'hygiène bucco-dentaire
+[*]Rééquilibrage des chances de déclenchement des événements de province pour être généralement plus rare
+[*]Modification de la chaîne d'événements d'Amour Perdu pour avoir plus de temps entre certains événements
+[*]Ajout ou diminution de décadence par rapport à plusieurs événements ajoutés précédemment qui n'avaient pas ces effets auparavant
+[*]Réduction des risques d'obetnir des artefacts d'Ostrakon pour toute personne en dehors de l'Europe, du Moyen-Orient, de l'Inde et de la Méditerranée
 [*]Autres corrections de bugs divers
 [/LIST]

@@ -1482,90 +1482,90 @@ VIETmisc.8403.desc;While I am in one of the more distant parts of my realm, I co
 VIETmisc.8403.a;Alas! We are but dust and shadows.;Hélas ! Nous ne sommes que poussière et ombres.;;;;;;;;;;;;x
 VIETmisc.8404.desc;Last night, I had a most wonderful dream! I found myself basking in a realm of infinite light - nothing but light - and saw before me many men and women, some of whom I recognized as my deceased relatives. Even those I did not recognize I knew were my distant ancestors. We neither talked nor interacted directly, and I merely basked in their benevolent presence.;La nuit dernière, j'ai fait un rêve merveilleux ! Je me trouvais dans un royaume de lumière infinie - rien que de la lumière - et je voyais devant moi de nombreux hommes et femmes, dont certains que je reconnaissais comme mes parents décédés. Même ceux que je ne reconnaissais pas, je savais qu'ils étaient mes lointains ancêtres. Nous n'avons ni parlé ni interagi directement, et je me suis simplement reposé en leur présence bienveillante.;;;;;;;;;;x;x
 VIETmisc.8404.a;After I woke up, I felt most blessed.;Après mon réveil, je me suis senti très béni.;;;;;;;;;;;;x
-VIETmisc.8405.desc;The herbs I bought today should help me stay healthy. Per the physician's instructions, I am to drink it daily as a tonic to maintain my health until I run out of it.;;;;;;;;;;;x
-VIETmisc.8405.a;I hope this is a good investment.;;;;;;;;;;;;;x
-VIETmisc.8406.desc;A quack doctor who had been notoriously operating in the area for some time has finally been arrested for selling fraudulent medical concoctions, some known to be deadly. Unlike other physicians who have proper medicinal training on topics like the four humors and herbology, this one is a conman who wants to dupe idiots and take their money.;;;;;;;;;;;x
-VIETmisc.8406.a;Send him to prison immediately!;;;;;;;;;;;;;x
-VIETmisc.8406.b;Force him to drink one of his poisons!;;;;;;;;;;;;;x
-VIETmisc.8406.c;Let him go. I'm sure he learned his lesson.;;;;;;;;;;;;;x
-VIETmisc.8407.desc;I am listening to a debate between two local physicians on the best way to treat a certain medical ailment. Though I don't understand everything they discuss, their expoundings on various medical theories and ideas, such as the four humors, how the various organs of the body work, and what herbs are most effective, are strangely fascinating.;;;;;;;;;;;x
-VIETmisc.8407.a;How learned they must be!;;;;;;;;;;;;;x
-VIETmisc.8407.b;"You're both incorrect. Galen said that if a person is coughing, and blood and bile...";;;;;;;;;;;;;x
-VIETmisc.8408.desc;A learned man is traveling through town to exchange knowledge with the physicians in the area. He is knowledgeable about medical treatments, particularly surgery, and has invited several of us to go see a demonstration of his surgical skills when he operates on a lesser nobleman. It will be a rather squeamish affair, though. Should I attend?;;;;;;;;;;;x
-VIETmisc.8408.a;I've dealt with worse - this sounds educational!;;;;;;;;;;;;;x
-VIETmisc.8408.b;No. A [Root.GetTitle] like me has more pressing concerns.;;;;;;;;;;;;;x
-VIETmisc.8408.c;Perhaps I can even assist his procedure with my skills.;;;;;;;;;;;;;x
-VIETmisc.8409.desc;I overhear one of my servants muttering, "Oh dear, was it two spoons or three?"\n\nWhen I asked her what she was talking about, she tells me she forgot how much medicine she needed to take for her recent stomach pains.;;;;;;;;;;;x
-VIETmisc.8409.a;Uh... no idea myself. Good luck!;;;;;;;;;;;;;x
-VIETmisc.8409.b;You're clearly a moron if you forgot.;;;;;;;;;;;;;x
-VIETmisc.8409.c;Actually, it should be four spoons.;;;;;;;;;;;;;x
-VIETmisc.8410.desc;One of your courtiers accidentally took the wrong medicine. It appeared they confused two different concoctions they were supposed to take at different times and with different doses. One can only hope there are no significant negative side effects to this!;;;;;;;;;;;x
-VIETmisc.8410.a;Oh dear! That sounds unpleasant.;;;;;;;;;;;;;x
-VIETmisc.8411.desc;You are drinking some herbal tea that is meant to be a good health tonic. However, you drink a little too fast and burn your tongue in front of everyone.;;;;;;;;;;;x
-VIETmisc.8411.a;Ouch! But at least it's good for me!;;;;;;;;;;;;;x
-VIETmisc.8412.desc;I overhear a scholar and a merchant debate the merits of quarantines during plagues. The scholar says that wise men and physicians have always advised that those with contagious diseases must be kept away from the healthy. The merchant says isolating communities will destroy business opportunities and render the settlements impotent and weak. What do I think?;;;;;;;;;;;x
-VIETmisc.8412.a;It is a silly idea - how can we live if we all cower in fear, alone?;;;;;;;;;;;;;x
-VIETmisc.8412.b;We need to listen to the scholars' wisdom to survive hardship.;;;;;;;;;;;;;x
-VIETmisc.8412.c;I honestly don't care about this.;;;;;;;;;;;;;x
-VIETmisc.8413.desc;I had a sore throat earlier and took this herbal concoction to make it better, as some suggested to me. Though I'll admit my throat does feel better, the medicine tasted disgusting!;;;;;;;;;;;x
-VIETmisc.8413.a;Ugh! I can't make that taste go away.;;;;;;;;;;;;;x
-VIETmisc.8414.desc;I stopped by the kitchen to see what my cooks were up to. They are preparing some dishes made with panch poron, a spice mix made from five seeds. Unlike other spice mixes, here, the seeds are not ground into powder.;;;;;;;;;;;x
-VIETmisc.8414.a;Carry on.;;;;;;;;;;;;;x
-VIETmisc.8414.b;Don't use that! I prefer powdered spices.;;;;;;;;;;;;;x
-VIETmisc.8415.desc;My servants give me some traditional Armenian stringed cheese, which often has black caraway added to it for taste. It is a good snack.;;;;;;;;;;;x
-VIETmisc.8415.a;Thank you.;;;;;;;;;;;;;x
-VIETmisc.8416.desc;One of my servants was having shortness of breath earlier today for some unknown reason, and it looked serious until another servant, known for being sharp, immediately grabbed some black caraway and made the other servant eat them. The seed is known for helping with cases of shortness of breath, and helped stabilize the ill servant. While the ill servant has gone to the physician to see if anything is wrong, perhaps I should reward my other quick-witted servant?;;;;;;;;;;;x
-VIETmisc.8416.a;These are just mere servants.;;;;;;;;;;;;;x
-VIETmisc.8416.b;Some nice words and a gift will do.;;;;;;;;;;;;;x
-VIETmisc.8416.c;Promote the servant to a full courtier.;;;;;;;;;;;;;x
-VIETmisc.8417.desc;I was gifted some shampoo made from the juice of a plant called the kaffir lime. It is quite popular in the Orient and said to be effective against lice, dandruff, and other things that might bother the hair and scalp.;;;;;;;;;;;x
-VIETmisc.8417.a;A nice gift, and much appreciated.;;;;;;;;;;;;;x
-VIETmisc.8417.b;Perhaps my spouse might like this?;;;;;;;;;;;;;x
-VIETmisc.8417.c;I have a courtier who might want it.;;;;;;;;;;;;;x
-VIETmisc.8418.desc;It is often tradition in parts of the Balkans to season simple dishes, such as cabbage and cucumber, with the dried leaves and seed of the lovage plant to add some flavor. There are some who claim it can turn even these simple vegetables into something delicious! I tried a sample of lovage mixed in vegetables today.;;;;;;;;;;;x
-VIETmisc.8418.a;It was actually quite good!;;;;;;;;;;;;;x
-VIETmisc.8418.b;Bleh! It's just food of the peasants!;;;;;;;;;;;;;x
-VIETmisc.8419.desc;You are visiting an acquaintance’s house and notices she maintains a lot of plants, specifically the mahleb cherry, on her property. It is commonly used for many different breads and desserts in [Root.Culture.GetName] cooking. She says you are welcome to take some back home for your cooks to use.;;;;;;;;;;;x
-VIETmisc.8419.a;Don't mind if I do!;;;;;;;;;;;;;x
-VIETmisc.8419.b;No thanks.;;;;;;;;;;;;;x
-VIETmisc.8420.desc;You are drinking some herbal tea made from the majoram plant. They say it is a symbol of happiness and joy.;;;;;;;;;;;x
-VIETmisc.8420.a;The tea tastes good, too.;;;;;;;;;;;;;x
-VIETmisc.8421.desc;I somehow got myself a lot of mastic. Using it as a chewing gum is said to have many medicinal benefits, on top of reducing any unpleasant odors from my breath.;;;;;;;;;;;x
-VIETmisc.8421.a;It is nice to have.;;;;;;;;;;;;;x
-VIETmisc.8422.desc;The perfumer excitedly shows me his musk perfume. I take a sniff, and note it smells pleasant the way animal musk usually does. Then the perfumer tells me his secret: it is not musk made from animals, but from the oil of the seeds of a medicinal plant, known as the musk mallow, ambrette, or rose mallow. I was fooled there for a good moment!;;;;;;;;;;;x
-VIETmisc.8422.a;A fun idea. I'll buy some!;;;;;;;;;;;;;x
-VIETmisc.8422.b;Let me get some for my spouse.;;;;;;;;;;;;;x
-VIETmisc.8422.c;A nice novelty, but I am not interested.;;;;;;;;;;;;;x
-VIETmisc.8423.desc;The servant asks if I want some mustard seed with my meal.;;;;;;;;;;;x
-VIETmisc.8423.a;No thanks!;;;;;;;;;;;;;x
-VIETmisc.8423.b;A good idea.;;;;;;;;;;;;;x
-VIETmisc.8424.desc;You pass by the market and see a peddler peddling his goods, in particular various spices and herbs. He has a lot of nutmeg this time, and is selling it for a little cheaper than he usually does. When you sample a bit, it is clear that this is real nutmeg and not an attempt at fraud.;;;;;;;;;;;x
-VIETmisc.8424.a;What are we waiting for? I'll buy some!;;;;;;;;;;;;;x
-VIETmisc.8424.b;It's good nutmeg, but I don't need more.;;;;;;;;;;;;;x
-VIETmisc.8425.desc;I was eating some delicious nutmeg flavored sweets when I started feeling unusually ill. My physician said it seems I simply ate too much nutmeg, which in large doses can cause a variety of symptoms.;;;;;;;;;;;x
-VIETmisc.8425.a;Hopefully it goes away soon!;;;;;;;;;;;;;x
-VIETmisc.8426.desc;Someone presented me with a large gift of oregano.;;;;;;;;;;;x
-VIETmisc.8426.a;Looks like we will eat a lot of that for a while.;;;;;;;;;;;;;x
-VIETmisc.8427.desc;I received a gift of some orris oil, made from the orris root. It has a variety of uses. What should I do with it?;;;;;;;;;;;x
-VIETmisc.8427.a;Give it to a perfumer, obviously, to make perfumes.;;;;;;;;;;;;;x
-VIETmisc.8427.b;Allow my cooks use it as tincture to flavor syrup.;;;;;;;;;;;;;x
-VIETmisc.8427.c;Let my physician have access for his herbal medicines.;;;;;;;;;;;;;x
-VIETmisc.8428.desc;We have decorated our hair ornaments with kewra, a fragrance made from the pandan palm.;;;;;;;;;;;x
-VIETmisc.8428.a;It smells nice.;;;;;;;;;;;;;x
-VIETmisc.8429.desc;My cooks have just received a shipment of parsley to use in my food.;;;;;;;;;;;x
-VIETmisc.8429.a;More parsley!;;;;;;;;;;;;;x
-VIETmisc.8430.desc;You have heard that the ancient Greeks held parsley to be paradoxically sacred and evil, for it first sprouted from the blood of one of their heroes according to their legends.;;;;;;;;;;;x
-VIETmisc.8430.a;Come on, that's silly and makes no sense.;;;;;;;;;;;;;x
-VIETmisc.8430.b;Perhaps there is logic behind this.;;;;;;;;;;;;;x
-VIETmisc.8431.desc;I was warned by an elderly servant not to touch or eat parsley. “If you love someone,” she said, “then bad things will happen and ruin your love. Parsley is a useful herb, but it is also evil!”;;;;;;;;;;;x
-VIETmisc.8431.a;Ha, that's just an old wives tale.;;;;;;;;;;;;;x
-VIETmisc.8431.b;Thank you for telling me!;;;;;;;;;;;;;x
-VIETmisc.8432.desc;You happen to pass through the countryside when you encounter a farmer. Curious about what he does, you ask him about what he grows and the land he farms on, and notice there is one spot he avoids. “Too much parsley grows there,” he explains, “and everyone knows that parsley are the herbs that visit hell. ‘tis bad luck.”;;;;;;;;;;;x
-VIETmisc.8432.a;That is very wise of you!;;;;;;;;;;;;;x
-VIETmisc.8432.b;What silly superstition.;;;;;;;;;;;;;x
-VIETmisc.8433.desc;You put too much pepper on your food.;;;;;;;;;;;x
-VIETmisc.8433.a;I'll bear with it.;;;;;;;;;;;;;x
-VIETmisc.8433.b;Don't eat it.;;;;;;;;;;;;;x
+VIETmisc.8405.desc;The herbs I bought today should help me stay healthy. Per the physician's instructions, I am to drink it daily as a tonic to maintain my health until I run out of it.;Les herbes que j'ai achetées aujourd'hui devraient m'aider à rester en bonne santé. Selon les instructions du médecin, je dois en boire quotidiennement comme tonique pour maintenir ma santé jusqu'à ce que je n'en ai plus.;;;;;;;;;;x;x
+VIETmisc.8405.a;I hope this is a good investment.;J'espère que c'est un bon investissement.;;;;;;;;;;;;x
+VIETmisc.8406.desc;A quack doctor who had been notoriously operating in the area for some time has finally been arrested for selling fraudulent medical concoctions, some known to be deadly. Unlike other physicians who have proper medicinal training on topics like the four humors and herbology, this one is a conman who wants to dupe idiots and take their money.;Un médecin charlatan qui opérait notoirement dans la région depuis un certain temps a finalement été arrêté pour avoir vendu des préparations médicales frauduleuses, dont certaines sont connues pour être mortelles. Contrairement à d'autres médecins qui ont une formation médicale appropriée sur des sujets comme les quatre humeurs et l'herbologie, celui-ci est un escroc qui veut tromper des idiots et leur prendre leur argent.;;;;;;;;;;x;x
+VIETmisc.8406.a;Send him to prison immediately!;Envoyez-le en prison immédiatement !;;;;;;;;;;;;x
+VIETmisc.8406.b;Force him to drink one of his poisons!;Obligez-le à boire un de ses poisons !;;;;;;;;;;;;x
+VIETmisc.8406.c;Let him go. I'm sure he learned his lesson.;Laissez-le partir. Je suis sûr qu'il a appris sa leçon.;;;;;;;;;;;;x
+VIETmisc.8407.desc;I am listening to a debate between two local physicians on the best way to treat a certain medical ailment. Though I don't understand everything they discuss, their expoundings on various medical theories and ideas, such as the four humors, how the various organs of the body work, and what herbs are most effective, are strangely fascinating.;J'écoute un débat entre deux médecins locaux sur la meilleure façon de traiter une certaine affection médicale. Bien que je ne comprenne pas tout ce dont ils discutent, leurs exposés sur diverses théories et idées médicales, telles que les quatre humeurs, le fonctionnement des différents organes du corps et les herbes les plus efficaces, sont étrangement fascinants.;;;;;;;;;;x;x
+VIETmisc.8407.a;How learned they must be!;Comme ils doivent être instruits !;;;;;;;;;;;;x
+VIETmisc.8407.b;"You're both incorrect. Galen said that if a person is coughing, and blood and bile...";"Vous avez tous les deux tort. Galen a dit que si une personne tousse, et que le sang et la bile...";;;;;;;;;;;;x
+VIETmisc.8408.desc;A learned man is traveling through town to exchange knowledge with the physicians in the area. He is knowledgeable about medical treatments, particularly surgery, and has invited several of us to go see a demonstration of his surgical skills when he operates on a lesser nobleman. It will be a rather squeamish affair, though. Should I attend?;Un homme cultivé voyage à travers la ville pour échanger des connaissances avec les médecins de la région. Il connaît bien les traitements médicaux, en particulier la chirurgie, et a invité plusieurs d'entre nous à assister à une démonstration de ses compétences chirurgicales lorsqu'il opère un petit noble. Ce sera une affaire plutôt délicate, cependant. Dois-je y assister ?;;;;;;;;;;x;x
+VIETmisc.8408.a;I've dealt with worse - this sounds educational!;J'ai eu affaire à pire - ça a l'air éducatif !;;;;;;;;;;;;x
+VIETmisc.8408.b;No. A [Root.GetTitle] like me has more pressing concerns.;Non. Un [Root.GetTitle] comme moi a des préoccupations plus pressantes.;;;;;;;;;;;;x
+VIETmisc.8408.c;Perhaps I can even assist his procedure with my skills.;Je peux peut-être même l'assister dans sa procédure grâce à mes compétences.;;;;;;;;;;;;x
+VIETmisc.8409.desc;I overhear one of my servants muttering, "Oh dear, was it two spoons or three?"\n\nWhen I asked her what she was talking about, she tells me she forgot how much medicine she needed to take for her recent stomach pains.;J'ai entendu une de mes servantes marmonner : "Oh mon Dieu, était-ce deux cuillères ou trois ?"\n\nQuand je lui ai demandé de quoi elle parlait, elle m'a dit qu'elle avait oublié la quantité de médicaments qu'elle devait prendre pour ses récents maux d'estomac.;;;;;;;;;;x;x
+VIETmisc.8409.a;Uh... no idea myself. Good luck!;Euh... aucune idée moi-même. Bonne chance !;;;;;;;;;;;;x
+VIETmisc.8409.b;You're clearly a moron if you forgot.;Vous êtes clairement une imbécile si vous avez oublié.;;;;;;;;;;;;x
+VIETmisc.8409.c;Actually, it should be four spoons.;En fait, il devrait y avoir quatre cuillères.;;;;;;;;;;;;x
+VIETmisc.8410.desc;One of your courtiers accidentally took the wrong medicine. It appeared they confused two different concoctions they were supposed to take at different times and with different doses. One can only hope there are no significant negative side effects to this!;Un de vos courtisans a accidentellement pris le mauvais médicament. Il semble qu'il ait confondu deux préparations différentes qu'il était censé prendre à des moments différents et avec des doses différentes. On ne peut qu'espérer qu'il n'y ait pas d'effets secondaires négatifs importants à cela !;;;;;;;;;;x;x
+VIETmisc.8410.a;Oh dear! That sounds unpleasant.;Oh, mon Dieu ! Cela semble désagréable.;;;;;;;;;;;;x
+VIETmisc.8411.desc;You are drinking some herbal tea that is meant to be a good health tonic. However, you drink a little too fast and burn your tongue in front of everyone.;Vous buvez une tisane qui est censée être un bon tonique pour la santé. Cependant, vous buvez un peu trop vite et vous vous brûlez la langue devant tout le monde.;;;;;;;;;;x;x
+VIETmisc.8411.a;Ouch! But at least it's good for me!;Aïe ! Mais au moins, c'est bon pour moi !;;;;;;;;;;;;x
+VIETmisc.8412.desc;I overhear a scholar and a merchant debate the merits of quarantines during plagues. The scholar says that wise men and physicians have always advised that those with contagious diseases must be kept away from the healthy. The merchant says isolating communities will destroy business opportunities and render the settlements impotent and weak. What do I think?;J'entends un érudit et un commerçant débattre des mérites des quarantaines lors de pestes. L'érudit dit que les sages et les médecins ont toujours conseillé de tenir les personnes atteintes de maladies contagieuses à l'écart des personnes en bonne santé. Le commerçant dit que l'isolement des communautés détruira les opportunités commerciales et rendra les colonies impuissantes et faibles. Qu'est-ce que j'en pense ?;;;;;;;;;;x;x
+VIETmisc.8412.a;It is a silly idea - how can we live if we all cower in fear, alone?;C'est une idée stupide - comment pouvons-nous vivre si nous nous cachons tous dans la peur, seuls ?;;;;;;;;;;;;x
+VIETmisc.8412.b;We need to listen to the scholars' wisdom to survive hardship.;Nous devons écouter la sagesse des universitaires pour survivre aux difficultés.;;;;;;;;;;;;x
+VIETmisc.8412.c;I honestly don't care about this.;Honnêtement, cela ne m'intéresse pas.;;;;;;;;;;;;x
+VIETmisc.8413.desc;I had a sore throat earlier and took this herbal concoction to make it better, as some suggested to me. Though I'll admit my throat does feel better, the medicine tasted disgusting!;J'avais mal à la gorge tout à l'heure et j'ai pris ce mélange de plantes pour me soigner, comme certains me l'ont suggéré. J'admets que ma gorge va mieux, mais le médicament avait un goût dégoûtant !;;;;;;;;;;x;x
+VIETmisc.8413.a;Ugh! I can't make that taste go away.;Ugh ! Je ne peux pas faire disparaître ce goût.;;;;;;;;;;;;x
+VIETmisc.8414.desc;I stopped by the kitchen to see what my cooks were up to. They are preparing some dishes made with panch poron, a spice mix made from five seeds. Unlike other spice mixes, here, the seeds are not ground into powder.;Je me suis arrêté à la cuisine pour voir ce que mes cuisiniers faisaient. Ils préparent des plats à base de panch poron, un mélange d'épices fait à partir de cinq graines. Contrairement à d'autres mélanges d'épices, ici, les graines ne sont pas réduites en poudre.;;;;;;;;;;x;x
+VIETmisc.8414.a;Carry on.;Continuez.;;;;;;;;;;;;x
+VIETmisc.8414.b;Don't use that! I prefer powdered spices.;N'utilisez pas cela ! Je préfère les épices en poudre.;;;;;;;;;;;;x
+VIETmisc.8415.desc;My servants give me some traditional Armenian stringed cheese, which often has black caraway added to it for taste. It is a good snack.;Mes serviteurs me donnent du fromage arménien traditionnel à cordes, auquel on ajoute souvent du carvi noir pour le goût. C'est un bon en-cas.;;;;;;;;;;x;x
+VIETmisc.8415.a;Thank you.;Je vous remercie.;;;;;;;;;;;;x
+VIETmisc.8416.desc;One of my servants was having shortness of breath earlier today for some unknown reason, and it looked serious until another servant, known for being sharp, immediately grabbed some black caraway and made the other servant eat them. The seed is known for helping with cases of shortness of breath, and helped stabilize the ill servant. While the ill servant has gone to the physician to see if anything is wrong, perhaps I should reward my other quick-witted servant?;Un de mes serviteurs avait le souffle court plus tôt dans la journée pour une raison inconnue, et cela semblait grave jusqu'à ce qu'un autre serviteur, connu pour être vif, attrape immédiatement du cumin noir et en fasse manger à l'autre serviteur. La graine est connue pour aider dans les cas d'essoufflement, et a aidé à stabiliser le serviteur malade. Alors que le serviteur malade est allé voir le médecin pour voir si quelque chose ne va pas, peut-être devrais-je récompenser mon autre serviteur à l'esprit vif ?;;;;;;;;;;x;x
+VIETmisc.8416.a;These are just mere servants.;Ce ne sont que de simples serviteurs.;;;;;;;;;;;;x
+VIETmisc.8416.b;Some nice words and a gift will do.;Quelques belles paroles et un cadeau feront l'affaire.;;;;;;;;;;;;x
+VIETmisc.8416.c;Promote the servant to a full courtier.;Promouvoir le serviteur au rang de courtisan à part entière.;;;;;;;;;;;;x
+VIETmisc.8417.desc;I was gifted some shampoo made from the juice of a plant called the kaffir lime. It is quite popular in the Orient and said to be effective against lice, dandruff, and other things that might bother the hair and scalp.;On m'a offert un shampoing fait à partir du jus d'une plante appelée le citron vert kaffir. Il est très populaire en Orient et on dit qu'il est efficace contre les poux, les pellicules et d'autres choses qui peuvent gêner les cheveux et le cuir chevelu.;;;;;;;;;;x;x
+VIETmisc.8417.a;A nice gift, and much appreciated.;Un beau cadeau, et très apprécié.;;;;;;;;;;;;x
+VIETmisc.8417.b;Perhaps my spouse might like this?;Peut-être que cela plaira à mon conjoint ?;;;;;;;;;;;;x
+VIETmisc.8417.c;I have a courtier who might want it.;J'ai un courtisan qui pourrait le vouloir.;;;;;;;;;;;;x
+VIETmisc.8418.desc;It is often tradition in parts of the Balkans to season simple dishes, such as cabbage and cucumber, with the dried leaves and seed of the lovage plant to add some flavor. There are some who claim it can turn even these simple vegetables into something delicious! I tried a sample of lovage mixed in vegetables today.;Dans certaines régions des Balkans, il est souvent de tradition d'assaisonner des plats simples, comme le chou et le concombre, avec les feuilles et les graines séchées de la livèche pour ajouter un peu de saveur. Certains prétendent que même ces simples légumes peuvent devenir délicieux ! J'ai essayé un échantillon de saucisse mélangée à des légumes aujourd'hui.;;;;;;;;;;x;x
+VIETmisc.8418.a;It was actually quite good!;C'était en fait assez bon !;;;;;;;;;;;;x
+VIETmisc.8418.b;Bleh! It's just food of the peasants!;Bleh ! Ce n'est que la nourriture des paysans !;;;;;;;;;;;;x
+VIETmisc.8419.desc;You are visiting an acquaintance’s house and notices she maintains a lot of plants, specifically the mahleb cherry, on her property. It is commonly used for many different breads and desserts in [Root.Culture.GetName] cooking. She says you are welcome to take some back home for your cooks to use.;Vous visitez la maison d'une connaissance et vous remarquez qu'elle entretient beaucoup de plantes, en particulier le cerisier de mahleb, sur sa propriété. Elle est couramment utilisée pour de nombreux pains et desserts différents dans la cuisine [Root.Culture.GetName]. Elle dit que vous pouvez en rapporter chez vous pour que vos cuisiniers puissent s'en servir.;;;;;;;;;;x;x
+VIETmisc.8419.a;Don't mind if I do!;N'y voyez pas d'inconvénient !;;;;;;;;;;;;x
+VIETmisc.8419.b;No thanks.;Non merci.;;;;;;;;;;;;x
+VIETmisc.8420.desc;You are drinking some herbal tea made from the majoram plant. They say it is a symbol of happiness and joy.;Vous buvez une tisane à base de la plante majoram. On dit que c'est un symbole de bonheur et de joie.;;;;;;;;;;x;x
+VIETmisc.8420.a;The tea tastes good, too.;Le thé a aussi bon goût.;;;;;;;;;;;;x
+VIETmisc.8421.desc;I somehow got myself a lot of mastic. Using it as a chewing gum is said to have many medicinal benefits, on top of reducing any unpleasant odors from my breath.;Je me suis en quelque sorte procuré beaucoup de mastic. L'utiliser comme chewing-gum aurait de nombreux avantages médicaux, en plus de réduire les odeurs désagréables de mon haleine.;;;;;;;;;;x;x
+VIETmisc.8421.a;It is nice to have.;C'est agréable à avoir.;;;;;;;;;;;;x
+VIETmisc.8422.desc;The perfumer excitedly shows me his musk perfume. I take a sniff, and note it smells pleasant the way animal musk usually does. Then the perfumer tells me his secret: it is not musk made from animals, but from the oil of the seeds of a medicinal plant, known as the musk mallow, ambrette, or rose mallow. I was fooled there for a good moment!;Le parfumeur me montre avec enthousiasme son parfum de musc. Je le renifle, et je note qu'il sent bon comme le musc animal le fait habituellement. Puis le parfumeur me révèle son secret : ce n'est pas du musc animal, mais de l'huile de graines d'une plante médicinale, connue sous le nom de mauve musquée, d'ambrette ou de mauve rose. J'ai été dupé pendant un bon moment !;;;;;;;;;;x;x
+VIETmisc.8422.a;A fun idea. I'll buy some!;Une idée amusante. Je vais en acheter !;;;;;;;;;;;;x
+VIETmisc.8422.b;Let me get some for my spouse.;Je vais en chercher pour mon conjoint.;;;;;;;;;;;;x
+VIETmisc.8422.c;A nice novelty, but I am not interested.;Une belle nouveauté, mais qui ne m'intéresse pas.;;;;;;;;;;;;x
+VIETmisc.8423.desc;The servant asks if I want some mustard seed with my meal.;Le serviteur me demande si je veux de la graine de moutarde avec mon repas.;;;;;;;;;;x;x
+VIETmisc.8423.a;No thanks!;Non merci !;;;;;;;;;;;;x
+VIETmisc.8423.b;A good idea.;Une bonne idée.;;;;;;;;;;;;x
+VIETmisc.8424.desc;You pass by the market and see a peddler peddling his goods, in particular various spices and herbs. He has a lot of nutmeg this time, and is selling it for a little cheaper than he usually does. When you sample a bit, it is clear that this is real nutmeg and not an attempt at fraud.;Vous passez devant le marché et vous voyez un colporteur qui vend ses marchandises, en particulier diverses épices et herbes. Il a beaucoup de noix de muscade cette fois-ci, et la vend un peu moins cher que d'habitude. Lorsque vous goûtez un peu, il est clair qu'il s'agit d'une véritable noix de muscade et non d'une tentative de fraude.;;;;;;;;;;x;x
+VIETmisc.8424.a;What are we waiting for? I'll buy some!;Qu'attendons-nous ? Je vais en acheter !;;;;;;;;;;;;x
+VIETmisc.8424.b;It's good nutmeg, but I don't need more.;C'est de la bonne noix de muscade, mais je n'en ai pas besoin de plus.;;;;;;;;;;;;x
+VIETmisc.8425.desc;I was eating some delicious nutmeg flavored sweets when I started feeling unusually ill. My physician said it seems I simply ate too much nutmeg, which in large doses can cause a variety of symptoms.;Je mangeais de délicieuses sucreries à la noix de muscade lorsque j'ai commencé à me sentir exceptionnellement malade. Mon médecin m'a dit qu'il semble que je mangeais simplement trop de noix de muscade, qui, à fortes doses, peut provoquer divers symptômes.;;;;;;;;;;x;x
+VIETmisc.8425.a;Hopefully it goes away soon!;Espérons que cela disparaîtra bientôt !;;;;;;;;;;;;x
+VIETmisc.8426.desc;Someone presented me with a large gift of oregano.;Quelqu'un m'a offert un grand cadeau d'origan.;;;;;;;;;;x;x
+VIETmisc.8426.a;Looks like we will eat a lot of that for a while.;Il semble que nous allons en manger beaucoup pendant un certain temps.;;;;;;;;;;;;x
+VIETmisc.8427.desc;I received a gift of some orris oil, made from the orris root. It has a variety of uses. What should I do with it?;J'ai reçu en cadeau une huile d'orris, fabriquée à partir de la racine d'orris. Elle a de multiples usages. Que dois-je en faire ?;;;;;;;;;;x;x
+VIETmisc.8427.a;Give it to a perfumer, obviously, to make perfumes.;Le donner à un parfumeur, évidemment, pour faire des parfums.;;;;;;;;;;;;x
+VIETmisc.8427.b;Allow my cooks use it as tincture to flavor syrup.;Permettez à mes cuisiniers de l'utiliser comme teinture pour parfumer le sirop.;;;;;;;;;;;;x
+VIETmisc.8427.c;Let my physician have access for his herbal medicines.;Permettez à mon médecin d'avoir accès à ses médicaments à base de plantes.;;;;;;;;;;;;x
+VIETmisc.8428.desc;We have decorated our hair ornaments with kewra, a fragrance made from the pandan palm.;Nous avons décoré nos parures de cheveux avec du kewra, un parfum fabriqué à partir du palmier de pandan.;;;;;;;;;;x;x
+VIETmisc.8428.a;It smells nice.;Ça sent bon.;;;;;;;;;;;;x
+VIETmisc.8429.desc;My cooks have just received a shipment of parsley to use in my food.;Mes cuisiniers viennent de recevoir une cargaison de persil à utiliser dans mon alimentation.;;;;;;;;;;x;x
+VIETmisc.8429.a;More parsley!;Plus de persil !;;;;;;;;;;;;x
+VIETmisc.8430.desc;You have heard that the ancient Greeks held parsley to be paradoxically sacred and evil, for it first sprouted from the blood of one of their heroes according to their legends.;Vous avez entendu dire que les Grecs anciens considéraient le persil comme paradoxalement sacré et maléfique, car il a d'abord germé du sang d'un de leurs héros selon leurs légendes.;;;;;;;;;;x;x
+VIETmisc.8430.a;Come on, that's silly and makes no sense.;Allons, c'est idiot et n'a aucun sens.;;;;;;;;;;;;x
+VIETmisc.8430.b;Perhaps there is logic behind this.;Peut-être y a-t-il une logique derrière tout cela.;;;;;;;;;;;;x
+VIETmisc.8431.desc;I was warned by an elderly servant not to touch or eat parsley. “If you love someone,” she said, “then bad things will happen and ruin your love. Parsley is a useful herb, but it is also evil!”;Une vieille servante m'a averti de ne pas toucher ni manger de persil. "Si vous aimez quelqu'un", disait-elle, "alors de mauvaises choses arriveront et ruineront votre amour. Le persil est une herbe utile, mais elle est aussi mauvaise !";;;;;;;;;;x;x
+VIETmisc.8431.a;Ha, that's just an old wives tale.;Ha, c'est juste un conte de vieilles femmes.;;;;;;;;;;;;x
+VIETmisc.8431.b;Thank you for telling me!;Merci de me le dire !;;;;;;;;;;;;x
+VIETmisc.8432.desc;You happen to pass through the countryside when you encounter a farmer. Curious about what he does, you ask him about what he grows and the land he farms on, and notice there is one spot he avoids. “Too much parsley grows there,” he explains, “and everyone knows that parsley are the herbs that visit hell. ‘tis bad luck.”;Il vous arrive de traverser la campagne lorsque vous rencontrez un agriculteur. Curieux de savoir ce qu'il fait, vous lui demandez ce qu'il cultive et les terres qu'il exploite, et vous remarquez qu'il y a un endroit qu'il évite. "Trop de persil y pousse", explique-t-il, "et tout le monde sait que le persil est une herbe qui visite l'enfer. Ça porte malheur".;;;;;;;;;;x;x
+VIETmisc.8432.a;That is very wise of you!;C'est très sage de votre part !;;;;;;;;;;;;x
+VIETmisc.8432.b;What silly superstition.;Quelle stupide superstition.;;;;;;;;;;;;x
+VIETmisc.8433.desc;You put too much pepper on your food.;Vous mettez trop de poivre sur votre nourriture.;;;;;;;;;;x;x
+VIETmisc.8433.a;I'll bear with it.;Je le supporterai.;;;;;;;;;;;;x
+VIETmisc.8433.b;Don't eat it.;Ne le mangez pas.;;;;;;;;;;;;x
 VIETmisc.8434.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8434.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8435.desc;xxxxx;;;;;;;;;;;x
