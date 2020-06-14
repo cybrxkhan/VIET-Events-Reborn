@@ -1,4 +1,8 @@
-name = "VIET Events"
-path = "mod/VIET Events"
-picture = "VIET Events Reborn.jpg"
-tags = { "History" "Events" "Characters" "Flavor" "Immersion" "VIET" "cybrxkhan" "I'm a tag" "Baklava" }
+	name="VIET Events Reborn - A Flavor Event Mod"
+	path="mod/VIET Events"
+	tags=
+	{
+		History Events Characters Flavor Immersion VIET cybrxkhan I'm a tag Baklava 
+	}
+	picture="VIET Events Reborn.jpg"
+

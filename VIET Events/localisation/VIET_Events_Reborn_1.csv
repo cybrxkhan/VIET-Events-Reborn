@@ -1482,64 +1482,90 @@ VIETmisc.8403.desc;While I am in one of the more distant parts of my realm, I co
 VIETmisc.8403.a;Alas! We are but dust and shadows.;;;;;;;;;;;;;x
 VIETmisc.8404.desc;Last night, I had a most wonderful dream! I found myself basking in a realm of infinite light - nothing but light - and saw before me many men and women, some of whom I recognized as my deceased relatives. Even those I did not recognize I knew were my distant ancestors. We neither talked nor interacted directly, and I merely basked in their benevolent presence.;;;;;;;;;;;x
 VIETmisc.8404.a;After I woke up, I felt most blessed.;;;;;;;;;;;;;x
-VIETmisc.8405.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8405.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8406.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8406.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8407.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8407.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8408.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8408.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8409.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8409.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8410.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8410.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8411.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8411.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8412.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8412.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8413.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8413.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8414.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8414.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8415.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8415.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8416.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8416.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8417.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8417.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8418.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8418.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8419.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8419.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8420.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8420.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8421.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8421.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8422.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8422.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8423.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8423.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8424.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8424.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8425.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8425.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8426.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8426.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8427.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8427.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8428.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8428.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8429.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8429.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8430.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8430.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8431.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8431.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8432.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8432.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8433.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8433.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8405.desc;The herbs I bought today should help me stay healthy. Per the physician's instructions, I am to drink it daily as a tonic to maintain my health until I run out of it.;;;;;;;;;;;x
+VIETmisc.8405.a;I hope this is a good investment.;;;;;;;;;;;;;x
+VIETmisc.8406.desc;A quack doctor who had been notoriously operating in the area for some time has finally been arrested for selling fraudulent medical concoctions, some known to be deadly. Unlike other physicians who have proper medicinal training on topics like the four humors and herbology, this one is a conman who wants to dupe idiots and take their money.;;;;;;;;;;;x
+VIETmisc.8406.a;Send him to prison immediately!;;;;;;;;;;;;;x
+VIETmisc.8406.b;Force him to drink one of his poisons!;;;;;;;;;;;;;x
+VIETmisc.8406.c;Let him go. I'm sure he learned his lesson.;;;;;;;;;;;;;x
+VIETmisc.8407.desc;I am listening to a debate between two local physicians on the best way to treat a certain medical ailment. Though I don't understand everything they discuss, their expoundings on various medical theories and ideas, such as the four humors, how the various organs of the body work, and what herbs are most effective, are strangely fascinating.;;;;;;;;;;;x
+VIETmisc.8407.a;How learned they must be!;;;;;;;;;;;;;x
+VIETmisc.8407.b;"You're both incorrect. Galen said that if a person is coughing, and blood and bile...";;;;;;;;;;;;;x
+VIETmisc.8408.desc;A learned man is traveling through town to exchange knowledge with the physicians in the area. He is knowledgeable about medical treatments, particularly surgery, and has invited several of us to go see a demonstration of his surgical skills when he operates on a lesser nobleman. It will be a rather squeamish affair, though. Should I attend?;;;;;;;;;;;x
+VIETmisc.8408.a;I've dealt with worse - this sounds educational!;;;;;;;;;;;;;x
+VIETmisc.8408.b;No. A [Root.GetTitle] like me has more pressing concerns.;;;;;;;;;;;;;x
+VIETmisc.8408.c;Perhaps I can even assist his procedure with my skills.;;;;;;;;;;;;;x
+VIETmisc.8409.desc;I overhear one of my servants muttering, "Oh dear, was it two spoons or three?"\n\nWhen I asked her what she was talking about, she tells me she forgot how much medicine she needed to take for her recent stomach pains.;;;;;;;;;;;x
+VIETmisc.8409.a;Uh... no idea myself. Good luck!;;;;;;;;;;;;;x
+VIETmisc.8409.b;You're clearly a moron if you forgot.;;;;;;;;;;;;;x
+VIETmisc.8409.c;Actually, it should be four spoons.;;;;;;;;;;;;;x
+VIETmisc.8410.desc;One of your courtiers accidentally took the wrong medicine. It appeared they confused two different concoctions they were supposed to take at different times and with different doses. One can only hope there are no significant negative side effects to this!;;;;;;;;;;;x
+VIETmisc.8410.a;Oh dear! That sounds unpleasant.;;;;;;;;;;;;;x
+VIETmisc.8411.desc;You are drinking some herbal tea that is meant to be a good health tonic. However, you drink a little too fast and burn your tongue in front of everyone.;;;;;;;;;;;x
+VIETmisc.8411.a;Ouch! But at least it's good for me!;;;;;;;;;;;;;x
+VIETmisc.8412.desc;I overhear a scholar and a merchant debate the merits of quarantines during plagues. The scholar says that wise men and physicians have always advised that those with contagious diseases must be kept away from the healthy. The merchant says isolating communities will destroy business opportunities and render the settlements impotent and weak. What do I think?;;;;;;;;;;;x
+VIETmisc.8412.a;It is a silly idea - how can we live if we all cower in fear, alone?;;;;;;;;;;;;;x
+VIETmisc.8412.b;We need to listen to the scholars' wisdom to survive hardship.;;;;;;;;;;;;;x
+VIETmisc.8412.c;I honestly don't care about this.;;;;;;;;;;;;;x
+VIETmisc.8413.desc;I had a sore throat earlier and took this herbal concoction to make it better, as some suggested to me. Though I'll admit my throat does feel better, the medicine tasted disgusting!;;;;;;;;;;;x
+VIETmisc.8413.a;Ugh! I can't make that taste go away.;;;;;;;;;;;;;x
+VIETmisc.8414.desc;I stopped by the kitchen to see what my cooks were up to. They are preparing some dishes made with panch poron, a spice mix made from five seeds. Unlike other spice mixes, here, the seeds are not ground into powder.;;;;;;;;;;;x
+VIETmisc.8414.a;Carry on.;;;;;;;;;;;;;x
+VIETmisc.8414.b;Don't use that! I prefer powdered spices.;;;;;;;;;;;;;x
+VIETmisc.8415.desc;My servants give me some traditional Armenian stringed cheese, which often has black caraway added to it for taste. It is a good snack.;;;;;;;;;;;x
+VIETmisc.8415.a;Thank you.;;;;;;;;;;;;;x
+VIETmisc.8416.desc;One of my servants was having shortness of breath earlier today for some unknown reason, and it looked serious until another servant, known for being sharp, immediately grabbed some black caraway and made the other servant eat them. The seed is known for helping with cases of shortness of breath, and helped stabilize the ill servant. While the ill servant has gone to the physician to see if anything is wrong, perhaps I should reward my other quick-witted servant?;;;;;;;;;;;x
+VIETmisc.8416.a;These are just mere servants.;;;;;;;;;;;;;x
+VIETmisc.8416.b;Some nice words and a gift will do.;;;;;;;;;;;;;x
+VIETmisc.8416.c;Promote the servant to a full courtier.;;;;;;;;;;;;;x
+VIETmisc.8417.desc;I was gifted some shampoo made from the juice of a plant called the kaffir lime. It is quite popular in the Orient and said to be effective against lice, dandruff, and other things that might bother the hair and scalp.;;;;;;;;;;;x
+VIETmisc.8417.a;A nice gift, and much appreciated.;;;;;;;;;;;;;x
+VIETmisc.8417.b;Perhaps my spouse might like this?;;;;;;;;;;;;;x
+VIETmisc.8417.c;I have a courtier who might want it.;;;;;;;;;;;;;x
+VIETmisc.8418.desc;It is often tradition in parts of the Balkans to season simple dishes, such as cabbage and cucumber, with the dried leaves and seed of the lovage plant to add some flavor. There are some who claim it can turn even these simple vegetables into something delicious! I tried a sample of lovage mixed in vegetables today.;;;;;;;;;;;x
+VIETmisc.8418.a;It was actually quite good!;;;;;;;;;;;;;x
+VIETmisc.8418.b;Bleh! It's just food of the peasants!;;;;;;;;;;;;;x
+VIETmisc.8419.desc;You are visiting an acquaintance’s house and notices she maintains a lot of plants, specifically the mahleb cherry, on her property. It is commonly used for many different breads and desserts in [Root.Culture.GetName] cooking. She says you are welcome to take some back home for your cooks to use.;;;;;;;;;;;x
+VIETmisc.8419.a;Don't mind if I do!;;;;;;;;;;;;;x
+VIETmisc.8419.b;No thanks.;;;;;;;;;;;;;x
+VIETmisc.8420.desc;You are drinking some herbal tea made from the majoram plant. They say it is a symbol of happiness and joy.;;;;;;;;;;;x
+VIETmisc.8420.a;The tea tastes good, too.;;;;;;;;;;;;;x
+VIETmisc.8421.desc;I somehow got myself a lot of mastic. Using it as a chewing gum is said to have many medicinal benefits, on top of reducing any unpleasant odors from my breath.;;;;;;;;;;;x
+VIETmisc.8421.a;It is nice to have.;;;;;;;;;;;;;x
+VIETmisc.8422.desc;The perfumer excitedly shows me his musk perfume. I take a sniff, and note it smells pleasant the way animal musk usually does. Then the perfumer tells me his secret: it is not musk made from animals, but from the oil of the seeds of a medicinal plant, known as the musk mallow, ambrette, or rose mallow. I was fooled there for a good moment!;;;;;;;;;;;x
+VIETmisc.8422.a;A fun idea. I'll buy some!;;;;;;;;;;;;;x
+VIETmisc.8422.b;Let me get some for my spouse.;;;;;;;;;;;;;x
+VIETmisc.8422.c;A nice novelty, but I am not interested.;;;;;;;;;;;;;x
+VIETmisc.8423.desc;The servant asks if I want some mustard seed with my meal.;;;;;;;;;;;x
+VIETmisc.8423.a;No thanks!;;;;;;;;;;;;;x
+VIETmisc.8423.b;A good idea.;;;;;;;;;;;;;x
+VIETmisc.8424.desc;You pass by the market and see a peddler peddling his goods, in particular various spices and herbs. He has a lot of nutmeg this time, and is selling it for a little cheaper than he usually does. When you sample a bit, it is clear that this is real nutmeg and not an attempt at fraud.;;;;;;;;;;;x
+VIETmisc.8424.a;What are we waiting for? I'll buy some!;;;;;;;;;;;;;x
+VIETmisc.8424.b;It's good nutmeg, but I don't need more.;;;;;;;;;;;;;x
+VIETmisc.8425.desc;I was eating some delicious nutmeg flavored sweets when I started feeling unusually ill. My physician said it seems I simply ate too much nutmeg, which in large doses can cause a variety of symptoms.;;;;;;;;;;;x
+VIETmisc.8425.a;Hopefully it goes away soon!;;;;;;;;;;;;;x
+VIETmisc.8426.desc;Someone presented me with a large gift of oregano.;;;;;;;;;;;x
+VIETmisc.8426.a;Looks like we will eat a lot of that for a while.;;;;;;;;;;;;;x
+VIETmisc.8427.desc;I received a gift of some orris oil, made from the orris root. It has a variety of uses. What should I do with it?;;;;;;;;;;;x
+VIETmisc.8427.a;Give it to a perfumer, obviously, to make perfumes.;;;;;;;;;;;;;x
+VIETmisc.8427.b;Allow my cooks use it as tincture to flavor syrup.;;;;;;;;;;;;;x
+VIETmisc.8427.c;Let my physician have access for his herbal medicines.;;;;;;;;;;;;;x
+VIETmisc.8428.desc;We have decorated our hair ornaments with kewra, a fragrance made from the pandan palm.;;;;;;;;;;;x
+VIETmisc.8428.a;It smells nice.;;;;;;;;;;;;;x
+VIETmisc.8429.desc;My cooks have just received a shipment of parsley to use in my food.;;;;;;;;;;;x
+VIETmisc.8429.a;More parsley!;;;;;;;;;;;;;x
+VIETmisc.8430.desc;You have heard that the ancient Greeks held parsley to be paradoxically sacred and evil, for it first sprouted from the blood of one of their heroes according to their legends.;;;;;;;;;;;x
+VIETmisc.8430.a;Come on, that's silly and makes no sense.;;;;;;;;;;;;;x
+VIETmisc.8430.b;Perhaps there is logic behind this.;;;;;;;;;;;;;x
+VIETmisc.8431.desc;I was warned by an elderly servant not to touch or eat parsley. “If you love someone,” she said, “then bad things will happen and ruin your love. Parsley is a useful herb, but it is also evil!”;;;;;;;;;;;x
+VIETmisc.8431.a;Ha, that's just an old wives tale.;;;;;;;;;;;;;x
+VIETmisc.8431.b;Thank you for telling me!;;;;;;;;;;;;;x
+VIETmisc.8432.desc;You happen to pass through the countryside when you encounter a farmer. Curious about what he does, you ask him about what he grows and the land he farms on, and notice there is one spot he avoids. “Too much parsley grows there,” he explains, “and everyone knows that parsley are the herbs that visit hell. ‘tis bad luck.”;;;;;;;;;;;x
+VIETmisc.8432.a;That is very wise of you!;;;;;;;;;;;;;x
+VIETmisc.8432.b;What silly superstition.;;;;;;;;;;;;;x
+VIETmisc.8433.desc;You put too much pepper on your food.;;;;;;;;;;;x
+VIETmisc.8433.a;I'll bear with it.;;;;;;;;;;;;;x
+VIETmisc.8433.b;Don't eat it.;;;;;;;;;;;;;x
 VIETmisc.8434.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8434.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8435.desc;xxxxx;;;;;;;;;;;x

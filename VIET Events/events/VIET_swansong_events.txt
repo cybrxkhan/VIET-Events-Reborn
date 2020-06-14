@@ -192,7 +192,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 3000
+		months = 8000
 		modifier = {
 			factor = 3
 			OR = {
@@ -329,7 +329,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 4000
+		months = 8000
 		modifier = {
 			owner = {
 				war = yes
@@ -2316,7 +2316,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 6000
+		months = 10000
 		modifier = {
 			OR = {
 				culture_group = serindian # exists in WtWSMS
@@ -2396,7 +2396,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 6000
+		months = 10000
 	}
 
 	option = {#yes
@@ -2449,7 +2449,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 5000
+		months = 10000
 	}
 
 	immediate = {
@@ -3538,7 +3538,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 10000
+		months = 15000
 	}
 
 	option = {#yes
