@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.12 "Death" (Released 5/31/20, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.13 "Rhazes" (Released 6/13/20, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,23 +38,20 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.12 "Death"
+Version 2.0.13 "Rhazes"
 
-[I]Strange—is it not?—that of the myriads who
-Before us passed the door of Darkness through,
-Not one returns to tell us of the road
-Which to discover we must travel too.
-- Omar Khayyam[/I]
+[I]“The doctor's aim is to do good, even to our enemies, so much more to our friends, and my profession forbids us to do harm to our kindred, as it is instituted for the benefit and welfare of the human race, and God imposed on physicians the oath not to compose mortiferous remedies.”
+
+Rhazes (854 CE - 925 CE) was a Persian polymath, alchemist, and physician. As one of the topmost medical experts and researchers of his day, who was also widely respected for his deep sense of compassion and charity to everyone, including the poor and downtrodden, whom he often treated for free. Even after his death, his medical texts were studied for centuries in the Middle East and Europe.[/I]
 
 [LIST]
-[*]Added 52 Death themed events
-[*]Added 2 event chains: Lost Love and Dream of the Final Journey
-[*]Re-added events from old VIET: 4 time themed events
-[*]Added a few new event pictures
-[*]Fixed missing French localization I forgot to add in half a year ago
-[*]Fixed a few province events’ localization saying prosperity will be decreased when it is actually the opposite
-[*]Fixed Cinnamon Toast Crunch event chain triggering if Serious game rule is turned on
-[*]Fixed Nine Divines road travel dialogue event not triggering properly
-[*]Miscellaneous minor typos and bugfixes
+[*]Added 9 Medicine themed events
+[*]Added 20 Spices and Herbs themed events
+[*]Re-Added events from old VIET: 10 toothbrush and oral hygiene themed events
+[*]Rebalanced chances of province events triggering to be generally rarer
+[*]Tweaked Lost Love event chain to have more time between some of the events
+[*]Added decadence increases or decreases to several previously added events that didn’t have these effects before
+[*]Reduced chances of Ostrakon artifact event firing for anybody outside of Europe, the Middle East, India, and the Mediterranean
+[*]Miscellaneous bugfixes
 [/LIST]
 
