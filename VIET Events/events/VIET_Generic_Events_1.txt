@@ -3406,7 +3406,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 9000
+		months = 12500
 		modifier = {
 			factor = 1.5
 			NOT = { num_of_max_settlements = 5 }
@@ -3420,14 +3420,6 @@ province_event = {
 			NOR = {
 				region = world_middle_east
 				region = world_persia
-			}
-		}
-		modifier = {
-			factor = 0.9
-			owner = {
-				any_demesne_province = {
-					
-				}
 			}
 		}
 	}

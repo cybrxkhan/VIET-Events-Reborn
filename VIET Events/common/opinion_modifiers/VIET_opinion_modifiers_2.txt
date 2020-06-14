@@ -118,3 +118,9 @@ VIET_opinion_didnt_believe_me = {
 VIET_opinion_believes_me = {
 	opinion = 5
 }
+VIET_opinion_kaffir_lime_shampoo_gift = {
+	opinion = 5
+}
+VIET_opinion_musk_mallow_gift = {
+	opinion = 5
+}

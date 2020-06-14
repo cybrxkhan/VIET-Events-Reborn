@@ -733,7 +733,7 @@ narrative_event = {
 	
 	option = { #okay
 		name = VIETmisc.9032.a
-		narrative_event = { id = VIETmisc.9033 tooltip = VIETmisc.9033.tooltip }
+		narrative_event = { id = VIETmisc.9033 tooltip = VIETmisc.9033.tooltip days = 3 random = 3 }
 	}
 }
 

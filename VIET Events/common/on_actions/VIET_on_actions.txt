@@ -136,6 +136,8 @@ on_yearly_pulse = {
 			#Time
 			100 = VIETmisc.2046		# Overslept
 			100 = VIETmisc.2049		# Noontime hijinks
+			#Toothbrush
+			100 = VIETmisc.2108		# Bloody teeth
 			#Hummus
 			100 = VIETmisc.2142		# Hummus varieties
 			100 = VIETmisc.2145		# Not enough hummus makes the throat sore
@@ -307,6 +309,24 @@ on_yearly_pulse = {
 			100 = VIETmisc.8397 # Come across a black cat
 			100 = VIETmisc.8398 # Our culture sees black cats as good, why do others not see the same?
 			100 = VIETmisc.8404 # Character dreams of ancestors coming to visit
+			#Medicine
+			100 = VIETmisc.8405 # Drinking an herbal tonic
+			100 = VIETmisc.8409 # Servant forgets how many spoons of medicine to take
+			100 = VIETmisc.8410 # Courtier takes wrong type and dosage of medicine by accident
+			100 = VIETmisc.8411 # Drinking herbal tea and burning your tongue
+			100 = VIETmisc.8413 # Took medicine for sore throat
+			#Spices (K-P)
+			100 = VIETmisc.8414 # Panch Poron - traditional east Indian and Nepali spice mix
+			100 = VIETmisc.8415 # Traditional Armenian string cheese with caraway seeds
+			100 = VIETmisc.8419 # Take home some Mahleb cherry for cooks to use?
+			100 = VIETmisc.8420 # Drinking Majoram tea
+			100 = VIETmisc.8421 # Mastic Chewing Gum
+			100 = VIETmisc.8423 # Mustard spices with your meal?
+			100 = VIETmisc.8424 # Meet a peddler selling nutmeg			
+			100 = VIETmisc.8426 # Large gift of oregano
+			100 = VIETmisc.8428 # Kewra - fragrance made from pandan palm
+			100 = VIETmisc.8429 # Cooks receive a shipment of parsley to use for food
+			100 = VIETmisc.8433 # Too much pepper in food
 		}
 		
 	}
@@ -417,6 +437,12 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.2018		# Bought a lot of pickled eggs
 			#Time
 			100 = VIETmisc.2047		# Diligent servant
+			#Toothbrush
+			100 = VIETmisc.2100		# Miswak usage is encouraged by scripture
+			100 = VIETmisc.2101		# Miswak usage is encouraged by scripture
+			100 = VIETmisc.2105		# Clean your tongue as well
+			100 = VIETmisc.2106		# hebrew mouthwash
+			100 = VIETmisc.2107		# Old people bad teeth scare me
 			#Hummus
 			100 = VIETmisc.2140		# Nice huge (falafel) balls
 			100 = VIETmisc.2141		# New hummus in town
@@ -574,6 +600,17 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8400 # Character stalked by a harmless, gentle ghost
 			100 = VIETmisc.8402 # Servant's pet dog passed away
 			100 = VIETmisc.8403 # Pass by a tombstone with a meaningful, profound warning
+			#Medicine
+			100 = VIETmisc.8407 # Two physicians debate treatments
+			100 = VIETmisc.8408 # Observing a skilled physician demonstrate surgery
+			#Spices (K-P)
+			100 = VIETmisc.8418 # Lovage plant used to season dishes in the Balkans
+			100 = VIETmisc.8422 # Perfumer demonstrates musk mallow perfume that's almost like the real deer musk
+			100 = VIETmisc.8425 # Eating too much nutmeg causes adverse effects
+			100 = VIETmisc.8427 # Gift of orris oil - what to use it for?
+			100 = VIETmisc.8430 # Thinking about Greek legends about parsley
+			100 = VIETmisc.8431 # Eating too much parsley curses you?
+			100 = VIETmisc.8432 # Farmer avoids growing food near parsley due to superstition
 		
 		}
 		
@@ -652,6 +689,11 @@ on_five_year_pulse = {
 			100 = VIETmisc.2025		# Would you kill a baby?
 			#Time
 			100 = VIETmisc.2048		# Fire in village
+			#Toothrbush
+			100 = VIETmisc.2102		# The gold toothpick
+			100 = VIETmisc.2103		# Silly Chinese toothbrushes
+			100 = VIETmisc.2104		# Toothbrush sexy times
+			100 = VIETmisc.2109		# prankster?
 			#Hummus
 			100 = VIETmisc.2147		# Character is a hummus addict
 			100 = VIETmisc.2148		# Merchant commits fraud by mixing sawdust in hummus
@@ -784,6 +826,12 @@ on_five_year_pulse = {
 			100 = VIETmisc.8376 # Coming across a Myling (Nordic mythology)
 			100 = VIETmisc.8378 # Woman annoys death so much he takes her back to the land of the living
 			100 = VIETmisc.8401 # Local townsman accused of having sex with ghosts
+			#Medicine
+			100 = VIETmisc.8406 # Quack doctor arrested
+			100 = VIETmisc.8412 # Scholar and merchant debate merits of quarantining
+			#Spices (K-P)
+			100 = VIETmisc.8416 # Quick thinking servant saves another servant by using caraway seeds
+			100 = VIETmisc.8417 # Gifted shampoo made from kaffir lime
 		}
 		
 		#ALL VIET artifact events should go here!

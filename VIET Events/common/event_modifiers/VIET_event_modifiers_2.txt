@@ -1366,3 +1366,63 @@ VIET_nobleman_with_criminal_problems = {
 	combat_rating = 5
 	icon = 14
 }
+VIET_quick_witted_savior = {
+	diplomacy = 1
+	general_opinion = 5
+	monthly_character_piety = 0.01
+	icon = 18
+}
+VIET_kaffir_lime_shampoo = {
+	diplomacy = 1
+	sex_appeal_opinion = 5
+	monthly_character_prestige = 0.04
+	icon = 39
+}
+VIET_majoram_tea = {
+	health = 0.1
+	monthly_character_piety = 0.02
+	icon = 87
+}
+VIET_mastic_gum = {
+	diplomacy = 1
+	general_opinion = 5
+	sex_appeal_opinion = 5	
+	icon = 39
+}
+VIET_musk_mallow = {
+	diplomacy = 1
+	general_opinion = 5
+	sex_appeal_opinion = 5	
+	icon = 39
+}
+VIET_cooks_using_nutmeg = {
+	health = 0.2
+	monthly_character_prestige = 0.2
+	icon = 59
+}
+VIET_cooks_using_oregano = {
+	health = 0.2
+	monthly_character_piety = 0.2
+	icon = 87
+}
+VIET_cooks_using_parsley = {
+	health = 0.2
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.1
+	icon = 87
+}
+VIET_had_disgusting_medicine = {
+	diplomacy = -1
+	fertility = -0.15
+	health = 0.5
+	icon = 86
+}
+VIET_intellectual_conversation = {
+	learning = 1
+	icon = 18
+}
+VIET_drinking_basic_tonic = {
+	health = 0.5
+	combat_rating = 5
+	icon = 85
+}
