@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.13 "Rhazes" (Released 6/13/20, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.14 "Guy de Chauliac" (Released 8/23/20, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,20 +38,14 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.13 "Rhazes"
+Version 2.0.14 "Guy de Chauliac"
 
-[I]“The doctor's aim is to do good, even to our enemies, so much more to our friends, and my profession forbids us to do harm to our kindred, as it is instituted for the benefit and welfare of the human race, and God imposed on physicians the oath not to compose mortiferous remedies.”
-
-Rhazes (854 CE - 925 CE) was a Persian polymath, alchemist, and physician. As one of the topmost medical experts and researchers of his day, who was also widely respected for his deep sense of compassion and charity to everyone, including the poor and downtrodden, whom he often treated for free. Even after his death, his medical texts were studied for centuries in the Middle East and Europe.[/I]
+[I]Guy de Chauliac was a French physician who was active in the mid-14th century. As the Pope’s official physician, he witnessed the events of the Black Plague and sought to understand it from a scientific, rational viewpoint, even to the point where he may have contracted the disease itself - and survived. His seminal work was Chirurgia magna, which covered a variety of medical topics based on his work and the texts of earlier Islamic and Graeco-Roman scholars.[/I]
 
 [LIST]
-[*]Added 9 Medicine themed events
-[*]Added 20 Spices and Herbs themed events
-[*]Re-Added events from old VIET: 10 toothbrush and oral hygiene themed events
-[*]Rebalanced chances of province events triggering to be generally rarer
-[*]Tweaked Lost Love event chain to have more time between some of the events
-[*]Added decadence increases or decreases to several previously added events that didn’t have these effects before
-[*]Reduced chances of Ostrakon artifact event firing for anybody outside of Europe, the Middle East, India, and the Mediterranean
+[*]Added 9 events about being stuck inside
+[*]Decreased chances of clutter artifact events triggering
+[*]Increased chances of clutter artifact destruction events triggering
 [*]Miscellaneous bugfixes
 [/LIST]
 

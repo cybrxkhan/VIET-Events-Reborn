@@ -327,6 +327,11 @@ on_yearly_pulse = {
 			100 = VIETmisc.8428 # Kewra - fragrance made from pandan palm
 			100 = VIETmisc.8429 # Cooks receive a shipment of parsley to use for food
 			100 = VIETmisc.8433 # Too much pepper in food
+			# Stuck Outside
+			100 = VIETmisc.8434	# Observing something outside
+			100 = VIETmisc.8438	# Accidentally bumped into some furniture
+			100 = VIETmisc.8441	# Heard a loud noise outside - what could it be?
+			100 = VIETmisc.8442	# Staying up late at night a lot
 		}
 		
 	}
@@ -611,6 +616,10 @@ on_bi_yearly_pulse = {
 			100 = VIETmisc.8430 # Thinking about Greek legends about parsley
 			100 = VIETmisc.8431 # Eating too much parsley curses you?
 			100 = VIETmisc.8432 # Farmer avoids growing food near parsley due to superstition
+			#Stuck Outside
+			100 = VIETmisc.8435	# Trapped inside a lovely mansion in a dream
+			100 = VIETmisc.8439	# Maidservants encounter mice and are afraid
+			100 = VIETmisc.8440	# Catch two servants having sex
 		
 		}
 		
@@ -832,6 +841,9 @@ on_five_year_pulse = {
 			#Spices (K-P)
 			100 = VIETmisc.8416 # Quick thinking servant saves another servant by using caraway seeds
 			100 = VIETmisc.8417 # Gifted shampoo made from kaffir lime
+			#Stuck Outside
+			100 = VIETmisc.8436	# Learning about local folklore about ancient ruin of man who stayed inside a house during plague
+			100 = VIETmisc.8437	# Courtier picks up board games as a hobby
 		}
 		
 		#ALL VIET artifact events should go here!

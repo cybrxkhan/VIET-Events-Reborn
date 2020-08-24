@@ -30,6 +30,7 @@
 # 8353-8404: Death
 # 8405-8413: Medicine
 # 8414-8433: Spices and Herbs (K-P mostly)
+# 8434-8442: Stuck Inside
 # 
 #####################################################################
 
@@ -41202,6 +41203,817 @@ character_event = {
 	option = { # ok
 		name = VIETmisc.8433.b
 		piety = -1
+	}
+}
+
+######################################################################################
+# STUCK INSIDE 8434-8442
+######################################################################################
+
+# Observing something outside
+character_event = {
+	id = VIETmisc.8434
+	desc = VIETmisc.8434.desc
+	picture = GFX_evt_modern_slice_of_life
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { # nature
+		name = VIETmisc.8434.a
+		random = {
+			add_trait = humble
+			chance = 15
+		}
+	}	
+	option = { # peasant children
+		name = VIETmisc.8434.b
+		random = {
+			add_trait = trusting
+			chance = 15
+		}
+	}	
+	option = { # guards on patrol
+		name = VIETmisc.8434.c
+		random = {
+			add_trait = proud
+			chance = 15
+		}
+	}	
+	option = { # attractive person (straight)
+		name = VIETmisc.8434.d
+		trigger = {
+			NOT = { trait = homosexual }
+		}
+		random = {
+			add_trait = lustful
+			chance = 15
+		}
+	}	
+	option = { # attractive person (homosexual)
+		name = VIETmisc.8434.e
+		trigger = {
+			trait = homosexual
+		}
+		random = {
+			add_trait = lustful
+			chance = 15
+		}
+	}
+}
+
+
+
+# Trapped inside a lovely mansion in a dream
+character_event = {
+	id = VIETmisc.8435
+	desc = VIETmisc.8435.desc
+	picture = GFX_evt_magnificent_castle
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+	}
+	
+	option = { # must be free!
+		name = VIETmisc.8435.a
+		random_list = {
+			70 = { }
+			15 = { add_trait = proud }
+			15 = { add_trait = stbuborn }
+		}
+	}	
+	option = { # enjoy the dream
+		name = VIETmisc.8435.b
+		random_list = {
+			70 = { }
+			15 = { add_trait = patient }
+			15 = { add_trait = slothful }
+		}
+	}	
+	option = { # fools would ignore
+		name = VIETmisc.8435.c
+		random_list = {
+			70 = { }
+			15 = { add_trait = content }
+			15 = { add_trait = humble }
+		}
+	}
+}
+
+
+
+# Learning about local folklore about ancient ruin of man who stayed inside a house during plague
+character_event = {
+	id = VIETmisc.8436
+	desc = VIETmisc.8436.desc
+	picture = GFX_evt_ancient_cairn
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+	}
+	
+	option = { # ok
+		name = VIETmisc.8436.a
+		add_character_modifier = {
+			name = VIET_learning_local_lore
+			duration = 365
+		}
+	}
+}
+
+
+
+# Courtier picks up board games as a hobby
+character_event = {
+	id = VIETmisc.8437
+	desc = VIETmisc.8437.desc
+	picture = GFX_evt_war_planning
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_courtier = {
+			NOT = { trait = incapable }
+			NOT = { trait = gamer }
+			is_adult = yes
+			in_command = no
+			is_abroad = no
+			NOT = { is_close_relative = ROOT }
+			ai = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+	}
+	
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+				NOT = { trait = gamer }
+				is_adult = yes
+				in_command = no
+				is_abroad = no
+				NOT = { is_close_relative = ROOT }
+				ai = yes
+			}
+			save_event_target_as = target_VIET_new_gamer_courtier
+		}
+	}
+	
+	option = { # cool
+		name = VIETmisc.8437.a
+		prestige = 2
+		event_target:target_VIET_new_gamer_courtier = {
+			add_trait = gamer
+			opinion = {
+				modifier = VIET_opinion_played_game
+				who = ROOT
+				years = 1
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_played_game
+				who = ROOT
+				years = 1
+			}		
+		}
+	}	
+	option = { # not cool
+		name = VIETmisc.8437.b
+		piety = 2
+		event_target:target_VIET_new_gamer_courtier = {
+			add_trait = gamer
+			opinion = {
+				modifier = VIET_opinion_doesnt_approve_games
+				who = ROOT
+				years = 3
+			}
+			reverse_opinion = {
+				modifier = VIET_opinion_gamer_loser
+				who = ROOT
+				years = 3
+			}		
+		}
+	}
+	option = { # teach some tricks
+		name = VIETmisc.8437.c
+		trigger = {
+			trait = gamer
+		}
+		tooltip_info = gamer
+		prestige = 4
+		event_target:target_VIET_new_gamer_courtier = {
+			add_trait = gamer
+			opinion = {
+				modifier = VIET_opinion_taught_me_game_tricks
+				who = ROOT
+				years = 2
+			}
+			#reverse_opinion = {
+			#	modifier = VIET_opinion_learning_game_tricks
+			#	who = ROOT
+			#	years = 2
+			#}		
+		}
+	}
+}
+
+
+# Accidentally bumped into some furniture
+character_event = {
+	id = VIETmisc.8438
+	desc = VIETmisc.8438.desc
+	picture = GFX_evt_castle_construction
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = stubborn
+		}
+		modifier = {
+			factor = 0.8
+			trait = erudite
+		}
+	}
+	
+	
+	option = { # ouch
+		name = VIETmisc.8438.a
+		prestige = -1
+		random = {
+			add_trait = wounded
+			chance = 10
+		}
+	}
+}
+
+
+# Maidservants encounter mice and are afraid
+character_event = {
+	id = VIETmisc.8439
+	desc = VIETmisc.8439.desc
+	picture = GFX_evt_castle_construction
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+	
+	
+	option = { # no worries
+		name = VIETmisc.8439.a
+		piety = 3
+		random = {
+			add_trait = humble
+			chance = 15
+		}
+	}	
+	option = { # be brave!
+		name = VIETmisc.8439.b
+		prestige = 3
+		random = {
+			add_trait = wroth
+			chance = 15
+		}
+	}	
+	option = { # learn to respect mice
+		name = VIETmisc.8439.c
+		piety = 3
+		random = {
+			add_trait = kind
+			chance = 15
+		}
+	}	
+	option = { # must be vigilant
+		name = VIETmisc.8439.d
+		prestige = 3
+		random = {
+			add_trait = paranoid
+			chance = 15
+		}
+	}
+}
+
+
+# Catch two servants having sex
+character_event = {
+	id = VIETmisc.8440
+	desc = VIETmisc.8440.desc
+	picture = GFX_evt_lovers
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.8
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	
+	option = { # tell them to stop
+		name = VIETmisc.8440.a
+		random = {
+			add_trait = wroth
+			chance = 25
+		}
+	}	
+	option = { # watch eagerly
+		name = VIETmisc.8440.b
+		trigger = {
+			NOT = { trait = chaste }
+		}
+		add_character_modifier = {
+			name = lustful_ruler
+			duration = 365
+		}
+		random = {
+			add_trait = lustful
+			chance = 25
+		}
+	}	
+	option = { # forget it
+		name = VIETmisc.8440.c
+		random = {
+			add_trait = content
+			chance = 25
+		}
+	}
+	option = { # give them blessing
+		name = VIETmisc.8440.d
+		if = {
+			limit = {
+				trait = cruel
+			}
+			random = {
+				remove_trait = cruel
+				chance = 40
+			}
+		}
+		else = {
+			random = {
+				add_trait = kind
+				chance = 40
+			}
+		}
+	}
+}
+
+
+# Heard a loud noise outside - what could it be?
+character_event = {
+	id = VIETmisc.8441
+	desc = VIETmisc.8441.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.8
+			trait = brave
+		}
+	}
+	
+	
+	option = { # tell them to stop
+		name = VIETmisc.8441.a
+		random = {
+			add_trait = paranoid
+			chance = 10
+		}
+	}
+}
+
+
+# Staying up late at night a lot
+character_event = {
+	id = VIETmisc.8442
+	desc = VIETmisc.8442.desc
+	picture = GFX_evt_village_at_night
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+	
+	
+	option = { # oh well
+		name = VIETmisc.8442.a
+		add_character_modifier = {
+			name = VIET_stays_up_late_night
+			duration = 1111
+		}
+	}	
+	option = { # try to make the most of it
+		name = VIETmisc.8442.b
+		add_character_modifier = {
+			name = VIET_stays_up_late_night
+			duration = 1111
+		}
+		random = {
+			add_trait = diligent
+			chance = 33
+		}
+		random_list = {
+			40 = { }
+			30 = { add_trait = stressed }
+			20 = { health = -0.3 }
+			10 = { health = -0.6 }
+		}
 	}
 }
 

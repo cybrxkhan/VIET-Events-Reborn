@@ -1426,3 +1426,7 @@ VIET_drinking_basic_tonic = {
 	combat_rating = 5
 	icon = 85
 }
+VIET_stays_up_late_night = {
+	health = -0.3
+	icon = 80
+}
