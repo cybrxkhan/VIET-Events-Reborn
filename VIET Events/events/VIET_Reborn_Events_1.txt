@@ -31,6 +31,7 @@
 # 8405-8413: Medicine
 # 8414-8433: Spices and Herbs (K-P mostly)
 # 8434-8442: Stuck Inside
+# 8443-8452: Generic (and the true final swansong!)
 # 
 #####################################################################
 
@@ -41372,7 +41373,7 @@ character_event = {
 		random_list = {
 			70 = { }
 			15 = { add_trait = proud }
-			15 = { add_trait = stbuborn }
+			15 = { add_trait = stubborn }
 		}
 	}	
 	option = { # enjoy the dream
@@ -42013,6 +42014,851 @@ character_event = {
 			30 = { add_trait = stressed }
 			20 = { health = -0.3 }
 			10 = { health = -0.6 }
+		}
+	}
+}
+
+
+######################################################################################
+# SWANSONG 2 8443-8452
+######################################################################################
+
+
+# Friend gives you a lockpick
+character_event = {
+	id = VIETmisc.8443
+	desc = VIETmisc.8443.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_reliable_lockpick }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			viet_artifact_loss_three_flags = yes
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.8
+			trait = humble
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+	}
+	
+	option = { #take it
+		name = VIETmisc.8443.a
+		prestige = -5
+		add_artifact = VIET_reliable_lockpick	
+	}	
+	
+	option = { #Dont want it
+		name = VIETmisc.8443.b
+		prestige = 5
+	}	
+}
+
+
+# Given a ceramic tankard as a gift
+character_event = {
+	id = VIETmisc.8444
+	desc = VIETmisc.8444.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+		
+	trigger = {
+		in_command = no
+		NOT = { has_artifact = VIET_ceramic_tankard }
+	}
+	
+	weight_multiplier = {
+		days = 1
+			
+		modifier = {
+			factor = 0.3
+			viet_artifact_loss_three_flags = yes
+		}				
+		modifier = {
+			factor = 0.3
+			any_artifact = {
+				has_artifact_flag = VIET_clutter_flag
+			}
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+	}
+	
+	option = { #take it
+		name = VIETmisc.8444.a
+		prestige = -5
+		add_artifact = VIET_ceramic_tankard	
+	}	
+	
+	option = { #Dont want it
+		name = VIETmisc.8444.b
+		prestige = 5
+	}	
+}
+
+
+
+
+# Traveler helps guards take down gang of female thieves who use seduction (Oblivion/Anvil reference)
+long_character_event = {
+	id = VIETmisc.8445
+	desc = VIETmisc.8445.desc
+	picture = GFX_evt_maiden
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		NOT = { has_character_flag = VIET_anvil_sirens_event }
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+	
+	immediate = {
+		set_character_flag = VIET_anvil_sirens_event
+	}
+		
+	option = { # no reward
+		name = VIETmisc.8445.a
+		prestige = -15
+		piety = -10
+		if = {
+			limit = {
+				trait = charitable
+			}
+			random = {
+				remove_trait = charitable
+				chance = 66
+			}
+		}
+		else = {
+			random = {
+				add_trait = greedy
+				chance = 33
+			}
+		}
+	}	
+	option = { # standard gold reward
+		name = VIETmisc.8445.b
+		wealth = -15
+	}	
+	option = { # ask them to provide guards some tips
+		name = VIETmisc.8445.c
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 30
+			}
+		}
+		wealth = -30
+		prestige = -10
+		add_character_modifier = {
+			name = VIET_personal_guards_get_adventurer_tips
+			duration = 4745
+		}
+	}	
+	option = { # hire them
+		name = VIETmisc.8445.d
+		custom_tooltip = { text = VIET_siren_anvil_adventurer_hire }
+		hidden_tooltip = {
+			random_list = {
+				# Female version
+				50 = {
+					create_random_intriguer = {
+						age = 28
+						dynasty = actually_culture
+						religion = ROOT
+						culture = ROOT
+						female = yes
+						random_traits = yes
+						historical = yes
+						attributes = {
+							diplomacy = 6
+							intrigue = 7
+						}
+					}
+					new_character = {
+						#Education & other basic stuff
+						set_character_flag = ai_flag_refuse_concubinage
+						set_character_flag = ai_flag_refuse_marriage
+						set_character_flag = no_court_invites
+						set_character_flag = special_spymaster #special_marshal
+						#Guaranteed Traits
+						add_trait = adventurer				
+						random = {
+							VIET_give_generic_weapon_effect = yes
+							chance = 20
+						}						
+						opinion = {
+							modifier = opinion_loyal_servant
+							who = ROOT
+							years = 100
+						}
+						add_character_modifier = {
+							name = VIET_anvil_siren_helper_female
+							duration = -1
+						}
+						#Flavor
+						random_list = {
+							60 = { }
+							30 = { add_scarred_tiered_effect = yes }
+							10 = { 
+								trigger = { has_dlc = Reapers }
+								add_trait = one_eyed
+							}
+						}
+					}			
+				}
+				# Male version
+				50 = {
+					create_random_soldier = {
+						age = 28
+						dynasty = actually_culture
+						religion = ROOT
+						culture = ROOT
+						female = no
+						random_traits = yes
+						historical = yes
+						attributes = {
+							martial = 7
+							intrigue = 6
+						}
+					}
+					new_character = {
+						#Education & other basic stuff
+						set_character_flag = ai_flag_refuse_concubinage
+						set_character_flag = ai_flag_refuse_marriage
+						set_character_flag = no_court_invites
+						#Guaranteed Traits
+						add_trait = adventurer				
+						random = {
+							VIET_give_generic_weapon_effect = yes
+							chance = 20
+						}						
+						opinion = {
+							modifier = opinion_loyal_servant
+							who = ROOT
+							years = 100
+						}
+						add_character_modifier = {
+							name = VIET_anvil_siren_helper_male
+							duration = -1
+						}
+						#Flavor
+						random_list = {
+							60 = { }
+							30 = { add_scarred_tiered_effect = yes }
+							10 = { 
+								trigger = { has_dlc = Reapers }
+								add_trait = one_eyed
+							}
+						}
+					}			
+				}			
+			}
+		}
+	}
+}
+
+
+
+# Dream of a cozy cottage
+character_event = {
+	id = VIETmisc.8446
+	desc = VIETmisc.8446.desc
+	picture = GFX_evt_moorish_decor
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+		
+	option = { # ok
+		name = VIETmisc.8446.a
+		piety = 1
+		if = {
+			limit = {
+				trait = depressed
+			}
+			random = {
+				remove_trait = depressed
+				chance = 40
+			}
+		}
+		if = {
+			limit = {
+				trait = stressed
+			}
+			random = {
+				remove_trait = stressed
+				chance = 40
+			}
+		}
+	}
+}
+
+
+
+
+# Witness a spectacular sunset
+character_event = {
+	id = VIETmisc.8447
+	desc = VIETmisc.8447.desc
+	picture = GFX_evt_hyouka
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+	}
+		
+	option = { # ok
+		name = VIETmisc.8447.a
+		piety = 1
+		if = {
+			limit = {
+				trait = depressed
+			}
+			random = {
+				remove_trait = depressed
+				chance = 25
+			}
+		}
+		if = {
+			limit = {
+				trait = stressed
+			}
+			random = {
+				remove_trait = stressed
+				chance = 25
+			}
+		}
+	}
+}
+
+
+
+
+
+# Stories about a tropical paradise
+character_event = {
+	id = VIETmisc.8448
+	desc = VIETmisc.8448.desc
+	picture = GFX_evt_tropicana
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+		
+	option = { # doubt
+		name = VIETmisc.8448.a
+		random = {
+			add_trait = cynical
+			chance = 20
+		}
+	}		
+	option = { # believe
+		name = VIETmisc.8448.b
+		random = {
+			add_trait = trusting
+			chance = 20
+		}
+	}		
+	option = { # convert
+		name = VIETmisc.8448.c
+		trigger = {
+			trait = zealous
+		}
+		tooltip_info = zealous
+		piety = 2
+	}
+}
+
+
+
+# Come across another monument
+character_event = {
+	id = VIETmisc.8449
+	desc = VIETmisc.8449.desc
+	picture = GFX_evt_ancient_cairn
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+		
+	option = { # ok
+		name = VIETmisc.8449.a
+		random_list = {
+			50 = { piety = 2 }
+			50 = { prestige = 2 }
+		}
+	}
+}
+
+
+
+# Province becomes well-known for its baklava
+province_event = {
+	id = VIETmisc.8450
+	desc = VIETmisc.8450.desc
+	picture = GFX_evt_baklava
+	
+	trigger = {
+		NOT = { has_province_modifier = VIET_province_famous_baklava }
+		owner = {
+			is_nomadic = no
+		}
+		is_baklava_culture_trigger = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 12000
+	}
+	
+
+	option = { # Spend funds to help
+		name = VIETmisc.8450.a
+		add_province_modifier = {
+			name = VIET_province_famous_baklava
+			duration = 3650
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			custom_tooltip = {
+				text = increase_prosperity_custom_tooltip
+				hidden_tooltip = {					
+					change_variable = { which = prosperity_value value = 4 }
+				}
+			}
+		}
+	}	
+}
+
+
+
+# Song of Scarborough Fair
+character_event = {
+	id = VIETmisc.8451
+	desc = VIETmisc.8451.desc
+	picture = GFX_evt_oblivion_pastoral_dream
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+	}
+		
+	option = { # ok
+		name = VIETmisc.8451.a
+		hidden_tooltip = {
+			narrative_event = { id = VIETmisc.8452 }
+		}
+	}
+}
+
+
+# Lesson of Scarborough Fair
+narrative_event = {
+	id = VIETmisc.8452
+	title = VIETmisc.8452.title
+	desc = VIETmisc.8452.desc
+	picture = GFX_evt_scarborough_fair
+	
+	is_triggered_only = yes
+		
+	option = { # ok
+		name = VIETmisc.8452.a
+		custom_tooltip = { text = VIET_swansong_scarborough_fair }
+		piety = 88
+		add_character_modifier = {
+			name = VIET_scarborough_fair_lesson
+			duration = -1
 		}
 	}
 }

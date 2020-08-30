@@ -186,38 +186,25 @@ VIETmisc.9044.tooltip; \n\nIt is time to go meet grand[target_VIET_grandparent_d
 VIETmisc.9044.title;Final Journey;;;;;;;;;;;x
 VIETmisc.9044.desc;I drift in and out of consciousness, oblivious to everything around me. After an immeasurable amount of time, I see [target_VIET_grandparent_dream.GetTitledFirstName], my grand[target_VIET_grandparent_dream.GetFatherMother]. I am a child once more, just like in the dreams I had before, and [target_VIET_grandparent_dream.GetSheHe] towers over me, but comfortingly so.\n\n"Are you ready to go, little [Root.GetFirstName]?" [target_VIET_grandparent_dream.GetSheHe] asks. "I know it's hard to let go, but you can do it. Everyone must make this journey eventually."\n\n"I think I'm ready," I mutter. I offer my hand to [target_VIET_grandparent_dream.GetHerHim]. "And I'm with you, so I'll be fine! I love you!"\n\n[target_VIET_grandparent_dream.GetSheHeCap] gently holds my hand and smiles.;;;;;;;;;;;x
 VIETmisc.9044.a;"I love you too. Let's go then, little one.";;;;;;;;;;;;;x
-VIETmisc.9045.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.9045.title;xxxxx;;;;;;;;;;;x
-VIETmisc.9045.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9045.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9046.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.9046.title;xxxxx;;;;;;;;;;;x
-VIETmisc.9046.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9046.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9047.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.9047.title;xxxxx;;;;;;;;;;;x
-VIETmisc.9047.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9047.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9048.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.9048.title;xxxxx;;;;;;;;;;;x
-VIETmisc.9048.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9048.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9049.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.9049.title;xxxxx;;;;;;;;;;;x
-VIETmisc.9049.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9049.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9050.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.9050.title;xxxxx;;;;;;;;;;;x
-VIETmisc.9050.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9050.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9051.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.9051.title;xxxxx;;;;;;;;;;;x
-VIETmisc.9051.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9051.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.9052.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.9052.title;xxxxx;;;;;;;;;;;x
-VIETmisc.9052.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9052.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.9045.desc;While traveling, you happen upon a strange merchant from the far east who calls himself "Qi Ma the Liar." Insisting on speaking in the third person, he greets you while twirling his cat-like whiskers: "Qi Ma knows much, tells some. Qi Ma knows many things others do not.";En voyageant, vous vous trouvez sur un étrange marchand de l'extrême-orient qui s'appelle "Qi Ma, le menteur". En insistant pour parler à la troisième personne, il vous salue en faisant tourbillonner ses moustaches : "Qi Ma sait beaucoup, dit il, Qi Ma connaît bien des choses que d'autres ne savent pas.";;;;;;;;;;x
+VIETmisc.9045.a;I'm bored. Let's see what this eccentric fellow knows.;Je m'ennuie. Voyons ce que cet excentrique connaît.;;;;;;;;;;;;x
+VIETmisc.9045.b;I shouldn't associate with those who refer to strange things.;;;;;;;;;;;;;x
+VIETmisc.9046.desc;Qi Ma says: "Qi Ma has recently heard that men and women from Western Europe and the Middle East look more attractive than they did in the past. He has no opinion on the matter. All people are beautiful to him.";;;;;;;;;;;x
+VIETmisc.9046.a;Definitely.;Oh que oui !;;;;;;;;;;;;x
+VIETmisc.9047.desc;Qi Ma says: "Qi Ma is not very impressed with the Crusader Kings. Many go step in the Holy Land for only a few days before coming home to say they are a Crusader, yet everyone thinks this makes them better in battle.";;;;;;;;;;;x
+VIETmisc.9047.a;I agree.;;;;;;;;;;;;;x
+VIETmisc.9047.b;I earned my status as a Crusader fairly!;;;;;;;;;;;;;x
+VIETmisc.9047.c;What are these Crusades you speak of?;;;;;;;;;;;;;x
+VIETmisc.9048.desc;Qi Ma says, "Qi Ma loves Europe and the Middle East. Many interesting events that happen to them. Much more than in Cathay.";"Qi Ma aime l'Europe et le Moyen-Orient. Il y a beaucoup d'événements intéressants qui leur arrivent. Bien plus qu'en Cathay.";;;;;;;;;;x
+VIETmisc.9048.a;I suppose so.;;;;;;;;;;;;;x
+VIETmisc.9049.desc;Qi Ma says: "Something strange happens to children when they have too much intelligence and beauty. Some say this increases their chances of having cancer! Qi Ma is glad he is not too smart or beautiful.";;;;;;;;;;;x
+VIETmisc.9049.a;I hope my children are alright.;;;;;;;;;;;;;x
+VIETmisc.9050.desc;Qi Ma says: "Some claim there is a secret demon-worshipping society across the world! What a ridiculous idea. Only fantasy-loving adolescents who enjoy the idea of wanton murder and orgies would join such a society.";;;;;;;;;;;x
+VIETmisc.9050.a;Some want to believe in the strangest things.;;;;;;;;;;;;;x
+VIETmisc.9051.desc;Qi Ma says: "Qi Ma has heard stories about physicians who perform castrations to cure the common cold. Qi Ma is glad his physician is not insane.";;;;;;;;;;;x
+VIETmisc.9051.a;I hope my physician isn't insane, either.;;;;;;;;;;;;;x
+VIETmisc.9052.desc;Qi Ma says, "So many crusader kings kill their firstborn sons. Some say because he is not as intelligent as the second son. Some say because he is not as strong as the third son. Some say the daughter will make a better heir. Qi Ma is glad his parents loved him no matter what.";Qi Ma dit : "Tant de rois croisés tuent leurs fils de premier-né. Certains disent parce qu'il n'est pas aussi intelligent que le deuxième fils. Certains disent parce qu'il n'est pas aussi fort que le troisième fils. Certains disent que la fille fera un meilleur héritier. Qi Ma est heureux que ses parents l'aimaient, peu importe quoi.";;;;;;;;;;x
+VIETmisc.9052.a;Um... I think my parents loved me too.;Hum ... Je pense que mes parents m'aiment aussi.;;;;;;;;;;;;x
 VIETmisc.9053.tooltip;xxxxx;;;;;;;;;;;x
 VIETmisc.9053.title;xxxxx;;;;;;;;;;;x
 VIETmisc.9053.desc;xxxxx;;;;;;;;;;;x

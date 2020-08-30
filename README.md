@@ -1,6 +1,6 @@
 # VIET Events Reborn
 
-## Latest Version: 2.0.14 "Guy de Chauliac" (Released 8/23/20)
+## Latest Version: 2.0.15 "Scarborough Fair" (Released 8/30/20)
 
 VIET Events Reborn is the reboot of the Events module from the Vanilla Events, Immersion, and Traits mod I created over six years ago before I retired three years back. It includes many new flavor events that add immersion and a diversity of experiences to your playthroughs.
 

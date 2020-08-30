@@ -1,4 +1,4 @@
-[h1]Current Version: 2.0.14 "Guy de Chauliac" (Released 8/23/20, Compatible with Patch 3.X and Holy Fury)[/h1]
+[h1]Current Version: 2.0.15 "Scarbrough Fair" (Released 8/30/20, Compatible with Patch 3.X and Holy Fury)[/h1]
 [B]Please See [url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-viet-events-reborn-a-reboot-of-the-flavor-event-mod.1141717/]Forum Thread[/url] For More Info[/B]
 [B]Direct Download available [url=https://github.com/cybrxkhan/VIET-Events-Reborn/releases]on Github[/url]
 [/B]
@@ -38,14 +38,22 @@ Please see the forum thread for the full list of credits.
 
 [h1]Most Recent Changelog[/h1]
 
-Version 2.0.14 "Guy de Chauliac"
+Version 2.0.15 "Scarborough Fair"
 
-[I]Guy de Chauliac was a French physician who was active in the mid-14th century. As the Pope’s official physician, he witnessed the events of the Black Plague and sought to understand it from a scientific, rational viewpoint, even to the point where he may have contracted the disease itself - and survived. His seminal work was Chirurgia magna, which covered a variety of medical topics based on his work and the texts of earlier Islamic and Graeco-Roman scholars.[/I]
+[I]Scarborough was an important trade entrepot for the Kingdom of England in medieval times. It hosted the great Scarborough Fair, a major trading event that attracted merchants and travelers from as far away as the Byzantine Empire. Later on, it would feature in one of the most famous English folk ballads, also called “Scarborough Fair.” In the traditional lyrics of this song, the singer tells his or her ex-lover through an intermediary that if they wish to become lovers again, they must accomplish a series of impossible tasks such as washing a shirt in a well where water has never sprung nor rain never fell. The opening refrain of the song is thus:
+
+	Are you going to Scarborough Fair?
+	Parsley, sage, rosemary, and thyme
+	Remember me to one who lives there
+	She once was a true love of mine[/I]
+
 
 [LIST]
-[*]Added 9 events about being stuck inside
-[*]Decreased chances of clutter artifact events triggering
-[*]Increased chances of clutter artifact destruction events triggering
-[*]Miscellaneous bugfixes
+[*]Added 12 generic, mundane events
+[*]Added two new artifacts: Reliable Lockpick and Decorative Drum
+[*]Re-added the Qi Ma the Liar events from old VIET as a standalone event chain, with several new potential options; unlike other major event chains, this can reoccur
+[*]Re-added 10 eye candy events from old VIET
+[*]Added several new event pictures
+[*]Misc bugfixes
 [/LIST]
 

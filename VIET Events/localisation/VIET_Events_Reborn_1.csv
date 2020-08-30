@@ -1557,10 +1557,10 @@ VIETmisc.8429.a;More parsley!;;;;;;;;;;;;;x
 VIETmisc.8430.desc;You have heard that the ancient Greeks held parsley to be paradoxically sacred and evil, for it first sprouted from the blood of one of their heroes according to their legends.;;;;;;;;;;;x
 VIETmisc.8430.a;Come on, that's silly and makes no sense.;;;;;;;;;;;;;x
 VIETmisc.8430.b;Perhaps there is logic behind this.;;;;;;;;;;;;;x
-VIETmisc.8431.desc;I was warned by an elderly servant not to touch or eat parsley. “If you love someone,” she said, “then bad things will happen and ruin your love. Parsley is a useful herb, but it is also evil!”;;;;;;;;;;;x
+VIETmisc.8431.desc;I was warned by an elderly servant not to touch or eat parsley. "If you love someone," she said, "then bad things will happen and ruin your love. Parsley is a useful herb, but it is also evil!";;;;;;;;;;;x
 VIETmisc.8431.a;Ha, that's just an old wives tale.;;;;;;;;;;;;;x
 VIETmisc.8431.b;Thank you for telling me!;;;;;;;;;;;;;x
-VIETmisc.8432.desc;You happen to pass through the countryside when you encounter a farmer. Curious about what he does, you ask him about what he grows and the land he farms on, and notice there is one spot he avoids. “Too much parsley grows there,” he explains, “and everyone knows that parsley are the herbs that visit hell. ‘tis bad luck.”;;;;;;;;;;;x
+VIETmisc.8432.desc;You happen to pass through the countryside when you encounter a farmer. Curious about what he does, you ask him about what he grows and the land he farms on, and notice there is one spot he avoids. "Too much parsley grows there," he explains, "and everyone knows that parsley are the herbs that visit hell. ‘tis bad luck.";;;;;;;;;;;x
 VIETmisc.8432.a;That is very wise of you!;;;;;;;;;;;;;x
 VIETmisc.8432.b;What silly superstition.;;;;;;;;;;;;;x
 VIETmisc.8433.desc;You put too much pepper on your food.;;;;;;;;;;;x
@@ -1599,26 +1599,36 @@ VIETmisc.8441.a;Odd. Is my imagination playing tricks on me?;;;;;;;;;;;;;x
 VIETmisc.8442.desc;I've been staying up a lot lately out of boredom.;;;;;;;;;;;x
 VIETmisc.8442.a;It's not a healthy thing, but I can't resist.;;;;;;;;;;;;;x
 VIETmisc.8442.b;I'll try to make the most of my bad habit.;;;;;;;;;;;;;x
-VIETmisc.8443.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8443.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8444.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8444.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8445.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8445.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8446.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8446.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8447.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8447.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8448.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8448.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8449.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8449.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8450.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8450.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8451.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8451.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8452.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8452.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8443.desc;I visited a friend of mine recently. As we took a walk outside and made small talk, they wanted to offer me a present. It turned out to be an oddly shaped metal stick, so I was offended at first. "This is a very good lockpick," I was told. "Once you get the hang of it, you can open any lock. I don't need it, but I think even a great [Root.GetTitle] like you could find use for it.";;;;;;;;;;;x
+VIETmisc.8443.a;Ah! An intriguing gift... but one that could come in handy.;;;;;;;;;;;;;x
+VIETmisc.8443.b;I am a [Root.GetTitle] - I leave dirty work to my spies and assassins!;;;;;;;;;;;;;x
+VIETmisc.8444.desc;I am at a local banquet when the host presents me with a ceramic tankard as a gift. While simple in design, it was clearly created by an expert craftsman, so though I may not necessarily use it in more formal occasions like a great feast, I could keep it for everyday use.;;;;;;;;;;;x
+VIETmisc.8444.a;Thank you for the thoughtful gift.;;;;;;;;;;;;;x
+VIETmisc.8444.b;It is too plain for a [Root.GetTitle] like me.;;;;;;;;;;;;;x
+VIETmisc.8445.desc;A gang of female thieves had been recently preying on male travelers in the nearby area with a unique method. They would first seduce them and offer them erotic delights. Afterwards, they would entice their victim to strip naked. When their victim's guard was down, they would steal the man's belongings before running off, leaving the victim naked and humiliated. Your guards had difficulty catching the culprits until a cunning adventurer helped them ambush the thieves.;;;;;;;;;;;x
+VIETmisc.8445.a;Very good. I don't have money for a reward, though.;;;;;;;;;;;;;x
+VIETmisc.8445.b;Quite impressive. This gift of gold shall do.;;;;;;;;;;;;;x
+VIETmisc.8445.c;Pay them and request they give our guards some tips for the future.;;;;;;;;;;;;;x
+VIETmisc.8445.d;What a talented person - I need them with me at my court.;;;;;;;;;;;;;x
+VIET_siren_anvil_adventurer_hire;The adventurer will join your court, providing you valuable services with their knowledge and skills.;;;;;;;;;;;;;x
+VIETmisc.8446.desc;In my dream last night, I lived in a beautiful cottage. Though simple, it had all manner of convenience, and I had all the food, drink, and entertainment I needed to live a happy life. When I woke up, I found myself missing the place.;;;;;;;;;;;x
+VIETmisc.8446.a;It was a nice dream, all said.;;;;;;;;;;;;;x
+VIETmisc.8447.desc;As you walk through your residence one evening, by chance you look outside - and there, before you, is a most spectacular sight. The sun is setting, and it looks gorgeous. You gaze, speechless, as you admire the union of yellow, orange, red, and pink colors that shine through the few clouds in the sky.;;;;;;;;;;;x
+VIETmisc.8447.a;Amazing.;;;;;;;;;;;;;x
+VIETmisc.8448.desc;You recently heard tales of a land where the sun is always shining, the flowers are always blooming, fruits are always hanging from the trees, and the waters are calm and of a beautiful light blue color. It is said that if one travels far across the sea, one will eventually reach this hidden paradise, and that the natives will welcome one like kin.;;;;;;;;;;;x
+VIETmisc.8448.a;Ha! If I kept sailing across the ocean I doubt I'd find such a land.;;;;;;;;;;;;;x
+VIETmisc.8448.b;One day someone will travel the seas to conquer this land, I'm sure.;;;;;;;;;;;;;x
+VIETmisc.8448.c;The question is whether the natives follow the [Root.Religion.GetName] faith.;;;;;;;;;;;;;x
+VIETmisc.8449.desc;We were traveling in the wilderness when we came across an old ruin. The locals say it was built by long-lost inhabitants of this land, and was perhaps once used as a fortress, or a tomb, or a shrine. We shall never know, for all that remains are a few stones and one lone column. At any rate, my entourage and I rested there for a while, before we made our way.;;;;;;;;;;;x
+VIETmisc.8449.a;Will our monuments be like those ruins, too, one day?;;;;;;;;;;;;;x
+VIETmisc.8450.desc;The baklava bakers of [Root.GetName] have gained some fame as the best in the region. Some people will travel far and wide to sample the tasty, sugary, syrupy delights that the area has become known for.;;;;;;;;;;;x
+VIETmisc.8450.a;Delicious! That reminds me, I need to buy some baklava.;;;;;;;;;;;;;x
+VIETmisc.8451.desc;An exotic traveler from a faraway land is visiting my court today. Though an older gentleman, there is a handsome quality to him that can only come with the wisdom of old age. He has strange but thoughtful ideas, so I enjoy talking with him. We are discussing many fascinating matters when he asks me, "Have you ever heard of Scarborough Fair?";;;;;;;;;;;x
+VIETmisc.8451.a;"Perhaps..." I answer, "but what do you mean by that?";;;;;;;;;;;;;x
+VIETmisc.8452.title;Scarborough Fair;;;;;;;;;;;x
+VIETmisc.8452.desc;"Scarborough is an actual place, but the song, Scarborough Fair, is a most profound ballad about human existence," he says. When I ask him to explain, he sings the song to me:\n\n"Are you going to Scarborough Fair?\nParsley, sage, rosemary, and thyme.\nRemember me to one who lives there\nShe once was a true love of mine."\n\nThe man smiles and hands me a piece of paper. "Though it is an impossible task, we are all traveling to Scarborough Fair, dear friend. keep my copy of the lyrics so you can study the wisdom in its words.";;;;;;;;;;;x
+VIETmisc.8452.a;He smiles at me kindly as I accept his gift.;;;;;;;;;;;;;x
+VIET_swansong_scarborough_fair;"At the end of the road, of the journey we all must take, no matter how impossible, is Scarborough Fair....";;;;;;;;;;;x
 VIETmisc.8453.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8453.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8454.desc;xxxxx;;;;;;;;;;;x
