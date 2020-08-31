@@ -42863,3 +42863,21 @@ narrative_event = {
 	}
 }
 
+
+######################################################################################################################
+# 
+# Farewell/Swansong Letter
+# 
+# For anyone reading this, first of all, I wish to say thank you for all your support -
+# whether you recently discovered my mods, or have been with me from the very beginning
+# when I created my first CK2 mod in August of 2012, back when I was still in college.
+# It's been a long journey of on and off modding of CK2, and modding this game was one
+# part of some of the most interesting and life-changing periods of my life, both good
+# and bad. As someone who enjoys creative writing, modding CK2 was one of my many outlets
+# to express myself as a writer during this time. While I'll miss CK2 modding, I intend to
+# continue modding in CK3 - who knows what life will be like years from now, if I still mod CK3?
+# With that, once more, thanks for all the support over the years, and wish all the best.
+# 
+# - Cybrxkhan
+# 
+######################################################################################################################
