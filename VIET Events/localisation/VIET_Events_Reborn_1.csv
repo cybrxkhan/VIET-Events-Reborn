@@ -1566,44 +1566,69 @@ VIETmisc.8432.b;What silly superstition.;Quelle stupide superstition.;;;;;;;;;;;
 VIETmisc.8433.desc;You put too much pepper on your food.;Vous mettez trop de poivre sur votre nourriture.;;;;;;;;;;x;x
 VIETmisc.8433.a;I'll bear with it.;Je le supporterai.;;;;;;;;;;;;x
 VIETmisc.8433.b;Don't eat it.;Ne le mangez pas.;;;;;;;;;;;;x
-VIETmisc.8434.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8434.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8435.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8435.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8436.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8436.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8437.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8437.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8438.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8438.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8439.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8439.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8440.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8440.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8441.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8441.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8442.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8442.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8443.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8443.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8444.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8444.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8445.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8445.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8446.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8446.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8447.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8447.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8448.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8448.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8449.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8449.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8450.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8450.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8451.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8451.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.8452.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.8452.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.8434.desc;I sit at the windowsill, staring outside. What do I see far away that I observe with great scrutiny?;;;;;;;;;;;x
+VIETmisc.8434.a;Nature's somber awe - plants, the skies, the sun before me.;;;;;;;;;;;;;x
+VIETmisc.8434.b;A group of peasant children playing games outside.;;;;;;;;;;;;;x
+VIETmisc.8434.c;Some of my guardsmen marching around on patrol.;;;;;;;;;;;;;x
+VIETmisc.8434.d;An attractive young [Root.GetManWomanOpp] passing through.;;;;;;;;;;;;;x
+VIETmisc.8434.e;An attractive young [Root.GetManWoman] passing through.;;;;;;;;;;;;;x
+VIETmisc.8435.desc;In my dream, I live in a large mansion of unrivaled beauty, so vast it could not have been built by mundane means. It is a gorgeous residence where I have all the comforts of home - food, drink, and entertainment at my beck and call, and all manner of exotic mechanical and magical contraptions. And yet I am trapped. Every time I try to escape, I end up coming back, somehow!;;;;;;;;;;;x
+VIETmisc.8435.a;This is no way to live! I must be free!;;;;;;;;;;;;;x
+VIETmisc.8435.b;Since it is here before me, I guess I can enjoy it.;;;;;;;;;;;;;x
+VIETmisc.8435.c;Only fools take for granted the gifts they're given.;;;;;;;;;;;;;x
+VIETmisc.8436.desc;You pass by a small ancient ruin while traveling through a village. The peasant acting as your guide tells you of a local folk legend, that centuries ago when a plague struck the area, one of the locals holed himself up in the ruin - as it was his house back then - and died there by himself when he ran out of food and drink. His lonely spirit, supposedly, still haunts the area to this day.;;;;;;;;;;;x
+VIETmisc.8436.a;An interesting tale, I suppose!;;;;;;;;;;;;;x
+VIETmisc.8437.desc;One of my courtiers has been spending time at home an awful lot as of late. When I went to investigate, I learned that they recently picked up board games as a hobby.;;;;;;;;;;;x
+VIETmisc.8437.a;Perhaps I can play a game or two with them.;;;;;;;;;;;;;x
+VIETmisc.8437.b;It's a childish waste of their time.;;;;;;;;;;;;;x
+VIETmisc.8437.c;I can teach you some strategies for your favorite game.;;;;;;;;;;;;;x
+VIETmisc.8438.desc;I am pacing back and forth inside my residence, thinking about this or that, and then I accidentally bump into some of the furniture.;;;;;;;;;;;x
+VIETmisc.8438.a;Whoops! Silly me!;;;;;;;;;;;;;x
+VIETmisc.8439.desc;Some of my young maidservants screamed in terror when a mouse scurried past us one morning. The mouse was nowhere to be found after a quick search, but some of the girls are still scared and worry there may be more mice at my home.;;;;;;;;;;;x
+VIETmisc.8439.a;Poor children. Worry not, the mouse is gone!;;;;;;;;;;;;;x
+VIETmisc.8439.b;Come on now. Grow up already, be a little brave!;;;;;;;;;;;;;x
+VIETmisc.8439.c;The mice are our brothers and sisters, we should respect them.;;;;;;;;;;;;;x
+VIETmisc.8439.d;A worrisome sight! We must remain vigilant.;;;;;;;;;;;;;x
+VIETmisc.8440.desc;I was bored at home with nothing to do one day, so I decided to take a walk around when I overheard some muffled sounds coming from a room. I snuck over and opened the door slightly, and peeked inside. One of my maids and one of my manservants were making love and in the throes of passion, oblivious to the world around them! Though young, they should know better.;;;;;;;;;;;x
+VIETmisc.8440.a;Barge in and order them to stop doing this in public.;;;;;;;;;;;;;x
+VIETmisc.8440.b;Secretly watch them eagerly but don't tell them.;;;;;;;;;;;;;x
+VIETmisc.8440.c;Forget it - it is none of my business.;;;;;;;;;;;;;x
+VIETmisc.8440.d;Tell them later they have your blessing.;;;;;;;;;;;;;x
+VIETmisc.8441.desc;A loud noise is heard outside and on instinct I rush to the window, curious. I look out and see nothing out of the ordinary.;;;;;;;;;;;x
+VIETmisc.8441.a;Odd. Is my imagination playing tricks on me?;;;;;;;;;;;;;x
+VIETmisc.8442.desc;I've been staying up a lot lately out of boredom.;;;;;;;;;;;x
+VIETmisc.8442.a;It's not a healthy thing, but I can't resist.;;;;;;;;;;;;;x
+VIETmisc.8442.b;I'll try to make the most of my bad habit.;;;;;;;;;;;;;x
+VIETmisc.8443.desc;I visited a friend of mine recently. As we took a walk outside and made small talk, they wanted to offer me a present. It turned out to be an oddly shaped metal stick, so I was offended at first. "This is a very good lockpick," I was told. "Once you get the hang of it, you can open any lock. I don't need it, but I think even a great [Root.GetTitle] like you could find use for it.";;;;;;;;;;;x
+VIETmisc.8443.a;Ah! An intriguing gift... but one that could come in handy.;;;;;;;;;;;;;x
+VIETmisc.8443.b;I am a [Root.GetTitle] - I leave dirty work to my spies and assassins!;;;;;;;;;;;;;x
+VIETmisc.8444.desc;I am at a local banquet when the host presents me with a ceramic tankard as a gift. While simple in design, it was clearly created by an expert craftsman, so though I may not necessarily use it in more formal occasions like a great feast, I could keep it for everyday use.;;;;;;;;;;;x
+VIETmisc.8444.a;Thank you for the thoughtful gift.;;;;;;;;;;;;;x
+VIETmisc.8444.b;It is too plain for a [Root.GetTitle] like me.;;;;;;;;;;;;;x
+VIETmisc.8445.desc;A gang of female thieves had been recently preying on male travelers in the nearby area with a unique method. They would first seduce them and offer them erotic delights. Afterwards, they would entice their victim to strip naked. When their victim's guard was down, they would steal the man's belongings before running off, leaving the victim naked and humiliated. Your guards had difficulty catching the culprits until a cunning adventurer helped them ambush the thieves.;;;;;;;;;;;x
+VIETmisc.8445.a;Very good. I don't have money for a reward, though.;;;;;;;;;;;;;x
+VIETmisc.8445.b;Quite impressive. This gift of gold shall do.;;;;;;;;;;;;;x
+VIETmisc.8445.c;Pay them and request they give our guards some tips for the future.;;;;;;;;;;;;;x
+VIETmisc.8445.d;What a talented person - I need them with me at my court.;;;;;;;;;;;;;x
+VIET_siren_anvil_adventurer_hire;The adventurer will join your court, providing you valuable services with their knowledge and skills.;;;;;;;;;;;;;x
+VIETmisc.8446.desc;In my dream last night, I lived in a beautiful cottage. Though simple, it had all manner of convenience, and I had all the food, drink, and entertainment I needed to live a happy life. When I woke up, I found myself missing the place.;;;;;;;;;;;x
+VIETmisc.8446.a;It was a nice dream, all said.;;;;;;;;;;;;;x
+VIETmisc.8447.desc;As you walk through your residence one evening, by chance you look outside - and there, before you, is a most spectacular sight. The sun is setting, and it looks gorgeous. You gaze, speechless, as you admire the union of yellow, orange, red, and pink colors that shine through the few clouds in the sky.;;;;;;;;;;;x
+VIETmisc.8447.a;Amazing.;;;;;;;;;;;;;x
+VIETmisc.8448.desc;You recently heard tales of a land where the sun is always shining, the flowers are always blooming, fruits are always hanging from the trees, and the waters are calm and of a beautiful light blue color. It is said that if one travels far across the sea, one will eventually reach this hidden paradise, and that the natives will welcome one like kin.;;;;;;;;;;;x
+VIETmisc.8448.a;Ha! If I kept sailing across the ocean I doubt I'd find such a land.;;;;;;;;;;;;;x
+VIETmisc.8448.b;One day someone will travel the seas to conquer this land, I'm sure.;;;;;;;;;;;;;x
+VIETmisc.8448.c;The question is whether the natives follow the [Root.Religion.GetName] faith.;;;;;;;;;;;;;x
+VIETmisc.8449.desc;We were traveling in the wilderness when we came across an old ruin. The locals say it was built by long-lost inhabitants of this land, and was perhaps once used as a fortress, or a tomb, or a shrine. We shall never know, for all that remains are a few stones and one lone column. At any rate, my entourage and I rested there for a while, before we made our way.;;;;;;;;;;;x
+VIETmisc.8449.a;Will our monuments be like those ruins, too, one day?;;;;;;;;;;;;;x
+VIETmisc.8450.desc;The baklava bakers of [Root.GetName] have gained some fame as the best in the region. Some people will travel far and wide to sample the tasty, sugary, syrupy delights that the area has become known for.;;;;;;;;;;;x
+VIETmisc.8450.a;Delicious! That reminds me, I need to buy some baklava.;;;;;;;;;;;;;x
+VIETmisc.8451.desc;An exotic traveler from a faraway land is visiting my court today. Though an older gentleman, there is a handsome quality to him that can only come with the wisdom of old age. He has strange but thoughtful ideas, so I enjoy talking with him. We are discussing many fascinating matters when he asks me, "Have you ever heard of Scarborough Fair?";;;;;;;;;;;x
+VIETmisc.8451.a;"Perhaps..." I answer, "but what do you mean by that?";;;;;;;;;;;;;x
+VIETmisc.8452.title;Scarborough Fair;;;;;;;;;;;x
+VIETmisc.8452.desc;"Scarborough is an actual place, but the song, Scarborough Fair, is a most profound ballad about human existence," he says. When I ask him to explain, he sings the song to me:\n\n"Are you going to Scarborough Fair?\nParsley, sage, rosemary, and thyme.\nRemember me to one who lives there\nShe once was a true love of mine."\n\nThe man smiles and hands me a piece of paper. "Though it is an impossible task, we are all traveling to Scarborough Fair, dear friend. keep my copy of the lyrics so you can study the wisdom in its words.";;;;;;;;;;;x
+VIETmisc.8452.a;He smiles at me kindly as I accept his gift.;;;;;;;;;;;;;x
+VIET_swansong_scarborough_fair;"At the end of the road, of the journey we all must take, no matter how impossible, is Scarborough Fair....";;;;;;;;;;;x
 VIETmisc.8453.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.8453.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.8454.desc;xxxxx;;;;;;;;;;;x
